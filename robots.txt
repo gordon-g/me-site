@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /_generated/
+
+# 主流 AI / 搜索爬虫显式放行（GEO 友好）
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://me.54hrm.com/sitemap.xml
