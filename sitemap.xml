@@ -23,6 +23,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://me.54hrm.com/briefing/archive/"/>
   </url>
   <url>
+    <loc>https://me.54hrm.com/briefing/2026-09-17/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://me.54hrm.com/briefing/2026-09-17/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.54hrm.com/briefing/2026-09-17/"/>
+  </url>
+  <url>
     <loc>https://me.54hrm.com/briefing/2026-09-16/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
