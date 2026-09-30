@@ -1,0 +1,246 @@
+{
+ "date": "2026-09-28",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年9月22日 — 9月28日（最近 7 天）",
+ "range_en": "Sep 22 – Sep 28, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item linked to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Nature子刊多组学研究：心衰患者肠道菌群失衡，护心代谢物吲哚-3-丙酸大幅降低",
+     "title_en": "Nature portfolio multi-omics study: gut dysbiosis in heart failure with sharply reduced cardioprotective indole-3-propionic acid",
+     "url": "https://news.qq.com/rain/a/20260927A05WNS00",
+     "source_zh": "热心肠日报",
+     "source_en": "Gut Journal Daily (China-Gut)",
+     "date": "2026-09-27",
+     "summary_zh": "研究对59名慢性收缩性心衰患者与50名健康人做深度多组学分析，发现心衰患者菌群多样性显著降低，产短链脂肪酸的双歧杆菌等有益菌耗竭，碳水化合物发酵通路全面下调，转向促炎的氧化型代谢；色氨酸代谢物吲哚-3-丙酸在患者血中大幅下降且与病情严重度相关。体外实验证实多株双歧杆菌可合成该护心物质，仅凭菌群代谢通路特征区分心衰与健康的曲线下面积达0.94。",
+     "summary_en": "Deep multi-omics analysis of 59 chronic heart-failure patients and 50 healthy controls found markedly reduced microbial diversity, depletion of SCFA-producing bifidobacteria, a shift toward pro-inflammatory oxidative metabolism, and sharply lower blood levels of the cardioprotective tryptophan metabolite indole-3-propionic acid, correlating with disease severity. In vitro work confirmed several Bifidobacterium strains can synthesize it, and microbial functional features alone distinguished patients from controls with an AUC of 0.94."
+    },
+    {
+     "title_zh": "JAMA子刊：补充多菌株益生菌与极早产儿死亡及肠炎风险降低相关",
+     "title_en": "JAMA subsidiary journal: multi-strain probiotic supplementation linked to lower death and enterocolitis risk in very preterm infants",
+     "url": "https://news.qq.com/rain/a/20260927A05Z8I00",
+     "source_zh": "热心肠日报",
+     "source_en": "Gut Journal Daily (China-Gut)",
+     "date": "2026-09-27",
+     "summary_zh": "发表于JAMA子刊的真实世界证据显示，对极早产儿规范补充经严谨筛选的多菌株益生菌配方，与死亡及坏死性小肠结肠炎等严重肠道疾病风险降低相关，为生命极早期阶段的精准微生态干预提供了重要衡量标尺。研究者强调并非所有益生菌都等同有效，菌株选择、剂量与质控是关键前提，这一结果或推动 NICU 常规化微生态管理流程的建立与更新。",
+     "summary_en": "Real-world evidence published in a JAMA subsidiary journal indicates that rigorously selected multi-strain probiotic supplementation in very preterm infants is associated with lower risks of death and necrotizing enterocolitis, offering a benchmark for precision microbiome interventions at the earliest stage of life. The authors caution that not all probiotics are equivalent — strain selection, dosing and quality control are prerequisites — findings that may update routine microbiome-management protocols in NICUs."
+    },
+    {
+     "title_zh": "类器官技术迈入衰老研究核心赛道：人脑类器官培养超5年，微流控芯片数天模拟数十年老化",
+     "title_en": "Organoids enter the core of aging research: human brain organoids cultured beyond 5 years, microfluidic chips simulating decades of aging in days",
+     "url": "https://www.toutiao.com/article/7690002724951245347/",
+     "source_zh": "科技日报",
+     "source_en": "Science and Technology Daily",
+     "date": "2026-09-27",
+     "summary_zh": "科技日报梳理称，针对“小鼠有效、人体失效”的转化难题，全球科研界正双线并行推进类器官衰老模型：哈佛大学与博德研究所今年8月在《自然》报道首次将人脑皮层类器官稳定培养超过5年，复刻从胎儿晚期到衰老脑的特征，并发现神经祖细胞的“细胞时间记忆”机制；另一条路线用微流控芯片在数天内加速模拟人体数十年的老化进程，为抗衰与神经退行性疾病药物提供更可靠的药效预判载体。",
+     "summary_en": "To address the persistent mouse-to-human translation gap, researchers are advancing organoid aging models along two tracks: a Harvard–Broad team reported in Nature in August the first human cortical organoids stably cultured for over five years, recapitulating fetal-to-aged brain features and revealing a cellular temporal memory in neural progenitors; a parallel microfluidic approach compresses decades of human aging into days, giving drug developers a more reliable platform for predicting efficacy against aging and neurodegenerative disease."
+    },
+    {
+     "title_zh": "《环境科学与技术》：高脂饮食加速微塑料肠道沉积，膳食纤维促进排出并修复屏障",
+     "title_en": "Environmental Science & Technology: high-fat diets accelerate intestinal nanoplastic accumulation while dietary fiber promotes clearance and barrier repair",
+     "url": "https://new.qq.com/rain/a/20260926A08GRE00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-09-26",
+     "summary_zh": "新研究显示，塑料颗粒经口进入后，在高脂饮食背景下因肠道屏障脆弱与蠕动抑制而大量蓄积，诱发菌群失调、短链脂肪酸代谢崩溃、紧密连接破坏与免疫抑制的恶性循环；而高纤维饮食通过物理吸附减少微塑料与肠黏膜接触、促进肠道蠕动加速排出，并维持产短链脂肪酸菌群修复屏障。研究提示在减少塑料暴露的同时，应主动增加全谷物、豆类、蔬果等膳食纤维摄入。",
+     "summary_en": "New research shows that orally ingested plastic particles accumulate heavily under a high-fat diet due to a weakened barrier and slowed motility, triggering dysbiosis, collapsed SCFA metabolism, tight-junction damage and immunosuppression. High-fiber diets counter this by adsorbing particles away from the mucosa, speeding transit and clearance, and sustaining SCFA-producing bacteria that repair the barrier — supporting higher intake of whole grains, legumes, vegetables and fruits alongside reducing plastic exposure."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《自然·衰老》25位科学家联合综述：NAD+有望延缓衰老并对抗阿尔茨海默病与帕金森病",
+     "title_en": "Nature Aging consensus review by 25+ scientists: NAD+ may slow aging and help fight Alzheimer's and Parkinson's",
+     "url": "https://www.familydoctor.cn/news/kexuejia-cheng-nad-ke-yanhuanshuailao-duikang-aercihaimobing-he-pajinsenbing-366495.html",
+     "source_zh": "家医大健康（编译自ScienceDaily）",
+     "source_en": "ScienceDaily",
+     "date": "2026-09-25",
+     "summary_zh": "奥斯陆大学、阿克什胡斯大学医院联合多国团队在《自然·衰老》发表专家综述，汇集超过25位衰老生物学与代谢领域科学家共识：NAD+作为细胞能量与DNA修复核心分子随年龄下降，与记忆减退、肌力下降及年龄相关疾病风险升高有关；NR、NMN等前体在早期临床试验中显示记忆、身体活动与代谢健康的改善信号，但作者强调仍需更大样本、更长周期研究验证有效性与安全性，为全球NAD+临床试验提供科学路线图。",
+     "summary_en": "A Nature Aging expert review from the University of Oslo, Akershus University Hospital and international collaborators distills the consensus of more than 25 scientists: NAD+, central to cellular energy and DNA repair, declines with age and is linked to memory loss, muscle weakness and age-related disease risk. Early trials of precursors such as NR and NMN show encouraging signals for memory, physical activity and metabolic health, but the authors stress that larger, longer studies are needed, offering a roadmap for ongoing and future NAD+ clinical trials."
+    },
+    {
+     "title_zh": "JEM：华中科大团队开发尿石素A衍生物UA-30，抑制RalA延缓小鼠全身衰老并延长寿命",
+     "title_en": "JEM: Huazhong-based team develops urolithin A derivative UA-30 that inhibits RalA to mitigate systemic aging and extend lifespan in mice",
+     "url": "https://www.163.com/dy/article/L7PFV9QP05329KGN.html",
+     "source_zh": "网易·iNature前沿",
+     "source_en": "NetEase (iNature)",
+     "date": "2026-09-26",
+     "summary_zh": "华中科技大学同济医学院团队在《实验医学杂志》报道新型尿石素A衍生物UA-30：从约80个结构类似物中筛选获得，具良好药代动力学与骨骼肌分布，不依赖体内转化为UA。18.5月龄自然衰老小鼠连续10周干预后，爬杆、握力、耐力等运动指标改善，肌肉纤维化减轻，整体衰弱程度下降，表观遗传年龄增速放缓，长期给药显著延长寿命。机制上UA-30直接抑制RalA，阻断促纤维化JNK-Smad通路并增强线粒体功能。",
+     "summary_en": "A team from Huazhong University of Science and Technology reports in the Journal of Experimental Medicine a novel urolithin A derivative, UA-30, selected from roughly 80 analogs with favorable pharmacokinetics and skeletal-muscle distribution that acts without conversion to UA. In naturally aged mice, 10 weeks of treatment improved climbing, grip and endurance, reduced muscle fibrosis and frailty, slowed epigenetic aging and extended lifespan with long-term dosing. Mechanistically, UA-30 directly inhibits RalA, blocking the pro-fibrotic JNK–Smad pathway while boosting mitochondrial function."
+    },
+    {
+     "title_zh": "Aging Cell：肌肉Timeless基因连接运动与老年睡眠及心脏功能，过表达可延寿",
+     "title_en": "Aging Cell: muscle Timeless gene links exercise to sleep and cardiac function in aging flies; overexpression extends lifespan",
+     "url": "https://civl.com/news/story/timeless-gene-in-muscle-ties-exercise-to-better-sleep-and-heart-function-in-agin-eaa5ba00",
+     "source_zh": "CiVL News",
+     "source_en": "CiVL News",
+     "date": "2026-09-26",
+     "summary_zh": "2026年9月《Aging Cell》发表研究：老年果蝇肌肉中特异性敲低Timeless（Tim）基因会加重睡眠片段化、降低攀爬速度与心脏泵血功能；而在老年雄性果蝇肌肉中过表达Tim可改善睡眠、运动能力、心率与抗心衰能力，并延长寿命。四周运动训练可提升肌肉Tim水平，带来类似的睡眠与心脏获益。研究提示肌肉生物钟基因是把“运动有益老年健康”翻译为可干预靶点的潜在枢纽。",
+     "summary_en": "A September 2026 study in Aging Cell shows that muscle-specific knockdown of the Timeless (Tim) gene in aged fruit flies worsens sleep fragmentation, climbing speed and cardiac output, while muscle Tim overexpression in older males improves sleep, climbing, heart rate, stroke volume and resistance to heart failure — and extends lifespan. Four weeks of exercise raised muscle Tim levels and produced similar sleep and cardiac benefits, positioning the muscle clock gene as a potential lever for translating exercise benefits into targets for healthy aging."
+    },
+    {
+     "title_zh": "川大华西等《自然·衰老》研究：男女衰老各有“时间表”，男性35-45岁、女性55-65岁迎转折期",
+     "title_en": "Nature Aging study from West China Hospital: men and women age on different timetables, with transition windows at 35-45 and 55-65",
+     "url": "https://www.163.com/dy/article/L7QMIMBO0552MD9C.html",
+     "source_zh": "网易·梅斯医学",
+     "source_en": "NetEase (Medscape China)",
+     "date": "2026-09-27",
+     "summary_zh": "中国科学院、四川大学华西医院与南昌大学团队在《自然·衰老》构建性别特异性生物学衰老时钟，发现男性约在35-45岁迎来衰老转折，BMI、胆固醇与甘油三酯升高、代谢紊乱明显；女性的转折出现在55-65岁更年期前后，伴随激素与代谢重塑。按“生物学年龄-实际年龄”差值划分，加速衰老人群表现为血脂升高、慢性炎症更明显与肾功能下降，而减速衰老人群抗氧化能力、肌肉骨骼储备与免疫功能更佳，提示性别分层健康管理窗口。",
+     "summary_en": "Researchers from the Chinese Academy of Sciences, West China Hospital and Nanchang University built sex-specific biological aging clocks in Nature Aging, identifying a male transition window around ages 35-45 marked by rising BMI, cholesterol and triglycerides, and a female window at 55-65 around menopause with hormonal and metabolic remodeling. Ranking by the gap between biological and chronological age, accelerated agers showed worse lipids, inflammation and kidney function, while decelerated agers had stronger antioxidant defenses, musculoskeletal reserves and immunity — supporting sex-stratified prevention windows."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《自然》子刊研究：植物蛋白与膳食纤维丰富的饮食改善深度睡眠与快速眼动睡眠",
+     "title_en": "Nature Health study: plant- and fiber-rich diets improve deep sleep and REM sleep",
+     "url": "https://mdheal.org/blog/plant-rich-diets-deeper-sleep",
+     "source_zh": "MDHeal（基于Nature Health研究）",
+     "source_en": "MDHeal (Nature Health study)",
+     "date": "2026-09-27",
+     "summary_zh": "9月27日发表于《自然》系列期刊的研究利用人类表型项目2.8万人队列，结合可穿戴睡眠监测、连续血糖、菌群与遗传数据，分析32项饮食因素后发现：植物食物多样性、膳食纤维密度与植物化学物摄入等7项因素与更深睡眠、更多快速眼动睡眠及更低夜间心率相关；晚餐更饱虽略延长总睡眠时间，却伴随夜间心率升高。专家建议改善睡眠应优先增加最小加工植物食物与纤维摄入。",
+     "summary_en": "A study published September 27 in a Nature portfolio journal leveraged the 28,000-participant Human Phenotype Project with wearable sleep tracking, continuous glucose, microbiome and genetic data to analyze 32 dietary factors. Seven — including plant-food variety, fiber density and phytochemical intake — were associated with more deep sleep, more REM sleep and lower nighttime heart rates; heavier evening meals slightly extended sleep duration but raised nocturnal heart rate. Experts advise prioritizing minimally processed plant foods and fiber for better sleep architecture."
+    },
+    {
+     "title_zh": "从“千人一方”到“一人一菌”：智能微流控技术撬动益生菌个体化精准干预",
+     "title_en": "From one-size-fits-all to one-person-one-strain: smart microfluidics powers individualized probiotic interventions",
+     "url": "https://field.10jqka.com.cn/20260927/c680287478.shtml",
+     "source_zh": "同花顺财经",
+     "source_en": "10jqka Finance",
+     "date": "2026-09-27",
+     "summary_zh": "博士后创业团队吕赵劼等报道“一人一菌”个体化益生菌路径：先通过肠道检测建立个体基线，AI分析健康信息后从菌株库筛选候选菌株，再用微流控芯片与斑马鱼活体平台验证适配性与安全性，最终交付专属复配菌粉并通过复检持续优化。团队指出通用益生菌产品有效率可能仅约30%，其方案已与伊利、诺维信等企业合作，应用从乳制品、功能食品延伸至农业等领域，为精准营养落地提供产业样本。",
+     "summary_en": "A postdoctoral venture is advancing a one-person-one-strain probiotic pipeline: individual baselines are established via gut testing, AI screens candidate strains from a library, microfluidic chips and zebrafish platforms validate fit and safety, and bespoke blended formulations are delivered with follow-up retesting. Noting that generic probiotics may work in only about 30% of users, the team has partnered with firms including Yili and Novozymes, extending from dairy and functional foods to agriculture — a concrete industry template for precision nutrition."
+    },
+    {
+     "title_zh": "《Food Research International》：全杏鲍菇通过菌群-屏障-免疫轴缓解高脂饮食诱导的结肠低度炎症",
+     "title_en": "Food Research International: whole king oyster mushroom eases high-fat-diet colonic inflammation via the microbiota-barrier-immunity axis",
+     "url": "https://www.toutiao.com/article/7689748793343869449",
+     "source_zh": "今日头条·食养轻课堂",
+     "source_en": "Toutiao (Food & Nutrition Notes)",
+     "date": "2026-09-26",
+     "summary_zh": "马萨诸塞大学团队以完整杏鲍菇（保留多糖、膳食纤维、蛋白与多酚全组分）干预高脂饮食小鼠，发现其可同步改善黏液屏障与紧密连接蛋白、调节免疫细胞浸润与炎症因子平衡；16S测序显示Akkermansia、双歧杆菌、丁酸产生菌等有益菌增加，丁酸/丙酸代谢通路增强，SCFAs呈剂量依赖恢复，其中Akkermansia与屏障蛋白正相关、与促炎指标负相关，或为全食物精准营养干预提供新思路。",
+     "summary_en": "University of Massachusetts researchers used whole king oyster mushroom — retaining its polysaccharides, fiber, protein and polyphenols — to intervene in high-fat-diet mice, simultaneously improving mucus barrier and tight-junction proteins and rebalancing immune infiltration and cytokines. 16S sequencing showed enrichment of Akkermansia, Bifidobacterium and butyrate producers with dose-dependent restoration of SCFAs; Akkermansia correlated positively with barrier proteins and negatively with inflammatory markers, suggesting whole-food strategies for precision nutrition."
+    },
+    {
+     "title_zh": "MDPI《IJMS》综述：以菌群为导向的母婴精准营养——本土食物、发酵食品与后生元证据整合",
+     "title_en": "IJMS review: microbiome-guided maternal and child precision nutrition — indigenous foods, fermented foods and postbiotics",
+     "url": "https://www.mdpi.com/1422-0067/27/19/8503",
+     "source_zh": "MDPI·IJMS",
+     "source_en": "MDPI International Journal of Molecular Sciences",
+     "date": "2026-09-23",
+     "summary_zh": "9月23日发表于《国际分子科学杂志》的结构化叙述综述系统梳理菌群导向母婴营养干预证据：本土食物体系、发酵食品、益生菌与后生元可经短链脂肪酸等代谢物影响免疫成熟、屏障完整与代谢编程，涉及AMPK、mTOR、NF-κB等通路；并整合AI、多组学与精准营养提出“菌群知情的营养框架”。作者指出人群特异性菌群谱、标准化制剂与低资源地区证据仍存在明显缺口。",
+     "summary_en": "A structured narrative review published September 23 in the International Journal of Molecular Sciences synthesizes evidence on microbiome-directed maternal and child nutrition: indigenous food systems, fermented foods, probiotics and postbiotics may shape immune maturation, barrier integrity and metabolic programming via SCFAs and pathways including AMPK, mTOR and NF-κB. Proposing a Microbiome-Informed Nutrition Framework that integrates AI, multi-omics and precision nutrition, the authors flag gaps in population-specific profiles, standardized formulations and evidence from low-resource settings."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "ScienceDaily：常用关节补剂氨基葡萄糖与轻度认知障碍更快进展为痴呆相关",
+     "title_en": "ScienceDaily: popular joint supplement glucosamine linked to faster progression from MCI to dementia",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-09-27",
+     "summary_zh": "9月27日报道的大型健康记录分析发现，使用氨基葡萄糖的人群中，轻度认知障碍发展为痴呆的可能性升高约25%；后续实验室实验提示这种广受欢迎的关节补充剂可能以出乎意料的方式影响脑内病理过程。研究者提醒该结果为观察性关联、尚未确立因果，服用者无须自行停药，但认知功能下降人群补充前应与医生沟通并随访监测。",
+     "summary_en": "A large health-records analysis reported September 27 found that glucosamine users with mild cognitive impairment were about 25% more likely to progress to dementia, with follow-up laboratory experiments suggesting the popular joint supplement may influence brain pathology in unexpected ways. The authors stress this is an observational association — causality is not established — and users should not stop medication on their own, though those with cognitive decline should discuss supplementation with their physician and monitor accordingly."
+    },
+    {
+     "title_zh": "AKK菌全网爆火：单瓶近千元的“瘦子菌”“长寿菌”，行业溢价与平价供应链之争",
+     "title_en": "Akkermansia mania: near-thousand-yuan bottles of the “lean and longevity” bug fuel a premium-versus-affordable-supply-chain debate",
+     "url": "https://www.toutiao.com/article/7690082704875880989",
+     "source_zh": "今日头条·健康导报",
+     "source_en": "Toutiao (Health Herald)",
+     "date": "2026-09-27",
+     "summary_zh": "AKK菌（嗜黏蛋白阿克曼菌）近期在保健品市场迅速走热并蔓延至资本市场。比利时鲁汶大学研究显示连续补充12周，40名肥胖者平均减重2.27公斤、胰岛素敏感性提升28%且无明显不良反应，国内三甲医院临床亦得出类似结论。但头部品牌“双减瓶”开价近800元，有品牌以供应链直采把单粒压至6.8元并公示文献与GMP等认证，引发行业对成分溢价与透明定价的讨论。",
+     "summary_en": "Akkermansia muciniphila has rapidly heated up the supplement market and spilled into capital markets. A Leuven study showed 12 weeks of supplementation cut an average 2.27 kg in 40 adults with obesity and raised insulin sensitivity 28% without notable adverse events, with similar findings in Chinese tertiary-hospital trials. Yet leading brands charge nearly 800 yuan per bottle, while newer players using direct supply chains price single capsules at 6.8 yuan with published literature and GMP credentials, sparking debate over ingredient premiums and transparent pricing."
+    },
+    {
+     "title_zh": "补剂行业先驱Terry Lemerond逝世：业界致谢其数十年推动消费者教育与独立零售",
+     "title_en": "Supplement industry pioneer Terry Lemerond dies: tributes pour in for decades of consumer advocacy",
+     "url": "https://www.nutraingredients.com/Article/2026/09/25/remembering-terry-lemerond/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-25",
+     "summary_zh": "美国膳食补充剂行业标志性人物、Terry Naturally与EuroPharma创始人Terry Lemerond逝世，业界纷纷致哀。NutraIngredients刊文回顾其五十余年职业生涯：从早年创立天然食品零售连锁，到持续推动标准化植物提取物、循证配方与消费者教育，并长期为独立健康零售商争取生存空间，被视为连接科研证据与一线门店的关键桥梁，其倡导的“教育先行”营销理念影响深远。",
+     "summary_en": "Terry Lemerond, an iconic figure in the US dietary supplement industry and founder of Terry Naturally and EuroPharma, has died, prompting tributes across the trade. NutraIngredients chronicled his five-decade career — from founding natural-food retail chains to championing standardized botanical extracts, evidence-based formulations and consumer education, while long advocating for independent health retailers — casting him as a bridge between research evidence and the shop floor whose education-first philosophy shaped the industry."
+    },
+    {
+     "title_zh": "《Scientific Reports》人体试验：黑种草籽油补充20天，4种共生菌增加",
+     "title_en": "Scientific Reports human trial: 20 days of black seed oil supplementation increases four commensal gut bacteria",
+     "url": "https://www.163.com/dy/article/L7O1BF3G0556JVOI.html",
+     "source_zh": "网易·肠菌科普",
+     "source_en": "NetEase (Gut Microbiome Science Popularization)",
+     "date": "2026-09-26",
+     "summary_zh": "《自然》旗下《Scientific Reports》9月发表小规模人体研究：8名健康成人中4人连续20天补充黑种草籽油胶囊（每天3次、每次2粒），采集40份粪便样本分析显示，整体菌群多样性与组成保持稳定，但产丁酸菌、参与膳食纤维分解与碳水化合物发酵的4种共生菌显著增加，部分具潜在抗炎特征；长双歧杆菌与青春双歧杆菌略有减少。研究同时为胃肠手术前后的菌群管理提供新线索。",
+     "summary_en": "A small human trial in Nature portfolio journal Scientific Reports had 4 of 8 healthy adults take black seed (Nigella sativa) oil capsules three times daily for 20 days, with 40 stool samples analyzed. Overall diversity and composition stayed stable, but four commensal species increased — including butyrate producers and fiber-fermenters, some with potential anti-inflammatory traits — while B. longum and B. adolescentis slightly declined. The work also hints at microbiome-management strategies around gastrointestinal surgery."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "2026年慢性病防控大会召开：李斌提出“五同四共”，推动多病共防全链条管理",
+     "title_en": "2026 Chronic Disease Prevention and Control Conference: the Five-Same Four-Shared framework for integrated multi-disease management",
+     "url": "https://news.qq.com/rain/a/20260927A0B6D800",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-09-27",
+     "summary_zh": "中华预防医学会与中国疾控中心在南京主办2026年慢性病防控大会。数据显示我国18岁及以上居民高血压患病率27.5%、糖尿病11.9%，超半数成年人超重或肥胖，近九成死亡与慢性病相关。中华预防医学会会长李斌提出“五同四共”框架——以同防、同筛、同诊、同治、同康贯通服务链，以共管、共通、共担、共育夯实支撑体系，推动从单病种管理转向以人为中心的多病协同管理，并设AI慢病管理等六大平行分会场。",
+     "summary_en": "Hosted in Nanjing by the Chinese Preventive Medicine Association and China CDC, the conference reported that 27.5% of Chinese adults have hypertension, 11.9% have diabetes, over half are overweight or obese, and nearly nine in ten deaths are linked to chronic disease. Association president Li Bin proposed the Five-Same Four-Shared framework — same prevention, screening, diagnosis, treatment and rehabilitation to integrate the service chain, with shared management, data, responsibility and training as the support system — shifting from single-disease programs to person-centered multi-disease coordination, alongside six parallel tracks including AI-driven chronic disease management."
+    },
+    {
+     "title_zh": "四部门部署2026年基本公共卫生服务：人均补助99元，慢性病患者将分类分级管理",
+     "title_en": "Four ministries set out 2026 basic public health services: 99 yuan per capita with tiered chronic-disease management",
+     "url": "https://www.163.com/dy/article/L7NSMCG005148S1B.html",
+     "source_zh": "网易·华医网",
+     "source_en": "NetEase (Huayi Wang)",
+     "date": "2026-09-26",
+     "summary_zh": "国家卫健委、财政部、国家中医药局、国家疾控局联合印发《关于做好2026年基本公共卫生服务工作的通知》，明确2026年人均财政补助标准99元，要求基层主动进村庄、社区、楼宇、家庭；将高血压、2型糖尿病、高脂血症、肥胖症膳食运动指导要点嵌入医生工作站，2026年覆盖三分之二以上乡镇卫生院与社区卫生服务中心，并按红黄绿三类对慢性病患者分级管理；2026年基本实现县级电子健康档案向居民开放全覆盖，评价结果与资金分配挂钩。",
+     "summary_en": "China's health, finance, TCM and disease-control authorities jointly issued the 2026 basic public health services notice: per-capita funding stays at 99 yuan, primary-care teams are to deliver proactive services in villages, communities, buildings and homes, embedding diet-exercise guidance for hypertension, diabetes, dyslipidemia and obesity into clinician workstations across two-thirds of primary institutions. Chronic-disease patients will be managed in red/yellow/green tiers, electronic health records open county-wide to residents, and performance evaluation will be tied to fund allocation."
+    },
+    {
+     "title_zh": "央视《健康中国》解码睡眠：睡眠健康不能只看时长，睡眠紊乱与慢性病密切相关",
+     "title_en": "CCTV Healthy China decodes sleep: sleep health is more than duration, and disturbed sleep is closely tied to chronic disease",
+     "url": "https://tv.cctv.com/2026/09/27/VIDEm6mwJL5HSJEJuY71Hcyc260927.shtml",
+     "source_zh": "央视网",
+     "source_en": "CCTV.com",
+     "date": "2026-09-27",
+     "summary_zh": "9月27日央视《健康中国》栏目邀请北京大学第六医院睡眠医学科主任孙伟解读睡眠健康：判断睡眠好坏不能只看时长，鼾声背后可能隐藏睡眠呼吸暂停；睡眠紊乱与高血压、糖尿病等慢性病互为因果，盲目补觉难以抵消熬夜损伤，饮食与入睡时间同样影响睡眠质量。节目同时给出快速入睡的可操作建议，为公众提供基于睡眠医学的权威科普。",
+     "summary_en": "On September 27, CCTV's Healthy China program invited Sun Wei, director of sleep medicine at Peking University Sixth Hospital, to decode sleep health: quality cannot be judged by duration alone, snoring may signal sleep apnea, and disturbed sleep interacts with hypertension and diabetes. Catch-up sleep cannot offset late nights, while diet and bedtime habits shape sleep quality. The episode also shared practical advice on falling asleep faster, offering authoritative sleep-medicine guidance for the public."
+    },
+    {
+     "title_zh": "大庆研究长期随访：糖尿病前期早期减重≥5%，心血管死亡推迟6.5年",
+     "title_en": "Da Qing study long-term follow-up: early ≥5% weight loss in prediabetes delays cardiovascular death by 6.5 years",
+     "url": "https://new.qq.com/rain/a/20260926A08HLO00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-09-26",
+     "summary_zh": "阜外医院李光伟/巩秋红团队8月在线发表于《糖尿病护理》的大庆糖尿病预防研究长期随访分析显示：糖耐量受损患者诊断后最初几年经生活方式干预实现减重≥5%，与随后长达34年随访中心血管死亡风险降低44%、心血管事件降低29%、全因死亡降低33%独立相关，全因死亡与心血管死亡中位发生时间分别推迟2.1年和6.5年，提示早期体重管理应成为糖尿病前期管理的核心干预靶点。",
+     "summary_en": "A long-term follow-up analysis of the Da Qing Diabetes Prevention Study, published online in Diabetes Care in August by Fuwai Hospital's Li Guangwei and Gong Qiuhong teams, shows that prediabetic patients who achieved ≥5% weight loss through lifestyle intervention in the first years had 44% lower cardiovascular death, 29% fewer cardiovascular events and 33% lower all-cause mortality over 34 years of follow-up, delaying median all-cause and cardiovascular death by 2.1 and 6.5 years — making early weight management a core intervention target in prediabetes."
+    }
+   ]
+  }
+ ]
+}

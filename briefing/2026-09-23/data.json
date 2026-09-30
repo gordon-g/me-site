@@ -1,0 +1,246 @@
+{
+ "date": "2026-09-23",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年9月16日 — 9月23日（最近 7 天）",
+ "range_en": "Sep 16 – Sep 23, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item linked to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "加拿大伦敦启动“粪菌胶囊”治疗神经性厌食症临床试验",
+     "title_en": "London researchers test fecal microbiota transplant pills as a treatment for anorexia nervosa",
+     "url": "https://lfpress.com/news/health/london-researchers-test-poop-pills-as-treatment-for-anorexia/",
+     "source_zh": "伦敦自由报社",
+     "source_en": "The London Free Press",
+     "date": "2026-09-21",
+     "summary_zh": "加拿大伦敦健康科学中心研究所、Lawson 研究所与西安大略大学联合启动临床试验，将健康供体的粪菌移植（FMT）胶囊用于 16—35 岁神经性厌食症患者，共 20 人参与。研究将评估菌群干预对免疫状态、认知、情绪、进食渴望与身体意象的影响。研究者指出，厌食症是死亡率最高的精神疾病之一，患者普遍存在肠道菌群紊乱，肠脑轴或成新治疗突破口。",
+     "summary_en": "A new clinical trial launched by London Health Sciences Centre Research Institute, Lawson Research Institute and Western University will test fecal microbiota transplant capsules from healthy donors in 20 patients aged 16-35 with anorexia nervosa. Researchers will assess changes in immunological status, cognition, mood, food cravings and body image. Anorexia has the highest mortality of any psychiatric disorder and patients show disturbed gut microbiomes, making the gut-brain axis a promising therapeutic frontier."
+    },
+    {
+     "title_zh": "《Gastroenterology》：单株普氏栖粪杆菌 EXL01 有望替代粪菌移植预防艰难梭菌复发",
+     "title_en": "Gastroenterology: F. prausnitzii EXL01 strain may replace FMT for preventing recurrent C. difficile infection",
+     "url": "https://doi.org/10.1053/j.gastro.2026.09.002",
+     "source_zh": "Gastroenterology",
+     "source_en": "Gastroenterology",
+     "date": "2026-09-17",
+     "summary_zh": "《Gastroenterology》（IF 29.7）发表二代益生菌研究：单株普氏栖粪杆菌 F. prausnitzii EXL01 用于预防多次复发的艰难梭菌感染。与依赖他人菌群的传统粪菌移植相比，标准化单株活菌疗法可控性与安全性更高、量产更易，被视为“以菌治菌”路线迈向主流临床的重要节点，或重塑复发性艰难梭菌的治疗格局。",
+     "summary_en": "A study published in Gastroenterology (IF 29.7) reports that the next-generation probiotic Fecalibacterium prausnitzii EXL01, delivered as a single defined strain, can prevent multiple-recurrent Clostridioides difficile infection. Compared with conventional fecal microbiota transplantation, a standardized single-strain live biotherapeutic offers better control, safety and scalability — a milestone for the 'treat with microbes' approach in mainstream clinical care."
+    },
+    {
+     "title_zh": "北大汪锴团队 Gut 论文：肠道天然共生菌化身“微型药厂”持续缓释治疗分子",
+     "title_en": "Peking University team in Gut: engineered native gut symbionts act as miniature factories for sustained drug delivery",
+     "url": "https://doi.org/10.1136/gutjnl-2026-339637",
+     "source_zh": "Gut",
+     "source_en": "Gut",
+     "date": "2026-09-18",
+     "summary_zh": "北京大学汪锴团队在《Gut》发表工程益生菌研究：通过定植增强技术改造大肠杆菌 Nissle 1917 等天然共生菌株，使其在肠道内长期定植并持续缓释治疗性分子（如 IL-10），在代谢功能障碍与结肠炎模型中显著改善病情。该“一次干预、长效起效”的活体药物策略，为慢性代谢病与肠炎提供了超越传统给药的新范式。",
+     "summary_en": "A Gut study from Peking University's Wang Kai lab shows that engineered native symbionts such as E. coli Nissle 1917, optimized with colonization-enhancement technology, can durably colonize the intestine and continuously release therapeutic molecules such as IL-10, markedly improving metabolic dysfunction and colitis in models. This 'intervene once, act long' live-biotherapeutic strategy offers a new paradigm beyond conventional dosing."
+    },
+    {
+     "title_zh": "内蒙古农大张和平团队 npj 子刊：益生菌联合饮食干预助肥胖儿童改善 BMI 与尿酸",
+     "title_en": "Zhang Heping team in npj Biofilms and Microbiomes: probiotic plus diet intervention improves BMI and uric acid in obese children",
+     "url": "https://dy.163.com/article/L7DNQ0PK0556JVOI.html",
+     "source_zh": "npj Biofilms and Microbiomes（肠菌科普解读）",
+     "source_en": "npj Biofilms and Microbiomes",
+     "date": "2026-09-22",
+     "summary_zh": "张和平团队在《npj Biofilms and Microbiomes》发表随机双盲安慰剂对照试验：112 名肥胖学龄儿童均接受个性化饮食指导，其中一组额外补充动物双歧杆菌乳亚种 ProSci-246，95 人完成 3 个月随访。结果显示益生菌组第 3 个月 BMI 降幅更大，第 2、3 个月血清尿酸水平显著低于对照组，提示“饮食+菌群”联合干预是肥胖代谢管理的可行路径。",
+     "summary_en": "A randomized, double-blind, placebo-controlled trial by Zhang Heping's team in npj Biofilms and Microbiomes enrolled 112 school-age children with obesity, all receiving personalized dietary guidance, with one arm additionally supplemented with Bifidobacterium animalis subsp. lactis ProSci-246; 95 participants completed 3 months. The probiotic arm showed larger BMI reduction at month 3 and significantly lower serum uric acid at months 2 and 3, supporting combined diet-microbiota intervention for metabolic management."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Nature Aging 事后分析：营养充足的适度热量限制可减缓人类表观遗传衰老",
+     "title_en": "Nature Aging post hoc analysis: adequately nourished moderate caloric restriction slows epigenetic aging in humans",
+     "url": "https://dy.163.com/article/L7CMQ4C00534V0M1.html",
+     "source_zh": "新浪医药（Nature Aging 事后分析）",
+     "source_en": "Nature Aging (CALERIE post hoc analysis)",
+     "date": "2026-09-21",
+     "summary_zh": "CALERIE 试验（220 名 21—50 岁健康非肥胖成人，目标两年内热量摄入较基线减少 25% 且营养充足）事后分析显示：热量限制组 DunedinPACE 等表观遗传衰老指标改善，且效果与体重下降幅度并非完全绑定——“少吃不掉秤”也可能在抗衰层面获益。研究者同时强调必须保证蛋白质与微量营养素充足，避免极端节食带来的免疫损害。",
+     "summary_en": "A post hoc analysis of the CALERIE trial (220 healthy non-obese adults aged 21-50 targeting 25% caloric restriction over two years with adequate nutrition) shows improvement in epigenetic aging markers such as DunedinPACE, with effects not fully tied to weight loss — meaning 'eating less without dropping pounds' may still slow aging. Researchers stress maintaining sufficient protein and micronutrients and avoiding extreme restriction that can impair immunity."
+    },
+    {
+     "title_zh": "补剂抗衰科学盘点：行业叙事从“活得久”转向机制导向循证",
+     "title_en": "Catching up with healthspan and lifespan supplements: the latest science",
+     "url": "https://www.nutraingredients.com/Article/2026/09/17/catching-up-with-healthspan-and-lifespan-supplement-science/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-17",
+     "summary_zh": "NutraIngredients 发表健康寿命与寿命补剂科学综述：随着对衰老生物机制研究的加速，行业正以更精细的机制证据取代“延长寿命”式的模糊宣称。文章梳理 NAD+ 前体、衰老细胞清除、表观遗传时钟等热点方向的人体证据现状，指出以机制研究支撑健康寿命宣称将成为补剂企业合规与差异化竞争的关键。",
+     "summary_en": "NutraIngredients reviews the latest science on healthspan and lifespan supplements: research on supplementation and aging is advancing quickly, helping to replace vague 'live longer' claims with nuanced statements grounded in biological mechanisms and human evidence. The roundup covers NAD+ precursors, senolytics and epigenetic clocks, noting that mechanism-based substantiation will be key to compliance and differentiation."
+    },
+    {
+     "title_zh": "“浦江科学之问”将衰老的时空异质性列入十大基础科学问题",
+     "title_en": "Pujiang Science Questions lists the spatiotemporal heterogeneity of aging among ten fundamental science questions",
+     "url": "https://www.toutiao.com/article/7688314550537470515/",
+     "source_zh": "上观新闻（浦江创新论坛）",
+     "source_en": "Shanghai Observer (Pujiang Innovation Forum)",
+     "date": "2026-09-22",
+     "summary_zh": "2026 浦江创新论坛发布首届“浦江科学之问”十大基础科学问题，其中第十问“衰老的时空异质性及其系统性调节机制”直指核心：为何同龄人脏器老化节奏不同、同一机体肝脏与大脑老化速度各异。中国科学院袁钧瑛指出，需以多组学、人工智能计算与多模型验证拆解机制、寻找干预靶点，呼应国家层面支持抗衰老产业的政策布局。",
+     "summary_en": "The first 'Pujiang Science Questions' released at the 2026 Pujiang Innovation Forum lists the spatiotemporal heterogeneity of aging and its systemic regulation among ten fundamental science questions: why organs age at different paces across individuals and within the same body. CAS researcher Yuan Junying emphasizes combining multi-omics, AI computation and multi-model validation to identify mechanisms and intervention targets, aligning with national support for the anti-aging industry."
+    },
+    {
+     "title_zh": "BMJ Medicine：33 万人研究显示停用 GLP-1 后心血管保护迅速消退",
+     "title_en": "BMJ Medicine: stopping GLP-1 drugs rapidly erases cardiovascular protection in 333,000-veteran study",
+     "url": "https://www.glp1authority.com/glp1-news/",
+     "source_zh": "GLP-1 Authority（综合 ScienceDaily 报道）",
+     "source_en": "GLP-1 Authority (ScienceDaily summary)",
+     "date": "2026-09-22",
+     "summary_zh": "华盛顿大学圣路易斯团队分析 333,687 名 2 型糖尿病退伍军人数据（BMJ Medicine）：停用 GLP-1 药物两年后，心梗、卒中与死亡风险比持续用药者高 22%，重新启动治疗仅能恢复部分保护，作者形容为留下“持久疤痕”。约半数用户因费用、副作用或供应问题在数月内停药，研究者强调“持续治疗本身”应被视为一项临床结局。",
+     "summary_en": "A Washington University in St. Louis study of 333,687 veterans with type 2 diabetes, published in BMJ Medicine, found cardiovascular benefit fades fast after stopping GLP-1 therapy: two years off the drugs was associated with 22% higher risk of heart attack, stroke and death versus staying on treatment, and restarting restored only part of the lost protection. With about half of users quitting within months, the authors argue staying on therapy is a clinical outcome in itself."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "浙大 Cell Host & Microbe：果胶重塑肠道菌表面结构，借 IgA 免疫抵御结肠炎",
+     "title_en": "Zhejiang University in Cell Host and Microbe: dietary pectin remodels bacterial surfaces to promote IgA-mediated protection from colitis",
+     "url": "https://doi.org/10.1016/j.chom.2026.08.017",
+     "source_zh": "Cell Host and Microbe",
+     "source_en": "Cell Host and Microbe",
+     "date": "2026-09-17",
+     "summary_zh": "浙江大学汪海峰/唐文杰团队在《Cell Host and Microbe》（IF 23.2）发表研究：膳食纤维果胶可重塑共生细菌表面结构，促进肠道 IgA 介导的免疫保护、抵御结肠炎。研究从“饮食成分—菌群修饰—免疫调控”链条为食源性精准干预提供机制依据，也再次印证全谷物与蔬果纤维在肠黏膜免疫中的核心地位。",
+     "summary_en": "A Cell Host and Microbe study from Zhejiang University (Wang Haifeng and Tang Wenjie labs) shows that dietary pectin remodels the surfaces of commensal bacteria to promote IgA-mediated protection from intestinal inflammation. By linking dietary components, microbial modification and immune regulation, the work provides a mechanistic basis for food-based precision interventions and reinforces the central role of fibers in mucosal immunity."
+    },
+    {
+     "title_zh": "行业观察：Ω-3 的痛点不是“证据不足”，而是“体感不佳”",
+     "title_en": "Omega-3 doesn't have a proof problem. It has an experience problem.",
+     "url": "https://www.nutraingredients.com/Article/2026/09/21/omega-3-doesnt-have-a-proof-problem-it-has-an-experience-problem/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-21",
+     "summary_zh": "NutraIngredients 刊发 CPG Radar CEO Afif Ghannoum 的评论文章：Ω-3 补剂的科学证据已经相当充分，真正制约复购的是消费者缺乏可感知的“服用体验”。作者建议行业借鉴可穿戴设备的即时反馈思路，通过更直观的体感沟通与效果呈现重建消费信任，而非继续单纯堆砌临床数据。",
+     "summary_en": "In a NutraIngredients commentary, CPG Radar CEO Afif Ghannoum argues that omega-3 supplements have robust scientific evidence, and what actually limits repeat purchase is the lack of a perceivable consumer experience. He recommends the industry borrow the instant-feedback playbook of wearables and rebuild trust through tangible, experiential communication rather than piling up more clinical data."
+    },
+    {
+     "title_zh": "牛肝菌源益生元或可帮助抗生素治疗后肠道菌群恢复",
+     "title_en": "Mushroom-based porcini prebiotic may help restore gut bacteria after antibiotics",
+     "url": "https://www.nutraingredients.com/Article/2026/09/22/porcini-prebiotic-could-boost-post-antibiotic-gut-health/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-22",
+     "summary_zh": "NutraIngredients 报道一项牛肝菌（porcini）源益生元新研究：其多糖成分在体外与早期模型中显示可促进有益菌增殖，有望用于抗生素治疗后肠道菌群紊乱的修复。研究为蘑菇源膳食纤维开辟差异化赛道，研究团队计划推进人体验证试验，为“抗生素后菌群重建”这一未满足需求提供食源方案。",
+     "summary_en": "NutraIngredients reports on a new porcini mushroom prebiotic study: its polysaccharides promoted beneficial bacterial growth in early models, suggesting potential to restore gut microbiota disrupted by antibiotic treatment. The mushroom-derived fiber opens a differentiated ingredient track, with human validation trials planned for the unmet need of post-antibiotic microbiome recovery."
+    },
+    {
+     "title_zh": "Gut Microbes：嗜酸乳杆菌改善 MASLD 与糖尿病中的肝脏及菌群失调",
+     "title_en": "Gut Microbes: Lactobacillus acidophilus improves hepatic and microbial dysregulation in MASLD and diabetes",
+     "url": "https://doi.org/10.1080/19490976.2026.2734705",
+     "source_zh": "Gut Microbes",
+     "source_en": "Gut Microbes",
+     "date": "2026-09-19",
+     "summary_zh": "韩国团队在《Gut Microbes》（IF 15.3）发表嗜酸乳杆菌（Lactobacillus acidophilus）对代谢功能障碍相关脂肪性肝病（MASLD）与糖尿病中肝脏及微生物群失调影响的研究：菌株干预同步改善肝脏代谢异常与菌群结构失衡，为“益生菌—肠肝轴”干预代谢性疾病提供了新的菌株级循证依据。",
+     "summary_en": "A Korean team publishing in Gut Microbes (IF 15.3) examined Lactobacillus acidophilus effects on hepatic and microbial dysregulation in MASLD and diabetes. The strain simultaneously improved liver metabolic abnormalities and microbiota imbalance, adding strain-level evidence for probiotic gut-liver axis interventions in metabolic disease."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "EFSA 首次就 CBD 新型食品给出正面安全意见，行业迎来“转折点”",
+     "title_en": "'Turning point' for CBD as EFSA publishes first positive safety opinion",
+     "url": "https://www.nutraingredients.com/Article/2026/09/21/important-turning-point-for-cbd-as-efsa-publishes-first-positive-safety-opinion/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-21",
+     "summary_zh": "欧洲食品安全局（EFSA）发布首个针对 CBD 新型食品申请的正面安全意见，被业内视为 CBD 食品化的“重大转折点”。此前欧盟 CBD 申请因安全性数据不足长期停滞，此次放行或为后续大量排队申请扫清关键障碍，为欧洲 CBD 补剂与功能食品市场重启增长打开监管通道。",
+     "summary_en": "The European Food Safety Authority has published its first positive safety opinion on a CBD novel food application, which industry calls a 'major turning point'. EU CBD dossiers had long been stalled over insufficient safety data; the green light could clear the path for numerous queued applications and reopen regulatory channels for Europe's CBD supplement and functional food market."
+    },
+    {
+     "title_zh": "安利与 FTC 达成 2.25 亿美元和解，直营补剂模式面临合规审视",
+     "title_en": "Amway agrees $225 million settlement with FTC over alleged deceptive business practices",
+     "url": "https://www.nutraingredients.com/Article/2026/09/22/amway-agrees-225-million-settlement-with-ftc/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-22",
+     "summary_zh": "美国联邦贸易委员会（FTC）宣布与安利（Amway）就涉嫌误导性商业行为达成 2.25 亿美元和解。业内指出，此案将健康宣称的证据标准与经销商话术监管再次推上风口，对全球采用直营/直销模式的营养补剂企业而言是一记合规警钟，宣称管理与渠道培训将成为风控重点。",
+     "summary_en": "The US Federal Trade Commission announced a $225 million settlement with Amway over alleged deceptive business practices. Observers say the case puts health-claim substantiation and distributor speech back under scrutiny, serving as a compliance wake-up call for direct-selling nutrition supplement companies worldwide, where claim governance and channel training become risk priorities."
+    },
+    {
+     "title_zh": "澳洲超市集体下架磷虾油：环保争议还是销售疲软？",
+     "title_en": "Krill oil removed from Aussie supermarkets: environmental concern or sales performance?",
+     "url": "https://www.nutraingredients.com/Article/2026/09/22/krill-oil-removal-in-aussie-supermarkets-a-matter-of-environmental-concerns-or-sales-performance/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-22",
+     "summary_zh": "NutraIngredients 报道澳洲主要超市陆续将磷虾油产品下架：表面原因指向南极磷虾捕捞对企鹅、鲸类食物链的环境压力，但业内认为品类定位不清与销量下滑同样关键。此事件预示海洋来源补剂将同时面临环保合规与消费教育双重考验，可持续认证或成出海必备门槛。",
+     "summary_en": "Australian supermarkets are removing krill oil products from shelves. The stated driver is concern over Antarctic krill fishing pressures on penguin and whale food chains, but insiders note unclear positioning and declining sales also matter. The episode signals that marine-derived supplements face both environmental compliance and consumer education tests, with sustainability certification becoming a market-entry requirement."
+    },
+    {
+     "title_zh": "Kerry 推出 Bio-K+ 益生菌产品线，押注英国肠道健康市场",
+     "title_en": "Kerry bets on growing UK gut health market with Bio-K+ launch",
+     "url": "https://www.nutraingredients.com/Article/2026/09/22/kerry-bets-on-growing-uk-gut-health-market-with-bio-k-launch/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-22",
+     "summary_zh": "食品配料巨头 Kerry 宣布在英国市场推出 Bio-K+ 活性益生菌产品线，瞄准持续扩张的肠道健康品类。随着消费者对肠脑轴、免疫与代谢健康的关注升温，欧洲肠道健康补剂正从专业渠道走向主流零售，头部厂商加速以自有品牌与并购落子抢占份额。",
+     "summary_en": "Food ingredients giant Kerry has launched its Bio-K+ live probiotic line in the UK, targeting the fast-growing gut health category. As consumer interest in the gut-brain axis, immunity and metabolic health rises, European gut health supplements are moving from specialist channels into mainstream retail, with major players accelerating moves via own brands and acquisitions."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "苹果被曝研发无屏健康手环，对标 Whoop 与佳明",
+     "title_en": "Apple reportedly developing screen-less health and fitness band to rival Whoop and Garmin",
+     "url": "https://www.163.com/dy/article/L7FSR4CS05198CJN.html",
+     "source_zh": "财联社",
+     "source_en": "Cailianshe (CLS)",
+     "date": "2026-09-23",
+     "summary_zh": "财联社援引古尔曼消息：苹果正研发一款无屏幕健康与健身追踪腕带，采用纤薄织物腕带搭配内置传感器计算模块，主打心率等持续监测，借鉴 Whoop、Oura 的专注健康追踪体验，若最终推出预计不早于 2028 年。此前 Whoop 以 101 亿美元估值完成 5.75 亿美元 G 轮融资，“无屏+持续监测”正成为巨头争夺的腕上健康新赛道。",
+     "summary_en": "Citing Mark Gurman, Cailianshe reports Apple is developing a screen-less health and fitness tracker: a thin fabric band with a sensor-laden compute module focused on continuous metrics such as heart rate, drawing on the focused tracking experience of Whoop and Oura, and likely launching no earlier than 2028. Whoop recently raised $575 million at a $10.1 billion valuation, underscoring the screen-less continuous-monitoring race among tech giants."
+    },
+    {
+     "title_zh": "Oura 启动 IPO：前 9 个月营收 12.1 亿美元、同比增长 74%",
+     "title_en": "Oura kicks off US IPO process: $1.21 billion revenue for first nine months, up 74%",
+     "url": "https://www.analyticsinsight.net/amp/story/gadgets/ai-powered-wearables-in-2026-advancing-personalized-preventive-healthcare/",
+     "source_zh": "Analytics Insight（综合路透社）",
+     "source_en": "Analytics Insight (Reuters summary)",
+     "date": "2026-09-21",
+     "summary_zh": "智能戒指公司 Oura 于 9 月 21 日启动美国 IPO 流程，目标完全稀释估值约 156.2 亿美元，拟以“OURA”登陆纳斯达克；据路透社报道，截至 6 月 30 日的前 9 个月营收 12.1 亿美元、同比增长 74%。其健康雷达、GLP-1 相关健康功能与 Medicare 慢病合作显示，智能戒指正从睡眠监测走向代谢与慢病管理平台。",
+     "summary_en": "Smart ring maker Oura began its US IPO process on September 21 with a target fully diluted valuation of about $15.62 billion, planning to list on Nasdaq as 'OURA'. Reuters cited revenue of $1.21 billion for the nine months ended June 30, up 74% year over year. Health Radar, GLP-1-linked features and Medicare chronic-care collaborations show the category evolving from sleep tracking into a metabolic and chronic disease management platform."
+    },
+    {
+     "title_zh": "CIPRA.ai 与村田制作所合作开发 AI 慢病管理可穿戴设备",
+     "title_en": "CIPRA.ai partners with Murata on AI-powered wearables for chronic disease management",
+     "url": "https://www.iyiou.com/briefing/202609211937345",
+     "source_zh": "亿欧（动脉网快讯）",
+     "source_en": "Yiou / Arterynet Brief",
+     "date": "2026-09-21",
+     "summary_zh": "数字孪生与 AI 慢病管理公司 CIPRA.ai 宣布与传感器巨头村田制作所合作，共同开发下一代 AI 可穿戴设备：将先进传感技术与 CIPRA.ai 数字孪生平台结合，为慢性病患者提供持续监测与前瞻性个性化洞察，帮助医疗与保险体系减少可避免住院，推动医疗从被动治疗转向预测性、预防性护理。",
+     "summary_en": "CIPRA.ai, a digital-twin and AI chronic disease management company, announced a partnership with sensor giant Murata to develop next-generation AI-enabled wearables. By integrating advanced sensing with CIPRA.ai's digital twin platform, the collaboration aims to deliver continuous monitoring and proactive personalized insights, helping health systems and insurers reduce avoidable hospitalizations and shift care toward prediction and prevention."
+    },
+    {
+     "title_zh": "Counterpoint 预测：全球可穿戴设备 2026—2032 累计营收超 1 万亿美元",
+     "title_en": "Counterpoint: global wearables to exceed $1 trillion cumulative revenue in 2026-2032",
+     "url": "https://www.toutiao.com/article/7687820194747531828/",
+     "source_zh": "中国战略新兴产业（Counterpoint 报告）",
+     "source_en": "China Strategic Emerging Industry / Counterpoint Research",
+     "date": "2026-09-21",
+     "summary_zh": "Counterpoint 报告预计 2026—2032 年全球消费级可穿戴累计营收超 1 万亿美元、年复合增长 12%，智能戒指、吊坠与眼镜增速最快。今秋新品密集落地：OPPO 新表“FatMax 超燃脂”动态计算燃脂区间、苹果心率采样提速至每 5 秒、华为首次将代谢类慢病筛查纳入手表、Oura 引入夜间血压趋势监测——“从通用公式到千人千面”，健康管理正成为可穿戴最稳固的价值锚点。",
+     "summary_en": "Counterpoint projects global consumer wearables will generate over $1 trillion cumulative revenue in 2026-2032 at a 12% CAGR, with smart rings, pendants and glasses growing fastest. This autumn's launches show the trend: OPPO's FatMax dynamic fat-burning zones, Apple's 5-second heart-rate sampling, Huawei bringing metabolic chronic disease screening to watches and Oura adding nocturnal blood pressure trends — health management is becoming wearables' most durable value anchor."
+    }
+   ]
+  }
+ ]
+}
