@@ -1,0 +1,226 @@
+{
+ "date": "2026-10-02",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年9月26日 — 10月2日（最近 7 天）",
+ "range_en": "Sep 26 – Oct 2, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Nature重磅：抗生素治疗期间吃甜食，肠道菌群“伤上加伤”",
+     "title_en": "Nature: eating sweets during antibiotics worsens gut microbiome disruption",
+     "url": "https://www.nature.com/articles/s41586-026-11077-3",
+     "source_zh": "Nature",
+     "source_en": "Nature",
+     "date": "2026-09-30",
+     "summary_zh": "纽约大学朗格尼、纪念斯隆-凯特琳与希望之城团队追踪173名造血干细胞移植患者的9419顿配餐与1000余份粪便样本，发现广谱抗生素治疗期间每多摄入100克甜食，肠道菌群多样性额外下降约21%，粪肠球菌显著扩增；小鼠实验中蔗糖使抗生素诱导的肠球菌扩张放大16-33倍，提示抗生素治疗期间限糖或可保护菌群。",
+     "summary_en": "Tracking 9,419 meals and 1,000-plus stool samples from 173 stem-cell transplant patients, NYU Langone, Memorial Sloan Kettering and City of Hope found that every extra 100 g of sweets during broad-spectrum antibiotic treatment was linked to a further ~21% drop in gut microbial diversity and expansion of Enterococcus; in mice, sucrose amplified antibiotic-induced Enterococcus blooms 16-33-fold, suggesting limiting sugar during antibiotic courses may protect the microbiome."
+    },
+    {
+     "title_zh": "麦吉尔大学Nature：膳食-菌群协同破解癌症免疫治疗“肥胖悖论”",
+     "title_en": "McGill Nature study: diet-microbiome synergy underlies the obesity paradox in immunotherapy",
+     "url": "https://medicalxpress.com/news/2026-09-focusing-obesity-paradox-cancer-treatment.html",
+     "source_zh": "Medical Xpress / 麦吉尔大学",
+     "source_en": "Medical Xpress / McGill University",
+     "date": "2026-09-30",
+     "summary_zh": "麦吉尔大学团队用12种模拟人类膳食的小鼠饮食模型发现，抗PD-1疗效取决于“膳食-肠道菌群轴”而非体重或代谢紊乱：致胖饮食中富集的约翰逊乳杆菌与特定膳食协同，经芳香族氨基酸代谢物（如脱氨基酪氨酸）增强T细胞效应；短期饮食切换或补充特定菌株即可逆转免疫治疗耐药，为肿瘤精准营养干预开辟新路径。",
+     "summary_en": "Using 12 mouse diet models mimicking human eating patterns, McGill researchers show that anti-PD-1 response depends on the diet-gut axis rather than body weight or metabolic dysfunction: Lactobacillus johnsonii enriched by obesogenic diets acts synergistically with diet via aromatic amino acid metabolites such as desaminotyrosine to boost T-cell effector function; short-term diet switches or specific bacteria reversed immunotherapy resistance, opening new routes for precision nutrition in oncology."
+    },
+    {
+     "title_zh": "中山一院Cell Reports：间歇性禁食经菌群-IPA轴安全抑制血栓",
+     "title_en": "Sun Yat-sen First Hospital in Cell Reports: intermittent fasting curbs thrombosis via gut-microbial IPA",
+     "url": "https://new.qq.com/rain/a/20261001A05IU200",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "MRGUT Daily (Tencent News)",
+     "date": "2026-10-01",
+     "summary_zh": "中山一院常光其、李梓伦团队在Cell Reports报道，隔日禁食通过重塑肠道菌群提升吲哚-3-丙酸（IPA），后者靶向维持血小板Rho GTPase循环稳态，在不增加出血风险的前提下抑制血小板活化；粪菌移植可复制抗血栓效应，动脉血栓患者血浆IPA显著偏低且为独立保护因子，为代谢相关血栓提供新干预靶点。",
+     "summary_en": "A Cell Reports study from Sun Yat-sen University First Hospital shows alternate-day fasting reshapes the gut microbiota to raise indole-3-propionate (IPA), which keeps platelet Rho GTPase cycling in check and suppresses platelet activation without bleeding risk; fecal microbiota transfer reproduced the effect, and plasma IPA was independently protective in patients with arterial thrombosis, pointing to a new target for metabolic thrombosis."
+    },
+    {
+     "title_zh": "Gut Microbes：抗生素干预人体试验证实IPA几乎完全源于肠道菌群",
+     "title_en": "Gut Microbes: antibiotic intervention confirms IPA is almost entirely gut-microbiota derived",
+     "url": "https://new.qq.com/rain/a/20261001A05KZH00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "MRGUT Daily (Tencent News)",
+     "date": "2026-10-01",
+     "summary_zh": "阿姆斯特丹大学医学中心团队让20名2型糖尿病患者与19名健康人接受7天广谱抗生素干预，结合血浆代谢组与宏基因组证实：血浆吲哚-3-丙酸（IPA）在干预后降至近检出限，几乎完全由菌群产生；IPA水平越低者2型糖尿病风险越高，且与血糖变异性呈负相关，关联菌属集中于毛螺菌科与颤螺菌科，提示菌群整体结构决定代谢保护。",
+     "summary_en": "Amsterdam UMC gave 20 people with type 2 diabetes and 19 healthy controls a 7-day broad-spectrum antibiotic course: plasma indole-3-propionate (IPA) fell to near detection limits, confirming it is almost entirely microbiota-derived; lower IPA tracked higher T2D risk and greater glycemic variability, with community structure dominated by Lachnospiraceae and Ruminococcaceae — not single producers — determining the metabolic protection."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "哈佛Gladyshev团队Nature综述：衰老是细胞身份“语法”的缓慢侵蚀",
+     "title_en": "Nature review from Gladyshev lab: ageing as slow erosion of the grammar of cell identity",
+     "url": "https://www.nature.com/articles/s41586-026-10955-0",
+     "source_zh": "Nature",
+     "source_en": "Nature",
+     "date": "2026-09-30",
+     "summary_zh": "哈佛医学院Gladyshev团队在Nature发表理论综述，提出发育期以高保真方式“写入”细胞身份约束（染色质架构、PRC2介导的抑制），成年后仅靠低保真局部维护，二者不对称导致可预测的表观遗传漂移；约90%年龄相关DNA甲基化增加位于PRC2结合低甲基化区域，可解释跨哺乳动物表观遗传时钟的稳健性，并给出可检验的干预预测。",
+     "summary_en": "A Nature review from Vadim Gladyshev's Harvard lab argues that cell-identity constraints are written with high fidelity during development but maintained only imperfectly afterwards, and this asymmetry drives predictable epigenetic drift; about 90% of age-related DNA methylation gain sits at PRC2-bound low-methylated regions, explaining the robustness of pan-mammalian epigenetic clocks and yielding testable intervention predictions."
+    },
+    {
+     "title_zh": "Nature：跨1.1万转录组构建“分子时钟”，预测死亡风险与衰老干预效果",
+     "title_en": "Nature: transcriptomic clocks across 11,000 samples predict mortality and rejuvenation",
+     "url": "https://www.nature.com/articles/s41586-026-10542-3",
+     "source_zh": "Nature",
+     "source_en": "Nature",
+     "date": "2026-09-30",
+     "summary_zh": "Tyshkovskiy与Gladyshev团队整合小鼠、大鼠、猕猴与人的1.1万余份转录组，构建可解释的多组织多物种衰老与死亡风险时钟，精度比肩二代表观遗传时钟；衰老特征跨物种保守，炎症、干扰素与线粒体模块构成模块化架构，热量限制与Klotho主要作用于代谢模块，慢性病主要加速炎症模块，为干预效果评估提供实时分子标尺。",
+     "summary_en": "Integrating more than 11,000 transcriptomes from mice, rats, macaques and humans, Tyshkovskiy and Gladyshev built interpretable multi-tissue, multi-species clocks for age and mortality whose accuracy rivals second-generation epigenetic clocks; conserved hallmarks form a modular architecture in which chronic disease mainly accelerates inflammatory modules while caloric restriction and Klotho target metabolic ones, giving a real-time molecular ruler for interventions."
+    },
+    {
+     "title_zh": "Nature Aging：运动囊泡携带miR-29去抑制Klotho，让老年软骨重返年轻",
+     "title_en": "Nature Aging: exercise-derived vesicles carry miR-29 to de-repress Klotho in aged cartilage",
+     "url": "http://longevitypapers.com/",
+     "source_zh": "Longevity Papers（Nature Aging）",
+     "source_en": "Longevity Papers (Nature Aging)",
+     "date": "2026-09-30",
+     "summary_zh": "哈佛团队在Nature Aging报道，3个月有氧运动使老年人细胞外囊泡中运动响应性miR-29升高，这些囊泡经表观遗传去抑制长寿基因KL（α-Klotho），恢复软骨细胞年轻表型；过表达miR-29的工程囊泡以KL依赖方式复现效应，关节内注射改善老龄小鼠软骨健康，为运动获益的远端器官递送提供可转化载体。",
+     "summary_en": "A Harvard team reports in Nature Aging that three months of aerobic exercise raised miR-29 in circulating extracellular vesicles of older adults; these vesicles epigenetically de-repress the longevity gene KL (alpha-Klotho) to restore youthful chondrocyte phenotypes, and engineered miR-29 vesicles recapitulated the effect in a KL-dependent manner, improving cartilage health in aged mice — a translatable vehicle for exercise's distal benefits."
+    },
+    {
+     "title_zh": "ARDD 2026哈佛开幕：720人低剂量雷帕霉素III期试验同步推进",
+     "title_en": "ARDD 2026 opens at Harvard as a 720-person low-dose rapamycin Phase 3 trial gets underway",
+     "url": "https://civl.com/news/story/aging-research-meeting-adds-panel-on-regulatory-requirements-for-trials-d9f5e01c",
+     "source_zh": "CiVL / 亚利桑那大学",
+     "source_en": "CiVL / University of Arizona",
+     "date": "2026-10-01",
+     "summary_zh": "第13届衰老研究与药物发现大会（ARDD 2026）10月1-3日在哈佛举行，聚焦衰老药物监管路径、AI试验设计与产业转化；同期亚利桑那大学宣布启动迄今规模最大的人体雷帕霉素试验：720名65岁以上成人随机接受每周低剂量雷帕霉素或安慰剂两年，以衰弱转化与IL-6为共同主要终点，标志长寿科学正式走向注册临床阶段。",
+     "summary_en": "The 13th Aging Research and Drug Discovery meeting (ARDD 2026) runs October 1-3 at Harvard, focused on regulatory pathways, AI in trials and translation; the University of Arizona simultaneously launched the largest human rapamycin trial to date, randomizing 720 adults aged 65+ to two years of weekly low-dose rapamycin or placebo with frailty transition and IL-6 as co-primary endpoints — a landmark step for geroscience into registered clinical stages."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "国家卫健委发布《成人肌少症食养指南（2026年版）》，科学增肌有了国家方案",
+     "title_en": "China's NHC releases the 2026 dietary guideline for adult sarcopenia",
+     "url": "https://www.toutiao.com/article/7690670096380920362/",
+     "source_zh": "光明日报（今日头条）",
+     "source_en": "Guangming Daily (Toutiao)",
+     "date": "2026-09-29",
+     "summary_zh": "国家卫健委发布《成人肌少症食养指南（2026年版）》，倡导以科学饮食联合运动防治肌肉流失：65岁以上老年人蛋白质推荐量提高至每天每公斤体重1.17克，肌少症人群建议1.2-1.5克且优质蛋白占比60%以上；指南同时警示蛋白粉滥用与网红增肌产品非法添加风险，并强调维生素D与抗阻训练在增肌中的协同作用。",
+     "summary_en": "China's National Health Commission released the 2026 dietary guideline for adult sarcopenia, pairing diet with resistance exercise: protein recommendations rise to 1.17 g/kg/day for adults 65+ and 1.2-1.5 g/kg/day for those with sarcopenia, with 60%+ from high-quality sources; the guideline also cautions against protein-powder misuse and illicit additives, and highlights vitamin D and resistance training as synergies."
+    },
+    {
+     "title_zh": "NutraIngredients：超越鱼油——谁能填补全球Ω-3摄入缺口",
+     "title_en": "NutraIngredients: beyond fish oil — what could close the global omega-3 gap",
+     "url": "https://www.nutraingredients.com/Article/2026/09/29/beyond-fish-oil-what-could-close-the-omega-3-gap/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-29",
+     "summary_zh": "NutraIngredients专题梳理Ω-3供应与创新路径：全球多数人口EPA+DHA摄入远低于推荐量，鱼油原料承压背景下，藻油DHA、转基因油料作物的长链Ω-3、磷虾与鱿鱼源磷脂型Ω-3以及精密发酵等替代方案加速产业化，行业在可持续性与生物利用度之间寻找下一个主流Ω-3来源。",
+     "summary_en": "A NutraIngredients feature maps the omega-3 innovation landscape: with most of the world's population falling short on EPA+DHA intake and fish-oil raw materials under pressure, algal DHA, long-chain omega-3 from engineered oilseed crops, phospholipid forms from krill and squid, and precision fermentation are scaling up as the industry searches for the next mainstream, sustainable and bioavailable source."
+    },
+    {
+     "title_zh": "南昌大学团队：锌-植物化学物配位纳米药物重塑肠道菌群高效缓解结肠炎",
+     "title_en": "Nanchang University: zinc-phytochemical coordination nanodrug reshapes microbiota to ease colitis",
+     "url": "https://news.qq.com/rain/a/20261001A05GAQ00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "MRGUT Daily (Tencent News)",
+     "date": "2026-10-01",
+     "summary_zh": "南昌大学黄晓畅团队以锌离子为桥构筑超分子纳米网络，将脆弱的植物化学成分重塑为口服纳米药物：进入炎症微环境后兼具抗氧化、阻断炎症信号与富集产短链脂肪酸有益菌的三重作用；粪菌移植实验证实被“驯化”的菌群可独立保留结肠屏障与抗炎能力，为炎症性肠病及菌群失调相关病症的非药物干预提供新思路。",
+     "summary_en": "A Nanchang University team built a zinc-bridged supramolecular nanonetwork that turns fragile phytochemicals into an oral nanodrug; in the inflamed gut it simultaneously scavenges oxidants, blocks inflammatory signaling and expands short-chain-fatty-acid-producing bacteria, and fecal microbiota transfer showed the conditioned microbiota alone preserves colonic barrier and anti-inflammatory capacity — a non-drug route for IBD and dysbiosis."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "NutraIngredients：益生菌或可减轻格斗运动员快速减重的胃肠道负担",
+     "title_en": "NutraIngredients: probiotics may ease gut burden of weight-cutting in combat athletes",
+     "url": "https://www.nutraingredients.com/Article/2026/10/01/probiotics-could-reduce-gastrointestinal-impact-of-weight-loss-in-combat-athletes/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-01",
+     "summary_zh": "新研究关注格斗运动员赛前快速减重引发的胃肠道症状：能量与纤维骤减常导致便秘、腹胀与菌群紊乱，影响训练与比赛状态；研究提示针对性补充益生菌可改善减重期的胃肠道耐受性，为按体重分级项目的运动员营养策略提供了实用方向，也拓展了益生菌在运动营养场景的应用边界。",
+     "summary_en": "New research addresses the gastrointestinal toll of rapid weight-cutting in combat sports: steep cuts in energy and fiber commonly trigger constipation, bloating and microbiota disruption that impair training and performance; targeted probiotic supplementation appears to improve gut tolerance during the cut, offering a practical nutrition strategy for weight-class athletes and extending probiotics into sports nutrition."
+    },
+    {
+     "title_zh": "北欧后生元品牌Nordic Rebalance出海，发布直面消费者新品牌",
+     "title_en": "Nordic Rebalance takes fermented oat postbiotic overseas with new D2C brand",
+     "url": "https://www.nutraingredients.com/Article/2026/09/29/nordic-rebalance-takes-fermented-oat-postbiotic-overseas-and-reveals-new-d2c-brand/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-29",
+     "summary_zh": "挪威Nordic Rebalance凭借消费者验证数据将燕麦发酵后生元推向国际市场，并发布全新直面消费者品牌；后生元无需活菌、稳定性强、与肠道屏障和免疫调节证据绑定，正在成为益生菌之外肠道健康品类的高增长赛道，此次出海也印证欧洲后生元创新向全球外溢的产业趋势。",
+     "summary_en": "Norway's Nordic Rebalance is taking its fermented oat postbiotic international on the back of consumer validation data and launched a new direct-to-consumer brand; stable, non-living postbiotics tied to gut-barrier and immune evidence are emerging as a fast-growing segment beyond probiotics, confirming the global spillover of European postbiotic innovation."
+    },
+    {
+     "title_zh": "法国新精密发酵工厂启用，加速营养原料创新",
+     "title_en": "New precision fermentation facility opens in France to accelerate ingredient innovation",
+     "url": "https://www.nutraingredients.com/Article/2026/09/29/new-precision-fermentation-facility-aims-to-accelerate-ingredient-innovation/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-29",
+     "summary_zh": "一座新的精密发酵设施在法国启用，定位于加速功能营养成分从菌株构建、小试到放大生产的迭代；精密发酵正被用于稀有多少功能原料（如稀有脂质、特殊蛋白与活性代谢物）的可持续生产，为补剂与功能食品行业缩短供应周期、降低成本并提升原料溯源透明度。",
+     "summary_en": "A new precision fermentation facility in France aims to speed the iteration of functional nutritional ingredients from strain engineering through piloting to scale-up; precision fermentation is increasingly used for sustainable production of rare lipids, specialty proteins and bioactive metabolites, shortening supply cycles, cutting costs and improving traceability for supplement and functional food makers."
+    },
+    {
+     "title_zh": "ASA最新裁决敲响警钟：食品品牌健康声称合规风险上升",
+     "title_en": "ASA ruling highlights rising health-claim compliance risks for food brands",
+     "url": "https://www.nutraingredients.com/Article/2026/09/28/asa-whitworths-ruling-highlights-rising-health-claim-risks/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-09-28",
+     "summary_zh": "英国广告标准局对Whitworths的裁决显示，随着食品品牌竞相强调功能价值，健康与营养声称的合规风险正在上升：缺乏充分科学依据或未与获授权声称严格对齐的宣传语面临下架与声誉代价，行业呼吁营销、法规与科学团队在产品上市前协同完成声称审核。",
+     "summary_en": "The UK Advertising Standards Authority's ruling against Whitworths underscores growing compliance risk as food brands lean into functional messaging: claims lacking robust substantiation or strict alignment with authorized health claims face takedowns and reputational cost, and the industry is urging earlier cross-functional review between marketing, regulatory and science teams."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "中国疾控中心发布国庆假期健康提示：警惕食源、呼吸道与蚊媒传染病",
+     "title_en": "China CDC issues National Day holiday health alert on foodborne, respiratory and mosquito-borne risks",
+     "url": "https://www.sfccn.com/2026/10-1/xOMDE1MTRfMjI1NzgxOQ.html",
+     "source_zh": "央视新闻（21世纪经济报道转载）",
+     "source_en": "CCTV News via 21st Century Business Herald",
+     "date": "2026-10-01",
+     "summary_zh": "中国疾控中心国庆前夕提示：假期聚餐与外出增多，需防范诺如病毒胃肠炎与食物中毒，不采食野生蘑菇；车站景区等人群密集场所注意佩戴口罩与手卫生，老年人等高危人群建议接种流感疫苗；秦岭淮河以南蚊虫仍活跃，防蚊灭蚊预防登革热；慢病人群出行应带足药物、避免擅自停药并监测血压血糖。",
+     "summary_en": "Ahead of the National Day holiday, China CDC warned travelers about norovirus gastroenteritis and food poisoning (avoid wild mushrooms), urged masks and hand hygiene in crowded hubs with flu vaccination for high-risk groups, dengue prevention where mosquitoes remain active south of the Qinling-Huaihe line, and medication adherence plus BP/glucose monitoring for people with chronic conditions."
+    },
+    {
+     "title_zh": "华为WATCH D3发布：腕上动态血压监测进入第三代",
+     "title_en": "Huawei launches WATCH D3, third-generation wrist ambulatory blood pressure monitor",
+     "url": "https://www.163.com/tech/article/L85IJ0O400099504.html",
+     "source_zh": "网易科技",
+     "source_en": "NetEase Tech",
+     "date": "2026-10-01",
+     "summary_zh": "10月1日华为在Mate90系列发布会推出第三代腕部动态血压记录仪WATCH D3：整机厚度减至11.3毫米，微泵气囊与PPG融合技术使全天加压测量从27次降至7次；获二类医疗器械注册与CE-MDR认证，支持运动前后血压测量、海拔与气温骤变提醒，新增高尿酸与冠心病风险评估研究，华为腕上血压测量累计已超4亿次。",
+     "summary_en": "On October 1 Huawei unveiled WATCH D3, its third-generation wrist ambulatory blood pressure monitor: 11.3 mm thin, with hybrid micro-pump plus PPG sensing that cuts inflatable measurements from 27 to 7 per day; certified as a Class II medical device and CE-MDR, it adds peri-exercise BP measurement, altitude and cold-snap alerts, plus uric-acid and coronary-risk studies, building on 400 million-plus lifetime BP measurements."
+    },
+    {
+     "title_zh": "人民日报健康客户端：国庆假期过敏、运动损伤与五官急症高发，及时就医有讲究",
+     "title_en": "Holiday health watch: allergies, sports injuries and ENT/eye emergencies spike over National Day",
+     "url": "https://www.toutiao.com/article/7691674190939783714/",
+     "source_zh": "人民日报健康客户端（今日头条）",
+     "source_en": "People's Daily Health (Toutiao)",
+     "date": "2026-10-01",
+     "summary_zh": "多地疾控与医院提示假期高发健康问题：华山医院指出紫外线、花粉与冷空气叠加易诱发过敏，户外运动前充分热身可防扭伤拉伤；复旦眼耳鼻喉科医院数据显示假期前三天结膜炎、角膜损伤与咽部异物居急诊前列；专家提醒鱼刺卡喉切勿吞饭团喝醋，突发视力下降、听力下降或持续鼻出血应立即就医。",
+     "summary_en": "Hospitals and CDCs flag holiday spikes: Huashan Hospital notes UV, pollen and cold snaps driving allergies and sports injuries without warm-ups; Eye and ENT Hospital of Fudan data put conjunctivitis, corneal injury and pharyngeal foreign bodies atop early-holiday ER visits; experts warn against swallowing rice balls or vinegar for fish bones and urge immediate care for sudden vision or hearing loss."
+    }
+   ]
+  }
+ ]
+}
