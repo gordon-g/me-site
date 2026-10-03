@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-03",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年9月27日 — 10月3日（最近 7 天）",
+ "range_en": "Sep 27 – Oct 3, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "仁济医院洪洁团队Nature子刊：两种“坏”菌互作驱动持久肠道动力障碍，益生菌或可破局",
+     "title_en": "Renji Team in Nature Microbiology: Two Pathobionts Interact to Drive Persistent Gut Dysmotility, Probiotics May Help",
+     "url": "https://www.nature.com/articles/s41564-026-02497-y",
+     "source_zh": "热心肠日报/Nature Microbiology",
+     "source_en": "Nature Microbiology (via Mr-Gut)",
+     "date": "2026-10-01",
+     "summary_zh": "上海仁济医院洪洁、房静远团队发表于Nature Microbiology的研究显示，具核梭杆菌可增强产肠毒素脆弱拟杆菌介导的肠神经元丢失，两者协同驱动持续性肠道动力障碍；动物模型中针对性益生菌干预展现出破局潜力，为功能性肠病与菌群互作机制研究提供了新靶点。",
+     "summary_en": "A Nature Microbiology study led by Hong Jie and Fang Jingyuan of Renji Hospital shows that Fusobacterium nucleatum amplifies enterotoxigenic Bacteroides fragilis-driven enteric neuron loss, jointly driving persistent gut dysmotility; targeted probiotic intervention shows therapeutic potential in models, offering a new target for functional bowel disease."
+    },
+    {
+     "title_zh": "Lancet子刊综述：肠道菌群如何打开癌症治疗新局面——从关联走向干预",
+     "title_en": "Lancet Oncology Review: Cancer and the Microbiome — From Association to Intervention",
+     "url": "https://doi.org/10.1016/S1470-2045(26)00326-8",
+     "source_zh": "热心肠日报/The Lancet Oncology",
+     "source_en": "The Lancet Oncology (via Mr-Gut)",
+     "date": "2026-09-28",
+     "summary_zh": "希望之城综合癌症中心Sumanta K. Pal团队在《柳叶刀·肿瘤学》发表综述，系统梳理肠道菌群在肿瘤免疫治疗疗效、免疫相关不良反应及抗癌药物代谢中的作用，并评估菌群导向干预（饮食调整、益生菌、粪菌移植）从关联性证据走向临床干预的转化路径与现存挑战。",
+     "summary_en": "A Lancet Oncology review by Sumanta K. Pal and colleagues synthesizes how the gut microbiome shapes cancer immunotherapy response, immune-related toxicity and drug metabolism, and maps the translational path from associative evidence to microbiome-directed interventions such as diet, probiotics and fecal microbiota transplantation."
+    },
+    {
+     "title_zh": "协和医院陈宏达团队：锁定结直肠肿瘤的菌群拓扑特征",
+     "title_en": "PUMCH Chen Hongda Team Maps Gut Microbial Topology of Colorectal Neoplasia",
+     "url": "https://doi.org/10.1002/advs.77991",
+     "source_zh": "热心肠日报/Advanced Science",
+     "source_en": "Advanced Science (via Mr-Gut)",
+     "date": "2026-09-28",
+     "summary_zh": "北京协和医院陈宏达团队联合代敏、朱师达等在Advanced Science发表研究，通过对结直肠肿瘤样本的菌群数据分析，锁定与结直肠肿瘤发生相关的菌群“拓扑特征”与代谢标志物，提示菌群空间组织模式而非单纯物种丰度，可能是精准识别结直肠肿瘤性病变的新维度。",
+     "summary_en": "A team led by Chen Hongda of Peking Union Medical College Hospital reports in Advanced Science that gut microbial “topology” and metabolic signatures — spatial organization patterns rather than species abundance alone — are associated with colorectal neoplasia, suggesting a new dimension for precise detection of colorectal precancerous and cancerous lesions."
+    },
+    {
+     "title_zh": "阿尔茨海默风险基因APOE4的“可逆弱点”：损伤脑血管与蛋白清除系统可被逆转",
+     "title_en": "Alzheimer's Risk Gene APOE4 May Have a Reversible Weakness",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+     "source_zh": "ScienceDaily/西奈山伊坎医学院",
+     "source_en": "ScienceDaily/Icahn School of Medicine at Mount Sinai",
+     "date": "2026-10-01",
+     "summary_zh": "西奈山团队发表于Cell与Cell Stem Cell的两项研究显示，APOE4可使血管周细胞转化为瘢痕样成纤维细胞，驱动脑血管纤维化与淀粉样沉积；阻断TGF-β信号可逆转这些病变。人源miBrain类器官还揭示APOE4经星形胶质细胞胆固醇堆积削弱α-突触核蛋白清除，提示血脂与溶酶体通路为可干预靶点。",
+     "summary_en": "Two Mount Sinai studies in Cell and Cell Stem Cell show APOE4 converts vascular pericytes into scar-like cells, driving brain vessel fibrosis and amyloid buildup; blocking TGF-β signaling reversed these changes. Human miBrain organoids further link APOE4 to astrocyte cholesterol accumulation and impaired alpha-synuclein clearance, pointing to lipid and lysosomal pathways as druggable targets."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "2026全球十大长寿突破大奖在香港揭晓",
+     "title_en": "2026 Global Top 10 Longevity Breakthrough Awards Announced in Hong Kong",
+     "url": "https://www.163.com/dy/article/L87GEFTR05149U3U.html",
+     "source_zh": "新华社香港快讯/全球医生组织",
+     "source_en": "Xinhua HK via Global Health Organization",
+     "date": "2026-10-01",
+     "summary_zh": "2026亚太健康长寿国际峰会期间，全球十大长寿突破大奖颁奖典礼于10月1日在香港举行。来自美、瑞、德、韩、新、日的十家机构获奖，涵盖α-突触核蛋白种子扩增检测、被动传感生理监测、可穿戴平衡与前庭电刺激、纯化尿石素A、口服多靶点复方、肌少症AI筛查等长寿医学与精准检测前沿成果。",
+     "summary_en": "During the 2026 Asia-Pacific Healthy Longevity Summit, the Global Top 10 Longevity Breakthrough Awards ceremony was held in Hong Kong on October 1, honoring ten institutions from the US, Switzerland, Germany, Korea, Singapore and Japan for advances spanning alpha-synuclein seed amplification assays, passive sensing wearables, vestibular stimulation, purified urolithin A, oral multi-target formulations and AI sarcopenia screening."
+    },
+    {
+     "title_zh": "自噬与衰老的真相：并非整体下降，而是随细胞类型与性别各异，运动可调节",
+     "title_en": "Autophagy Doesn't Uniformly Decline With Age — It Varies by Cell Type and Sex, and Exercise Modulates It",
+     "url": "https://www.miragenews.com/cellular-recycling-changes-with-agenot-as-1753918/",
+     "source_zh": "Mirage News/Sanford Burnham Prebys",
+     "source_en": "Mirage News/Sanford Burnham Prebys",
+     "date": "2026-09-27",
+     "summary_zh": "Sanford Burnham Prebys研究所9月27日发表于Aging Cell的研究，对23-72岁健康人皮肤细胞、血细胞及诱导神经元直接测量自噬速率，发现“自噬随年龄整体下降”的说法证据薄弱：不同细胞类型与性别变化方向各异，70岁以上人群自噬偏高反而与体能较差相关；12周轻度运动使老年人血细胞自噬向年轻水平回落并改善体能。",
+     "summary_en": "A Sanford Burnham Prebys study published September 27 in Aging Cell directly measured autophagy in skin, blood and induced-neuron cells from healthy adults aged 23-72. Autophagy did not uniformly decline with age: patterns varied by cell type and sex, higher autophagy in older adults correlated with poorer physical function, and a 12-week light exercise program shifted blood-cell autophagy toward youthful levels."
+    },
+    {
+     "title_zh": "线虫“钙触发的肌动蛋白笼”揭示线粒体损伤延寿之谜",
+     "title_en": "Calcium-Triggered Actin Cages Explain How Damaged Mitochondria Extend Lifespan in Worms",
+     "url": "https://doi.org/10.1038/s41467-026-76514-3",
+     "source_zh": "Phys.org/Nature Communications",
+     "source_en": "Phys.org/Nature Communications",
+     "date": "2026-09-30",
+     "summary_zh": "范德堡大学Burkewitz实验室9月30日经Phys.org报道发表于Nature Communications的研究解开衰老生物学经典悖论：线粒体呼吸链突变延寿需要内质网IP3受体介导的钙信号——钙释放激活肌动蛋白重塑，形成“分子笼”约束功能受损线粒体网络的过度扩张，促进其更新；破坏该笼状结构则延寿效应消失。",
+     "summary_en": "A Vanderbilt study from the Burkewitz lab, published in Nature Communications and reported September 30 by Phys.org, resolves a classic aging paradox: lifespan extension from mitochondrial respiratory-chain mutation in C. elegans requires ER IP3-receptor calcium signaling, which remodels actin into cages that restrain expansion of dysfunctional mitochondrial networks and promote their turnover; disrupting the cages abolishes the longevity benefit."
+    },
+    {
+     "title_zh": "藤茶多酚二氢杨梅素（DHM）关联线虫健康寿命与神经保护",
+     "title_en": "Dihydromyricetin (DHM) From Vine Tea Linked to Healthspan and Neuroprotection in C. elegans",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261001084153054.htm",
+     "source_zh": "生物通",
+     "source_en": "EBioTrade",
+     "date": "2026-10-01",
+     "summary_zh": "生物通10月1日报道的研究系统表征藤茶来源二氢杨梅素对秀丽隐杆线虫寿命相关表型的影响：DHM伴随氧化还原状态改善、线粒体膜电位维持与线粒体自噬相关运输变化，保护年龄相关机械感觉神经元退行，并依赖DAF-16/SKN-1及线粒体质量控制通路，为这一天然黄酮醇作为衰老形态调节剂提供了机制线索。",
+     "summary_en": "Reported October 1 by EBioTrade, a study characterizes dihydromyricetin from Ampelopsis grossedentata in C. elegans: DHM was associated with improved redox state, preserved mitochondrial membrane potential, altered mitophagy-related trafficking and protection of mechanosensory neurons from age-related degeneration, engaging DAF-16/SKN-1 and mitochondrial quality-control pathways."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "湖南师大首登Nature正刊：翟宗昭团队揭示蛋白质营养感知经4E-BP–TOP mRNA翻译调控寿命",
+     "title_en": "Hunan Normal University's First Nature Paper: Protein Nutrient Sensing Regulates Lifespan via 4E-BP-TOP mRNA Translation",
+     "url": "https://www.nature.com/articles/s41586-026-11029-x",
+     "source_zh": "网易/Nature",
+     "source_en": "Nature (via NetEase)",
+     "date": "2026-10-02",
+     "summary_zh": "湖南师范大学翟宗昭团队联合湖南大学、中科院上海营养与健康研究所10月2日发表于Nature正刊的研究，以果蝇为模型揭示蛋白质营养感知通过4E-BP对TOP motif mRNA翻译的调控影响寿命；选择性调控该通路的药物有望提供独立于雷帕霉素的衰老干预新路径，为蛋白摄入与长寿关系提供分子机制。",
+     "summary_en": "Published October 2 in Nature by Zhai Zongzhao's team at Hunan Normal University with Hunan University and SIBS-CAS, a Drosophila study shows protein nutrient sensing regulates lifespan through 4E-BP-mediated translation of TOP-motif mRNAs; selective modulation of this pathway may offer aging interventions independent of rapamycin, grounding protein intake-longevity links in mechanism."
+    },
+    {
+     "title_zh": "中科院亚热带生态所：丁酸梭菌以胞外囊泡投递小RNA，抑制肠道脂肪吸收",
+     "title_en": "CAS Institute Develops Evidence That Clostridium butyricum Delivers Small RNAs via Extracellular Vesicles to Curb Intestinal Fat Absorption",
+     "url": "https://doi.org/10.1002/jev2.70381",
+     "source_zh": "热心肠日报/Journal of Extracellular Vesicles",
+     "source_en": "Journal of Extracellular Vesicles (via Mr-Gut)",
+     "date": "2026-09-28",
+     "summary_zh": "中科院亚热带生态所周锡红、胡竑及印遇龙团队发表于Journal of Extracellular Vesicles的研究显示，丁酸梭菌可经胞外囊泡包裹小RNA调控宿主肠道脂质代谢，抑制肠道脂肪吸收。该发现把益生菌作用机制从“菌株定植”拓展到“囊泡-核酸递送”，为靶向肠道脂质吸收的精准营养干预提供了新思路。",
+     "summary_en": "A Journal of Extracellular Vesicles study by Zhou Xihong, Hu Hong and Yin Yinlong at the CAS Institute of Subtropical Agriculture shows Clostridium butyricum delivers small RNAs via extracellular vesicles to modulate host intestinal lipid metabolism and curb fat absorption, extending probiotic mechanisms beyond strain colonization toward vesicle-mediated nucleic-acid delivery for precision nutrition."
+    },
+    {
+     "title_zh": "百岁老人到底吃什么？最新综述总结长寿饮食五大共性",
+     "title_en": "What Do Centenarians Eat? New Review Distills the Common Threads of Longevity Diets",
+     "url": "https://www.toutiao.com/article/7691857041123525160",
+     "source_zh": "今日头条·张宏涛医生",
+     "source_en": "Toutiao (Dr. Zhang Hongtao)",
+     "date": "2026-10-02",
+     "summary_zh": "一篇发表于Journal of Translational Medicine的综述对比地中海、冲绳、北欧、尼科亚等长寿地区的饮食模式发现：植物性天然食物为主、以全谷物豆类等高质量碳水替代精制主食、少盐、选对脂肪来源并保护肌肉，是各长寿人群的共同特征；富含膳食纤维与多酚的饮食还通过肠道菌群多样性与肠屏障维持发挥抗衰作用。",
+     "summary_en": "A Journal of Translational Medicine review comparing dietary patterns of centenarians across the Mediterranean, Okinawa, Nordic and Nicoya regions finds shared features: predominantly natural plant-based foods, high-quality carbohydrates from whole grains and legumes, less salt, well-chosen fats and muscle protection — with fiber- and polyphenol-rich diets supporting gut microbiome diversity and barrier function."
+    },
+    {
+     "title_zh": "专家共识：精准营养的价值不在检测数据本身，而在“检测-干预-结局”的循证链条",
+     "title_en": "Precision Nutrition Needs Proven Outcomes, Not Just Test Data, Experts Say",
+     "url": "https://www.nutritioninsight.com/special-reports/precision-nutrition-data-evidence-testing.html",
+     "source_zh": "Nutrition Insight",
+     "source_en": "Nutrition Insight",
+     "date": "2026-10-01",
+     "summary_zh": "Nutrition Insight对话Clasado、ADM与Plug and Play专家指出：个性化检测结果不等于个性化营养方案，NIST研究显示同一粪样送检七家菌群公司结果差异堪比不同个体；专家强调精准营养必须把测量指标、目标健康结局与营养干预三者用临床证据连接起来，并提醒消费者警惕“既卖检测又卖补剂”的利益捆绑。",
+     "summary_en": "Speaking to Nutrition Insight, experts from Clasado Biosciences, ADM and Plug and Play stress that a test result is not a personalized solution: a NIST study found seven consumer microbiome tests returned differences as large as between different people on identical samples. Precision nutrition requires clinical evidence linking measurement, outcome and intervention — and consumers should beware conflicts of interest where firms sell both tests and supplements."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "生合TWK10益生菌抢攻GLP-1配套营养，人体研究登国际期刊",
+     "title_en": "TWK10 Probiotic Targets GLP-1 Companion Nutrition as Human Studies Reach International Journals",
+     "url": "https://www.ctee.com.tw/news/20261001700741-430503",
+     "source_zh": "工商时报",
+     "source_en": "Commercial Times (Taiwan)",
+     "date": "2026-10-01",
+     "summary_zh": "台湾益生菌原料厂生合10月1日宣布，专利菌株L. plantarum TWK10聚焦GLP-1药物时代的“配套营养”：发表于Current Research in Food Science的人体研究显示其可提升植物蛋白餐后氨基酸吸收，Microorganisms刊载的18周随机双盲试验显示下肢肌力、步行速度与平衡能力改善，瞄准减重期间肌肉与功能维持这一新市场。",
+     "summary_en": "Taiwanese ingredient maker Synbio announced October 1 that its proprietary Lactiplantibacillus plantarum TWK10 is targeting companion nutrition for the GLP-1 era: a human study in Current Research in Food Science showed improved post-meal amino acid uptake from plant protein, while an 18-week randomized double-blind trial in Microorganisms reported gains in lower-limb strength, gait speed and balance during weight management."
+    },
+    {
+     "title_zh": "美国补剂立法2026年度盘点：强制列名、药品排除与联邦优先",
+     "title_en": "Dietary Supplement Legislation in 2026: Product Listing, Drug Preclusion and Federal Preemption",
+     "url": "https://nutritionaloutlook.com/news/regulatory",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-01",
+     "summary_zh": "Nutritional Outlook 10月1日发布美国补剂监管年度盘点：众议院《膳食补充剂列名法案》拟强制厂商向FDA提交标签与成分信息，行业团体立场分化；《膳食补充剂创新法案》试图改革“药品排除”条款，防止早期小规模临床试验永久封锁补剂原料；各州与联邦层面的监管动作持续重塑品类准入与合规边界。",
+     "summary_en": "Nutritional Outlook's October 1 regulatory review of 2026 US supplement legislation covers the House Dietary Supplement Listing Act mandating FDA product registration, the Dietary Supplement Innovation Act seeking to reform the drug-preclusion rule that can permanently bar supplement ingredients after early clinical trials, and divergent industry positions as state and federal measures reshape oversight and compliance."
+    },
+    {
+     "title_zh": "膳食CoQ10经COPS3-自噬轴恢复衰老巨核细胞功能，抑制老化血小板高反应性",
+     "title_en": "Dietary CoQ10 Rejuvenates Aging Megakaryocytes via a COPS3-Autophagy Axis and Tames Platelet Hyperreactivity",
+     "url": "https://doi.org/10.1111/acel.70726",
+     "source_zh": "Bioengineer.org/Aging Cell",
+     "source_en": "Aging Cell (via Bioengineer.org)",
+     "date": "2026-10-02",
+     "summary_zh": "中山大学团队发表于Aging Cell的研究显示，相当于成人每日约300毫克的膳食CoQ10干预12周，可恢复自然衰老小鼠巨核细胞的增殖与成熟，上调COPS3、激活自噬通量，并抑制年龄相关的血小板高聚集性，且不影响血小板计数与止血。研究为这一常见补剂在衰老血液系统中的作用提供了首个跨生命周期动物证据。",
+     "summary_en": "A Sun Yat-sen University study in Aging Cell shows 12 weeks of dietary CoQ10 (roughly 300 mg/day human-equivalent) restored proliferation and maturation of megakaryocytes in naturally aged mice, upregulated COPS3, activated autophagic flux and suppressed age-related platelet hyperaggregability without affecting platelet counts or bleeding time — the first lifespan-scale animal evidence for this popular supplement in aging hematology."
+    },
+    {
+     "title_zh": "Nova Mentis推出精密发酵羟基酪醇HT1，瞄准健康老龄化市场",
+     "title_en": "Nova Mentis Launches Precision-Fermentation Hydroxytyrosol HT1 for Healthy Aging Formulations",
+     "url": "https://www.nutraingredients.com/Article/2026/10/02/nova-mentis-launches-precision-fermentation-hydroxytyrosol-for-next-gen-formulas",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-02",
+     "summary_zh": "都柏林大学学院衍生生物科技公司Nova Mentis 10月2日宣布推出精密发酵羟基酪醇原料Polyphenol-HT1：相比橄榄提取物，其纯度更高、批次一致；羟基酪醇作为地中海饮食关键多酚，既往研究显示可降低氧化LDL与8-OHdG等氧化应激标志物，并可能经“橄榄油-肠-脑轴”支持认知健康，定位心血管与细胞健康品类。",
+     "summary_en": "Nova Mentis, a University College Dublin spin-out, launched Polyphenol-HT1 on October 2 — a hydroxytyrosol produced by precision fermentation with higher purity and batch consistency than olive extracts. As a key Mediterranean-diet polyphenol, hydroxytyrosol has been linked to lower oxLDL and 8-OHdG and possible cognitive support via the olive oil-gut-brain axis, targeting healthy aging and cardiovascular categories."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "REACT研究：约1/13的30岁以下成人已有隐匿动脉斑块",
+     "title_en": "One in 13 Adults Under 30 Already Has Hidden Artery Plaque, REACT Study Finds",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+     "source_zh": "ScienceDaily/NEJM",
+     "source_en": "ScienceDaily/NEJM",
+     "date": "2026-10-01",
+     "summary_zh": "丹麦与西班牙团队对16808名18-70岁表面健康成人进行冠脉、颈动脉与股动脉三区影像筛查（REACT-DETECT，NEJM发表）：57.1%存在动脉粥样硬化，18-29岁组检出率约1/13。研究者主张心血管预防从“风险概率估算”转向影像直接识别疾病本身，为早发动脉粥样硬化的精准防控提供新范式。",
+     "summary_en": "Screening 16,808 apparently healthy adults aged 18-70 in Denmark and Spain with imaging of coronary, carotid and femoral arteries (REACT-DETECT, published in NEJM), researchers found atherosclerosis in 57.1%, including about 1 in 13 aged 18-29. They propose shifting cardiovascular prevention from risk-score estimation to direct imaging-based disease detection for earlier, precision-guided intervention."
+    },
+    {
+     "title_zh": "中疾控发布流感疫苗指南2026-2027：全面转向三价，9-10月为最佳接种期",
+     "title_en": "China CDC Issues 2026-2027 Flu Vaccine Guideline: Trivalent-Only Lineup, September-October Prime Window",
+     "url": "https://www.toutiao.com/article/7691578439225033279/",
+     "source_zh": "健康延安/中国疾控中心",
+     "source_en": "China CDC (via Jiupai Health)",
+     "date": "2026-10-01",
+     "summary_zh": "中国疾控中心《中国流感疫苗预防接种技术指南（2026-2027）》明确：本流行季仅供应三价疫苗（灭活+鼻喷减毒），H1N1、H3N2与B/Victoria三组分全面更新；因Yamagata系自2020年起未再检出，四价退出。9-10月为最佳接种窗口，医务人员、老人、慢病者、孕妇等优先，农村“一老一小”多省份免费接种。",
+     "summary_en": "China CDC's 2026-2027 seasonal influenza vaccination guideline confirms a trivalent-only supply this season (inactivated and nasal-spray live vaccines) with all three components updated to H1N1, H3N2 and B/Victoria, as B/Yamagata has not been detected since 2020. September-October is the prime window, with healthcare workers, older adults, chronic-disease patients and pregnant women prioritized and free vaccination for rural seniors and students."
+    },
+    {
+     "title_zh": "英国心脏病专家：几点入睡也影响心血管风险，10-11点入睡风险最低",
+     "title_en": "Bedtime May Shape Heart Risk: 10-11 PM Sleep Onset Linked to Lowest Cardiovascular Disease Incidence",
+     "url": "https://en.sedaily.com/culture/2026/10/02/bedtime-may-shape-heart-risk-british-cardiologist-says",
+     "source_zh": "首尔经济新闻/英国Women's Health",
+     "source_en": "Seoul Economic Daily/Women's Health UK",
+     "date": "2026-10-02",
+     "summary_zh": "英国新维多利亚医院心脏病专家Vasudeva分享自身护心routine：地中海饮食、每日适度运动加力量训练、定期自测血压血脂血糖；并援引UK Biobank 8.8万人研究——22-23点入睡者心血管发病率最低，午夜后入睡风险高25%。专家强调预防应从日常习惯入手，女性还需关注孕产期与围绝经期的风险窗口。",
+     "summary_en": "UK cardiologist Arvind Vasudeva shares his own heart-protection routine — Mediterranean eating, daily moderate exercise plus strength training, and regular self-measured blood pressure, lipids and glucose — citing a UK Biobank study of 88,000 adults showing the lowest cardiovascular incidence among those falling asleep between 10-11 PM, with a 25% higher risk after midnight; women should also reassess risk around pregnancy and menopause."
+    },
+    {
+     "title_zh": "总在凌晨三四点醒？研究提示晚餐钾摄入与失眠相关，钾还“松开”血管助夜间降压",
+     "title_en": "Waking at 3-4 AM? Dinner Potassium Intake Is Linked to Insomnia, and Potassium Helps Blood Pressure Dips at Night",
+     "url": "https://www.toutiao.com/article/7691792128673841705",
+     "source_zh": "今日头条·梁博士健康科普",
+     "source_en": "Toutiao (Dr. Liang Health Column)",
+     "date": "2026-10-02",
+     "summary_zh": "国内健康科普援引《营养学前沿》逾四千人研究：晚餐钾摄入越多失眠发生率越低，可能与其稳定神经肌肉兴奋性、拮抗钠的作用有关；《欧洲心脏杂志》数据显示钾摄入提升与心血管事件风险下降相关，钠摄入高者每天多1克钾收缩压可显著降低。富含钾的菠菜、豆类、薯类晚餐是低成本干预起点。",
+     "summary_en": "Citing a Frontiers in Nutrition study of over 4,000 participants, Chinese health communicators note that higher dinner potassium intake is associated with lower insomnia rates, likely via stabilizing neuromuscular excitability and offsetting sodium; European Heart Journal data link higher potassium intake to lower cardiovascular event risk, with each extra gram of potassium notably lowering systolic pressure in high-sodium consumers — potassium-rich greens, beans and tubers at dinner are a low-cost starting point."
+    }
+   ]
+  }
+ ]
+}
