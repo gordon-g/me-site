@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-04",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年9月28日 — 10月4日（最近 7 天）",
+ "range_en": "Sep 28 – Oct 4, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "港中大张翔/于君团队Cell Metabolism：真菌少根根霉产犬尿酸，促脂肪肝相关肝癌变",
+     "title_en": "CUHK team in Cell Metabolism: gut fungus Rhizopus arrhizus drives MASLD-associated liver cancer via kynurenic acid",
+     "url": "https://rbase.chinagut.cn/base/article/3a543b254bcc4a8489af901d046a0f4f/1",
+     "source_zh": "热心肠日报/Cell Metabolism",
+     "source_en": "ChinaGut Daily/Cell Metabolism",
+     "date": "2026-10-02",
+     "summary_zh": "香港中文大学张翔、于君团队发表于Cell Metabolism的研究发现，少根根霉（Rhizopus arrhizus）等肠道真菌在MASLD相关肝细胞癌中富集，其代谢物犬尿酸可促进肝癌变，揭示了肠-肝真菌轴促癌新机制，为脂肪肝相关肝癌的菌群导向干预提供了潜在新靶点。",
+     "summary_en": "A Cell Metabolism study by Zhang Xiang and Yu Jun's team at the Chinese University of Hong Kong shows that the gut fungus Rhizopus arrhizus is enriched in MASLD-associated hepatocellular carcinoma and that its metabolite kynurenic acid promotes cancerous transformation, revealing a new gut-liver fungal axis mechanism and a potential microbiome-targeted avenue against fatty-liver-related liver cancer."
+    },
+    {
+     "title_zh": "上海药物所甘勇/潘超等Cell子刊：纳米新药同步调控菌群与宿主色氨酸代谢，重塑抗癌免疫",
+     "title_en": "SIMM team in a Cell-family journal: nanomedicine reshapes antitumor immunity by tuning tryptophan metabolism in both microbiota and host",
+     "url": "https://rbase.chinagut.cn/base/daily/ae0f43e5b3cf4f89820ef2bcb2c7a912/1/bdbc9395cfc444c78df281a5c16b1336",
+     "source_zh": "热心肠日报/Cell子刊",
+     "source_en": "ChinaGut Daily/Cell-family journal",
+     "date": "2026-10-02",
+     "summary_zh": "中科院上海药物研究所甘勇、潘超团队发表于Cell子刊的研究设计出可同步调控肠道菌群与宿主色氨酸代谢的纳米新药：通过重塑色氨酸代谢通量改善肿瘤免疫微环境，实现菌群与宿主双轴协同的抗癌免疫激活，为微生物组导向的肿瘤免疫联合治疗提供了新策略。",
+     "summary_en": "Researchers led by Gan Yong and Pan Chao at the Shanghai Institute of Materia Medica report in a Cell-family journal a nanomedicine that simultaneously tunes tryptophan metabolism in gut microbes and the host, reshaping the tumor immune microenvironment and enabling dual-axis activation of antitumor immunity - a new strategy for microbiome-directed cancer immunotherapy."
+    },
+    {
+     "title_zh": "ScienceDaily：肠菌代谢物ImP与阿尔茨海默病风险升高及认知衰退加速相关",
+     "title_en": "ScienceDaily: gut microbial compound ImP linked to higher Alzheimer's risk and faster cognitive decline",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260930225459.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-09-30",
+     "summary_zh": "研究将肠道细菌产生的化合物ImP（咪唑丙酸）与更高的阿尔茨海默病风险、有害脑蛋白聚集及更快的认知衰退联系起来；研究者提出，降低血液ImP水平未来或成为延缓或预防痴呆的干预路径，再次凸显肠-脑轴在神经退行性疾病防治中的研究价值。",
+     "summary_en": "New research links ImP, a compound produced by gut bacteria, to higher Alzheimer's risk, buildup of harmful brain proteins and faster cognitive decline. The authors suggest that lowering blood ImP levels could one day help slow or prevent dementia, underscoring the gut-brain axis in neurodegenerative disease research."
+    },
+    {
+     "title_zh": "意大利Telethon研究所：聚合型α-1抗胰蛋白酶扰乱潘氏细胞蛋白稳态，加重肠道炎症",
+     "title_en": "Telethon Institute: polymeric alpha-1 antitrypsin perturbs Paneth cell proteostasis and worsens intestinal inflammation",
+     "url": "https://rbase.chinagut.cn/base/article/47735a01968e434a942e944ed416be7e/1",
+     "source_zh": "热心肠日报/Signal Transduction and Targeted Therapy",
+     "source_en": "ChinaGut Daily/Signal Transduction and Targeted Therapy",
+     "date": "2026-09-29",
+     "summary_zh": "意大利Telethon遗传与医学研究所团队发表于Signal Transduction and Targeted Therapy的研究显示，聚合型α-1抗胰蛋白酶（AAT）变异体可在潘氏细胞内质网中异常蓄积、扰乱蛋白稳态并加剧肠道炎症，从内质网应激角度阐明AAT缺乏症的肠道损伤机制，为肠-肝轴病理研究提供新视角。",
+     "summary_en": "A study from Italy's Telethon Institute published in Signal Transduction and Targeted Therapy shows that polymeric alpha-1 antitrypsin (AAT) variants accumulate abnormally in Paneth cell endoplasmic reticulum, disturbing proteostasis and worsening intestinal inflammation, clarifying how AAT deficiency injures the gut and offering a new lens on the gut-liver axis."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "2026亚太健康长寿国际峰会在香港开幕：30多国200余位专家共议长寿医学",
+     "title_en": "Asia-Pacific Health and Longevity Summit 2026 opens in Hong Kong with 200-plus experts from 30+ countries",
+     "url": "https://www.news.cn/gangao/20261003/9fee9788e7e24c55a83c1c444adaae8f/c.html",
+     "source_zh": "新华社",
+     "source_en": "Xinhua",
+     "date": "2026-10-03",
+     "summary_zh": "新华社报道，2026亚太健康长寿国际峰会10月3日在香港开幕，全球30多个国家和地区的200余名科学家与临床专家参会。北京协和医院院长张抒扬介绍以老年健康需求为中心的整合医疗模式，巴克衰老研究院首席创新官胡德分享数据与AI驱动的个体健康管理实践，聚焦长寿医学与临床转化。",
+     "summary_en": "Xinhua reports that the Asia-Pacific Health and Longevity Summit 2026 opened in Hong Kong on October 3, drawing more than 200 scientists and clinicians from over 30 countries. PUMCH president Zhang Shuyang presented an integrated geriatric care model, while Buck Institute chief innovation officer Leroy Hood discussed data- and AI-driven personal health management."
+    },
+    {
+     "title_zh": "八子补肾入选清华发布年度“长寿医学十大进展”，中医药抗衰老研究获认可",
+     "title_en": "Traditional Chinese medicine formula Bazi Bushen named among Tsinghua's top ten longevity medicine advances of the year",
+     "url": "https://www.toutiao.com/article/7691967564993315389",
+     "source_zh": "养生杂志/今日头条",
+     "source_en": "Yangsheng Magazine/Toutiao",
+     "date": "2026-10-02",
+     "summary_zh": "据养生杂志报道，清华大学发布的年度“长寿医学十大进展”榜单中，“气络学说精气神理论指导中医药抗衰老研究”入选，为榜单中唯一中医药成果，其承载药物为八子补肾胶囊。该研究提出补肾填精、燮理阴阳的系统干预策略，与主流单靶点抗衰路线互补，体现整体调节范式在衰老研究中的价值。",
+     "summary_en": "According to Yangsheng Magazine, Tsinghua University's annual list of top ten longevity medicine advances includes research on anti-aging guided by qi-luo essence-qi-spirit theory - the only TCM entry, embodied by the formula Bazi Bushen. Its systemic tonification strategy complements mainstream single-target approaches, reflecting the value of whole-system regulation in aging research."
+    },
+    {
+     "title_zh": "长寿医生拆解biohacking：哪些干预值得花钱，哪些只是营销话术",
+     "title_en": "A longevity doctor separates biohacking worth paying for from pure marketing",
+     "url": "https://www.mensfitness.com/news/a-longevity-doctors-guide-to-biohacking-whats-worth-your-money-and-whats-marketing",
+     "source_zh": "Men's Fitness",
+     "source_en": "Men's Fitness",
+     "date": "2026-10-02",
+     "summary_zh": "Men's Fitness对话长寿医学医生Talal Khan：改变血液指标不等于改善健康结局。证据最扎实的仍是运动、睡眠与风险因素管理，以及肌酸、洋车前子、桑拿等；NAD+/NMN、BPC-157等多肽、生物年龄检测与不必要的睾酮补充证据有限甚至存在风险；雷帕霉素因PEARL试验未达主要终点，暂不推荐健康人常规使用。",
+     "summary_en": "In a Men's Fitness interview, longevity physician Talal Khan argues that moving a biomarker is not the same as improving outcomes. Exercise, sleep and risk-factor management - plus creatine, psyllium and sauna - carry the best evidence, while NAD+/NMN, peptides like BPC-157, biological-age tests and unwarranted testosterone have limited or negative evidence; rapamycin is not yet ready for healthy people."
+    },
+    {
+     "title_zh": "Aging Cell：uPAR靶向T细胞接合器清除老年小鼠与灵长类衰老细胞，转氨酶充当安全仪表",
+     "title_en": "Aging Cell: uPAR-targeting T-cell engager clears senescent cells in aged mice and primates with liver enzymes as a safety gauge",
+     "url": "https://civl.com/news/story/bispecific-t-cell-engager-clears-senescent-cells-in-aged-mice-and-primates-1af61d7a",
+     "source_zh": "CiVL/Aging Cell",
+     "source_en": "CiVL/Aging Cell",
+     "date": "2026-09-29",
+     "summary_zh": "9月29日发表于Aging Cell的研究构建了以uPA生长因子样结构域靶向uPAR的GFD-CD3双特异性T细胞接合器：高剂量会引发肝毒性，而在低剂量并用血转氨酶监测下，可清除老年小鼠与非人灵长类体内的衰老细胞、减轻年龄相关损伤且未见不良反应，为单次给药、可监测的senolytic免疫疗法提供概念验证。",
+     "summary_en": "A study published September 29 in Aging Cell built GFD-CD3, a bispecific T-cell engager targeting uPAR via the growth-factor-like domain of uPA. High doses caused hepatotoxicity, but low doses guided by serum transaminase monitoring cleared senescent cells in aged mice and non-human primates without adverse effects - a proof of concept for monitorable, single-dose senolytic immunotherapy."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "Nature Cell Biology：亮氨酸不止增肌，还能稳定线粒体蛋白、为细胞产能“升级”",
+     "title_en": "Nature Cell Biology: leucine does more than build muscle - it stabilizes mitochondrial proteins to power up cells",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261001095319.htm",
+     "source_zh": "ScienceDaily/科隆大学",
+     "source_en": "ScienceDaily/University of Cologne",
+     "date": "2026-10-01",
+     "summary_zh": "科隆大学CECAD衰老研究所Thorsten Hoppe团队10月1日发表于Nature Cell Biology的研究发现，必需氨基酸亮氨酸可降低SEL1L介导的蛋白降解，稳定线粒体外膜蛋白，使线粒体更高效产能；该机制在线虫中与生育力相关，并影响肺癌细胞存活，提示亮氨酸-SEL1L轴或成代谢疾病与肿瘤干预新方向。",
+     "summary_en": "A University of Cologne CECAD team led by Thorsten Hoppe reports in Nature Cell Biology (October 1) that the essential amino acid leucine dampens SEL1L-mediated protein degradation, stabilizing outer mitochondrial membrane proteins so mitochondria produce energy more efficiently. The mechanism affects fertility in worms and survival of lung cancer cells, pointing to the leucine-SEL1L axis as a new target."
+    },
+    {
+     "title_zh": "Nature Reviews Microbiology综述：从母乳到衰老，双歧杆菌如何塑造人体健康",
+     "title_en": "Nature Reviews Microbiology review: how Bifidobacteria shape human health from breast milk to aging",
+     "url": "https://rbase.chinagut.cn/base/article/738df86d4ea14780b7a4744967724635/1",
+     "source_zh": "热心肠日报/Nature Reviews Microbiology",
+     "source_en": "ChinaGut Daily/Nature Reviews Microbiology",
+     "date": "2026-09-28",
+     "summary_zh": "热心肠日报推荐、9月28日发表于Nature Reviews Microbiology的综述系统梳理双歧杆菌的生物地理分布、宿主适应与生态功能：从母乳喂养婴儿的肠道定植，到全生命周期中经母乳低聚糖代谢、短链脂肪酸生成与免疫调节影响宿主健康，为益生菌与精准营养干预提供全景式科学框架。",
+     "summary_en": "A September 28 review in Nature Reviews Microbiology maps the biogeography, host adaptation and ecological functions of Bifidobacteria - from colonizing the breastfed infant gut to shaping host health across life via human milk oligosaccharide metabolism, short-chain fatty acid production and immune modulation - offering a panoramic framework for probiotic and precision-nutrition strategies."
+    },
+    {
+     "title_zh": "果壳复盘中国精准营养赛道：雀巢关店、FANCL止步，低门槛问卷模式能否破局",
+     "title_en": "Guokr on China's precision nutrition market: Nestle exits, FANCL stalls - can low-cost questionnaire models break through?",
+     "url": "https://www.163.com/dy/article/L8ATCLMT05118OGM.html",
+     "source_zh": "果壳/网易",
+     "source_en": "Guokr/NetEase",
+     "date": "2026-10-03",
+     "summary_zh": "果壳撰文复盘国内精准营养赛道的起落：雀巢旗下Persona入局两年即关店，FANCL止步于分龄营养包，核心症结在于干血斑检测成本高企与海外算法缺乏中国人群队列数据。近期“营养日记”以3-5分钟问卷加7D机能雷达图、约400元月费的低门槛模式跑出，但“仅凭问卷靠谱吗”仍待临床证据回应。",
+     "summary_en": "A Guokr retrospective examines why precision nutrition stalled in China: Nestle's Persona closed its stores within two years and FANCL never moved beyond age-tier packs, squeezed by costly dried-blood-spot testing and foreign algorithms lacking Chinese cohort data. The low-cost app Nutrition Diary - a 3-5 minute questionnaire, a 7D radar profile and about 400 yuan monthly - is rising fast, though its validity still awaits clinical evidence."
+    },
+    {
+     "title_zh": "土豆替代主食半年瘦25斤：抗性淀粉经肠道菌群助力减脂的科学依据",
+     "title_en": "Potatoes instead of rice for 25 jin of weight loss: the resistant-starch and gut microbiome science",
+     "url": "https://finance.sina.cn/2026-10-03/detail-initwzsp5063304.d.html",
+     "source_zh": "新浪财经",
+     "source_en": "Sina Finance",
+     "date": "2026-10-03",
+     "summary_zh": "新浪财经10月3日科普抗性淀粉：汕头一男子以土豆替代精制主食半年减重25斤，血压血糖与脂肪肝同步改善。抗性淀粉绕过小肠消化、在大肠被菌群发酵，既往研究显示其可经调节肠道菌群帮助减重、减轻脂肪肝并改善血脂与胰岛素抵抗；全谷物、豆类、薯类及放凉的米饭土豆均为优质来源。",
+     "summary_en": "Sina Finance explains resistant starch: a Shantou man lost 25 jin in six months by swapping refined staples for potatoes, with blood pressure, glucose and fatty liver improving. Resistant starch bypasses small-intestinal digestion and is fermented by colonic microbes; studies link it to weight loss, reduced fatty liver and better lipids and insulin sensitivity, with whole grains, legumes, tubers and cooled rice or potatoes as top sources."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "EVITA二期试验：每日1000毫克维生素C未抑制癌前血细胞增殖，但炎症改善、死亡更少",
+     "title_en": "EVITA phase 2 trial: daily 1,000 mg vitamin C did not slow premalignant cell growth but showed less inflammation and fewer deaths",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260930225454.htm",
+     "source_zh": "ScienceDaily/CANCER",
+     "source_en": "ScienceDaily/CANCER",
+     "date": "2026-09-30",
+     "summary_zh": "Van Andel研究所牵头的EVITA二期随机对照试验（109人）测试每日1000毫克维生素C在克隆性血细胞减少与低危髓系肿瘤中的作用：主要终点未延缓异常细胞增殖，但炎症信号改善、贫血与肺炎等并发症减少；探索性分析随访33.6个月死亡11例对24例，生存获益需三期试验验证，胃肠道不良反应更多见。",
+     "summary_en": "The EVITA phase 2 randomized trial (109 participants), led from the Van Andel Institute, tested daily 1,000 mg vitamin C in clonal cytopenia and lower-risk myelial malignancies. The primary endpoint - slowing abnormal cell growth - was not met, but inflammatory markers improved, anemia and pneumonia fell, and exploratory follow-up at 33.6 months showed 11 versus 24 deaths; confirmation requires a phase 3 trial, with more GI side effects noted."
+    },
+    {
+     "title_zh": "Nutritional Outlook发布senolytic补剂配方指南：细胞健康的“诚实记分牌”",
+     "title_en": "Nutritional Outlook's senolytic supplement formulation guide: an honest scorecard for cellular health",
+     "url": "https://www.nutritionaloutlook.com/view/senolytic-supplement-formulation-guide-cellular-health-today",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-09-29",
+     "summary_zh": "Nutritional Outlook 9月29日刊文梳理senolytic（衰老细胞清除）补剂配方现状：在The Outlook on Active Nutrition活动上，Savage Nutra创始人Joey Savage为品牌方给出“诚实记分牌”——衰老细胞生物学的机制证据持续累积，但哪些成分真正具备人体临床获益数据仍是缺口，行业需正视研究阶段与营销声量之间的距离。",
+     "summary_en": "Nutritional Outlook's September 29 feature reviews the state of senolytic supplement formulation: at The Outlook on Active Nutrition, Savage Nutra founder Joey Savage gave brands an honest scorecard - mechanistic evidence on senescent cells keeps accumulating, but human clinical benefit data remain the gap, and the industry must mind the distance between research stage and marketing claims."
+    },
+    {
+     "title_zh": "SuanNutra将柠檬马鞭草种植迁至西班牙瓦伦西亚，强化品牌原料溯源与标准化",
+     "title_en": "SuanNutra moves lemon verbena cultivation to Valencia, Spain, for traceable branded ingredients",
+     "url": "https://www.nutritionaloutlook.com/view/suannutra-moves-lemon-verbena-cultivation--valencia-spain-branded-ingredients",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-02",
+     "summary_zh": "补剂原料商SuanNutra宣布将柠檬马鞭草种植迁往西班牙瓦伦西亚：在监管下的多农场种植体系支撑可溯源与标准化质量，为旗下多个品牌原料提供稳定植物药源。柠檬马鞭草常见于运动恢复、睡眠与肌肉保护类配方，此举反映植物原料供应链“地理标志化”的行业趋势。",
+     "summary_en": "Ingredient supplier SuanNutra is relocating lemon verbena cultivation to Valencia, Spain, where a supervised multi-farm system supports traceability and standardized quality for its branded ingredients. Lemon verbena appears in sports-recovery, sleep and muscle-protection formulas, and the move mirrors an industry trend toward origin-anchored botanical supply chains."
+    },
+    {
+     "title_zh": "Healthgevity推出hydraCELL+细胞水合与肌肉支持配方，面向长寿与体重管理场景",
+     "title_en": "Healthgevity launches hydraCELL+ cellular hydration and muscle-support formula for longevity care",
+     "url": "https://ssrpinstitute.org/news/healthgevity-introduces-hydracell-featuring-formulation-ip-developed-by-the-seeds-foundation-for-cellular-research",
+     "source_zh": "SSRP Institute",
+     "source_en": "SSRP Institute",
+     "date": "2026-10-02",
+     "summary_zh": "面向执业医师的精准长寿营养公司Healthgevity 10月2日推出hydraCELL+：每份含8克一水肌酸、10克海藻糖及丙氨酸、甘氨酸、谷氨酰胺与亮氨酸，围绕细胞水合、营养信号与能量供给三条路径支持肌肉生理，定位于健康老龄化、体重管理与运动表现人群，经医师渠道销售。",
+     "summary_en": "Practitioner-focused precision longevity nutrition company Healthgevity launched hydraCELL+ on October 2: each serving combines 8 g creatine monohydrate, 10 g trehalose plus alanine, glycine, glutamine and leucine, supporting muscle physiology through cellular hydration, nutrient signaling and energy availability, aimed at healthy aging, weight management and performance, sold via practitioner channels."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "新华社秋季健康指南：关节保暖、牙龈出血别只“降火”、谨防诺如病毒",
+     "title_en": "Xinhua's autumn health guide: keep joints warm, don't blame bleeding gums on 'internal heat', guard against norovirus",
+     "url": "https://news.cctv.com/2026/10/04/ARTIFD5emw9Z3YuRila4UILl261004.shtml",
+     "source_zh": "新华社/央视网",
+     "source_en": "Xinhua/CCTV",
+     "date": "2026-10-03",
+     "summary_zh": "新华社10月3日刊发秋季养生防病指南：广安门医院专家提示关节炎患者注意膝、手、腰背保暖，膏药与止痛药切勿自行加量；北大口腔专家指出牙龈出血多为牙菌斑性牙龈炎，“降火”无效，需洁治与牙线护理；中疾控专家提醒国庆假期做好手卫生，诺如病毒与手足口病均可再次感染。",
+     "summary_en": "Xinhua's October 3 autumn health guide: Guang'anmen Hospital experts advise keeping knees, hands and back warm and never self-escalating painkillers or medicated patches; Peking University dental experts note bleeding gums usually signal plaque-driven gingivitis where 'heat-clearing' fails and scaling plus interdental cleaning is needed; China CDC staff urge holiday hand hygiene as norovirus and hand-foot-mouth disease can reinfect."
+    },
+    {
+     "title_zh": "河南疾控发布10月健康风险提示：呼吸道传染病、诺如腹泻、虫媒与食物中毒",
+     "title_en": "Henan CDC's October health risk advisory: respiratory infections, norovirus, vector-borne disease and food poisoning",
+     "url": "https://www.toutiao.com/article/7692307052785435177",
+     "source_zh": "大河健康报/今日头条",
+     "source_en": "Dahe Health Daily/Toutiao",
+     "date": "2026-10-03",
+     "summary_zh": "河南省疾控中心10月3日发布10月健康风险评估：正值国庆假期与深秋降温，重点防范呼吸道传染病（建议6月龄以上无禁忌人群在流行季前尽早接种流感疫苗）、诺如病毒感染性腹泻与食物中毒、登革热等虫媒传染病；提醒假期出行科学佩戴口罩、注意手卫生与饮食饮水卫生，学校托幼机构加强晨午检。",
+     "summary_en": "Henan Provincial CDC issued its October risk assessment on October 3: with the National Day holiday and falling temperatures, priorities are respiratory infections (flu vaccination before the season for everyone aged 6 months and older without contraindications), norovirus diarrhea and food poisoning, and vector-borne diseases like dengue, plus mask-wearing, hand hygiene and school morning checks."
+    },
+    {
+     "title_zh": "ScienceDaily：每周仅一次力量训练也可能显著获益，抗肌少症不必“全或无”",
+     "title_en": "ScienceDaily: even one strength-training session a week may help - fighting sarcopenia need not be all-or-nothing",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260930020317.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-02",
+     "summary_zh": "ScienceDaily 10月2日发文聚焦年龄相关肌肉减少（肌少症）：深蹲、负重、弹力带乃至自重训练等抗阻运动可保留或重建力量，研究显示每周哪怕仅一次训练也能带来有意义的获益。肌少症增加跌倒、骨折与失能风险，专家呼吁将“最小可行力量训练”纳入老年健康管理基本盘，而非追求高强度打卡。",
+     "summary_en": "A ScienceDaily feature on October 2 spotlights age-related muscle loss (sarcopenia): resistance work - squats, weights, bands or bodyweight - preserves and rebuilds strength, and research shows even a single weekly session delivers meaningful benefits. Because sarcopenia raises the risk of falls, fractures and disability, experts urge making minimal viable strength training a baseline of geriatric care rather than chasing high-frequency routines."
+    },
+    {
+     "title_zh": "英格兰大型研究：近六成高血压患者不知晓患病，一半服药者血压仍不达标",
+     "title_en": "Large England study: nearly 6 in 10 people with hypertension are undiagnosed, half of those treated still uncontrolled",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260930225445.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-02",
+     "summary_zh": "一项覆盖英格兰的大规模研究显示：近六成高血压患者从未被诊断或治疗，而已服药者中仍有半数血压未达标；研究者呼吁更主动的“查找与控制”策略——扩大筛查、强化随访与用药优化，可预防数千例心梗与卒中，为慢病管理中的“知晓-行动差距”提供量化警示。",
+     "summary_en": "A large England-wide study finds nearly six in ten people with high blood pressure have never been diagnosed or treated, and half of those on medication still have elevated readings. Researchers call for a more proactive find-and-treat approach - broader screening, tighter follow-up and optimized therapy - that could prevent thousands of heart attacks and strokes, quantifying the know-do gap in chronic disease management."
+    }
+   ]
+  }
+ ]
+}
