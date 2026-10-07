@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-07",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月1日 — 10月7日（最近 7 天）",
+ "range_en": "Oct 1 – Oct 7, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "中科院大学聂广军/徐嘉琪团队：工程菌修复肠脑轴，同步改善结肠炎与精神共病",
+     "title_en": "UCAS team engineers gut bacteria to repair the gut-brain axis, easing colitis and psychiatric comorbidity",
+     "url": "https://news.qq.com/rain/a/20261006A07V4600",
+     "source_zh": "热心肠日报/腾讯新闻",
+     "source_en": "Mr-Gut Daily (Tencent News)",
+     "date": "2026-10-06",
+     "summary_zh": "热心肠日报第3746期报道，中国科学院大学聂广军、徐嘉琪团队构建可响应炎症微环境的工程菌：抵达病变肠段后由基质金属蛋白酶释放靶向蛋白，既锁死上皮紧密连接修复屏障，又促进乳酸杆菌与阿克曼氏菌增殖、恢复肠道GABA经循环作用于海马与前额叶。结肠炎小鼠体重下降被阻断、行为绝望缓解，疗效超越静脉注射抗TNFα抗体，为肠脑轴双通路干预提供新范式。",
+     "summary_en": "Mr-Gut Daily (issue 3746) reports that a team led by Nie Guangjun and Xu Jiaqi at the University of Chinese Academy of Sciences built inflammation-responsive engineered bacteria that release targeting proteins at lesion sites, sealing epithelial tight junctions to repair the gut barrier while boosting Lactobacillus and Akkermansia growth and restoring gut-derived GABA signaling to the hippocampus and prefrontal cortex. In colitis mice the therapy halted weight loss, eased despair-like behavior and outperformed intravenous anti-TNF antibodies, offering a dual-pathway paradigm for gut-brain intervention."
+    },
+    {
+     "title_zh": "海南大学张家超团队Cell子刊：益生菌LGG以代谢物丙酰左卡尼汀助攻肺癌靶向药，减毒增效",
+     "title_en": "Hainan University team reports in Cell Reports that probiotic LGG metabolite propionyl-L-carnitine boosts lung-cancer targeted therapy while cutting toxicity",
+     "url": "https://m.10jqka.com.cn/20261006/c680443436.shtml",
+     "source_zh": "同花顺财经",
+     "source_en": "10jqka Finance",
+     "date": "2026-10-06",
+     "summary_zh": "海南大学张家超团队10月1日在线发表于Cell Reports：在受试益生菌株中，鼠李糖乳杆菌GG最能提升吉非替尼抗肿瘤疗效并减轻肠道与肝脏损伤，且不改变全身药物暴露量。代谢组学锁定其特征代谢物丙酰左卡尼汀，单独给予即可重现抑瘤效应，伴随线粒体代谢重塑、NF-κB/IL-6通路抑制与凋亡增加，并经肠-肝-肿瘤器官芯片验证，为益生菌辅助肿瘤靶向治疗提供菌株级证据。",
+     "summary_en": "A team led by Zhang Jiachao at Hainan University, published online October 1 in Cell Reports, found that among tested probiotic strains Lactobacillus rhamnosus GG best enhanced gefitinib efficacy while easing gut and liver injury without changing systemic drug exposure. Metabolomics pinpointed propionyl-L-carnitine as the signature metabolite; giving it alone reproduced the tumor-suppressive effect via mitochondrial metabolic remodeling, NF-κB/IL-6 suppression and increased apoptosis, validated in gut-liver-tumor organ chips — strain-level evidence for probiotic support in oncology."
+    },
+    {
+     "title_zh": "热心肠日报：新模型揭示阿尔茨海默病肠道菌群代谢异常，APOE ε4携带者已现端倪",
+     "title_en": "New model reveals gut-microbiome metabolic abnormalities in Alzheimer's disease, already visible in APOE e4 carriers",
+     "url": "https://www.sohu.com/a/1084495340_185627",
+     "source_zh": "热心肠日报/搜狐",
+     "source_en": "Mr-Gut Daily (Sohu)",
+     "date": "2026-10-06",
+     "summary_zh": "热心肠日报解读新研究：结合机器学习的代谢通量模型显示，阿尔茨海默病患者肠道中Bacteroides uniformis与B. thetaiotaomicron丰度升高，是驱动代谢通量改变的主要菌种，大肠杆菌则贡献甲酸盐通量；健康人群中APOE ε4高风险等位基因携带者已呈现与患者相似的菌群代谢特征，提示菌群代谢扰动或早于认知症状，为肠-脑干预锁定可验证靶点。",
+     "summary_en": "Mr-Gut Daily explains a new study using machine-learning metabolic flux modeling: in Alzheimer's patients, elevated Bacteroides uniformis and B. thetaiotaomicron are the main species driving altered fluxes, with E. coli contributing formate flux. Notably, healthy carriers of the high-risk APOE e4 allele already show patient-like microbial metabolic signatures, especially in SAM and L-arginine fluxes, suggesting microbiome metabolic disturbance precedes cognitive symptoms and offering verifiable gut-brain targets."
+    },
+    {
+     "title_zh": "Lancet Microbe：健康人上呼吸道真菌图谱绘制，鼻咽与口咽真菌结构大不同",
+     "title_en": "Lancet Microbe maps the healthy upper-airway mycobiota: nasopharynx and oropharynx differ markedly",
+     "url": "https://rbase.chinagut.cn/base/article/5a4c8ad3bb284447a367d0d8af37a2e0/1",
+     "source_zh": "热心肠日报",
+     "source_en": "Mr-Gut Daily",
+     "date": "2026-10-07",
+     "summary_zh": "热心肠日报第3747期收录：威廉敏娜儿童医院Debby Bogaert团队10月1日发表于Lancet Microbe的横断面观察研究，绘制了健康个体上呼吸道真菌组图谱，显示鼻咽与口咽的真菌组成差异显著，宿主与环境因素分别塑造不同生态位。该工作填补呼吸道真菌组人群基线数据空白，为呼吸道疾病中的真菌-细菌-宿主互作研究与采样部位标准化提供参照框架。",
+     "summary_en": "Mr-Gut Daily (issue 3747) covers a cross-sectional study by Debby Bogaert's team at Wilhelmina Children's Hospital, published October 1 in The Lancet Microbe: the first comprehensive map of the upper-airway mycobiota in healthy individuals shows markedly different fungal composition between nasopharynx and oropharynx, shaped by distinct host and environmental factors, filling a population baseline gap and informing site-standardized sampling in future respiratory research."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "诺和诺德与礼来公布GLP-1衰老时钟读数：蛋白质组时钟显示生物年龄最多减速4年",
+     "title_en": "Novo Nordisk and Eli Lilly unveil GLP-1 aging-clock readings: proteomic clocks show biological age slowing by up to 4 years",
+     "url": "https://m.10jqka.com.cn/20261007/c680445279.shtml",
+     "source_zh": "同花顺财经",
+     "source_en": "10jqka Finance",
+     "date": "2026-10-07",
+     "summary_zh": "同花顺财经10月7日报道，在ARDD 2026披露的新分析中，诺和诺德基于10052名受试者的蛋白组学时钟显示司美格鲁肽随时间带来广泛衰老减速，基于心脏蛋白的时钟变化最高达4年，整体约2-3年；礼来用表观遗传时钟评估替尔泊肽得到方向一致的结果。Horvath等时钟领域专家认为这是GLP-1作为衰老保护剂十年来最有力的证据，但也强调结论目前仅适用于超重或代谢病人群，健康人群获益未知。",
+     "summary_en": "10jqka reported on October 7 that new analyses unveiled at ARDD 2026 show Novo Nordisk's proteomic clocks across 10,052 participants indicating broad deceleration of biological aging on semaglutide, with a heart-protein clock showing changes of up to four years and overall effects of about two to three years; Eli Lilly saw concordant results for tirzepatide using epigenetic clocks. Clock pioneers such as Steve Horvath call it the strongest evidence in a decade that GLP-1s act as geroprotectors, while cautioning the data apply only to overweight or metabolic-disease populations."
+    },
+    {
+     "title_zh": "Aging Cell：表型药物发现新型漆黄素衍生黄酮类senolytics，小鼠健康寿命标志物改善",
+     "title_en": "Aging Cell: novel fisetin-derived flavonoid senolytics discovered by phenotypic drug discovery improve healthspan markers in mice",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261007000412222.htm",
+     "source_zh": "生物通",
+     "source_en": "Ebiotrade",
+     "date": "2026-10-07",
+     "summary_zh": "生物通10月7日编译Aging Cell研究：针对漆黄素疗效欠佳与生物利用度低的瓶颈，研究人员以整合表型药物发现策略开发两种新型漆黄素衍生黄酮类衰老细胞清除剂SR29384与SR31133，清除活性增强且覆盖多种衰老细胞类型；机制研究提示其经PARP1、CDK2及可能的BCL-xL通路选择性诱导衰老细胞凋亡，在小鼠衰老模型中减少组织衰老并改善多项健康寿命相关参数。",
+     "summary_en": "Ebiotrade compiles an Aging Cell study reporting two novel fisetin-derived flavonoid senolytics, SR29384 and SR31133, developed through integrated phenotypic drug discovery to overcome fisetin's modest efficacy and poor bioavailability. The compounds show enhanced senolytic activity across senescent cell types; transcriptomics, machine learning and network pharmacology point to selective apoptosis via PARP1, CDK2 and possibly BCL-xL, reducing tissue senescence and improving multiple healthspan markers in aged mice."
+    },
+    {
+     "title_zh": "长寿需要误差棒：Deerfield掌门Jim Flynn筹办非营利长寿中心，直指行业信息噪声",
+     "title_en": "Show me the error bars: Deerfield's Jim Flynn is building a not-for-profit longevity center to cut through the hype",
+     "url": "https://longevity.technology/news/show-me-the-error-bars-before-you-sell-me-longevity/",
+     "source_zh": "Longevity.Technology",
+     "source_en": "Longevity.Technology",
+     "date": "2026-10-06",
+     "summary_zh": "Longevity.Technology 10月6日在ARDD 2026场边专访Deerfield管理合伙人Jim Flynn：他直言长寿是个误称、更看好健康寿命的投资逻辑，并指出许多长寿生物科技公司先拿其他适应症获批的表态本身就说明衰老终点难以测量。他正在纽约筹建非营利长寿中心，以数字平台提供无利益偏向的干预证据评估，自建调配实验室实测肽类等热门干预，核心主张是卖长寿之前先缩小误差棒。",
+     "summary_en": "Longevity.Technology interviewed Deerfield managing partner Jim Flynn on the sidelines of ARDD 2026: he calls longevity a misnomer, prefers healthspan-based investment logic, and notes that many longevity biotechs admitting they will seek approval for other indications first reveals how hard aging endpoints are to measure. He is building a not-for-profit longevity center in New York with an unbiased digital evidence platform and an in-house compounding lab to actually test trendy interventions — his message: shrink the error bars before selling longevity."
+    },
+    {
+     "title_zh": "ScienceDaily：斯坦福找到促老年关节软骨再生的小分子策略，或减少关节置换需求",
+     "title_en": "ScienceDaily: Stanford strategy regrows aged joint cartilage, potentially reducing the need for joint replacement",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-06",
+     "summary_zh": "ScienceDaily 10月6日报道，斯坦福团队发现阻断一种随年龄在关节内增多的蛋白后，老年小鼠自然丢失的膝关节软骨得以再生，并在前交叉韧带样损伤后预防骨关节炎发生；来自膝关节置换患者的软骨组织经同款抑制剂处理，也重新产出有功能的新软骨。研究将靶点锁定于软骨细胞随龄退变机制，为骨关节炎这一健康寿命的主要负担提供潜在疾病修饰路径，向人体的转化仍有待验证。",
+     "summary_en": "ScienceDaily reported October 6 that Stanford researchers found blocking a protein that accumulates in joints with age regrew naturally lost knee cartilage in old mice and prevented osteoarthritis after ACL-like injuries; cartilage tissue from knee-replacement patients also produced new functional cartilage when exposed to the same inhibitor. By targeting age-related chondrocyte decline, the approach offers a potential disease-modifying route for osteoarthritis, though human translation remains to be proven."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "MIT团队Nature发文：生酮饮食经脂质而非酮体加剧小鼠小肠肿瘤、抑制结肠肿瘤",
+     "title_en": "MIT team in Nature: ketogenic diet drives small-intestinal tumors via lipids, not ketones, while suppressing colonic tumors",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261002080037.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-05",
+     "summary_zh": "ScienceDaily 10月5日报道，MIT团队发表于Nature的研究显示：生酮饮食使易患肠癌小鼠的小肠肿瘤增多，却令结肠肿瘤减少，同一饮食在相邻肠段作用截然相反。机制上风险并非来自酮体，而是肠道干细胞燃烧高脂脂肪酸氧化、激活PPAR家族加速增殖；家族性腺瘤性息肉病等遗传易感人群尤需警惕，商用酮酯补剂不会重现两类效应，生酮饮食的肠段特异性风险亟待人群研究厘清。",
+     "summary_en": "ScienceDaily reported October 5 on an MIT study in Nature: a ketogenic diet increased small-intestinal tumors in cancer-prone mice while reducing colonic tumors, with opposite effects in adjacent gut segments. The risk traced not to ketones but to intestinal stem cells oxidizing the diet's high fat load, activating PPAR proteins and accelerating proliferation. People with inherited predispositions such as familial adenomatous polyposis should take note, while commercial ketone supplements would not reproduce either effect."
+    },
+    {
+     "title_zh": "GUT综述：重启肠道生物钟，限时进食如何逆转代谢危机",
+     "title_en": "GUT review: resetting the intestinal clock — how time-restricted eating reverses metabolic crisis",
+     "url": "https://www.sohu.com/a/1084493258_185627",
+     "source_zh": "热心肠日报/搜狐",
+     "source_en": "Mr-Gut Daily (Sohu)",
+     "date": "2026-10-06",
+     "summary_zh": "热心肠日报解读GUT综述：进食-禁食循环是肠道时钟最强的授时因子，菌群经短链脂肪酸与胆汁酸反哺肠壁细胞昼夜节律，节律失调可致餐后血糖飙升、肠易激综合征与结肠炎恶化。限时进食在动物中可逆转时差样代谢紊乱，克罗恩病患者小型RCT仅靠限制进食窗口即降低内脏脂肪与全身炎症；褪黑素等节律调节剂与时机疗法为个体化调控提供新选项，什么时候吃与吃什么同样重要。",
+     "summary_en": "Mr-Gut Daily distills a GUT review: the feeding-fasting cycle is the strongest zeitgeber of the intestinal clock, with microbial SCFAs and bile acids feeding back on epithelial circadian programs, while circadian disruption drives postprandial hyperglycemia, IBS and colitis flares. Time-restricted eating reversed jet-lag-like metabolic derangement in animals, and in a small Crohn's RCT merely narrowing the eating window lowered visceral fat and systemic inflammation — when you eat matters as much as what you eat."
+    },
+    {
+     "title_zh": "Nature Metabolism随机交叉试验：超加工食品的代谢与神经应答新证据",
+     "title_en": "Nature Metabolism randomized crossover trial: new evidence on metabolic and neural responses to ultra-processed foods",
+     "url": "https://rbase.chinagut.cn/base/article/8d704544d5d04d738ccac831fedbb0a7/1",
+     "source_zh": "热心肠日报",
+     "source_en": "Mr-Gut Daily",
+     "date": "2026-10-07",
+     "summary_zh": "热心肠日报第3747期收录：弗吉尼亚理工大学Zach Hutelin与Alexandra DiFeliceantonio团队10月5日发表于Nature Metabolism的随机对照交叉试验，系统刻画摄入不同加工度食品后的代谢与神经应答差异，为超加工食品的健康影响提供受控人体证据，并把关注点从热量与体重推进到大脑奖赏与代谢信号如何被加工工艺改写。",
+     "summary_en": "Mr-Gut Daily (issue 3747) covers a randomized controlled crossover trial by Zach Hutelin and Alexandra DiFeliceantonio of Virginia Tech, published October 5 in Nature Metabolism, systematically characterizing metabolic and neural responses to foods of differing processing levels. The controlled human evidence pushes the ultra-processed food debate beyond calories and body weight toward how processing reshapes brain reward and metabolic signaling, informing future food policy and clinical guidance."
+    },
+    {
+     "title_zh": "Lancet综述：女性GLP-1使用者瘦体重流失约三成，营养缺口与可及性障碍被低估",
+     "title_en": "Lancet review: women on GLP-1s lose roughly 30% lean mass, with nutrient gaps and access barriers underestimated",
+     "url": "https://www.nutritionaloutlook.com/view/lancet-review-flags-lean-mass-loss-access-barriers-women-glp-1s",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-05",
+     "summary_zh": "Nutritional Outlook 10月5日报道，Meek团队9月29日发表于Lancet妇产科与女性健康的综述指出，GLP-1使用者以女性为主但指南滞后：减重中约30%为瘦体重，或加剧老年女性衰弱；早期热量锐减使维D、钾、胆碱、镁、铁摄入不足高发，约22.5%长期使用者出现确诊营养缺乏。抗阻训练加足量蛋白是保肌关键，药价、假药与运动壁垒亦待解。",
+     "summary_en": "Nutritional Outlook reported October 5 on a narrative review by Claire Meek's team published September 29 in The Lancet Obstetrics, Gynaecology & Women's Health: women are the predominant GLP-1 users yet guidance lags behind. About 30% of weight lost is lean mass, raising frailty risk in older women; sharp early caloric restriction leaves many short on vitamin D, potassium, choline, magnesium and iron, with roughly 22.5% of long-term users developing diagnosed deficiencies. Resistance training plus adequate protein is key, alongside addressing cost, counterfeit supply and gendered exercise barriers."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "美国最高法院拒绝受理CRN诉纽约州补剂年龄限制法案，案件发回地区法院",
+     "title_en": "US Supreme Court declines CRN's challenge to New York supplement age-restriction law, case returns to district court",
+     "url": "https://www.nutritionaloutlook.com/view/supreme-court-declines-crns-challenge-new-york-supplement-age-restriction-law",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-06",
+     "summary_zh": "Nutritional Outlook 10月6日报道，美国最高法院拒绝受理负责任营养委员会（CRN）对纽约州补剂年龄限制法的调卷申请，该法限制向未成年人销售以减重或增肌为卖点的膳食补充剂。CRN强调不受理并非实体裁决，案件回到地区法院；行业认为该法以营销话术而非成分为标准、覆盖过宽，加州已签署类似AB 2030，州级立法与商业言论的拉锯将持续。",
+     "summary_en": "Nutritional Outlook reported October 6 that the US Supreme Court declined to hear the Council for Responsible Nutrition's challenge to New York's law restricting sales of weight-loss and muscle-building supplements to minors. CRN stresses the denial is not a ruling on the merits and the case returns to district court; the industry argues the statute regulates marketing claims rather than ingredients and is overbroad. With California's similar AB 2030 already signed, the tug-of-war between state legislation and commercial speech continues."
+    },
+    {
+     "title_zh": "Lemme在沃尔玛独家上新GLP-1 Production Support胶囊，天然GLP-1支持赛道再升温",
+     "title_en": "Lemme launches Walmart-exclusive GLP-1 Production Support capsule as the natural GLP-1 support category heats up",
+     "url": "https://www.nutritionaloutlook.com/view/lemme-new-glp-1-production-support-capsule-puts-familiar-formulation-question-to-the-test",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-06",
+     "summary_zh": "Nutritional Outlook 10月6日报道，Kourtney Kardashian旗下品牌Lemme在沃尔玛独家推出GLP-1 Production Support胶囊，以专利柠檬黄酮复合物Eriomin为核心，配伍铬、小檗碱、肌醇、苦瓜与维生素B12，宣称支持人体自然GLP-1分泌。Eriomin的12周交叉RCT显示空腹血糖降5%、GLP-1升17%，但完整配方缺乏临床数据。",
+     "summary_en": "Nutritional Outlook reported October 6 that Lemme, co-founded by Kourtney Kardashian Barker, launched Walmart-exclusive GLP-1 Production Support capsules built on the patented lemon flavonoid complex Eriomin with chromium, berberine, myo-inositol, bitter melon and vitamin B12, marketed as supporting the body's natural GLP-1 production. Eriomin's 12-week crossover trial showed 5% lower fasting glucose and 17% higher GLP-1, but the full six-ingredient formula lacks clinical data; the category has faced lawsuits and the FDA has issued only one GLP-1 supplement warning letter."
+    },
+    {
+     "title_zh": "Nutrition Insight：Greenvit野樱莓提取物体外模拟研究显示菌群密度与短链脂肪酸双升",
+     "title_en": "Nutrition Insight: Greenvit's aronia extract raises bacterial density and SCFA production in ex vivo gut model",
+     "url": "https://www.nutritioninsight.com/news/greenvit-aronvit-aronia-study-gut-scfa-production.html",
+     "source_zh": "Nutrition Insight",
+     "source_en": "Nutrition Insight",
+     "date": "2026-10-06",
+     "summary_zh": "Nutrition Insight 10月6日报道，波兰Greenvit公布Aronvit野樱莓提取物的SIFR体外全消化道模拟研究：单次200毫克24小时后细菌密度提升15%、总短链脂肪酸增加10%，产丁酸相关菌Dysosmobacter welbionis增129%。三种花青素相近但多酚与纤维不同的提取物应答各异，提示原料标准化不能只看花青素，提取工艺与基质同样决定菌群结局。",
+     "summary_en": "Nutrition Insight reported October 6 that Poland's Greenvit released SIFR ex vivo results for its Aronvit aronia extract: 24 hours after a single 200 mg dose, bacterial density rose 15% and total SCFAs 10%, with the butyrate-associated Dysosmobacter welbionis up 129% and cross-feeding network bacteria such as Faecalibacterium and Roseburia also increasing. Three extracts matched for anthocyanins but differing in polyphenols and fiber responded differently, suggesting standardization must account for processing and matrix, not anthocyanin content alone."
+    },
+    {
+     "title_zh": "台湾2026保健食品消费大调查：人均年补6.6项，台大教授潘敏雄破解五大迷思",
+     "title_en": "Taiwan 2026 supplement consumer survey: 6.6 products per user yearly, NTU professor debunks five myths",
+     "url": "https://health.tvbs.com.tw/nutrition/366518",
+     "source_zh": "TVBS健康2.0",
+     "source_en": "TVBS Health 2.0",
+     "date": "2026-10-06",
+     "summary_zh": "TVBS健康2.0 10月6日报道，台湾保健食品学会发布2026国人保健食品消费大调查：有补充者年均食用6.6项，前五名为B族（55.4%）、叶黄素（50.6%）、益生菌（47.6%）、维C（42.3%）与鱼油藻油（40%）。理事长潘敏雄提出辨识、选择、执行、检视四步科学补充法，澄清脂溶性成分宜随餐吸收、抗氧化不等于逆转老化、亲友有感不等于循证，多品项叠加须警惕成分重复与药物相互作用。",
+     "summary_en": "TVBS Health 2.0 reported October 6 that Taiwan's Society of Dietary Supplements released its 2026 national consumer survey: supplement users average 6.6 products yearly, led by B vitamins (55.4%), lutein (50.6%), probiotics (47.6%), vitamin C (42.3%) and fish/algae oil (40%). Society chair Pan Min-hsiung proposes a four-step approach — identify, choose, execute, review — clarifying that fat-soluble nutrients absorb better with meals, antioxidants cannot reverse aging, anecdotal efficacy is not evidence, and stacking products risks duplication and drug interactions."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "剑桥Heartwear获英国NHS 1.84亿英镑采购：全球首款医疗级无线充电多导联心电可穿戴",
+     "title_en": "Cambridge Heartwear wins £184M NHS tender for the world's first medical-grade wirelessly charged multichannel ECG wearable",
+     "url": "https://english.kyodonews.net/articles/-/87396",
+     "source_zh": "Kyodo News/PR Newswire",
+     "source_en": "Kyodo News (PR Newswire)",
+     "date": "2026-10-07",
+     "summary_zh": "据PR Newswire 10月7日消息，剑桥大学孵化的Cambridge Heartwear获英国NHS供应链1.84亿英镑采购，其HeartSense可穿戴集诊断级多导联心电、自适应AI与无线充电于一身，患者居家即可持续监测心律，更早识别心衰与卒中风险；产品已获UKCA与ISO 13485认证、FDA 510(k)申请进行中，兼顾女性心血管人体工学，将向初级与二级医疗体系规模部署。",
+     "summary_en": "PR Newswire reported October 7 that Cambridge Heartwear, spun out of the University of Cambridge, won a £184 million UK NHS Supply Chain tender for HeartSense, the first medical-grade wearable combining diagnostic multichannel ECG, adaptive AI and wireless charging, letting patients monitor heart rhythm at home to catch heart failure and stroke risk earlier. UKCA and ISO 13485 certified with FDA 510(k) pending, the device features ergonomic design for women's cardiovascular care and will scale across primary and secondary care."
+    },
+    {
+     "title_zh": "Mito上线249美元冠脉钙化扫描：免转介快速出结果，长寿检测版图再扩张",
+     "title_en": "Mito adds a $249 coronary calcium scan: no referral needed, results in a day, as longevity testing expands",
+     "url": "https://longevity.technology/news/mito-adds-a-249-heart-scan-who-needs-one/",
+     "source_zh": "Longevity.Technology",
+     "source_en": "Longevity.Technology",
+     "date": "2026-10-06",
+     "summary_zh": "Longevity.Technology 10月6日报道，健康检测公司Mito新增冠脉钙化积分CT扫描：会员价249美元、覆盖全美50州、无需转介，结果24小时内进入个人看板。依据2026版ACC/AHA血脂指南，40岁以上男性与45岁以上女性的中低危人群可借钙化积分决定是否启用他汀；文章同时提醒积分为零不等于零风险、扫描看不到软斑块，可购买人群与指南圈定范围存在错位，检测前宜与医生充分沟通。",
+     "summary_en": "Longevity.Technology reported October 6 that health-testing company Mito added a coronary artery calcium CT scan: $249 for members, available in all 50 states without a referral, with results in the dashboard within 24 hours. Under the 2026 ACC/AHA dyslipidemia guideline, men over 40 and women over 45 at borderline-to-intermediate risk can use the calcium score to decide on statins; the piece cautions that a score of zero is not zero risk, soft plaque stays invisible, and who may buy the scan is broader than whom the guideline targets."
+    },
+    {
+     "title_zh": "同花顺产业透视：2026-2030中国健康科技全景，AI健康管理用户规模突破1.2亿",
+     "title_en": "China health-tech outlook 2026-2030: AI health-management users surpass 120 million",
+     "url": "https://m.10jqka.com.cn/20261007/c680445956.shtml",
+     "source_zh": "同花顺财经",
+     "source_en": "10jqka Finance",
+     "date": "2026-10-07",
+     "summary_zh": "同花顺财经10月7日刊发健康科技产业研究：2026年政府工作报告首次将生物医药列为新兴支柱产业，国民健康十五五规划提出2027年建成国家级AI应用中试基地、2030年智能辅助诊疗覆盖所有基层与二级以上医院；AI健康管理用户已突破1.2亿，基层医疗机构AI覆盖率达80%，依托可穿戴与远程诊疗的医院-社区-家庭三级管理网络使慢病管理指标改善率达60%，电子健康档案覆盖率达97%。",
+     "summary_en": "10jqka published an industry review on October 7: China's 2026 government work report listed biomedicine as an emerging pillar industry for the first time, and the national health five-year plan targets a national AI pilot-testing base by 2027 and intelligent diagnostic support across all primary and secondary-plus hospitals by 2030. AI health-management users have surpassed 120 million, 80% of grassroots medical institutions use AI, and a hospital-community-home network built on wearables and telemedicine has lifted chronic-disease management improvement rates to 60%."
+    },
+    {
+     "title_zh": "ScienceDaily：产后护理加配患者导航员，抑郁筛查与长期随访显著改善",
+     "title_en": "ScienceDaily: adding patient navigators to postpartum care markedly improves depression screening and follow-up",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261003234017.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-06",
+     "summary_zh": "ScienceDaily 10月6日报道，为新手妈妈配备患者导航员可显著提升产后照护完成率：受试母亲更可能获得产后访视、抑郁筛查、预防性检测与持续初级保健连接，导航员通过协助解决交通、托育、预约与复杂医疗信息等现实障碍发挥作用。研究者认为这一低成本增量服务有望成为改善女性长期健康的有力杠杆，为产后抑郁高发背景下的健康管理服务设计提供可复制样板。",
+     "summary_en": "ScienceDaily reported October 6 that pairing new mothers with patient navigators markedly improved postpartum care completion: participants were far more likely to receive postpartum visits, depression screening, preventive testing and ongoing primary care, as navigators helped clear practical barriers such as transportation, childcare, scheduling and confusing medical information. Researchers see this low-cost add-on as a powerful lever for women's long-term health and a replicable template for postpartum health-management services."
+    }
+   ]
+  }
+ ]
+}
