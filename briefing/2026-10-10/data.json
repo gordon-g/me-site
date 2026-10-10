@@ -1,0 +1,226 @@
+{
+ "date": "2026-10-10",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月4日 — 10月10日（最近 7 天）",
+ "range_en": "Oct 4 – Oct 10, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Science：为什么打疫苗容易发烧？肠道菌群早已“ preset ”免疫基调",
+     "title_en": "Science: Gut microbes help set the body's fever response to vaccination",
+     "url": "https://news.qq.com/rain/a/20261009A04K4V00",
+     "source_zh": "热心肠日报",
+     "source_en": "Hot Gut Daily",
+     "date": "2026-10-09",
+     "summary_zh": "马克斯·普朗克研究所Ruth Ley团队整合171名成人纵向体温监测与多组学发现：肠道菌群通过持续高产鞭毛蛋白预致敏先天免疫，奠定疫苗接种后发热反应基调；高发热者富集毛螺菌科Waltera属并伴低度肠道炎症，西式饮食与羧甲基纤维素促进鞭毛蛋白产生，而植物性饮食者发热反应更弱。",
+     "summary_en": "A Max Planck team led by Ruth Ley combined longitudinal temperature monitoring and multi-omics in 171 adults, showing that gut microbes constantly producing flagellin pre-sensitize innate immunity and set the tone of post-vaccination fever. High-responders carried more Waltera (Lachnospiraceae) with low-grade gut inflammation; Western diet and CMC boosted flagellin, while plant-based diets were linked to weaker fever responses."
+    },
+    {
+     "title_zh": "GUT：基因决定易感而肠道决定发病，脂肪肝干预新思路",
+     "title_en": "GUT: Genes set susceptibility, the gut drives disease — new ideas for fatty liver intervention",
+     "url": "https://news.qq.com/rain/a/20261009A04NPY00",
+     "source_zh": "热心肠日报",
+     "source_en": "Hot Gut Daily",
+     "date": "2026-10-09",
+     "summary_zh": "GUT发表研究揭示基因缺陷与西方饮食“双打击”下肠屏障失守，菌群代谢的长链神经酰胺与次级胆汁酸飙升，压制肝细胞线粒体功能并驱动脂肪肝。粪菌移植健康菌群或口服巴氏灭活Akk菌及其膜蛋白Amuc1100均可修复屏障、降低有害神经酰胺，即便在高脂饮食下依然有效。",
+     "summary_en": "A GUT study shows that a 'double hit' of genetic defects plus Western diet breaks down the gut barrier, letting microbial long-chain ceramides and secondary bile acids impair hepatocyte mitochondria and drive fatty liver. Fecal microbiota transfer or pasteurized A. muciniphila and its membrane protein Amuc1100 restored the barrier and lowered harmful ceramides even under high-fat feeding."
+    },
+    {
+     "title_zh": "Cell子刊：从肠道定植到跨宿主传播，共生菌的快速适应性进化",
+     "title_en": "Cell subjournal: Rapid adaptive evolution of gut commensals, from colonization to cross-host spread",
+     "url": "https://news.qq.com/rain/a/20261009A04XL800",
+     "source_zh": "热心肠日报",
+     "source_en": "Hot Gut Daily",
+     "date": "2026-10-09",
+     "summary_zh": "研究用条形码追踪拟杆菌发现：肠道共生菌在小鼠体内数周内即可快速适应性进化，复杂多糖环境更能重现体内选择压力，且近缘谱系可演化出盲肠或粪便偏好等可遗传空间生态位，却不影响跨宿主传播能力。这一动态演化图景为设计更稳定定植的益生菌疗法提供理论锚点。",
+     "summary_en": "Barcode-tracking of Bacteroides shows gut commensals can rapidly adapt within weeks in mice. Complex polysaccharides best recapitulate in vivo selection, and closely related lineages evolve heritable spatial niches (cecal vs fecal bias) without losing cross-host transmissibility — a dynamic evolutionary map guiding the design of more stably colonizing probiotics."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Science：894只犬表观遗传时钟解释“大型犬为何短寿”，转座子成关键线索",
+     "title_en": "Science: Epigenetic clocks in 894 dogs explain why big dogs die young, pointing to transposable elements",
+     "url": "https://allatra.media/news/science-dog-size-epigenetic-aging-transposons",
+     "source_zh": "Science（亚利桑那州立大学等）",
+     "source_en": "Science (Arizona State University et al.)",
+     "date": "2026-10-08",
+     "summary_zh": "亚利桑那州立大学团队基于犬类衰老项目894只犬的1640个甲基化组构建表观遗传时钟：时钟可预测死亡风险，且表观衰老在生命早期最快；体型更大、寿命更短的公犬分子衰老加速，性别相关变化集中于X染色体，体型相关变化聚焦转座子区域，为“衰老速度决定寿命”提供了跨物种自然实验证据。",
+     "summary_en": "Using 1,640 methylomes from 894 dogs in the Dog Aging Project, ASU researchers built an epigenetic clock that predicts mortality, with epigenetic aging fastest early in life. Larger, shorter-lived male dogs showed accelerated molecular aging; sex effects concentrated on the X chromosome while size effects were pronounced at transposable elements — a natural cross-species experiment linking aging pace to lifespan."
+    },
+    {
+     "title_zh": "Restore联合Niagen Bioscience宣布十月为“长寿月”：从寿命转向健康寿命",
+     "title_en": "Restore and Niagen Bioscience declare October 'Longevity Month', shifting focus from lifespan to healthspan",
+     "url": "https://www.prnewswire.com/news-releases/restore-hyper-wellness-and-niagen-bioscience-team-up-to-help-americans-age-better-this-october-302901988.html",
+     "source_zh": "PR Newswire",
+     "source_en": "PR Newswire",
+     "date": "2026-10-08",
+     "summary_zh": "美国最大科学背书个性化健康服务连锁Restore Hyper Wellness与NAD+科学领导者Niagen Bioscience联合宣布十月为“长寿月”，推动公众关注从延长寿命转向健康寿命；首席科学官提出下午精力崩溃、恢复变慢、睡眠失效、放弃爱好、全或无式锻炼五大衰老信号，并倡导以可坚持的小习惯叠加细胞健康干预。",
+     "summary_en": "Restore Hyper Wellness, the largest science-backed personalized wellness franchise in the US, has partnered with Niagen Bioscience to declare October 'Longevity Month', reframing the conversation from lifespan to healthspan. Their chief science officer lists five everyday aging signals — afternoon crashes, slower recovery, unrefreshing sleep, abandoned hobbies and all-or-nothing routines — and champions small, sustainable habits plus cellular-health support."
+    },
+    {
+     "title_zh": "每天酸奶+饮食管理+运动：日本小型研究显示男性生物衰老速度放缓约2.2%",
+     "title_en": "Daily yogurt, diet counseling and exercise slowed biological aging by about 2.2% in Japanese men",
+     "url": "https://gciot.org/article/daily-yogurt-diet-and-exercise-slowing-down-biological-aging-in-men",
+     "source_zh": "Aging期刊研究综述",
+     "source_en": "Aging (journal) study review",
+     "date": "2026-10-10",
+     "summary_zh": "日本一项针对48名50-74岁超重男性的研究显示：每日100克无糖酸奶配合减少过食与含糖饮料的饮食指导、每周至少三次30分钟步行或踏步运动，持续干预后DunedinPACE测算的生物衰老速度放缓约2.2%，效果与25%热量限制研究相当，且独立于体重下降，提示简单生活方式组合即可影响衰老速率。",
+     "summary_en": "In a Japanese study of 48 overweight men aged 50-74, daily intake of 100 g plain yogurt plus dietary counseling and at least three 30-minute walks per week slowed DunedinPACE-measured biological aging by about 2.2% — comparable to 25% caloric restriction in prior research — with benefits independent of weight loss, suggesting a simple lifestyle bundle can shift the pace of aging."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "AJCN随机试验：抗阻训练下素食者与杂食者增肌接近，杂食者肌肉量多增约70%",
+     "title_en": "AJCN RCT: Vegetarians and omnivores gain strength alike on resistance training, but omnivores gain ~70% more muscle mass",
+     "url": "https://www.sciencealert.com/new-trial-compared-muscle-gains-in-vegetarians-and-meat-eaters-one-difference-stood-out",
+     "source_zh": "ScienceAlert / Am J Clin Nutr",
+     "source_en": "ScienceAlert / American Journal of Clinical Nutrition",
+     "date": "2026-10-10",
+     "summary_zh": "阿姆斯特丹应用科学大学团队让108名55岁以上成人随机采用素食或杂食饮食并进行每周三次抗阻训练、蛋白质≥1.2克/公斤：12周后两组肌力与体功能改善相当，但杂食组四肢肌肉量增幅约0.66公斤，比素食组（0.38公斤）高约70%；素食组中蛋白摄入越高增肌越多，提示植物基饮食者更需关注蛋白量与质。",
+     "summary_en": "In a randomized trial from Amsterdam University of Applied Sciences, 108 adults aged 55+ followed vegetarian or omnivorous diets with resistance training three times weekly and at least 1.2 g protein/kg. After 12 weeks, strength and function improved similarly, but omnivores gained ~70% more limb muscle (0.66 vs 0.38 kg). Vegetarians gained more muscle with higher protein intake, underscoring protein quantity and quality for plant-based eaters."
+    },
+    {
+     "title_zh": "个性化营养助力夜班工人：随机研究显示胆固醇与炎症指标改善",
+     "title_en": "Personalized nutrition for night-shift workers linked to reduced cholesterol and inflammation",
+     "url": "https://www.nutraingredients.com/Article/2026/10/09/personalized-nutrition-may-cut-cholesterol-in-night-workers/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-09",
+     "summary_zh": "NutraIngredients报道一项针对夜班工人的个性化营养研究：依据个体代谢与作息特征定制膳食方案后，参与者胆固醇水平下降、炎症标志物改善。夜班人群因昼夜节律紊乱面临更高心血管代谢风险，该研究提示把“进食时间”纳入精准营养处方，或成轮班职业健康管理的新抓手。",
+     "summary_en": "NutraIngredients reports a personalized nutrition study in night-shift workers: dietary plans tailored to individual metabolic and circadian profiles were linked to lower cholesterol and improved inflammatory markers. With circadian disruption raising cardiometabolic risk in shift workers, factoring meal timing into precision-nutrition prescriptions may become a new lever for occupational health management."
+    },
+    {
+     "title_zh": "大型综述：并非所有反式脂肪都有害，天然与工业来源需区别看待",
+     "title_en": "Major review: Not all trans fats are bad — natural and industrial sources should be judged differently",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261006234505.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-07",
+     "summary_zh": "ScienceDaily报道一项大型综述，对“反式脂肪一律有害”的笼统结论提出修正：工业部分氢化油产生的人工反式脂肪与心血管风险证据确凿，而反刍动物来源的天然反式脂肪酸（如共轭亚油酸、反式异油酸）在常规膳食剂量下的健康影响与人工来源并不相同，营养政策与标签管理需按来源区别对待。",
+     "summary_en": "A major review covered by ScienceDaily refines the blanket claim that all trans fats are harmful: industrial trans fats from partial hydrogenation carry well-established cardiovascular risks, whereas ruminant-derived natural trans fatty acids such as CLA and trans-vaccenic acid behave differently at usual dietary intakes — arguing for source-specific nutrition policy and labeling."
+    },
+    {
+     "title_zh": "国际专家综述：肌肉健康应成为临床营养核心目标，功能比肌肉量更重要",
+     "title_en": "Expert review: Muscle health should become the core goal of clinical nutrition — function matters more than mass",
+     "url": "https://www.163.com/dy/article/L8S18E1405149U3U.html",
+     "source_zh": "全球医生组织",
+     "source_en": "GlobalMD",
+     "date": "2026-10-10",
+     "summary_zh": "最新国际专家综述呼吁把肌肉健康视为临床营养学核心且可测量的目标，而非疾病或衰老的次要结果：肌肉健康不等于肌肉量，还涵盖力量、耐力、代谢与自我功能评估；肿瘤、危重症、衰老与减重（含GLP-1药物人群）需求各异，单一“多吃蛋白”并不够，需个性化营养支持并建立标准化测量方法。",
+     "summary_en": "A new international expert review argues muscle health should be a core, measurable target of clinical nutrition rather than a secondary outcome: muscle health goes beyond mass to include strength, endurance, metabolism and self-reported function. Needs differ across cancer, critical illness, aging and weight-loss populations (including GLP-1 users), so protein alone is not enough — personalized support and standardized measurement are required."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "甜菜根硝酸盐或缓解咖啡因引起的动脉僵硬：随机交叉试验新证据",
+     "title_en": "Beetroot nitrates may attenuate caffeine-induced arterial stiffness, randomized crossover trial suggests",
+     "url": "https://www.nutraingredients.com/Article/2026/10/09/study-links-beetroot-to-reduced-caffeine-induced-stiffness/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-09",
+     "summary_zh": "NutraIngredients报道一项随机交叉研究：单次咖啡因摄入可短暂升高动脉僵硬度和血压，而提前补充富含硝酸盐的甜菜根汁可显著减弱这一反应，机制可能与硝酸盐-亚硝酸盐-一氧化氮通路改善血管内皮功能有关。研究为咖啡爱好者提供了膳食硝酸盐这一低成本血管保护思路，仍需更大规模试验确认。",
+     "summary_en": "A randomized crossover study reported by NutraIngredients found that a single dose of caffeine transiently raises arterial stiffness and blood pressure, but pre-loading with nitrate-rich beetroot juice significantly blunted this response, likely via the nitrate-nitrite-NO pathway improving endothelial function. Dietary nitrate offers a low-cost vascular strategy for coffee drinkers, pending larger trials."
+    },
+    {
+     "title_zh": "代谢健康补剂科学盘点：最新研究如何支持血糖、血脂与体重管理",
+     "title_en": "Catching up with metabolic health supplements: the latest science for glucose, lipids and weight",
+     "url": "https://www.nutraingredients.com/Article/2026/10/09/catching-up-with-metabolic-health-supplement-science/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-09",
+     "summary_zh": "NutraIngredients梳理近期代谢健康补剂领域研究进展，覆盖多种植物提取物、膳食纤维与功能性成分在血糖调控、血脂改善与体重管理方面的最新临床试验与机制证据，指出行业正从单一成分宣称转向“成分组合+人群分层+硬终点”的证据路径，为配方开发与合规宣称提供参考。",
+     "summary_en": "NutraIngredients rounds up recent metabolic-health supplement science, spanning botanical extracts, fibers and functional ingredients with new clinical and mechanistic evidence for glucose control, lipid improvement and weight management. The field is shifting from single-ingredient claims toward ingredient combinations, population stratification and hard endpoints — a roadmap for formulation and compliant claims."
+    },
+    {
+     "title_zh": "XXL Nutrition联手Those Vegan Cowboys启动120万欧元项目，进军无牛酪蛋白",
+     "title_en": "XXL Nutrition and Those Vegan Cowboys launch €1.2M project to deliver cow-free casein",
+     "url": "https://www.nutraingredients.com/Article/2026/10/09/those-vegan-cowboys-partners-sports-nutrition-innovators-to-deliver-precision-fermentation-protein-solutions/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-09",
+     "summary_zh": "荷兰运动营养品牌XXL Nutrition与精密发酵公司Those Vegan Cowboys达成120万欧元合作，共同开发无牛酪蛋白：经精密发酵产出与乳源酪蛋白结构一致的蛋白质，兼顾功能性与可持续性。此举显示精密发酵蛋白正从概念走向运动营养与临床营养的商业化落地。",
+     "summary_en": "Dutch sports nutrition brand XXL Nutrition has joined forces with precision-fermentation company Those Vegan Cowboys in a €1.2M project to produce cow-free casein — proteins identical to dairy casein, made via precision fermentation — combining functionality with sustainability, and signaling that fermented dairy-equivalent proteins are moving from concept to commercial sports and clinical nutrition."
+    },
+    {
+     "title_zh": "莱特维健将亮相HNC深圳健康营养展，携NMN40000主打细胞级抗衰",
+     "title_en": "Wright Life to showcase NMN40000 cellular anti-aging line at HNC Shenzhen health nutrition expo",
+     "url": "https://www.xfrb.com.cn/content/202610/09/c1637282.html",
+     "source_zh": "消费日报网",
+     "source_en": "Consumer Daily",
+     "date": "2026-10-09",
+     "summary_zh": "2026深圳国际健康与营养保健品展将于10月13-15日在深圳国际会展中心举办，香港品牌莱特维健将携全新升级金至NMN40000等产品参展。在我国老龄化加速、60岁以上人口年均净增近千万的背景下，科学抗衰需求持续攀升，NAD+类补剂与长寿营养成为展会展位竞争与产业协同的焦点赛道之一。",
+     "summary_en": "The 2026 Shenzhen International Health & Nutrition Expo (Oct 13-15) will host Hong Kong brand Wright Life (莱特维健), presenting its upgraded NMN40000 cellular anti-aging products. As China's population aged 60+ grows by nearly ten million a year, demand for science-based healthy-aging nutrition keeps rising, making NAD+ supplements and longevity nutrition one of the expo's most competitive tracks."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "卡罗林斯卡综述厘清GLP-1七大安全疑虑：胆囊疾病证据最强，其余多为不确定",
+     "title_en": "Karolinska review sorts seven GLP-1 safety concerns: strongest evidence for gallbladder disease, much else uncertain",
+     "url": "https://doi.org/10.1111/joim.70170",
+     "source_zh": "Journal of Internal Medicine",
+     "source_en": "Journal of Internal Medicine",
+     "date": "2026-10-09",
+     "summary_zh": "卡罗林斯卡学院Peter Ueda在《内科学杂志》发表叙述性综述，逐项评估GLP-1受体激动剂七类严重不良事件证据：胆囊及胆道疾病因果证据最一致，视网膜病变恶化疑似快速降糖的早期效应；甲状腺癌、NAION、自杀行为、胰腺炎与肠梗阻的因果关系仍不确定，罕见事件需结合基线风险个体化沟通。",
+     "summary_en": "Peter Ueda of Karolinska Institutet published a narrative review in the Journal of Internal Medicine appraising seven serious adverse-event concerns for GLP-1 receptor agonists: gallbladder and biliary disease has the most consistent causal evidence; retinopathy worsening may reflect rapid glucose improvement; for thyroid cancer, NAION, suicidality, pancreatitis and intestinal obstruction causality remains uncertain — rare events warrant individualized baseline-risk counseling."
+    },
+    {
+     "title_zh": "GLP-1停药体重反弹怎么办？Tufts试点：医疗定制餐与数字App各减反弹约7%",
+     "title_en": "Stopping GLP-1? Tufts pilot: medically tailored meals or a digital app each cut weight regain by ~7%",
+     "url": "https://doi.org/10.1002/osp4.70194",
+     "source_zh": "Obesity Science & Practice",
+     "source_en": "Obesity Science & Practice",
+     "date": "2026-10-07",
+     "summary_zh": "Tufts食物即药物研究所联合UT西南医学中心开展的39人随机试点显示：停用GLP-1药物时转入医疗定制餐或数字健康App组，前四个月体重反弹显著少于常规照护（分别-7.17%与-7.16%差异）。作为假设生成型小试验，提示“停药过渡方案”值得在更大规模研究中验证。",
+     "summary_en": "A 39-partner pilot randomized trial from Tufts Food is Medicine Institute and UT Southwestern found that adults transitioned off GLP-1 therapy gained significantly less weight over four months with medically tailored meals (-7.17% difference) or a digital wellness app (-7.16%) versus usual care. Hypothesis-generating but promising: an off-ramp plan deserves larger trials."
+    },
+    {
+     "title_zh": "仅一次运动就能帮老年人减脂保肌？ScienceDaily报道新研究",
+     "title_en": "Just one workout helped older adults lose fat and keep muscle, ScienceDaily reports",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261007233348.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-09",
+     "summary_zh": "ScienceDaily报道一项针对老年人的运动研究：仅需一次特定类型的运动干预即可观察到脂肪减少与肌肉保留的代谢信号，挑战“必须长期高强度训练才有效”的固有认知。研究者强调单次效应虽短暂，但为高龄、体弱人群提供了低门槛起始方案——动起来本身即是健康管理的一线处方。",
+     "summary_en": "A study covered by ScienceDaily found that even a single session of a specific exercise modality produced measurable metabolic signals of fat loss and muscle preservation in older adults, challenging the assumption that only long-term high-intensity training works. Though transient, the single-session effect offers a low-barrier entry point for frail elderly — movement itself as first-line health management."
+    },
+    {
+     "title_zh": "同一瓶营养品不再全家通用：消费者按年龄与生活方式分龄选配方",
+     "title_en": "One supplement bottle no longer fits the whole family: consumers pick formulas by age and lifestyle",
+     "url": "https://www.toutiao.com/article/7694185011712492047",
+     "source_zh": "今日头条·江西民生新闻",
+     "source_en": "Toutiao / Jiangxi Minsheng News",
+     "date": "2026-10-08",
+     "summary_zh": "NHANES最新数据显示美国成年人补剂使用率随年龄递增：20-39岁46.3%、40-59岁60.3%、60岁以上75.9%，“一瓶复合维生素全家吃”正被分龄分场景选品取代。文章提示消费者应核对营养成分表、每份含量与建议食用量的实质差异，结合年龄、季节、饮食与生活方式四因素理性选品，而非追随网红成分。",
+     "summary_en": "Latest NHANES data show US adult supplement use rises with age — 46.3% at 20-39, 60.3% at 40-59 and 75.9% at 60+ — replacing the one-multivitamin-for-all habit with age- and scenario-specific choices. Consumers are advised to compare Supplement Facts, serving sizes and doses, and choose by age, season, diet and lifestyle rather than viral ingredients."
+    }
+   ]
+  }
+ ]
+}
