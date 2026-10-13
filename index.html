@@ -111,6 +111,15 @@
   .prj .links a:hover{border-color:var(--teal)}
   .prj .links a.soon{color:var(--ink-faint);cursor:default;border:0}
 
+  /* ---------- WorkBuddy usage badge ---------- */
+  .prj{position:relative}
+  .prj .shield.t13{background:linear-gradient(135deg,#4a6b8a,#2b3f57)}
+  .wb-badge{position:absolute;top:20px;right:20px;display:flex;flex-direction:column;align-items:flex-end;
+    gap:2px;text-align:right;font-size:10.5px;line-height:1.35;color:var(--ink-faint)}
+  .wb-badge .wb-row{display:flex;align-items:baseline;gap:4px}
+  .wb-badge b{font-family:var(--mono);font-size:14.5px;font-weight:600;color:var(--teal);letter-spacing:-.01em}
+  .prj-note{margin-top:24px;font-size:12.5px;color:var(--ink-faint);text-align:center;line-height:1.8}
+
   /* ---------- About ---------- */
   .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
   @media(max-width:820px){.about-grid{grid-template-columns:1fr}}
@@ -304,7 +313,7 @@
     <div class="sec-head" data-page-node-id="Q3mSlk8hDRzD2bGDtEB6G3">
       <div class="kicker" data-page-node-id="kEOooEhty0b08AmVZ8gBWw">SELECTED WORK · 挑几个能看的</div>
       <h2 data-page-node-id="bmjBNgYDh9KhYHNGvlAmrh">作品与工具</h2>
-      <p class="sub" data-page-node-id="dstmftwuoZxRCkoKQzlyC5">这些是我实际在做、在跑的东西。有的可以直接上手用，有的正在路上。</p>
+      <p class="sub" data-page-node-id="dstmftwuoZxRCkoKQzlyC5">这些是我实际在做、在跑的东西。有的可以直接上手用，有的正在路上。右上角带数字的三张，已经上架 WorkBuddy，数字是真实的安装量与调用量。</p>
     </div>
     <div class="prj-grid" data-page-node-id="S7SI3nufJzuixp1Dnc3RMG">
 
@@ -360,6 +369,10 @@
       </article>
 
       <article class="prj" data-page-node-id="StoKtDXIdQnvgZrlQicdBa">
+        <div class="wb-badge" title="WorkBuddy 开放平台 · 资产明细（截至 2026-10-13）｜安装量 582 · 调用量 2,841 · 活跃用户 700 · 人均使用 4.1 次 · 次周留存 8.5%">
+          <div class="wb-row"><b>2,841</b><span>次调用</span></div>
+          <div class="wb-row"><b>582</b><span>安装</span></div>
+        </div>
         <div class="shield t7" data-page-node-id="XFcmC71G1IAAmph2t7MG2D">AI</div>
         <div class="locus" data-page-node-id="XuPgMe9X3xW9mAnRb4SrTA">PUBLISHED · 已发布</div>
         <h3 data-page-node-id="F1pI4NXLFiuyXeRdyuoEBM">WorkBuddy 专家 · 功能医学个体化营养补剂顾问</h3>
@@ -390,12 +403,30 @@
       </article>
 
       <article class="prj">
+        <div class="wb-badge" title="WorkBuddy 开放平台 · 资产明细（截至 2026-10-13）｜安装量 3 · 调用量 1 · 活跃用户 1 · 人均使用 1.0 次">
+          <div class="wb-row"><b>1</b><span>次调用</span></div>
+          <div class="wb-row"><b>3</b><span>安装</span></div>
+        </div>
         <div class="shield t12">证</div>
         <div class="locus">SKILL · 已上架</div>
         <h3>营养素证据质量评级师</h3>
         <p>用营养学专属的 NutriGrade 体系给营养素功效证据打分定级：RCT 与队列 Meta 分析分别按 7 / 8 条目逐项评分，输出带原文出处与「缺失信息清单」的报告——低分不等于证据差，可能只是信息不足。纯本地计算，零网络请求。</p>
         <div class="links">
           <a class="soon" title="WorkBuddy 技能市场搜索「NutriGrade」或「证据评级」即可安装">WorkBuddy 技能市场 · 已上架</a>
+        </div>
+      </article>
+
+      <article class="prj">
+        <div class="wb-badge" title="WorkBuddy 开放平台 · 资产明细（截至 2026-10-13）｜安装量 92 · 调用量 10 · 活跃用户 8 · 人均使用 1.3 次">
+          <div class="wb-row"><b>10</b><span>次调用</span></div>
+          <div class="wb-row"><b>92</b><span>安装</span></div>
+        </div>
+        <div class="shield t13">文</div>
+        <div class="locus">SKILL · 已上架</div>
+        <h3>PubMed 营养素文献验证</h3>
+        <p>给一个营养素或功效诉求，实时检索 PubMed 并核验证据强度：区分人体干预、观察性研究与动物 / 体外研究，标注样本量、结论方向与局限，输出可溯源的循证摘要——不把动物实验说成人有效。</p>
+        <div class="links">
+          <a class="soon" title="WorkBuddy 技能市场搜索「PubMed」或「文献验证」即可安装">WorkBuddy 技能市场 · 已上架</a>
         </div>
       </article>
 
@@ -430,6 +461,7 @@
       </article>
 
     </div>
+    <p class="prj-note">「功能医学个体化营养补剂顾问」「营养素证据质量评级师」「PubMed 营养素文献验证」三个作品已上架 WorkBuddy 技能 / 专家市场，角标数字为真实安装量与调用量；数据取自 WorkBuddy 开放平台资产明细，统计截至 2026-10-13。</p>
   </div>
 </section>
 
