@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-14",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月8日 — 10月14日（最近一周）",
+ "range_en": "Oct 8 – Oct 14, 2026 (past week)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Nature Reviews综述：从母乳到衰老，双歧杆菌如何塑造人体健康",
+     "title_en": "Nature Reviews review: how Bifidobacterium shapes human health from infancy to aging",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报/Nature Reviews",
+     "source_en": "Hot Gut Daily / Nature Reviews",
+     "date": "2026-10-13",
+     "summary_zh": "热心肠日报收录的Nature Reviews综述系统梳理了双歧杆菌在全生命周期中的作用：从婴儿期依靠母乳低聚糖定殖、参与免疫发育，到成年期维持肠道屏障与代谢平衡，再到老年期丰度随龄流失并与炎症、代谢紊乱相关。文章强调双歧杆菌作为核心共生菌是连接营养干预与宿主健康的关键节点，为益生菌与益生元的全生命周期精准应用提供了理论框架。",
+     "summary_en": "A Nature Reviews review covered by Hot Gut Daily systematically maps the role of Bifidobacterium across the lifespan: colonization via human milk oligosaccharides in infancy, immune development, maintenance of gut barrier and metabolic balance in adulthood, and age-related decline linked to inflammation and metabolic disturbance in later life. The authors position bifidobacteria as a key node connecting nutritional intervention and host health, framing whole-life probiotic and prebiotic strategies."
+    },
+    {
+     "title_zh": "Nature子刊观点：短链脂肪酸的肠道释放“地理学”，决定降压还是升压",
+     "title_en": "Nature journal viewpoint: the gut 'geography' of short-chain fatty acid release decides blood pressure effects",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报/Nature子刊",
+     "source_en": "Hot Gut Daily / Nature portfolio",
+     "date": "2026-10-13",
+     "summary_zh": "一篇发表于Nature子刊的观点文章提出，膳食纤维经菌群发酵生成的短链脂肪酸（SCFA）对血压的影响取决于其在肠道不同部位的释放位置：近端结肠高浓度SCFA经特定感觉神经与内分泌通路可能产生降压效应，而远端或循环中模式不同则可能参与升压调节。作者呼吁未来研究应关注SCFA产生的“空间地理学”，而非仅测量总量，这为膳食纤维与降压营养干预的个体化设计提供了新视角。",
+     "summary_en": "A viewpoint article in a Nature journal argues that the blood-pressure impact of microbially derived short-chain fatty acids depends on where along the intestine they are released: high luminal SCFA concentrations in proximal colon engage distinct neural and endocrine circuits that may lower blood pressure, whereas distal or systemic patterns can contribute to pressor effects. The authors call for mapping the spatial 'geography' of SCFA production rather than measuring totals alone, informing individualized fiber-based interventions."
+    },
+    {
+     "title_zh": "仁济医院洪洁团队：两种“坏”菌互作驱动持久肠道动力障碍，益生菌或可破局",
+     "title_en": "Renji Hospital team: interaction of two 'bad' bacteria drives persistent gut dysmotility; probiotics may break the loop",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报/Nature子刊",
+     "source_en": "Hot Gut Daily / Nature portfolio",
+     "date": "2026-10-13",
+     "summary_zh": "上海仁济医院洪洁团队发表于Nature子刊的研究揭示了肠道动力障碍的菌群机制：两种特定“坏”菌通过代谢产物互作形成稳定的失调生态，持续抑制肠道平滑肌功能，导致动力障碍迁延不愈；动物实验中针对性补充益生菌可打破这种互作、恢复肠道传输功能。研究提示慢性功能性肠道疾病或可从“菌群生态矫正”角度切入，而非仅对症治疗。",
+     "summary_en": "A study from Hongjie Xie's team at Renji Hospital published in a Nature journal shows that two specific 'bad' bacteria form a stable dysbiotic ecology through cross-feeding metabolites that persistently suppress intestinal smooth-muscle function, driving chronic dysmotility. In models, targeted probiotic supplementation disrupted this interaction and restored transit. The work suggests ecological correction of the microbiota as a strategy for chronic functional gut disorders beyond symptomatic care."
+    },
+    {
+     "title_zh": "Cell子刊：舌苔菌群硝酸盐代谢，助力预测糖尿病前期风险",
+     "title_en": "Cell journal sub-issue: tongue-coating microbial nitrate metabolism helps predict prediabetes risk",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报/Cell子刊",
+     "source_en": "Hot Gut Daily / Cell Press",
+     "date": "2026-10-13",
+     "summary_zh": "发表于Cell子刊的新研究关注口腔微生态与代谢病的关联：研究者发现舌苔菌群的硝酸盐还原代谢特征与糖代谢状态显著相关，糖尿病前期人群的舌苔菌群组成及硝酸盐代谢通路活性呈现特征性改变，基于此构建的模型可辅助预测糖尿病前期风险。研究为无创、低成本的口腔菌群检测纳入代谢病早期筛查提供了依据，也拓展了功能医学“口腔-全身轴”的评估维度。",
+     "summary_en": "A new study in a Cell Press journal links oral ecology to metabolic disease: tongue-coating microbiota showed characteristic shifts in composition and nitrate-reduction pathway activity in prediabetic individuals, enabling a predictive model for prediabetes risk. The findings support non-invasive, low-cost oral microbiome testing in early metabolic screening and expand the oral-systemic assessment dimension of functional medicine."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "雷帕霉素抗衰用途迎来学术临床试验：三阶段厘清剂量与安全性",
+     "title_en": "Academic clinical trials launched to answer rapamycin dosing questions for anti-aging use",
+     "url": "https://www.fightaging.org",
+     "source_zh": "Fight Aging!",
+     "source_en": "Fight Aging!",
+     "date": "2026-10-13",
+     "summary_zh": "Fight Aging!报道，一个学术团队已筹资启动多阶段雷帕霉素临床研究，推动抗衰使用走向循证化：第一阶段在年轻人中建立免疫与代谢基准；第二阶段确定老年人达到“年轻化生物靶标”的最小有效剂量；第三阶段为84名老年人参与的随机安慰剂对照试验，比较每日与间歇给药，治疗6个月随访6个月，系统回答抗衰剂量下免疫抑制与血糖影响的边界。",
+     "summary_en": "Fight Aging! reports that an academic group has funded a multi-phase clinical program to move rapamycin's anti-aging use from off-label self-experimentation toward evidence-based practice: phase one establishes immune and metabolic benchmarks in younger adults; phase two determines the minimum dose restoring youthful targets in older adults; phase three is a randomized placebo-controlled trial in about 84 older adults comparing daily versus intermittent dosing over six months of treatment and six months of follow-up, probing immunosuppression and glycemic boundaries."
+    },
+    {
+     "title_zh": "膳食亚精胺与老年心脏健康：摄入翻倍，峰值摄氧量增加2.6 mL/kg/min",
+     "title_en": "Dietary spermidine and the aging heart: doubled intake linked to +2.6 mL/kg/min peak VO2",
+     "url": "https://longevityforesight.com/category/featured",
+     "source_zh": "Longevity Foresight/ESC子刊",
+     "source_en": "Longevity Foresight / ESC journal",
+     "date": "2026-10-10",
+     "summary_zh": "一项发表于欧洲心脏病学会子刊、覆盖187名老年冠心病患者的观察性研究显示：膳食亚精胺摄入量每翻一倍，患者峰值摄氧量平均增加2.6 mL/kg/min，同时体脂率更低，肌肉线粒体功能指标更佳。亚精胺常见于全谷物、豆类、蘑菇等发酵与植物性食物。研究者提示，通过日常饮食提高亚精胺摄入或成为改善老年心血管病人生存质量与运动耐量的低成本营养策略，仍需干预试验验证。",
+     "summary_en": "An observational study of 187 older coronary patients published in an ESC journal found that each doubling of dietary spermidine intake was associated with a 2.6 mL/kg/min higher peak oxygen uptake, lower body fat and better muscle mitochondrial function. Spermidine is abundant in whole grains, legumes and mushrooms. The authors suggest that raising spermidine through everyday diet could be a low-cost nutritional strategy for exercise capacity in aging cardiovascular patients, pending intervention trials."
+    },
+    {
+     "title_zh": "减重药“减年龄”之后：VITAL-H与Moody试验把GLP-1研究推向健康衰老终点",
+     "title_en": "After GLP-1s 'lower biological age': VITAL-H and Moody trials push toward healthspan endpoints",
+     "url": "https://news.qq.com/rain/a/20261013A0B0S900",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-13",
+     "summary_zh": "继礼来与诺和诺德公布GLP-1药物或使表观遗传年龄降低2-3年的初步数据后，新一波临床研究把终点推向功能健康：得州大学圣安东尼奥分校牵头的VITAL-H将在60-75岁人群中检验司美格鲁肽对健康衰老的影响，同时评估身体与认知功能；Moody Longevity Trial则针对55-70岁成人，设置24周替尔泊肽治疗加12周停药随访，观察生物年龄、活动能力与脑健康。",
+     "summary_en": "Following preliminary data from Eli Lilly and Novo Nordisk suggesting GLP-1 drugs may lower epigenetic age estimates by two to three years, a new wave of trials is moving endpoints from molecular markers to function: the VITAL-H project led from UT Health San Antonio will test semaglutide for healthy aging in adults aged 60-75, assessing physical and cognitive outcomes, while the Moody Longevity Trial at UTMB studies tirzepatide in adults 55-70 with 24 weeks of treatment and 12-week post-drug follow-up on biological age, mobility and brain health."
+    },
+    {
+     "title_zh": "长读长测序新突破：揪出0.1%水平的线粒体DNA微变异，助力帕金森早筛",
+     "title_en": "Long-read sequencing breakthrough: detecting mitochondrial DNA variants down to 0.1% for early Parkinson's screening",
+     "url": "https://longevityforesight.com/category/featured",
+     "source_zh": "Longevity Foresight/BMC Genomics",
+     "source_en": "Longevity Foresight / BMC Genomics",
+     "date": "2026-10-10",
+     "summary_zh": "发表于BMC Genomics的研究显示，科学家利用PacBio长读长测序技术，能以超高精度检出线粒体DNA中丰度低至0.1%的微小变异，克服了传统短读长测序难以解析线粒体基因组异质性的瓶颈。线粒体功能衰退是衰老与帕金森病等神经退行性疾病的关键环节，该技术为“细胞能量工厂”的精准监测提供了工具，未来有望用于线粒体病灶的早期识别与衰老干预效果的动态评估。",
+     "summary_en": "Research in BMC Genomics shows that PacBio long-read sequencing can detect low-frequency mitochondrial DNA variants down to 0.1% abundance, overcoming the limited resolution of short-read methods for mitochondrial heteroplasmy. Since mitochondrial decline is central to aging and neurodegenerative diseases such as Parkinson's, the technique offers a precision tool for monitoring the cell's power plants and may enable early detection of mitochondrial lesions and dynamic assessment of longevity interventions."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "肠道菌群决定你实际吸收多少热量：DAMM模型给出首个定量框架",
+     "title_en": "Gut microbes decide how many calories you absorb: DAMM model offers first quantitative framework",
+     "url": "https://www.vitafoodsinsights.com/digestive-health/microbes-in-the-gut-change-the-number-of-calories-the-body-absorbs",
+     "source_zh": "Vitafoods Insights/PLOS One",
+     "source_en": "Vitafoods Insights / PLOS One",
+     "date": "2026-10-13",
+     "summary_zh": "亚利桑那州立大学团队在PLOS One发表DAMM（消化、吸收与微生物代谢）模型，首次将肠道菌群纳入热量计算：约85%的能量在上消化道被人体吸收，其余15%进入结肠由菌群发酵，人体平均每日从结肠吸收的短链脂肪酸约140千卡、占总可用能量7.4%。对照饮食试验显示，高纤维“促菌群饮食”比典型西式饮食日均少吸收约116千卡且饥饿感未增，提示食物标签热量并非人人相同，为个性化营养与体重管理提供新工具。",
+     "summary_en": "Arizona State University researchers present in PLOS One the DAMM (Digestion, Absorption and Microbial Metabolism) model, the first to fold gut microbes into calorie accounting: roughly 85% of energy is absorbed in the upper gut while 15% reaches the colon for microbial fermentation, with colon-derived short-chain fatty acids contributing about 140 kcal per day, or 7.4% of usable energy. In a controlled crossover trial, a high-fiber microbiome-enhancer diet yielded about 116 fewer absorbed calories daily than a Western diet without increased hunger, challenging one-size-fits-all calorie labels."
+    },
+    {
+     "title_zh": "进食顺序新证据：先吃橄榄油再吃碳水，血糖更平稳",
+     "title_en": "Food order matters: olive oil before carbs leads to steadier blood sugar",
+     "url": "https://www.sciencedaily.com/news/health_medicine/nutrition/",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-11",
+     "summary_zh": "ScienceDaily报道的一项动物研究发现，在摄入碳水化合物之前先给予橄榄油，可显著减缓消化速度并激活一组独特的激素与神经信号组合，从而平缓血糖波动，这一效应在2型糖尿病小鼠模型中同样成立。研究提示“先脂后碳”的进食顺序可能通过肠道-大脑-内分泌轴调控餐后血糖，为简便易行的膳食血糖管理策略提供了机制依据，后续需在人体试验中验证。",
+     "summary_en": "An animal study covered by ScienceDaily found that giving olive oil before carbohydrates slowed digestion and activated a distinctive combination of hormonal and nerve signals that blunted blood-sugar spikes, an effect that held in a type 2 diabetes mouse model. The findings suggest that a 'fat-first' meal sequence may regulate postprandial glucose through gut-brain-endocrine pathways, offering a simple dietary tactic pending human validation."
+    },
+    {
+     "title_zh": "丁酸梭菌投递小RNA抑制肠道脂肪吸收：菌群递送营养干预新思路",
+     "title_en": "Clostridium butyricum delivers small RNAs to curb intestinal fat absorption: a new delivery concept",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报",
+     "source_en": "Hot Gut Daily",
+     "date": "2026-10-13",
+     "summary_zh": "中科院亚热带农业生态研究所周锡红、胡竑等在热心肠日报收录的研究中报告，丁酸梭菌可作为载体向肠道上皮投递小RNA，下调脂肪吸收相关基因的表达，从而减少肠道对膳食脂肪的吸收。该“菌群递送系统”把益生菌、核酸药物与营养调控结合，为肥胖与脂代谢异常的干预提供了超越传统“少吃油”的精准路径，也展示了工程化益生菌在营养干预中的潜力。",
+     "summary_en": "Research from Xihong Zhou and Hong Hu's group at the Chinese Academy of Sciences' Institute of Subtropical Agriculture, covered by Hot Gut Daily, shows that Clostridium butyricum can act as a delivery vector, ferrying small RNAs to the intestinal epithelium to knock down fat-absorption genes and reduce dietary lipid uptake. This microbe-based delivery concept unites probiotics, nucleic-acid therapeutics and nutritional control, pointing to a precision route against obesity beyond simple fat restriction."
+    },
+    {
+     "title_zh": "替代激素疗法的新选项：大豆与植物性饮食缓解更年期症状的疗效评估",
+     "title_en": "An alternative to hormone therapy: evaluating soy and plant-based diets for menopausal symptoms",
+     "url": "https://view.inews.qq.com/u/8QMc331V7oIYujzd",
+     "source_zh": "热心肠日报",
+     "source_en": "Hot Gut Daily",
+     "date": "2026-10-12",
+     "summary_zh": "热心肠日报收录的一项疗效评估研究聚焦更年期症状的非激素营养干预：以大豆异黄酮为代表的植物雌激素及整体植物性饮食模式在缓解潮热、改善血脂与体重方面显示出不同程度的效果，应答个体差异显著，可能与肠道菌群将大豆苷元转化为雌马酚的能力有关。研究提示通过菌群分型预测植物雌激素应答，有望成为更年期精准营养的切入点。",
+     "summary_en": "An efficacy evaluation covered by Hot Gut Daily examines non-hormonal nutritional options for menopausal symptoms: soy isoflavones and overall plant-based dietary patterns show varying benefits for hot flashes, lipids and weight, with marked individual variability likely tied to the gut microbiome's capacity to convert daidzein into equol. Microbiome-stratified response prediction could become an entry point for precision nutrition in menopause care."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "萝卜硫素补剂新思路：把转化过程移到体外，绕开个体菌群差异",
+     "title_en": "Sulforaphane supplement rethink: moving conversion outside the body to bypass microbiome variability",
+     "url": "https://www.nutraingredients.com/Article/2026/10/13/sulforaphane-supplement-moves-conversion-before-consumption/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-13",
+     "summary_zh": "NutraIngredients报道，传统萝卜硫素前体补剂依赖体内黑芥子酶与肠道菌群将萝卜硫苷转化为活性萝卜硫素，转化效率个体差异大；新一代产品改为在体外完成转化、直接递送活性萝卜硫素，以提升剂量一致性与生物利用度。行业观察认为，这一“预转化”路线反映了补剂设计从“依赖宿主菌群”向“确定性递送”的趋势，也为其他依赖菌群激活的植物成分提供了借鉴。",
+     "summary_en": "NutraIngredients reports that conventional sulforaphane precursor supplements rely on endogenous myrosinase and gut bacteria to convert glucoraphanin into active sulforaphane, with highly variable individual conversion. A new generation of products performs the conversion outside the body and delivers preformed sulforaphane for consistent dosing and bioavailability. Industry observers see this 'pre-converted' route as a shift from microbiome-dependent to deterministic delivery, with lessons for other plant actives."
+    },
+    {
+     "title_zh": "石榴+圣罗勒提取物新上市：4周临床显示皮肤改善信号",
+     "title_en": "Newly launched pomegranate and holy basil extract shows positive skin results in four weeks",
+     "url": "https://www.nutraingredients.com/Article/2026/10/13/pomegranate-and-holy-basil-extract-shows-promise-for-skin-aging/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-13",
+     "summary_zh": "NutraIngredients报道，一款新上市的石榴与圣罗勒（图尔西）复合提取物在为期四周的人体试验中显示出皮肤改善信号，受试者皮肤水合度与外观指标获得积极变化，研究将其归因于两种植物多酚的抗氧化与抗炎协同作用。该成分瞄准“由内而外美容”（beauty-from-within）赛道。业界提醒此类早期试验样本量有限，需更大规模、更长期的重复验证才能支撑明确健康声称。",
+     "summary_en": "NutraIngredients reports that a newly launched pomegranate and holy basil combination extract showed positive skin signals in a four-week human trial, with improvements in hydration and appearance attributed to the antioxidant and anti-inflammatory synergy of the two botanical polyphenols. Targeting the beauty-from-within category, the ingredient still requires larger, longer replication before supporting firm health claims, industry commentators caution."
+    },
+    {
+     "title_zh": "补剂行业持续高增长，专家警告“安全体系必须同步进化”",
+     "title_en": "Supplement sector keeps rising; safety systems 'must evolve with it', experts warn",
+     "url": "https://www.nutraingredients.com/Article/2026/10/13/supplement-sector-rising-safety-needs-to-evolve-with-it/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-13",
+     "summary_zh": "NutraIngredients分析指出，全球膳食补剂市场在长寿经济与GLP-1时代消费者健康意识提升的推动下持续扩张，但质控、掺假与成分标识等安全风险同步放大。专家呼吁行业在原料溯源、第三方检测、不良反应监测与监管协作上升级安全体系，特别是面对NMN、后生元等新兴品类时，应以“安全先行”换取长期消费者信任，避免重蹈灰市与虚假宣称的覆辙。",
+     "summary_en": "A NutraIngredients analysis argues that the global supplement market keeps expanding on longevity economics and post-GLP-1 health awareness, but quality control, adulteration and labeling risks scale with it. Experts call for upgraded safety systems across sourcing, third-party testing, adverse-event surveillance and regulatory collaboration, especially for emerging categories such as NMN and postbiotics, warning that 'safety first' is the price of durable consumer trust and the antidote to gray-market hype."
+    },
+    {
+     "title_zh": "奇华顿将在SupplySide Global发布新型代谢健康植物成分，瞄准长寿市场",
+     "title_en": "Givaudan to unveil new metabolic-health botanical at SupplySide Global, eyeing the longevity market",
+     "url": "https://www.nutritionaloutlook.com/view/givaudan-reveal-new-metabolic-health-botanical-supplyside-global-2026",
+     "source_zh": "Nutritional Outlook",
+     "source_en": "Nutritional Outlook",
+     "date": "2026-10-09",
+     "summary_zh": "Nutritional Outlook报道，香精香料巨头奇华顿（Givaudan）将于SupplySide Global 2026开幕日发布一款经临床研究支持的新型植物成分，宣称支持健康体重与血糖血脂管理；公司同期还将举办长寿主题论坛，提出“长寿正在从健康老龄化走向贯穿一生的主动健康”的行业判断。随着GLP-1重塑消费预期，代谢健康正被巨头定位为长寿品类的入口赛道。",
+     "summary_en": "Nutritional Outlook reports that flavor and ingredient giant Givaudan will unveil a clinically studied new botanical ingredient on the opening day of SupplySide Global 2026, claiming support for healthy weight, blood sugar and lipid management, alongside a longevity-focused session arguing that 'longevity is evolving beyond healthy aging into proactive lifelong wellness.' As GLP-1 drugs reshape consumer expectations, metabolic health is being positioned by major players as the gateway category to longevity."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "美国内分泌学会肥胖科学声明：“被守护的脂肪质量”解释停药反弹",
+     "title_en": "Endocrine Society obesity statement: 'defended fat mass' explains weight regain after stopping drugs",
+     "url": "https://dy.163.com/article/L93K3NQ505566Z5Q.html",
+     "source_zh": "网易号医路防老/Endocrine Reviews",
+     "source_en": "Endocrine Reviews via NetEase",
+     "date": "2026-10-13",
+     "summary_zh": "美国内分泌学会发表于Endocrine Reviews的肥胖科学声明指出，大脑中存在“被守护的脂肪质量”设定点：单纯节食会触发代谢下降与食欲反弹，而GLP-1类药物通过改写这一设定点实现减重，停药后体重回升属“生理常态”而非治疗失败。声明强调肥胖是需长期管理的慢性病，疗效评估不应只看BMI，还应纳入腰围、体脂率与内脏脂肪，并警惕快速减重伴随的肌肉与骨量流失。",
+     "summary_en": "The Endocrine Society's scientific statement in Endocrine Reviews describes a 'defended fat mass' set point in the brain: dieting alone triggers metabolic slowdown and appetite rebound, while GLP-1 drugs achieve weight loss by rewriting the set point, so regain after stopping is physiological, not failure. Obesity should be managed as a chronic disease, with assessment moving beyond BMI to waist circumference, body-fat percentage and visceral fat, while guarding against muscle and bone loss during rapid weight loss."
+    },
+    {
+     "title_zh": "众生药业GLP-1双周制剂RAY1225 III期顶线数据积极，冲刺第一梯队",
+     "title_en": "China's RAY1225 biweekly GLP-1 posts positive Phase III topline, eyeing the first tier",
+     "url": "https://cfi.net.cn/p20261013000314.html",
+     "source_zh": "中财网",
+     "source_en": "CFi.CN",
+     "date": "2026-10-13",
+     "summary_zh": "中财网报道，众生药业控股子公司研发的GLP-1类创新药RAY1225注射液在超重或肥胖成人中完成的III期临床试验（REBUILDING-2）顶线数据读出，疗效与安全性均达预期，显著优于同类基准水平。该药具备双周给药、长效稳定等差异化优势，机构研报认为其临床表现支撑对外授权出海潜力。国产减重药正从概念验证迈向价值兑现，为国内体重管理提供更多可及性选择。",
+     "summary_en": "CFi.CN reports that RAY1225, a novel GLP-1 drug developed by a subsidiary of China's Zhongsheng Pharma, has delivered positive Phase III topline results (REBUILDING-2) in overweight and obese adults, meeting efficacy and safety expectations and outperforming benchmarks. Its biweekly dosing and long-acting profile are seen as supporting potential out-licensing. Domestic obesity drugs are moving from proof of concept to value delivery, broadening access for weight management in China."
+    },
+    {
+     "title_zh": "STEP UP事后分析：司美格鲁肽72周使平均肝脂从8.8%降至3.1%",
+     "title_en": "STEP UP post hoc: semaglutide cut mean liver fat from 8.8% to 3.1% over 72 weeks",
+     "url": "https://www.glp1authority.com/glp1-news/",
+     "source_zh": "Pharmacy Times（GLP1Authority转载）",
+     "source_en": "Pharmacy Times (via GLP1Authority)",
+     "date": "2026-10-13",
+     "summary_zh": "Pharmacy Times报道，诺和诺德在EASD 2026公布的STEP UP事后分析显示，肥胖成人接受司美格鲁肽72周后平均肝脂从8.8%降至3.1%，26名肝脂高于5%阈值的影像学亚组受试者中23人降至阈值以下。结果为探索性、样本小且无安慰剂对照，但支持正在进行的ESSENCE III期试验——检验司美格鲁肽治疗MASH合并肝纤维化，进一步拓展GLP-1在代谢健康管理中的版图。",
+     "summary_en": "Pharmacy Times reports a post hoc analysis of Novo Nordisk's STEP UP and STEP UP T2D trials presented at EASD 2026: after 72 weeks of semaglutide, mean liver fat in adults with obesity fell from 8.8% to 3.1%, and 23 of 26 imaging-subgroup participants above the 5% threshold dropped below it. The findings are exploratory, small and placebo-uncontrolled, but support the ongoing Phase III ESSENCE trial of semaglutide in MASH with fibrosis, extending GLP-1's metabolic health footprint."
+    },
+    {
+     "title_zh": "仅7次力量训练即可缩小脂肪细胞：小鼠实验重启燃脂分子通路",
+     "title_en": "Just seven strength sessions shrink fat cells: mice study reactivates fat-burning pathways",
+     "url": "https://www.sciencedaily.com/news/health_medicine/nutrition/",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-08",
+     "summary_zh": "ScienceDaily报道的一项研究发现，肥胖小鼠仅进行7次抗阻训练后，尽管总体重未见变化，内脏脂肪细胞已显著缩小，与分解储存脂肪相关的分子通路被重新激活。研究者指出，这一“体重不变但脂肪减少”的现象提示力量训练的健康价值可能被体重秤低估，对于体重管理中的“减脂保肌”目标，规律抗阻运动的价值应获得与有氧运动同等的重视。",
+     "summary_en": "A study covered by ScienceDaily found that after just seven resistance-training sessions, obese mice showed significantly smaller visceral fat cells and reactivated fat-mobilization molecular pathways despite no change in body weight. The 'same scale weight, less fat' effect suggests strength training's value is underestimated by the scale, and for fat loss with muscle preservation, regular resistance exercise deserves parity with aerobic training in weight-management programs."
+    }
+   ]
+  }
+ ]
+}
