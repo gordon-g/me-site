@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-17",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月11日 — 10月17日（最近 7 天）",
+ "range_en": "Oct 11 – Oct 17, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "俄研究团队：口腔与肠道乳酸菌构成可作消化道健康“晴雨表”",
+     "title_en": "Oral and Gut Lactobacilli Composition Can Serve as a Barometer of Digestive Health",
+     "url": "https://www.stdaily.com/web/gdxw/2026-10/17/content_597384.html",
+     "source_zh": "科技日报",
+     "source_en": "Science and Technology Daily",
+     "date": "2026-10-17",
+     "summary_zh": "俄罗斯秋明国立医科大学团队在《感染与免疫》发表新方法：通过口腔与肠道乳酸菌的物种构成即可判断消化道健康状态。研究发现副干酪乳杆菌是肠道稳态的“秩序守护者”，而发酵乳杆菌占主导则提示微生物群落失衡与隐性炎症。该方法无创、低成本，可用于消化内科与牙科的辅助诊断、疗效评估及疾病前早期预警。",
+     "summary_en": "Researchers at Tyumen State Medical University report in Infection and Immunity a new method to gauge digestive health from the species composition of oral and gut Lactobacilli. Lactobacillus paracasei acts as an order-keeper of a healthy gut, while dominance of L. fermentus signals microbial imbalance and hidden inflammation. The approach is non-invasive and low-cost, supporting auxiliary diagnosis and early warning in gastroenterology and dentistry."
+    },
+    {
+     "title_zh": "南科大刘小敏团队：基因组结构变异塑造肠道菌群与血代谢，肠菌或驱动高尿酸",
+     "title_en": "Genomic Structural Variants Shape Gut Microbiome and Blood Metabolites, with Gut Bacteria Linked to Hyperuricemia",
+     "url": "https://new.qq.com/rain/a/20261016A04BQE00",
+     "source_zh": "热心肠日报",
+     "source_en": "China-Gut Daily",
+     "date": "2026-10-16",
+     "summary_zh": "南方科技大学刘小敏团队与华大张涛团队合作在Advanced Science发表成果：基于2002名中国人高深度全基因组与宏基因组数据，绘制出13.9万个结构变异图谱（44.3%为数据库未收录的“暗物质”），证实结构变异可独立于SNP调控菌群组成与血液代谢。孟德尔随机化分析提示潜伏肠杆菌可能升高血尿酸，维生素K1、羟脯氨酸等代谢物对特定菌株的定向调控获体外验证。",
+     "summary_en": "A team led by Liu Xiaomin (SUSTech) with Zhang Tao (BGI) reports in Advanced Science on 2,002 deeply sequenced Chinese genomes and metagenomes, mapping 138,859 structural variants (44.3% absent from public databases) that independently of SNPs shape gut microbiome composition and blood metabolites. Mendelian randomization implicates Clostridium ramosum in elevated serum uric acid, with directionality of metabolites such as vitamin K1 toward specific strains validated in vitro."
+    },
+    {
+     "title_zh": "肠道菌群借道迷走神经“调谐”大脑：冲动行为或源于菌群特征",
+     "title_en": "Gut Microbiota Tunes the Brain via the Vagus Nerve: Impulsive Behavior May Originate in Microbiome Signatures",
+     "url": "https://news.qq.com/rain/a/20261016A04TJE00",
+     "source_zh": "热心肠日报",
+     "source_en": "China-Gut Daily",
+     "date": "2026-10-16",
+     "summary_zh": "热心肠日报报道的一项新研究显示，在病理症状出现之前，由基因变异塑造的肠道微生态即可通过迷走神经持续调谐特定脑区的突触连接强度，为情绪障碍与冲动外化行为埋下伏笔。小鼠在行为异常显现前10周龄时菌群差异已存在，而神经递质变化尚未发生——提示菌群特征有望成为精神疾病早期生物标志物，并支持以菌群为靶点的精准干预。",
+     "summary_en": "New research covered by China-Gut Daily shows that, before pathological symptoms emerge, genetically shaped gut microbiota can continuously tune synaptic connectivity in specific brain regions via the vagus nerve, predisposing hosts to emotional disorders and impulsive externalizing behaviors. In mice, microbiota differences were already present at 10 weeks of age, before neurotransmitter changes — suggesting microbial signatures as early biomarkers and precision intervention targets in psychiatry."
+    },
+    {
+     "title_zh": "单菌分辨率看糖尿病：单细胞测序揭示肠道菌群“功能工种”失衡",
+     "title_en": "Diabetes at Single-Cell Resolution: Sequencing Reveals Imbalanced Functional Jobs in Gut Microbiota",
+     "url": "https://www.toutiao.com/a7663783183258763819",
+     "source_zh": "热心肠日报",
+     "source_en": "China-Gut Daily",
+     "date": "2026-10-17",
+     "summary_zh": "研究团队将smRandom-seq单细胞转录组测序适配到肠道内容物，对糖尿病小鼠全肠道菌群进行“单菌拍照”，鉴定出八个功能集群：糖尿病状态下执行运动趋化与应激适应的菌群增多，负责有机酸代谢与多糖降解者减少，并与琥珀酸升高、支链氨基酸异常等宿主代谢紊乱精准对应。该框架把菌群研究从“谁在场”推进到“谁在干什么”，为功能导向的精准干预提供路线图。",
+     "summary_en": "By adapting smRandom-seq single-cell transcriptomics to gut contents, researchers captured per-cell snapshots of the entire gut microbiota in diabetic mice, identifying eight functional clusters: chemotaxis- and stress-adaptation jobs expand while organic-acid metabolism and polysaccharide degradation shrink, precisely mapping onto host metabolic disturbances such as elevated succinate and abnormal branched-chain amino acids. The framework shifts microbiome research from who is present to who is doing what, charting a route for function-directed precision interventions."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "乔治·丘奇团队发现“返老还童”基因SRSF1：老年小鼠寿命延长14%、衰弱进展放缓44%",
+     "title_en": "George Church Team Identifies Rejuvenation Gene SRSF1: 14% Longer Lifespan and 44% Slower Frailty in Aged Mice",
+     "url": "https://news.qq.com/rain/a/20261017A04BSP00",
+     "source_zh": "生物世界",
+     "source_en": "BioWorld (Tencent)",
+     "date": "2026-10-17",
+     "summary_zh": "哈佛医学院乔治·丘奇团队10月14日发表于Nature Aging：团队构建可解释的转录组衰老预测模型，筛选出RNA剪接因子SRSF1，可在不丢失细胞身份的前提下令衰老细胞重现年轻转录组特征。经AAV载体在老年小鼠肝脏表达后，全身衰弱进展降低44%、中位寿命延长14%，皮肤伤口愈合显著加快，且未激活致癌的多能性程序，为组织特异性基因治疗延寿提供新靶点。",
+     "summary_en": "Writing in Nature Aging on Oct 14, George Church's team at Harvard Medical School used an interpretable transcriptomic aging model to identify the RNA splicing factor SRSF1, which restores youthful transcriptomic signatures in aged cells without loss of cell identity. Liver-directed AAV delivery in aged mice slowed frailty progression by 44%, extended median lifespan by 14% and accelerated skin wound healing — without activating oncogenic pluripotency programs — pointing to a new geroprotective gene-therapy target."
+    },
+    {
+     "title_zh": "中国医科院李隽团队：NAD+激活脂肪因子Serpina3n，跨器官守护骨骼肌",
+     "title_en": "NAD+ Activates Adipokine Serpina3n to Protect Skeletal Muscle Across Organs",
+     "url": "https://news.qq.com/rain/a/20261017A04BT500",
+     "source_zh": "生物世界",
+     "source_en": "BioWorld (Tencent)",
+     "date": "2026-10-17",
+     "summary_zh": "中国医学科学院基础医学研究所李隽团队10月14日在Cell Metabolism发文：补充NAD+前体NMN的抗肌萎缩效果并非直接作用于肌肉，而是经脂肪组织介导——NAD+升高激活STAT1依赖的脂因子Serpina3n转录并释放入血，后者稳定骨骼肌丙酮酸羧化酶，促进蛋白合成与氧化代谢。在衰老、失用及癌症恶病质模型中均见肌肉保护效应，补充Serpina3n蛋白有望成为肌萎缩新疗法。",
+     "summary_en": "Writing in Cell Metabolism on Oct 14, Jun Li's team at CAMS/PUMC shows that the anti-atrophy benefit of NAD+ precursor NMN is not muscle-autonomous but adipose-mediated: elevated NAD+ drives STAT1-dependent transcription and release of the adipokine Serpina3n, which stabilizes pyruvate carboxylase in skeletal muscle to promote protein synthesis and oxidative metabolism. Muscle protection held across aging, disuse and cancer-cachexia models, and Serpina3n supplementation emerges as a potential therapy."
+    },
+    {
+     "title_zh": "Cell重磅：热量限制减少全基因组体细胞突变，基因组稳定性成可干预的衰老维度",
+     "title_en": "Caloric Restriction Reduces Genome-Wide Somatic Mutations, Establishing Genomic Stability as a Modifiable Aging Dimension",
+     "url": "https://literature.chinacdc.cn/xuekefuwu/gonggongweishengxueshuredianzhuiz/202610/t20261016_1842341.html",
+     "source_zh": "中国疾控中心科技文献追踪",
+     "source_en": "China CDC Literature Tracker",
+     "date": "2026-10-16",
+     "summary_zh": "中国疾控中心文献追踪报道的Cell论文利用高保真双链测序技术NanoSeq，对热量限制小鼠的肝、肾组织及单个细胞类型测序：热量限制显著降低多个组织的替换与插入缺失突变负荷，并压制哺乳动物主要突变来源SBS5的活性，且效应在转录不活跃区域最为显著。研究确立了基因组稳定性作为衰老的可调控维度，并提示进食时间节律与减量本身同等重要。",
+     "summary_en": "A Cell study highlighted by the China CDC literature tracker used high-fidelity duplex sequencing (NanoSeq) on liver, kidney and single-cell samples from calorically restricted mice: restriction lowered substitution and indel mutation burdens across tissues and suppressed SBS5, the dominant mammalian mutational process, with the largest effects in transcriptionally inactive regions. The work establishes genomic stability as a modifiable aging dimension and suggests meal timing may matter as much as quantity."
+    },
+    {
+     "title_zh": "衰老的“控制论”框架出炉：用数学定义干预安全边界与最小安全代价",
+     "title_en": "A Control-Theory Framework for Aging: Mathematically Defining Safe Intervention Boundaries",
+     "url": "http://aging-us.com/news-room/new-control-theory-framework-proposes-a-safer-approach-to-aging-drug-discovery",
+     "source_zh": "Aging期刊",
+     "source_en": "Aging (aging-us.com)",
+     "date": "2026-10-15",
+     "summary_zh": "Insilico Medicine与巴克研究所Alex Zhavoronkov团队在Aging发表控制论衰老框架：把衰老定义为“安全可控性的渐进丧失”，生物学年龄即恢复功能所需的“最小安全代价”。框架以向量场描述药物作用，用Lie括号证明干预顺序影响结局——模拟中先清除衰老细胞再行部分重编程效果最佳，并主张不确定性高时优先可逆干预，为老年治疗药物发现提供安全性优先的设计范式。",
+     "summary_en": "Alex Zhavoronkov's team (Insilico Medicine / Buck Institute) published in Aging a control-theory framework defining aging as progressive loss of safe controllability, with biological age reinterpreted as the minimum safe cost of functional restoration. Drugs are modeled as vector fields and Lie-bracket analysis shows intervention ordering matters — in simulation, clearing senescent cells before partial reprogramming worked best — while highly uncertain contexts should favor reversible interventions, offering a safety-first paradigm for geroscience drug discovery."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "扬州大学团队：大豆膳食纤维肠源代谢物harmaline破解耐药沙门菌定殖",
+     "title_en": "Soy Dietary Fiber-Derived Harmaline Blocks Colonization of Drug-Resistant Salmonella",
+     "url": "https://news.sciencenet.cn/sbhtmlnews/2026/10/391636.shtm?id=391636",
+     "source_zh": "中国科学报",
+     "source_en": "Science Net (China Science Daily)",
+     "date": "2026-10-15",
+     "summary_zh": "扬州大学王志强团队发表于Cell Reports：沙门菌会主动触发肠道炎症并“借势”利用炎症产物完成呼吸与扩增，形成毒力—炎症—定殖的自我强化循环。研究揭示大豆膳食纤维经肠道菌群衍生出代谢物harmaline（HAL），能同时削弱病原菌黏附侵袭、调节炎症水平并打破该循环，小鼠补充后肠道及脏器沙门菌定殖显著下降，为“以食养肠、自主抗感染”提供新机制。",
+     "summary_en": "A Cell Reports study from Wang Zhiqiang's team at Yangzhou University shows Salmonella deliberately triggers gut inflammation and exploits its by-products for respiration and expansion, creating a self-reinforcing virulence-inflammation-colonization loop. Soy dietary fiber is converted by gut microbes into the metabolite harmaline, which simultaneously curbs pathogen adhesion and invasion, modulates inflammation and breaks the loop — markedly reducing intestinal and systemic colonization in mice and opening a food-based route against drug-resistant enteric infection."
+    },
+    {
+     "title_zh": "Frontiers in Nutrition综述：饮食干预经菌群代谢物改写结直肠癌风险",
+     "title_en": "Diet Interventions Reshape Colorectal Cancer Risk via Microbial Metabolites, RCT Review Finds",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261016175221895.htm",
+     "source_zh": "生物通",
+     "source_en": "Bioeconomy/Biotrade (ebiotrade.com)",
+     "date": "2026-10-16",
+     "summary_zh": "发表于Frontiers in Nutrition的系统综述专门纳入随机对照试验，梳理饮食—菌群—结直肠癌证据链：米糠与菜豆干预富集产丁酸抗炎相关的粪杆菌、双歧杆菌和乳杆菌，短链脂肪酸与多酚代谢物增加，次级胆汁酸等促瘤代谢物减少。SCFA抑制HDAC、抗性淀粉影响DNA甲基化等机制支持饮食改变CRC风险的生物学合理性。",
+     "summary_en": "A systematic review in Frontiers in Nutrition restricted to randomized controlled trials maps the diet-microbiome-CRC evidence chain: rice bran and navy bean interventions enrich butyrate-producing, anti-inflammatory taxa (Faecalibacterium, Bifidobacterium, Lactobacillus), raise SCFA and polyphenol-derived metabolites and lower pro-tumor metabolites such as secondary bile acids and p-cresol sulfate, while ginger extract reduces Akkermansia and Ruminococcus. Mechanisms including HDAC inhibition by SCFAs and methylation effects of resistant starch support biological plausibility."
+    },
+    {
+     "title_zh": "康普茶或可安抚情绪：小鼠实验显示焦虑抑郁样行为减少、肠脑轴重塑",
+     "title_en": "Kombucha May Soothe Mood: Reduced Anxiety- and Depression-like Behaviors with Gut-Brain Remodeling in Mice",
+     "url": "https://medicalxpress.com/news/2026-10-kombucha-mood-gut-health.html",
+     "source_zh": "Medical Xpress",
+     "source_en": "Medical Xpress",
+     "date": "2026-10-15",
+     "summary_zh": "明尼苏达大学团队发表于Food Bioscience的研究：两种背景饮食（高脂高糖与低脂低糖）小鼠每周三次饮用康普茶共七周，均表现出焦虑与抑郁样行为减少，同时肠道菌群多样性改变，与肠脑通讯相关的菌群功能及代谢物增加；但肠脑轴连接机制因背景饮食不同而有显著差异。研究提示发酵食品应同时纳入心理健康与身体健康的营养视野，人体验证仍在下一步。",
+     "summary_en": "University of Minnesota researchers report in Food Bioscience that mice on both high-fat/high-sugar and lower-fat/sugar diets drinking kombucha three times weekly for seven weeks showed reduced anxiety- and depression-like behaviors, alongside shifts in gut bacterial diversity and increases in microbes, functions and metabolites tied to gut-brain communication — though the underlying mechanisms differed by background diet. The work argues for valuing fermented foods in mental as well as physical health, pending human validation."
+    },
+    {
+     "title_zh": "MIHC 2026绍兴落幕：70余位全球前2%科学家共议微生态，原研益生菌联合宣言发布",
+     "title_en": "MIHC 2026 Concludes in Shaoxing: Top Scientists Convene on Microbiome Science and Joint Probiotic Declaration",
+     "url": "https://baby.ifeng.com/c/8xH44et9pXa",
+     "source_zh": "凤凰网",
+     "source_en": "iFeng",
+     "date": "2026-10-16",
+     "summary_zh": "10月12-14日，香港理工大学微生物研究院等主办的MIHC 2026微生物创新与健康大会在绍兴举行，1000余名参会者、超70位全球前2%科学家围绕耐药性、食品安全、益生菌研发与未来食品交流。本土临床研究专题展示中国人群菌株的糖脂代谢证据；产业论坛上多家企业共同发起原研益生菌联合宣言，倡导以持续研究与全链条质量保障支撑应用。",
+     "summary_en": "Held Oct 12-14 in Shaoxing and hosted by the PolyU Microbiota I-M (and partners), MIHC 2026 drew over 1,000 attendees and 70+ scholars from the world's top 2% scientist list, covering antimicrobial resistance, food safety, probiotic R&D and future foods. The Chinese local clinical research forum showcased evidence for domestic strains such as Bifidobacterium longum dipro-O in glycolipid metabolism, and industry players including Novonesis, Morinaga and Lallemand issued a joint declaration on original-research probiotics backed by continuous science and full-chain quality management."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "GLP-1药物正在重塑补剂需求：营养补剂行业必须读懂的五个变化",
+     "title_en": "Five Ways GLP-1 Drugs Are Altering Consumer Demand for Supplements",
+     "url": "https://www.nutraingredients.com/Article/2026/10/16/five-ways-glp-1-drugs-are-altering-consumer-demand-for-supplements/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-16",
+     "summary_zh": "NutraIngredients刊文梳理GLP-1受体激动剂大流行对补剂消费的五重冲击：减重人群肌肉流失担忧推高蛋白与肌酸需求、胃肠道副作用带带动消化类补剂、微量营养素摄入下降催生复合维生素场景、皮肤毛发与关节支持产品获得新客群，同时“配合用药的营养方案”正成为品牌沟通新语言。对补剂企业而言，围绕GLP-1使用者重新设计产品线已是现实命题。",
+     "summary_en": "NutraIngredients maps five ways the GLP-1 wave is reshaping supplement demand: fear of muscle loss boosts protein and creatine, GI side effects drive digestive formulas, reduced micronutrient intake expands multivitamin use-cases, skin-hair-joint support gains new customers, and \"nutrition alongside medication\" is becoming the new brand language. Redesigning product lines around GLP-1 users is now a practical imperative for supplement companies."
+    },
+    {
+     "title_zh": "CRN Convergence 2026：女性健康补剂研究面临更严苛的科学审视",
+     "title_en": "Women's Health Research Faces Tougher Questions at CRN Convergence 2026",
+     "url": "https://www.nutraingredients.com/Article/2026/10/16/womens-health-research-faces-tougher-questions-at-crn-convergence-2026/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-16",
+     "summary_zh": "在CRN Convergence 2026大会上，女性健康补剂的科学证据成为焦点：与会专家指出更年期、经期与围产期营养领域的研究普遍样本量小、终点设计粗糙，性别特异性剂量与安全数据不足，导致产品宣称难以经受监管与媒体的双重检验。行业被敦促以更长周期、更精细分层的人群研究支撑女性全生命周期营养产品，避免概念先行。",
+     "summary_en": "At CRN Convergence 2026, the evidence base for women's health supplements took center stage: experts noted that menopause, menstrual and perinatal nutrition studies are often small and crudely designed, lacking sex-specific dosing and safety data, leaving claims vulnerable to regulatory and media scrutiny. Industry was urged to back life-stage nutrition products with longer, better-stratified population research rather than leading with marketing concepts."
+    },
+    {
+     "title_zh": "精密发酵对决植物细胞培养：补剂原料的绿色科技路线之争",
+     "title_en": "Precision Fermentation vs Plant Cell Culture: The Green-Tech Rivalry in Supplement Ingredients",
+     "url": "https://www.nutraingredients.com/Article/2026/10/16/precision-fermentation-versus-plant-cell-culture-building-resilience-with-green-tech-alternatives/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-16",
+     "summary_zh": "NutraIngredients深度对比两条可持续原料路线：精密发酵以工程菌株高效产出稀有活性成分（如稀有人参皂苷、虾青素），纯度与批次一致性强但依赖糖源与发酵规模；植物细胞培养则免于转基因争议、更贴近“天然”心智，但产量与成本仍待突破。作者认为二者并非零和——按成分特性组合布局，才是应对气候波动与供应链脆弱性的韧性策略。",
+     "summary_en": "NutraIngredients compares two sustainable ingredient routes: precision fermentation uses engineered microbes to efficiently produce rare actives with strong purity and batch consistency but depends on sugar feedstocks and fermentation scale, while plant cell culture avoids GMO concerns and fits natural positioning yet still struggles with yield and cost. The piece argues the two are complementary — a combined, ingredient-by-ingredient strategy builds supply-chain resilience against climate volatility."
+    },
+    {
+     "title_zh": "爱昕集团发布五款日养新品：把营养补剂嵌入“每天都做得到”的场景",
+     "title_en": "Aixin Group Launches Five Daily-Routine Supplements to Embed Nutrition into Everyday Scenarios",
+     "url": "https://china.qianlong.com/2026/1015/8738887.shtml",
+     "source_zh": "千龙网",
+     "source_en": "Qianlong",
+     "date": "2026-10-15",
+     "summary_zh": "爱昕集团十月发布清畅昕品牌五款日常养生新品，覆盖复合多肽粉、藤茶黄酮片、益生菌固体饮料等形态，主打“跟着一天里原本要做的事走”的高频使用逻辑，以补齐门店低频服务之外的日常空白。这一“低频到店+高频日养”的组合反映国内健康消费正从单次服务转向全周期陪伴，也为养生门店的复购与连带运营提供了新品类抓手。",
+     "summary_en": "Aixin Group unveiled five daily-wellness products under its Qingchangxin brand — peptide blends, vine-tea flavone tablets and probiotic sachets among them — designed around a high-frequency logic of attaching nutrition to routines people already have, filling the gap between occasional in-store services. The low-frequency visit plus high-frequency daily-care model mirrors a shift in Chinese health consumption toward full-cycle companionship and gives wellness retailers new levers for retention."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "Nature Medicine：司美格鲁肽联合疗法减重22%，减掉的体重92%是脂肪",
+     "title_en": "Semaglutide Combination Cuts 22% of Body Weight with 92% from Fat in BELIEVE Phase 2",
+     "url": "https://new.qq.com/rain/a/20261016A0BBNX00",
+     "source_zh": "腾讯健康",
+     "source_en": "Tencent Health",
+     "date": "2026-10-17",
+     "summary_zh": "发表于Nature Medicine的BELIEVE 2期试验（507人、72周）显示：司美格鲁肽联合在研单抗bimagrumab平均减重22.1%，其中92.2%来自脂肪，内脏脂肪降幅达58.2%；而瘦体重仅下降约2.9%，远优于司美单药的7.4%，停药6个月获益仍在持续。该结果把减重评价标杆从“体重数字”推向“身体成分”，也为GLP-1时代的肌少症预防提供了联合方案思路。",
+     "summary_en": "The BELIEVE phase 2 trial (507 participants, 72 weeks) published in Nature Medicine shows semaglutide plus investigational bimagrumab achieved 22.1% average weight loss with 92.2% from fat mass and 58.2% visceral fat reduction, while lean mass fell only about 2.9% versus 7.4% on semaglutide alone; benefits persisted six months off therapy. The results push the benchmark from scale weight to body composition and suggest a combination strategy against sarcopenia in the GLP-1 era."
+    },
+    {
+     "title_zh": "讯飞医疗携手瑞慈医疗：AI大模型进体检场景，探索商业化健康管理闭环",
+     "title_en": "iFlytek Medical Partners with Rici Healthcare to Bring Medical LLMs into Checkup-Based Health Management",
+     "url": "https://www.toutiao.com/article/7696832594579554866/",
+     "source_zh": "智通财经",
+     "source_en": "Zhitong Caijing",
+     "date": "2026-10-15",
+     "summary_zh": "讯飞医疗科技10月14日与上海瑞慈医疗订立合作框架协议：授权其使用讯飞星火医疗大模型的症状自测、药物查询与报告解读功能，在用户授权下打通健康数据，并联合推广健康管理套餐。体检被视为健康管理的天然入口，双方将在检前需求理解、检中辅助决策到检后持续管理的完整链路上验证“AI+体检”模式，探索可复制的商业化范式。",
+     "summary_en": "On Oct 14 iFlytek Medical signed a framework agreement with Shanghai Rici Healthcare to license iFlytek Spark Medical LLM functions (symptom self-check, drug queries, report interpretation), enable user-authorized health data interoperability and jointly promote health-management packages. Framing checkups as the natural entry point of health management, the partners will validate an \"AI + checkup\" model across pre-visit triage, in-visit decision support and post-visit follow-up as a replicable commercial template."
+    },
+    {
+     "title_zh": "辉瑞健康减重科普展走进成都春熙路：体测、互动与“减重搭子”齐上阵",
+     "title_en": "Pfizer Brings Weight-Management Science Exhibit to Chengdu's Chunxi Road",
+     "url": "https://www.toutiao.com/article/7696770270345986570",
+     "source_zh": "成都日报锦观",
+     "source_en": "Chengdu Daily",
+     "date": "2026-10-15",
+     "summary_zh": "10月17-18日，辉瑞中国“不难瘦才享受”健康减重科普展全国巡展第四站落地成都春熙路：市民可现场体测身体成分、参与体感游戏了解肥胖相关风险，并与其数字健康伴侣“偏偏”互动，识别“一周瘦十斤”“断碳暴汗”等极端误区。活动呼应《国民健康“十五五”规划》将健康体重管理列为重点任务，把诊室知识搬到商圈，推动“全民主动管体重”。",
+     "summary_en": "On Oct 17-18, Pfizer China's \"No Struggle, More Enjoyment\" weight-management science exhibit holds its fourth stop at Chengdu's Chunxi Road: visitors get body-composition testing, interactive games about obesity-related risks, and chats with the digital companion \"Pianpian\" to debunk extremes like \"lose 10 jin a week\" or zero-carb crash routines. Echoing the 15th Five-Year National Health Plan's focus on healthy weight, the exhibit moves clinical knowledge into the mall to popularize proactive weight management."
+    },
+    {
+     "title_zh": "上海宝山“体重管理+肾脏病”专场收官：心血管-肾脏-代谢共管思维下沉社区",
+     "title_en": "Shanghai Baoshan Concludes Weight-Management and Kidney-Disease Training, Pushing CKM Co-Management into Communities",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34268804",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-10-14",
+     "summary_zh": "10月14日，上海宝山区体重管理服务能力提升系列培训第六期收官：三位肾病专家围绕肥胖与慢性肾脏病的中西医诊治、代谢相关性肾病及《心血管-肾脏-代谢综合征专家共识（2026）》授课，覆盖全区18家社区卫生服务中心骨干。培训直指基层对肾病高危人群筛查识别与干预处置的能力短板，推动体重管理与慢病管理从“单一指标”走向多系统一体化共管。",
+     "summary_en": "On Oct 14, Baoshan District in Shanghai concluded the sixth session of its weight-management capacity training series: three nephrology experts lectured on obesity-CKD management in Chinese and Western medicine, metabolic kidney disease and the 2026 Cardiovascular-Kidney-Metabolic Syndrome consensus, reaching key staff from all 18 community health centers. The program targets grassroots gaps in screening and intervention for kidney-risk populations, steering weight and chronic-disease management toward integrated multi-system co-management."
+    }
+   ]
+  }
+ ]
+}
