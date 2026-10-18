@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-18",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月12日 — 10月18日（最近 7 天）",
+ "range_en": "Oct 12 – Oct 18, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "西农刘学波团队：植物乳杆菌A736经色氨酸代谢物与肠神经“对话”，改善结肠炎",
+     "title_en": "NWAFU Team: Lactiplantibacillus plantarum A736 Talks to Enteric Neurons via Tryptophan Metabolite to Ease Colitis",
+     "url": "https://news.qq.com/rain/a/20261017A0AL5200",
+     "source_zh": "热心肠日报",
+     "source_en": "Mr-Gut Daily",
+     "date": "2026-10-17",
+     "summary_zh": "西北农林科技大学刘学波团队揭示益生菌护肠的神经机制：植物乳杆菌A736将膳食色氨酸转化为吲哚-3-乳酸，恢复结肠炎中减少的胆碱能神经元，重建乙酰胆碱介导的免疫抑制信号并重新平衡Th17/Treg应答；活体基因消融实验证实胆碱能神经元是必经之路，低色氨酸饮食会废除保护作用，提示菌株干预需配合膳食底物。",
+     "summary_en": "A team at Northwest A&F University revealed how probiotics guard the gut via nerves: Lactiplantibacillus plantarum A736 converts dietary tryptophan into indole-3-lactate, restoring cholinergic neurons lost in colitis and rebalancing Th17/Treg immunity. Ablation experiments confirm cholinergic neurons are the required pathway, and tryptophan-poor diets abolish the protection."
+    },
+    {
+     "title_zh": "吉林大学团队：AKK菌代谢物酪醇经“肠-子宫轴”抑制子宫内膜炎",
+     "title_en": "Jilin University Team: AKK Microbe's Tyrosol Suppresses Endometritis via a Gut-Uterus Axis",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34266584",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-10-17",
+     "summary_zh": "吉林大学曹永国、屈琳凯团队发表于Cell Host & Microbe：AKK菌经乙醇脱氢酶催化生成酪醇，酪醇入血富集于子宫，激活SIRT1/PI3K/AKT通路、抑制NF-κB炎症信号，显著缓解子宫内膜炎；阻断菌源酶保护消失，补回酪醇即恢复。研究确立了全新的“肠-子宫轴”代谢调控机制，为子宫内膜炎的抗生素耐药难题提供非抗生素干预思路。",
+     "summary_en": "A Jilin University team reports in Cell Host & Microbe that Akkermansia muciniphila produces tyrosol via alcohol dehydrogenases; tyrosol reaches the uterus through blood and activates SIRT1/PI3K/AKT signaling to curb NF-κB inflammation, easing endometritis. Blocking the bacterial enzyme removes the benefit, which returns with tyrosol supplementation — a new gut-uterus axis and a non-antibiotic strategy."
+    },
+    {
+     "title_zh": "iMeta高分综述：肠-X轴全景图——肠道菌群与九大靶器官的双向对话",
+     "title_en": "iMeta Review: The Gut-X Axis — Bidirectional Crosstalk Between the Gut Microbiome and Nine Target Organs",
+     "url": "https://news.qq.com/rain/a/20261018A00VOQ00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-18",
+     "summary_zh": "iMeta期刊新综述系统绘制肠道微生物组与肝、肾、脑、肺等九大靶器官的双向互作图谱：梳理胆汁酸肠肝循环、门静脉通道、免疫细胞迁移与神经通路四大连接元件，覆盖短链脂肪酸、尿毒症毒素等关键代谢物，并整合高纤维饮食、益生菌与靶向药物三类干预策略，为基于肠-X轴的精准营养与慢病管理提供全景式参考。",
+     "summary_en": "A new iMeta review maps bidirectional crosstalk between the gut microbiome and nine target organs including liver, kidney, brain and lung. It outlines four connecting elements — bile acid enterohepatic circulation, portal vein, immune-cell migration and neural routes — covers key metabolites such as SCFAs and uremic toxins, and integrates high-fiber diets, probiotics and targeted drugs as intervention strategies."
+    },
+    {
+     "title_zh": "吉林农大携手善恩康共建AKK菌联合研究院，推进下一代益生菌转化",
+     "title_en": "Jilin Agricultural University and ShinEcon Launch Joint AKK Research Institute for Next-Gen Probiotics",
+     "url": "https://www.xinyingyang.com/content-9-30532-1.html",
+     "source_zh": "新营养",
+     "source_en": "Xinyingyang Media",
+     "date": "2026-10-15",
+     "summary_zh": "10月15日，吉林农业大学与善恩康生物科技签约共建AKK菌联合研究院：依托任大勇教授团队的科研积累与企业的研发产业化能力，围绕嗜黏蛋白阿克曼菌开展安全性评估、功能评价与作用机制研究，推动下一代益生菌从论文走向产品。双方将打造科研与产业衔接平台，助力国产菌株提升全球竞争力。",
+     "summary_en": "On October 15, Jilin Agricultural University and ShinEcon Biotech signed an agreement to build a joint AKK research institute. Combining Prof. Ren Dayong's research with the company's industrialization capability, the institute will run safety assessment, function evaluation and mechanism studies on Akkermansia muciniphila, pushing next-generation probiotics from papers to products."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Cell Stem Cell临床研究：单次输注干细胞显著改善老年衰弱者行走能力",
+     "title_en": "Cell Stem Cell Trial: Single Stem-Cell Infusion Improves Walking Capacity in Frail Older Adults",
+     "url": "https://news.qq.com/rain/a/20261017A0E19X00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-17",
+     "summary_zh": "发表于Cell Stem Cell的随机对照研究为衰老衰弱干预带来突破：148位70-85岁轻中度衰弱老人单次输注不同剂量的Laromestrocel间充质干细胞，随访一年呈明确剂量-效应关系——2亿细胞组9个月时6分钟步行距离比安慰剂组多63.4米（p=0.0077），老人主观改善与步行提升显著相关。炎性衰老与干细胞储备下降被认为是衰弱的核心机制。",
+     "summary_en": "A randomized trial published in Cell Stem Cell offers a breakthrough for aging-related frailty: 148 frail adults aged 70-85 received a single infusion of laromestrocel at varying doses. Over one year a clear dose-response emerged — the 200-million-cell group walked 63.4 meters farther than placebo at nine months (p=0.0077), with subjective improvement tracking the walking gains."
+    },
+    {
+     "title_zh": "上海交大联合仙乐健康：人参皂苷Rg3经溶酶体调控促进健康衰老",
+     "title_en": "SJTU with SIRLOIN Lab: Ginsenoside Rg3 Promotes Healthy Aging via Lysosomal Regulation",
+     "url": "https://www.agri.sjtu.edu.cn/post/5794",
+     "source_zh": "上海交通大学",
+     "source_en": "Shanghai Jiao Tong University",
+     "date": "2026-10-16",
+     "summary_zh": "上海交大郑凌君团队联合仙乐健康在Aging Cell发表研究：20(S)-人参皂苷Rg3延长线虫寿命并维持运动、进食等生理功能，减少随龄神经元蛋白聚集与多巴胺能神经元退变。机制上，Rg3重塑磷脂酰肌醇信号、抑制TORC1并激活HLH-30/TFEB，恢复受损的自噬-溶酶体通量。现有证据来自线虫模型，哺乳动物与人体效应仍待验证。",
+     "summary_en": "Zheng Lingjun's team at Shanghai Jiao Tong University, with SIRLOIN-linked partner, published in Aging Cell: ginsenoside Rg3 extends nematode lifespan, preserves locomotion and feeding, and reduces age-related neuronal protein aggregation. Mechanistically Rg3 reshapes phosphoinositide signaling, suppresses TORC1, activates HLH-30/TFEB and restores autophagy-lysosomal flux; mammalian validation is still pending."
+    },
+    {
+     "title_zh": "酸奶发酵菌再立功：嗜热链球菌经NHR-49通路重塑脂肪代谢，延长线虫健康寿命",
+     "title_en": "Yogurt Starter Streptococcus thermophilus Extends Healthspan in Worms by Reprogramming Fat Metabolism",
+     "url": "https://bioengineer.org/yogurt-bacterium-extends-healthy-aging-by-reprogramming-fat-metabolism-in-worms/",
+     "source_zh": "Bioengineer.org",
+     "source_en": "Bioengineer.org",
+     "date": "2026-10-15",
+     "summary_zh": "遵义医科大学团队10月15日发表于GeroScience：常用酸奶发酵菌嗜热链球菌显著延长线虫健康span——运动更持久、脂褐素沉积减少。机制上，该菌激活PPARα同源核受体NHR-49，上调Δ9去饱和酶fat-5/6/7，把饱和脂肪酸转化为单不饱和脂肪酸、改善膜流动性。研究把脂代谢而非抗氧化置于益生菌抗衰机制的核心。",
+     "summary_en": "A Zunyi Medical University team reported in GeroScience on October 15 that the yogurt starter Streptococcus thermophilus extends healthspan in C. elegans — better motility and less lipofuscin. The microbe activates the PPARα ortholog NHR-49, upregulates delta-9 desaturases fat-5/6/7, converts saturated fats to monounsaturated fatty acids and improves membrane fluidity, placing lipid metabolism at the core of probiotic anti-aging."
+    },
+    {
+     "title_zh": "联合早报实况：长寿医学在新加坡兴起，生理年龄检测与“抗衰补剂”热潮并存",
+     "title_en": "Zaobao Report: Longevity Medicine Rises in Singapore as Biological-Age Testing and Anti-Aging Supplements Boom",
+     "url": "https://www.zaobao.com/news/singapore/story20261018-9843453",
+     "source_zh": "联合早报",
+     "source_en": "Lianhe Zaobao",
+     "date": "2026-10-18",
+     "summary_zh": "联合早报实地报道新加坡长寿医学升温：本地首个基于新加坡人数据的生理年龄检测AgeQ累计检测已超1000次，每天收到60至100项咨询；NAD+补剂、干细胞与肽类疗法也被商家包装成“灵丹妙药”。Andrea Maier等专家提醒，小鼠延寿证据不能直接外推人类，越宽泛的“逆转衰老”宣称越需要有力临床证据，做好基础健康管理本身就是长寿干预。",
+     "summary_en": "Lianhe Zaobao reports that longevity medicine is heating up in Singapore: AgeQ, the first biological-age test built on Singaporean data, has surpassed 1,000 tests with 60-100 inquiries daily, while NAD+ supplements, stem cells and peptide therapies are marketed as miracle cures. Experts caution that mouse evidence cannot be extrapolated to humans and that basic preventive care is itself a longevity intervention."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "Frontiers in Microbiomes综述：饮食、睡眠、运动与抗生素如何塑造你的肠道菌群",
+     "title_en": "Frontiers in Microbiomes Review: How Diet, Sleep, Exercise and Antibiotics Shape Your Gut Microbes",
+     "url": "https://bioengineer.org/diet-sleep-exercise-and-antibiotics-shape-your-gut-microbes/",
+     "source_zh": "Bioengineer.org",
+     "source_en": "Bioengineer.org",
+     "date": "2026-10-15",
+     "summary_zh": "发表于Frontiers in Microbiomes的综述整合饮食与生活方式对菌群-宿主互作的决定性影响，指出个体应答差异才是核心特征：仅部分人能把大豆异黄酮转化为马雌酚，尿石素生成同样依赖特定菌群——由此形成按代谢能力分类的“代谢表型”。文章主张以可重复的功能特征而非单一“最优菌群”为目标，前瞻验证与标准化方法是个性化营养落地的前提。",
+     "summary_en": "A review in Frontiers in Microbiomes synthesizes how diet and lifestyle determine microbiota-host interactions, stressing inter-individual variability: only some people convert soy isoflavones to equol, and urolithin production depends on specific communities, defining metabotypes. The authors argue personalized nutrition should target reproducible functional signatures, validated prospectively with standardized methods."
+    },
+    {
+     "title_zh": "25项RCT荟萃分析：四种饮食模式都能降糖减重，但没有唯一赢家",
+     "title_en": "Meta-Analysis of 25 RCTs: Four Dietary Patterns Lower Glucose and Weight, but No Clear Winner",
+     "url": "https://nutrishify.com/?p=1342",
+     "source_zh": "Nutrishify",
+     "source_en": "Nutrishify",
+     "date": "2026-10-12",
+     "summary_zh": "发表于Frontiers in Nutrition、纳入25项随机对照试验的荟萃分析比较2型糖尿病四种饮食模式：地中海、间歇性禁食、能量限制与生酮饮食均使体重下降约3公斤、空腹血糖与HbA1c改善，但预测区间跨越无效线，作者不支持排出名次。地中海模式对空腹血糖最一致，生酮的副作用报告更多——个体化选择比寻找“最佳饮食”更重要。",
+     "summary_en": "A meta-analysis of 25 randomized trials in Frontiers in Nutrition compared Mediterranean, intermittent fasting, energy restriction and ketogenic diets in type 2 diabetes: all lowered weight by about 3 kg and improved fasting glucose and HbA1c, but prediction intervals crossed no effect and no pattern ranked first. Mediterranean was most consistent for glucose; ketogenic diets had more reported side effects."
+    },
+    {
+     "title_zh": "20项RCT网络荟萃：乳清蛋白+维生素D+亮氨酸领跑肌少症营养配方",
+     "title_en": "Network Meta-Analysis: Whey Plus Vitamin D and Leucine Leads Sarcopenia Nutrition Formulas",
+     "url": "https://nutrishify.com/?p=1342",
+     "source_zh": "Nutrishify",
+     "source_en": "Nutrishify",
+     "date": "2026-10-13",
+     "summary_zh": "发表于Nutrients、覆盖20项试验2160名老年人的网络荟萃显示：营养补充整体可改善肌肉量指数、握力与步速，其中乳清蛋白+维生素D+亮氨酸组合同时改善肌肉量指数（SMD 0.29）、握力（0.82）与坐站时间（-1.41），是唯一多项指标齐动的配方；另两种配方各靠单一试验支撑。证据确定性偏低，效应量应审慎解读。",
+     "summary_en": "A network meta-analysis in Nutrients covering 20 trials and 2,160 older adults found nutritional supplements improve muscle-mass index, grip strength and gait speed. Whey protein plus vitamin D and leucine moved several measures at once (SMD 0.29 muscle mass, 0.82 grip, -1.41 sit-to-stand), while competing formulas rest on single trials. Certainty was low to very low."
+    },
+    {
+     "title_zh": "金丝桃苷多维改善2型糖尿病：促脂肪产热、白色脂肪棕色化并重塑肠道菌群",
+     "title_en": "Flavonoid Hyperoside Improves Type 2 Diabetes via Thermogenesis, Fat Browning and Gut Microbiota Remodeling",
+     "url": "https://new.qq.com/rain/a/20261017A0C8WM00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-17",
+     "summary_zh": "10月8日在线发表于Phytotherapy Research的动物研究显示：广泛存在于果蔬中的黄酮金丝桃苷（槲皮素-3-O-半乳糖苷）可增强棕色脂肪产热与白色脂肪棕色化、减轻组织炎症，并重塑肠道菌群——提高拟杆菌门/厚壁菌门比值、恢复Muribaculaceae等有益菌丰度，多维度改善高脂饮食诱导的2型糖尿病代谢损伤，为天然活性物干预代谢病提供候选。",
+     "summary_en": "An animal study published online October 8 in Phytotherapy Research shows hyperoside, a flavonoid common in fruits and vegetables, enhances brown adipose thermogenesis and white-fat browning, eases tissue inflammation and remodels the gut microbiome — raising the Bacteroidetes/Firmicutes ratio and restoring beneficial taxa — ameliorating high-fat diet-induced type 2 diabetes on multiple fronts."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "FDA重申GRAS改革：拟以强制通报取代自愿制度，12月9日前公开征求意见",
+     "title_en": "FDA Pushes Mandatory GRAS Notifications, with Comments Open Through December 9",
+     "url": "https://www.nutraingredients.com/Article/2026/10/16/fda-cites-gras-oversight-gaps-in-push-for-mandatory-notifications-requests-comments/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-16",
+     "summary_zh": "NutraIngredients报道，FDA官员在网络研讨会上重申GRAS（公认为安全）规则改革要点：8月提出的新规将把现行自愿通报制度改为覆盖人用与动物用食品物质的强制程序，公众意见征询至12月9日截止。改革旨在让监管者与公众更清楚哪些物质正进入食品供应，同时保留符合条件的GRAS用途豁免食品添加剂上市前审批的法定框架。",
+     "summary_en": "FDA officials reiterated in a webinar the key points of the proposed GRAS rule reform: floated in August, the new rule would replace the voluntary notification system with a mandatory program covering human and animal food substances, with comments open through December 9 — giving regulators and the public a clearer picture of substances entering the food supply."
+    },
+    {
+     "title_zh": "欧洲新平台上线：加速欧盟与英国新型食品审批",
+     "title_en": "New European Platform Launched to Speed Up EU and UK Novel Food Approvals",
+     "url": "https://www.nutraingredients.com/Article/2026/10/15/new-platform-to-speed-up-eu-and-uk-novel-food-approvals/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-15",
+     "summary_zh": "NutraIngredients报道，一个旨在加速欧盟与英国新型食品（novel food）审批的平台于10月15日宣布成立。新型食品审批周期长、资料要求高，长期被视为创新成分入场的最大瓶颈；新平台将统筹申报路径与监管沟通，为补剂原料、替代蛋白等功能成分进入欧洲市场提供更快通道，行业正关注其对创新提速的实际效果。",
+     "summary_en": "NutraIngredients reports that a new platform dedicated to accelerating EU and UK novel food approvals was announced on October 15. Long review cycles and heavy documentation have been the biggest bottleneck for innovative ingredients; the platform will coordinate application pathways and regulator dialogue, offering faster market entry for supplement ingredients and alternative proteins."
+    },
+    {
+     "title_zh": "8周随机双盲试验：每日6克L-精氨酸显著减轻持续疲劳，3克剂量无效",
+     "title_en": "8-Week Double-Blind RCT: 6 g/day L-Arginine Reduces Persistent Fatigue, 3 g/day Falls Short",
+     "url": "https://nutrishify.com/?p=1342",
+     "source_zh": "Nutrishify",
+     "source_en": "Nutrishify",
+     "date": "2026-10-14",
+     "summary_zh": "发表于Nutrients的随机双盲试验纳入120名持续疲劳的在职成年人：每日6克口服L-精氨酸8周使疲劳严重度量表得分改善6.41分，显著优于安慰剂组的2.23分，而每日3克与安慰剂无差异。次要疲劳指标经多重比较校正后说服力减弱；试验由企业资助，疲劳有改善但未完全缓解，剂量与证据边界需留意。",
+     "summary_en": "A double-blind randomized trial in Nutrients enrolled 120 working adults with persistent fatigue: 8 weeks of 6 g/day oral L-arginine improved Fatigue Severity Scale scores by 6.41 points versus 2.23 for placebo, while 3 g/day showed no benefit. Secondary outcomes weakened after multiplicity adjustment; the trial was industry-funded and fatigue improved but did not fully resolve."
+    },
+    {
+     "title_zh": "Food Science & Nutrition综述：后生元从发酵副产物走向免疫、肠脑轴与代谢调控",
+     "title_en": "Review: Postbiotics Move from Fermentation Byproducts to Immune, Gut-Brain and Metabolic Modulation",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261016001214206.htm",
+     "source_zh": "生物通",
+     "source_en": "Ebiotrade",
+     "date": "2026-10-16",
+     "summary_zh": "生物通报道发表于Food Science & Nutrition的综述：后生元作为非活菌及其代谢产物的制剂，含短链脂肪酸、肽类、多糖与维生素等活性成分，临床前与临床证据显示其可改善胰岛素敏感性、调节细胞因子信号、增强上皮屏障完整性，并对肥胖、2型糖尿病与抑郁具有保护潜力，还表现出抗肌少症作用；稳定性高、无需冷链是产业优势，但标准化与监管一致性仍待解决。",
+     "summary_en": "A review in Food Science & Nutrition covered by Ebiotrade frames postbiotics — preparations of inactivated microbes and their metabolites rich in SCFAs, peptides, polysaccharides and vitamins — as modulators of immunity, the gut-brain axis and metabolism, with evidence for improved insulin sensitivity, barrier integrity and protection against obesity, type 2 diabetes and depression; standardization and regulatory alignment remain open issues."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "13部门联合印发《儿童青少年“五健”促进行动计划（2026-2030年）》",
+     "title_en": "13 Chinese Agencies Issue the 2026-2030 Action Plan for Children's “Five Healths”",
+     "url": "https://www.icswb.com/h/204/20261017/1000147.html",
+     "source_zh": "长沙晚报",
+     "source_en": "Changsha Evening News",
+     "date": "2026-10-17",
+     "summary_zh": "国家卫生健康委等13部门联合制定《儿童青少年“五健”促进行动计划（2026—2030年）》，聚焦健康体重、视力、心理、骨骼与口腔五大领域，倡导“6个1”健康生活方式并推行三级分层干预、多病共防。湖南省已全面启动免费筛查，1765家医疗机构依托“健康副校长”入校服务，累计筛查156.42万名儿童青少年，实现早发现、早预警、早干预。",
+     "summary_en": "Thirteen agencies led by China's National Health Commission jointly issued the 2026-2030 Action Plan for children's “five healths” — weight, vision, mental health, bones and oral health — promoting the “6x1” healthy lifestyle and three-tiered interventions. Hunan has launched free screening in 1,765 medical institutions, reaching 1.5642 million children and adolescents so far."
+    },
+    {
+     "title_zh": "华为WATCH D3亮相长城会：AI+可穿戴把心血管慢病管理从院内延伸到日常",
+     "title_en": "Huawei WATCH D3 Debuts at Great Wall Congress: AI and Wearables Extend Cardiovascular Care Beyond Hospitals",
+     "url": "https://www.cet.com.cn/itpd/hlw/10618118.shtml",
+     "source_zh": "中国经济新闻网",
+     "source_en": "CET China Economic Times Net",
+     "date": "2026-10-16",
+     "summary_zh": "10月16日第37届长城心脏病学大会上，华为运动健康专题会展示AI+可穿戴的慢病管理新路径：唐熠达团队初步验证穿戴设备无感估算最大摄氧量的可行性，称其有望成为心血管风险预警核心指标；陈韵岱基于20余万穿戴用户数据探索AI随访血压管理，瑞金医院王继光介绍轻触式动态血压监测研究。专家共识：心血管防治关口应从诊室前移到日常生活。",
+     "summary_en": "At the 37th Great Wall International Congress of Cardiology on October 16, Huawei's health session showcased AI-plus-wearable chronic disease management: Tang Yida's team validated cuffless VO2max estimation as a potential risk-warning indicator, Chen Yundai explored AI follow-up for blood pressure using data from over 200,000 wearable users, and Wang Jiguang presented light-touch ambulatory BP monitoring."
+    },
+    {
+     "title_zh": "重阳节来临：雅培捐赠百万医学营养品，全国义诊点亮银龄健康",
+     "title_en": "Abbott Donates Medical Nutrition Worth Millions as China Marks Double Ninth Elderly Health Campaign",
+     "url": "https://health.gmw.cn/2026-10/16/content_39050703.htm",
+     "source_zh": "光明网",
+     "source_en": "Guangming Online",
+     "date": "2026-10-16",
+     "summary_zh": "重阳节前夕，雅培连续第四年联合上海市慈善基金会开展“孝亲敬老”公益行动，捐赠价值百万元的全安素、益力佳等医学营养品，并支持覆盖全国20余省市的老年医学科重阳义诊与科普。临床营养专家强调优质蛋白对维持老年肌肉健康的基础作用，疾病康复或特殊营养需求人群可在医生或临床营养师指导下合理选用医学营养品。",
+     "summary_en": "Ahead of the Double Ninth Festival, Abbott ran its fourth consecutive charity campaign with the Shanghai Charity Foundation, donating millions of yuan of medical nutrition products and supporting geriatric screenings and education across more than 20 provinces. Clinical nutrition experts underscored quality protein for muscle health in older adults and guided use of medical nutrition under professional supervision."
+    },
+    {
+     "title_zh": "重阳登高有“方”：中疾控手册支招“三高一疹”联防，慢病出行十六字口诀",
+     "title_en": "China CDC-Backed Handbook: “Three Highs Plus Shingles” Tips and a 16-Character Mantra for Safe Autumn Outings",
+     "url": "https://www.cjrbapp.cjn.cn/p/46956392.html",
+     "source_zh": "长江日报",
+     "source_en": "Changjiang Daily",
+     "date": "2026-10-16",
+     "summary_zh": "针对重阳出行高峰，中国疾控中心指导下发布的秋季出行健康手册提出“药带齐，苗早问；慢病不停药，行程不硬扛”十六字口诀。武汉协和医院专家提醒：糖尿病患者带状疱疹风险最高可高出60%，心血管患者高出39%；出行前应做好健康评估、规律饮食、带齐监测设备，带状疱疹出疹后72小时内启动抗病毒治疗效果最佳。",
+     "summary_en": "For the Double Ninth travel peak, a handbook issued under China CDC guidance distills autumn travel tips into a 16-character mantra covering medications, vaccines and steady treatment. Wuhan Union Hospital experts note diabetes raises shingles risk by up to 60% and cardiovascular disease by 39%; travelers should assess their health beforehand, and antiviral therapy works best within 72 hours of rash onset."
+    }
+   ]
+  }
+ ]
+}
