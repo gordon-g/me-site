@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-19",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月13日 — 10月19日（最近 7 天）",
+ "range_en": "Oct 13 – Oct 19, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "近9万人研究：红肉中一种罕见糖分与2型糖尿病风险升高63%相关",
+     "title_en": "Study of Nearly 90,000 Adults Links a Little-Known Sugar in Red Meat to a 63% Higher Risk of Type 2 Diabetes",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230031.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-18",
+     "summary_zh": "一项纳入近9万名成人的新研究发现，摄入红肉中一种鲜为人知的糖分（Neu5Gc）最多的人群，患2型糖尿病的风险高出63%。科学家怀疑这种糖可能引发慢性炎症，为红肉摄入与代谢性疾病之间的关联提供了新的机制解释。",
+     "summary_en": "A new study of nearly 90,000 adults found that people with the highest intake of a little-known sugar in red meat (Neu5Gc) had a 63% higher risk of type 2 diabetes. Scientists suspect the sugar may trigger chronic inflammation, offering a new mechanistic explanation for the link between red meat consumption and metabolic disease."
+    },
+    {
+     "title_zh": "新药通过修复肠道逆转严重脂肪肝，肠-肝轴再获关键证据",
+     "title_en": "Experimental Drug Reverses Severe Fatty Liver Disease by Repairing the Gut",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016080912.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-17",
+     "summary_zh": "科学家发现一种潜在新药，可在动物模型中通过恢复肠道健康、阻止有害物质抵达肝脏，从而逆转严重脂肪肝疾病。研究再次印证肠道屏障与肠道菌群是代谢性肝病的关键干预入口，这一突破或为脂肪性肝炎等疾病的新疗法铺平道路。",
+     "summary_en": "Scientists have identified a potential new drug that reverses severe fatty liver disease in animal models by restoring gut health and blocking harmful substances from reaching the liver. The findings reinforce the gut barrier and microbiome as key intervention points for metabolic liver disease and may pave the way for new therapies such as steatohepatitis treatment."
+    },
+    {
+     "title_zh": "高脂饮食可将肝脏再生区室持久重编程为衰老样状态，MitoQ部分恢复",
+     "title_en": "High-Fat Diet Persistently Reprograms Liver Regenerative Compartments into a Senescence-Like State; MitoQ Partially Restores Function",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/202610170011221442.htm",
+     "source_zh": "生物通",
+     "source_en": "Biocom (ebiotrade)",
+     "date": "2026-10-17",
+     "summary_zh": "肝类器官研究显示，高脂饮食诱导的代谢应激会将肝脏再生区室持久重编程为衰老样状态，且离开原始代谢环境后异常仍持续传代；线粒体靶向抗氧化剂MitoQ可降低ROS与炎症因子并部分恢复类器官形成效率，提示线粒体功能障碍是再生缺陷的关键功能组分。",
+     "summary_en": "Using liver organoids, researchers showed that metabolic stress from a high-fat diet persistently reprograms liver regenerative compartments into a senescence-like state, with abnormalities carried through successive passages even after leaving the original environment. The mitochondria-targeted antioxidant MitoQ lowered ROS and inflammatory markers and partially restored organoid-forming efficiency, pointing to mitochondrial dysfunction as a key functional component of the regenerative defect."
+    },
+    {
+     "title_zh": "源自大豆的天然化合物LPC70或可保护大脑免受高盐伤害",
+     "title_en": "Soy-Derived Compound LPC70 May Protect the Brain from Excess Salt",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-18",
+     "summary_zh": "日本研究人员的一项新研究显示，摄入过多盐分不仅可能升高血压，还可能损害记忆和社交行为；而一种源自大豆的天然化合物LPC70能够保护大脑免受过多盐分的伤害。这为高盐饮食人群的神经保护提供了源于日常膳食的潜在干预新思路。",
+     "summary_en": "A new study by Japanese researchers suggests that excess salt intake may not only raise blood pressure but also impair memory and social behavior, while LPC70, a natural soy-derived compound, can protect the brain from salt-induced damage. The finding points to a diet-based strategy for protecting the nervous system in people with high-salt diets."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "骨髓巨噬细胞STING信号成骨骼衰老枢纽：消耗NMN、抑制成骨",
+     "title_en": "Bone Marrow Macrophage STING Signaling Emerges as a Hub of Skeletal Aging, Depleting NMN and Impairing Bone Formation",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261016000904763.htm",
+     "source_zh": "生物通",
+     "source_en": "Biocom (ebiotrade)",
+     "date": "2026-10-16",
+     "summary_zh": "《Advanced Science》刊载的研究显示，衰老骨髓中巨噬细胞STING信号随龄激活，上调CD38并以其胞外NAD酶活性消耗微环境中的NMN，阻断骨髓间充质干细胞的NAD+补救合成与成骨分化；STING抑制剂H-151联合NMN补充可减轻小鼠骨丢失，为衰老骨髓微环境干预提供新靶点。",
+     "summary_en": "A study in Advanced Science shows that STING signaling in aged bone marrow macrophages is activated with age, upregulating CD38 whose ecto-NADase activity depletes NMN from the niche, blocking NAD+ salvage and osteogenic differentiation in bone marrow stromal cells. Combining the STING inhibitor H-151 with NMN supplementation reduced bone loss in mice, suggesting a new target for intervening in the aging marrow microenvironment."
+    },
+    {
+     "title_zh": "NAD+补剂真能带来健康衰老吗？现有人体证据全景盘点",
+     "title_en": "Can NAD+ Supplements Really Support Healthy Aging? A Roundup of the Human Evidence",
+     "url": "https://eveningreport.nz/2026/10/14/can-nad-supplements-help-us-age-more-healthily-heres-what-the-science-shows",
+     "source_zh": "The Conversation（Evening Report 转载）",
+     "source_en": "The Conversation (via Evening Report)",
+     "date": "2026-10-14",
+     "summary_zh": "科普文章系统盘点NAD+补剂证据：NR与NMN确能显著升高血液NAD+水平，脂质体NAD+在小样本试验中使细胞内NAD+升高逾64%；但33项人体研究的系统综述显示其对体能、代谢等健康老龄化终点效果不一致，专家强调多样饮食、压力管理与规律运动仍是当前证据最强的健康衰老策略。",
+     "summary_en": "A science review of NAD+ supplements finds that NR and NMN reliably raise blood NAD+ levels, and liposomal NAD+ raised intracellular NAD+ by more than 64% in a small trial; however, a systematic review of 33 human studies shows inconsistent effects on physical function and metabolism. Experts stress that a varied diet, stress management and regular exercise remain the best-evidenced strategies for healthy aging."
+    },
+    {
+     "title_zh": "4周尿石素A补充未改善中年肥胖者血管内皮功能，脑血流反应却升高",
+     "title_en": "Four Weeks of Urolithin A Failed to Improve Vascular Endothelial Function in Middle-Aged Adults with Obesity, but Brain Blood Flow Reactivity Rose",
+     "url": "https://www.toutiao.com/article/7696384161640219199",
+     "source_zh": "今日头条·SINOVITA",
+     "source_en": "SINOVITA (via Toutiao)",
+     "date": "2026-10-14",
+     "summary_zh": "俄克拉荷马大学50人随机双盲试验显示，BMI≥30的中年人每日补充1000毫克尿石素A四周后，主要终点肱动脉血流介导舒张未见改善，但工作记忆任务中大脑皮层血流反应显著升高，任务成绩未变。提示尿石素A的作用可能存在组织特异性，其促线粒体自噬机制对脑血管的获益值得进一步研究。",
+     "summary_en": "In a 50-person randomized, double-blind trial at the University of Oklahoma, middle-aged adults with BMI over 30 took 1,000 mg of urolithin A daily for four weeks. The primary endpoint, brachial artery flow-mediated dilation, did not improve, yet cerebral cortical blood flow reactivity during a working-memory task rose significantly without gains in performance. The results hint at tissue-specific effects and warrant further study of mitophagy-driven cerebrovascular benefits."
+    },
+    {
+     "title_zh": "1.8万人队列：血液代谢组学年龄与慢病及死亡风险相关",
+     "title_en": "Cohort of 18,476 People Links Blood Metabolomic Age to Chronic Disease and Mortality Risk",
+     "url": "https://agevibrant.com/longevity-anti-aging/your-age-may-not-tell-the-whole-story-about-your-health-but-your-blood-could",
+     "source_zh": "Science Translational Medicine（AgeVibrant 编译）",
+     "source_en": "Science Translational Medicine (via AgeVibrant)",
+     "date": "2026-10-18",
+     "summary_zh": "发表于《科学·转化医学》的研究基于上海浦东队列18476名1至96岁参与者的血浆代谢谱构建代谢组学年龄模型：代谢年龄加速者更易发生糖尿病、高血压与脂肪肝，全因死亡风险也更高；但增量预测价值有限，属观察性结果，尚不能作为临床常规检测使用。",
+     "summary_en": "A study in Science Translational Medicine built a metabolomic age model from plasma metabolite profiles of 18,476 participants aged 1 to 96 in the Shanghai Pudong Cohort. Those with accelerated metabolomic age were more likely to develop diabetes, hypertension and fatty liver disease and faced higher all-cause mortality risk, though the added predictive value was modest and the observational measures are not ready for routine clinical use."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "FGA功能基因组分析平台亮相深圳HNC健康营养展，聚焦精准抗衰新路径",
+     "title_en": "FGA Functional Genomics Platform Debuts at HNC Health Nutrition Expo in Shenzhen, Targeting Precision Anti-Aging",
+     "url": "https://www.cn-healthcare.com/article/20261015/content-788613.html",
+     "source_zh": "健康界",
+     "source_en": "cn-healthcare.com",
+     "date": "2026-10-15",
+     "summary_zh": "10月14日，鲍勃米勒医生FGA平台携功能基因组分析体系与PN方案亮相深圳HNC健康营养展。李淼医生在专题报告中提出，衰老是甲基化、炎症衰老、自噬清除与线粒体能量四大系统网络失衡，精准抗衰应先识别个体瓶颈再定制干预，依托26万SNP基因底图实现分层管理。",
+     "summary_en": "On October 14, the Dr. Bob Miller FGA platform presented its functional genomics analysis system and PN protocols at the HNC Health Nutrition Expo in Shenzhen. In her keynote, Dr. Li Miao argued that aging reflects network imbalance across methylation, inflammaging, autophagy clearance and mitochondrial energy, and that precision anti-aging should identify individual bottlenecks before tailored intervention, using a 260,000-SNP genomic base map for stratified management."
+    },
+    {
+     "title_zh": "世界食品日：CIC bioGUNE解析精准营养的分子、免疫与昼夜节律维度",
+     "title_en": "World Food Day: CIC bioGUNE Highlights Precision Nutrition Across Molecular, Immune and Circadian Dimensions",
+     "url": "https://www.cicbiogune.es/news/world-food-day-precision-nutrition-cic-biogune",
+     "source_zh": "CIC bioGUNE",
+     "source_en": "CIC bioGUNE",
+     "date": "2026-10-16",
+     "summary_zh": "西班牙CIC bioGUNE研究中心在世界食品日强调，饮食在分子、免疫与昼夜节律层面深度影响健康：CoDiet国际项目结合AI与代谢组学推进个性化营养推荐以防控糖尿病与心血管病，LIVER-MOON项目研究夜班与昼夜节律紊乱对代谢和肝脏健康的影响，并探索时间营养学干预策略。",
+     "summary_en": "Marking World Food Day, Spain's CIC bioGUNE highlighted how diet shapes health at the molecular, immunological and circadian levels: the international CoDiet project combines AI and metabolomics to deliver personalized dietary recommendations against diabetes and cardiovascular disease, while LIVER-MOON investigates how shift work and circadian disruption affect metabolic and liver health and tests chrononutrition interventions."
+    },
+    {
+     "title_zh": "吹口气就能判断膳食质量？呼气挥发组或成精准营养无创监测新范式",
+     "title_en": "One Breath Away from Assessing Diet Quality: Exhaled Volatilomics as a Non-Invasive Precision Nutrition Tool",
+     "url": "https://new.qq.com/rain/a/20261015A081K200",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Gut Microbes study (reported by Heatybit Daily)",
+     "date": "2026-10-15",
+     "summary_zh": "鲁汶大学团队发表于Gut Microbes的交叉对照试验显示，呼气挥发物谱可清晰区分平衡膳食与不平衡膳食，并捕捉特定肠道菌的代谢痕迹：高纤维平衡餐后乙酸与甲醇持续升高数小时，而不平衡餐后该反应完全缺失，且呼气乙酸、甲醇分别与阿克曼菌属等7个菌属丰度相关，为无创监测饮食-菌群-宿主互作确立新范式。",
+     "summary_en": "A crossover trial from KU Leuven published in Gut Microbes shows that exhaled volatile compound profiles can clearly distinguish balanced from unbalanced diets and trace the metabolic fingerprints of specific gut microbes: after a high-fiber balanced lunch, acetate and methanol rose for hours, a response entirely absent after the unbalanced meal, correlating with seven taxa including Akkermansia — establishing a non-invasive paradigm for monitoring diet-microbiome-host interactions."
+    },
+    {
+     "title_zh": "肠道细菌可能正在改变你实际吸收的卡路里数量",
+     "title_en": "Your Gut Bacteria May Be Changing How Many Calories You Actually Absorb",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261011211613.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-12",
+     "summary_zh": "一项对照研究建立的模型显示，肠道细菌在人体实际吸收多少卡路里中发挥着惊人作用：高纤维饮食者实际吸收的热量与食品标签标注值存在明显差异。研究者认为，食品标签可能无法反映真实能量摄入，肠道菌群构成应被纳入个体化营养与能量评估的考量。",
+     "summary_en": "A model built from a controlled study suggests gut bacteria play a surprising role in how many calories humans actually absorb: people on high-fiber diets absorbed calories notably different from food-label values. The researchers argue that standard food labels may not reflect true energy intake, and microbiome composition should be factored into individualized nutrition and energy assessment."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "Elysium发布更年期支持补剂Balance：NAD+科学叠加S-equol与麦角硫因",
+     "title_en": "Elysium Health Launches Balance, a Menopause Support Supplement Grounded in NAD+ Science",
+     "url": "https://www.morningstar.com/news/pr-newswire/20261015dc72979/elysium-health-announces-the-launch-of-balance-a-first-of-its-kind-approach-to-perimenopause-and-menopause-support-grounded-in-longevity-science",
+     "source_zh": "PR Newswire（Morningstar 转载）",
+     "source_en": "PR Newswire (via Morningstar)",
+     "date": "2026-10-15",
+     "summary_zh": "长寿科学公司Elysium Health于10月15日发布围绝经期与更年期支持配方Balance，整合其临床验证的NAD+补剂Basis（烟酰胺核糖+紫檀芪）、S-equol与麦角硫因。新发表的开放标签试点研究显示，Basis可显著改善潮热、睡眠与腹胀，并使雌二醇/雌酮比值向有利方向偏移。",
+     "summary_en": "Longevity science company Elysium Health launched Balance on October 15, a perimenopause and menopause support formula combining its clinically studied NAD+ supplement Basis (nicotinamide riboside plus pterostilbene) with S-equol and ergothioneine. A newly published open-label pilot study showed Basis significantly improved hot flashes, poor sleep and bloating and shifted the estradiol-to-estrone ratio toward a more favorable balance."
+    },
+    {
+     "title_zh": "第115届全国糖酒会：中粮营养健康科技携悦活U格益生菌全系亮相",
+     "title_en": "China Sugar & Wine Fair: COFCO Nutrition & Health Technology Showcases Full Yuehuo-U Probiotics Line",
+     "url": "https://news.sina.com.cn/sx/2026-10-16/detail-inivksmp7828309.shtml",
+     "source_zh": "新浪新闻",
+     "source_en": "Sina News",
+     "date": "2026-10-16",
+     "summary_zh": "10月15-17日，中粮营养健康科技亮相南京第115届全国糖酒会，展出悦享态、悦享平、悦享形等六款悦活U格益生菌产品，覆盖办公、差旅、运动等多元场景；配方以自研菌株CCNH185叠加后生元CP2305，并计划2026年推出药食同源新系列，从'粮'向'养'延伸营养健康布局。",
+     "summary_en": "From October 15 to 17, COFCO Nutrition & Health Technology presented its six-product Yuehuo-U probiotics line at the 115th China Sugar & Wine Fair in Nanjing, covering work, travel and sports scenarios. Formulas pair the proprietary strain CCNH185 with postbiotic CP2305, and a new medicine-food homology series is planned for 2026 as the company extends from grain into nutrition and health."
+    },
+    {
+     "title_zh": "每天吃蓝莓连续三个月：老年参与者抑郁症状减轻，肠道菌群同步变化",
+     "title_en": "Daily Blueberries for Three Months: Fewer Depressive Symptoms and Gut Microbiome Shifts in Older Adults",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230028.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-18",
+     "summary_zh": "一项小型研究发现，连续三个月每天食用蓝莓的老年参与者抑郁症状减轻更明显，同时检测到肠道菌群方面的变化。研究为膳食多酚经肠道菌群影响情绪的肠脑轴路径提供了新证据，蓝莓或成为老年人情绪健康的低成本膳食干预选项。",
+     "summary_en": "A small study found that older adults who ate blueberries daily for three months showed greater reductions in depressive symptoms, alongside detectable changes in the gut microbiome. The findings add evidence for a gut-brain axis pathway in which dietary polyphenols act via the microbiome, positioning blueberries as a low-cost dietary option for emotional health in later life."
+    },
+    {
+     "title_zh": "B族维生素新知：从能量辅因子到肠-脑-免疫调节者",
+     "title_en": "New Insights into B Vitamins: From Energy Cofactors to Gut-Brain-Immune Regulators",
+     "url": "https://www.toutiao.com/article/7697155897667224079",
+     "source_zh": "今日头条·营养膳食指南",
+     "source_en": "Nutrition & Diet Guide (via Toutiao)",
+     "date": "2026-10-16",
+     "summary_zh": "最新科普梳理显示，B族维生素正被重新认识：临床前研究提示B2、B3可经重塑肠道菌群与屏障间接发挥神经保护潜力；VITACOG试验结合代谢组学分析提示，补充B族可重塑三羧酸与谷氨酰胺-谷氨酸循环，延缓轻度认知损害人群的脑萎缩；B1、B6、B12联用协同促进轴突再生的效果优于单用。",
+     "summary_en": "A new science roundup shows B vitamins are being recast as more than energy cofactors: preclinical studies suggest B2 and B3 may confer neuroprotection indirectly by reshaping the gut microbiome and barrier; the VITACOG trial plus metabolomics indicates B-vitamin supplementation remodels the TCA and glutamine-glutamate cycles and may slow brain atrophy in mild cognitive impairment; and combining B1, B6 and B12 synergistically promotes axon regeneration better than single vitamins."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "广东省二医糖胖病逆转中心深圳分中心揭牌，慢病管理转向主动健康",
+     "title_en": "Guangdong Second Provincial General Hospital Opens Shenzhen Branch of Its Diabetes-Obesity Reversal Center",
+     "url": "https://www.toutiao.com/article/7697841537220215311",
+     "source_zh": "南方都市报（今日头条）",
+     "source_en": "Southern Metropolis Daily (via Toutiao)",
+     "date": "2026-10-18",
+     "summary_zh": "10月18日，广东省第二人民医院糖胖病逆转中心深圳分中心在罗湖区人民医院揭牌。中心采用'2+N溯源系统法'，以中西医并重叠加精准营养、科学运动、心理疏导等综合干预，已服务患者超万人次，帮助早期糖胖病患者实现血糖长期平稳甚至临床逆转，推动慢病管理关口前移。",
+     "summary_en": "On October 18, the Shenzhen branch of Guangdong Second Provincial General Hospital's diabetes-obesity reversal center opened at Luohu People's Hospital. Using a '2+N' integrative model that pairs Chinese and Western medicine with precision nutrition, exercise and psychological support, the center has served over 10,000 patients and aims to help early-stage patients achieve sustained glycemic control and even clinical remission, shifting chronic disease management upstream."
+    },
+    {
+     "title_zh": "'不难瘦才享受'健康减重科普全国巡展成都站举行：科学减重无需硬扛",
+     "title_en": "National Healthy Weight-Loss Roadshow Stops in Chengdu: Science-Based Weight Management Without Suffering",
+     "url": "https://news.qq.com/rain/a/20261018A09EH700",
+     "source_zh": "新民晚报（腾讯新闻）",
+     "source_en": "Xinmin Evening News (via Tencent News)",
+     "date": "2026-10-18",
+     "summary_zh": "巡展成都站通过腰围测试、体脂检测与AI互动体验，引导公众按'认识疾病—识别风险—了解身体—看见改变'路径科学减重。专家强调我国18-79岁成人超重肥胖率已达53.1%，减重应兼顾腰围、代谢与生活方式，吃动睡一起管，医学干预须由医生评估，不建议自行跟风用药。",
+     "summary_en": "At its Chengdu stop, the national healthy weight-loss roadshow used waist measurement, body-fat testing and interactive AI experiences to guide the public through 'recognize the disease, identify risks, understand your body, see the change.' Experts noted overweight and obesity now affect 53.1% of Chinese adults aged 18-79, urged attention to waist circumference, metabolism and lifestyle alongside diet, exercise and sleep, and cautioned that medical intervention should be physician-guided rather than self-prescribed."
+    },
+    {
+     "title_zh": "吃得不多却瘦不下来？可能是胰岛素抵抗在作怪",
+     "title_en": "Eating Little but Still Can't Lose Weight? Insulin Resistance May Be to Blame",
+     "url": "https://so.icswb.com/h/204/20261018/1000252.html",
+     "source_zh": "长沙晚报",
+     "source_en": "Changsha Evening News",
+     "date": "2026-10-18",
+     "summary_zh": "长沙晚报刊文提示，部分人群减肥屡屡失败可能与胰岛素抵抗相关。专家建议居家做好体重管理：少甜食油炸、三餐规律多杂粮蔬菜、适度运动如快走与八段锦、早睡调情绪；过度节食会进一步降低代谢并加重反弹，疑有胰岛素抵抗应及时就医评估，在医生指导下科学管理体重与代谢。",
+     "summary_en": "Changsha Evening News reports that repeated weight-loss failure in some people may stem from insulin resistance. Experts recommend home-based weight management: limiting sweets and fried foods, regular meals with whole grains and vegetables, moderate exercise such as brisk walking, and earlier bedtimes — warning that crash dieting further lowers metabolism and worsens rebound, and that suspected insulin resistance warrants medical evaluation."
+    },
+    {
+     "title_zh": "VTN未来健康峰会发布'1+N'抗炎营养与长寿健康解决方案",
+     "title_en": "VTN Future Health Summit Unveils '1+N' Anti-Inflammatory Nutrition and Longevity Solution",
+     "url": "https://www.cinic.org.cn/zgzz/qy/1657132.html",
+     "source_zh": "中国产业经济信息网（界面新闻）",
+     "source_en": "China Industry Economic Information Network (via Jiemian News)",
+     "date": "2026-10-14",
+     "summary_zh": "10月11日VTN未来健康峰会举办，发布以抗炎营养餐为基础'1'、个性化长寿功能方案为'N'的主动健康解决方案，并联合SRW、TheroNomic、MitoQ等品牌科学家成立V健康研究院，规划培养10万名专业健康服务人员，构建'产品+方案+服务'的健康生态闭环。",
+     "summary_en": "At the VTN Future Health Summit on October 11, the company launched an active-health solution built on an anti-inflammatory nutrition meal as the universal base ('1') plus personalized longevity programs ('N'), founded the V Health Research Institute with scientists from brands including SRW, TheroNomic and MitoQ, and announced plans to train 100,000 health service professionals in a 'product + solution + service' ecosystem."
+    }
+   ]
+  }
+ ]
+}
