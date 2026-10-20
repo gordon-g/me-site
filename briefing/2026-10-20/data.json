@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-20",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月14日 — 10月20日（最近 7 天）",
+ "range_en": "Oct 14 – Oct 20, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "上海交大贾伟团队Cell发文：女性富集肠道菌产生isoUDCA胆汁酸，解释慢性肝病的性别保护差异",
+     "title_en": "SJTU Jia Wei Team Publishes in Cell: Female-Enriched Gut Microbiota Produces isoUDCA Bile Acid, Explaining Women's Protection Against Chronic Liver Disease",
+     "url": "https://www.163.com/dy/article/L9L3R5IM053296CT.html",
+     "source_zh": "网易号·Cell论文报道",
+     "source_en": "NetEase News (Cell paper coverage)",
+     "date": "2026-10-19",
+     "summary_zh": "上海交大六院贾伟团队10月19日在Cell发表研究：基于9254人胆汁酸谱首次鉴定女性富集胆汁酸isoUDCA，其水平女性较高、慢性肝病患者较低，可解释约19.57%的性别与肝病关联；研究锁定6种女性富集菌组合，揭示isoUDCA促进肝胆固醇与胆汁酸代谢、减轻肝损伤，为慢性肝病干预提供新靶点。",
+     "summary_en": "On Oct 19, a team led by Jia Wei at Shanghai Jiao Tong University published in Cell: analyzing bile acid profiles of 9,254 subjects, they identified the female-enriched bile acid isoUDCA, higher in women and lower in chronic liver disease patients, explaining about 19.57% of the sex-disease association. They pinpointed a six-species female-enriched bacterial combination (FPBC) and showed isoUDCA promotes hepatic cholesterol and bile acid metabolism via SREBP2-STARD4-CYP7B1, easing liver injury — a new target for chronic liver disease."
+    },
+    {
+     "title_zh": "梅奥诊所：脂肪肝其实是五种不同疾病，Nature Communications 揭示MASLD生物学亚型",
+     "title_en": "Fatty Liver Disease Is Actually Five Different Conditions, Scientists Discover",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
+     "source_zh": "ScienceDaily（梅奥诊所）",
+     "source_en": "ScienceDaily (Mayo Clinic)",
+     "date": "2026-10-18",
+     "summary_zh": "梅奥诊所团队10月18日在Nature Communications发文：整合4600余名MASLD患者基因组与临床数据，发现脂肪肝实为五种生物学亚型——部分与肥胖糖尿病相关，部分由遗传驱动且更易进展为晚期肝损伤；并首次发现亚型与抑郁、睡眠呼吸暂停、偏头痛相关，为分层筛查与按机制匹配治疗奠定基础。",
+     "summary_en": "Mayo Clinic and Virginia Tech reported in Nature Communications (Oct 18): integrating genomic and clinical data from over 4,600 MASLD patients, they identified five biologically distinct fatty liver subtypes — some tightly linked to obesity and diabetes, others genetically driven and more prone to advanced liver damage — and first-time associations with depression, sleep apnea and migraine, laying groundwork for stratified screening and biology-matched treatment including GLP-1 response differences."
+    },
+    {
+     "title_zh": "哥伦比亚大学揭示APOE ε4携带者逃逸阿尔茨海默病的机制：FN1罕见突变护血管",
+     "title_en": "Why Some People Escape Alzheimer's Despite Carrying a High-risk Gene",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+     "source_zh": "ScienceDaily（哥伦比亚大学）",
+     "source_en": "ScienceDaily (Columbia University)",
+     "date": "2026-10-19",
+     "summary_zh": "哥伦比亚大学团队10月19日在Nature Aging发文：APOE ε4促使纤连蛋白在脑血管周围过度堆积、削弱血脑屏障，而FN1基因罕见突变可限制该堆积，解释部分高危携带者80多岁仍认知敏锐；星形胶质细胞过表达纤连蛋白足以令屏障渗漏，减少则恢复功能，为模拟天然防御的抗AD疗法提出路径。",
+     "summary_en": "Columbia University reported in Nature Aging (Oct 19): APOE ε4 drives excess fibronectin accumulation around brain vessels, weakening the blood-brain barrier via integrin-FAK signaling that disrupts the VEGF/HBEGF/IGF1 network; a rare FN1 mutation limits this buildup, explaining why some high-risk carriers stay sharp into their 80s. Overexpressing fibronectin in astrocytes sufficed to make the barrier leaky, while reducing it restored function — pointing to ways to mimic this natural defense."
+    },
+    {
+     "title_zh": "热心肠日报：婴儿肠道炎症与特定致病菌让口服轮状病毒疫苗大打折扣",
+     "title_en": "Infant Gut Inflammation and Specific Pathobionts Undermine Oral Rotavirus Vaccine Efficacy",
+     "url": "https://news.qq.com/rain/a/20261019A08BQU00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Tencent News (China-Gut Daily)",
+     "date": "2026-10-19",
+     "summary_zh": "热心肠日报10月19日报道Nature Communications研究：婴儿肠道炎症与克雷伯菌等致病共生菌会削弱口服轮状病毒疫苗效力；团队提出以特定噬菌体提早靶向清除致病菌、重塑肠道免疫稳态，并将干预窗口前移至新生儿期，为低收入国家提升疫苗应答提供菌群靶点。",
+     "summary_en": "China-Gut Daily reported on Oct 19 a Nature Communications study: infant gut inflammation and specific pathobionts such as Klebsiella markedly weaken oral rotavirus vaccine efficacy. Rather than adding conventional probiotics alone, the team proposes using targeted phages to clear pathobionts early and reshape gut immune homeostasis, moving intervention to the neonatal window — offering a defined microbiome target to improve vaccine response in low-income countries."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "罗氏最高11.6亿美元引进大睿生物ALK7 RNAi肥胖药物，直击脂肪细胞保瘦体重",
+     "title_en": "Roche Licenses Rona Therapeutics' ALK7 RNAi Obesity Drug in Deal Worth Up to $1.16 Billion",
+     "url": "https://biopharmaapac.com/news/18/8563/roche-secures-global-rights-to-rona-therapeutics-rnai-obesity-candidate-in-deal-worth-up-to-1-16-billion.html",
+     "source_zh": "BioPharma APAC",
+     "source_en": "BioPharma APAC",
+     "date": "2026-10-14",
+     "summary_zh": "大睿生物10月13日宣布与罗氏达成全球独家授权：靶向ALK7、基于肝外递送平台的RNAi候选药授权罗氏开发肥胖与代谢病，首付及近期里程碑最高1亿美元、总额最高11.6亿美元。ALK7直击脂肪细胞，有望选择性减少内脏脂肪、保留瘦体重，与GLP-1机制互补，为年内第二笔超10亿美元同类交易。",
+     "summary_en": "Rona Therapeutics announced on Oct 13 an exclusive worldwide license with Roche for its ALK7-targeted RNAi candidate built on a proprietary extrahepatic delivery platform for obesity and metabolic disease — up to $100M upfront and near-term milestones, up to $1.16B in total. ALK7 targets adipocyte biology directly, potentially reducing visceral fat while preserving lean mass and complementing incretin-based therapies; it is the second $1B+ ALK7 RNAi deal this year."
+    },
+    {
+     "title_zh": "华中科大：16+8限时进食重塑肠菌产乙酸，延缓血管衰老并护心",
+     "title_en": "16:8 Time-Restricted Feeding Delays Vascular Aging via Gut Microbiota-Derived Acetate, HUST Study Finds",
+     "url": "https://new.qq.com/rain/a/20261019A0ADEV00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-19",
+     "summary_zh": "华中科技大学团队在Aging Cell发表研究（10月19日报道）：16+8限时进食不影响体重血糖，经重塑肠道菌群富集产乙酸菌、升高乙酸，显著延缓小鼠血管衰老并护心；肠菌移植或补乙酸均可重现保护，清除菌群后消失，为饮食干预延缓心血管衰老提供机制依据。",
+     "summary_en": "A Huazhong University of Science and Technology team reported in Aging Cell (covered Oct 19): 16:8 time-restricted feeding, without changing weight or glucose, remodels gut microbiota to enrich acetate-producing bacteria and raise acetate levels, significantly lowering hypertension and vascular stiffness in mice while improving heart health; fecal microbiota transfer or acetate supplementation reproduced the benefit, which vanished after antibiotics — a mechanistic basis for dietary intervention against cardiovascular aging."
+    },
+    {
+     "title_zh": "西奈山发现年轻蛋白TIMP2：回补可让衰老大脑免疫细胞重返年轻",
+     "title_en": "Scientists Find a Youth Protein (TIMP2) That Helps Aging Brain Immune Cells Act Young Again",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+     "source_zh": "ScienceDaily（西奈山伊坎医学院）",
+     "source_en": "ScienceDaily (Icahn School of Medicine at Mount Sinai)",
+     "date": "2026-10-17",
+     "summary_zh": "西奈山伊坎医学院团队10月17日在Nature Communications发文：年轻相关蛋白TIMP2缺失会使小胶质细胞呈衰老样状态、清除碎片能力下降；对老年小鼠回补TIMP2可恢复清除功能并降低炎症特征，提示回输年轻相关因子或可延缓脑免疫衰老，为阿尔茨海默病干预提供新方向。",
+     "summary_en": "Mount Sinai researchers reported in Nature Communications (Oct 17): loss of the youth-associated protein TIMP2 drives microglia toward aged-like states with impaired debris clearance and elevated inflammatory signatures; restoring circulating TIMP2 in older mice revived their clearance function and dampened inflammatory markers — suggesting that youthful blood-borne factors may rejuvenate the brain's immune system and informing future strategies against Alzheimer's and related disorders."
+    },
+    {
+     "title_zh": "线粒体靶向药物递送系统应对年龄相关疾病：机制、策略与转化瓶颈综述",
+     "title_en": "Mitochondria-Targeted Drug Delivery Systems for Aging-Related Diseases: Mechanisms, Strategies and Advances",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/202610180002322512.htm",
+     "source_zh": "生物通",
+     "source_en": "ebiotrade.com",
+     "date": "2026-10-18",
+     "summary_zh": "生物通10月18日报道Journal of Controlled Release综述：梳理线粒体靶向药物递送在神经退行病、心血管病、肌少症等年龄相关疾病中的机制与策略，涵盖被动/主动靶向、刺激响应与仿生平台，及NAD+补充、线粒体移植等新兴干预；并指出靶向不稳、长期安全性与标准化缺失等转化瓶颈。",
+     "summary_en": "ebiotrade reported on Oct 18 a Journal of Controlled Release review: mitochondrial dysfunction underlies neurodegeneration, cardiovascular disease, sarcopenia and osteoarthritis; the review surveys passive, stimuli-responsive, active and biomimetic mitochondrial-targeted delivery platforms, plus emerging interventions including NAD+ supplementation, mitochondrial gene delivery, EV-mediated transfer and mitochondrial transplantation, while flagging instability under pathological conditions, long-term safety and lack of standardized evaluation as key translational bottlenecks."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "中国农科院召开精准营养与个性化食品创新科学会议，多学科夯实理论根基",
+     "title_en": "CAAS Convenes Science Meeting on Precision Nutrition and Personalized Food Innovation",
+     "url": "https://news.qq.com/rain/a/20261019A0BHNW00",
+     "source_zh": "腾讯新闻（中国农科院）",
+     "source_en": "Tencent News (CAAS)",
+     "date": "2026-10-19",
+     "summary_zh": "中国农科院10月16日在京召开第七期科学会议，主题为精准营养与个性化食品创新，北大、清华等十余位专家围绕营养暗物质智能挖掘、膳食健康效应解析，从表观遗传、肠道菌群、AI建模、功能食品创制等维度研讨；专家呼吁多学科交叉融合，夯实精准营养理论根基、保障全生命周期健康。",
+     "summary_en": "The Chinese Academy of Agricultural Sciences convened its seventh Fundamental Science Center meeting in Beijing on Oct 16 under the theme of precision nutrition and personalized food innovation. A dozen experts from Peking University, Tsinghua and PUTH discussed intelligent mining of nutritional dark matter and dietary health effects across epigenetic regulation, gut microbiota, AI modeling, nutritional epidemiology and functional food creation, urging deeper interdisciplinary integration to strengthen the theoretical foundation of precision nutrition for whole-of-life health."
+    },
+    {
+     "title_zh": "膳食多糖作为SCFA直接底物：Frontiers综述提出精准益生元双轨干预框架",
+     "title_en": "Dietary Polysaccharides as Direct Substrates for SCFA Production: A Dual-Track Precision Prebiotic Framework",
+     "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1997604/full",
+     "source_zh": "Frontiers in Microbiology",
+     "source_en": "Frontiers in Microbiology",
+     "date": "2026-10-16",
+     "summary_zh": "Frontiers in Microbiology 10月16日接收的综述提出精准益生元双轨框架：膳食多糖的单糖组成、糖苷键与分支结构决定哪些产短链脂肪酸菌可利用它们；据此可按结构匹配目标菌群，并结合个体基线菌群与疾病缺陷个性化选择，推动益生元从经验走向机制驱动的精准营养工具。",
+     "summary_en": "A Frontiers in Microbiology review (accepted Oct 16) proposes a dual-track precision prebiotic framework: the monosaccharide composition, glycosidic linkages, molecular weight and branching of dietary polysaccharides determine which SCFA-producing taxa can access them, governed by CAZyme repertoires and cross-feeding networks. Structure-guided matching to target SCFA producers, combined with individualized selection based on baseline microbiota and disease-specific deficits, could advance prebiotics from empirical use to mechanism-driven precision nutrition tools (pending human validation)."
+    },
+    {
+     "title_zh": "剑桥大学测试39种甜味剂：多数影响肠道菌，与药物联用效应被放大",
+     "title_en": "Scientists Tested 39 Sweeteners and Uncovered Surprising Gut Effects",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016081103.htm",
+     "source_zh": "ScienceDaily（剑桥大学）",
+     "source_en": "ScienceDaily (University of Cambridge)",
+     "date": "2026-10-17",
+     "summary_zh": "剑桥大学团队10月17日在Molecular Systems Biology发文：体外测试39种甜味剂与25种肠道菌，约四分之三甜味剂改变至少一种菌生长；异甜菊醇与抗抑郁药度洛西汀联用强烈抑制罗斯氏菌等关键菌并降低菌群多样性，提示甜味剂并非代谢惰性，与药物同服的互作值得警惕。",
+     "summary_en": "University of Cambridge MRC Toxicology Unit reported in Molecular Systems Biology (Oct 17): testing 39 sweeteners against 25 gut bacterial species in vitro, roughly three-quarters altered the growth of at least one species; the sweetener isosteviol combined with the antidepressant duloxetine strongly suppressed key bacteria including Roseburia intestinalis and reduced diversity in a simulated community. Over 100 combination interactions suggest sweeteners are not metabolically inert — co-exposure with drugs and additives warrants attention, pending human studies."
+    },
+    {
+     "title_zh": "可3D打印的三文鱼：双蛋白仿生食品为吞咽障碍老人定制营养",
+     "title_en": "3D-Printed 'Salmon' Delivers Personalized Nutrition for Elderly with Swallowing Difficulties",
+     "url": "https://m.gmw.cn/2026-10/19/content_1304577058.htm",
+     "source_zh": "光明网（人民日报海外版）",
+     "source_en": "Guangming Online (People's Daily Overseas Edition)",
+     "date": "2026-10-19",
+     "summary_zh": "人民日报海外版10月19日报道，中国农科院加工所团队以核桃蛋白与蛋清蛋白双蛋白体系为墨水3D打印仿生三文鱼：蛋白含量22%、补充效率较传统提高200%，可按国际标准定制IDDSI 4-6级软膳，为吞咽障碍老人提供安全营养美味的个性化膳食。",
+     "summary_en": "People's Daily Overseas Edition reported on Oct 19: a CAAS Institute of Food Science team used walnut-protein and egg-white dual-protein emulsion gels as ink for dual-feed 3D printing, recreating salmon's texture into a high-protein, easy-to-swallow food — 22% protein, 200% higher protein-replenishment efficiency than conventional products, with baking precisely tuned to cover IDDSI levels 4–6 for graded, personalized nutrition for elderly people with dysphagia."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "欧盟启动新平台，加速欧盟与英国新型食品审批",
+     "title_en": "EU Platform Launched to Accelerate Novel Food Approvals in EU and UK",
+     "url": "https://www.nutraingredients.com/Article/2026/10/15/new-platform-to-speed-up-eu-and-uk-novel-food-approvals/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-15",
+     "summary_zh": "NutraIngredients 10月15日报道，旨在加速欧盟与英国新型食品审批的新平台上线，试图缩短创新成分从申报到上市的周期。对补剂与功能食品行业而言，审批提速意味着益生菌、植物提取物等新原料进入欧洲市场路径更可预期，或改变企业新品规划与区域上市策略。",
+     "summary_en": "NutraIngredients reported on Oct 15 that a new platform has launched to speed up novel food approvals in the EU and UK, aiming to shorten the path from dossier to market. For the supplement and functional food industry, faster approvals make the route to market for ingredients such as probiotics and botanical extracts more predictable, potentially reshaping launch planning and regional go-to-market strategies."
+    },
+    {
+     "title_zh": "孕前叶酸：认知度高但实际补充率低，研究呼吁关口前移",
+     "title_en": "Folic Acid Before Pregnancy: Study Finds Low Adherence Despite High Awareness",
+     "url": "https://www.nutraingredients.com/Article/2026/10/19/folic-acid-awareness-fails-to-translate-into-pre-pregnancy-use/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-19",
+     "summary_zh": "NutraIngredients 10月19日报道新研究：女性叶酸认知度虽高，孕前实际补充率却明显不足，意识与行为落差显著。研究者呼吁将干预前移至孕前，以更清晰的公共健康引导与更易得的产品形式提升覆盖率，降低神经管缺陷风险，也为孕产营养品牌指明教育型营销方向。",
+     "summary_en": "NutraIngredients reported on Oct 19 a new study: despite high awareness of folic acid among women, pre-pregnancy supplementation rates remain low, revealing a clear knowledge-behavior gap. Researchers call for moving intervention earlier — clearer public-health guidance, more accessible formats and better-targeted education — to raise preconception coverage, reduce neural tube defect risk and point supplement brands toward education-led strategies."
+    },
+    {
+     "title_zh": "韩国Dongkoo Bio&Pharma瞄准听力健康补剂，打造增长新引擎",
+     "title_en": "Dongkoo Bio&Pharma Targets Underserved Hearing Care Category as Growth Engine",
+     "url": "https://www.nutraingredients.com/Article/2026/10/19/dongkoo-biopharma-targets-underserved-hearing-care-category-as-growth-engine/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-19",
+     "summary_zh": "NutraIngredients 10月19日报道，韩国Dongkoo Bio&Pharma将听力健康定位为下一个增长引擎，布局这一长期被忽视的补剂品类。随着老龄化与听力损失人群扩大，听力营养正成为差异化新赛道，为老年健康营养干预提供新商业样本，或带动更多厂商跟进。",
+     "summary_en": "NutraIngredients reported on Oct 19 that South Korea's Dongkoo Bio&Pharma is positioning hearing care as its next growth engine, building supplement offerings in this long-underserved category. With global aging and a growing hearing-loss population, hearing nutrition is emerging as a differentiated new track, offering a commercial template for nutritional interventions in ENT and geriatric health and likely drawing more manufacturers into the gap."
+    },
+    {
+     "title_zh": "Vivify收购AuNutra原料平台，补剂行业并购聚焦上游成分资产",
+     "title_en": "Vivify Acquires AuNutra Industries Ingredient Platform",
+     "url": "https://www.nutraingredients.com/Article/2026/10/19/vivify-acquires-aunutra-industries-ingredient-platform/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-19",
+     "summary_zh": "NutraIngredients 10月19日报道，Vivify收购AuNutra Industries原料平台，整合成分资产以强化产品矩阵与供应链掌控力。补剂行业并购活跃，品牌方正通过掌控特色原料构筑壁垒，原料平台所有权或成下一阶段竞争关键变量。",
+     "summary_en": "NutraIngredients reported on Oct 19 that Vivify has acquired AuNutra Industries' ingredient platform, folding in its component assets to strengthen its product matrix and supply-chain control. M&A across the supplement sector remains active as brands build differentiation through ownership of signature ingredients — ingredient platform ownership may become a decisive competitive variable, opening integration and revaluation opportunities for upstream suppliers."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "新华网起底抗衰产品：NAD+抗衰针乱象与二甲双胍直播话术均无循证支撑",
+     "title_en": "The Science Behind Anti-Aging Products: Xinhua Investigates NAD+ Drips and Metformin Hype",
+     "url": "https://www.xinhuanet.com/politics/20261020/49aafd519e7b4ce1a4086c9ab4920d8c/c.html",
+     "source_zh": "新华网",
+     "source_en": "Xinhuanet",
+     "date": "2026-10-20",
+     "summary_zh": "新华网10月20日刊发调查：医美机构将药品级NAD+注射剂包装为抗衰营养针推销给健康人群，存在超适应症、超剂量、改给药途径等乱象，2026版专家共识仅面向特定临床人群；二甲双胍抗衰延寿人体尚无定论、擅自服用风险大，专家提醒勿把基础研究等同于临床获益。",
+     "summary_en": "Xinhua published an investigation on Oct 20: medical-aesthetic institutions market pharmaceutical-grade NAD+ injections to healthy people as anti-aging nutrient drips, off-label and at altered doses and routes — the 2026 expert consensus covers only specific elderly clinical populations. Metformin's anti-aging benefit in humans remains unproven, live-stream claims are unfounded, and unsupervised long-term use of this prescription drug is risky. Experts warn against equating basic research with clinical benefit."
+    },
+    {
+     "title_zh": "每天3000步即可减缓阿尔茨海默病tau蛋白积累，5000-7500步效果最佳",
+     "title_en": "Just 3,000 Steps a Day May Help Slow Alzheimer's, Scientists Find",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+     "source_zh": "ScienceDaily（The Conversation）",
+     "source_en": "ScienceDaily (The Conversation)",
+     "date": "2026-10-19",
+     "summary_zh": "The Conversation 10月19日文章：一项追踪近300名已有阿尔茨海默病早期脑征象老人9-11年的计步研究发现，运动未减少淀粉样斑块，但显著减缓tau蛋白积累、认知与功能衰退近乎减半；获益自每天3000步出现、5000-7500步最佳，万步目标并非必需。",
+     "summary_en": "The Conversation (Oct 19): a pedometer study tracking nearly 300 older adults with early Alzheimer's brain signs for 9–11 years found that physical activity did not reduce amyloid plaques but markedly slowed misfolded tau accumulation in key brain regions, nearly halving cognitive and functional decline. Benefits appeared at 3,000 steps (about 30 minutes of brisk walking), peaked at 5,000–7,500 and plateaued — suggesting the 10,000-step goal is unnecessary for real protection."
+    },
+    {
+     "title_zh": "UC Berkeley揭开深睡-生长激素双向环路：睡眠增肌燃脂健脑的机制",
+     "title_en": "How Deep Sleep Builds Muscle, Burns Fat and Boosts the Brain: A Brain Circuit Revealed",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+     "source_zh": "ScienceDaily（UC Berkeley）",
+     "source_en": "ScienceDaily (UC Berkeley)",
+     "date": "2026-10-17",
+     "summary_zh": "加州大学伯克利分校团队10月17日在Cell发文：绘制深度睡眠调控生长激素释放的下丘脑神经环路，并发现生长激素反馈作用于蓝斑促进觉醒，形成双向稳态环路；该机制解释睡眠不足如何干扰生长、肌骨修复与脂糖代谢，或为代谢病与神经退行病相关睡眠障碍提供新靶点。",
+     "summary_en": "UC Berkeley researchers reported in Cell (Oct 17): recording neural activity in mice, they mapped the hypothalamic GHRH and somatostatin circuitry governing growth hormone release during deep sleep and discovered that accumulated growth hormone feeds back to the locus coeruleus to promote waking — a bidirectional homeostatic loop. The mechanism explains how poor sleep disrupts growth, muscle-bone repair and fat-glucose metabolism, and may inspire treatments for sleep disorders tied to metabolic and neurodegenerative disease."
+    },
+    {
+     "title_zh": "襄阳中医医院体重管理与2型糖尿病逆转中心提质升级，中西医协同全周期管理",
+     "title_en": "Xiangyang TCM Hospital Upgrades Weight Management and Type 2 Diabetes Reversal Centers",
+     "url": "http://wjw.xiangyang.gov.cn/zxzx/gdgswdt/202610/t20261019_4073370.shtml",
+     "source_zh": "襄阳市卫生健康委员会",
+     "source_en": "Xiangyang Municipal Health Commission",
+     "date": "2026-10-19",
+     "summary_zh": "襄阳市卫健委10月19日消息，襄阳市中医医院体重管理与2型糖尿病逆转中心提质升级：以人体成分、内脏脂肪与运动心肺测试精准界定干预边界，结合四色肥胖中医辨证分型施治，从单一治病转向全周期健康管理，响应国家体重管理年行动。",
+     "summary_en": "Xiangyang Municipal Health Commission announced on Oct 19: the city's TCM hospital has upgraded its integrated weight management and type 2 diabetes reversal centers, with assessment, functional testing and TCM treatment zones and 20 inpatient beds. Using body composition, visceral fat and cardiopulmonary exercise testing to define intervention boundaries, combined with four-pattern TCM obesity syndrome differentiation for stratified individualized care, the centers shift from single-visit treatment toward whole-cycle health management in line with the national Weight Management Year initiative."
+    }
+   ]
+  }
+ ]
+}
