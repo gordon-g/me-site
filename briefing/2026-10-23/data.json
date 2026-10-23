@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-23",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月17日 — 10月23日（最近 7 天）",
+ "range_en": "Oct 17 – Oct 23, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "港大团队绘制恒河猴全胃肠道空间菌群“高清地图”",
+     "title_en": "HKU Team Maps the Whole Gut Microbiome of Rhesus Macaques in High Resolution",
+     "url": "https://news.qq.com/rain/a/20261022A09ARP00",
+     "source_zh": "热心肠日报（Gut Microbes）",
+     "source_en": "MR Gut Daily (Gut Microbes)",
+     "date": "2026-10-22",
+     "summary_zh": "香港大学黄适团队整合宏基因组、2bRAD-M 与靶向胆汁酸代谢组学，用恒河猴全胃肠道 148 个腔内与黏膜样本构建灵长类空间分辨菌群图谱。研究发现宿主物种差异比解剖部位更能决定菌群结构与功能，大肠中免疫调节性胆汁酸 isoalloLCA 占比中位数高达 89%，为灵长类肠-肝-免疫互作研究提供高分辨率参照。",
+     "summary_en": "Prof. Shi Huang's team at the University of Hong Kong integrated metagenomics, 2bRAD-M and targeted bile-acid metabolomics to build a spatially resolved primate microbiome atlas from 148 luminal and mucosal samples across the rhesus macaque gastrointestinal tract. Host species, rather than anatomical site, emerged as the dominant driver of microbial structure and function, and the immunomodulatory bile acid isoalloLCA accounted for a median of 89% of colonic bile acids — a high-resolution reference for gut-liver-immunity research in primates."
+    },
+    {
+     "title_zh": "脑-肠-菌群轴新综述：解析肠易激综合征与抑郁的共病机制",
+     "title_en": "New Review Dissects the Brain-Gut-Microbiota Axis in IBS-Depression Comorbidity",
+     "url": "https://news.qq.com/rain/a/20261022A0AFPD00",
+     "source_zh": "热心肠日报（综述）",
+     "source_en": "MR Gut Daily (Review)",
+     "date": "2026-10-22",
+     "summary_zh": "新综述系统梳理肠易激综合征与抑郁症共病的脑-肠-菌群轴机制：肠道菌群可经免疫、神经与内分泌通路同时影响痛觉阈值与情绪回路。低 FODMAP 饮食、地中海饮食及特定益生菌（如长双歧杆菌 NCC3001）显示出同时改善肠道与情绪的潜力，未来有望基于多维生物标志物识别亚型并定制联合干预。",
+     "summary_en": "A new review maps how the brain-gut-microbiota axis underlies comorbid irritable bowel syndrome and depression, with gut microbes shaping both pain thresholds and emotional circuits via immune, neural and endocrine pathways. Low-FODMAP and Mediterranean diets as well as specific probiotics such as Bifidobacterium longum NCC3001 show dual gut-mood benefits, pointing toward biomarker-defined subtypes and combined interventions."
+    },
+    {
+     "title_zh": "肠道菌群如何影响大脑？精神分裂症的脯氨酸代谢新解",
+     "title_en": "How Gut Microbes Influence the Brain: A Proline Metabolism Clue to Schizophrenia",
+     "url": "https://news.qq.com/rain/a/20261022A09LL600",
+     "source_zh": "热心肠日报（Gut Microbes）",
+     "source_en": "MR Gut Daily (Gut Microbes)",
+     "date": "2026-10-22",
+     "summary_zh": "韩国庆熙大学团队在《Gut Microbes》发表研究：精神分裂症患者相关菌群移植小鼠后可诱发识别记忆、社交新奇偏好等行为异常，机制与结肠脯氨酸脱氢酶 PRODH 表达下调及全身性高脯氨酸血症相关；口服五菌种混合物即可复现上述行为与代谢改变，而单菌干预无效，为肠脑轴机制研究与干预靶点提供了可测试的新框架。",
+     "summary_en": "A Gut Microbes study from Kyung Hee University shows that microbiota from schizophrenia patients induces behavioral abnormalities when transplanted into mice, linked to reduced colonic proline dehydrogenase (PRODH) expression and systemic hyperprolinemia. A five-species bacterial mixture — but not single strains — reproduced the behavioral and metabolic changes, offering a testable framework and potential targets for gut-brain axis intervention."
+    },
+    {
+     "title_zh": "IBS 精神共病与肠道菌群、氨基酸代谢的多组学关联",
+     "title_en": "Multi-omics Links IBS Psychiatric Comorbidity to Gut Microbiota and Amino Acid Metabolism",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261018001157095.htm",
+     "source_zh": "生物通（BMC Microbiology）",
+     "source_en": "BioTon (BMC Microbiology)",
+     "date": "2026-10-18",
+     "summary_zh": "纳入 267 名肠易激综合征患者与 91 名健康对照的多组学研究显示，IBS 患者强迫、焦虑、抑郁等精神症状负担显著更高，且不同精神共病对应症状特异性的菌群改变，如抑郁中栖粪杆菌减少、焦虑中消化链球菌科减少；血清代谢物层面鸟氨酸、尿素升高而精氨酸降低，提示菌群-代谢紊乱与精神症状存在精细关联。",
+     "summary_en": "A multi-omics study of 267 IBS patients and 91 healthy controls found markedly higher psychiatric burden in IBS, with symptom-specific microbial signatures such as depleted Faecalibacterium in depression and reduced Peptostreptococcaceae in anxiety. Serum metabolomics revealed elevated ornithine and urea with lower arginine, suggesting fine-grained links between microbial-metabolic disturbance and psychiatric comorbidity."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《自然》破解低温延寿之谜：肌肉释放 BH2 延长寿命并维持蛋白稳态",
+     "title_en": "Nature Cracks the Cold-Longevity Code: Muscle-Derived BH2 Extends Lifespan",
+     "url": "https://m.ebiotrade.com/Newsf/2026-10/20261022050647350.htm",
+     "source_zh": "生物通（Nature）",
+     "source_en": "BioTon (Nature)",
+     "date": "2026-10-22",
+     "summary_zh": "德国科隆大学团队在《自然》揭示低温延寿的主动调控机制：适度低温上调肌肉中生物蝶呤合成酶 CAT-4，促进二氢生物蝶呤 BH2 合成并经循环作用于肠道、神经等远端组织，转化为活性辅因子 BH4 后延长寿命、维持蛋白稳态。仅在肌肉中增强 BH2 合成即足以延寿并抑制神经退行性蛋白聚集，提示不挨冻也可能复现低温益处。",
+     "summary_en": "University of Cologne researchers report in Nature that mild cold extends lifespan through an active metabolic network: cold upregulates the enzyme CAT-4 in muscle, boosting dihydrobiopterin (BH2) synthesis, which travels to distal tissues and is converted to active BH4, promoting tyrosine synthesis, longevity and proteostasis. Enhancing BH2 production in muscle alone sufficed to extend lifespan and suppress proteotoxic aggregation — hinting that cold's benefits could be mimicked without the chill."
+    },
+    {
+     "title_zh": "80 岁血细胞“返老还童”：百天可追踪逆转 60 年分子衰老",
+     "title_en": "80-Year-Old Blood Cells Rejuvenated: 60 Years of Molecular Aging Reversed",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+     "source_zh": "ScienceDaily（Aging Cell）",
+     "source_en": "ScienceDaily (Aging Cell)",
+     "date": "2026-10-20",
+     "summary_zh": "德国波恩大学团队绕过多能干细胞阶段，用转录因子将 80 岁供体的红细胞前体直接重编程为神经干细胞，表观遗传时钟从 80 岁重置至 20 岁以下，逆转超 60 年分子衰老。该“年轻化”过程缓慢持续 100 天以上、可逐步追踪，为研究细胞回春机制、筛选加速或延缓衰老的活性成分提供了理想实验模型。",
+     "summary_en": "Researchers at the University Hospital of Bonn bypassed the pluripotent stage and directly reprogrammed red blood cell precursors from an 80-year-old donor into neural stem cells whose epigenetic clocks read under 20 — reversing more than six decades of molecular aging. Because rejuvenation unfolded gradually over 100+ days, it can be tracked step by step, providing an ideal model for studying cellular rejuvenation and screening age-slowing compounds."
+    },
+    {
+     "title_zh": "运动延缓卵巢衰老：《自然·衰老》锁定脂联素通路与候选药物",
+     "title_en": "Exercise Delays Ovarian Aging: Nature Aging Pins It on Adiponectin",
+     "url": "https://www.sciencealert.com/one-habit-may-delay-ovarian-aging-and-a-drug-could-mimic-its-effects",
+     "source_zh": "ScienceAlert（Nature Aging）",
+     "source_en": "ScienceAlert (Nature Aging)",
+     "date": "2026-10-23",
+     "summary_zh": "广州医科大学团队在《自然·衰老》发表研究：规律运动的小鼠卵巢原始卵泡丢失减少、生殖寿命延长，机制由卵巢脂联素信号介导——敲低卵巢脂联素后运动保护作用下降 76%；激活脂联素受体的药物 AdipoRon 无需运动即可复现延后生殖衰老的益处。英国生物样本库近 14.7 万人遗传数据亦支持脂联素变异与绝经推迟的关联。",
+     "summary_en": "A Nature Aging study from Guangzhou Medical University shows that regular exercise preserves primordial follicles and extends reproductive lifespan in mice via ovarian adiponectin signaling — knocking down adiponectin blunted 76% of the protective effect. The adiponectin-receptor agonist AdipoRon mimicked the benefit without exercise, and genetic data from nearly 147,000 UK Biobank participants linked adiponectin variants to later menopause."
+    },
+    {
+     "title_zh": "南开团队《自然》揭示线粒体应激蛋白凝聚的跨细胞器质控机制",
+     "title_en": "Nankai Team Reveals Inter-Organelle Quality Control of Mitochondrial Stress Aggregates in Nature",
+     "url": "https://m.thepaper.cn/newsDetail_forward_34306766",
+     "source_zh": "澎湃新闻（Nature）",
+     "source_en": "The Paper (Nature)",
+     "date": "2026-10-21",
+     "summary_zh": "南开大学陈佺团队在《自然》发表研究：应激条件下受损线粒体蛋白经液-液相分离形成“应激诱导线粒体蛋白凝聚体”SIMPA，可空间受限地激活适应性质控，并动态诱导线粒体相关内质网膜生成、促进细胞器间通讯；其清除依赖内质网应激响应、ERAD 与线粒体自噬有序协同，为维持蛋白稳态与线粒体功能、对抗衰老相关蛋白损伤提供新机制。",
+     "summary_en": "A Nature paper from Prof. Quan Chen's team at Nankai University shows that under stress, damaged mitochondrial proteins undergo liquid-liquid phase separation into stress-induced mitochondrial protein aggregates (SIMPA), which activate spatially confined adaptive quality control and dynamically induce mitochondria-ER contact sites. Their clearance requires coordinated ER stress response, ERAD and mitophagy — a new mechanism for maintaining proteostasis and mitochondrial health."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "跨生命阶段的精准营养框架：《Nutrients》综述提出七大研究支柱",
+     "title_en": "Precision Nutrition Across the Lifespan: A Nutrients Review Proposes Seven Pillars",
+     "url": "https://www.news-medical.net/news/20261020/Why-the-same-healthy-diet-may-not-work-the-same-way-for-everyone.aspx",
+     "source_zh": "News Medical（Nutrients）",
+     "source_en": "News Medical (Nutrients)",
+     "date": "2026-10-20",
+     "summary_zh": "《Nutrients》新综述提出将精准营养融入全生命周期医疗的七大研究支柱，强调同一“健康饮食”在不同个体间反应差异显著，营养需求随孕期、婴幼儿期、成年与老年阶段而变。整合遗传、代谢、肠道菌群、可穿戴设备数据与 AI 建模可预测膳食反应，但作者提醒该框架尚需纵向队列与随机对照试验验证后才能进入临床。",
+     "summary_en": "A narrative review in Nutrients proposes seven interconnected research pillars for embedding precision nutrition into healthcare across the lifespan, stressing that responses to the same healthy diet vary widely and needs shift from pregnancy and infancy to old age. Integrating genetics, metabolism, microbiome and wearable data with AI could predict dietary responses, though the framework still requires longitudinal cohorts and randomized trials before clinical use."
+    },
+    {
+     "title_zh": "Virta 真实世界数据：GLP-1 联合个性化营养一年多减重 37%",
+     "title_en": "Virta Real-World Data: Pairing GLP-1s with Personalized Nutrition Boosts Weight Loss 37%",
+     "url": "https://www.virtahealth.com/press/virta-health-reports-37-greater-weight-loss-when-glp-1s-are-paired-with-its-ai-enabled-personalized-nutrition",
+     "source_zh": "Virta Health（公司新闻稿）",
+     "source_en": "Virta Health (Press Release)",
+     "date": "2026-10-21",
+     "summary_zh": "Virta Health 发布 2026 逆转报告：对 4000 余名使用 GLP-1 药物成人的真实世界分析显示，在相同医疗照护基础上叠加 AI 个性化营养治疗者，一年调整后减重比标准 GLP-1 护理多 37%，近四分之一成员体重降幅达 20% 以上，GLP-1 一年依从率约 80%、为行业均值两倍多，为“药物+个体化营养”组合提供大规模实践证据。",
+     "summary_en": "Virta Health's 2026 Reversal Report analyzed more than 4,000 adults on GLP-1 medications and found that those also following its AI-enabled personalized nutrition therapy achieved 37% greater adjusted one-year weight loss than standard GLP-1 care. Nearly one in four lost at least 20% of body weight, and one-year GLP-1 adherence reached about 80% — more than double the industry average — supporting medication-plus-personalized-nutrition care models."
+    },
+    {
+     "title_zh": "可吞服采样胶囊揭示：高纤维饮食的结肠获益被粪便检测大幅低估",
+     "title_en": "Ingestible Sampling Capsules Reveal Fiber's Colonic Benefits Are Underrated by Stool Tests",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261021000512308.htm",
+     "source_zh": "生物通（研究论文）",
+     "source_en": "BioTon (Research Paper)",
+     "date": "2026-10-21",
+     "summary_zh": "研究者在猪模型中部署分别由小肠 pH 与结肠微生物酸化激活的无电子可吞服采样胶囊，对比低纤维与高纤维饮食：高纤维组结肠内丙酸盐、丁酸盐较低纤维组约增加一倍，但这些差异在配对粪便样本中几乎检测不到；小肠乳杆菌丰度在胶囊样本中高达 43.8% 而粪便仅 8.2%。粪便分析系统性低估膳食干预的肠道响应，胶囊平台为膳食干预研究提供空间分辨新工具。",
+     "summary_en": "Using electronic-free ingestible capsules activated by small-intestinal pH or colonic microbial acidification in pig models, researchers compared low- and high-fiber diets: colonic propionate and butyrate roughly doubled on the high-fiber diet, yet these changes were barely detectable in paired stool samples, and small-intestinal Lactobacillus abundance read 43.8% in capsules versus 8.2% in feces. Stool analysis systematically underestimates dietary intervention responses, positioning capsules as a spatially resolved tool for nutrition research."
+    },
+    {
+     "title_zh": "近 20 万人研究：纤维来源决定控糖效果，淀粉类蔬菜纤维或增风险",
+     "title_en": "Fiber Source Matters: Cereal Fiber Protects Against Diabetes, Starchy Vegetable Fiber May Raise Risk",
+     "url": "https://jiankang.gmw.cn/2026-10/22/content_39043155.htm",
+     "source_zh": "光明网健康频道（Diabetes Care）",
+     "source_en": "Guangming Online (Diabetes Care)",
+     "date": "2026-10-22",
+     "summary_zh": "发表于《糖尿病护理》、纳入近 20 万人随访超 30 年的研究显示，膳食纤维的控糖效果因来源而异：谷物纤维摄入最高者 2 型糖尿病风险降低 23%，每日每增 5 克风险再降 16%；水果纤维最高组风险降低 18%；而以土豆、山药等淀粉类蔬菜为主的蔬菜纤维摄入最高组风险反升 11%，可能与高升糖负荷有关，提示“多吃蔬菜”控糖需看种类与搭配。",
+     "summary_en": "A Diabetes Care study following nearly 200,000 people for over 30 years found that fiber's glucose benefits depend on the source: highest cereal-fiber intake cut type 2 diabetes risk by 23% (a further 16% reduction per 5 g/day), fruit fiber by 18%, while fiber dominated by starchy vegetables such as potatoes was associated with an 11% higher risk — likely reflecting glycemic load. Not all vegetable fiber is equal for blood-sugar control."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "鱼油护脑？两年随机对照试验：Omega-3 入脑但未见认知获益",
+     "title_en": "Fish Oil for the Brain? Two-Year RCT Finds Omega-3 Reaches the Brain but No Cognitive Benefit",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-22",
+     "summary_zh": "一项为期两年的随机对照试验显示，补充鱼油虽能成功将 omega-3 送入大脑，却未能改善记忆或阻止阿尔茨海默病相关脑萎缩。研究提示，衡量生物利用度的“入脑成功”与临床获益之间仍有距离，为数百万人服用的鱼油护脑补剂再次泼下冷水，也说明认知保护可能需要在更早期或联合其他干预时干预。",
+     "summary_en": "A two-year randomized trial found that fish oil supplementation, despite successfully delivering omega-3s into the brain, did not improve memory or prevent Alzheimer's-related brain atrophy. The results suggest that bioavailability alone does not equal clinical benefit, tempering expectations for the brain-health claims behind millions of fish oil supplements and pointing to earlier or combination interventions."
+    },
+    {
+     "title_zh": "Verb Biotics 推出靶向肠-肝轴的 Christensenella minuta 益生菌 LX03",
+     "title_en": "Verb Biotics Launches LX03, a Christensenella minuta Probiotic Targeting the Gut-Liver Axis",
+     "url": "https://www.nutraceuticalbusinessreview.com/verb-biotics-launches-lx03-probiotic-targeting-gut-liver",
+     "source_zh": "Nutraceutical Business Review",
+     "source_en": "Nutraceutical Business Review",
+     "date": "2026-10-21",
+     "summary_zh": "Verb Biotics 宣布商业化推出代谢健康菌株 LX03（Christensenella minuta）：该菌在瘦且代谢健康的成年人、百岁老人中丰度更高，产生新型胆盐水解酶，可生成一类新胆汁酸、上游调节肠-肝信号，单菌输入即可影响脂肪吸收、胆固醇平衡与血糖调节等多个代谢输出。菌株为自主认定 GRAS，推荐日剂量 10 亿 AFU，可用于粉剂、胶囊等剂型。",
+     "summary_en": "Verb Biotics has commercially launched LX03, a Christensenella minuta strain for metabolic health. Consistently more abundant in lean, metabolically healthy adults and centenarians, the strain produces a novel bile salt hydrolase generating a new class of bile acids that modulate gut-liver signaling — one microbial input influencing fat absorption, cholesterol balance and glucose regulation. The self-affirmed GRAS ingredient is offered at 1 billion AFU daily for powders, capsules and stick packs."
+    },
+    {
+     "title_zh": "中国益生菌市场 2026 年预计超 1377 亿元，年增速 11%-12%",
+     "title_en": "China's Probiotics Market Set to Top 137.7 Billion Yuan in 2026, Growing 11-12% a Year",
+     "url": "https://en.imsilkroad.com/p/352599.html",
+     "source_zh": "新华丝路网（Euromonitor）",
+     "source_en": "Xinhua Silk Road (Euromonitor International)",
+     "date": "2026-10-20",
+     "summary_zh": "据 Euromonitor 数据，中国益生菌消费市场 2026 年预计突破 1377 亿元、年增速 11%-12%，正从细分补剂走向大众日常健康管理，重餐与熬夜是两大消费场景。产业链投资覆盖菌株研发、临床转化、配方设计与规模化生产；7 月监管部门征求意见拟将可注册菌种限定于国家卫健委普通食品菌株名单，推动“菌株-功效”全流程溯源管理。",
+     "summary_en": "China's probiotic consumption market is projected to exceed 137.7 billion yuan (about $20.6 billion) in 2026, growing 11-12% annually, as probiotics shift from niche supplements to everyday health management. Investment spans strain R&D, clinical translation and scale production, while July draft rules would restrict registrable strains to the national food-strain list, building a strain-to-efficacy traceability system and raising the entry bar."
+    },
+    {
+     "title_zh": "鱼油原料价格一年涨近三倍，金达威 2.38 亿元募资改投 10 万吨藻油项目",
+     "title_en": "Fish Oil Prices Nearly Triple in a Year; Kingdomway Shifts 238 Million Yuan to 100,000-Ton Algae Oil Project",
+     "url": "https://t.10jqka.com.cn/pid_708380369.shtml",
+     "source_zh": "海闻社（公司公告）",
+     "source_en": "Haiwen News (Company Filing)",
+     "date": "2026-10-19",
+     "summary_zh": "金达威 10 月 19 日公告，拟将辅酶 Q10 改扩建与信息化项目节余的合计 2.38 亿元募集资金，变更投向 10 万吨藻油 Omega-3 项目一期（总投资 6.88 亿元，建设期 24 个月），达产后预计年收入 13.57 亿元。此前鱼油原料价格一年多上涨近三倍，公司已有 21 项藻油相关发明专利，转向藻油显示 Omega-3 供应链正加速向发酵法溯源切换。",
+     "summary_en": "Kingdomway announced on Oct 19 it will redirect 238 million yuan in remaining IPO proceeds to phase one of a 100,000-ton algae Omega-3 project (total investment 688 million yuan, 24-month build), projected to generate 1.357 billion yuan in annual revenue at full capacity. With fish oil raw material prices nearly tripling in just over a year and 21 algae-oil patents already held, the pivot underscores the Omega-3 supply chain's accelerating shift toward fermentation-based sources."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "近 3900 人研究：绝经期激素治疗或放大 GLP-1 减重效果",
+     "title_en": "Menopause Hormone Therapy May Amplify GLP-1 Weight Loss, Study of Nearly 3,900 Women Suggests",
+     "url": "https://www.healthday.com/health-news/women-health/menopause-hormone-therapy-might-boost-glp-1-weight-loss-results-study-says",
+     "source_zh": "HealthDay（更年期学会年会）",
+     "source_en": "HealthDay (Menopause Society Annual Meeting)",
+     "date": "2026-10-21",
+     "summary_zh": "在更年期学会年会上报告、纳入约 3900 名女性的研究显示：使用司美格鲁肽的女性若同时接受绝经期激素治疗，一年平均减重 11%，高于单药组的 9.5%；减重超 20% 的比例分别为 22% 与 18%。替尔泊肽联用亦有获益但幅度较小，提示雌激素与 GLP-1 信号可能存在协同，个体化体重管理需考虑更年期因素。",
+     "summary_en": "Research presented at the Menopause Society annual meeting in nearly 3,900 women found that those on semaglutide plus menopause hormone therapy lost about 11% of body weight at one year versus 9.5% on semaglutide alone, with 22% versus 18% achieving at least 20% loss. Tirzepatide also benefited but more modestly, suggesting estrogen-GLP-1 synergy and a case for menopause-aware weight management."
+    },
+    {
+     "title_zh": "埃诺格鲁肽青少年肥胖 1b 期数据公布：20 周未见新安全信号",
+     "title_en": "Ecnoglutide Shows Early Promise and No New Safety Signals in Adolescent Obesity Trial",
+     "url": "https://www.inewsweek.cn/observe/2026-10-22/32657.shtml",
+     "source_zh": "中国新闻周刊（EASD 年会）",
+     "source_en": "China Newsweek (EASD Annual Meeting)",
+     "date": "2026-10-22",
+     "summary_zh": "第 62 届 EASD 年会公布的 1b 期研究显示，12-17 岁肥胖青少年接受埃诺格鲁肽治疗 20 周，在观察到减重与代谢改善的同时未发现新的安全性风险信号，也无因不良事件终止治疗者。该药为 cAMP 偏向型 GLP-1 受体激动剂，成人 III 期 SLIMMER 研究中 48 周平均减重 15.4%，青少年研究为全球首个偏向型 GLP-1 青少年肥胖临床试验。",
+     "summary_en": "A phase 1b trial presented at the 62nd EASD annual meeting found that obese adolescents aged 12-17 treated with ecnoglutide for 20 weeks showed weight and metabolic improvements with no new safety signals and no treatment discontinuations due to adverse events. The cAMP-biased GLP-1 agonist delivered 15.4% mean weight loss at 48 weeks in the adult phase 3 SLIMMER study; this is the first biased GLP-1 adolescent obesity trial completed worldwide."
+    },
+    {
+     "title_zh": "重庆九龙坡 16.67 万老年人享 AI 健康画像与智慧医养服务",
+     "title_en": "AI Health Portraits Bring Smart Elderly Care to 166,700 Seniors in Chongqing's Jiulongpo",
+     "url": "https://difang.gmw.cn/cq/2026-10/22/content_39060277.htm",
+     "source_zh": "光明网地方频道",
+     "source_en": "Guangming Online",
+     "date": "2026-10-22",
+     "summary_zh": "重庆九龙坡区整合老年人历年体检、门诊与慢病随访数据，用 AI 生成个人健康画像，自动识别血压血糖控制不佳、血脂异常等 11 项风险并生成饮食、运动、复查、用药提醒等个性化方案，健康画像与绿通转诊让医养转介平均控制在 10 分钟内。全区 16.67 万老年人基础电子档案覆盖率达 87.98%，高血压、糖尿病管理率均近 88%，推动健康管理从“治已病”前移至“防未病”。",
+     "summary_en": "Jiulongpo district in Chongqing integrates years of checkups, clinic records and chronic-disease follow-ups into AI-generated health portraits for seniors, automatically flagging 11 risks such as poor blood pressure and glucose control and producing personalized diet, exercise and medication plans, while fast-track referrals cut medical-elderly-care transfers to under 10 minutes. Basic electronic records now cover 87.98% of 166,700 seniors, shifting care from treatment toward prevention."
+    },
+    {
+     "title_zh": "AI 癌症筛查走向综合健康风险评估：通用技术健管公司谈落地路径",
+     "title_en": "From Lesion Detection to Whole-Person Risk: AI Cancer Screening's Next Step, Says Genertec Health",
+     "url": "https://www.toutiao.com/article/7699442246134825472/",
+     "source_zh": "每日经济新闻（财富中国 500 强论坛）",
+     "source_en": "National Business Daily (Fortune China 500 Forum)",
+     "date": "2026-10-22",
+     "summary_zh": "2026 财富中国 500 强论坛上，通用技术健管公司董事长彭佳虹表示，AI 在影像筛查中能更快识别微小病变、降低漏诊，但本质仍是辅助工具，行业尚无完全独立于传统检查的筛查路径；公司正探索把血液、影像与生活方式等全周期数据整合进数字风险评估模型，实现从“单点检测”向“综合评估”升级，并随服务反馈持续迭代。",
+     "summary_en": "At the 2026 Fortune China 500 Forum, Genertec Health Management chairwoman Peng Jiahong said AI can spot subtle lesions faster and reduce missed reads in imaging, but remains an assistive tool with no screening path fully independent of conventional exams. The company is integrating blood, imaging and lifestyle data into a whole-cycle digital risk-assessment model, moving from single-point detection to comprehensive evaluation with continuous iteration."
+    }
+   ]
+  }
+ ]
+}
