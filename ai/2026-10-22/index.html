@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-22 · GitHub AI 日报</title>
+<meta name="description" content="瓶颈从"模型"移到"协作协议"。今天最热的三个 AI Coding 项目——git-ai（源码管理）、reason-network（agent 之间通信）、kandev/harp（几十个会话的可观测与调度）——没有一个是模型，全是在解决"多个 agent 同时干活时，人怎么不被淹">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-22/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-22/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-22</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 09:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-22（周四）</h1>
+      <div class="art-meta"><span class="tag">精选 5 条</span><span>2026-10-22 · 周四</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>统计窗口</b>2026-10-21 09:00 ~ 2026-10-22 09:00（北京时间）</div><div><b>覆盖方向</b>AI Coding / 编程智能体 · 医学与临床研究 AI · 健康管理与营养 · 模型底座与 Agent 基础设施</div><div><b>去重说明</b>已与 10-16 至 10-21 六期推送黑名单逐条比对，本报告全部条目均为首次出现（个别长期热点仅作一句话状态备注）。</div><div><b>核验口径</b>所有"当日有动作"的条目均通过 `repos/{o}/{r}/commits` 与 `pushed_at` 双向核对，纯星标动能项单独标注。</div></div><h2>一、今日精选 5 条</h2>
+<h3>1. git-ai：把 Anthropic 内部 Scion 的"为 Agent 重做源码管理"公开复刻出来了</h3>
+<p><strong>地址</strong>：<a href="https://github.com/feder-cr/git-ai" target="_blank" rel="noopener">https://github.com/feder-cr/git-ai</a> ｜ ★916 ｜ Go ｜ 建于 10-15，当日仍有提交</p>
+<p><strong>事件内容</strong><br>作者基于 Anthropic 工程博客《Redesigning source control》中公开描述的 <strong>Scion</strong>（Anthropic 内部的、为"成百上千个 agent 同时读写落码"设计的版本控制系统，不对外）做了一份开源实现。核心设计与 Git 的差异有四处：客户端常在线、按需拉取单个对象与稀疏树（<code>graft clone</code> / <code>graft sparse</code>）；历史查询由服务端回答并缓存；变更通过 <strong>compare-and-swap</strong> 落地而非 merge queue；每次更新写入 changeset 日志，仓库状态放在一致性数据库 + 对象存储里，便于水平扩容。底层仍是标准 Git 仓库，MIT 许可，服务端不调用任何模型，AI 能力与供应商无关。</p>
+<p>当日提交是其 <code>PLAN10</code> 系列实验：在 296 个全新构造的 Go 冲突上复现 G1 指标，并加入"有测试/无测试"两个对照组、Python 与 TypeScript 的对照臂（TypeScript 已备好未跑），另有 build check 与 SEM/BIND 度量。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>这是<strong>第一次有人把"Agent 原生 VCS"从论文式描述变成可跑的代码</strong>。多 agent 并行时真正的瓶颈不是模型，而是 Git 的假设——"人类克隆一次、干几小时、推一次"。当 50 个 agent 在同一分支上抢着落码，merge queue 会直接塌掉。</li><li>它公开了自己的 benchmark 构造方式（自造 296 个冲突 + 分组对照），这比"我们快 N 倍"的口号可信得多，也顺手给出了<strong>评估 Agent 协作基础设施的方法论模板</strong>。</li><li>对我们的含义：如果团队要上多 agent 并行开发，现在有一个可自托管的参照物；即便不用它，"changeset 日志 + CAS 落地 + 每笔变更记名到具体 agent"这三条设计可以直接借鉴到内部流水线。</li></ul>
+<hr class="art-hr">
+<h3>2. 腾讯混元 Hy-Memory：把"编程记忆"做成独立的双系统认知引擎（MemHub 打通 5 类编码工具）</h3>
+<p><strong>地址</strong>：<a href="https://github.com/Tencent-Hunyuan/Hy-Memory" target="_blank" rel="noopener">https://github.com/Tencent-Hunyuan/Hy-Memory</a> ｜ ★1,127 ｜ Python ｜ Apache-2.0</p>
+<p><strong>事件内容</strong><br>混元开源了"生产级双系统认知记忆引擎"及 Python SDK <code>hy-memory</code>，按三类场景给专用记忆流水线：Chat 走分层长期认知记忆；Working 走"事实层 + 可复用经验层"两层；<strong>Coding 走版本演化 diff-chain 追踪</strong>。当日发布 <code>2.0.5.dev3</code>，并连续合入 SDK 侧能力：按语义精确导入记忆、用现有 search API 检索原始记录、处理存量 raw records（该 PR 后被 revert，说明正在收敛接口）。</p>
+<p>配套的 <strong>MemHub</strong> 是本地优先的桌面端 + CLI：把用户授权的 Claude Code、Cursor、Codex、OpenCode、Qwen Code 的会话历史与编码轨迹，统一到一个受治理的本地运行环境和数据目录，实现<strong>跨应用记忆召回</strong>。模型侧同步放出 Hy-Memory-30B-A3B 的 FP8 与 GGUF 量化版本。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>记忆赛道此前多是"给某个 harness 加插件"（如 10-20 期推的 ai-memory）；这次是<strong>模型厂把记忆做成独立产品 + 独立模型</strong>，并且直接对上"编码轨迹"这个最脏的数据形态——用 diff-chain 记录代码怎么一步步演化，而不是把聊天记录塞进向量库。</li><li>MemHub 的定位很关键：它不绑定单一 IDE，而是做<strong>跨 harness 的记忆中间层</strong>。这意味着"记忆"可能像当年的 LSP 一样，从各家自建变成一层公共基础设施。</li><li>对医学/健康类业务尤其相关：病历、随访、饮食记录的"长期演化"本质上也是 diff-chain 问题（指标怎么变的、方案为什么改），这套建模思路可直接迁移。</li></ul>
+<hr class="art-hr">
+<h3>3. HasteHealth：给"AI 原生健康应用"的开源 FHIR 服务器，MCP 与 SMART on FHIR 是内置件</h3>
+<p><strong>地址</strong>：<a href="https://github.com/HasteHealth/HasteHealth" target="_blank" rel="noopener">https://github.com/HasteHealth/HasteHealth</a> ｜ ★84 ｜ Rust ｜ Apache-2.0</p>
+<p><strong>事件内容</strong><br>定位一句话：<strong>Epic / Oracle Health / HL7v2 进，FHIR R4、SQL-on-FHIR、MCP 出</strong>。临床数据以 FHIR R4 存储，通过单一 API 同时服务前端应用、分析任务和 AI agent；OAuth2、SMART on FHIR、MCP 全部内建，Rust 编写，可自托管，也提供带 BAA 的托管版。单二进制同时跑 server / worker / CLI，<code>docker compose up</code> 即可起全栈（Postgres + server + worker + admin 前端）。</p>
+<p>当日提交集中在 FHIR 查询语义的补全：<code>ne</code>/<code>eq</code> 对 quantity 的支持、<code>lt</code>/<code>gt</code>/<code>le</code>/<code>ge</code> 前缀、Number 的 <code>eq</code> 前缀、Token/Date/Reference/Quantity 的 <code>:missing</code> 修饰符，以及 FHIRPath 的 <code>toQuantity</code> / <code>convertsToQuantity</code>。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>之前几期推的医疗项目多停在"技能库/护栏/影像 agent"层，这次动的是<strong>最底下的数据底座</strong>：让 agent 直接用 MCP 说 FHIR，而不是先写一层 REST 胶水。MCP 内建意味着 Claude/Cursor 这类客户端可以零适配接入院内数据。</li><li>它的工程取舍值得抄：Rust + 单二进制 + 静态链接，明确针对"医院内网不能随便装 Node/Python"的现实；同时把合规（BAA、SMART 授权）当产品功能而非文档附录。</li><li>反过来说，今天补的全是 FHIR Search 的边角语义——<strong>说明它离"能替代成熟 FHIR 服务器"还有一段路</strong>，评估时要盯 <code>_include</code>、<code>_revinclude</code>、版本化与批量导出这几项。</li></ul>
+<hr class="art-hr">
+<h3>4. ai-mammogram-triage：把乳腺钼靶分诊做成 MCP 服务，并且老老实实公布了校准数字</h3>
+<p><strong>地址</strong>：<a href="https://github.com/avalderrama/ai-mammogram-triage" target="_blank" rel="noopener">https://github.com/avalderrama/ai-mammogram-triage</a> ｜ ★1（新库，创建于 10-20）｜ Python ｜ Apache-2.0</p>
+<p><strong>事件内容</strong><br>一个 MCP server，输入 CC/MLO 视图的钼靶图像，把每一侧乳腺分到 BI-RADS 1-2 / 3 / 4-5 三组并给出优先级（<code>high_priority</code> / <code>review</code> / <code>no_suspicious_findings</code>）。流程是：先用 OCR 遮掉图像上的个人信息（读到的文本不返回也不记录）→ 校验这确实是钼靶而非超声/MRI/随手拍 → 用 512/1024 双分辨率全局模型分类，图像高度 ≥1500px 时追加 2048 patch 模型（对钙化更敏感）并输出热力图和最多 3 个可疑区域 → 仅在客户端显式给出 <code>sides</code> 时才合并同侧多视图 → 套用校准阈值。图像<strong>不落盘</strong>。</p>
+<p>作者公布的是留出集（VinDr-Mammo 官方 test split 中未参与校准的那一半）<strong>按乳腺</strong>的指标：BI-RADS 4-5 有 87% 落入 <code>high_priority</code> 或 <code>review</code>，同时 BI-RADS 1-2 只有 6.5% 被误升到 <code>high_priority</code>，AUC 0.89；CPU 单图 1-3 秒。</p>
+<p>当日提交：任意分辨率下的视图分隔检测、按需分两层下发热力图、通过 Cloudflare tunnel 自动部署 main。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>它示范了<strong>医学影像 agent 的"合规姿势"</strong>：先脱敏再推理、先验模态再分类、不存图、明示"研究工具、非医疗器械、未做临床验证"。这几条比模型精度更决定项目能不能进医院。</li><li>指标口径值得学：报的是<strong>按乳腺</strong>而非按图像，且明确区分"校准集"与"留出半 B"，还直接写出 6.5% 的误报代价。医疗 AI 里"召回好看"很容易，把代价一起写出来才是可信。</li><li>对我们的直接价值：这是"把专科判断封装成一个可被 agent 调用的工具"的完整样例——含输入校验、拒答路径、结构化输出与自然语言摘要分离（<code>structuredContent</code> 恒为英文）。</li></ul>
+<hr class="art-hr">
+<h3>5. 营养赛道的两条新路线：数据厂商官方 Agent Skills vs 专科计量纵深</h3>
+<p><strong>地址</strong>：<a href="https://github.com/edamam-llc/edamam-skills" target="_blank" rel="noopener">https://github.com/edamam-llc/edamam-skills</a> （★0，10-16 后有推送）｜ <a href="https://github.com/ksullivan86/kidney-health" target="_blank" rel="noopener">https://github.com/ksullivan86/kidney-health</a> （★1，当日有提交）</p>
+<p><strong>事件内容</strong></p>
+<ul><li><strong>edamam-skills</strong>：营养/食品数据库厂商 Edamam 把能力封装成<strong>可移植 Agent Skills</strong>（遵循 agentskills.io 开放标准），同一份 <code>skills/</code> 目录同时是 Claude Code 的 plugin marketplace 和 Gemini CLI 的 extension，数据通过其托管 MCP（<code>mcp.edamam.com/mcp/food</code>）取。首个技能是条码查询：输入或拍摄 UPC/EAN，返回热量、宏量营养素与完整营养表。凭据一次性写进本地环境，不进对话。</li><li><strong>kidney-health</strong>：自托管的饮食记录 + 患者手册，专攻<strong>慢性肾病合并 1 型糖尿病</strong>：按钾、磷、钠、蛋白质、液体、碳水六个维度计量，含膳食计划、条码扫描、离线 PWA。当日仍在提交。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>这两条路线正好对应营养类产品的分岔口：一条是<strong>"数据供应商把自己 skill 化"</strong>——不写 App，直接住进用户的 agent，按 API 调用计费；另一条是<strong>"在通用营养素之外做专科计量"</strong>——钾、磷、液体这些指标，通用卡路里类 App 基本是盲区，而这恰恰是 CKD 患者每天真正在算的东西。</li><li>值得警惕的是第一条路线的信号强度被高估：edamam-skills 星标为 0、main 分支近期无实质提交（最近一次是 10-16 的隐私政策），<strong>目前更像"占位式上架"而非被验证的分发渠道</strong>。判断这类"厂商官方 skill"要区分"已上架"和"有真实装机"。</li><li>对我们的业务含义：做营养/健康管理，<strong>通用营养素表已成红海，专科计量（肾病、糖尿病、孕产、肿瘤营养）才是护城河</strong>；而分发侧要考虑"被 agent 调用"这个新入口，别只想着做 App。</li></ul>
+<hr class="art-hr">
+<h2>二、分类速览</h2>
+<h3>A. AI Coding / 编程智能体与技能生态（8 条）</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/feder-cr/git-ai" target="_blank" rel="noopener">feder-cr/git-ai</a></td><td>★916</td><td>开源复刻 Anthropic 内部 Scion：为多 agent 并发落码重做 VCS（CAS + changeset 日志）</td></tr><tr><td><a href="https://github.com/Tencent-Hunyuan/Hy-Memory" target="_blank" rel="noopener">Tencent-Hunyuan/Hy-Memory</a></td><td>★1,127</td><td>混元双系统记忆引擎，Coding 场景走 diff-chain；MemHub 打通 Claude Code / Cursor / Codex / OpenCode / Qwen Code</td></tr><tr><td><a href="https://github.com/kdlbs/kandev" target="_blank" rel="noopener">kdlbs/kandev</a></td><td>★986</td><td>多 agent 控制面：Kanban + pipeline、22 家 provider、内置终端/编辑器/LSP/git 面板、Go 单二进制、无遥测、可自托管</td></tr><tr><td><a href="https://github.com/reason-machines/reason-network" target="_blank" rel="noopener">reason-machines/reason-network</a></td><td>★915</td><td>一个守护进程让<strong>同事的 agent 之间</strong>端到端加密 P2P 对话；暴露 <code>list_team</code> / <code>send_message</code> / <code>ask_user</code>，消息直落会话中</td></tr><tr><td><a href="https://github.com/dominikmartn/harp" target="_blank" rel="noopener">dominikmartn/harp</a></td><td>★533</td><td>Warp 的非官方 fork：侧边栏按"正在跑 / 等你 / 已完成"分组管理几十个 Claude Code 与 Codex 会话，带 5 小时与周额度环</td></tr><tr><td><a href="https://github.com/LinklyAI/best-skills" target="_blank" rel="noopener">LinklyAI/best-skills</a></td><td>★652</td><td>每日更新的 Agent Skills Top100 榜，聚合 skills.sh / ClawHub / 腾讯 SkillHub / GitHub / X 等 10+ 来源，开放 CSV</td></tr><tr><td><a href="https://github.com/aicodeking/leanrea" target="_blank" rel="noopener">aicodeking/leanrea</a></td><td>★1,293</td><td>用 8KB 的单个 skill 取代重量级 REA：纯 CLI 工具、不用 MCP，自测快 38%、省 35%</td></tr><tr><td><a href="https://github.com/SrIruma/repoctx" target="_blank" rel="noopener">SrIruma/repoctx</a></td><td>★1</td><td>扫描仓库真实构建/测试命令，审计并重写 AGENTS.md / CLAUDE.md 里的事实段，防止上下文文件"说谎"</td></tr></tbody></table>
+<blockquote><p>状态备注（已在往期推送，不再展开）：<code>stablyai/orca</code>（★101k，仍居趋势榜首）、<code>headroomlabs-ai/headroom</code>、<code>akitaonrails/ai-memory</code>、<code>cloudflare/security-audit-skill</code>、<code>DietrichGebert/ponytail</code> 今日仍在 Trending，但当日无实质新增能力。</p></blockquote>
+<h3>B. 医学 / 临床研究 AI 与科研 Agent（7 条）</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/HasteHealth/HasteHealth" target="_blank" rel="noopener">HasteHealth/HasteHealth</a></td><td>★84</td><td>AI 原生健康应用的开源 FHIR R4 服务器，Epic/HL7v2 进、FHIR/SQL-on-FHIR/MCP 出，Rust 单二进制</td></tr><tr><td><a href="https://github.com/avalderrama/ai-mammogram-triage" target="_blank" rel="noopener">avalderrama/ai-mammogram-triage</a></td><td>★1</td><td>钼靶 BI-RADS 分诊 MCP，留出集 87% 召回 / 6.5% 误升，CPU 1-3 秒，先脱敏不存图</td></tr><tr><td><a href="https://github.com/ompathak2004/Medical-Harness" target="_blank" rel="noopener">ompathak2004/Medical-Harness</a></td><td>★36</td><td>证据锚定问答 + 临床计算器（CKD-EPI 2021、CHA₂DS₂-VASc、Wells DVT、eAG）+ 交互式 3D 解剖；检索失败拒绝编造来源</td></tr><tr><td><a href="https://github.com/MIRA-Intelligence/mira" target="_blank" rel="noopener">MIRA-Intelligence/mira</a></td><td>★19</td><td>超轻量医学影像科研 agent，内置 MONAI 训练、PyRadiomics 组学、生存分析三大技能，从 DICOM 到 5 折交叉验证一条链</td></tr><tr><td><a href="https://github.com/aipoch/open-science" target="_blank" rel="noopener">aipoch/open-science</a></td><td>★5,328</td><td>本地优先、模型无关的科研工作台（含 arXiv 预印本与 Zenodo DOI），可执行 Python/R、产物可溯源，做"可复现研究"</td></tr><tr><td><a href="https://github.com/EvidenceMD-INC/evidencemd-mcp" target="_blank" rel="noopener">EvidenceMD-INC/evidencemd-mcp</a></td><td>★0</td><td>带引用的循证临床推理 MCP，兼容 Claude Code / Cursor / Codex；同时提供 OpenAI 兼容的 API 形态</td></tr><tr><td><a href="https://github.com/carlos-emr/carlos" target="_blank" rel="noopener">carlos-emr/carlos</a></td><td>★34</td><td>加拿大开源 EMR：HL7、FHIR、Java 21 / Spring 5，走"区域级病历系统"路线</td></tr></tbody></table>
+<h3>C. 健康管理 / 营养与食品 AI（7 条）</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/edamam-llc/edamam-skills" target="_blank" rel="noopener">edamam-llc/edamam-skills</a></td><td>★0</td><td>营养数据库厂商官方 Agent Skills + 托管 MCP，一份 skills 同时上架 Claude Code 与 Gemini CLI</td></tr><tr><td><a href="https://github.com/ksullivan86/kidney-health" target="_blank" rel="noopener">ksullivan86/kidney-health</a></td><td>★1</td><td>慢性肾病 + 1 型糖尿病专用饮食系统：钾/磷/钠/蛋白/液体/碳水六维计量，离线 PWA</td></tr><tr><td><a href="https://github.com/Townzc/liftcut-tracker" target="_blank" rel="noopener">Townzc/liftcut-tracker</a></td><td>★89</td><td>开源健身 + 营养 + 进度追踪，游客模式 + 可配置 AI 计划生成</td></tr><tr><td><a href="https://github.com/itspaulai/vitapulse" target="_blank" rel="noopener">itspaulai/vitapulse</a></td><td>★12</td><td>Android 上完全离线的"和你的健康数据对话"，本地模型、零云端</td></tr><tr><td><a href="https://github.com/SatoSakula/MoveBench" target="_blank" rel="noopener">SatoSakula/MoveBench</a></td><td>★7</td><td>运动与健康教练方向的 benchmark，补上"健身指导质量如何评测"这块空白</td></tr><tr><td><a href="https://github.com/nopara73/LongevityWorldCup" target="_blank" rel="noopener">nopara73/LongevityWorldCup</a></td><td>★26</td><td>开源长寿"运动赛事"平台：生物学年龄计算器 + 运动员档案 + 公开榜单</td></tr><tr><td><a href="https://github.com/nutrifit-health/nutrifit-widgets" target="_blank" rel="noopener">nutrifit-health/nutrifit-widgets</a></td><td>★21</td><td>49 个可嵌入的营养/健身计算器（TDEE、宏量、体脂、饮水量、化验值解读）</td></tr></tbody></table>
+<h3>D. 模型底座与 Agent 基础设施（6 条）</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener">deepseek-ai/DeepInfer</a></td><td>★17,902</td><td>DeepSeek 生产级推理框架开源：支持 V4.1-Flash，Attention DP / MoE EP+EPLB、DSpark 置信度调度验证、batch-invariant 与确定性采样；硬件覆盖 NVIDIA SM100 与<strong>华为昇腾 950</strong></td></tr><tr><td><a href="https://github.com/eagle-hq/EAGLE-4" target="_blank" rel="noopener">eagle-hq/EAGLE-4</a></td><td>★731</td><td>一个投机解码 drafter 通吃所有 batch size 与硬件，同步放出 Qwen3.8-27B 的 draft 权重</td></tr><tr><td><a href="https://github.com/NVIDIA/flare-local-inference" target="_blank" rel="noopener">NVIDIA/flare-local-inference</a></td><td>★507</td><td>面向 SM120/SM121（含 DGX Spark）的本地推理服务：PyTorch 编译期 + Rust 运行期，专为长对话与 agent 反复调用优化</td></tr><tr><td><a href="https://github.com/MemTensor/MemT-1.0" target="_blank" rel="noopener">MemTensor/MemT-1.0</a></td><td>★280</td><td>记忆原生基座模型：持久状态定长，128K 历史下比全上下文 KV cache 省约 66 倍存储</td></tr><tr><td><a href="https://github.com/openai/php2shell-checker" target="_blank" rel="noopener">openai/php2shell-checker</a></td><td>★399</td><td>OpenAI 以 <strong>Codex skills</strong> 形式发布的安全自查工具，检测站点/本地 PHP 是否受 php2shell（CVE-2026-109618 / 109619，session.upload_progress RCE）影响</td></tr><tr><td><a href="https://github.com/aipoch/open-science" target="_blank" rel="noopener">aipoch/open-science</a></td><td>★5,328</td><td>见 B 类；作为"研究型 agent 运行时"同时也是一份 agent 工作流的参考实现</td></tr></tbody></table>
+<hr class="art-hr">
+<h2>三、今日趋势观察</h2>
+<ol><li><strong>瓶颈从"模型"移到"协作协议"</strong>。今天最热的三个 AI Coding 项目——git-ai（源码管理）、reason-network（agent 之间通信）、kandev/harp（几十个会话的可观测与调度）——<strong>没有一个是模型</strong>，全是在解决"多个 agent 同时干活时，人怎么不被淹没、代码怎么不打架"。这是从"更强的单体 agent"转向"agent 团队的操作系统"的明确信号。</li><li><strong>记忆开始分层：引擎 / 模型 / 中间件三件事被拆开</strong>。Hy-Memory 同时给了引擎（SDK）、模型（30B-A3B FP8/GGUF）和中间件（MemHub 跨 5 类编码工具），MemT-1.0 则直接把记忆做进基座（省 66 倍 KV 存储）。上一期还是"给 harness 加插件"，这一期已经是"记忆作为独立基础设施"。</li><li><strong>医疗 AI 的竞争点下沉到数据语义层</strong>。HasteHealth 今天补的全是 FHIR Search 的 quantity 前缀、<code>:missing</code> 修饰符、FHIRPath 函数——这些枯燥的边角语义，恰恰决定 agent 能不能真的查对一条检验值。相比之下，"再做一个医疗问答 bot"的边际价值在快速下降。</li><li><strong>合规不是文档，是代码路径</strong>。ai-mammogram-triage 把"先脱敏、先验模态、不存图、拒答路径"写进了处理管线，Medical-Harness 则规定"检索失败就不许编来源"。这类<strong>硬编码的自我约束</strong>正在成为医疗健康类项目的入场券，比在 README 里写免责声明有效得多。</li><li><strong>"厂商官方 skill"要分清真上架与真装机</strong>。Edamam 把营养数据做成 Agent Skills 并双端上架，方向对，但 0 星、main 分支无近期实质提交——这类仓库更像"占位"。选型时应看装机量、issue 活跃度与提交历史，而不是看"是否支持 Claude Code"。</li><li><strong>国产算力进入开源推理栈的默认清单</strong>。DeepInfer 把华为昇腾 950 与 NVIDIA SM100 并列写在支持硬件里，这在半年前还是少见表述。</li></ol>
+<hr class="art-hr">
+<h2>四、GitHub 地址速查</h2>
+<p><strong>精选</strong></p>
+<ul><li>git-ai — <a href="https://github.com/feder-cr/git-ai" target="_blank" rel="noopener">https://github.com/feder-cr/git-ai</a></li><li>Hy-Memory — <a href="https://github.com/Tencent-Hunyuan/Hy-Memory" target="_blank" rel="noopener">https://github.com/Tencent-Hunyuan/Hy-Memory</a></li><li>HasteHealth — <a href="https://github.com/HasteHealth/HasteHealth" target="_blank" rel="noopener">https://github.com/HasteHealth/HasteHealth</a></li><li>ai-mammogram-triage — <a href="https://github.com/avalderrama/ai-mammogram-triage" target="_blank" rel="noopener">https://github.com/avalderrama/ai-mammogram-triage</a></li><li>edamam-skills — <a href="https://github.com/edamam-llc/edamam-skills" target="_blank" rel="noopener">https://github.com/edamam-llc/edamam-skills</a></li><li>kidney-health — <a href="https://github.com/ksullivan86/kidney-health" target="_blank" rel="noopener">https://github.com/ksullivan86/kidney-health</a></li></ul>
+<p><strong>AI Coding</strong></p>
+<ul><li><a href="https://github.com/kdlbs/kandev" target="_blank" rel="noopener">https://github.com/kdlbs/kandev</a></li><li><a href="https://github.com/reason-machines/reason-network" target="_blank" rel="noopener">https://github.com/reason-machines/reason-network</a></li><li><a href="https://github.com/dominikmartn/harp" target="_blank" rel="noopener">https://github.com/dominikmartn/harp</a></li><li><a href="https://github.com/LinklyAI/best-skills" target="_blank" rel="noopener">https://github.com/LinklyAI/best-skills</a></li><li><a href="https://github.com/aicodeking/leanrea" target="_blank" rel="noopener">https://github.com/aicodeking/leanrea</a></li><li><a href="https://github.com/SrIruma/repoctx" target="_blank" rel="noopener">https://github.com/SrIruma/repoctx</a></li></ul>
+<p><strong>医学 / 科研</strong></p>
+<ul><li><a href="https://github.com/ompathak2004/Medical-Harness" target="_blank" rel="noopener">https://github.com/ompathak2004/Medical-Harness</a></li><li><a href="https://github.com/MIRA-Intelligence/mira" target="_blank" rel="noopener">https://github.com/MIRA-Intelligence/mira</a></li><li><a href="https://github.com/aipoch/open-science" target="_blank" rel="noopener">https://github.com/aipoch/open-science</a></li><li><a href="https://github.com/EvidenceMD-INC/evidencemd-mcp" target="_blank" rel="noopener">https://github.com/EvidenceMD-INC/evidencemd-mcp</a></li><li><a href="https://github.com/carlos-emr/carlos" target="_blank" rel="noopener">https://github.com/carlos-emr/carlos</a></li></ul>
+<p><strong>健康 / 营养</strong></p>
+<ul><li><a href="https://github.com/Townzc/liftcut-tracker" target="_blank" rel="noopener">https://github.com/Townzc/liftcut-tracker</a></li><li><a href="https://github.com/itspaulai/vitapulse" target="_blank" rel="noopener">https://github.com/itspaulai/vitapulse</a></li><li><a href="https://github.com/SatoSakula/MoveBench" target="_blank" rel="noopener">https://github.com/SatoSakula/MoveBench</a></li><li><a href="https://github.com/nopara73/LongevityWorldCup" target="_blank" rel="noopener">https://github.com/nopara73/LongevityWorldCup</a></li><li><a href="https://github.com/nutrifit-health/nutrifit-widgets" target="_blank" rel="noopener">https://github.com/nutrifit-health/nutrifit-widgets</a></li></ul>
+<p><strong>底座 / 基础设施</strong></p>
+<ul><li><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener">https://github.com/deepseek-ai/DeepInfer</a></li><li><a href="https://github.com/eagle-hq/EAGLE-4" target="_blank" rel="noopener">https://github.com/eagle-hq/EAGLE-4</a></li><li><a href="https://github.com/NVIDIA/flare-local-inference" target="_blank" rel="noopener">https://github.com/NVIDIA/flare-local-inference</a></li><li><a href="https://github.com/MemTensor/MemT-1.0" target="_blank" rel="noopener">https://github.com/MemTensor/MemT-1.0</a></li><li><a href="https://github.com/openai/php2shell-checker" target="_blank" rel="noopener">https://github.com/openai/php2shell-checker</a></li></ul>
+<hr class="art-hr">
+<p><em>本期分类共 27 个项目（open-science 同时归入 B/D 两类），全部与往期去重。星标与提交时间截至 2026-10-22 09:00（北京时间）。</em></p></article>
+    <div class="pager"><a href="/ai/2026-10-21/"><span class="dir">← 上一期</span>2026-10-21</a><a class="right" href="/ai/2026-10-23/"><span class="dir">下一期 →</span>2026-10-23</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>

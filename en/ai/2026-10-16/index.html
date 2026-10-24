@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-16 · GitHub AI Daily</title>
+<meta name="description" content="The skill becomes the unit of distribution. In both coding and medicine, competition has shifted from models to "skill pack + MCP server"; t">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.54hrm.com/ai/2026-10-16/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/en/">Gordon<em>&nbsp;· Health × Tools</em></a>
+    <nav class="nav-links">
+      <a href="/#services">Services</a>
+      <a href="/#briefing">Briefing</a>
+      <a href="/en/ai/">AI Daily</a>
+      <a href="/#projects">Work</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+      <a href="/ai/2026-10-16/" lang="zh-Hans" hreflang="zh-Hans" title="切换到中文" class="lang">中文</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/en/">Home</a> / <a href="/en/ai/">AI Daily</a> / <span>2026-10-16</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · UPDATED EVERY MORNING</div>
+      <h1>GitHub AI Daily · 2026-10-16 (Friday)</h1>
+      <div class="art-meta"><span class="tag">5 picks</span><span>2026-10-16 · Friday</span><span>Source: public GitHub repositories</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>Window</b>2026-10-14 – 2026-10-16</div><div><b>Coverage</b>AI coding · Medical &amp; clinical research · Health management · Nutrition &amp; food</div><div><b>Edition</b>Digest — picks and trend watch. The Chinese issue carries the full category tables.</div></div><h2>Picks (5)</h2>
+<h3>1. Medical AI skill libraries reach "thousand-item" scale — OpenClaw-Medical-Skills and scientific-agent-skills land the same day</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills" target="_blank" rel="noopener">https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills</a> ｜ ★ emerging</p>
+<p>With <strong>869 medical agent skills</strong> this is the largest open medical skill library to date, spanning biomedical and clinical workflows; a second library covering verified scientific skills appeared the same day. The competition has moved from "which model" to "who ships the skill pack plus MCP servers".</p>
+<h3>2. On-device clinical de-identification — OpenMed makes HIPAA compliance a local capability</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/maziyarpanahi/openmed" target="_blank" rel="noopener">https://github.com/maziyarpanahi/openmed</a></p>
+<p>Clinical NER plus HIPAA PII de-identification, <strong>running 100% on-device</strong> (Apple MLX + Python), bundling 2,200+ medical models across 21 languages, with data never leaving the intranet.</p>
+<h3>3. Food and nutrition AI moves from "logging" to "auditing" — FoodTruth uses a vision model to break packaging claims</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/dasouvik122005/FoodTruth" target="_blank" rel="noopener">https://github.com/dasouvik122005/FoodTruth</a></p>
+<p>An open-weight vision model reads both the front-of-pack claims and the back-of-pack ingredient and nutrition panels, then flags three classes of problem: hidden sugar (a "no added sugar" product containing maltodextrin with a GI of 110), "whey-protein dusting" claims, and similar wording tricks.</p>
+<h3>4. GitHub turns Copilot from "picking a model" into "orchestrating models" — HydraFusion Max</h3>
+<p>GitHub's 10-14 update to Copilot's HydraFusion orchestration added a <strong>Max</strong> tier, refreshed the pool (Claude Opus 5.5 / GPT-6 Astra / GPT-6.1 Sol / GPT-6 Luna), and allocates reasoning effort by stage — medium for drafting, high for review — with cascading fallbacks.</p>
+<h3>5. WiFi becomes a health sensor — RuView monitors vitals without a camera</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener">https://github.com/ruvnet/RuView</a></p>
+<p>Turns ordinary commercial WiFi signals into real-time spatial intelligence: breathing, heart rate and presence detection with <strong>zero video capture</strong>. It gained 197 stars on the day and represents a rare "privacy at no cost" route for health monitoring in bedrooms and bathrooms.</p>
+<hr class="art-hr">
+<h2>Trends</h2>
+<ol><li><strong>The skill becomes the unit of distribution.</strong> In both coding and medicine, competition has shifted from models to "skill pack + MCP server"; the medical side already has an 869-item library.</li><li><strong>Local-first is the default in health.</strong> OpenMed, FoodYou and RuView all insist data stays on the device — regulatory pressure is reshaping technology choices.</li><li><strong>Diet AI is upgrading from a logging tool to a judgement tool.</strong> Deterministic nutrition rules (GI, DIAAS, regulatory citations) are being hard-coded into audit engines instead of left to the model to improvise.</li><li><strong>Open weights keep accelerating.</strong> Meta Muse Spark Open (816B) and StepFun Step 5 Preview (600B) both opened weights the same day, both aimed explicitly at long-horizon agent tasks.</li><li><strong>Open-source supply is outpacing consumption.</strong> Agent orchestration, skill libraries and context compression dominate Trending; selection and governance — security, audit, context cost — are becoming the new bottleneck.</li></ol></article>
+    <div class="pager"><span></span><a class="right" href="/en/ai/2026-10-17/"><span class="dir">Next issue →</span>2026-10-17</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">Gordon · Health × Tools</div>
+  <div>Health Nutrition Researcher / Practitioner · AI Tool Builder</div>
+  <div><a href="/#services">Services</a> · <a href="/#briefing">Briefing</a> · <a href="/en/ai/">AI Daily</a> · <a href="/#projects">Work</a> · <a href="/#about">About</a> · <a href="/#contact">Contact</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>Nothing on this site is medical advice; plans are for research reference only · Compiled automatically from public GitHub data</div>
+</footer>
+</body>
+</html>

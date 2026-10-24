@@ -203,6 +203,32 @@
     .bf-cta{width:100%}
     .bf-btn{flex:1;text-align:center}
   }
+/* ===== AI DAILY:START ===== */
+.ad-head{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end;justify-content:space-between;margin-bottom:26px}
+.ad-kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;letter-spacing:.1em;color:var(--teal);text-transform:uppercase}
+.ad-dot{width:6px;height:6px;border-radius:50%;background:var(--teal);display:inline-block;animation:adPulse 2.4s ease-in-out infinite}
+@keyframes adPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+.ad-head h2{font-family:var(--serif);font-size:clamp(26px,3.6vw,34px);font-weight:600;letter-spacing:-.01em;margin:10px 0 0}
+.ad-sub{color:var(--ink-soft);margin-top:12px;max-width:620px;text-wrap:pretty}
+.ad-stat{text-align:right;font-size:13px;color:var(--ink-faint);line-height:1.5}
+.ad-stat b{display:block;font-family:var(--mono);font-size:20px;color:var(--teal);letter-spacing:.02em}
+.ad-panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.ad-panel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line);font-size:12.5px;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase}
+.ad-picks{list-style:none}
+.ad-picks li{display:flex;gap:14px;align-items:flex-start;padding:16px 20px;border-bottom:1px solid var(--line);transition:background .2s}
+.ad-picks li:last-child{border-bottom:0}
+.ad-picks li:hover{background:var(--teal-soft)}
+.ad-no{font-family:var(--mono);font-size:12px;color:var(--teal);padding-top:3px;min-width:22px}
+.ad-picks a{font-size:15.5px;font-weight:500;line-height:1.55}
+.ad-picks a:hover{color:var(--teal)}
+.ad-picks span.ad-txt{font-size:15.5px;line-height:1.55}
+.ad-foot{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-top:22px}
+.ad-issues{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--ink-faint)}
+.ad-issues a{font-family:var(--mono);padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);transition:all .2s}
+.ad-issues a:hover{border-color:var(--teal);color:var(--teal)}
+.ad-issues a.on{background:var(--teal);border-color:var(--teal);color:#fff}
+@media(max-width:640px){.ad-stat{text-align:left}.ad-head{align-items:flex-start}}
+/* ===== AI DAILY:END ===== */
 </style>
 <link rel="canonical" href="https://me.54hrm.com/" data-page-node-id="bfCanon">
 <link rel="alternate" hreflang="zh-Hans" href="https://me.54hrm.com/" data-page-node-id="bfHlZh">
@@ -229,6 +255,7 @@
       <a href="#services" data-page-node-id="OdDDWieEC1iEd6VOsb56KI">服务</a>
       <a href="#projects" data-page-node-id="Il4CzDGMU4DWYt55fABAsd">作品</a>
       <a href="#briefing" data-page-node-id="bfNav">简报</a>
+      <a href="#ai">AI 日报</a>
       <a href="#about" data-page-node-id="YoBfWiuWymXKgkpEAJFqgQ">关于</a>
       <a href="#contact" data-page-node-id="XLSCu3SG1PcAKWaMmIwMFW">联系</a>
       <a href="/en/" lang="en" hreflang="en" title="Switch to English">EN</a>
@@ -605,7 +632,32 @@
 </script>
 <!-- BRIEFING:END -->
 
+<!-- AIDAILY:START -->
+<section id="ai">
+  <div class="wrap">
+    <div class="ad-head">
+      <div>
+        <span class="ad-kicker"><i class="ad-dot"></i>AI Daily · 每天 09:00 更新</span>
+        <h2>GitHub AI 日报</h2>
+        <p class="ad-sub">每天扫一遍 GitHub 上 AI 生态的真实变动，按 AI Coding、医学临床、健康营养、模型底座四条线整理，每条附仓库地址与「为什么值得关注」，并与历史期刊去重。</p>
+      </div>
+      <div class="ad-stat"><b>2026-10-24</b><span>最新一期 · 精选 5 条</span></div>
+    </div>
+    <div class="ad-panel">
+      <div class="ad-panel-head"><span>本期精选</span><span>2026-10-24 周六</span></div>
+      <ol class="ad-picks"><li><span class="ad-no">01</span><a href="https://github.com/omnigent-ai/omnigent" target="_blank" rel="noopener">Omnigent：11k★ 的"元 harness"，把 Claude Code / Codex / Cursor 收进同一层并开始管住它们</a></li><li><span class="ad-no">02</span><a href="https://github.com/cbetz/last-ehr" target="_blank" rel="noopener">Last EHR：把"agent 写病历"做成一个可审批的协议，并公开自己的覆盖上限</a></li><li><span class="ad-no">03</span><a href="https://github.com/FHIR/genomics-operations" target="_blank" rel="noopener">HL7 官方仓库一天之内把"分子肿瘤委员会"从患者横幅做到 AI 综合</a></li><li><span class="ad-no">04</span><a href="https://github.com/Akhilesh-Vangala/healthcare-evidence-agent" target="_blank" rel="noopener">医药证据 agent 的 240 次消融实验：技能层是性价比拐点，Sonnet 贵 16 倍只多 2 个点</a></li><li><span class="ad-no">05</span><a href="https://github.com/harry1729/mcd-nutrition-planner" target="_blank" rel="noopener">把营养做成硬约束求解：预算、蛋白下限、钠上限、过敏原同时约束，还要和官方计价对账</a></li></ol>
+    </div>
+    <div class="ad-foot">
+      <div class="ad-issues"><span>近期：</span><a href="/ai/2026-10-24/" class="on">10-24</a><a href="/ai/2026-10-23/">10-23</a><a href="/ai/2026-10-22/">10-22</a><a href="/ai/2026-10-21/">10-21</a><a href="/ai/2026-10-20/">10-20</a><a href="/ai/2026-10-19/">10-19</a><a href="/ai/2026-10-18/">10-18</a><a href="/ai/">全部期刊 →</a></div>
+      <a class="btn btn-ghost" href="/ai/2026-10-24/">阅读本期全文</a>
+    </div>
+  </div>
+</section>
+
 <hr class="divider">
+
+<!-- AIDAILY:END -->
+
 
 <!-- ABOUT -->
 <section id="about" data-page-node-id="7NAfvsMGB0Cq018i5Uw6wQ">
@@ -655,6 +707,7 @@
     <a href="#services" data-page-node-id="HQXeCk8l1ArXJCsmpyFJ5J">服务</a>
     <a href="#projects" data-page-node-id="vIg0x6F05h70CBW6X3W3GM">作品</a>
     <a href="#briefing" data-page-node-id="bfFootNav">简报</a>
+    <a href="#ai">AI 日报</a>
     <a href="#about" data-page-node-id="QxzPeCpAS0mwXXLdZrJORY">关于</a>
     <a href="#contact" data-page-node-id="oy07sdZIXBSLGkSCmY89eg">联系</a>
     <a href="/en/" lang="en" hreflang="en">EN</a>

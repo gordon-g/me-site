@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-21 · GitHub AI Daily</title>
+<meta name="description" content="The skill ecosystem enters supply-chain governance. NVIDIA defines "verified skills" with signatures, evaluation sets and benchmark reports;">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.54hrm.com/ai/2026-10-21/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/en/">Gordon<em>&nbsp;· Health × Tools</em></a>
+    <nav class="nav-links">
+      <a href="/#services">Services</a>
+      <a href="/#briefing">Briefing</a>
+      <a href="/en/ai/">AI Daily</a>
+      <a href="/#projects">Work</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+      <a href="/ai/2026-10-21/" lang="zh-Hans" hreflang="zh-Hans" title="切换到中文" class="lang">中文</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/en/">Home</a> / <a href="/en/ai/">AI Daily</a> / <span>2026-10-21</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · UPDATED EVERY MORNING</div>
+      <h1>GitHub AI Daily · 2026-10-21 (Wednesday)</h1>
+      <div class="art-meta"><span class="tag">5 picks</span><span>2026-10-21 · Wednesday</span><span>Source: public GitHub repositories</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>Window</b>2026-10-20 09:00 – 2026-10-21 09:00 (UTC+8)</div><div><b>Coverage</b>AI coding · Medical &amp; clinical research · Health management · Nutrition &amp; food</div><div><b>Edition</b>Digest — picks and trend watch. The Chinese issue carries the full category tables.</div></div><h2>Picks (5)</h2>
+<h3>1. NVIDIA/skills — skills now have signatures, evaluation sets and benchmark reports</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/NVIDIA/skills" target="_blank" rel="noopener">https://github.com/NVIDIA/skills</a></p>
+<p>Overnight the repository regenerated <code>metadata.json</code>, <code>skills.sh.json</code> and the benchmarks, and unified its Physical AI components under CDF naming, shipping skills for CDF anomaly generation, data augmentation and auto-labelling. Skills stop being content and become artefacts with admission, provenance and regression requirements.</p>
+<h3>2. jcode — the real bottleneck in parallel agents is handoff, not start-up</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/1jehuang/jcode" target="_blank" rel="noopener">https://github.com/1jehuang/jcode</a></p>
+<p>Six commits between 00:53 and 01:17 all orbit <code>/cloud</code>: the TUI refuses to migrate an unsaved empty session to the cloud, all account-router credentials move with the migration, and the hosted-cloud preflight now requires router credentials. Shipping to the cloud is a chain of checks, not a button.</p>
+<h3>3. NotePilot v1.8 — the point of a clinical summary is being verifiable, not sounding right</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/calvinpatel/notepilot" target="_blank" rel="noopener">https://github.com/calvinpatel/notepilot</a></p>
+<p>A run of v1.8 commits, all about clinical semantic boundaries: "a dose carries its prn" (a dose must carry its as-needed condition), "an indication isn't a finding". These are the rules that decide whether a generated note survives review.</p>
+<h3>4. Neonatal imaging study — expert level decides whether AI helps or disturbs</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/junjslee/neonatal-ai-reliability" target="_blank" rel="noopener">https://github.com/junjslee/neonatal-ai-reliability</a> ｜ <em>npj Digital Medicine</em> (2026), doi:10.1038/s41746-026-03399-3</p>
+<p>Published open access. The key method is injecting errors into the AI's output to measure how the human reader reacts — a direct probe of automation bias rather than another accuracy number.</p>
+<h3>5. Open Health Sync v0.1.0 — the health data layer gets a self-hosted standard exit</h3>
+<p><strong>Repo</strong>: <a href="https://github.com/soma-intelligence/open-health-sync" target="_blank" rel="noopener">https://github.com/soma-intelligence/open-health-sync</a></p>
+<p>A sequence of commits moved it from "can sync" to "can be integrated": <code>GET /v1/providers</code> now states exactly what each data source can deliver, and all eight example recipes were rewritten. One dataset, four export paths, self-hosted.</p>
+<hr class="art-hr">
+<h2>Trends</h2>
+<ol><li><strong>The skill ecosystem enters supply-chain governance.</strong> NVIDIA defines "verified skills" with signatures, evaluation sets and benchmark reports; AAS spent the same day fixing missing release identity, skipped source verification and false-ready admissions. Medical skill libraries will be the first asked to produce this evidence.</li><li><strong>Coding agents compete on resources and handoff, not capability.</strong> jcode runs dozens of agents in little memory and turns cloud migration into a checklist; t3code moves the control plane to a phone; magpie puts model routing in the menu bar. All three answer the same question: once there are many agents, where is the human-machine boundary.</li><li><strong>Clinical AI starts falsifying itself with reader studies and regression baselines.</strong> The neonatal paper injects errors to measure human response; NotePilot tests its own checking layer on a 24×3 synthetic corpus. Both state their limits openly — closer to shipping than leaderboard chasing.</li><li><strong>The health data layer converges on self-hosting plus a standard exit.</strong> open-health-sync offers one dataset with four exits, HealtOS got import and rollback right first, quantified-self-mcp first fixed "listens on all interfaces by default". The order is always trust first, intelligence second.</li><li><strong>Three new landing spots in nutrition</strong>: specialist agents (carefold adds a dietitian navigator), explainable scoring (eat.me.at's recipe nutrition score), and supply-chain hygiene (SuperMealPlanner cleaning up a leaked intermediate certificate). "Photograph it and estimate calories" is no longer the only story.</li><li><strong>Medical infrastructure experiments with Rust.</strong> FHIR servers (hfs) are rebuilding query backends for memory footprint and concurrency rather than language preference — worth tracking quarterly.</li></ol></article>
+    <div class="pager"><a href="/en/ai/2026-10-20/"><span class="dir">← Previous issue</span>2026-10-20</a><a class="right" href="/en/ai/2026-10-22/"><span class="dir">Next issue →</span>2026-10-22</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">Gordon · Health × Tools</div>
+  <div>Health Nutrition Researcher / Practitioner · AI Tool Builder</div>
+  <div><a href="/#services">Services</a> · <a href="/#briefing">Briefing</a> · <a href="/en/ai/">AI Daily</a> · <a href="/#projects">Work</a> · <a href="/#about">About</a> · <a href="/#contact">Contact</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>Nothing on this site is medical advice; plans are for research reference only · Compiled automatically from public GitHub data</div>
+</footer>
+</body>
+</html>

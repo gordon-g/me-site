@@ -1,0 +1,26 @@
+/* ===== AI DAILY:START ===== */
+.ad-head{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end;justify-content:space-between;margin-bottom:26px}
+.ad-kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;letter-spacing:.1em;color:var(--teal);text-transform:uppercase}
+.ad-dot{width:6px;height:6px;border-radius:50%;background:var(--teal);display:inline-block;animation:adPulse 2.4s ease-in-out infinite}
+@keyframes adPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+.ad-head h2{font-family:var(--serif);font-size:clamp(26px,3.6vw,34px);font-weight:600;letter-spacing:-.01em;margin:10px 0 0}
+.ad-sub{color:var(--ink-soft);margin-top:12px;max-width:620px;text-wrap:pretty}
+.ad-stat{text-align:right;font-size:13px;color:var(--ink-faint);line-height:1.5}
+.ad-stat b{display:block;font-family:var(--mono);font-size:20px;color:var(--teal);letter-spacing:.02em}
+.ad-panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.ad-panel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line);font-size:12.5px;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase}
+.ad-picks{list-style:none}
+.ad-picks li{display:flex;gap:14px;align-items:flex-start;padding:16px 20px;border-bottom:1px solid var(--line);transition:background .2s}
+.ad-picks li:last-child{border-bottom:0}
+.ad-picks li:hover{background:var(--teal-soft)}
+.ad-no{font-family:var(--mono);font-size:12px;color:var(--teal);padding-top:3px;min-width:22px}
+.ad-picks a{font-size:15.5px;font-weight:500;line-height:1.55}
+.ad-picks a:hover{color:var(--teal)}
+.ad-picks span.ad-txt{font-size:15.5px;line-height:1.55}
+.ad-foot{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-top:22px}
+.ad-issues{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--ink-faint)}
+.ad-issues a{font-family:var(--mono);padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);transition:all .2s}
+.ad-issues a:hover{border-color:var(--teal);color:var(--teal)}
+.ad-issues a.on{background:var(--teal);border-color:var(--teal);color:#fff}
+@media(max-width:640px){.ad-stat{text-align:left}.ad-head{align-items:flex-start}}
+/* ===== AI DAILY:END ===== */

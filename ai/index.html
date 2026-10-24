@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub AI 日报 · 全部期刊 · 匆匆上岸</title>
+<meta name="description" content="每天 09:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
+    <div class="sec-head">
+      <div class="kicker">ARCHIVE · 共 9 期</div>
+      <h1>GitHub AI 日报</h1>
+      <p class="sec-sub">每天 09:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
+    </div>
+    <div class="cards"><a class="card" href="/ai/2026-10-24/">
+      <div class="card-date">2026-10-24<span>周六</span></div>
+      <p class="card-sum">"写权限"成了医疗 agent 的分水岭。昨天的医疗 agent 还在比"答得准、说得清"，今天的 last-ehr 直接把问题改写成："谁批准了这次写入、批准的是不是提交的那一份、事后能不能追"。Proposal → Decision →…</p>
+      <ul class="card-picks"><li>Omnigent：11k★ 的"元 harness"，把 Claude Code / Codex / Cursor 收进同一层并开始管住它们</li><li>Last EHR：把"agent 写病历"做成一个可审批的协议，并公开自己的覆盖上限</li><li>HL7 官方仓库一天之内把"分子肿瘤委员会"从患者横幅做到 AI 综合</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-23/">
+      <div class="card-date">2026-10-23<span>周五</span></div>
+      <p class="card-sum">Harness 白热化后的差异化押注：hermes-agent（环境休眠 + 六后端）、openhuman（$10 VPS 跑 500 agent）、deer-flow（沙箱生命周期）、omnara（托管关机语义）同日活跃，说明 harne…</p>
+      <ul class="card-picks"><li>Vector Institute 开源 Odyssey：可解释的患者时序基础模型，把"每个声明都可证伪"写进了工程</li><li>Google 官方发布 Elephant-Goldfish Model：规格驱动开发插件，用"零上下文子代理"给规格书做压力测试</li><li>Nous Research Hermes Agent：256k★ 的开源 Agent Harness，把"环境随用随睡"做成了默认能力</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-22/">
+      <div class="card-date">2026-10-22<span>周四</span></div>
+      <p class="card-sum">瓶颈从"模型"移到"协作协议"。今天最热的三个 AI Coding 项目——git-ai（源码管理）、reason-network（agent 之间通信）、kandev/harp（几十个会话的可观测与调度）——没有一个是模型，全是在解决"多…</p>
+      <ul class="card-picks"><li>git-ai：把 Anthropic 内部 Scion 的"为 Agent 重做源码管理"公开复刻出来了</li><li>腾讯混元 Hy-Memory：把"编程记忆"做成独立的双系统认知引擎（MemHub 打通 5 类编码工具）</li><li>HasteHealth：给"AI 原生健康应用"的开源 FHIR 服务器，MCP 与 SMART on FHIR 是内置件</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-21/">
+      <div class="card-date">2026-10-21<span>周三</span></div>
+      <p class="card-sum">技能生态进入"供应链治理"阶段。NVIDIA 用签名 + 评测集 + 基准报告定义"已验证技能"，AAS 在同一天连修"缺 release identity / 跳过源校验 / false-ready 入库"。技能不再只是内容，而是需要准入…</p>
+      <ul class="card-picks"><li>NVIDIA/skills：技能开始有签名、有评测集、有基准报告</li><li>jcode：并行 agent 的真正瓶颈，是"交接"而不是"启动"</li><li>NotePilot v1.8：临床摘要的关键不是"写得像"，而是"能被核验"</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-20/">
+      <div class="card-date">2026-10-20<span>周二</span></div>
+      <p class="card-sum">医疗 Agent 的竞争点从"能力"移到"中间层"。MedMCP 管工具与数据不出院，HealthClaw 管 PHI/审计/认证，M4 管临床语义，Hospilot 管可观测性——四家都在做"模型之外"的事，且都默认自托管。 2. 临床技…</p>
+      <ul class="card-picks"><li>MedMCP：医学影像的 Agent 化，选择了"机房内"这条路</li><li>M4 v0.5.9：临床研究数据库的"临床语义层"开始按技能版本化发版</li><li>ai-memory：编程 agent 的记忆正在变成跨厂商的基础设施</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-19/">
+      <div class="card-date">2026-10-19<span>周一</span></div>
+      <p class="card-sum">Agent 生态的重心继续从"模型能不能写代码"移向"谁的 Agent 记得住、跑得久、权限收得住"；医疗健康侧则出现两个新信号——医学研究技能库开始"做深不做广"，以及临床评测从"答得对"转向"证据变了行动会不会变"。</p>
+      <ul class="card-picks"><li>MadsLorentzen/ai-job-search — Agent 的第一个"白领流程"爆款</li><li>android/skills — 平台厂商开始自己定义"技能"</li><li>Aperivue/medsci-skills — 医学技能库从"广"走向"深"</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-18/">
+      <div class="card-date">2026-10-18<span>周日</span></div>
+      <p class="card-sum">技能库的"人格化"：mattpocock/skills、agency-agents、ponytail 共同说明——Agent 技能正在从"工具说明书"演化为"可安装的工程人格/方法论"，个人 .claude 目录成为新的技术资产形态。 2.…</p>
+      <ul class="card-picks"><li>deepseek-ai/deepseek-harness：模型厂亲自下场做"插件化 Agent 运行时"</li><li>mattpocock/skills：156k Star 证明"方法论 &gt; 模型"</li><li>MedicalHarness：医疗 Agent 的分数，四分之一是 Harness 的功劳</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-17/">
+      <div class="card-date">2026-10-17<span>周六</span></div>
+      <p class="card-sum">"Agent 该用什么接口"出现路线分化：MCP 派（标准化协议，但需人建人维护）与 CLI 包装派（CLI-Anything 式翻译层，复用几十万存量工具）正面相遇。真正的胜负手不是协议本身，而是沙箱与权限模型做得够不够硬。同日的 NVI…</p>
+      <ul class="card-picks"><li>CLI-Anything：MCP 之外的另一条路——把"命令行"翻译成 Agent 接口</li><li>医学证据合成开始"可审计"：ReviewPilot 把 PRISMA 流程做成带来源的多智能体</li><li>一个人 + 一个编程 Agent，开源了一整套 MRI 分析工具包</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-16/">
+      <div class="card-date">2026-10-16<span>周五</span></div>
+      <p class="card-sum">技能（Skill）成为新的分发单位：无论是编程还是医学，生态竞争都从模型转向"技能包 + MCP 服务器"，医学侧已出现 869 项规模的技能库。 2. 本地优先（Local-first）在医疗健康赛道成为默认选项：OpenMed、Food…</p>
+      <ul class="card-picks"><li>医学 AI 技能库进入"千项规模"竞争——OpenClaw-Medical-Skills 与 scientific-agent-skills 同日上榜</li><li>端侧医疗数据脱敏：OpenMed 把 HIPAA 合规做成本地能力</li><li>食品营养 AI 从"记录"走向"审计"：FoodTruth 用视觉模型拆穿包装话术</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>

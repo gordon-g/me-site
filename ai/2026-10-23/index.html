@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-23 · GitHub AI 日报</title>
+<meta name="description" content="Harness 白热化后的差异化押注：hermes-agent（环境休眠 + 六后端）、openhuman（$10 VPS 跑 500 agent）、deer-flow（沙箱生命周期）、omnara（托管关机语义）同日活跃，说明 harness 竞争已从"能跑"转向成本结构与生命">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-23/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-23/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-23</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 09:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-23（周五）</h1>
+      <div class="art-meta"><span class="tag">精选 5 条</span><span>2026-10-23 · 周五</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>统计窗口</b>2026-10-22 09:00 ~ 2026-10-23 09:00（北京时间）</div><div><b>覆盖方向</b>AI Coding / 编程智能体 · 医学与临床研究 AI · 健康管理与营养 · 模型底座与 Agent 基础设施</div><div><b>去重说明</b>已与 10-16 至 10-22 七期推送黑名单逐条比对，本报告全部条目均为首次出现（openai/php2shell-checker 昨日已推，今日以生态新条目入榜并作状态备注）。</div><div><b>核验口径</b>所有"当日有动作"的条目均通过 `repos/{o}/{r}/commits` 与 `pushed_at` 双向核对 main 分支提交，纯星标动能项单独标注。</div></div><h2>一、今日精选 5 条</h2>
+<h3>1. Vector Institute 开源 Odyssey：可解释的患者时序基础模型，把"每个声明都可证伪"写进了工程</h3>
+<p><strong>地址</strong>：<a href="https://github.com/VectorInstitute/odyssey" target="_blank" rel="noopener">https://github.com/VectorInstitute/odyssey</a> ｜ ★62 ｜ Python ≥3.12 ｜ 附 arXiv 论文，当日仍有提交</p>
+<p><strong>事件内容</strong><br>Vector Institute 开源了患者临床时间线的<strong>可解释基础模型</strong>：数据从 MIMIC-IV / eICU-CRD / GEMINI 经 MEDS 抽取与分词进入主干，输出事件预测、校准的生存曲线、告警与概念读出。架构上默认 <code>hybrid</code> 主干（Mamba-2 块与 chunk 局部注意力交错，按"持久打包的患者车道"截断反传，任意长度病历流式处理、每步常数显存），并保留 transformer 对照臂以证明结论不依赖主干。核心是<strong>概念瓶颈模块</strong>：概念标签来自 LOINC 索引的规则注册表（KDIGO AKI 三条腿、Sepsis-3、SIRS、qSOFA、升压药暴露等），标签随病历展开即时计算、<strong>绝不从事后事件回填</strong>；选中一个概念会对隐状态产生<strong>精确、已知的位移</strong>——同一推力也可作为训练期损失（steering）。</p>
+<p>README 开头即声明"这不是诊断系统、不声称序列模型打得过定制基线、也不是构造意义上的可解释"，并给每个声明配了测试，注册表里记录模型哪里不行。当日提交为依赖安全升级（pillow 13.0.0）。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>医疗时序建模这个方向开源项目不少，但<strong>把"可证伪"当成工程纪律的极少</strong>：概念标签不回填、概念→隐状态的位移可精确计算、每个 claim 配测试、failures 进注册表。这给"模型可解释"提供了可复核的落地样本，而不是 README 口号。</li><li><strong>对医学研究场景直接可用</strong>：Sepsis-3 标签经过独立重实现验证、29/29 数据源规则全覆盖、阈值与 checkpoint 一起版本化——这套"临床规则注册表"的做法，做队列研究或医院内部回顾性分析可以直接抄。</li><li>反面参考也有价值：它明确不做诊断系统，说明研究级医疗开源正在形成"能力声明收敛"的默契，和之前几期"合规写进代码路径"的趋势一脉相承。</li></ul>
+<hr class="art-hr">
+<h3>2. Google 官方发布 Elephant-Goldfish Model：规格驱动开发插件，用"零上下文子代理"给规格书做压力测试</h3>
+<p><strong>地址</strong>：<a href="https://github.com/google/elephant-goldfish-model" target="_blank" rel="noopener">https://github.com/google/elephant-goldfish-model</a> ｜ ★165 ｜ Apache-2.0 ｜ 跨 harness 插件，当日合入 Claude 读钩子</p>
+<p><strong>事件内容</strong><br>Google 开源的 EGM 是一个面向 AI 编程代理的<strong>规格驱动开发（Spec-Driven Development）插件</strong>：深度上下文的 <strong>Elephant 会话</strong>负责起草规格书，然后由一群<strong>零上下文的 Goldfish 子代理</strong>对规格做压力测试——每个 Goldfish 只带单条规格条款、不带开发会话的任何上下文，专门找漏洞，再在你写第一行代码之前把问题修掉。安装面覆盖极广：直接让任意 agent <code>Install &lt;repo&gt;</code>、Antigravity（<code>agy plugin install</code>）、Claude Code（plugin marketplace）、Codex、Claude Cowork / ChatGPT 各有路径。命令面包括 <code>/egm-brainstorm</code>（探索问题边界 + Goldfish 群初测）、draft 等流水线命令。当日提交修了 bootstrap prompt 截断，并合入"Claude 转录读取 + PreToolUse 钩子批准插件文件读取"。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>这是继 android/skills、NVIDIA/skills 之后又一家<strong>平台厂商把"方法论"做成官方插件</strong>，而且赌的路线很清晰：与其让模型一次性记住全部上下文，不如<strong>用无污染的旁观者反复审查规格</strong>——"零上下文"正是它卖点的核心，上下文污染被明确当作被测对象的属性而非 bug。</li><li>安装路径表格值得注意：EGM 把 Antigravity、Claude Code、Codex、"任意 agent"并列为一等公民，官方技能的跨 harness 化在加速，技能层正在事实标准化。</li><li>对团队的直接含义：写规格 → 子代理红队 → 再写码，这个流程可以低成本移植到任何 harness 上试用，尤其适合医疗健康类"改错成本高"的业务需求文档。</li></ul>
+<hr class="art-hr">
+<h3>3. Nous Research Hermes Agent：256k★ 的开源 Agent Harness，把"环境随用随睡"做成了默认能力</h3>
+<p><strong>地址</strong>：<a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">https://github.com/NousResearch/hermes-agent</a> ｜ ★256,253 ｜ MIT ｜ 全平台安装器，Windows/Android(Termux) 原生支持</p>
+<p><strong>事件内容</strong><br>Nous Research 的 hermes-agent 本周冲到 25.6 万星，当日在 main 分支持续修 Windows 桌面端构建（uv 缓存路径问题）。能力清单：<strong>内置 cron 调度器</strong>（自然语言定义日报/备份/审计等无人值守任务）；<strong>子代理并行</strong>（Desktop 里可选每个子代理的 provider、模型与限额，还能用 Python 经 RPC 调工具，把多步流水线折进零上下文成本的一轮）；<strong>六种终端后端</strong>——local、Docker、SSH、Modal、Daytona、Vercel Sandbox，外加 Singularity/Apptainer 插件后端，其中 Modal/Daytona 提供 <strong>serverless 持久化：agent 环境空闲即休眠、按需唤醒</strong>，空闲期成本趋近于零，"$5 VPS 跑得动，GPU 集群也跑得动"；并支持<strong>原生 Windows</strong>（CLI/网关/TUI 无需 WSL）与 Android/Termux 签名 APT 源。还带"研究就绪"模式：批量生成轨迹 + 轨迹压缩，用于训练下一代工具调用模型。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>harness 赛道已经白热化（OpenHands、deer-flow、openhuman 同日活跃），Hermes 的差异化押注很明确：<strong>把环境成本做成调度问题</strong>——休眠唤醒 + 六后端统一抽象，这对"几百个 agent 排队干活"的成本结构是数量级级别的改动。</li><li>它把"轨迹生成/压缩"当产品功能输出，<strong>开源 harness 直接变成训练数据工厂</strong>，模型厂与 harness 厂的边界在被这种项目重画。</li><li>医学/健康管理场景里大量任务本质是"定时 + 长时运行 + 低频交互"（随访提醒、夜间报表、饮食审计），cron 调度 + 休眠环境 + 多后端这套组合几乎是按这个形状设计的。</li></ul>
+<hr class="art-hr">
+<h3>4. php2shell（CVE-2026-109618/109619）生态爆发：CVSS 9.2 的 PHP 预认证 RCE，PoC、扫描器、官方检测器同窗出现</h3>
+<p><strong>地址</strong>：<a href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener">https://github.com/ikow/php2shell-poc</a> ｜ ★1,526 ｜ 另见 <a href="https://github.com/assetnote/php2shell-scanner" target="_blank" rel="noopener">https://github.com/assetnote/php2shell-scanner</a>（★294）、<a href="https://github.com/eness/php2shell-bypass-aslr-exp" target="_blank" rel="noopener">https://github.com/eness/php2shell-bypass-aslr-exp</a>（★958）、<a href="https://github.com/openai/php2shell-checker" target="_blank" rel="noopener">https://github.com/openai/php2shell-checker</a>（★823，昨日已推）</p>
+<p><strong>事件内容</strong><br>PHP <code>session.upload_progress</code> 与 Zend 引擎 OOM bailout 组合出的两条 CVE 持续发酵：<strong>5 条独立预认证 RCE 链</strong>，影响 PHP 5.4.0（2012）至 8.5.11 共 <strong>14 年的代码</strong>，部分链路<strong>无需应用层任何漏洞</strong>，波及约 78% 的网站（WordPress 43%、Joomla、Drupal、Laravel、Magento 及所有默认 PHP 配置）。修复版本为 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12。24 小时内 GitHub 上出现完整的攻防生态：ikow/php2shell-poc（1526★，含 Suricata/Sigma/ModSecurity 检测规则）、eness 的免改官方版 exploit（958★）、assetnote 高保真扫描器（294★）、OpenAI 官方 checker（823★，昨日已推，今日仍在星标增长），另有多个付费 exploit 流通。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>这是本期对"自托管健康/营养应用"最实际的安全警报</strong>：此前推送过的大量个人健康记录、饮食追踪、MCP 网关类项目不少跑在 PHP 栈上，一旦底座 PHP 未升级，agent 读写的健康数据（PHI）直接暴露在预认证 RCE 面前。</li><li>攻防双方 24 小时内同时完成供给（PoC + 检测规则 + 扫描器 + 厂商 checker），开源安全的响应周期已经压缩到"天"级——运维侧的排期逻辑也要跟着变，不能按周算。</li><li>事件还演示了一个新常态：<strong>AI 厂商下场发检测工具</strong>（OpenAI checker）成为漏洞响应的一环，"模型+代码"混合审计在安全事件里的角色正在固化。</li></ul>
+<hr class="art-hr">
+<h3>5. Bernstein：给 AI Agent 写"声明式治理层"，规则一写、执行层自动拦截</h3>
+<p><strong>地址</strong>：<a href="https://github.com/sipyourdrink-ltd/bernstein" target="_blank" rel="noopener">https://github.com/sipyourdrink-ltd/bernstein</a> ｜ ★1,372 ｜ PyPI + GHCR 发行 ｜ 当日仍在持续发依赖安全更新</p>
+<p><strong>事件内容</strong><br>Bernstein 定位为 <strong>AI agent 的开源治理层</strong>：把规则用声明式的方式写下来，由它统一强制执行——agent 想做什么动作，先过这层"写好的规矩"，违规操作被拦下并产生审计痕迹。工程形态成熟：已发 PyPI 包与 GHCR 镜像、CI 完整，当日在跟进依赖安全升级（certifi 2026.10.19 等），一周内有 6600+ 号的 PR 流水，社区活跃度与代码量都超出"个人项目"量级。</p>
+<p><strong>值得关注的原因</strong></p>
+<ul><li>之前两期我们跟踪过"技能供应链治理"（NVIDIA/skills 的 OMS 签名、aiskillstore 的安全审计市场），Bernstein 把同一件事往下推了一层：<strong>不治理"技能从哪来"，而是治理"agent 运行时能做什么"</strong>——这两层合起来才是完整的 agent 治理栈。</li><li>它与 bernstein 式声明规则对医疗场景是刚需：PHI 访问、外发数据、付费 API 调用这些约束，靠 prompt 约束不可靠，靠每个 agent 自查也不可靠，<strong>声明式 + 统一强制执行 + 审计痕迹</strong>恰好是合规审计要的形态。</li><li>当选第五条而非 openfoodfacts（后者今日为维护性提交）的原因：治理层是本周明显的新趋势节点，而 openfoodfacts 作为营养数据底座已在分类表中保留，读者可两处对照。</li></ul>
+<hr class="art-hr">
+<h2>二、分类速览</h2>
+<h3>① AI Coding / 编程智能体与技能生态</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/google/elephant-goldfish-model" target="_blank" rel="noopener">google/elephant-goldfish-model</a></td><td>165★</td><td>Google 官方规格驱动开发插件：Elephant 起草规格，零上下文 Goldfish 子代理群压力测试</td></tr><tr><td><a href="https://github.com/code-yeongyu/oh-my-openagent" target="_blank" rel="noopener">code-yeongyu/oh-my-openagent</a></td><td>70,278★</td><td>OmO 用 "mass ulw" 关键字驱动图工程编排，当日合入压缩摘要化的测试命名修正</td></tr><tr><td><a href="https://github.com/omnara-ai/omnara" target="_blank" rel="noopener">omnara-ai/omnara</a></td><td>3,174★</td><td>自托管托管 agent 平台，当日修复 SIGTERM 时排空在飞 agent 任务的优雅关机</td></tr><tr><td><a href="https://github.com/sipyourdrink-ltd/bernstein" target="_blank" rel="noopener">sipyourdrink-ltd/bernstein</a></td><td>1,372★</td><td>声明式 agent 治理层，规则写好由运行时强制拦截（今日精选 5）</td></tr><tr><td><a href="https://github.com/aiskillstore/marketplace" target="_blank" rel="noopener">aiskillstore/marketplace</a></td><td>443★</td><td>面向 Claude / Codex / Claude Code 的安全审计技能市场，一键安装</td></tr><tr><td><a href="https://github.com/mblode/agent-skills" target="_blank" rel="noopener">mblode/agent-skills</a></td><td>153★</td><td>反 AI slop 技能集：用技能清单守住代码质量下限</td></tr><tr><td><a href="https://github.com/yschimke/compose-ai-tools" target="_blank" rel="noopener">yschimke/compose-ai-tools</a></td><td>121★</td><td>让 agent 正确组装 Jetpack Compose UI 的工具与技能</td></tr></tbody></table>
+<h3>② 医学 / 临床研究 AI 与 Agent 技能库</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/VectorInstitute/odyssey" target="_blank" rel="noopener">VectorInstitute/odyssey</a></td><td>62★</td><td>可解释患者时序基础模型：Mamba-2 混合主干 + 概念瓶颈，KDIGO/Sepsis-3 规则注册表不回填（今日精选 1）</td></tr><tr><td><a href="https://github.com/medplum/medplum" target="_blank" rel="noopener">medplum/medplum</a></td><td>2,758★</td><td>开源医疗应用平台（FHIR + React），当日上线付费权益说明与定价页改版、用药 ResourceBoard</td></tr><tr><td><a href="https://github.com/DIGI-UW/OpenELIS-Global-2" target="_blank" rel="noopener">DIGI-UW/OpenELIS-Global-2</a></td><td>272★</td><td>面向公共卫生实验室的开源 LIS/LIMS，当日持续提交</td></tr><tr><td><a href="https://github.com/jgouviergmail/LIA-Assistant" target="_blank" rel="noopener">jgouviergmail/LIA-Assistant</a></td><td>75★</td><td>LangGraph 编排的多 agent 医疗对话助手，Human-in-the-Loop + 企业级运维</td></tr><tr><td><a href="https://github.com/ravinelango/prior-auth-appeal-eval" target="_blank" rel="noopener">ravinelango/prior-auth-appeal-eval</a></td><td>0★</td><td>对 LLM 起草的预授权申诉信做确定性核查：虚构引用、编造病历一律现形</td></tr></tbody></table>
+<h3>③ 健康管理 / 营养与食品 AI</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/openfoodfacts/openfoodfacts-server" target="_blank" rel="noopener">openfoodfacts/openfoodfacts-server</a></td><td>1,187★</td><td>全球最大开放食品营养数据库，当日合入意面包装分类学与非食品健康卡修复</td></tr><tr><td><a href="https://github.com/brandonp2412/Flexify" target="_blank" rel="noopener">brandonp2412/Flexify</a></td><td>450★</td><td>离线优先的力量/有氧训练追踪器，进度图表 + 自定义主题，无 AI 也能用好</td></tr><tr><td><a href="https://github.com/gman46336-cloud/NourishAI-Forge" target="_blank" rel="noopener">gman46336-cloud/NourishAI-Forge</a></td><td>53★</td><td>AI 健身教练 + 餐食规划一体化的开源应用模板</td></tr><tr><td><a href="https://github.com/DrBradStanfield/roadmap" target="_blank" rel="noopener">DrBradStanfield/roadmap</a></td><td>10★</td><td>已知长寿科普医生 Brad Stanfield 的本地优先个人健康档案 + 预防性健康计划</td></tr><tr><td><a href="https://github.com/Helioswei/HowToLiveBetter-Kit" target="_blank" rel="noopener">Helioswei/HowToLiveBetter-Kit</a></td><td>1★</td><td>把《高性价比人生指南》近 700 条循证建议做成 MCP，AI 回答必注明出处到节</td></tr></tbody></table>
+<h3>④ 模型底座与 Agent 基础设施</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">NousResearch/hermes-agent</a></td><td>256,253★</td><td>六后端 + 休眠唤醒 + 子代理并行的开源 harness，25.6 万星（今日精选 3）</td></tr><tr><td><a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noopener">bytedance/deer-flow</a></td><td>84,292★</td><td>字节开源长时程 SuperAgent harness，当日修网关就绪超时可配与沙箱文件保留</td></tr><tr><td><a href="https://github.com/unslothai/unsloth" target="_blank" rel="noopener">unslothai/unsloth</a></td><td>78,434★</td><td>本地训练/推理 UI，支持 GGUF、MLX、Qwen3.8、DeepSeek-V4.1，Studio 多媒体模型管线当日三连修</td></tr><tr><td><a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener">browser-use/browser-use</a></td><td>118,891★</td><td>浏览器 agent 标准库 + 隐身云浏览器，当日持续活跃</td></tr><tr><td><a href="https://github.com/tinyhumansai/openhuman" target="_blank" rel="noopener">tinyhumansai/openhuman</a></td><td>42,238★</td><td>号称"最快最省"的开源 harness：$10 VPS 跑 500+ agent</td></tr><tr><td><a href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener">ikow/php2shell-poc</a></td><td>1,526★</td><td>php2shell CVE PoC + Suricata/Sigma 检测规则全家桶（今日精选 4）</td></tr></tbody></table>
+<hr class="art-hr">
+<h2>三、今日趋势观察</h2>
+<ol><li><strong>Harness 白热化后的差异化押注</strong>：hermes-agent（环境休眠 + 六后端）、openhuman（$10 VPS 跑 500 agent）、deer-flow（沙箱生命周期）、omnara（托管关机语义）同日活跃，说明 harness 竞争已从"能跑"转向<strong>成本结构与生命周期管理</strong>——谁把 agent 的空闲成本和崩溃恢复做到数量级领先，谁就留在牌桌上。</li><li><strong>平台厂商继续把"方法论"产品化</strong>：Google EGM 用"零上下文子代理审查规格"把 Spec-Driven Development 做成官方插件，与 android/skills、NVIDIA/skills 的路径一致——技能层正在从社区自发走向<strong>官方供给 + 跨 harness 标准安装</strong>，选型时官方插件的权重应该上调。</li><li><strong>研究级医疗开源出现"反叙事纪律"</strong>：Odyssey 开篇声明"这不是诊断系统"，每个 claim 配测试、失败进注册表；连同昨日 notepilot 的自认 tripwire，<strong>主动划清能力边界正在成为医疗 AI 加分项</strong>，评审者（包括我们）应把它当作成熟度信号而非示弱。</li><li><strong>Agent 治理栈成形</strong>：供应链层（技能签名、审计市场）与运行时层（Bernstein 声明式拦截）在同两周内成熟，"先可信再智能"（10-21 期观察）有了具体的产品形态；医疗健康业务接下来该做的不是问"要不要治理"，而是选两层里先落哪一层。</li><li><strong>php2shell 提醒：自托管健康应用的底座债</strong>：影响 78% 网站的预认证 RCE，24 小时内攻防生态齐备。此前推送的自托管健康/营养/MCP 项目应尽快核对 PHP 修复版本（8.2.35+/8.3.36+/8.4.27+/8.5.12+），健康类信息安全小专栏（10-20 期提议）从本期开始正式跟踪此类事件。</li></ol>
+<hr class="art-hr">
+<h2>四、GitHub 地址速查</h2>
+<p><strong>AI Coding</strong></p>
+<ul><li><a href="https://github.com/google/elephant-goldfish-model" target="_blank" rel="noopener">https://github.com/google/elephant-goldfish-model</a></li><li><a href="https://github.com/code-yeongyu/oh-my-openagent" target="_blank" rel="noopener">https://github.com/code-yeongyu/oh-my-openagent</a></li><li><a href="https://github.com/omnara-ai/omnara" target="_blank" rel="noopener">https://github.com/omnara-ai/omnara</a></li><li><a href="https://github.com/sipyourdrink-ltd/bernstein" target="_blank" rel="noopener">https://github.com/sipyourdrink-ltd/bernstein</a></li><li><a href="https://github.com/aiskillstore/marketplace" target="_blank" rel="noopener">https://github.com/aiskillstore/marketplace</a></li><li><a href="https://github.com/mblode/agent-skills" target="_blank" rel="noopener">https://github.com/mblode/agent-skills</a></li><li><a href="https://github.com/yschimke/compose-ai-tools" target="_blank" rel="noopener">https://github.com/yschimke/compose-ai-tools</a></li></ul>
+<p><strong>医学 / 临床研究 AI</strong></p>
+<ul><li><a href="https://github.com/VectorInstitute/odyssey" target="_blank" rel="noopener">https://github.com/VectorInstitute/odyssey</a></li><li><a href="https://github.com/medplum/medplum" target="_blank" rel="noopener">https://github.com/medplum/medplum</a></li><li><a href="https://github.com/DIGI-UW/OpenELIS-Global-2" target="_blank" rel="noopener">https://github.com/DIGI-UW/OpenELIS-Global-2</a></li><li><a href="https://github.com/jgouviergmail/LIA-Assistant" target="_blank" rel="noopener">https://github.com/jgouviergmail/LIA-Assistant</a></li><li><a href="https://github.com/ravinelango/prior-auth-appeal-eval" target="_blank" rel="noopener">https://github.com/ravinelango/prior-auth-appeal-eval</a></li></ul>
+<p><strong>健康管理 / 营养与食品 AI</strong></p>
+<ul><li><a href="https://github.com/openfoodfacts/openfoodfacts-server" target="_blank" rel="noopener">https://github.com/openfoodfacts/openfoodfacts-server</a></li><li><a href="https://github.com/brandonp2412/Flexify" target="_blank" rel="noopener">https://github.com/brandonp2412/Flexify</a></li><li><a href="https://github.com/gman46336-cloud/NourishAI-Forge" target="_blank" rel="noopener">https://github.com/gman46336-cloud/NourishAI-Forge</a></li><li><a href="https://github.com/DrBradStanfield/roadmap" target="_blank" rel="noopener">https://github.com/DrBradStanfield/roadmap</a></li><li><a href="https://github.com/Helioswei/HowToLiveBetter-Kit" target="_blank" rel="noopener">https://github.com/Helioswei/HowToLiveBetter-Kit</a></li></ul>
+<p><strong>模型底座与 Agent 基础设施</strong></p>
+<ul><li><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">https://github.com/NousResearch/hermes-agent</a></li><li><a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noopener">https://github.com/bytedance/deer-flow</a></li><li><a href="https://github.com/unslothai/unsloth" target="_blank" rel="noopener">https://github.com/unslothai/unsloth</a></li><li><a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener">https://github.com/browser-use/browser-use</a></li><li><a href="https://github.com/tinyhumansai/openhuman" target="_blank" rel="noopener">https://github.com/tinyhumansai/openhuman</a></li><li><a href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener">https://github.com/ikow/php2shell-poc</a></li><li><a href="https://github.com/assetnote/php2shell-scanner" target="_blank" rel="noopener">https://github.com/assetnote/php2shell-scanner</a></li></ul></article>
+    <div class="pager"><a href="/ai/2026-10-22/"><span class="dir">← 上一期</span>2026-10-22</a><a class="right" href="/ai/2026-10-24/"><span class="dir">下一期 →</span>2026-10-24</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-18 · GitHub AI 日报</title>
+<meta name="description" content="技能库的"人格化"：mattpocock/skills、agency-agents、ponytail 共同说明——Agent 技能正在从"工具说明书"演化为"可安装的工程人格/方法论"，个人 .claude 目录成为新的技术资产形态。 2. 决策模型成为新物种：vllm-sr D">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-18/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-18/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-18</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 09:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-18（周日 · 第 3 期）</h1>
+      <div class="art-meta"><span class="tag">精选 4 条</span><span>2026-10-18 · 周日</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><blockquote><p>统计窗口：2026-10-16 ~ 10-18（周末上游供给偏薄，沿用近 3 日窗口）。<br>已与 10-16、10-17 两期推送黑名单去重；仍在榜首的旧项目（rea、ECC、orca、OpenShell、moli、iFixAi 等）本期不再展开。</p></blockquote>
+<hr class="art-hr">
+<h2>① AI Coding / 编程智能体与技能生态</h2>
+<ol><li><strong>mattpocock/skills</strong> — TypeScript 教育者 Matt Pocock 把自己日常 <code>.claude</code> 目录的 Skills 开源，纯 Shell、无框架，约 15.6 万 Star、每日仍 +1000。覆盖 TDD、bug 诊断、代码审查、架构拆分、交接等"工程判断力"技能包。</li></ol>
+<p><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">https://github.com/mattpocock/skills</a></p>
+<ol><li><strong>deepseek-ai/deepseek-harness</strong> — DeepSeek 官方开源 Agent Harness，口号"Everything is a Plugin"（Cordis/DSH 插件架构），24 万+ Star、当日 +1.1K。大模型厂首次亲自下场做插件化 Agent 运行时。</li></ol>
+<p><a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">https://github.com/deepseek-ai/deepseek-harness</a></p>
+<ol><li><strong>DietrichGebert/ponytail</strong> — "让你的 AI Agent 像房间里最懒的资深工程师一样思考"：好代码是不写的代码。一个反直觉的极简主义 Agent 技能集，15 万 Star。</li></ol>
+<p><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">https://github.com/DietrichGebert/ponytail</a></p>
+<ol><li><strong>msitarzewski/agency-agents</strong> — "一家完整的 AI 公司装进终端"：从前端、测试到 Reddit 社区运营，每个 Agent 都是带人格、流程和交付物的专家角色，16 万 Star。</li></ol>
+<p><a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener">https://github.com/msitarzewski/agency-agents</a></p>
+<ol><li><strong>latent-spaces/brag</strong> — 一条命令把刚写完的项目变成可分享的发布短视频，基于 Claude Skills + hyperframes，1.6 万 Star。技能链从"写代码"延伸到"做传播"。</li></ol>
+<p><a href="https://github.com/latent-spaces/brag" target="_blank" rel="noopener">https://github.com/latent-spaces/brag</a></p>
+<ol><li><strong>heygen-com/hyperframes</strong> — "写 HTML，渲染视频，为 Agent 而生"：把视频输出变成 Agent 的原生能力（内置 ffmpeg 流水线），6.4 万 Star，是多个爆款 Agent 项目的底层依赖。</li></ol>
+<p><a href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener">https://github.com/heygen-com/hyperframes</a></p>
+<ol><li>备注：Warp 终端改造为 Agent 开发环境（单日 +1.28 万 Star）、GitNexus（浏览器端代码知识图谱）持续在榜，属旧项目二次发酵，不重复展开。</li></ol>
+<h2>② 医学 / 临床研究 AI 与 Agent 技能库</h2>
+<ol><li><strong>actava-ai/chi-bench（Χ-Bench）</strong> — 新基准：AI Agent 能否端到端自动化"长周期、强政策约束"的医疗工作流（以 prior authorization 为主战场），10-16 更新。补上了上期 ReviewPilot 之后"医疗流程自动化到底行不行"的量化标尺。</li></ol>
+<p><a href="https://github.com/actava-ai/chi-bench" target="_blank" rel="noopener">https://github.com/actava-ai/chi-bench</a></p>
+<ol><li><strong>REAL-Lab-NU/MedicalHarness</strong> — 论文 MedicalHarness（arXiv:2610.05778）代码与数据：控制变量比较 5 个开源模型 × 5 种 Agent Harness 在 107 项医疗任务上的表现，发现 harness 及其与模型的交互贡献约 1/4 的结果方差。</li></ol>
+<p><a href="https://github.com/REAL-Lab-NU/MedicalHarness" target="_blank" rel="noopener">https://github.com/REAL-Lab-NU/MedicalHarness</a></p>
+<ol><li><strong>thetahealth/mirobody-env（HAEnv）</strong> — 用代码生成带"金标准"的合成纵向病人数据，专门评测健康 Agent 的时间维度能力（10-15 更新）。医疗评测从"单轮问答"走向"长期随访轨迹"。</li></ol>
+<p><a href="https://github.com/thetahealth/mirobody-env" target="_blank" rel="noopener">https://github.com/thetahealth/mirobody-env</a></p>
+<ol><li><strong>ajhcs/healthcare-agents</strong> — 51 个美国医疗行政场景专科 Agent 的提示词 + SKILL.md 便携包（编码、保险、日程、合规等），10-12 更新。医疗 Agent 技能库从"临床科研"下沉到"行政事务"。</li></ol>
+<p><a href="https://github.com/ajhcs/healthcare-agents" target="_blank" rel="noopener">https://github.com/ajhcs/healthcare-agents</a></p>
+<ol><li><strong>HealthRex/PhysicianBench</strong> — 斯坦福 HealthRex 组的真实 EHR 环境中评测 LLM Agent 的基准与评测框架，为"EHR Agent"提供了可复现的任务场。</li></ol>
+<p><a href="https://github.com/HealthRex/PhysicianBench" target="_blank" rel="noopener">https://github.com/HealthRex/PhysicianBench</a></p>
+<ol><li><strong>nickzren/biomed-agent</strong> — 面向 Claude Code / Codex 的生物医学研究工作台：统一注册 OpenTargets、Monarch、MyGene/MyChem/MyDisease 五个 MCP 服务器，带诊断 CLI 与"有源可查"的研究工作流技能。</li></ol>
+<p><a href="https://github.com/nickzren/biomed-agent" target="_blank" rel="noopener">https://github.com/nickzren/biomed-agent</a></p>
+<h2>③ 健康管理 / 营养与食品 AI</h2>
+<ol><li><strong>akutishevsky/nutrition-mcp</strong> — 对话式个人营养追踪 MCP 服务器：拍照/文本记餐、条码查询（Open Food Facts）、水/体重/围度记录、目标管理，并可直接导入 MyFitnessPal、Cronometer、Lose It!、MacroFactor 的 CSV 导出。作者的口号是"用一个 MCP Server 干掉 MyFitnessPal"。</li></ol>
+<p><a href="https://github.com/akutishevsky/nutrition-mcp" target="_blank" rel="noopener">https://github.com/akutishevsky/nutrition-mcp</a></p>
+<ol><li><strong>the-momentum/open-wearables</strong> — 自托管可穿戴健康数据统一平台（2.7k Star，10-15 更新）：把 Apple Watch、Garmin、Polar、Whoop、Suunto 等多品牌数据收进一个"AI-ready API"，由原 Apple Health MCP Server 演化而来。</li></ol>
+<p><a href="https://github.com/the-momentum/open-wearables" target="_blank" rel="noopener">https://github.com/the-momentum/open-wearables</a></p>
+<ol><li><strong>health-export-mcp（MetricBridge）</strong> — 零依赖 Node.js 的 Apple Health MCP：iOS 伴侣 App 自动同步 190 项 HealthKit 指标为 JSON，<code>npx -y health-export-mcp</code> 两分钟接入，对比 Docker+DuckDB+手动导出 XML 的传统方案，把接入成本从 15 分钟压到 2 分钟（npm 包，仓库同名）。</li><li><strong>cphoskins/cronometer-mcp</strong> — 拉取 Cronometer 营养日志（宏量营养素 + 微量营养素）的 MCP 服务器，10-07 上架。专业营养数据库开始接进 Agent 生态。</li></ol>
+<p><a href="https://github.com/cphoskins/cronometer-mcp" target="_blank" rel="noopener">https://github.com/cphoskins/cronometer-mcp</a></p>
+<ol><li><strong>neiltron/apple-health-mcp</strong> — 本地优先（local-first）的 Apple Health MCP 服务器，DuckDB 做查询引擎，AI 直接回答睡眠、运动、心率问题，570+ Star。</li></ol>
+<p><a href="https://github.com/neiltron/apple-health-mcp" target="_blank" rel="noopener">https://github.com/neiltron/apple-health-mcp</a></p>
+<ol><li><strong>vitalvie/vital</strong> — "和你的身体对话"：Alan × Mistral AI 健康 Hackathon 的语音优先健康助手（Apple Watch + 语音），10-09 更新，代表健康交互从"看面板"转向"开口问"。</li></ol>
+<p><a href="https://github.com/vitalvie/vital" target="_blank" rel="noopener">https://github.com/vitalvie/vital</a></p>
+<h2>④ 模型底座与 Agent 基础设施</h2>
+<ol><li><strong>vllm-project/semantic-router（Decision 3.0）</strong> — 六个开放多模态"决策模型"（d3 26B ~ d3-edge 0.6B，Apache-2.0，基于 Qwen3.5/3.8）悄悄登上 Hugging Face：不生成文本，而是对选择题/是否题/评分题直接输出各选项概率分布，五/六个支持图像视频输入。</li></ol>
+<p><a href="https://github.com/vllm-project/semantic-router" target="_blank" rel="noopener">https://github.com/vllm-project/semantic-router</a></p>
+<ol><li><strong>strands-labs/strands-decider</strong> — Amazon Strands Decider 2B：把语言头换成约 100 万参数"指针头"，只做"从候选里选一个 + 置信度打分"，毫秒级返回，Apache-2.0，可跑在笔记本 CPU 上。与上条同属"非生成式决策模型"新物种。</li></ol>
+<p><a href="https://github.com/strands-labs/strands-decider" target="_blank" rel="noopener">https://github.com/strands-labs/strands-decider</a></p>
+<ol><li><strong>Niko1221/Strata</strong> — 在消费级硬件上一键跑 Qwen3.8-Flash-Next 的推理引擎（Windows/Linux 一键安装、本地 OpenAI/Anthropic 兼容 API、可选图像输入），22.7k Star、当日 +2.6K。本地大模型部署正在"傻瓜化"。</li></ol>
+<p><a href="https://github.com/Niko1221/Strata" target="_blank" rel="noopener">https://github.com/Niko1221/Strata</a></p>
+<ol><li><strong>debpalash/VoiceStudio</strong> — 完全本地的 ElevenLabs 替代品：声音克隆、配音、转写、有声书制作，支持 646 种语言，单日 +3.5k Star。语音 AI 的开源平替也进入"全本地"阶段。</li></ol>
+<p><a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">https://github.com/debpalash/VoiceStudio</a></p>
+<ol><li><strong>Index-Translate-35B-A3B-preview（Bilibili Index 团队）</strong> — 35B 总参/3B 激活的稀疏翻译 MoE，覆盖 150 种语言、262K 上下文，Apache-2.0 预览权重已在 Hugging Face 放出（评测数字均为自报，未经第三方复现；GitHub 仓库以 HF 模型卡链接为准）。</li></ol>
+<hr class="art-hr">
+<h2>本期精选（4 条，说明为什么值得关注）</h2>
+<h3>1. deepseek-ai/deepseek-harness：模型厂亲自下场做"插件化 Agent 运行时"</h3>
+<p><a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">https://github.com/deepseek-ai/deepseek-harness</a></p>
+<p>DeepSeek 官方开源的 Agent Harness 提出核心理念 <strong>"Everything is a Plugin"</strong>（Cordis/DSH 插件体系），24 万 Star 的体量说明这不是实验品。<strong>值得关注的原因</strong>：前两期观察到"Skill/MCP 成为分发单位"是社区自发的生态演化，而这次是头部开源模型厂把插件化直接做成官方架构承诺——意味着 Agent 工具链正从"拼装玩具"进入"平台级基础设施"阶段。对你的 AI Coding 工作流而言，插件优先的 harness 意味着医疗/营养类技能（如医学技能库）未来可以更平滑地挂载到不同底座上。</p>
+<h3>2. mattpocock/skills：156k Star 证明"方法论 &gt; 模型"</h3>
+<p><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">https://github.com/mattpocock/skills</a></p>
+<p>一个纯 Shell 写的 <code>.claude</code> 目录技能包冲到 15.6 万 Star、还在以每天 +1000 的速度增长，没有框架、没有公司、没有融资。<strong>值得关注的原因</strong>：它瞄准编码 Agent 真正翻车的四个点——理解偏差、输出啰嗦、代码跑不起来、架构腐烂，分别对应 grill-with-docs、tdd、diagnosing-bugs、improve-codebase-architecture 等命令。瓶颈早已不在模型，而在工程判断力的封装。这套技能可直接 <code>npx skills add mattpocock/skills</code> 安装，是普通人"白嫖资深工程师工作流"成本最低的方式。</p>
+<h3>3. MedicalHarness：医疗 Agent 的分数，四分之一是 Harness 的功劳</h3>
+<p><a href="https://github.com/REAL-Lab-NU/MedicalHarness" target="_blank" rel="noopener">https://github.com/REAL-Lab-NU/MedicalHarness</a></p>
+<p>西北大学团队的受控实验（arXiv:2610.05778）：固定模型只换 Harness，发现 <strong>harness 及其与模型的交互解释了约 25% 的医疗任务结果方差</strong>，且没有任何一个 Harness 在所有模型和任务上通吃。<strong>值得关注的原因</strong>：这给前两期的观察（"医学 AI 焦点从答得对转向说得清"）补上了量化证据——今后看到任何"医疗 Agent 达到 XX 分"的宣传，都要先问一句"用的什么 Harness"。如果你在评估医疗/健康类 Agent 产品，这是最该读的一篇方法论文；同时也暗示医疗 Agent 优化的最大低成本杠杆可能在脚手架而非换模型。</p>
+<h3>4. 营养/健康数据层进入"统一平台 + 对话即 UI"第二阶段</h3>
+<p><a href="https://github.com/akutishevsky/nutrition-mcp" target="_blank" rel="noopener">https://github.com/akutishevsky/nutrition-mcp</a> 、 <a href="https://github.com/the-momentum/open-wearables" target="_blank" rel="noopener">https://github.com/the-momentum/open-wearables</a></p>
+<p>上期观察到"健康数据 MCP 化集群"（十几个单点 MCP 服务器），本期出现两个标志性进化：① <strong>nutrition-mcp</strong> 用一个对话式 MCP 服务器替代整个 MyFitnessPal——记餐（支持拍照/条码）、目标、趋势全靠聊天完成，还能无缝导入四大主流饮食 App 的历史数据，迁移成本几乎归零；② <strong>open-wearables</strong> 从 Apple-Health-only 的脚本进化为自托管多品牌（Garmin/Polar/Whoop/Suunto）统一 API 平台。<strong>值得关注的原因</strong>：营养追踪类应用的用户粘性壁垒正在被"数据可携带性 + 对话式交互"瓦解，个人健康数据的主权（self-host、local-first）成为默认架构选择。这与你的营养/健康管理业务方向直接相关：值得评估把 nutrition-mcp 的导入器设计思路和数据模型作为自建系统的参考。</p>
+<hr class="art-hr">
+<h2>观察与趋势</h2>
+<ol><li><strong>技能库的"人格化"</strong>：mattpocock/skills、agency-agents、ponytail 共同说明——Agent 技能正在从"工具说明书"演化为"可安装的工程人格/方法论"，个人 <code>.claude</code> 目录成为新的技术资产形态。</li><li><strong>决策模型成为新物种</strong>：vllm-sr Decision 3.0 与 Amazon Strands Decider 同期出现，"不生成 token、只输出选择+置信度"的模型层正在独立成型，Agent 的每一步路由可能由一个 2B 小模型完成，成本曲线将被重写。</li><li><strong>医疗评测进入"三维时代"</strong>：模型 × Harness（MedicalHarness）× 时间（HAEnv 纵向合成病人）——单轮问答基准正在过时。</li><li><strong>健康数据层收敛</strong>：十几个单点健康 MCP 正在合并为少数统一平台（open-wearables、mirobody）， nutrition-mcp 的"App 代替"叙事预示下一战场是迁移与数据主权。</li></ol>
+<h2>GitHub 地址速查</h2>
+<table><thead><tr><th>分类</th><th>项目</th><th>地址</th></tr></thead><tbody><tr><td>Coding</td><td>mattpocock/skills</td><td><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">https://github.com/mattpocock/skills</a></td></tr><tr><td>Coding</td><td>deepseek-ai/deepseek-harness</td><td><a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">https://github.com/deepseek-ai/deepseek-harness</a></td></tr><tr><td>Coding</td><td>DietrichGebert/ponytail</td><td><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">https://github.com/DietrichGebert/ponytail</a></td></tr><tr><td>Coding</td><td>msitarzewski/agency-agents</td><td><a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener">https://github.com/msitarzewski/agency-agents</a></td></tr><tr><td>Coding</td><td>latent-spaces/brag</td><td><a href="https://github.com/latent-spaces/brag" target="_blank" rel="noopener">https://github.com/latent-spaces/brag</a></td></tr><tr><td>Coding</td><td>heygen-com/hyperframes</td><td><a href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener">https://github.com/heygen-com/hyperframes</a></td></tr><tr><td>医学</td><td>actava-ai/chi-bench</td><td><a href="https://github.com/actava-ai/chi-bench" target="_blank" rel="noopener">https://github.com/actava-ai/chi-bench</a></td></tr><tr><td>医学</td><td>REAL-Lab-NU/MedicalHarness</td><td><a href="https://github.com/REAL-Lab-NU/MedicalHarness" target="_blank" rel="noopener">https://github.com/REAL-Lab-NU/MedicalHarness</a></td></tr><tr><td>医学</td><td>thetahealth/mirobody-env</td><td><a href="https://github.com/thetahealth/mirobody-env" target="_blank" rel="noopener">https://github.com/thetahealth/mirobody-env</a></td></tr><tr><td>医学</td><td>ajhcs/healthcare-agents</td><td><a href="https://github.com/ajhcs/healthcare-agents" target="_blank" rel="noopener">https://github.com/ajhcs/healthcare-agents</a></td></tr><tr><td>医学</td><td>HealthRex/PhysicianBench</td><td><a href="https://github.com/HealthRex/PhysicianBench" target="_blank" rel="noopener">https://github.com/HealthRex/PhysicianBench</a></td></tr><tr><td>医学</td><td>nickzren/biomed-agent</td><td><a href="https://github.com/nickzren/biomed-agent" target="_blank" rel="noopener">https://github.com/nickzren/biomed-agent</a></td></tr><tr><td>健康</td><td>akutishevsky/nutrition-mcp</td><td><a href="https://github.com/akutishevsky/nutrition-mcp" target="_blank" rel="noopener">https://github.com/akutishevsky/nutrition-mcp</a></td></tr><tr><td>健康</td><td>the-momentum/open-wearables</td><td><a href="https://github.com/the-momentum/open-wearables" target="_blank" rel="noopener">https://github.com/the-momentum/open-wearables</a></td></tr><tr><td>健康</td><td>cphoskins/cronometer-mcp</td><td><a href="https://github.com/cphoskins/cronometer-mcp" target="_blank" rel="noopener">https://github.com/cphoskins/cronometer-mcp</a></td></tr><tr><td>健康</td><td>neiltron/apple-health-mcp</td><td><a href="https://github.com/neiltron/apple-health-mcp" target="_blank" rel="noopener">https://github.com/neiltron/apple-health-mcp</a></td></tr><tr><td>健康</td><td>vitalvie/vital</td><td><a href="https://github.com/vitalvie/vital" target="_blank" rel="noopener">https://github.com/vitalvie/vital</a></td></tr><tr><td>底座</td><td>vllm-project/semantic-router</td><td><a href="https://github.com/vllm-project/semantic-router" target="_blank" rel="noopener">https://github.com/vllm-project/semantic-router</a></td></tr><tr><td>底座</td><td>strands-labs/strands-decider</td><td><a href="https://github.com/strands-labs/strands-decider" target="_blank" rel="noopener">https://github.com/strands-labs/strands-decider</a></td></tr><tr><td>底座</td><td>Niko1221/Strata</td><td><a href="https://github.com/Niko1221/Strata" target="_blank" rel="noopener">https://github.com/Niko1221/Strata</a></td></tr><tr><td>底座</td><td>debpalash/VoiceStudio</td><td><a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">https://github.com/debpalash/VoiceStudio</a></td></tr></tbody></table></article>
+    <div class="pager"><a href="/ai/2026-10-17/"><span class="dir">← 上一期</span>2026-10-17</a><a class="right" href="/ai/2026-10-19/"><span class="dir">下一期 →</span>2026-10-19</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>

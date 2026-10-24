@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-20 · GitHub AI 日报</title>
+<meta name="description" content="医疗 Agent 的竞争点从"能力"移到"中间层"。MedMCP 管工具与数据不出院，HealthClaw 管 PHI/审计/认证，M4 管临床语义，Hospilot 管可观测性——四家都在做"模型之外"的事，且都默认自托管。 2. 临床技能开始有版本号。M4 的 0.5.9 专">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-20/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-20/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-20</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 09:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-20</h1>
+      <div class="art-meta"><span class="tag">精选 5 条</span><span>2026-10-20 · 周二</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>统计窗口</b>2026-10-19 09:00 — 2026-10-20 09:00（北京时间，GitHub 时间为 UTC，已换算）</div><div><b>本期口径</b>以"当日有提交 / 发版 / 新建仓库"为主，纯星标动能（当日无代码变动）会明确标注，避免把趋势榜热度当成当天进展。</div><div><b>去重</b>已比对 10-16 ~ 10-19 四期黑名单，重复项目仅在文末以一句话备注。</div></div><h2>一、AI Coding / 编程智能体（8 条）</h2>
+<table><thead><tr><th>项目</th><th>今日动态</th><th>价值</th></tr></thead><tbody><tr><td><strong><a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">akitaonrails/ai-memory</a></strong></td><td>当日 +666★/天，10-20 07:18 仍在合并 PR（#1469/#1470，OpenCode Haiku 5.5 路由修复）</td><td>跨 20+ harness 的长期记忆，handoff 是"带 owner、只能被领取一次"的强类型协议</td></tr><tr><td><strong><a href="https://github.com/AntoGA/agents-contract" target="_blank" rel="noopener">AntoGA/agents-contract</a></strong></td><td>10-19 新建，当日首发（40★），含 linter + SessionStart hook</td><td>把 AGENTS.md 从"建议"做成"可校验契约"，Claude Code / Codex / Cursor / Copilot 通吃</td></tr><tr><td><strong><a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">ranxianglei/billion-context</a></strong></td><td>10-19 17:40 发 v0.1.202，+141★/天</td><td>上下文压缩插件，目标是把 100K 窗口撑成"月级单会话"</td></tr><tr><td><strong><a href="https://github.com/cursor/plugins" target="_blank" rel="noopener">cursor/plugins</a></strong></td><td>10-19 05:06 合入 <code>pstack</code> 形式化验证技能；10-20 08:38 仍在更新 X（Twitter）直播工具技能</td><td>Cursor 官方插件仓库 13,057★，厂商侧已把"技能"当产品线维护</td></tr><tr><td><strong><a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener">headroomlabs-ai/headroom</a></strong></td><td>当日 +310★/天，Trendshift 日榜第一；最后一次提交在 10-17（<strong>星标动能，非当日代码</strong>）</td><td>上下文压缩层，宣称 55,957 token 的 agent prompt 压到 24,340 且保留关键行</td></tr><tr><td><strong><a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener">Graphify-Labs/graphify</a></strong></td><td>当日 +751★/天；最新提交 10-16（<strong>动能项</strong>）</td><td>把代码库+文档+SQL schema+PDF 变成可查询知识图谱，作为 /graphify 技能接入主流 CLI</td></tr><tr><td><strong><a href="https://github.com/vercel-labs/fx0" target="_blank" rel="noopener">vercel-labs/fx0</a></strong></td><td>10-19 新建（120★），当日 22:14 仍在推送</td><td>"描述一个页面，agent 直接写成单个 HTML 文件"的轻量设计 agent，产物形态极简</td></tr><tr><td><strong><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener">usestrix/strix</a></strong></td><td>当日 +509★/天</td><td>开源 AI 渗透测试 agent，把"找漏洞+修漏洞"闭环塞进开发流程</td></tr></tbody></table>
+<blockquote><p>一句话备注：<code>anthropics/claude-plugins-official</code>、<code>mattpocock/skills</code>、<code>HKUDS/CLI-Anything</code> 仍在榜，已于前几期展开，本期不重复。<br>另：<code>anomalyco/opencode</code>（+1,311★/天，当日多次提交）属编程 agent，归到"基础设施"类统计，避免重复计数。</p></blockquote>
+<hr class="art-hr">
+<h2>二、医学 / 临床研究 AI（7 条）</h2>
+<table><thead><tr><th>项目</th><th>今日动态</th><th>价值</th></tr></thead><tbody><tr><td><strong><a href="https://github.com/medmcp/medmcp" target="_blank" rel="noopener">medmcp/medmcp</a></strong></td><td>10-19 更新（42★），on-prem Docker 一键起，需 ≥24GB VRAM</td><td>医学影像工作流的 agent 化生态：本地模型做规划、经过验证的工具做计算，影像数据不出院</td></tr><tr><td><strong><a href="https://github.com/hannesill/m4" target="_blank" rel="noopener">hannesill/m4</a></strong></td><td>10-19 12:00 发 <strong>v0.5.9</strong>（新增 vitrine-api 技能的图像示例，锁定 Vitrine 0.1.5）</td><td>把 MIMIC-IV / eICU 初始化为本地库，用 MCP + 临床语义技能把"找脓毒症患者"翻成正确 SQL</td></tr><tr><td><strong><a href="https://github.com/aks129/HealthClawGuardrails" target="_blank" rel="noopener">aks129/HealthClawGuardrails</a></strong></td><td>10-20 05:00–07:14 连续提交，修 10-18 患者走查暴露的六个信任断点（#998/#864/#992）</td><td>FHIR 与 MCP 之间缺失的那层护栏：PHI 脱敏、不可篡改审计、step-up 认证、租户隔离</td></tr><tr><td><strong><a href="https://github.com/jakesleighton/clinical-extraction-engine" target="_blank" rel="noopener">jakesleighton/clinical-extraction-engine</a></strong></td><td>10-20 02:05–07:52 从零搭完 Phase 0/1：任务包 v2、离线评测、think-off 后端、TCGA-PRAD 分期</td><td>临床病历结构化抽取带"证据引文 + 跨字段校验 + 逐字段 F1"，可审计性写进架构</td></tr><tr><td><strong><a href="https://github.com/Carer-Healthcare-AI/Hospilot" target="_blank" rel="noopener">Carer-Healthcare-AI/Hospilot</a></strong></td><td>10-19 12:26 合并 #37（Langfuse 日志 UI 修复），补可观测性文档</td><td>面向医院运营的 agentic 操作层，多智能体跑在 FHIR 连接的 HIS 数据上</td></tr><tr><td><strong><a href="https://github.com/petecod/openstethoscope" target="_blank" rel="noopener">petecod/openstethoscope</a></strong></td><td>10-20 00:43 更新录音装配说明、移除演示</td><td>开源 AI 听诊器，用 Google HeAR 从肺音判 COPD，跨 4 国 AUROC 0.890</td></tr><tr><td><strong><a href="https://github.com/FerroHEALTH/FerroEHR" target="_blank" rel="noopener">FerroHEALTH/FerroEHR</a></strong></td><td>10-20 更新（88★）</td><td>纯 Rust 的 openEHR 临床数据仓库，ITS-REST 1.1.0 + AQL 1.1 + PostgreSQL 18 原生存储</td></tr></tbody></table>
+<blockquote><p>备注：<code>JuneYaooo/awesome-medical-ai</code>、<code>criticaldata/benchmaxxing</code> 当日仍有更新，但均已推送过，不重复。</p></blockquote>
+<hr class="art-hr">
+<h2>三、健康管理 / 营养（8 条）</h2>
+<table><thead><tr><th>项目</th><th>今日动态</th><th>价值</th></tr></thead><tbody><tr><td><strong><a href="https://github.com/acara-app/plate" target="_blank" rel="noopener">acara-app/plate</a></strong></td><td>10-19 17:41–20:48 首页改版为 "Snap to Track"，并新增原生 iOS Logbook 的 JSON API（#359）</td><td>自托管健康 AI 平台的完整样本：营养、糖尿病支持、餐食计划、Apple Health 同步在同一条 agent 链上</td></tr><tr><td><strong><a href="https://github.com/coroslab/COROS-MCP" target="_blank" rel="noopener">coroslab/COROS-MCP</a></strong></td><td>10-19 19:51–20:09 发布中英双语 README 与工具指南（65★）</td><td><strong>厂商官方</strong> MCP + Agent skills，运动/健康数据接入第一次由硬件品牌自己出面标准化</td></tr><tr><td><strong><a href="https://github.com/lingcang728/ZeppBridge" target="_blank" rel="noopener">lingcang728/ZeppBridge</a></strong></td><td>10-19 22:09 批准 3.0.3，定于 10-20 21:00（北京）定时发布，12 语言下载页（212★）</td><td>Zepp/Amazfit 记录落到本机，趋势自己看、也可交给任意 AI，训练计划还能写回手表</td></tr><tr><td><strong><a href="https://github.com/qjngbac/FoodGuard" target="_blank" rel="noopener">qjngbac/FoodGuard</a></strong></td><td>10-19 16:27 发 <strong>v1.0.8</strong>，APK 同步</td><td>完全离线解析配料表、比对 GB 2760-2024、给 A~D 五级评级；559 添加剂/260 限量规则全在端上</td></tr><tr><td><strong><a href="https://github.com/roian6/apple-health-ai-bridge" target="_blank" rel="noopener">roian6/apple-health-ai-bridge</a></strong></td><td>10-20 仍有推送（21★）</td><td>上架 App Store 的 iPhone 端，把 Apple Health 私密地桥接给任何 AI agent</td></tr><tr><td><strong><a href="https://github.com/healthymind-tech/Taiwan-Health-MCP" target="_blank" rel="noopener">healthymind-tech/Taiwan-Health-MCP</a></strong></td><td>10-20 更新（165★）</td><td>区域健保数据 MCP 化的代表，说明"一个国家/地区一个 MCP"正在成为现实路径</td></tr><tr><td><strong><a href="https://github.com/PulsHealth/pulshealth" target="_blank" rel="noopener">PulsHealth/pulshealth</a></strong></td><td>10-19 更新（17★）</td><td>自建 Apple Health 数据库 + 仪表盘 + AI 连接，走"数据自主"路线</td></tr><tr><td><strong><a href="https://github.com/erikzeng2008-del/mcd-dual-budget-coach" target="_blank" rel="noopener">erikzeng2008-del/mcd-dual-budget-coach</a></strong></td><td>10-19 11:17 README 重写（110★，纯文案迭代）</td><td>麦当劳中国 MCP 参赛作品：钱与热量双预算闸门，88,788 种组合本地穷举</td></tr></tbody></table>
+<blockquote><p>备注：<code>apoorvdarshan/fud-ai</code>（483★，今日加 iPad 支持）、<code>thetahealth/mirobody</code>、<code>the-momentum/open-wearables</code> 均已推送过，不重复。</p></blockquote>
+<hr class="art-hr">
+<h2>四、模型底座与 Agent 基础设施（6 条）</h2>
+<table><thead><tr><th>项目</th><th>今日动态</th><th>价值</th></tr></thead><tbody><tr><td><strong><a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener">anomalyco/opencode</a></strong></td><td>当日 +1,311★/天（榜首），10-20 08:42 刷新 models.dev 快照、恢复 todowrite 工具（实验开关）</td><td>开源编程 agent 的"公共底座"，模型清单与工具开关都走日更节奏</td></tr><tr><td><strong><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener">diegosouzapw/OmniRoute</a></strong></td><td>10-20 09:04 仍在推送（78,556★），+424★/天</td><td>MIT 网关单端点接 375 家供应商 / 1,400+ 模型，Claude Code、Codex 等直接复用订阅</td></tr><tr><td><strong><a href="https://github.com/thesysdev/openui" target="_blank" rel="noopener">thesysdev/openui</a></strong></td><td>10-19 18:14 更新（12,215★），+401★/天</td><td>生成式 UI 的开放标准，agent 输出从"文本"转向"可交互界面"的协议层</td></tr><tr><td><strong><a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener">huggingface/transformers</a></strong></td><td>10-20 01:45 发 <strong>v5.20.2</strong> 补丁版</td><td>v5 线稳定化推进，下游医学/影像微调项目跟进的主要卡点</td></tr><tr><td><strong><a href="https://github.com/openai/codex" target="_blank" rel="noopener">openai/codex</a></strong></td><td>10-20 06:58 发 <strong>0.164.0-alpha.6</strong>（前一日 alpha.5）</td><td>Codex CLI 迭代节奏加快，alpha 连发通常意味着协议层在动</td></tr><tr><td><strong><a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener">Comfy-Org/ComfyUI</a></strong></td><td>当日 +1,011★/天</td><td>本地推理的事实标准前端，医学影像/科研可视化也大量复用其节点图</td></tr></tbody></table>
+<hr class="art-hr">
+<h2>五、精选 5 条（事件 + 为什么值得看）</h2>
+<h3>1. MedMCP：医学影像的 Agent 化，选择了"机房内"这条路</h3>
+<p><strong>地址</strong>：<a href="https://github.com/medmcp/medmcp" target="_blank" rel="noopener">https://github.com/medmcp/medmcp</a><br><strong>发生了什么</strong>：10-19 更新，仓库定位是"开放医学影像工作流的 agent 生态"。医生/放射科/研究者用自然语言描述需求，由一个<strong>本地部署的模型负责规划</strong>，实际计算交给"经过测试的工具"。整套用 <code>docker compose -f oci://ghcr.io/medmcp/compose:latest up -d</code> 起，要求 Linux + NVIDIA GPU（建议 ≥24GB 显存）+ 容器工具链，服务在 <code>localhost:8100</code>。README 明确标注"仍在活跃开发，未获临床使用许可"。<br><strong>为什么值得看</strong>：</p>
+<ul><li>它把影像 AI 的交付单位从"一个模型权重"换成了"一条可执行工作流"——规划用 LLM、计算用确定性工具，这正好绕开"让大模型直接算像素"的可靠性陷阱。</li><li>on-prem 是硬约束而非选项：影像数据、患者元数据、结果都不出内网。这是医院采购时第一个会问的问题，MedMCP 把它写进了默认架构。</li><li>对做医学影像产品的团队，这是一份现成的"合规形状"参考：本地模型 + 工具白名单 + 显存门槛 + 明确免责声明。</li></ul>
+<h3>2. M4 v0.5.9：临床研究数据库的"临床语义层"开始按技能版本化发版</h3>
+<p><strong>地址</strong>：<a href="https://github.com/hannesill/m4" target="_blank" rel="noopener">https://github.com/hannesill/m4</a><br><strong>发生了什么</strong>：10-19 12:00 发布 v0.5.9，变更集中在 <code>vitrine-api</code> 技能的图像示例与 Vitrine 0.1.5 的版本锁定；上一版 v0.5.8（10-18）刚加了 dataset catalog。M4 能把 MIMIC-IV、eICU 或自定义数据集快速初始化为本地库（可选 BigQuery），向上暴露 MCP 与 Python API，并附带"临床知识技能"。<br><strong>为什么值得看</strong>：</p>
+<ul><li>项目自己的判断很准：LLM 会写 SQL，但搞不定<strong>数据集特有的临床语义</strong>。"找脓毒症患者"在 MIMIC 与 eICU 里对应不同的表与筛查逻辑，M4 用技能把这类映射固化下来——这是知识工程，不是提示词工程。</li><li>技能带版本号、带图像资源的发布方式（0.5.9 专门修技能里的图），说明临床技能已经进入"要维护、要回归"的工程阶段。</li><li>对做真实世界研究（RWD）的团队，这是"可复现"的关键一环：同一句话在不同数据集上产出临床等价的查询。</li></ul>
+<h3>3. ai-memory：编程 agent 的记忆正在变成跨厂商的基础设施</h3>
+<p><strong>地址</strong>：<a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">https://github.com/akitaonrails/ai-memory</a><br><strong>发生了什么</strong>：当日 +666★，10-20 07:18 仍在合并 PR（#1469/#1470，把 OpenCode 的 Haiku 5.5 路由到 Messages、补 MCP 工作区查询冲突测试）。项目是 Rust 写的长期记忆层，v3.1.1 于 10-17 发布，支持 20 多个 harness（Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Grok、Devin、Kimi、Kiro 等）共用一份记忆。<br><strong>为什么值得看</strong>：</p>
+<ul><li>它解决的是"换工具就失忆"这个真痛点：在 Claude Code 里干到一半退出，切 Codex 进同一目录，接手的 agent 能拿到"停在哪、什么失败了、还有什么没定"的交接包。</li><li>关键设计是 handoff 被定义成<strong>带 owner、只能被领取一次的强类型协议</strong>——把"多 agent 协作"从口头约定变成状态机，这对多 agent 流水线的正确性影响很大。</li><li>隐私边界写得清楚：远程服务只收 harness 与会话标识，不收本地 transcript 路径与正文。这是记忆类工具最容易被质疑的地方，它先回答了。</li><li>顺带一个信号：<code>headroom</code>、<code>billion-context</code>、<code>ai-memory</code> 同日冲榜，说明"上下文/记忆"已是编程 agent 竞争最拥挤的一层。</li></ul>
+<h3>4. HealthClaw Guardrails：FHIR 与 MCP 之间缺的那层，有人在补了</h3>
+<p><strong>地址</strong>：<a href="https://github.com/aks129/HealthClawGuardrails" target="_blank" rel="noopener">https://github.com/aks129/HealthClawGuardrails</a><br><strong>发生了什么</strong>：10-20 05:00–07:14 连续提交，围绕 10-18 的"患者走查"修了六个信任断点（#998），并补了每日消息限额的重置说明（#864）、第 2/7 天回访邮件（#992）、上传文件的文件选择器（#860）。项目自我定位是"AI agent 与临床数据之间的开源安全层"，提供 29 个 MCP 工具、PHI 脱敏、不可篡改审计、step-up 认证、租户隔离，支持 FHIR 多版本，也能作为 Claude 插件安装。<br><strong>为什么值得看</strong>：</p>
+<ul><li>README 里那句话点到了要害：FHIR 标准化了数据结构，MCP 标准化了连接方式，<strong>中间那层护栏没人标准化</strong>。这层恰恰是医疗 agent 能不能上生产的分水岭。</li><li>它的开发方式值得学：不是先写架构文档，而是做"患者走查"（patient walk），用真实使用路径去找信任断点，再把每个断点变成 issue 编号。医疗软件的可信度就是这样一条条补出来的。</li><li>诚实度也在线：明确声明所有记录是合成的、聊天用第三方模型"四选一"、尚无临床医生签字。医疗 AI 项目敢把这些写在首屏，比多讲十个功能点更有说服力。</li></ul>
+<h3>5. FoodGuard v1.0.8：营养类应用开始"自曝数据集底牌"</h3>
+<p><strong>地址</strong>：<a href="https://github.com/qjngbac/FoodGuard" target="_blank" rel="noopener">https://github.com/qjngbac/FoodGuard</a><br><strong>发生了什么</strong>：10-19 16:27 发布 v1.0.8 并同步 APK。产品完全离线：扫码或拍配料表，端上解析、识别添加剂、比对 GB 2760 使用规定与营养国标，给 A/B/B-/C/D 五级评级并逐条开账（AP/NP/PP 扣分）。知识库规模：559 种添加剂、654 个别名、260 条限量规则、405 种原料、3012 条离线商品、10,970 条品名字典、44 条人群规则。81/81 测试全绿。<br><strong>为什么值得看</strong>：</p>
+<ul><li>这是一条和"拍照估卡路里"完全不同的技术路线：<strong>规则+国标</strong>而不是视觉大模型估值。对配料表这种"文本即事实"的场景，规则引擎的准确率与可解释性都更高，还能离线。</li><li>最值得注意的是 README 主动披露：内置 3012 条商品里"大部分是脚本等差生成的示例编号，校验位合法但不等价于可扫中的真实商品码"，并提醒不要把它当实测覆盖率。在营养 App 普遍拿"百万食物库"当卖点的环境里，这种自我拆台反而是可信度信号。</li><li>对做健康/营养产品的团队，这是一个可直接复用的合规范式：端上计算、国标兜底、扣分可追溯、数据集边界写清楚。</li></ul>
+<hr class="art-hr">
+<h2>六、趋势观察</h2>
+<ol><li><strong>医疗 Agent 的竞争点从"能力"移到"中间层"</strong>。MedMCP 管工具与数据不出院，HealthClaw 管 PHI/审计/认证，M4 管临床语义，Hospilot 管可观测性——四家都在做"模型之外"的事，且都默认自托管。</li><li><strong>临床技能开始有版本号</strong>。M4 的 0.5.9 专为技能里的图像资源发版，意味着技能不再是 README 片段，而是要回归测试的软件资产。这与前几期"技能库规模化""技能人格化"是同一条线，但进入了维护期。</li><li><strong>上下文/记忆层成为编程 agent 最拥挤的赛道</strong>。当日 <code>ai-memory</code>、<code>headroom</code>、<code>billion-context</code> 三个不同路线（跨 harness 记忆 / 压缩 / 长会话）同时冲榜，说明模型能力趋同后，工程价值集中在"给模型喂什么"。</li><li><strong>健康数据的入口在被硬件厂商收编</strong>。COROS 出官方 MCP、Zepp 出自托管桥接，加上此前的 Garmin/Polar 社区方案，"一个品牌一个 MCP"正在变成事实标准，第三方聚合平台的生存空间被压缩。</li><li><strong>营养类出现"离线 + 国标 + 数据诚实"的第三条路</strong>。既不是拍照估值，也不是云端口径，而是端上规则引擎 + 明确的数据边界声明。对中国市场的健康类应用，这可能是最容易过审也最容易建立信任的形态。</li><li><strong>官方技能/插件仓库成为厂商产品线</strong>。Cursor 的 <code>plugins</code>（13,057★）当日仍在合 PR，Anthropic 的 <code>claude-plugins-official</code> 也在榜——插件目录已经和 IDE、CLI 一样需要日更维护。</li></ol>
+<hr class="art-hr">
+<h2>七、GitHub 地址速查</h2>
+<p><strong>AI Coding</strong></p>
+<ul><li><a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">https://github.com/akitaonrails/ai-memory</a></li><li><a href="https://github.com/AntoGA/agents-contract" target="_blank" rel="noopener">https://github.com/AntoGA/agents-contract</a></li><li><a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">https://github.com/ranxianglei/billion-context</a></li><li><a href="https://github.com/cursor/plugins" target="_blank" rel="noopener">https://github.com/cursor/plugins</a></li><li><a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener">https://github.com/headroomlabs-ai/headroom</a></li><li><a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener">https://github.com/Graphify-Labs/graphify</a></li><li><a href="https://github.com/vercel-labs/fx0" target="_blank" rel="noopener">https://github.com/vercel-labs/fx0</a></li><li><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener">https://github.com/usestrix/strix</a></li></ul>
+<p><strong>医学 / 临床</strong></p>
+<ul><li><a href="https://github.com/medmcp/medmcp" target="_blank" rel="noopener">https://github.com/medmcp/medmcp</a></li><li><a href="https://github.com/hannesill/m4" target="_blank" rel="noopener">https://github.com/hannesill/m4</a></li><li><a href="https://github.com/aks129/HealthClawGuardrails" target="_blank" rel="noopener">https://github.com/aks129/HealthClawGuardrails</a></li><li><a href="https://github.com/jakesleighton/clinical-extraction-engine" target="_blank" rel="noopener">https://github.com/jakesleighton/clinical-extraction-engine</a></li><li><a href="https://github.com/Carer-Healthcare-AI/Hospilot" target="_blank" rel="noopener">https://github.com/Carer-Healthcare-AI/Hospilot</a></li><li><a href="https://github.com/petecod/openstethoscope" target="_blank" rel="noopener">https://github.com/petecod/openstethoscope</a></li><li><a href="https://github.com/FerroHEALTH/FerroEHR" target="_blank" rel="noopener">https://github.com/FerroHEALTH/FerroEHR</a></li></ul>
+<p><strong>健康 / 营养</strong></p>
+<ul><li><a href="https://github.com/acara-app/plate" target="_blank" rel="noopener">https://github.com/acara-app/plate</a></li><li><a href="https://github.com/coroslab/COROS-MCP" target="_blank" rel="noopener">https://github.com/coroslab/COROS-MCP</a></li><li><a href="https://github.com/lingcang728/ZeppBridge" target="_blank" rel="noopener">https://github.com/lingcang728/ZeppBridge</a></li><li><a href="https://github.com/qjngbac/FoodGuard" target="_blank" rel="noopener">https://github.com/qjngbac/FoodGuard</a></li><li><a href="https://github.com/roian6/apple-health-ai-bridge" target="_blank" rel="noopener">https://github.com/roian6/apple-health-ai-bridge</a></li><li><a href="https://github.com/healthymind-tech/Taiwan-Health-MCP" target="_blank" rel="noopener">https://github.com/healthymind-tech/Taiwan-Health-MCP</a></li><li><a href="https://github.com/PulsHealth/pulshealth" target="_blank" rel="noopener">https://github.com/PulsHealth/pulshealth</a></li><li><a href="https://github.com/erikzeng2008-del/mcd-dual-budget-coach" target="_blank" rel="noopener">https://github.com/erikzeng2008-del/mcd-dual-budget-coach</a></li></ul>
+<p><strong>底座 / 基础设施</strong></p>
+<ul><li><a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener">https://github.com/anomalyco/opencode</a></li><li><a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener">https://github.com/diegosouzapw/OmniRoute</a></li><li><a href="https://github.com/thesysdev/openui" target="_blank" rel="noopener">https://github.com/thesysdev/openui</a></li><li><a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener">https://github.com/huggingface/transformers</a></li><li><a href="https://github.com/openai/codex" target="_blank" rel="noopener">https://github.com/openai/codex</a></li><li><a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener">https://github.com/Comfy-Org/ComfyUI</a></li></ul></article>
+    <div class="pager"><a href="/ai/2026-10-19/"><span class="dir">← 上一期</span>2026-10-19</a><a class="right" href="/ai/2026-10-21/"><span class="dir">下一期 →</span>2026-10-21</a></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>
