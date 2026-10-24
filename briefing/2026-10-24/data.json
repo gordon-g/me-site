@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-24",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月18日 — 10月24日（最近 7 天）",
+ "range_en": "Oct 18 – Oct 24, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Cell：牛磺酸通过调控巨噬细胞NLRP3炎性小体缓解炎症衰老",
+     "title_en": "Cell: Taurine eases inflammaging by regulating the NLRP3 inflammasome in macrophages",
+     "url": "https://www.163.com/dy/article/L9VKJB4F0532BT7X.html",
+     "source_zh": "网易/学术经纬（Cell）",
+     "source_en": "NetEase / BioArt (Cell)",
+     "date": "2026-10-23",
+     "summary_zh": "耶鲁大学Vishwa Deep Dixit团队在Cell发表研究：一年期热量限制显著提升健康中年人内脏脂肪中牛磺酸水平，且与炎症负相关。机制上，牛磺酸经NLRP3危险信号诱导外流是上游事件，通过调控巨噬细胞NLRP3炎性小体活化减轻炎症；老年小鼠补充牛磺酸4个月可降低炎症因子、改善健康，为干预炎症衰老提供新靶点。",
+     "summary_en": "Yale's Vishwa Deep Dixit lab reports in Cell that one year of caloric restriction raised taurine levels in visceral fat of healthy middle-aged adults, inversely correlated with inflammation. Mechanistically, NLRP3 danger-signal-induced taurine efflux is an upstream event; taurine modulates NLRP3 inflammasome activation in macrophages. Four months of taurine supplementation lowered inflammatory cytokines and improved health in aged mice, offering a new target against inflammaging."
+    },
+    {
+     "title_zh": "肠-脑轴重编程新综述：营养生物活性物经菌群机制干预阿尔茨海默病与帕金森病",
+     "title_en": "Reprogramming the gut-brain axis: microbiome-mediated nutritional bioactives in Alzheimer's and Parkinson's disease",
+     "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1865514/full",
+     "source_zh": "Frontiers in Aging Neuroscience",
+     "source_en": "Frontiers in Aging Neuroscience",
+     "date": "2026-10-23",
+     "summary_zh": "新综述系统比较阿尔茨海默病与帕金森病模型中多酚等膳食生物活性物经菌群依赖机制的神经保护作用：有益菌富集伴随短链脂肪酸、色氨酸衍生物等代谢物改变，经AKT/GSK3β、SIRT1/NRF2等通路减少淀粉样蛋白沉积与神经炎症，并叠加表观遗传调控层；纳米递送与合生元策略进一步增强效果，为疾病特异的精准肠-脑干预提供框架。",
+     "summary_en": "A new review compares microbiome-dependent neuroprotection by dietary bioactives such as polyphenols across Alzheimer's and Parkinson's models: enrichment of beneficial taxa accompanies shifts in SCFAs and tryptophan metabolites, acting via AKT/GSK3β, SIRT1/NRF2 and related pathways to reduce amyloid burden and neuroinflammation, with epigenetic regulation as a converging layer; nanoparticles and synbiotics further enhance effects, framing disease-tailored gut-brain interventions."
+    },
+    {
+     "title_zh": "查查眼也能查脑：靶向H3K9me3可逆转阿尔茨海默病小鼠的认知与视力衰退",
+     "title_en": "Eyes as a window to the brain: blocking H3K9me3 reverses cognitive and visual decline in Alzheimer's mice",
+     "url": "https://longevityforesight.com/%e9%98%bf%e5%b0%94%e8%8c%a8%e6%b5%b7%e9%bb%98%e7%97%85%e6%9c%89%e6%95%91%e4%ba%86%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%8f%91%e7%8e%b0%e9%80%9a%e8%bf%87%e7%9c%bc%e7%9d%9b%e5%b0%b1%e8%83%bd%e9%80%86-2/",
+     "source_zh": "Longevity Foresight（Alzheimer's & Dementia）",
+     "source_en": "Longevity Foresight (Alzheimer's & Dementia)",
+     "date": "2026-10-23",
+     "summary_zh": "发表于《Alzheimer's & Dementia》的研究发现，表观遗传标记H3K9me3在阿尔茨海默病患者大脑与视网膜中异常累积且高度同步（r=0.72）。用小分子药物ETP69靶向抑制该标记后，成功逆转阿尔茨海默病模型小鼠的认知与视力衰退并恢复突触健康，提示未来或可通过眼部检查无创监测并干预大脑退行进程。",
+     "summary_en": "Research in Alzheimer's & Dementia shows the epigenetic mark H3K9me3 accumulates abnormally and synchronously in the brains and retinas of Alzheimer's patients (r=0.72). Targeting it with the small molecule ETP69 reversed cognitive and visual decline and restored synaptic health in Alzheimer's model mice, suggesting retinal examination could one day enable non-invasive monitoring and intervention for neurodegeneration."
+    },
+    {
+     "title_zh": "血管早衰有基因剧本：ENHO、EDN1变异使血管老化风险暴增69%",
+     "title_en": "Genes script early vascular aging: ENHO and EDN1 variants raise risk by 69%",
+     "url": "https://longevityforesight.com/%e6%9f%a5%e6%9f%a5%e4%bd%a0%e7%9a%84%e5%9f%ba%e5%9b%a0%ef%bc%9a%e8%a1%80%e7%ae%a1%e6%98%af%e5%90%a6%e6%ad%a3%e5%9c%a8%e5%81%b7%e5%81%b7%e6%8f%90%e5%89%8d%e5%8f%98%e8%80%81%ef%bc%9f/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-23",
+     "summary_zh": "一项针对300名成年人的研究发现，特定基因变异（如ENHO和EDN1）会打破体内血管保护因子与收缩因子之间的平衡，使血管提前老化的风险显著升高约69%。研究提示血管年龄并非只由生活方式决定，基因背景同样关键；未来结合血液标志物监测这类变异，有望在血管硬化发生前精准识别高风险人群并提前干预。",
+     "summary_en": "A study of 300 adults found that variants in genes such as ENHO and EDN1 disrupt the balance between vasoprotective and vasoconstrictive factors, raising the risk of early vascular aging by about 69%. Vascular age is shaped not only by lifestyle but also by genetic background; monitoring such variants via blood markers could help identify high-risk individuals and intervene before arterial stiffening sets in."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "少吃为何能抗衰？NAD+修复下丘脑神经元初级纤毛是关键开关",
+     "title_en": "Why eating less slows aging: NAD+ restores hypothalamic neuronal primary cilia",
+     "url": "https://longevityforesight.com/%e5%b0%91%e5%90%83%e7%82%b9%e4%b8%ba%e4%bb%80%e4%b9%88%e8%83%bd%e6%8a%97%e8%a1%b0%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%8f%91%e7%8e%b0%e5%a4%a7%e8%84%91%e9%87%8c%e7%9a%84%e5%b0%8f%e8%a7%a6/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-23",
+     "summary_zh": "新研究发现，热量限制与NAD+抗衰的共同机制在于修复下丘脑神经元上的初级纤毛：随年龄增长这些“神经触角”变短，而NAD+可经SIRT1蛋白让纤毛重新变长并维持细胞自噬；若破坏纤毛，轻断食的抗衰代谢效果即告失效。这为靶向大脑纤毛治疗代谢疾病、延续热量限制益处指出了新方向。",
+     "summary_en": "New research indicates that caloric restriction and NAD+ share an anti-aging mechanism centered on hypothalamic neuronal primary cilia: these neuronal antennae shorten with age, while NAD+ lengthens them again via SIRT1 and sustains autophagy. Disrupting the cilia abolishes the metabolic benefits of intermittent fasting, pointing to brain cilia as a target for metabolic disease and longevity interventions."
+    },
+    {
+     "title_zh": "告别肌少症：干细胞纳米泡微针贴片修复线粒体让衰老肌肉重回年轻",
+     "title_en": "Microneedle patch with stem-cell nanovesicles rejuvenates aged muscle via mitochondrial repair",
+     "url": "https://longevityforesight.com/%e5%91%8a%e5%88%ab%e8%82%8c%e8%82%89%e8%90%8e%e7%bc%a9%ef%bc%81%e6%96%b0%e5%9e%8b%e5%be%ae%e9%92%88%e8%b4%b4%e7%89%87%e8%ae%a9%e8%a1%b0%e8%80%81%e8%82%8c%e8%82%89%e9%87%8d%e5%9b%9e%e5%b9%b4%e8%bd%bb/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-23",
+     "summary_zh": "科学家开发出一种肌肉靶向的“干细胞纳米泡”微针贴片，通过递送修复线粒体功能的活性成分，让患有肌肉衰减症的小鼠恢复肌肉力量与耐力。这项无细胞治疗方案绕开了活细胞疗法的储存与免疫难题，为老年人摆脱肌少症、重获行动能力提供了全新的转化路径，未来有望与营养和运动干预联合使用。",
+     "summary_en": "Scientists developed a muscle-targeted microneedle patch loaded with stem-cell-derived nanovesicles that restores mitochondrial function, recovering muscle strength and endurance in sarcopenic mice. This cell-free approach avoids storage and immune hurdles of live-cell therapy, offering a new translational path for older adults with sarcopenia that could eventually combine with nutrition and exercise interventions."
+    },
+    {
+     "title_zh": "每天3000步即可起效：9-11年研究显示步行减缓tau累积与认知衰退",
+     "title_en": "Just 3,000 daily steps: 9-11 year study links walking to less tau buildup and cognitive decline",
+     "url": "https://cafmi.org/",
+     "source_zh": "Longevity Pulse（JAMA Network Open）",
+     "source_en": "Longevity Pulse (JAMA Network Open)",
+     "date": "2026-10-20",
+     "summary_zh": "一项随访9-11年的计步器研究显示，在认知风险较高的老年人中，每日行走3000至7500步与大脑tau蛋白累积减少相关，认知衰退幅度接近减半。研究提示中等强度的日常步行即可对阿尔茨海默病病理产生可测量的保护作用，为老年认知健康管理提供了低成本、易推广的运动处方依据。",
+     "summary_en": "A 9-11 year pedometer study found that in older adults at cognitive risk, walking 3,000 to 7,500 steps daily was associated with less tau accumulation in the brain and nearly half the cognitive decline. The findings suggest moderate daily walking measurably protects against Alzheimer's pathology, supporting low-cost, easily scalable exercise prescriptions for cognitive health management."
+    },
+    {
+     "title_zh": "线粒体天然小分子MOTS-c改善衰老卵子能量代谢与成熟度",
+     "title_en": "Mitochondria-derived peptide MOTS-c improves energy metabolism and maturation of aged oocytes",
+     "url": "https://longevityforesight.com/?cat=14",
+     "source_zh": "Longevity Foresight（Reproduction & Fertility）",
+     "source_en": "Longevity Foresight (Reproduction & Fertility)",
+     "date": "2026-10-20",
+     "summary_zh": "发表于《Reproduction & Fertility》的研究发现，线粒体天然衍生肽MOTS-c能显著提升衰老辅助细胞（颗粒细胞）的能量代谢并改善卵子成熟度。女性生育力随年龄衰退的重要原因之一是卵子“后勤部队”能量耗尽，该成果基于动物与细胞实验，为攻克高龄生育难题提供了新的抗衰思路，距临床应用仍需时日。",
+     "summary_en": "A study in Reproduction & Fertility shows the mitochondria-derived peptide MOTS-c significantly boosts energy metabolism in aged granulosa cells and improves oocyte maturation. Exhausted energy supply from the oocyte's support cells is a key driver of age-related fertility decline; based on animal and cell experiments, the finding offers a new rejuvenation strategy for advanced maternal age, though clinical application remains distant."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "第十一届江南食品产业论坛：精准营养与食药创新激活大健康产业新动能",
+     "title_en": "11th Jiangnan Food Industry Forum: precision nutrition and food-medicine innovation energize the health industry",
+     "url": "https://news.jiangnan.edu.cn/info/1081/110792.htm",
+     "source_zh": "江南大学新闻网（中国食品报）",
+     "source_en": "Jiangnan University News (China Food News)",
+     "date": "2026-10-21",
+     "summary_zh": "食药同源与精准营养论坛上专家指出，我国营养健康产业正告别成分概念营销，迈入营养精准化、消费场景化、合规体系化新阶段。围绕肠-肝-脑轴的膳食“加减调控”、肠神经系统作为精准干预靶点、益生菌全生命周期精准匹配成为焦点，形成益生菌、植物健康因子与情绪管理三大赛道，强调以本土菌资源和严谨临床证据支撑精准设计。",
+     "summary_en": "Experts at the food-medicine homology and precision nutrition forum said China's nutrition industry is moving past ingredient hype toward precision, scenario-based, compliance-driven development. Focus areas included diet-based \"add-subtract\" regulation of the gut-liver-brain axis, the enteric nervous system as an intervention target, and life-stage-matched probiotics, spawning three tracks: microbiome modulators, plant-derived bioactives and mood-focused precision nutrition."
+    },
+    {
+     "title_zh": "GLP-1减重时代营养管理新综述：蛋白质与抗阻训练是保住肌肉的关键",
+     "title_en": "Nutrition management in the GLP-1 era: protein and resistance training protect lean mass",
+     "url": "https://cafmi.org/",
+     "source_zh": "Longevity Pulse（营养综述）",
+     "source_en": "Longevity Pulse (nutrition review)",
+     "date": "2026-10-22",
+     "summary_zh": "新营养综述为GLP-1类药物减重人群给出系统方案：减重成分以脂肪为主，但需通过明确的蛋白质摄入目标、抗阻训练与营养监测来保护肌肉、骨骼与整体营养状态。综述强调个体化监测微量营养素与瘦体重变化，为临床和健康管理场景中“边减重边保肌”的精准营养策略提供了可操作的循证框架。",
+     "summary_en": "A new nutrition review offers a systematic protocol for people losing weight on GLP-1 drugs: while most weight lost is fat, defined protein targets, resistance training and nutrient monitoring are needed to protect muscle, bone and overall nutritional status. It emphasizes individualized tracking of micronutrients and lean mass, giving clinicians an actionable evidence-based framework for precision nutrition alongside pharmacotherapy."
+    },
+    {
+     "title_zh": "膳食质量与RAR模式共同预测老年衰弱：营养评估新维度",
+     "title_en": "Diet quality and retinol activity patterns jointly predict frailty in older adults",
+     "url": "https://www.mdpi.com/journal/nutrients",
+     "source_zh": "Nutrients（MDPI）",
+     "source_en": "Nutrients (MDPI)",
+     "date": "2026-10-23",
+     "summary_zh": "发表于Nutrients的研究将整体膳食质量与血浆视黄醇活性（RAR）模式结合分析，发现两者独立地与更低的老年衰弱风险相关，且不存在性别或年龄组的交互差异。研究提示除膳食评分外，将维生素A代谢相关的客观生物标志物纳入衰弱风险评估，可为老年个体化营养干预提供更立体的分层依据。",
+     "summary_en": "A Nutrients study combining overall diet quality with plasma retinol activity (RAR) patterns found each independently associated with lower frailty risk in older adults, with no sex- or age-group interaction. The results suggest adding objective vitamin A metabolism biomarkers to diet scores could provide a more layered basis for risk stratification and individualized nutritional interventions in aging populations."
+    },
+    {
+     "title_zh": "肠源丁酸与大脑衰老：机制前景可观但人类证据仍滞后",
+     "title_en": "Gut-derived butyrate and brain aging: promising mechanisms, lagging human evidence",
+     "url": "https://cafmi.org/",
+     "source_zh": "Longevity Pulse（综述）",
+     "source_en": "Longevity Pulse (review)",
+     "date": "2026-10-20",
+     "summary_zh": "新综述梳理了肠道菌群将膳食纤维发酵为丁酸、进而影响大脑衰老的机制链条：丁酸可经免疫、代谢与表观遗传通路调节小胶质细胞活性和神经炎症。然而现有证据多来自动物与体外实验，人群研究仍缺乏一致的因果性结论，提示丁酸相关补剂与高纤维膳食干预的认知获益尚需严谨临床试验验证。",
+     "summary_en": "A new review maps the mechanistic chain by which gut microbes ferment fiber into butyrate to influence brain aging: butyrate modulates microglial activity and neuroinflammation via immune, metabolic and epigenetic pathways. Evidence remains largely preclinical, and human data lack consistent causal conclusions, meaning cognitive benefits of butyrate supplements or high-fiber diets still require rigorous clinical trials."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "NMN复方42天开放标签研究：多项认知与分子指标出现有利变化",
+     "title_en": "42-day open-label NMN-based formulation study shows favorable cognitive and molecular shifts",
+     "url": "https://www.mdpi.com/journal/nutrients",
+     "source_zh": "Nutrients（MDPI）",
+     "source_en": "Nutrients (MDPI)",
+     "date": "2026-10-23",
+     "summary_zh": "一项纳入40名45-65岁日本成人的42天四臂开放标签研究考察了NMN单方及与β-羟基丁酸、人参皂苷等组合的复方：虽组间心肺与认知主要终点未达统计学显著，扩展复方组多项认知指标出现有利描述性变化，模型估算功能年龄下降2.79年（安慰剂0.63年），独立分子试点中DNAm PhenoAge下降约4.1年。作者强调为探索性结果，需更大规模随机双盲试验确认。",
+     "summary_en": "A 42-day, four-arm open-label study in 40 Japanese adults aged 45-65 tested NMN alone and combined with beta-hydroxybutyrate, ginsenosides and other modulators. Primary cardiopulmonary and cognitive endpoints showed no significant between-group differences, but the expanded formulation showed favorable descriptive cognitive changes, a model-derived functional-age drop of 2.79 years (placebo 0.63), and about 4.1 years in a separate DNAm pilot. Authors stress these are exploratory findings needing larger randomized trials."
+    },
+    {
+     "title_zh": "烟酸联合动物双歧杆菌F1-7经HCAR2-NLRP3通路缓解酒精性肝损伤",
+     "title_en": "Niacin plus B. animalis F1-7 attenuates alcohol-induced liver injury via HCAR2-NLRP3 pathway",
+     "url": "https://www.mdpi.com/journal/nutrients",
+     "source_zh": "Nutrients（MDPI）",
+     "source_en": "Nutrients (MDPI)",
+     "date": "2026-10-23",
+     "summary_zh": "小鼠实验显示，烟酸与动物双歧杆菌乳亚种F1-7联合干预可显著改善酒精性脂肪肝模型的血清脂质、降低转氨酶、减轻肝脏脂肪变与炎症，并恢复肠屏障完整性；机制与上调HCAR2、抑制NLRP3激活相关，且依赖肠道菌群介导——抗生素预处理后保护作用消失，为肠-肝轴导向的功能性补剂配方提供了新证据。",
+     "summary_en": "In a mouse model of alcoholic fatty liver disease, combined niacin and Bifidobacterium animalis subsp. lactis F1-7 improved serum lipids, lowered ALT/AST, eased hepatic steatosis and inflammation, and restored gut barrier integrity. The effect was mediated via HCAR2 upregulation, NLRP3 suppression and the gut microbiota — antibiotic pretreatment abolished the protection — supporting gut-liver axis-targeted supplement design."
+    },
+    {
+     "title_zh": "死活皆可的抗衰菌：乳酸菌HY7715经肠脑轴减轻衰老脑炎症与血脑屏障损伤",
+     "title_en": "Alive or dead, HY7715 probiotic eases brain inflammation and blood-brain barrier aging",
+     "url": "https://longevityforesight.com/%e8%82%a0%e9%81%93%e9%87%8c%e7%9a%84%e6%8a%97%e8%a1%b0%e5%a5%87%e5%85%b5%ef%bc%9a%e7%89%b9%e5%ae%9a%e4%b9%b3%e9%85%b8%e8%8f%8chy7715%e5%a6%82%e4%bd%95%e5%ae%88%e6%8a%a4%e5%a4%a7%e8%84%91%e4%b8%8e/",
+     "source_zh": "Longevity Foresight（J. Microbiol. Biotechnol.）",
+     "source_en": "Longevity Foresight (J. Microbiol. Biotechnol.)",
+     "date": "2026-10-23",
+     "summary_zh": "《Journal of Microbiology and Biotechnology》新研究发现，无论活菌还是热灭活状态的乳酸菌HY7715，都能通过调节肠道菌群显著改善衰老引起的脑部炎症和血脑屏障损伤。这一“死活皆可”的特性意味着产品不必依赖活菌定植，为开发稳定、易储存的抗衰益生菌补剂提供了新方向，也提示效果主要来自菌株代谢与免疫调节。",
+     "summary_en": "New research in the Journal of Microbiology and Biotechnology shows that Lactobacillus strain HY7715, whether live or heat-killed, significantly reduces age-related brain inflammation and blood-brain barrier damage by modulating the gut microbiota. This \"alive or dead\" property means products need not rely on live colonization, pointing to stable, shelf-friendly anti-aging probiotic supplements whose effects likely stem from microbial metabolites and immune modulation."
+    },
+    {
+     "title_zh": "连续三个月每天吃蓝莓：老年人抑郁症状减轻并伴随肠道菌群改变",
+     "title_en": "Daily blueberries for three months: fewer depressive symptoms and microbiome shifts in older adults",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230028.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-18",
+     "summary_zh": "一项小型研究发现，连续三个月每天食用蓝莓的老年人抑郁症状减轻更为明显，研究者同时检测到参与者肠道菌群的变化。虽然样本量有限、机制尚待确证，但研究将多酚类膳食成分、情绪健康与肠道微生物联系起来，为通过日常膳食干预支持老年心理健康的“营养-肠-脑”策略再添一项初步证据。",
+     "summary_en": "A small study found that older adults eating blueberries daily for three months showed more pronounced reductions in depressive symptoms, alongside detectable shifts in gut microbiota. Though limited in sample size and awaiting mechanistic confirmation, the study links polyphenol-rich foods, mood and the gut microbiome, adding preliminary evidence for nutrition-gut-brain strategies to support mental health in aging."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "厦门湖里：优质资源下沉与健康管理前移，把健康服务送到家门口",
+     "title_en": "Xiamen Huli district brings health services to residents' doorsteps via resource decentralization",
+     "url": "https://news.qq.com/rain/a/20261023A0BVI800",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-23",
+     "summary_zh": "厦门市湖里区10月23日通报卫生健康工作成效：超90%居民15分钟内可达最近医疗服务点，首创社区“3+1+2”管理与“1+N”精准双向转诊网络，2026年前9个月双向转诊1.56万人次；电子健康档案建档率83.69%，家庭医生签约覆盖率49.19%，老年人规范健康管理4万人、规范管理率60.56%居全市第一，高血压糖尿病实行“三师共管+红黄绿”分级。",
+     "summary_en": "Xiamen's Huli district reported on Oct 23 that over 90% of residents can reach a medical service point within 15 minutes. The district pioneered community \"3+1+2\" management and a \"1+N\" referral network with 15,600 two-way referrals in the first nine months of 2026; electronic health record coverage reached 83.69%, family doctor contracting 49.19%, and standardized management of 40,000 older adults (60.56%) ranked first citywide, with \"red-yellow-green\" tiered care for hypertension and diabetes."
+    },
+    {
+     "title_zh": "黑龙江启动老年合理用药“有方”行动：AI数智人药师7×24小时上线",
+     "title_en": "Heilongjiang launches elderly rational medication program with AI pharmacist on call 24/7",
+     "url": "https://www.my399.com/wzkw/2026/10-23/9k6W3aY1.html",
+     "source_zh": "哈尔滨新闻网",
+     "source_en": "Harbin News",
+     "date": "2026-10-23",
+     "summary_zh": "黑龙江省卫健委10月23日举行主题发布会，介绍《老年合理用药“有方”行动实施方案（2026—2030年）》：针对老年人多重用药、依从性差等问题构建四位一体体系，省医院已上线AI数智人药师提供全天候用药咨询；全省社区卫生服务中心药品平均配备从170种提高到380种以上，并推行慢病长处方与省市协作网，让老年用药服务更精准可及。",
+     "summary_en": "At an Oct 23 briefing, Heilongjiang's health commission detailed its 2026-2030 elderly rational medication program targeting polypharmacy and poor adherence: the provincial hospital has launched an AI digital pharmacist offering round-the-clock medication advice, community health centers now stock over 380 drugs on average (up from 170), and long-term prescriptions plus a provincial-city collaboration network aim to make elderly medication services more precise and accessible."
+    },
+    {
+     "title_zh": "南通AI慢病管理系统覆盖超60万患者：用药依从性提升28%",
+     "title_en": "Nantong's AI chronic disease system covers 600,000+ patients, boosting medication adherence 28%",
+     "url": "https://www.nantong.gov.cn/ntsrmzf/zaixft/content/ea98ee93-134d-432b-b19b-c5563d954c21.html",
+     "source_zh": "南通市人民政府网",
+     "source_en": "Nantong Municipal Government",
+     "date": "2026-10-22",
+     "summary_zh": "南通市在线访谈披露，全市AI慢病管理系统已覆盖高血压、糖尿病患者超60万人，具备智能随访、用药提醒、风险分级预警功能，患者用药依从性提升28%、慢病规范控制率提升12个百分点。“十五五”期间南通将推动AI辅助诊断等基础场景向基层延伸，力争2028年底实现基层核心AI应用全覆盖，并打造老年智慧康养等特色场景。",
+     "summary_en": "Nantong officials revealed that the city's AI chronic disease management system now covers over 600,000 patients with hypertension and diabetes, offering smart follow-up, medication reminders and risk-stratified alerts; medication adherence rose 28% and standardized disease control improved by 12 percentage points. During the 15th Five-Year period the city will extend AI-assisted diagnosis to grassroots facilities, targeting full coverage of core AI applications by 2028."
+    },
+    {
+     "title_zh": "平度开展国民体质监测暨健康体重管理义诊：一人一策精准指导",
+     "title_en": "Pingdu runs fitness monitoring and weight-management clinics with personalized guidance",
+     "url": "https://news.qq.com/rain/a/20261023A0BP5I00",
+     "source_zh": "腾讯新闻（信网）",
+     "source_en": "Tencent News (Xin Net)",
+     "date": "2026-10-23",
+     "summary_zh": "响应“健康体重管理年”部署，平度市人民医院联合疾控与国民体质监测团队开展系列义诊，走进学校与老干部活动中心，为全年龄段人群提供标准化体质检测并出具体质健康等级证书。活动落实“三个一”机制——一次个性化体重管理方案、一对一宣教、一份健康指导处方，针对超重肥胖及高血压、高血脂、糖尿病隐患精准施策，纠正盲目减脂等误区。",
+     "summary_en": "Responding to the national \"Healthy Weight Management Year\", Pingdu People's Hospital, with CDC and national fitness monitoring teams, ran clinic sessions at schools and a seniors' activity center, offering standardized fitness tests with official fitness grade certificates. The \"three ones\" mechanism — one personalized weight plan, one-on-one education and one health prescription — delivered targeted guidance for overweight, obesity and cardiometabolic risks while correcting misconceptions about crash dieting."
+    }
+   ]
+  }
+ ]
+}
