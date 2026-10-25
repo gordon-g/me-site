@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-25",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月19日 — 10月25日（最近 7 天）",
+ "range_en": "Oct 19 – Oct 25, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "北大团队Cell Reports Medicine：肠道菌群胆汁酸TCDCA损伤血脑屏障，罗伊氏乳杆菌可干预",
+     "title_en": "Peking University Team in Cell Reports Medicine: Gut Microbial Bile Acid TCDCA Damages the Blood-Brain Barrier, a Probiotic Can Intervene",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261023103747383.htm",
+     "source_zh": "生物通",
+     "source_en": "Biocompare (ebiotrade)",
+     "date": "2026-10-23",
+     "summary_zh": "北京大学第六医院袁俊亮与北医三院赵荣生团队发现，帕金森病患者肠道菌群胆盐水解酶功能受损，导致胆汁酸TCDCA蓄积，经血管平滑肌TGR5受体加剧血脑屏障损伤与多巴胺能神经元丢失。补充高BSH活性罗伊氏乳杆菌可降低TCDCA并改善模型小鼠病理，提示菌群干预新策略。",
+     "summary_en": "A team led by Yuan Junliang at Peking University Sixth Hospital and Zhao Rongsheng at Peking University Third Hospital found that impaired microbial bile salt hydrolase activity in Parkinson's disease leads to accumulation of the bile acid TCDCA, which worsens blood-brain barrier damage and dopaminergic neuron loss via the TGR5 receptor. Supplementing a high-BSH Lactobacillus reuteri strain lowered TCDCA and improved pathology in mice, suggesting a microbiome-based intervention strategy."
+    },
+    {
+     "title_zh": "Nature子刊：万古霉素可不依赖菌群直接重塑肠道免疫节律",
+     "title_en": "Nature Subjournal: Vancomycin Reshapes Intestinal Immune Rhythms Directly, Independent of the Microbiome",
+     "url": "https://news.qq.com/rain/a/20261024A0AFA600",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Mr-Gut Daily (Tencent News)",
+     "date": "2026-10-24",
+     "summary_zh": "热心肠日报报道，巴伊兰大学与希伯来大学团队在Nature Microbiology发表研究，借助CompoRes计算工具区分药物效应的菌群依赖与非依赖途径：万古霉素可直接作用于肠神经系统，上调神经肽Nmu导致摄食减少，进而扰乱结肠上皮MHC II类分子抗原递呈的昼夜节律，且该机制在果蝇中保守。",
+     "summary_en": "Mr-Gut Daily reports that researchers at Bar-Ilan and Hebrew Universities published in Nature Microbiology a study using a computational tool called CompoRes to separate microbiome-dependent from microbiome-independent drug effects: vancomycin acts directly on the enteric nervous system, upregulating neuropeptide Nmu to reduce food intake and thereby disrupt circadian rhythms of MHC II antigen presentation in the colon, a mechanism conserved in fruit flies."
+    },
+    {
+     "title_zh": "浙大吕志民团队Cell Metab：菌群代谢物丙酸盐为癌细胞贴上免疫通缉令",
+     "title_en": "Zhejiang University's Lü Zhimin Team in Cell Metabolism: Microbial Propionate Forces Cancer Cells to Display an Immune Wanted Poster",
+     "url": "https://new.qq.com/rain/a/20261024A04YDM00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Mr-Gut Daily (Tencent News)",
+     "date": "2026-10-24",
+     "summary_zh": "热心肠日报报道，浙江大学吕志民团队发现菌群代谢物丙酸盐结合STUB1后，可抑制肿瘤细胞MHC-I类分子泛素化降解，使癌细胞表面抗原呈递增加，激活CD8+ T细胞杀伤。口服丙酸盐或高产丙酸盐的AKK菌与抗PD-1联用在小鼠中协同抑癌，结直肠癌患者基线血浆丙酸盐水平与免疫治疗应答相关。",
+     "summary_en": "Mr-Gut Daily reports that Zhejiang University's Lü Zhimin team found the microbial metabolite propionate binds STUB1 to block ubiquitin-mediated degradation of MHC-I molecules on tumor cells, boosting antigen presentation and CD8+ T-cell killing. Oral propionate or propionate-producing Akkermansia combined with anti-PD-1 synergistically suppressed tumors in mice, and baseline plasma propionate correlated with immunotherapy response in colorectal cancer patients."
+    },
+    {
+     "title_zh": "Nature研究：母亲肠道菌群或可预测婴儿湿疹风险",
+     "title_en": "Nature Study: Maternal Gut Bacteria May Help Predict Infant Eczema Risk",
+     "url": "https://www.nutraingredients.com/Article/2026/10/23/study-maternal-gut-bacteria-may-help-predict-infant-eczema/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-23",
+     "summary_zh": "NutraIngredients报道，雀巢与荷兰格罗宁根大学医学中心合作发表于Nature的研究跟踪714对母婴，分析4526份粪便样本：婴儿早期约65%的肠道菌株来自母亲肠道而非阴道或母乳菌群；第一年内发生湿疹的婴儿，其母亲孕期肠道菌群多样性更低，基于母亲菌群类型的预测模型具有中等区分能力。",
+     "summary_en": "NutraIngredients reports on a Nature study from Nestlé and the University Medical Center Groningen following 714 mother-infant pairs and analyzing 4,526 stool samples: about 65% of infants' early gut strains came from the maternal gut rather than the vaginal or breast milk microbiome, and mothers of babies who developed eczema in the first year had lower gut microbial diversity, with a strain-based prediction model showing moderate discrimination."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Immorta Bio公布AI设计九肽SenoMune-0257：训练免疫系统清除衰老细胞",
+     "title_en": "Immorta Bio Unveils AI-Designed Nine-Amino-Acid Peptide SenoMune-0257 to Train the Immune System to Clear Senescent Cells",
+     "url": "https://www.businesstoday.in/amp/science/story/anti-ageing-breakthrough-ai-designed-9-amino-acid-peptide-could-help-eliminate-zombie-cells-563428-2026-10-24",
+     "source_zh": "Business Today",
+     "source_en": "Business Today",
+     "date": "2026-10-24",
+     "summary_zh": "Business Today报道，美国生物技术公司Immorta Bio宣布其AI辅助设计的九肽SenoMune-0257完成既定临床前研究：该肽激活细胞毒性T细胞，选择性识别并清除衰老细胞而保留健康细胞，并有望形成免疫记忆。公司计划2026年底前启动首次人体评估，为传统senolytics药物之外提供更易生产的免疫疗法路线。",
+     "summary_en": "Business Today reports that US biotech Immorta Bio announced its AI-assisted nine-amino-acid peptide SenoMune-0257 has completed planned preclinical studies: the peptide activates cytotoxic T cells to selectively recognize and eliminate senescent cells while sparing healthy ones, and may generate durable immune memory. The company plans first-in-human evaluation before the end of 2026, offering a more scalable immunotherapy route beyond conventional senolytics."
+    },
+    {
+     "title_zh": "Cell Metabolism：单纯给骨骼施加机械负荷即可延缓全身衰老，中位寿命延长9.4%",
+     "title_en": "Cell Metabolism: Mechanical Loading of Bone Alone Slows Whole-Body Aging, Extending Median Lifespan by 9.4%",
+     "url": "https://news.qq.com/rain/a/20261024A06LNF00",
+     "source_zh": "Cell Press论文速递（腾讯新闻）",
+     "source_en": "Cell Press (Tencent News)",
+     "date": "2026-10-24",
+     "summary_zh": "Cell Press论文速递报道，白晓春/陆地/陆声团队对20月龄小鼠施行4个月动态胫骨轴向加载（DTAL），在不运动的情况下改善认知、运动、糖代谢与骨量，逆转脑、肝、肌肉等组织的年龄相关转录变化，上调PIEZO1与骨源保护因子，雌雄小鼠平均寿命分别延长11.9%和7.7%，提示骨骼力学感知可作为抗衰干预新靶点。",
+     "summary_en": "Cell Press reports that teams led by Bai Xiaochun, Lu Di and Lu Sheng applied four months of dynamic tibial axial loading (DTAL) to 20-month-old mice: without exercise, cognition, motor function, glucose metabolism and bone mass improved, age-related transcriptional changes in brain, liver and muscle were partially reversed, and mean lifespan extended 11.9% in females and 7.7% in males, positioning skeletal mechanosensing as a new anti-aging target."
+    },
+    {
+     "title_zh": "Nature Aging：人类寿命激进延长不可信？两大科学家跨世纪对赌聚焦抗衰干预",
+     "title_en": "Nature Aging: Radical Life Extension Unlikely? A Cross-Generational Wager Puts Anti-Aging Intervention in the Spotlight",
+     "url": "https://new.qq.com/rain/a/20261024A0DKRX00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-24",
+     "summary_zh": "腾讯新闻报道，Olshansky团队在Nature Aging发文认为发达国家预期寿命已进入平台期，若不干预衰老本身，人类难以突破带病生存的边界；而Olstad则押注衰老干预可改写上限。文章梳理热量限制模拟物、NAD+-Sirtuin通路、雷帕霉素与二甲双胍等热门抗衰策略的现状，并提及中国药企加速入局长寿赛道。",
+     "summary_en": "Tencent News reports that Olshansky's team argued in Nature Aging that life expectancy in developed countries has plateaued, and without intervening in aging itself humans cannot break out of prolonged morbidity, while Olstad bets aging interventions can rewrite the ceiling. The feature reviews caloric-restriction mimetics, the NAD+-Sirtuin axis, rapamycin and metformin, and notes Chinese drugmakers accelerating into the longevity field."
+    },
+    {
+     "title_zh": "L-Nutra Health将模拟禁食代谢项目首次引入英国临床",
+     "title_en": "L-Nutra Health Brings Its Fasting-Mimicking Metabolic Programme to UK Clinics for the First Time",
+     "url": "https://longevity.technology/news/l-nutra-health-launches-metabolic-programme-to-uk-clinics/",
+     "source_zh": "Longevity.Technology",
+     "source_en": "Longevity.Technology",
+     "date": "2026-10-23",
+     "summary_zh": "Longevity.Technology报道，L-Nutra Health基于Valter Longo逾25年研究成果，在英国首次面向诊所推出医生主导的代谢健康项目：以植物基模拟禁食饮食（FMD）周期干预为核心，结合个性化营养咨询、实验室复查与医学监督，面向2型糖尿病与肥胖患者，伦敦HealthMatters Group已于10月20日开始招募患者。",
+     "summary_en": "Longevity.Technology reports that L-Nutra Health, built on more than 25 years of research by Dr Valter Longo, has launched a clinician-led metabolic health programme in UK clinics for the first time: centred on periodic cycles of the plant-based fasting-mimicking diet combined with personalized nutrition consultations, lab review and medical oversight for type 2 diabetes and obesity, with London's HealthMatters Group enrolling patients from October 20."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "北京协和医院牵头国家重点研发计划：构建老年患者全程精准营养干预技术体系",
+     "title_en": "Peking Union Medical College Hospital Leads National Key R&D Programme on Whole-Course Precision Nutrition for Older Patients",
+     "url": "https://news.qq.com/rain/a/20261023A0BLEJ00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-23",
+     "summary_zh": "腾讯新闻报道，国家重点研发计划“老年患者全程精准营养干预技术体系研究”项目在北京协和医院启动。项目由临床营养科陈伟牵头，联合10家单位，聚焦老年糖尿病、肌少症、骨质疏松、肥胖及共病人群，围绕营养干预“量、质、时机”主线，搭建多模态数据库与AI决策引擎，拟在全国不少于100家机构示范应用。",
+     "summary_en": "Tencent News reports that the national key R&D programme on whole-course precision nutrition intervention for older patients was launched at Peking Union Medical College Hospital. Led by Chen Wei and uniting 10 institutions, the project targets older adults with diabetes, sarcopenia, osteoporosis, obesity and multimorbidity, builds multimodal databases and AI decision engines, and plans demonstration deployment in at least 100 institutions nationwide."
+    },
+    {
+     "title_zh": "The Innovation Nutrition综述：重症精准营养从分层喂养到微生态与肌肉重塑",
+     "title_en": "The Innovation Nutrition Review: Precision Nutrition in Critical Care, from Tiered Feeding to Microbiome and Muscle Remodeling",
+     "url": "https://news.qq.com/rain/a/20261024A001W500",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-24",
+     "summary_zh": "腾讯新闻刊发The Innovation Nutrition综述：重症营养正从追求固定热量蛋白目标转向依据疾病阶段与代谢状态动态分层，急性早期不宜过度喂养；肠道微生态研究提示色氨酸代谢物可经ILC3调节肠免疫稳态，高剂量蛋白未显示整体获益，琥珀酸-SUCNR1通路为骨骼肌重塑提供新线索。",
+     "summary_en": "Tencent News carries a review in The Innovation Nutrition: critical-care nutrition is shifting from fixed calorie-protein targets to dynamic, disease-stage-based tiered feeding, with caution against overfeeding in early acute phases; tryptophan metabolites may tune gut immunity via ILC3, high-dose protein shows no clear overall benefit, and the succinate-SUCNR1 axis offers new clues for skeletal muscle remodeling."
+    },
+    {
+     "title_zh": "第九届进博会前瞻：食品巨头从泛健康转向全生命周期与精准营养",
+     "title_en": "CIIE Preview: Food Giants Shift from Generic Wellness to Full-Lifecycle and Precision Nutrition",
+     "url": "https://news.sina.com.cn/o/2026-10-23/doc-iniwffes2616765.shtml",
+     "source_zh": "新浪新闻",
+     "source_en": "Sina News",
+     "date": "2026-10-23",
+     "summary_zh": "新浪新闻报道，达能、雀巢、康宝莱等连续九年参加进博会的食品企业，今年不约而同聚焦“全生命周期健康”与精准营养：产品从泛健康概念转向HMO、血糖管理、延缓早期阿尔茨海默病等具体场景，中老年与银发群体成为展台新重点，GLP-1走红亦带动“蛋白+”细分赛道升温。",
+     "summary_en": "Sina News reports that Danone, Nestlé, Herbalife and other nine-time CIIE exhibitors are converging on “full-lifecycle health” and precision nutrition this year: products have shifted from generic wellness claims to specific scenarios such as HMOs, blood-glucose management and early Alzheimer's delay, with older adults and the silver economy becoming new highlights, while GLP-1 drugs boost the “protein+” segment."
+    },
+    {
+     "title_zh": "2026中国国际健康营养博览会在京举办：1200家展商共探营养精准化",
+     "title_en": "2026 China International Health & Nutrition Expo Opens in Beijing, 1,200 Exhibitors Explore Precision Nutrition",
+     "url": "https://news.qq.com/rain/a/20261024A03AA000",
+     "source_zh": "央广网（腾讯新闻）",
+     "source_en": "CNR (Tencent News)",
+     "date": "2026-10-24",
+     "summary_zh": "央广网报道，2026中国国际健康营养博览会在中国国际展览中心顺义馆举办，规模超4万平方米、汇聚1200家全球展商，覆盖保健食品、特医食品、益生菌及天然原料等领域。营养健康产业思想者论坛上，中国农科院范蓓研究员提出以现代科学解码传统食养、建立可验证的精准营养方案。",
+     "summary_en": "CNR reports that the 2026 China International Health & Nutrition Expo opened at the Shunyi venue of the China International Exhibition Center, spanning over 40,000 square meters with 1,200 global exhibitors across supplements, foods for special medical purposes, probiotics and natural ingredients. At the forum, CAAS researcher Fan Bei advocated decoding traditional food therapy with modern science into verifiable precision-nutrition solutions."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "耶鲁大学Cell研究：特定情境下补充左旋肉碱反而放大炎症，红肉与补剂警示",
+     "title_en": "Yale Cell Study: L-Carnitine Supplementation Can Amplify Inflammation in Specific Contexts, a Caution for Red Meat and Supplements",
+     "url": "https://finance.sina.cn/2026-10-24/detail-iniwhxpq8134960.d.html",
+     "source_zh": "上观新闻（新浪财经）",
+     "source_en": "Shanghai Observer (Sina Finance)",
+     "date": "2026-10-24",
+     "summary_zh": "上观新闻报道，耶鲁大学团队10月19日发表于Cell的研究发现，脓毒症模型小鼠血液左旋肉碱水平下降是自我保护机制：外源补充经巨噬细胞OCTN2转运体抑制甲羟戊酸通路、激活Pyrin炎性小体，反而恶化存活。严重肌肉创伤释放的内源性肉碱同样触发炎症，提示补剂使用需分清生理情境。",
+     "summary_en": "Shanghai Observer reports a Yale team's Cell study published October 19: in sepsis models, the drop in blood L-carnitine is a self-protective mechanism, and supplementation worsened survival by entering macrophages via OCTN2, suppressing the mevalonate pathway and activating the Pyrin inflammasome. Endogenous carnitine released in severe muscle trauma triggers inflammation the same way, cautioning that supplement use depends on physiological context."
+    },
+    {
+     "title_zh": "西南大学Nutrients研究：胭脂萝卜天然红色素在高脂模型中延寿并保护肠道屏障",
+     "title_en": "Southwest University Nutrients Study: Natural Pigment from Red Radish Extends Lifespan and Protects Gut Barrier in High-Fat Models",
+     "url": "https://news.qq.com/rain/a/20261025A0546K00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-10-25",
+     "summary_zh": "腾讯新闻报道，西南大学等团队10月24日发表于Nutrients的研究显示，重庆涪陵胭脂萝卜红色素（RRA）富含酰化花青素，在高脂饮食果蝇模型中使中位生存时间延长11%、平均最大寿命增加24%，提升SOD与CAT活性、降低MDA，增强冷热与氧化应激耐受，并减少年龄相关肠道渗漏。",
+     "summary_en": "Tencent News reports a Nutrients study published October 24 by Southwest University and partners: the natural red pigment (RRA) from Chongqing Fuling red radish, rich in acylated anthocyanins, extended median lifespan by 11% and mean maximum lifespan by 24% in high-fat diet fruit flies, boosted SOD and CAT activities, lowered MDA, improved stress tolerance and reduced age-related gut leakage."
+    },
+    {
+     "title_zh": "雀巢推出Solgar Prime系列，押注高速增长的健康长寿补剂市场",
+     "title_en": "Nestlé Launches Solgar Prime, Betting on the Fast-Growing Healthy-Longevity Supplement Market",
+     "url": "https://www.nutraingredients.com/Article/2026/10/22/nestle-launches-solgar-prime-for-fast-growing-healthy-longevity-market/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-22",
+     "summary_zh": "NutraIngredients报道，雀巢旗下经典补剂品牌Solgar推出面向健康长寿市场的Prime系列，瞄准追求健康衰老的成熟消费群体。此举延续了国际巨头加码长寿补剂赛道的趋势，将NAD+前体、细胞代谢等长寿科学概念进一步推向大众零售渠道。",
+     "summary_en": "NutraIngredients reports that Nestlé's supplement brand Solgar has launched the Prime line aimed at the fast-growing healthy-longevity market, targeting mature consumers seeking healthy aging. The move continues the trend of global players expanding into longevity supplements, bringing longevity-science concepts such as NAD+ precursors and cellular metabolism further into mainstream retail."
+    },
+    {
+     "title_zh": "RENEW一年期RCT：富钙乳清渗透物维持绝经后女性骨密度，助力乳业副产物高值化",
+     "title_en": "One-Year RENEW RCT: Calcium-Rich Whey Permeate Maintains Bone Mineral Density in Postmenopausal Women, Upcycling Dairy Side Streams",
+     "url": "https://www.nutraingredients.com/Article/2026/10/22/calcium-rich-whey-protein-side-stream-delivers-post-menopausal-bone-health-benefits/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-22",
+     "summary_zh": "NutraIngredients报道，发表于American Journal of Clinical Nutrition的RENEW随机对照试验纳入316名绝经后女性：每日两次补充800毫克来自富钙乳清渗透物的钙并配维生素D，12个月后骨密度得以维持，而安慰剂组下降约1%，骨转换标志物自第3个月即显示骨丢失放缓；添加菊粉未见额外获益。",
+     "summary_en": "NutraIngredients reports on the RENEW randomized controlled trial in The American Journal of Clinical Nutrition with 316 postmenopausal women: twice-daily 800 mg calcium from calcium-rich whey permeate plus vitamin D maintained bone mineral density over 12 months, while the placebo group lost about 1%, with bone turnover markers showing slowed loss from month three; adding inulin offered no extra benefit."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "经济日报：医疗康复护理扩容提升工程部署，社区医养结合让老年人“医”靠更近",
+     "title_en": "Economic Daily: Medical Rehabilitation and Nursing Capacity Expansion Rolls Out, Community Integrated Care Brings Healthcare Closer for Older Adults",
+     "url": "https://www.jingjiribao.cn/static/detail.jsp?id=692260",
+     "source_zh": "经济日报",
+     "source_en": "Economic Daily",
+     "date": "2026-10-24",
+     "summary_zh": "经济日报刊文指出，国务院常务会议近期部署医疗康复护理扩容提升工程，要求以基层为重点推动康复护理资源向社区、家庭延伸，与《国民健康“十五五”规划》衔接。文章强调通过家庭医生签约、慢病随访、健康筛查等把服务模式从被动照护转向主动健康管理，并需补齐人才、医保与数据共享短板。",
+     "summary_en": "Economic Daily notes that a recent State Council executive meeting deployed a medical rehabilitation and nursing capacity expansion project, pushing rehabilitation and nursing resources toward communities and homes in line with the national 15th Five-Year health plan. It stresses shifting from passive care to proactive health management through family doctor contracts, chronic-disease follow-up and screening, while talent, insurance and data-sharing gaps must be addressed."
+    },
+    {
+     "title_zh": "“不难瘦才享受”健康减重科普展走进杭州：肥胖管理需要长期医学视角",
+     "title_en": "“Weight Loss Without Suffering” Science Exhibition Comes to Hangzhou: Obesity Management Needs a Long-Term Medical Perspective",
+     "url": "https://health.gmw.cn/2026-10/24/content_39063851.htm",
+     "source_zh": "光明网卫生频道",
+     "source_en": "Guangming Online Health",
+     "date": "2026-10-24",
+     "summary_zh": "光明网报道，“不难瘦才享受”健康减重科普展杭州站举行。上海同仁医院邹大进教授指出，肥胖是需要长期管理的慢性疾病，生活方式干预是基础，必要时应在医生评估下选择医学干预；展览通过体感互动将新一代偏向型GLP-1受体激动剂机制转化为通俗科普，推动科学体重管理全程管理。",
+     "summary_en": "Guangming Online reports the Hangzhou leg of the “Weight Loss Without Suffering” science exhibition. Professor Zou Dajin of Shanghai Tongren Hospital stressed that obesity is a chronic disease requiring long-term management, with lifestyle intervention as the foundation and medical options under physician evaluation when needed; interactive exhibits translated the mechanisms of next-generation biased GLP-1 receptor agonists into accessible science education for whole-course weight management."
+    },
+    {
+     "title_zh": "温州鹿城首个卫体融合社区卫生服务中心开诊：慢病一体化门诊与体重管理全链条落地",
+     "title_en": "Wenzhou Lucheng Opens Its First Sports-Health Integrated Community Health Center with Integrated Chronic-Disease Clinics and Weight Management",
+     "url": "https://news.66wz.com/system/2026/10/25/105859782.shtml",
+     "source_zh": "温州新闻网",
+     "source_en": "Wenzhou News Network",
+     "date": "2026-10-25",
+     "summary_zh": "温州新闻网报道，鹿城区首个卫体融合社区卫生服务中心正式亮相：二楼设置慢病一体化门诊，依托慢病诊疗路径管理系统构建“筛、防、管、治、康”全周期体系，配备眼底照相机与智慧健康站检测一体机；健康管理中心由多学科医师、营养师与健康管理师联动，提供体重管理定制方案与随访。",
+     "summary_en": "Wenzhou News Network reports the opening of Lucheng District's first sports-health integrated community health center: an integrated chronic-disease clinic built on a pathway management system covering screening, prevention, management, treatment and rehabilitation, equipped with fundus cameras and smart health stations, plus a health management center where physicians, dietitians and health managers jointly deliver personalized weight management programs and follow-up."
+    },
+    {
+     "title_zh": "河北政协委员建言：慢病预防要提速提质扩围，健康管理关口前移",
+     "title_en": "Hebei CPPCC Members Call for Faster, Higher-Quality and Broader Chronic-Disease Prevention with Earlier Health Management",
+     "url": "https://www.rmzxw.com.cn/c/2026-10-24/3993859.shtml",
+     "source_zh": "人民政协网",
+     "source_en": "People's Political Consultative Web",
+     "date": "2026-10-24",
+     "summary_zh": "人民政协网报道，河北省政协委员围绕慢病预防建言：依托居民电子健康档案将服务对象从病人扩展到全人群与高危人群，推动医疗健康数据互联互通；建设县域医共体标准化慢病健康管理中心实现一站式服务，并建议将心电图机纳入村卫生室基础设备标配，实现心血管风险早筛早干预。",
+     "summary_en": "People's Political Consultative Web reports Hebei CPPCC members' proposals on chronic-disease prevention: extend services from patients to whole and high-risk populations via electronic health records, improve health-data interoperability, build standardized chronic-disease health management centers within county medical communities for one-stop services, and make ECG machines standard equipment in village clinics for earlier cardiovascular screening."
+    }
+   ]
+  }
+ ]
+}
