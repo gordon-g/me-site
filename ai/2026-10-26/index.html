@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-26 · GitHub AI 日报</title>
+<meta name="description" content="今天最清晰的一条主线是「本地优先」从口号变成了架构约束，而且是被逼出来的。 stjude/MyGPT 明确以"跑在一台 1839 美元的 Mac mini 上"为前提；open-healthcare-agentic-platform 为 Apple Silicon 单独做了 Ol">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-26/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-26/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-26</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 10:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-26（周一）</h1>
+      <div class="art-meta"><span class="tag">精选 5 条</span><span>2026-10-26 · 周一</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>统计窗口</b>2026-10-25 11:00 ~ 2026-10-26 11:00（北京时间；本期以 10-25 与 10-26 的默认分支提交为准，个别条目为 10-24 提交已在表内标注）</div><div><b>覆盖方向</b>AI Coding / 编程智能体与技能生态 · 医学 / 临床研究 AI 与 Agent 技能库 · 健康管理 / 营养与食品 AI · 模型底座与 Agent 基础设施</div><div><b>去重说明</b>已与 10-16 至 10-25 十期推送记录逐条比对（累计 280 个历史仓库），本期 28 个条目全部为首次出现。往期出现过的 `openfoodfacts/openfoodfacts-server`（10-23）、`simonoppowa/OpenNutriTracker`（10-25）、`DuarteSantos8/openGym`（10-25）、`apoorvdarshan/fud-ai`（10-19 至 10-21）、`CodeWithCJ/SparkyFitness`（10-17、10-19）、`the-momentum/open-wearables`（10-18 至 10-20）、`microsoft/HealthAgentBench`（10-24）、`TraceApps/nutritrace`（10-19）、`openfoodfacts/smooth-app`（10-25）今日虽有提交，本期一律不重复入榜。`zhayujie/CowAgent` 由 `chatgpt-on-wechat` 改名而来，往期未收录，按新仓库处理。</div><div><b>核验口径</b>所有"当日有动作"条目均以 `repos/{o}/{r}/commits` 默认分支的实际提交记录为准（`pushed_at` 仅供参考，可能来自非默认分支或 tag）。Star 数与许可证取自 GitHub API 实时快照（截至 2026-10-26 11:00 北京时间）；`PostHog/posthog` 与 `Infisical/infisical` 的 GitHub API 许可证字段为 NOASSERTION，实际为"核心 MIT + `ee/` 目录另计"的混合授权，表中已如实标注。</div></div><h2>一、今日精选 5 条</h2>
+<h3>1. cindy：把「装好就能用」的 AI Agent 做成了桌面 + 双端 + 群聊的完整产品，而不是又一个终端框架</h3>
+<p><strong>地址</strong>：<a href="https://github.com/makecindy/cindy" target="_blank" rel="noopener">https://github.com/makecindy/cindy</a> ｜ ★4,977 ｜ Apache-2.0 ｜ TypeScript，开箱即用的开源 AI Agent，桌面 / iOS / Android / 群聊四端打通</p>
+<p><strong>事件内容</strong><br>cindy 今天冲上 GitHub 英文趋势榜第一（单日 +675 星），当日默认分支有 35+ 次提交，是今天所有 AI Coding 类项目里提交密度最高的。它不是又一个 CLI agent 框架，而是一个<strong>面向终端用户的完整 Agent 产品</strong>：桌面端、iOS、Android 与微信群聊共用同一套会话、任务与记忆。</p>
+<ul><li><strong>群聊是它的一等公民</strong>：当日合入的 PR 集中在群侧体验——群列表读取失败后自动重试恢复侧栏、群聊刷新失败后自动补读、群设置重复保存的版本冲突修复、移除"发现伙伴"新标记与提示点。</li><li><strong>跨设备任务是一等公民</strong>：新增"按 SSH 执行端验证远程新建任务目录"、统一设备身份并保持显式任务归属、外部打开任务时保留设备归属、任务查询返回可直接引用的跨设备链接、修复新装电脑接管伙伴卡在"准备见面"。</li><li><strong>失败可恢复是硬要求</strong>：当日多次修复都围绕"自动任务失败后保留手动重试入口"、"根据失败输入确定续跑资格"、"合并已落库调度失败的续跑资格决策"。</li><li><strong>v0.1.115 桌面版</strong>主打群聊里伙伴轮流发言、伙伴近况集中显示待办与成果、跨设备直连与 Windows 锁屏服务、供应商组按额度换机更可靠。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>这条最值得抄的不是功能，而是它对"失败"的处理方式。</strong> 独立开发者的 agent 产品 90% 的差评来自"任务失败了但不知道发生了什么、也没法重来"。cindy 当日几乎一半的提交都在修失败续跑、身份归属、设备归属——它把"失败是常态"写进了架构，而不是当成异常。这条对 4P 精准营养平台和 GLP-1 营养伴侣 V2 直接适用：任何"多步骤生成方案"的流程，都需要一套明确的失败资格判定 + 手动重试入口 + 任务归属规则。</li><li><strong>群聊 + 移动端 + 桌面三端同会话</strong>，正是 4pwellness 微信群客服 Bot 想做的事。cindy 已经把"群聊里的 agent 身份 = 独立人格（伙伴）"这件事跑通了，包括轮流发言、待办集中展示、@claude 官方账号直接参与构建——这是社交化的 agent，不是聊天框里挂个 API。</li><li><strong>它是全栈自持的</strong>：Apache-2.0 + 中文团队 + 自带 iOS/Android 打包流程（cn / global 双区），意味着可以读全部实现。对做"考证钩子 + 营养 AI 内核轻量助手"的一人公司路径，读一个能同时跑通四端的开源产品，比读十个框架更有参考价值。</li></ul>
+<hr class="art-hr">
+<h3>2. open-healthcare-agentic-platform：医疗 agent 开始正面回答"模型说了不算，规则说了算"</h3>
+<p><strong>地址</strong>：<a href="https://github.com/hastimal/open-healthcare-agentic-platform" target="_blank" rel="noopener">https://github.com/hastimal/open-healthcare-agentic-platform</a> ｜ ★1 ｜ Apache-2.0 ｜ Python，厂商中立的医疗 Agentic AI 平台，Gemma 4 + LangGraph + MCP + K8s 全栈自托管</p>
+<p><strong>事件内容</strong><br>这是一个三天前（10-23）才建立初始提交、今天（10-26）已经跑到 M10 里程碑的医疗 agent 平台。当日提交集中在<strong>多架构容器发布流水线</strong>：<code>feat(containers): add multi-arch GHCR build and validation pipeline</code>（closes #20）合并进主分支。</p>
+<ul><li><strong>架构是"LangGraph 编排 + 规则化验证 + 本地模型合成"三段式</strong>：Planner 规划医疗问题 → 并行检索 NPPES（医生/机构目录）、PubMed（生物医学文献）、CMS（医生质量指标）、MedlinePlus（患者教育）→ Deterministic Validator 做去重、格式验证、相关性判断与引用边界检查 → Gemma 4 基于已验证证据生成带引用的答案。</li><li><strong>明确拒绝越界结论</strong>：证据层刻意<strong>不生成综合性的"医生质量评分"</strong>，而是保留来源特定的指标与解释；每个值都带来源与时间戳，并维护来源溯源账本，校验 nih.gov / cms.gov / hhs.gov 等授权域名，为引用生成可验证的摘要指纹（cryptographic digest）。</li><li><strong>10-25 同日合入两项重头戏</strong>：M8 的 OpenTelemetry + Prometheus + Tempo + Grafana 全栈可观测性，以及 M9 的 Kubernetes 原生部署（Kustomize 管理，含 <code>host-ollama-bridge</code> 反向代理以在集群内接宿主机 Ollama 并保留 Apple Silicon 的 Metal 加速）。</li><li><strong>本地模型是一等公民</strong>：模型层用抽象的 <code>BaseModelAdapter</code>，当前支持 Gemma 4 与 Ollama，计划接入集群化 vLLM；Docker Compose 提供 Apple Silicon 推荐配置（Ollama 跑宿主机）与全容器化配置两条路径。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"模型负责规划与生成、规则负责判定与留痕"这个分工，和我在循证内容与补剂方案里的原则完全同构。</strong> 我一直要求"强制循证 + 零 AI 幻觉 + 每条结论可追溯"，这个项目把同一件事做成了工程：<strong>答案合成只能引用已通过确定性校验的证据，引用本身带可验证摘要指纹</strong>。这比"给模型加一句请勿编造的 system prompt"高了一个量级，是可以直接移植到 4P 精准营养平台的干预报告结构里的。</li><li><strong>它同时证明了本地化路径是可行的</strong>：Apple Silicon + Ollama + Metal 加速 + Docker Compose 一条龙，还专门做了集群内反代把宿主机的 Ollama 接进来。这条正好对上我本机 Ollama qwen2.5:7b 的现状——<strong>营养 AI 要处理的是 PHI 级数据，把模型放在自己机器上是合规前提，不是技术偏好。</strong></li><li><strong>星数只有 1，但信息密度高得异常</strong>：M1 到 M8 八个里程碑、三天建仓、今天就发多架构容器。对我的"一人公司 + 每周 8 小时"约束，这恰恰是值得偷的节奏——<strong>它证明了一件事：先把架构骨架（编排 / 验证 / 留痕 / 可观测）搭出来，再灌内容</strong>。医学 AI 的瓶颈从来不是模型，是证据链。</li></ul>
+<hr class="art-hr">
+<h3>3. stjude/MyGPT：把临床级 RAG 做到「跑在一台 1839 美元的 Mac mini 上」，并把论文与评测代码一并开源</h3>
+<p><strong>地址</strong>：<a href="https://github.com/stjude/MyGPT" target="_blank" rel="noopener">https://github.com/stjude/MyGPT</a> ｜ ★2 ｜ GPL-3.0 ｜ TypeScript，隐私优先的开源检索增强生成平台，实时置信度指标与来源溯源</p>
+<p><strong>事件内容</strong><br>St Jude Children's Research Hospital 的 MyGPT 在 10-24 于 <strong>Nature Communications</strong> 正式发表论文（Patel et al.《Democratizing reliable knowledge-seeking with MyGPT: a privacy-first, open-source retrieval-augmented generation platform》），配套的评测数据集与脚本独立开源在 <code>stjude/MyGPT-evaluations</code>。10-25 默认分支仍有三次提交。</p>
+<ul><li><strong>核心主张是"小病历也能用"</strong>：整套系统跑在一台 1839 美元的 Mac mini 上，配套发布了评测代码，外部可复现跑通其测试——动机是让记录必须留在本地的医院与卫生部门也能用上，而不是只能选商业聊天机器人。</li><li><strong>10-24 刚完成 v1.1.0 与桌面版分发</strong>：新增桌面应用安装包并同步更新 README 版本号，同时把论文发表状态同步到 API 与前端的评分结构里；10-20 的 <code>Confidence matrices and Models deduplicate</code> 提交则是把"置信度矩阵"与"模型去重"做进了产品。</li><li><strong>今天的三次提交集中在依赖收敛</strong>：<code>@xyflow/react</code> 12.11.5→12.11.6、<code>react-dom</code> 19.2.8→19.3.0（Snyk 自动升级）、<code>@azure/msal-react</code> 5.7.0→5.7.1。</li><li><strong>技术栈是 React + Vite + 3D/Three.js 流程图 + Azure MSAL 登录 + Docker 多阶段构建</strong>，产出带实时置信度指标与来源溯源的答案。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>这是今天唯一一条"论文 + 代码 + 评测三者同时开源"的条目，对我这种把循证当底线的人价值最高。</strong> 它的评测脚本独立成仓库这件事尤其关键——<strong>它意味着我可以拿别人的测试集去检验自己的营养 AI 回答质量</strong>，而不是自己写一套自说自话的标准。这正好接上 GRPM 营养基因组学系统一直缺的"外部可验证标尺"。</li><li><strong>"跑在一台廉价 Mac mini 上"这个约束条件，比任何架构图都更有指导意义。</strong> 医疗记录的边界让"必须本地部署"成为硬需求——我的营养 AI 面对的是用户的体检数据、化验单、遗传数据，同一条边界同样成立。它证明了<strong>隐私优先不只是卖点，也可以是架构起点</strong>：先假设跑在小机器上，很多设计决策会自动走向正确（体积、依赖数、离线能力）。</li><li><strong>置信度矩阵 + 来源溯源是营养干预报告最该抄的两件东西。</strong> 补剂方案里最危险的不是"错"，而是"错得没有痕迹"——用户不知道哪一条结论来自哪项检查、置信度多少。MyGPT 把这两件事做成了产品功能而不是日志，这正是 4P 补剂平台干预报告应该长成的样子。</li></ul>
+<hr class="art-hr">
+<h3>4. wger：营养追踪器开始把 MCP 当成一等公民，同时补上食材图片与离线数据源</h3>
+<p><strong>地址</strong>：<a href="https://github.com/wger-project/wger" target="_blank" rel="noopener">https://github.com/wger-project/wger</a> ｜ ★7,182 ｜ AGPL-3.0 ｜ Python，自托管的健身、营养与体重追踪器，OpenFoodFacts 生态</p>
+<p><strong>事件内容</strong><br>wger 是今天健康类项目里星数最高的一个（★7,182），10-25 与 10-24 两天都有实质提交，10-25 是一次 Weblate 自动翻译同步（波兰语完成度 84%，562/669）。真正值得看的是 10-24 的四个提交。</p>
+<ul><li><strong>新增 wger MCP server 配置</strong>（<code>Add wger mcp server config</code>）：这个装了十多年的自托管营养追踪器开始向 agent 暴露能力，AI 客户端可以直接读写它的训练、饮食与体重数据。</li><li><strong>食材图片进入计划与饮食日志</strong>（<code>Fetch ingredient images when used in plans or diary</code>）：此前只在使用食材时才去取图，现在补齐了配餐计划路径。</li><li><strong>修掉两个会静默失败的数据源问题</strong>：产品下载遇任意 HTTP 错误即中止（原先可能拿到截断内容）、请求 OpenFoodFacts delta index 时补上 User-Agent——后者是对方限流策略的硬要求，缺了就会导致离线数据同步悄悄停摆。</li><li><strong>依赖推进到 openfoodfacts 5.4.0</strong>，并持续强化鉴权安全：登录态下拒绝账号删除、拒绝激活权限高于操作者的账号、拒绝在 trainer-login 会话中做 OAuth 授权、二维码错误限流。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"一个十多年的传统自托管项目主动接入 MCP"，这件事的分量比新项目做 MCP 重得多。</strong> 它说明 MCP 已经从"新项目的标配"变成了"老项目也要补的接口"。这直接印证了我正在做的 4pwellness MCP 连接器方向：<strong>未来用户手里的营养与健康数据源会主动提供 MCP 端点，而不是等我去爬。</strong> 谁先把 MCP 服务端做出来，谁就是这条链路的节点。</li><li><strong>它的数据源治理细节值得逐条抄</strong>：User-Agent、HTTP 错误中止、离线 delta 同步、食材图片按需抓取——<strong>这四条全是我在 4P 补剂平台接 OpenFoodFacts / USDA 数据源时踩过的坑的通用形式。</strong> 尤其"任何 HTTP 错误必须中止"这一条：营养数据抓取最危险的失败模式不是报错，而是拿到半截数据继续用。</li><li><strong>它是我见过最接近"能直接拿来改造成 4P 精准营养后台"的成熟底座</strong>：自托管、Python、REST + OpenFoodFacts 生态、十年数据模型、权限体系完整。如果时间线允许，<strong>研究它的数据模型比从零设计更省时间</strong>——尤其对一人公司路径，"改造一个成熟自托管系统"通常比"自建一个完整系统"更现实。</li></ul>
+<hr class="art-hr">
+<h3>5. NoKV：Agent 沙箱开始需要真正的状态层——用 RPC 授权、TLS 和租户隔离把「谁在操作」钉死</h3>
+<p><strong>地址</strong>：<a href="https://github.com/NoKV-Lab/NoKV" target="_blank" rel="noopener">https://github.com/NoKV-Lab/NoKV</a> ｜ ★507 ｜ Apache-2.0 ｜ Rust，Agent Sandbox 的状态层</p>
+<p><strong>事件内容</strong><br>NoKV 是一个用 Rust 写的 agent 沙箱状态层，当日（10-26）有实质提交，且连着两天都在做同一件事：<strong>把操作权限钉死在发起者身上</strong>。</p>
+<ul><li><strong>10-26 当日</strong>：合并 <code>feat(cli): contract v2 names a refused credential or role</code>——CLI 契约 v2 要求在拒绝时<strong>指名具体的凭证或角色</strong>，而不是笼统地说"权限不足"。</li><li><strong>10-25</strong>：<code>feat(cli): contract v2 names a refused credential or role</code> 主体落地。</li><li><strong>10-24 三条同主题提交</strong>：<code>feat(meta): continue an operation only as its initiator or an operator</code>（只允许发起者或运维角色继续一个操作）、<code>feat(meta): record the initiating principal in workspace format 15</code>（在工作区格式 15 里记录发起主体）、<code>feat(server): harden RPC authorization at the owner</code>（在属主侧加固 RPC 授权）。</li><li><strong>10-23 是基础能力层</strong>：workspace RPC 请求按租户角色授权、RPC 客户端用 TLS 1.3 认证、控制面保存租户身份记录、所有 etcd 调用受属主租约时序约束、对象提供方首次写入时才准入（延迟对象准入）。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"拒绝时必须指名具体的凭证或角色"这条产品原则，比任何技术实现都值钱。</strong> 我做 GLP-1 营养伴侣 V2 时最怕的就是这种情况：用户点了一下没反应，或者只看到一个"操作失败"。<strong>一个不能明确说清"你缺哪个权限、哪个凭证被拒"的系统，在真实使用中会被直接放弃。</strong> 这条原则值得直接写进我的产品规范。</li><li><strong>"持续操作只能由发起者或运维角色继续"这个模型，正是多智能体场景里最容易出事的地方。</strong> 当 agent A 发起一个任务、agent B 在中间接手、用户中途改了方案——<strong>谁有权继续？</strong> NoKV 用工作区格式版本号把"发起主体"固化进状态，这一手对我在做"每次交互数据持久化以支持自我进化学习"时的状态建模有直接参考价值。</li><li><strong>Rust + 沙箱 + 授权，这套组合在今天所有 agent 基础设施项目里是最"硬"的一条。</strong> 多数项目还在解决"agent 怎么调用工具"，NoKV 已经在解决"两个 agent 同时操作同一片状态时边界在哪"。当 agent 从一个人用变成多个 agent 协作，<strong>状态层的授权模型会先于模型能力成为瓶颈</strong>——这是我那张"考场钩子 + 营养 AI 内核"路线图上迟早要面对的问题。</li></ul>
+<hr class="art-hr">
+<h2>二、分类速览</h2>
+<h3>① AI Coding / 编程智能体与技能生态</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>makecindy/cindy</td><td>4,977</td><td>开箱即用的开源 AI Agent，桌面/iOS/Android/群聊四端同会话，10-25 单日 35+ 提交</td></tr><tr><td>zhayujie/CowAgent</td><td>47,586</td><td>个人 AI 助手与 Agent Harness（原 chatgpt-on-wechat），10-25 修 Claude 流式报错与微信文件名保留</td></tr><tr><td>JetBrains/thinkrail</td><td>1,834</td><td>JetBrains 官方出品的轻量真 IDE，围绕 pi 定制，10-25 完成简体中文语言包</td></tr><tr><td>pbakaus/impeccable</td><td>87,804</td><td>让 AI harness 更懂设计的设计语言，10-25 修引擎发布逻辑，10-24 发布 4.7.1</td></tr><tr><td>Nutlope/hallmark</td><td>33,968</td><td>反 AI 味设计 skill，10-22 合并 v2 插件市场版本</td></tr><tr><td>AgriciDaniel/claude-seo</td><td>20,979</td><td>26 个子技能 + 19 个子代理的通用 SEO skill，10-22 发布 v2.5.0</td></tr><tr><td>aws/agent-toolkit-for-aws</td><td>3,275</td><td>AWS 官方 MCP 服务器、技能与插件合集，10-23 新增数据目录管理类技能</td></tr></tbody></table>
+<h3>② 医学 / 临床研究 AI 与 Agent 技能库</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>stjude/MyGPT</td><td>2</td><td>隐私优先开源 RAG 平台，10-24 于 Nature Communications 发表，10-25 依赖收敛</td></tr><tr><td>hastimal/open-healthcare-agentic-platform</td><td>1</td><td>厂商中立医疗 agent 平台，10-26 发布多架构 GHCR 流水线，10-25 上线可观测性与 K8s 部署</td></tr><tr><td>openemr/openemr</td><td>5,545</td><td>最主流开源 EHR，10-25 扩展原生 SDC/R4 问卷覆盖与逐实例重复应答</td></tr><tr><td>anonymous-temp/EviMed-Science</td><td>1</td><td>跑在 DeepSeek Harness 上的循证医学研究工作台，带证据质量闸门与来源溯源记忆，10-25 更新</td></tr><tr><td>afham-faiz/AtollCare</td><td>0</td><td>急救转运场景的患者预抵达系统，10-25 更新，敏感读数只采信实测值</td></tr><tr><td>JingyiChen1107/personal-health-data-agent</td><td>0</td><td>本地优先的双语健康数据 agent，结构化查询 + RAG + 图表 + 可验证来源，10-25 新建</td></tr><tr><td>PKU-YuanGroup/OpenAI4S</td><td>646</td><td>MIT 许可的开源科研 agent，10-23 新增分子动力学技能并强化数据溯源</td></tr></tbody></table>
+<h3>③ 健康管理 / 营养与食品 AI</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>wger-project/wger</td><td>7,182</td><td>自托管健身/营养/体重追踪器，10-24 新增 MCP server 配置与食材图片抓取</td></tr><tr><td>dreeveapp/dreeve</td><td>2,182</td><td>自托管运动健康数据面板，10-25 上线 MCP server 并切换到 Symfony AI 聊天代理</td></tr><tr><td>cyberjunky/python-garminconnect</td><td>3,207</td><td>Garmin Connect 的 Python 3 API 封装，可直接拉取运动与生理数据</td></tr><tr><td>AbdulKhadhar/dosebuddy</td><td>0</td><td>粘贴处方生成大字号用药卡，本地 Ollama 小模型抽取 + 纯规则做禁忌判断，10-25 新建</td></tr><tr><td>Leafyte/LazyListAI</td><td>0</td><td>用 Ollama 跑 Gemma 的本地配餐与购物清单生成器，10-25 新建</td></tr><tr><td>Eiysia-HYP/fridge-meal-agent</td><td>0</td><td>冰箱食材管家 agent，FastMCP 暴露库存与菜谱工具，10-25 完成全部后端模块</td></tr><tr><td>SarveshDujari/CraveCode</td><td>0</td><td>按预算、蛋白目标与忌口筛选排序的 AI 配餐发现系统，10-23</td></tr></tbody></table>
+<h3>④ 模型底座与 Agent 基础设施</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>google-gemini/gemini-cli</td><td>108,386</td><td>终端里的开源 Gemini agent，10-25 发布 v0.67.0 nightly，10-23 加入模型发现命令</td></tr><tr><td>Panniantong/Agent-Reach</td><td>102,515</td><td>给 agent 装上"读遍全网"的眼睛，10-25 更新并接入 Discord 入口</td></tr><tr><td>PostHog/posthog</td><td>40,439</td><td>自托管产品分析与 AI 可观测平台，10-26 提交 web-analytics 页面目录，核心 MIT + ee/ 目录另计</td></tr><tr><td>mindsdb/mindshub</td><td>39,816</td><td>让开源模型直接完成任务的统一工作台，10-23 文档更新</td></tr><tr><td>Infisical/infisical</td><td>29,993</td><td>密钥、证书与 AI Agent 访问控制平台，10-24 上线 agent-vault 成员凭证字段，核心 MIT + ee/ 目录另计</td></tr><tr><td>tracel-ai/burn</td><td>16,163</td><td>Rust 写的深度学习框架与张量库，10-25 跟进 cubecl/cubek 主线</td></tr><tr><td>Human-Agent-Society/reef</td><td>7,729</td><td>持续自我改进 agent 的基础设施，打通 serve/observe/grow/commit 四段闭环，10-24 重构服务架构</td></tr><tr><td>inclusionAI/Avernet</td><td>593</td><td>分布式 agent 协作平台，agent 共同居住、连接、协作与演化，10-26 更新</td></tr><tr><td>NoKV-Lab/NoKV</td><td>507</td><td>Rust 写的 agent 沙箱状态层，10-26 强化 CLI 拒绝契约与发起者授权</td></tr></tbody></table>
+<hr class="art-hr">
+<h2>三、今日趋势观察</h2>
+<ul><li><strong>今天最清晰的一条主线是「本地优先」从口号变成了架构约束，而且是被逼出来的。</strong> stjude/MyGPT 明确以"跑在一台 1839 美元的 Mac mini 上"为前提；open-healthcare-agentic-platform 为 Apple Silicon 单独做了 Ollama 走宿主机、Metal 加速直连的部署路径，还专门在 K8s 里架了 <code>host-ollama-bridge</code> 反向代理；dosebuddy 放弃云端 API、用 1.5B 的 qwen2.5 做抽取而把安全判断交给纯 Python 规则；LazyListAI 干脆全程 Ollama + Gemma。<strong>四家、四种不同规模的项目，在同一天从四个方向撞到同一堵墙上——数据不能出本地。</strong> 这不是价值观偏好，是合规边界的直接结果。</li></ul>
+<ul><li><strong>医学 AI 的重心彻底从"让模型更会诊断"转向"让证据更可信"。</strong> MyGPT 把置信度矩阵做进产品、把评测脚本独立开源；open-healthcare-agentic-platform 让确定性验证器坐在答案合成之前，并且刻意<strong>拒绝</strong>生成综合性的医生质量评分；EviMed-Science 的证据质量闸门"只报告不阻断"；AtollCare 让模拟读数失去状态词并且不再计入 NEWS2 评分与预警。<strong>四条不同路线指向同一个共识：模型负责生成，规则负责判定与留痕。</strong> 上一期日报还在说"医学 AI 从诊断模型移向标注与证据工作流"，今天这一趋势已经长出了完整的工程形态。</li></ul>
+<ul><li><strong>MCP 从"新项目的选配"变成了"老项目也得补的接口"。</strong> wger 装了十年、7000 多星的自托管追踪器，在 10-24 主动加上了 MCP server 配置；dreeve 同日上线 MCP server，并把 MCP 与聊天共用一套工具输入 schema，还为 MCP 单独发只读密钥；PostHog 当天在 MCP 工具里补上 condition_id 返回；Claude Code 侧 skill 生态已经长出 543 个技能包、上万 star 量级。<strong>这意味着我正在做的 4pwellness MCP 连接器方向踩在了正确的位置上</strong>：未来健康数据源会主动开口，与其等平台方一个一个去谈，不如先把自己的服务端做出来，把节点位置占住。</li></ul>
+<ul><li><strong>Agent 基础设施的重心正从"能不能跑"转向"谁在操作、边界在哪、失败怎么续"。</strong> NoKV 连着两天做同一件事——把发起主体固化进工作区格式、只允许发起者或运维角色继续操作、拒绝时必须指名具体凭证或角色；cindy 当天一半的提交都在修失败续跑资格判定、任务归属与设备归属；reef 把训练任务做成有界作业，明确区分 commit / rollback / rejection 三种状态流转，并且<strong>只发布已保存的权重</strong>、移除了只存在于推理引擎内存中的 live-weight release。<strong>这三条合起来是同一课：agent 系统的下一个战场是状态与权限，不是能力。</strong></li></ul>
+<ul><li><strong>独立开发者项目今天集体展示了"小团队高密度交付"的可能性，而这恰恰是一人公司该看的那一面。</strong> open-healthcare-agentic-platform 三天建仓、跑到 M10 并在今天发出多架构容器流水线；AtollCare 与 personal-health-data-agent 都是 10-24、10-25 才建仓就已经有完整实现；dosebuddy、LazyListAI、fridge-meal-agent 同为 10-25 新建。<strong>注意这些项目的星数：多数是 0 或 1。</strong> 它们说明的不是"这些项目会火"，而是<strong>在 GitHub 上，一个小团队今天可以独立完成"多源检索 + 规则校验 + 本地推理 + 容器化 + 可观测"这一整套过去需要团队才能拼出的东西</strong>。对每周 8 小时的一人公司路径，这比任何一篇架构文章都更有说服力——<strong>不需要等资源齐了再开始，先把最小闭环建起来，用真实使用暴露缺口。</strong></li></ul>
+<hr class="art-hr">
+<h2>四、GitHub 地址速查</h2>
+<p><strong>精选</strong></p>
+<ul><li>makecindy/cindy — <a href="https://github.com/makecindy/cindy" target="_blank" rel="noopener">https://github.com/makecindy/cindy</a></li><li>hastimal/open-healthcare-agentic-platform — <a href="https://github.com/hastimal/open-healthcare-agentic-platform" target="_blank" rel="noopener">https://github.com/hastimal/open-healthcare-agentic-platform</a></li><li>stjude/MyGPT — <a href="https://github.com/stjude/MyGPT" target="_blank" rel="noopener">https://github.com/stjude/MyGPT</a></li><li>wger-project/wger — <a href="https://github.com/wger-project/wger" target="_blank" rel="noopener">https://github.com/wger-project/wger</a></li><li>NoKV-Lab/NoKV — <a href="https://github.com/NoKV-Lab/NoKV" target="_blank" rel="noopener">https://github.com/NoKV-Lab/NoKV</a></li></ul>
+<p><strong>AI Coding</strong></p>
+<ul><li><a href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noopener">https://github.com/zhayujie/CowAgent</a></li><li><a href="https://github.com/JetBrains/thinkrail" target="_blank" rel="noopener">https://github.com/JetBrains/thinkrail</a></li><li><a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">https://github.com/pbakaus/impeccable</a></li><li><a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener">https://github.com/Nutlope/hallmark</a></li><li><a href="https://github.com/AgriciDaniel/claude-seo" target="_blank" rel="noopener">https://github.com/AgriciDaniel/claude-seo</a></li><li><a href="https://github.com/aws/agent-toolkit-for-aws" target="_blank" rel="noopener">https://github.com/aws/agent-toolkit-for-aws</a></li></ul>
+<p><strong>医学 / 临床研究 AI</strong></p>
+<ul><li><a href="https://github.com/openemr/openemr" target="_blank" rel="noopener">https://github.com/openemr/openemr</a></li><li><a href="https://github.com/anonymous-temp/EviMed-Science" target="_blank" rel="noopener">https://github.com/anonymous-temp/EviMed-Science</a></li><li><a href="https://github.com/afham-faiz/AtollCare" target="_blank" rel="noopener">https://github.com/afham-faiz/AtollCare</a></li><li><a href="https://github.com/JingyiChen1107/personal-health-data-agent" target="_blank" rel="noopener">https://github.com/JingyiChen1107/personal-health-data-agent</a></li><li><a href="https://github.com/PKU-YuanGroup/OpenAI4S" target="_blank" rel="noopener">https://github.com/PKU-YuanGroup/OpenAI4S</a></li></ul>
+<p><strong>健康 / 营养</strong></p>
+<ul><li><a href="https://github.com/dreeveapp/dreeve" target="_blank" rel="noopener">https://github.com/dreeveapp/dreeve</a></li><li><a href="https://github.com/cyberjunky/python-garminconnect" target="_blank" rel="noopener">https://github.com/cyberjunky/python-garminconnect</a></li><li><a href="https://github.com/AbdulKhadhar/dosebuddy" target="_blank" rel="noopener">https://github.com/AbdulKhadhar/dosebuddy</a></li><li><a href="https://github.com/Leafyte/LazyListAI" target="_blank" rel="noopener">https://github.com/Leafyte/LazyListAI</a></li><li><a href="https://github.com/Eiysia-HYP/fridge-meal-agent" target="_blank" rel="noopener">https://github.com/Eiysia-HYP/fridge-meal-agent</a></li><li><a href="https://github.com/SarveshDujari/CraveCode" target="_blank" rel="noopener">https://github.com/SarveshDujari/CraveCode</a></li></ul>
+<p><strong>模型底座 / Agent 基础设施</strong></p>
+<ul><li><a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noopener">https://github.com/google-gemini/gemini-cli</a></li><li><a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">https://github.com/Panniantong/Agent-Reach</a></li><li><a href="https://github.com/PostHog/posthog" target="_blank" rel="noopener">https://github.com/PostHog/posthog</a></li><li><a href="https://github.com/mindsdb/mindshub" target="_blank" rel="noopener">https://github.com/mindsdb/mindshub</a></li><li><a href="https://github.com/Infisical/infisical" target="_blank" rel="noopener">https://github.com/Infisical/infisical</a></li><li><a href="https://github.com/tracel-ai/burn" target="_blank" rel="noopener">https://github.com/tracel-ai/burn</a></li><li><a href="https://github.com/Human-Agent-Society/reef" target="_blank" rel="noopener">https://github.com/Human-Agent-Society/reef</a></li><li><a href="https://github.com/inclusionAI/Avernet" target="_blank" rel="noopener">https://github.com/inclusionAI/Avernet</a></li></ul>
+<hr class="art-hr">
+<p><em>本期分类共 28 个项目，全部与往期去重。Star 数、许可证与提交时间均以 GitHub API / 仓库默认分支记录为准，截至 2026-10-26 11:00（北京时间）。</em></p></article>
+    <div class="pager"><a href="/ai/2026-10-25/"><span class="dir">← 上一期</span>2026-10-25</a><span></span></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>
