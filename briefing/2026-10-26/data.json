@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-26",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月20日 — 10月26日（最近 7 天）",
+ "range_en": "Oct 20 – Oct 26, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "人民网起底抗衰产品乱象：NAD+针剂超适应症使用、二甲双胍抗衰尚无定论",
+     "title_en": "People's Daily investigates anti-aging product hype: off-label NAD+ injections and unproven metformin claims",
+     "url": "https://health.people.com.cn/n1/2026/1020/c14739-40817844.html",
+     "source_zh": "人民网健康频道",
+     "source_en": "People's Daily Online Health",
+     "date": "2026-10-20",
+     "summary_zh": "人民网健康频道刊文梳理抗衰产品乱象：医美机构把药品级NAD+注射剂包装成“抗衰营养针”超适应症、超剂量给健康人群使用，而2026版专家共识仅面向特定老年心血管病患者；专家强调高剂量NAD+在动物实验中反而增加斑块与炎症，二甲双胍抗衰延寿在人类中亦无确定结论，提醒公众勿把基础研究等同于临床疗效。",
+     "summary_en": "People's Daily examines anti-aging product hype: aesthetic clinics market pharmaceutical-grade NAD+ injections as \"anti-aging drips\" for healthy people, off-label and at unapproved doses, while the 2026 Chinese expert consensus covers only specific elderly cardiovascular patients. Experts note high-dose NAD+ raised plaque burden and inflammation in animal studies, and metformin's longevity benefit in humans remains unproven — basic research must not be equated with clinical efficacy."
+    },
+    {
+     "title_zh": "脑脊液游离DNA甲基化检测可区分痴呆类型，准确率达85%",
+     "title_en": "Cerebrospinal fluid cfDNA methylation profiling distinguishes dementia types with 85% accuracy",
+     "url": "https://longevityforesight.com/%e6%8a%bd%e8%84%91%e8%84%8a%e6%b6%b2%e6%9f%a5dna%e7%94%b2%e5%9f%ba%e5%8c%96%ef%bc%8c%e8%83%bd%e7%b2%be%e5%87%86%e5%8c%ba%e5%88%86%e9%98%bf%e5%b0%94%e8%8c%a8%e6%b5%b7%e9%bb%98%e7%97%85%e4%b8%8e/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-25",
+     "summary_zh": "最新研究显示，脑脊液中的游离DNA甲基化特征能够准确区分不同类型的痴呆症，准确率高达85%。这意味着未来医生有望借助液体活检技术在疾病早期精准识别阿尔茨海默病与帕金森综合征等不同病因，减少“认错病”带来的治疗延误，也为痴呆的精准分型与个体化干预提供了新的功能医学检测工具。",
+     "summary_en": "New research shows that cell-free DNA methylation signatures in cerebrospinal fluid can accurately distinguish different types of dementia with up to 85% accuracy. The findings suggest clinicians may one day use liquid biopsy to identify Alzheimer's disease versus parkinsonian syndromes early, reducing misdiagnosis and treatment delay, and offering a new functional-medicine tool for precision dementia subtyping and individualized intervention."
+    },
+    {
+     "title_zh": "综述：肺动脉高压难愈的幕后推手是肺部血管细胞“早衰”",
+     "title_en": "Review: vascular cell senescence is the hidden driver of pulmonary arterial hypertension",
+     "url": "https://longevityforesight.com/%e8%82%ba%e5%8a%a8%e8%84%89%e9%ab%98%e5%8e%8b%e9%9a%be%e6%b2%bb%e6%84%88%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%8f%91%e7%8e%b0%e8%a1%80%e7%ae%a1%e8%80%81%e6%80%81%e6%98%af%e5%b9%95/",
+     "source_zh": "Longevity Foresight（Pulmonary Pharmacology & Therapeutics）",
+     "source_en": "Longevity Foresight (Pulmonary Pharmacology & Therapeutics)",
+     "date": "2026-10-25",
+     "summary_zh": "《Pulmonary Pharmacology & Therapeutics》综述指出，肺动脉高压血管难以恢复的顽疾源于肺部血管细胞“早衰”：内皮修复失效、平滑肌细胞异常分泌变硬。作者认为，清除衰老细胞的疗法有望让僵硬肺血管恢复弹性，为难治性肺动脉高压提供全新干预思路。",
+     "summary_en": "A review in Pulmonary Pharmacology & Therapeutics argues that the stubborn reversibility problem in pulmonary arterial hypertension stems from senescence of pulmonary vascular cells: failed endothelial repair and stiff, secretory smooth muscle cells drive disease progression. The authors propose that senolytic approaches targeting senescent cells could restore elasticity to stiffened pulmonary vessels, offering a fresh therapeutic angle for this difficult disease."
+    },
+    {
+     "title_zh": "血液GDF-15水平越高，骨骼和肌肉衰老得越快",
+     "title_en": "Higher blood GDF-15 tracks faster bone and muscle aging",
+     "url": "https://longevityforesight.com/%e8%a1%80%e6%b6%b2%e4%b8%ad%e7%9a%84%e8%a1%b0%e8%80%81%e8%ad%a6%e6%8a%a5%e5%99%a8%ef%bc%9a%e8%bf%99%e4%b8%aa%e6%8c%87%e6%a0%87%e8%b6%8a%e9%ab%98%ef%bc%8c%e9%aa%a8%e9%aa%bc%e5%92%8c/",
+     "source_zh": "Longevity Foresight（SardiNIA 队列）",
+     "source_en": "Longevity Foresight (SardiNIA cohort)",
+     "date": "2026-10-25",
+     "summary_zh": "意大利SardiNIA研究团队分析了近5000名居民的数据发现，应激相关蛋白GDF-15就像骨骼和肌肉的“损耗晴雨表”：无论男女，血液中GDF-15水平越高，骨密度以及肌肉质量与密度就越差。它目前仍是预警信号而非直接病因，但未来有望成为监测肌少症与骨质疏松、评估抗衰干预效果的重要功能医学风向标。",
+     "summary_en": "Analyzing nearly 5,000 residents in Italy's SardiNIA study, researchers found that the stress-related protein GDF-15 acts as a wear-and-tear barometer for bone and muscle: in both sexes, higher circulating GDF-15 correlates with lower bone mineral density and poorer muscle mass and density. It remains a warning signal rather than a proven cause, but could become a key functional-medicine biomarker for monitoring sarcopenia, osteoporosis and anti-aging interventions."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "补硒经GPX4阻断巨噬细胞铁死亡，可对抗镉污染导致的卵巢纤维化",
+     "title_en": "Selenium protects against cadmium-induced ovarian fibrosis by preventing macrophage ferroptosis via GPX4",
+     "url": "https://longevityforesight.com/%e6%97%a5%e5%b8%b8%e8%a1%a5%e7%a1%92%e5%a6%82%e4%bd%95%e5%af%b9%e6%8a%97%e7%8e%af%e5%a2%83%e6%af%92%e7%b4%a0%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%8f%91%e7%8e%b0%e9%98%bb%e6%96%ad%e5%8d%b5%e5%b7%a2/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-25",
+     "summary_zh": "最新研究发现，镉污染会引发巨噬细胞铁死亡与衰老，加速卵巢纤维化和生殖衰老；适当补硒则通过恢复抗氧化酶GPX4活性清除脂质过氧化物，阻断这一恶性循环，为以微量元素干预抵御环境毒素、延缓卵巢衰老提供依据，凸显硒在女性生殖长寿管理中的价值。",
+     "summary_en": "New mechanistic research shows cadmium exposure triggers macrophage ferroptosis and senescence, accelerating ovarian fibrosis and reproductive aging, while adequate selenium intake restores the antioxidant enzyme GPX4, clears lipid peroxides and breaks this vicious cycle. The findings provide a scientific basis for using trace-element nutrition to counter environmental toxins and slow ovarian aging, highlighting selenium's potential role in female reproductive longevity."
+    },
+    {
+     "title_zh": "线粒体肽MOTS-c激活脂质自噬，有望改善糖尿病肾病",
+     "title_en": "Mitochondrial peptide MOTS-c promotes lipophagy to ameliorate diabetic kidney disease",
+     "url": "https://longevityforesight.com/%e6%96%b0%e5%9e%8b%e7%ba%bf%e7%b2%92%e4%bd%93%e8%82%bdmots-c%e6%9c%89%e6%9c%9b%e9%80%86%e8%bd%ac%e7%b3%96%e5%b0%bf%e7%97%85%e8%82%be%e7%97%85%ef%bc%9a%e9%80%9a%e8%bf%87%e6%bf%80%e6%b4%bb%e7%bb%86/",
+     "source_zh": "Longevity Foresight（Biochemical Pharmacology）",
+     "source_en": "Longevity Foresight (Biochemical Pharmacology)",
+     "date": "2026-10-25",
+     "summary_zh": "《Biochemical Pharmacology》研究发现，线粒体小肽MOTS-c靶向抑制LARS1蛋白，激活肾小管细胞“脂肪自噬”，清除肾脏堆积脂肪并抑制细胞衰老，显著改善糖尿病肾病。研究把线粒体衍生肽、自噬与器官衰老串联，为延缓肾脏衰老提供全新干预靶点。",
+     "summary_en": "A study in Biochemical Pharmacology shows the mitochondria-derived peptide MOTS-c targets the LARS1 protein to activate lipophagy in renal tubular cells, clearing accumulated fat and curbing cellular senescence, thereby markedly improving diabetic kidney disease. By linking mitochondrial peptides, autophagy and organ aging, the work points to a novel therapeutic target for protecting kidney function and delaying renal aging."
+    },
+    {
+     "title_zh": "孕期加速生物衰老，产后是关键“恢复窗口”，两胎间隔过短或叠加衰老负担",
+     "title_en": "Pregnancy accelerates biological aging; the postpartum window may reverse it — short interpregnancy intervals compound the burden",
+     "url": "https://longevityforesight.com/%e7%94%9f%e5%a8%83%e4%bc%9a%e5%8a%a0%e9%80%9f%e5%8f%98%e8%80%81%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e6%8f%ad%e7%a7%98%e4%ba%a7%e5%90%8e%e9%bb%84%e9%87%91%e6%81%a2%e5%a4%8d%e6%9c%9f/",
+     "source_zh": "Longevity Foresight（Trends in Endocrinology & Metabolism）",
+     "source_en": "Longevity Foresight (Trends in Endocrinology & Metabolism)",
+     "date": "2026-10-25",
+     "summary_zh": "《Trends in Endocrinology and Metabolism》评述指出，孕期使女性生物学年龄暂时加速，产后是可部分逆转的关键恢复窗口；若两胎间隔过短，身体未恢复即迎下一次怀孕，衰老负担将滚雪球式叠加，为女性全生命周期生育规划与长寿管理提供科学视角。",
+     "summary_en": "An expert commentary in Trends in Endocrinology and Metabolism notes that pregnancy transiently accelerates women's biological age, while the postpartum period is a critical recovery window that can partially reverse it. When interpregnancy intervals are too short, the body enters the next pregnancy before recovering, and the aging burden snowballs. The work offers a science-based view on birth spacing and recovery for women's lifelong longevity management."
+    },
+    {
+     "title_zh": "中疾控团队获美国国家医学院健康长寿全球竞赛大奖第三名",
+     "title_en": "China CDC team wins third place in the US National Academy of Medicine Healthy Longevity Global Grand Prize",
+     "url": "https://www.chinacdc.cn/zxyw/202610/t20261021_1842398.html",
+     "source_zh": "中国疾病预防控制中心",
+     "source_en": "Chinese Center for Disease Control and Prevention",
+     "date": "2026-10-21",
+     "summary_zh": "中疾控施小明团队依托中国老年健康生物标志物队列发现，健康长寿关键因素随年龄变化：低龄老人以休闲活动更突出，高龄阶段膳食营养更关键；团队还牵头制定高龄老人血压与体质指数标准。成果获美国国家医学院健康长寿全球大奖第三名，提示高龄管理应分层并优先保障营养。",
+     "summary_en": "Using the Chinese Longitudinal Healthy Longevity biomarker cohort, a China CDC team led by Shi Xiaoming found that key determinants of healthy longevity shift with age: leisure activities matter most at younger old ages, while dietary nutrition becomes critical among the oldest-old. The team also led guidelines on optimal blood pressure and a BMI standard for the oldest-old. The work won third place in the NAM Healthy Longevity Global Grand Prize, underscoring age-stratified care with nutrition prioritized for the oldest-old."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "USC研究：地中海饮食与更高水平线粒体微蛋白humanin、SHMOOSE相关",
+     "title_en": "USC study links Mediterranean diet to higher levels of mitochondrial microproteins humanin and SHMOOSE",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
+     "source_zh": "ScienceDaily（南加州大学）",
+     "source_en": "ScienceDaily (University of Southern California)",
+     "date": "2026-10-24",
+     "summary_zh": "南加州大学研究分析老年人血液发现，坚持地中海饮食者体内线粒体微蛋白humanin与SHMOOSE水平更高、氧化应激更低：橄榄油、鱼类和豆类与humanin升高相关，橄榄油与少吃精制碳水与SHMOOSE升高相关。两者与心血管及神经退行性疾病保护有关，或成膳食摄入的循环信号分子。",
+     "summary_en": "Researchers at USC's Leonard Davis School of Gerontology found that older adults closely following a Mediterranean diet have higher circulating levels of the mitochondria-derived microproteins humanin and SHMOOSE, along with lower oxidative stress markers. Olive oil, fish and legume intake tracked with higher humanin, while olive oil and lower refined-carbohydrate intake tracked with higher SHMOOSE — microproteins previously linked to protection against cardiovascular and neurodegenerative disease."
+    },
+    {
+     "title_zh": "The Innovation Nutrition：决定免疫治疗疗效的是“饮食-菌群轴”，而非肥胖本身",
+     "title_en": "The Innovation Nutrition: the diet–gut axis, not obesity itself, shapes immunotherapy response",
+     "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-nutri.2026.100045",
+     "source_zh": "The Innovation Nutrition",
+     "source_en": "The Innovation Nutrition",
+     "date": "2026-10-24",
+     "summary_zh": "《The Innovation Nutrition》解读《自然》新研究：12种成分各异的小鼠饮食证明，抗PD-1疗效取决于“饮食-菌群轴”而非肥胖本身。应答饮食富集约氏乳杆菌并提升代谢物DAT与ILA，补DAT、48小时饮食切换或粪菌移植均可逆转无应答，为肿瘤患者精准营养干预指明靶点。",
+     "summary_en": "A commentary in The Innovation Nutrition unpacks a new Nature study showing, across 12 compositionally distinct mouse diets, that anti-PD-1 efficacy is governed by the diet–gut microbiome axis rather than body weight or metabolic dysfunction. Responder diets enriched Lactobacillus johnsonii and raised the metabolites DAT and ILA; DAT supplementation, a 48-hour diet switch or fecal microbiota transfer converted non-responders — pointing to concrete precision-nutrition targets for cancer patients on immunotherapy."
+    },
+    {
+     "title_zh": "关闭Mitch蛋白可让人体细胞燃烧更多脂肪并阻止新脂肪细胞生成",
+     "title_en": "Switching off the Mitch protein makes human cells burn more fat and blocks new fat cell formation",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-24",
+     "summary_zh": "科学家发现，关闭名为Mitch的蛋白可使人源细胞燃烧更多脂肪并阻止新脂肪细胞生成；动物实验中缺乏Mitch的小鼠显著抵抗肥胖且肌肉耐力更强。这一“代谢开关”若能在人体安全调控，有望催生不依赖极端节食的精准体重管理策略，但距临床应用仍需验证。",
+     "summary_en": "Scientists report that switching off a protein called Mitch makes human cells burn more fat and prevents new fat cells from developing. In mice, lacking Mitch conferred striking resistance to obesity and improved muscular endurance, highlighting a new metabolic target for weight management. If the switch can be safely modulated in humans, it could enable precision weight-control strategies beyond extreme dieting, though clinical translation will require further validation."
+    },
+    {
+     "title_zh": "NHLBI综述：整合多组学、可穿戴与实施科学的全生命周期精准营养框架",
+     "title_en": "NHLBI-led review outlines a lifespan precision nutrition framework integrating multi-omics, wearables and implementation science",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261021084431815.htm",
+     "source_zh": "生物通",
+     "source_en": "eBiotrade",
+     "date": "2026-10-21",
+     "summary_zh": "生物通解读NHLBI综述：全生命周期精准营养框架整合多组学、动态血糖监测、可穿戴睡眠活动数据与微生物组分析，为心肺血液与睡眠健康定制方案；强调昼夜节律表型、精准运动（GLP-1用药者配合抗阻训练防肌少症）与实施科学“精准营养餐盘”，对接NIH精准健康营养项目。",
+     "summary_en": "A review led by NHLBI investigators, covered by eBiotrade, presents a lifespan precision nutrition framework integrating multi-omics, continuous glucose monitoring, wearable sleep/activity data and microbiome analysis to tailor plans for cardiovascular, lung, blood and sleep health. It highlights circadian phenotyping, precision physical activity (e.g., resistance training alongside GLP-1 therapy to prevent sarcopenic obesity) and an implementation-science \"precision nutrition plate,\" aligned with NIH's Nutrition for Precision Health program."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "康涅狄格大学研究：CBN睡眠软糖成分在小鼠中出现耐受与戒断迹象",
+     "title_en": "UConn study finds the sleep-gummy ingredient CBN produces tolerance and withdrawal signs in mice",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261024221952.htm",
+     "source_zh": "ScienceDaily（康涅狄格大学）",
+     "source_en": "ScienceDaily (University of Connecticut)",
+     "date": "2026-10-25",
+     "summary_zh": "康涅狄格大学团队发表于《Drug and Alcohol Dependence》的研究显示，小鼠连续三天接触CBN后出现耐受，停用后呈戒断样症状，且与THC存在重叠主观效应通路；低剂量虽抗炎，却削弱模拟细菌挑战下的免疫防御。长期反复使用的安全性未明，消费者需谨慎。",
+     "summary_en": "Cannabinol (CBN), a popular sleep-supplement ingredient, showed tolerance and withdrawal-like signs in mice dosed twice daily for three days, University of Connecticut researchers report in Drug and Alcohol Dependence. CBN engaged overlapping subjective-effect pathways with THC, showed anti-inflammatory actions at low doses, yet dampened immune defenses during a simulated bacterial challenge. The authors caution that long-term safety data are lacking and consumers should be wary."
+    },
+    {
+     "title_zh": "随机交叉试验：脂质体维生素D3急性吸收提高约1.9倍",
+     "title_en": "Randomized crossover trial: liposomal vitamin D3 boosts acute absorption 1.9-fold",
+     "url": "https://www.nutraingredients.com/Article/2026/10/22/liposomal-vitamin-d3-boosts-absorption/",
+     "source_zh": "NutraIngredients（Frontiers in Nutrition）",
+     "source_en": "NutraIngredients (Frontiers in Nutrition)",
+     "date": "2026-10-22",
+     "summary_zh": "《Frontiers in Nutrition》随机双盲交叉试验中，12名健康成人先后单剂服用脂质体与非脂质体维D3：脂质体剂型血药曲线下面积高约1.9倍、峰浓度更高，48小时后仍高于基线而普通剂型已回落。样本量小且剂型含辅酶Q10，长期获益仍需研究，但为脂溶性营养素递送提供证据。",
+     "summary_en": "In a randomized double-blind crossover trial in Frontiers in Nutrition, 12 healthy adults took single doses of liposomal and non-liposomal vitamin D3: the liposomal form showed a 1.9-fold higher AUC, greater peak concentration, and cholecalciferol remained above baseline at 48 hours while the conventional form returned to baseline. Researchers caution the small sample, formulation differences and added coenzyme Q10 limit conclusions, and longer studies are needed — but the data support liposomal delivery for fat-soluble nutrients."
+    },
+    {
+     "title_zh": "RCT：晨间南非醉茄+红景天两周改善健康成人压力与睡眠",
+     "title_en": "RCT: morning ashwagandha plus rhodiola improved stress and sleep measures in healthy adults over two weeks",
+     "url": "https://www.nutraingredients.com/Article/2026/10/21/ashwagandha-rhodiola-combination-may-improve-stress-and-sleep/",
+     "source_zh": "NutraIngredients（JISSN）",
+     "source_en": "NutraIngredients (JISSN)",
+     "date": "2026-10-21",
+     "summary_zh": "南卡罗来纳大学发表于《国际运动营养学会杂志》的随机双盲试验显示，103名健康活跃成人晨间服用600mg南非醉茄加300mg红景天两周，感知压力、睡眠相关损害与睡眠质量显著优于安慰剂；晚间镁-茶氨酸-芹菜素组合无获益，同服反而抵消。研究由厂商资助，待独立验证。",
+     "summary_en": "In a randomized double-blind trial in the Journal of the International Society of Sports Nutrition, 103 healthy active adults taking 600mg ashwagandha plus 300mg rhodiola each morning for two weeks showed significantly better perceived stress, sleep-related impairment and sleep quality versus placebo — without complex day/night protocols. An evening magnesium–theanine–apigenin blend showed no benefit, and combining both was less favorable. The industry-funded findings need independent confirmation."
+    },
+    {
+     "title_zh": "石榴提取物Pomanox 12周RCT：改善面部色斑、皮肤水合与弹性",
+     "title_en": "12-week RCT of pomegranate extract Pomanox shows gains in facial pigmentation, hydration and elasticity",
+     "url": "https://www.nutraingredients.com/Article/2026/10/21/pomegranate-extracts-potential-in-skin-health-study/",
+     "source_zh": "NutraIngredients（Scientific Reports）",
+     "source_en": "NutraIngredients (Scientific Reports)",
+     "date": "2026-10-21",
+     "summary_zh": "西班牙Eurecat团队在《Scientific Reports》发表随机三盲试验：64名面部色斑女性每日服367mg或700mg石榴提取物Pomanox共12周，367mg组色斑黑色素指数与皮肤水合显著优于安慰剂，两剂量均提升弹性，4周即见效；主要终点未达显著，结果属探索性。",
+     "summary_en": "A randomized triple-blind placebo-controlled trial in Scientific Reports by Spain's Eurecat enrolled 64 women aged 30-65 with facial hyperpigmentation to take 367mg or 700mg daily of the pomegranate extract Pomanox for 12 weeks. The 367mg group showed significantly better spot melanin index change and skin hydration versus placebo, both doses improved elasticity, and effects emerged as early as four weeks; exploratory analyses found increases in Bifidobacterium, Lactobacillus and Akkermansia. The authors stress the primary endpoint was not significant and results remain exploratory."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "经济参考报：AI赋能基层医疗数字化提速，数字家医多地落地",
+     "title_en": "AI accelerates primary-care digitalization as “digital family doctors” roll out across China",
+     "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261026_3270771.shtml",
+     "source_zh": "中国经济网·经济参考报",
+     "source_en": "China Economic Net / Economic Information Daily",
+     "date": "2026-10-26",
+     "summary_zh": "《经济参考报》报道，AI家庭医生加速落地基层：深圳“蚂蚁阿福”、海南“椰晓医”、北京丰台“马小医”等提供报告解读、慢病随访、可穿戴血压血糖监测与异常预警；长沙全场景智慧服务体系获省级AI+医疗大赛一等奖。政策目标2030年基层智能辅助基本全覆盖，数据孤岛与商业模式仍是约束。",
+     "summary_en": "The Economic Information Daily reports that AI family-doctor applications are scaling in Chinese primary care: Shenzhen's \"Mayi Afu,\" Hainan's \"Yexiaoyi\" and Beijing Fengtai's \"Maxiaoyi\" offer report interpretation, chronic-disease follow-up, wearable blood-pressure/glucose monitoring and automated risk alerts. Policy targets near-full coverage of AI-assisted primary-care diagnostics by 2030, though model capability, data silos and unproven business models remain constraints on nationwide scale-up."
+    },
+    {
+     "title_zh": "海南政协建言：数字疗法适老化改造与老年慢病专项数据库建设",
+     "title_en": "Hainan CPPCC members urge age-friendly digital therapeutics and an elderly chronic-disease database",
+     "url": "https://www.ce.cn/cysc/yy/hydt/202610/t20261026_3271080.shtml",
+     "source_zh": "中国经济网·人民政协报",
+     "source_en": "China Economic Net / CPPCC Newspaper",
+     "date": "2026-10-26",
+     "summary_zh": "人民政协报报道，海南多位政协委员指出数字疗法在老年慢病管理中的短板：产品未考虑老年人认知视听衰退、操作复杂、线上线下脱节、数据整合弱。建议开发“一键式”语音交互设备、在社区与养老驿站配置数字健康助手，并构建省级老年慢性病专项数据库，覆盖高龄人群。",
+     "summary_en": "CPPCC Newspaper reports that Hainan political advisors flagged gaps in digital therapeutics for elderly chronic-disease care: products rarely account for age-related cognitive, visual and hearing decline, online management is disconnected from offline care, and data integration is weak. They propose one-tap voice-interactive devices, digital health assistants in community clinics and elder-care stations, and a provincial elderly chronic-disease database integrating insurance, public-health and device data."
+    },
+    {
+     "title_zh": "湖南日报调查：AI减重工具走红，但“把体重管理交给算法”存在健康盲区",
+     "title_en": "Hunan Daily investigation: AI weight-loss tools boom, but handing weight management to algorithms carries blind spots",
+     "url": "https://www.toutiao.com/article/7700152826994999823/",
+     "source_zh": "湖南日报（今日头条）",
+     "source_en": "Hunan Daily (Toutiao)",
+     "date": "2026-10-24",
+     "summary_zh": "湖南日报调查发现，拍照识热量、跟练打卡与奖金激励让AI成为上班族“减重搭子”，但隐患渐显：有用户发烧当天仍被提醒运动未达标，算法方案千篇一律、无法感知疲惫不适，甚至有人因摄入不足、强度超标而伤身。专家强调AI只是辅助工具，不能替代医生诊断。",
+     "summary_en": "A Hunan Daily investigation finds AI has become office workers' \"weight-loss buddy\" through photo-based calorie counting, follow-along workouts and cash incentives. But risks are emerging: users report being told to exercise while feverish, and algorithms generate one-size-fits-all plans from basic data, blind to fatigue and illness — some users fell ill from insufficient calories or excessive training. Experts stress AI is only an aid and cannot replace medical judgment, even amid China's \"weight management year\" push."
+    },
+    {
+     "title_zh": "三亚海棠区把老年健康科普送到家门口：慢病、防跌倒与科学用药进社区",
+     "title_en": "Sanya's Haitang district brings elderly health education to residents' doorsteps",
+     "url": "https://www.cnr.cn/hn/qt/20261025/t20261025_527852533.shtml",
+     "source_zh": "央广网",
+     "source_en": "CNR (China National Radio)",
+     "date": "2026-10-25",
+     "summary_zh": "央广网报道，三亚海棠区新时代文明实践中心在长海社区开展“科普巴士”活动，围绕合理饮食、规律作息、适度运动、高血压糖尿病预防、骨质疏松防护与居家防滑防摔，以展板讲解、手册解读和趣味问答把老年健康常识送到家门口；当地还常态化开展健康讲堂与义诊。",
+     "summary_en": "CNR reports that the Haitang district civilization practice center in Sanya held a \"science-popularization bus\" event in the Changhai community, covering balanced diets, regular routines, moderate exercise, hypertension and diabetes prevention, osteoporosis protection and fall prevention through exhibitions, handbook walkthroughs and quiz games. The district also runs regular health lectures, free clinics and \"bench classrooms,\" bringing elderly health education directly into neighborhoods."
+    }
+   ]
+  }
+ ]
+}
