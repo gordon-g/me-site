@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-27",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月21日 — 10月27日（最近 7 天）",
+ "range_en": "Oct 21 – Oct 27, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "血管老化三联体：细胞衰老、炎性衰老与表观遗传重塑共同驱动动脉粥样硬化",
+     "title_en": "The Vascular Aging Triad: Cellular Senescence, Inflammaging and Epigenetic Remodeling Drive Atherosclerosis",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261027000900214.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade/ebiotrade",
+     "date": "2026-10-27",
+     "summary_zh": "最新综述提出，动脉粥样硬化中存在「血管老化三联体」：细胞衰老、炎性衰老与表观遗传重塑三者形成自我放大的恶性循环，加速内皮屏障失效并使斑块不稳定。作者主张现代预防心脏病学应超越单纯的脂质管理，直接针对血管壁的生物学时钟，并探索衰老细胞清除剂等年龄特异性干预与生物标志物。",
+     "summary_en": "The latest review proposes a 'vascular aging triad' in atherosclerosis: cellular senescence, inflammaging and epigenetic remodeling form a self-amplifying vicious cycle that accelerates endothelial barrier failure and plaque destabilization. The authors argue modern preventive cardiology should go beyond lipid management to directly target the biological clock of the vessel wall, exploring senolytics and age-specific biomarkers."
+    },
+    {
+     "title_zh": "「适量饮酒」再遭质疑：每周14杯酒，酒精相关死亡终身风险达1/25",
+     "title_en": "Two Drinks a Day May Be Far Riskier Than You Think: 1 in 25 Lifetime Risk of Alcohol-Related Death at 14 Drinks Weekly",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261024222030.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-25",
+     "summary_zh": "发表于《Journal of Studies on Alcohol and Drugs》的美国「酒精摄入与健康研究」汇总7200余篇文献并建模：每周饮14杯酒者死于酒精相关原因的终身风险约1/25，每周7杯内多数风险仅小幅上升。研究未在任何饮酒水平观察到整体健康保护效应，为美国膳食指南补充量化阈值。",
+     "summary_en": "The Alcohol Intake and Health Study, published in the Journal of Studies on Alcohol and Drugs, synthesized over 7,200 publications and modeled that people averaging 14 drinks weekly face about a 1 in 25 lifetime risk of dying from alcohol-related causes, while up to 7 drinks weekly raises most risks only modestly. No significant overall health benefit was observed at any drinking level."
+    },
+    {
+     "title_zh": "韩国1170万人数据：「心血管住院风险生物年龄」比传统指标更能预测死亡",
+     "title_en": "Korean CDPBA: A Cardiovascular Hospitalization-Risk 'Biological Age' Outpredicts Conventional Mortality Markers in 11.7 Million Adults",
+     "url": "https://longevityforesight.com/%e4%bd%a0%e7%9a%84%e5%bf%83%e8%84%8f%e5%87%a0%e5%b2%81%e4%ba%86%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e7%94%a8%e4%bd%8f%e9%99%a2%e9%a3%8e%e9%99%a9%e6%b5%8b%e5%87%ba%e6%9b%b4%e5%87%86/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-25",
+     "summary_zh": "韩国国民健康保险服务等机构基于1170万名40岁以上人群数据，开发出「心血管疾病住院风险生物年龄（CDPBA）」，以未来10年心血管住院风险反推生理年龄。其对全因死亡率预测优于传统方法，男性AUROC达0.849、女性0.871，为衰老量化评估提供了新型心血管维度工具。",
+     "summary_en": "Korean National Health Insurance Service researchers developed the CDPBA 'biological age' from 10-year cardiovascular hospitalization risk in 11.7 million adults over 40. It predicted all-cause mortality better than conventional methods, with AUROC of 0.849 for men and 0.871 for women, offering a new cardiovascular dimension for quantifying biological aging."
+    },
+    {
+     "title_zh": "Cell研究：热量限制30%可减少小鼠多组织DNA突变积累",
+     "title_en": "Cell Study: 30% Caloric Restriction Reduces Somatic DNA Mutation Accumulation Across Mouse Tissues",
+     "url": "https://www.toutiao.com/article/7700738485237334554/",
+     "source_zh": "今日头条/cnBeta",
+     "source_en": "Toutiao/cnBeta",
+     "date": "2026-10-26",
+     "summary_zh": "纽约大学朗格尼等机构发表于《Cell》的小鼠研究显示，长期摄入比自由进食少30%的热量，可减少多个组织中的碱基替换与插入缺失突变，其中肝脏最显著，且基因低活跃区减少更明显。研究者强调这提示饮食与基因组稳定性存在深层联系，但机制未明，也不能直接转化为人类节食建议，极端限热仍伴营养与肌肉流失风险。",
+     "summary_en": "A Cell study from NYU Langone and partners shows that long-term 30% caloric restriction in mice reduces base substitutions and indels across multiple tissues, most prominently in liver, with the greatest reductions in lowly expressed genomic regions. The authors caution the mechanism remains unknown and the finding cannot be translated directly into human dieting advice."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Nature研究：适度低温延寿的代谢通路找到——补BH2与酪氨酸可模拟其获益",
+     "title_en": "Nature Study Uncovers the Metabolic Pathway Behind Mild Cold-Induced Longevity; BH2 and Tyrosine Supplementation Mimics the Benefit",
+     "url": "https://finance.eastmoney.com/a/202610273908736048.html",
+     "source_zh": "科技日报（东方财富转载）",
+     "source_en": "Science and Technology Daily (via Eastmoney)",
+     "date": "2026-10-27",
+     "summary_zh": "德国科隆大学在《自然》发文，以线虫模型揭示低温延寿的分子机制：肌肉作为「代谢枢纽」大量生成二氢生物蝶呤（BH2），转运至其他组织促进酪氨酸合成，增强蛋白质稳态、帮助清理错误折叠蛋白，并在亨廷顿病与渐冻症人类细胞模型中得到验证。补充BH2与酪氨酸即使在常温下也能显著延长线虫寿命。",
+     "summary_en": "University of Cologne researchers report in Nature, using C. elegans, that mild cold extends lifespan because muscle acts as a metabolic hub producing dihydrobiopterin (BH2), which is transported to other tissues to promote tyrosine synthesis and enhance proteostasis, validated in Huntington's and ALS human cell models. Supplementing BH2 and tyrosine significantly prolonged nematode lifespan even at warm temperatures."
+    },
+    {
+     "title_zh": "哈佛团队登《自然·衰老》：转录组「衰老时钟」筛出延寿基因SRSF1，小鼠寿命延长14%",
+     "title_en": "Harvard's Nature Aging Breakthrough: Transcriptomic Aging Clock Identifies SRSF1, Extending Mouse Lifespan by 14%",
+     "url": "https://www.dayi.org.cn/information/490.html",
+     "source_zh": "科技日报（中国医药信息查询平台转载）",
+     "source_en": "Science and Technology Daily (via dayi.org.cn)",
+     "date": "2026-10-27",
+     "summary_zh": "哈佛Wyss研究所用464个人类成纤维细胞样本训练机器学习模型，以转录组数据替代昂贵难读的表观遗传时钟量化细胞衰老，并筛出RNA加工因子SRSF1。老年小鼠肝脏上调SRSF1可改善细胞衰老、蛋白稳态失衡与慢性炎症，寿命延长14%，为安全的「回春」基因疗法指明方向。",
+     "summary_en": "A Harvard Wyss Institute team trained machine-learning models on 464 human fibroblast samples to quantify cellular aging from transcriptomes, replacing costly epigenetic clocks, and identified the RNA-processing factor SRSF1. Upregulating SRSF1 in aged mouse liver ameliorated senescence, proteostasis imbalance and chronic inflammation, extending lifespan by 14% and pointing toward safe rejuvenation gene therapy."
+    },
+    {
+     "title_zh": "重新平衡GPCR细胞通讯网络：延缓多种衰老相关疾病的新赛道",
+     "title_en": "Rebalancing GPCR Cell Communication Networks: A New Avenue to Delay Multiple Age-Related Diseases",
+     "url": "https://www.163.com/dy/article/LA57M16805149U3U.html",
+     "source_zh": "全球医生组织（网易号）",
+     "source_en": "GlobalMD (NetEase)",
+     "date": "2026-10-26",
+     "summary_zh": "最新研究提出，G蛋白偶联受体（GPCR）随年龄增长发生信号紊乱，与慢性炎症、代谢下降及心血管病、阿尔茨海默病等高度关联。研究倡导网络化干预：借系统生物学与可解释AI同步调节多条GPCR通路，按个体衰老差异定制方案，并与清除衰老细胞、代谢干预等延寿策略互补。",
+     "summary_en": "A new study proposes that age-related dysregulation of G protein-coupled receptors (GPCRs), the body's core cell communication system, is closely linked to inflammaging, metabolic decline and chronic diseases. Instead of single-receptor targeting, it advocates network-based interventions using systems biology and explainable AI to rebalance multiple GPCR pathways, complementing senolytics and metabolic therapies."
+    },
+    {
+     "title_zh": "长寿医学专家呼吁停止「抗衰」误导：不衰老不可能，延健康寿命才是核心",
+     "title_en": "Longevity Experts Urge an End to 'Anti-Aging' Hype: Extending Healthspan, Not Escaping Aging, Is the Real Goal",
+     "url": "https://dy.163.com/article/L9OBN7V305149U3U.html",
+     "source_zh": "全球医生组织（网易号）",
+     "source_en": "GlobalMD (NetEase)",
+     "date": "2026-10-21",
+     "summary_zh": "亚太健康长寿国际峰会期间，多位国际专家澄清六个误区：长寿科学目标是延长健康寿命而非单纯寿命；2009-2019年美国健康预期寿命反而下降；迄今无任何药物或补剂被证明延长人类自然寿命，NAD+、肽类等动物实验结果不能直接推及人体，应以循证取代商业炒作。",
+     "summary_en": "During the Asia-Pacific Health Longevity Summit, international aging experts clarified six common misconceptions: the goal is extending healthspan, not lifespan; US healthy life expectancy actually declined from 2009-2019; and no drug or supplement has ever been proven to extend human lifespan — animal results for NAD+ boosters and peptides cannot be extrapolated to humans. They call for evidence over commercial hype."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "Genome Medicine：工程益生菌实现「饮食诱导」可编程GLP-1递送，减脂效果优于持续给药",
+     "title_en": "Genome Medicine: Diet-Inducible Programmable GLP-1 Delivery via Engineered Probiotics Outperforms Constitutive Delivery",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/202610252040163432.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade/ebiotrade",
+     "date": "2026-10-26",
+     "summary_zh": "《Genome Medicine》研究开发基因工程益生菌，使GLP-1仅在进食时按需释放：肥胖小鼠模型中，饮食诱导型递送在抗脂肪堆积与抗脂肪变性上优于持续递送。机制上，持续给药会富集携带GLP-1降解酶基因的肠道细菌，按需递送则将其丰度降至最低，凸显「宿主-菌群-药物」互作的关键影响。",
+     "summary_en": "A Genome Medicine study engineered probiotics to release GLP-1 only upon food intake: in obese mice, diet-inducible delivery outperformed constitutive delivery against fat accumulation and steatosis. Mechanistically, continuous GLP-1 enriches gut bacteria carrying GLP-1-degrading enzyme genes, while inducible delivery minimizes them, highlighting host-microbiome-drug interactions in peptide delivery."
+    },
+    {
+     "title_zh": "微生物代谢型（metabotypes）：营养干预效果因人而异的菌群基础",
+     "title_en": "Microbial Metabotypes: Why the Same Polyphenol Intervention Yields Different Responses in Different People",
+     "url": "https://www.nutraingredients.com/Article/2026/10/26/the-next-era-of-microbiome-modulation-is-bidirectional/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-26",
+     "summary_zh": "西班牙CEBAS-CSIC学者Victoria Selma指出，肠道菌群与膳食多酚是双向关系：鞣花单宁转化为尿石素、异黄酮生成S-雌马酚等有益代谢物，取决于个体特定的菌群构成即「微生物代谢型」。同样的多酚干预在不同人身上代谢谱可截然不同，这正是个性化营养的生物学基础。",
+     "summary_en": "Dr Victoria Selma of CEBAS-CSIC will explain at IPC 2027 that the gut microbiota and dietary polyphenols interact bidirectionally: beneficial metabolites like urolithins, S-equol and resveratrol derivatives depend on an individual's microbial metabotype. The same polyphenol intervention can yield very different metabolic profiles across people — the biological foundation of personalized nutrition."
+    },
+    {
+     "title_zh": "高龄大熊猫肠道菌群研究：纤维分解能力保留更强、乳酸菌富集的长寿密码",
+     "title_en": "Gut Microbiome of Geriatric Giant Pandas: Preserved Fiber Degradation and Enriched Lactobacilli Offer Longevity Clues",
+     "url": "https://longevityforesight.com/%e5%a4%a7%e7%86%8a%e7%8c%ab%e5%87%ad%e5%95%a5%e8%b6%8a%e8%80%81%e8%82%a0%e9%81%93%e8%8f%8c%e8%b6%8a%e7%89%9b%ef%bc%9f%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%9c%a8%e9%ab%98%e9%be%84%e7%8c%ab%e7%86%8a/",
+     "source_zh": "Longevity Foresight",
+     "source_en": "Longevity Foresight",
+     "date": "2026-10-25",
+     "summary_zh": "针对高龄大熊猫的肠道菌群研究发现，老年个体不仅保留了更强的纤维分解能力，肠道中还富集多种有益乳酸菌，呈现与人类健康老龄化相似的菌群特征。研究者认为，这一动物模型为「通过调控肠道菌群延缓衰老」提供了新证据，也提示选择合适的发酵食品与膳食纤维策略或有助于维持老年期的肠道功能。",
+     "summary_en": "A gut microbiome study of geriatric giant pandas found that aged individuals retain stronger fiber-degrading capacity and enrich multiple beneficial Lactobacillus species, mirroring microbial signatures of healthy human aging. The authors argue this animal model supports microbiome-targeted strategies — such as fermented foods and dietary fiber — for maintaining gut function in later life."
+    },
+    {
+     "title_zh": "GSSI研究：精英球员低温训练下汗液钠流失个体差异巨大，呼唤个性化补水策略",
+     "title_en": "GSSI Study: Large Individual Variation in Sweat Sodium Losses of Elite Soccer Players in Cool Conditions Underscores Personalized Hydration",
+     "url": "https://www.nutraingredients.com/Article/2026/10/22/pepsico-study-highlights-need-for-personalized-hydration/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-22",
+     "summary_zh": "百事Gatorade运动科学研究所参与的团队发表于《Nutrients》：36名精英男足球员在凉爽环境高强度训练中，汗率与汗钠流失个体差异巨大，碳水摄入普遍低于每小时30克建议值。低温环境易低估补水需求，应基于个体出汗与钠流失数据制定个性化补液补钠方案。",
+     "summary_en": "A Nutrients study involving PepsiCo's Gatorade Sports Science Institute tracked 36 elite male soccer players during high-intensity training in cool conditions: sweat rates and sodium losses varied hugely between individuals, and carbohydrate intake often fell below 30 g/hour. The authors warn cool environments breed complacency and call for personalized fluid and sodium plans."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "JAMA Netw Open：AI分析15万帖文，灰市「减肥神药」retatrutide自报症状与临床试验不同",
+     "title_en": "JAMA Network Open: AI Mining of 150,000 Reddit Posts Reveals Unexpected Self-Reported Symptoms from Gray-Market Retatrutide",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-22",
+     "summary_zh": "宾夕法尼亚大学团队用大语言模型分析约4万用户的近15万条Reddit帖子，首次系统考察未批准三受体激动剂retatrutide灰市使用者的自报副作用，登《JAMA Network Open》。意外发现「食欲增加」成最常见主诉；作者强调这是假设生成而非因果证据，灰市制剂成分剂量也难保证。",
+     "summary_en": "University of Pennsylvania researchers used large language models to analyze nearly 150,000 Reddit posts from ~40,000 users, the first systematic look at gray-market retatrutide, published in JAMA Network Open. Unexpectedly, increased appetite was the most common self-reported symptom, contrary to its appetite-suppressing design. The authors stress this generates hypotheses, not causal evidence, and gray-market products vary in content."
+    },
+    {
+     "title_zh": "天冬草根提取物SRI-81八周RCT：改善女性性功能评分与性困扰",
+     "title_en": "Eight-Week RCT: Standardized Shatavari (SRI-81) Improves Female Sexual Function Scores and Reduces Sexual Distress",
+     "url": "https://www.nutraingredients.com/Article/2026/10/26/shatavari-root-extract-may-support-womens-sexual-wellness/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-26",
+     "summary_zh": "《International Journal of Women's Health》三臂双盲试验纳入135名女性：每日300mg天冬门（Shatavari）八周后，总FSFI评分改善34%、满意度提升64%、性困扰降29%，均优于安慰剂；联用南非醉茄改善更广。样本量小、周期短，需谨慎解读。",
+     "summary_en": "A three-arm randomized double-blind trial in the International Journal of Women's Health enrolled 135 women: 300 mg/day standardized Shatavari (SRI-81) for eight weeks improved total FSFI scores by 34%, satisfaction by 64% and cut sexual distress by 29% versus placebo; combining it with KSM-66 ashwagandha produced broader improvements with a 44% reduction in distress. Modest sample size warrants caution."
+    },
+    {
+     "title_zh": "碧萝芷（Pycnogenol）3个月RCT：改善低骨密度女性的躯体疼痛与活力评分",
+     "title_en": "Three-Month RCT: Pycnogenol Improves Bodily Pain and Vitality Scores in Women with Low Bone Density",
+     "url": "https://www.nutraingredients.com/Article/2026/10/26/pycnogenol-linked-to-improved-quality-of-life-scores-for-women-with-low-bone-density-study/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-26",
+     "summary_zh": "维尔茨堡大学在《Frontiers in Nutrition》发表首个针对低骨密度人群的碧萝芷人体试验：67名女性每日200mg服用三个月，躯体疼痛与活力评分较安慰剂分别改善约25%与14%，骨吸收标志物CTX-1较基线降约11%（与安慰剂差异不显著），需更长期对照研究确认骨获益。",
+     "summary_en": "The first human trial of Pycnogenol in low bone mineral density, from the University of Würzburg in Frontiers in Nutrition, randomized 67 women to 200 mg/day for three months: bodily pain and vitality scores improved about 25% and 14% versus placebo, and the bone-resorption marker CTX-1 fell about 11% from baseline, though not significantly versus placebo. Longer controlled studies are needed."
+    },
+    {
+     "title_zh": "NI综述：女性激素健康补剂证据升级——从主观量表走向客观激素指标",
+     "title_en": "NI Roundup: Women's Hormonal Health Supplement Science Shifts from Subjective Scores to Objective Hormonal Measures",
+     "url": "https://www.nutraingredients.com/Article/2026/10/22/catching-up-with-womens-hormonal-health-supplements-a-round-up-of-the-latest-science/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-22",
+     "summary_zh": "NutraIngredients盘点显示，针对更年期、月经周期与多囊卵巢综合征的女性激素健康补剂研究正快速升温：从益生菌到NAD+前体，越来越多干预进入临床验证，且试验设计从主观自评量表转向客观激素测量，为女性全生命周期的精准补剂方案提供更高等级循证支撑。",
+     "summary_en": "NutraIngredients' roundup of the latest science shows women's hormonal health supplement research — spanning menopause, menstrual cycle and PCOS, from probiotics to NAD+ boosters — is intensifying, with clinical trials increasingly moving beyond subjective self-reporting toward objective hormonal measures, strengthening the evidence base for precision supplement strategies across a woman's life stages."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "第4届国际心血管代谢大会昆明开幕：中外专家共探「AI+精准防治」破解CKM难题",
+     "title_en": "4th International Cardiometabolic Congress Opens in Kunming: Chinese and Foreign Experts Explore AI-Driven Precision Prevention for CKM",
+     "url": "https://www.chinanews.com/sh/2026/10-26/10720921.shtml",
+     "source_zh": "中国新闻网",
+     "source_en": "China News Service",
+     "date": "2026-10-26",
+     "summary_zh": "第4届国际心血管代谢大会在昆明开幕，中外专家围绕心血管-肾脏-代谢综合征（CKM）探讨「AI+精准防治」。数据显示中国心血管死亡人群约70%伴代谢异常。治疗正从单纯降脂走向「降脂+抗炎」，残余胆固醇、脂蛋白(a)等新靶点与多组学、AI将支持更早更精准的个体化防治。",
+     "summary_en": "The 4th International Cardiometabolic Congress opened in Kunming, with experts from China, Germany and Italy exploring AI-driven precision prevention for cardiovascular-kidney-metabolic (CKM) syndrome. Data show about 70% of Chinese cardiovascular deaths involve metabolic abnormalities. Therapy is shifting from lipid-lowering alone to combined lipid and inflammation targeting, aided by novel targets, single-cell multi-omics and AI for earlier, more personalized risk management."
+    },
+    {
+     "title_zh": "雅培启动「健康大满贯」公众健康促进项目：首站进社区聚焦血糖管理",
+     "title_en": "Abbott Launches 'Health Grand Slam' Community Program in Beijing, Spotlighting Glucose Management",
+     "url": "https://www.cnr.cn/tech/techph/20261026/t20261026_527853279.shtml",
+     "source_zh": "央广网",
+     "source_en": "CNR (China National Radio)",
+     "date": "2026-10-26",
+     "summary_zh": "雅培「健康大满贯」项目首站落地北京景山街道，围绕血糖管理、心血管健康、医学营养、肠道健康与疾病诊断设置互动体验专区。宣武医院专家指出，从传统CGM到准确度更高的iCGM，连续精准的血糖数据可帮助患者更从容地做健康管理决策，也为医生制定方案提供更可靠依据；该项目将陆续走进全国多个城市和社区。",
+     "summary_en": "Abbott's 'Health Grand Slam' program debuted at Jingshan Subdistrict, Beijing, with interactive zones on glucose management, cardiovascular health, medical nutrition, gut health and diagnostics. Xuanwu Hospital experts noted that moving from CGM to higher-accuracy iCGM provides continuous, precise glucose data for better self-management decisions and more reliable treatment planning; the program will tour more cities and communities."
+    },
+    {
+     "title_zh": "CMEF观察：轻智汇双签约，AI健康大模型走向「AI+慢病管理+功能保健」产业落地",
+     "title_en": "At CMEF, Qingzhihui Signs Dual Partnerships to Push AI Health Models into Chronic Disease and Functional Health Scenarios",
+     "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwpwir9236200.shtml",
+     "source_zh": "新浪财经（市场资讯）",
+     "source_en": "Sina Finance",
+     "date": "2026-10-26",
+     "summary_zh": "第94届CMEF与药交会期间，轻智汇与赛升健康、康乃心分别签约：共建「AI+慢病管理+功能保健」业务链路，探索药企向主动健康延伸；并融合医疗级可穿戴与心电一张网，打造「硬件监测—AI评估—居家康复—随访复核」闭环，方案已覆盖诊后居家管理、体重管理与基层AI随访等场景。",
+     "summary_en": "During the 94th CMEF and the 93rd National Pharmaceutical Trade Fair, Qingzhihui signed strategic partnerships with Saisheng Health and KangNaixin: building an 'AI + chronic disease management + functional health' chain with a pharma partner, and integrating medical-grade wearables with an ECG network into a closed loop of monitoring, AI assessment, home rehabilitation and follow-up. Its solutions already cover home chronic disease care, weight management and grassroots AI-assisted follow-up."
+    },
+    {
+     "title_zh": "塔夫茨研究：咖啡带来热量15年涨近40%，植脂末取代糖成最大「隐形热量」来源",
+     "title_en": "Tufts Study: Calories in Coffee Up Nearly 40% Over 15 Years, with Non-Dairy Creamer Overtaking Sugar as the Top Add-In",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261021231224.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-22",
+     "summary_zh": "塔夫茨大学发表于《JAND》的研究分析NHANES三万成年人数据：2003-2018年咖啡饮用量基本不变（约13盎司/天），但来自咖啡的热量从43千卡增至60千卡、涨近40%。非乳制奶精摄入翻倍以上，取代糖与牛奶成为最大添加热量来源，咖啡的健康益处可能被「隐形热量」抵消。",
+     "summary_en": "A Tufts University study in JAND analyzed NHANES data from 30,000 US adults: between 2003 and 2018 coffee intake stayed flat at about 13 ounces daily, yet calories from coffee rose nearly 40% from 43 to 60 kcal/day. Non-dairy creamer consumption more than doubled, overtaking sugar and milk as the leading source of added calories — a hidden-calorie entry point worth attention in health management."
+    }
+   ]
+  }
+ ]
+}
