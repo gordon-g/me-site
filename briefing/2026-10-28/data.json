@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-28",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月22日 — 10月28日（最近 7 天）",
+ "range_en": "Oct 22 – Oct 28, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《新英格兰医学杂志》：炎症性肠病不是一种病，3.5%患者存在抗IL-10自身抗体",
+     "title_en": "NEJM: IBD Is Not One Disease — 3.5% of Patients Carry Antibodies That Neutralize IL-10",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
+     "source_zh": "ScienceDaily（新英格兰医学杂志）",
+     "source_en": "ScienceDaily (New England Journal of Medicine)",
+     "date": "2026-10-26",
+     "summary_zh": "研究分析逾4900名炎症性肠病患者，发现约3.5%体内存在可中和白细胞介素-10的自身抗体，健康对照中未检出；这一自身免疫反应也解释了已知最强遗传风险位点如何致病。作者认为IBD实为多种生物学机制不同的疾病集合，应按病因分层治疗，英国估计1.5万至2万人携带此类抗体。",
+     "summary_en": "Analyzing more than 4,900 people with IBD, researchers found about 3.5% carry antibodies that neutralize interleukin-10, with none detected in healthy controls; the autoimmune reaction also explains how the strongest known genetic risk factor drives disease. The authors argue IBD is really a set of biologically distinct conditions that should be treated by cause, with an estimated 15,000 to 20,000 patients in the UK carrying these antibodies."
+    },
+    {
+     "title_zh": "同样是蛋白质，来源不同结局不同：牛肉蛋白加重、豌豆蛋白减轻小鼠肠道炎症",
+     "title_en": "Same Protein, Different Outcome: Beef Worsens and Pea Protein Eases Gut Inflammation in Mice",
+     "url": "https://wap.sciencenet.cn/blog-41174-1557906.html",
+     "source_zh": "科学网（美国胃肠病学协会 / Cell and Molecular Gastroenterology）",
+     "source_en": "ScienceNet.cn (American Gastroenterological Association / CMGH)",
+     "date": "2026-10-22",
+     "summary_zh": "美国胃肠病学协会旗下《细胞与分子胃肠病学》研究，在多种IBD小鼠模型中比较牛肉、鸡蛋、乳、大豆、豌豆五种蛋白配方：牛肉蛋白组结肠炎最重，豌豆蛋白组仅轻度炎症，雌雄与不同模型结果一致；未诱导结肠炎时单喂牛肉蛋白并不致病，提示菌群、肠屏障与胆汁酸是中间环节。",
+     "summary_en": "Published in CMGH, the study compared beef, egg, dairy, soy and pea protein diets across several IBD mouse models: beef-fed mice had the most severe colitis while pea-fed mice showed only mild inflammation, consistent across sexes and models. Beef protein alone did not trigger inflammation without a colitis trigger, pointing to the microbiome, gut barrier and bile acids as intermediaries."
+    },
+    {
+     "title_zh": "给肠道「大扫除」：抗菌肽pileup被激活后可强制老废肠细胞脱落",
+     "title_en": "Spring-Cleaning the Gut: Antimicrobial Peptide pileup Forces Aged Intestinal Cells to Shed",
+     "url": "https://longevityforesight.com/%e7%bb%99%e8%82%a0%e9%81%93%e5%a4%a7%e6%89%ab%e9%99%a4%e6%89%8d%e8%83%bd%e6%8a%97%e8%a1%b0%ef%bc%81%e7%a7%91%e5%ad%a6%e5%ae%b6%e5%8f%91%e7%8e%b0%e5%b8%ae%e8%80%81%e5%8c%96%e8%82%a0/",
+     "source_zh": "Longevity Foresight（Current Biology）",
+     "source_en": "Longevity Foresight (Current Biology)",
+     "date": "2026-10-27",
+     "summary_zh": "《Current Biology》果蝇研究鉴定出抗菌肽pileup：肠细胞线粒体老化、活性氧升高时，HIF-1α经ATG1被激活并指令老化细胞表达pileup，后者破坏细胞膜并触发JNK通路促其脱落。敲除pileup及其3个同源基因后，肠道堆积肿瘤样细胞、屏障崩溃、果蝇显著早亡，提示抗菌肽还承担内部「保洁」功能。",
+     "summary_en": "A Current Biology study in fruit flies identified the antimicrobial peptide pileup: when intestinal cells suffer mitochondrial decline and rising reactive oxygen species, HIF-1α is activated via ATG1 and instructs aged cells to express pileup, which disrupts their membranes and triggers JNK-driven shedding. Knocking out pileup and its three homologs caused tumor-like cell accumulation, barrier collapse and early death, suggesting antimicrobial peptides also serve as internal janitors."
+    },
+    {
+     "title_zh": "肠道菌群可解释约15%的生物学衰老速度差异，青春双歧杆菌关联最明显",
+     "title_en": "Gut Bacteria Explain About 15% of the Variation in Biological Aging Pace",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261026225620.htm",
+     "source_zh": "ScienceDaily（Scientific Reports）",
+     "source_en": "ScienceDaily (Scientific Reports)",
+     "date": "2026-10-27",
+     "summary_zh": "夏威夷大学团队分析123名成人的粪便与血液样本，发现肠道菌群组成可解释约15%的生物学衰老速度差异（DunedinPACE指标），且独立于实际年龄。青春双歧杆菌与较慢衰老关联最强，解糖琥珀酸弧菌则与加速衰老相关，提示菌群可作为精准健康与长寿干预的可调控靶点。",
+     "summary_en": "Analyzing stool and blood samples from 123 adults, University of Hawaii researchers found gut bacterial composition accounted for roughly 15% of the variation in biological aging pace measured by DunedinPACE, independent of chronological age. Bifidobacterium adolescentis was most strongly linked to slower aging, while Succinivibrio dextrinosolvens tracked faster aging, suggesting the microbiome is a modifiable target for precision health and longevity."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "梅奥诊所：衰老细胞远比想象中多样，SenMayo基因集可跨组织稳定识别",
+     "title_en": "Mayo Clinic: Senescent Cells Are Far More Diverse, and SenMayo Identifies Them Across Tissues",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261025073049.htm",
+     "source_zh": "ScienceDaily（梅奥诊所 / Nature 系列期刊）",
+     "source_en": "ScienceDaily (Mayo Clinic / Nature journals)",
+     "date": "2026-10-26",
+     "summary_zh": "梅奥诊所Kogod衰老中心在Nature系列期刊发表多项研究，指出衰老细胞的特征随组织位置与诱导因素而异，远比既往认知多样；团队开发的SenMayo基因集可跨组织、跨实验体系更一致地识别衰老细胞，并在老年人骨活检中得到验证，去除衰老细胞后该特征减弱，为SenNet人体衰老细胞图谱与靶向疗法奠定基础。",
+     "summary_en": "In a series of papers in Nature journals, Mayo Clinic's Kogod Center on Aging showed senescent cells vary by tissue location and by the process that induced them, far more than previously assumed. Their SenMayo gene set identifies senescent cells more consistently across tissues and systems and was validated in bone biopsies from older adults, with the signature fading after senescent cells were removed, laying groundwork for the SenNet human atlas and targeted therapies."
+    },
+    {
+     "title_zh": "Arrowhead皮下注射RNAi新药：健康志愿者脑脊液tau蛋白最高降73%",
+     "title_en": "Arrowhead's Subcutaneous RNAi Drug Cuts CSF Tau by Up to 73% in Healthy Volunteers",
+     "url": "https://longevityforesight.com/arrowhead%e7%9a%ae%e4%b8%8b%e6%b3%a8%e5%b0%84%e6%96%b0%e8%8d%af%e8%a7%81%e6%95%88%ef%bc%9a%e8%84%91%e8%84%8a%e6%b6%b2tau%e8%9b%8b%e7%99%bd%e9%aa%a4%e9%99%8d73/",
+     "source_zh": "Longevity Foresight（Arrowhead Pharmaceuticals）",
+     "source_en": "Longevity Foresight (Arrowhead Pharmaceuticals)",
+     "date": "2026-10-27",
+     "summary_zh": "Arrowhead公布RNAi药物ARO-MAPT的1/2a期中期数据：皮下注射可穿透血脑屏障，最高剂量组健康志愿者第105天脑脊液总tau蛋白平均下降73%（个体最高85%），停药90天后效应仍维持，支持每三个月给药；不良反应多为1级，无严重事件。能否转化为认知获益仍需2027年患者数据验证。",
+     "summary_en": "Arrowhead reported interim Phase 1/2a data for its RNAi drug ARO-MAPT: subcutaneous dosing crossed the blood-brain barrier and lowered mean cerebrospinal fluid total tau by 73% at day 105 in the highest-dose healthy-volunteer group (up to 85% in one participant), persisting 90 days after the last dose and supporting quarterly dosing. Adverse events were mostly grade 1 with no serious events; whether this translates into cognitive benefit awaits 2027 patient data."
+    },
+    {
+     "title_zh": "《柳叶刀·健康长寿》：衰弱与活动能力下降不只是肌肉问题，而是整套运动系统衰老",
+     "title_en": "Lancet Healthy Longevity: Frailty Is Not Just Muscle Loss but Aging of the Whole Motor System",
+     "url": "https://www.163.com/dy/article/LAAEV3O205149U3U.html",
+     "source_zh": "全球医生组织（网易号，柳叶刀·健康长寿）",
+     "source_en": "Global Doctor Organization (The Lancet Healthy Longevity)",
+     "date": "2026-10-28",
+     "summary_zh": "《柳叶刀·健康长寿》新研究提出，衰老导致的力量与活动能力下降是脑、神经、肌肉整套运动系统的退变，肌肉量仅能解释小部分力量衰减；即使肌肉尚在，神经募集信号也已减弱，爆发力下降早于肌肉萎缩。作者建议把肌少症重新定义为运动系统衰老疾病，评估加入起身速度、行走中交谈等指标，并排查镇静与抗胆碱药物的抑制影响。",
+     "summary_en": "A new Lancet Healthy Longevity paper argues that age-related loss of strength and mobility reflects degeneration of the entire brain-nerve-muscle motor system, with muscle mass explaining only a small part of strength decline; neural recruitment weakens even when muscle persists, and power fades before atrophy. The authors propose redefining sarcopenia as a motor-system aging disease, adding measures such as rising speed and talking while walking, and reviewing sedative and anticholinergic drugs."
+    },
+    {
+     "title_zh": "Klotho抗衰疗法卡在「半衰期」：微囊化细胞持续递送或成破局方案",
+     "title_en": "Klotho Therapy Stuck on Half-Life: Encapsulated Cell Delivery as a Way Forward",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261028000616016.htm",
+     "source_zh": "生物通（Frontiers in Aging）",
+     "source_en": "BioTrade (Frontiers in Aging)",
+     "date": "2026-10-28",
+     "summary_zh": "《Frontiers in Aging》综述指出，Klotho表达随年龄下降，与肾、心血管、神经退行及代谢疾病密切相关；但重组Klotho蛋白血清半衰期仅约7.5小时且易被肾脏清除，基因与细胞疗法又面临免疫清除，临床转化受限。文章提出用Cell-in-a-Box微囊化包裹产Klotho细胞，实现持续分泌与免疫保护，作为抗衰老与疾病修饰的递送新策略。",
+     "summary_en": "A Frontiers in Aging review notes that Klotho declines with age and is tied to renal, cardiovascular, neurodegenerative and metabolic disease, yet recombinant Klotho has a serum half-life of only about 7.5 hours and is rapidly cleared by the kidney, while gene and cell therapies face immune rejection. The authors propose encapsulating Klotho-producing cells with Cell-in-a-Box technology to achieve sustained secretion and immune protection as a new delivery strategy for anti-aging and disease modification."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "Nature Communications四大队列：EDISEA饮食指数让表观遗传衰老减速约4年，死亡风险降20%",
+     "title_en": "Four Cohorts in Nature Communications: EDISEA Diet Index Slows Epigenetic Aging by About 4 Years",
+     "url": "https://news.qq.com/rain/a/20261026A0CV5E00",
+     "source_zh": "腾讯网（Nature Communications）",
+     "source_en": "Tencent News (Nature Communications)",
+     "date": "2026-10-26",
+     "summary_zh": "《Nature Communications》基于四大队列构建EDISEA饮食指数，把饮食与分子层面的衰老速度直接挂钩：依从性高者表观遗传衰老约减速3至4年，全因死亡风险降低约20%，肾、脂肪与肠道等器官特异性衰老差距更优，40个皮质区域厚度增加。可操作方向很简单——多喝茶、多吃全谷物与水果，少碰油炸食品、酒、加工肉与含糖饮料。",
+     "summary_en": "Built on four cohorts and published in Nature Communications, the EDISEA dietary index links diet directly to molecular aging pace: higher adherence was associated with roughly 3 to 4 years slower epigenetic aging, about 20% lower all-cause mortality, better organ-specific aging profiles in kidney, fat and gut, and thicker cortex in 40 brain regions. The practical message: more tea, whole grains and fruit; less fried food, alcohol, processed meat and sugary drinks."
+    },
+    {
+     "title_zh": "一颗青花菜两种营养：花球与芽苗功能性成分时空图谱绘出「精准营养分布模型」",
+     "title_en": "One Broccoli, Two Nutrient Profiles: Mapping Functional Compounds Across Florets and Sprouts",
+     "url": "https://ivf.caas.cn/xwdt/zhxw/5e29cef3d41d4bfa84234331c2884b2f.htm",
+     "source_zh": "中国农业科学院蔬菜花卉研究所（Food Chemistry: X）",
+     "source_en": "Institute of Vegetables and Flowers, CAAS (Food Chemistry: X)",
+     "date": "2026-10-27",
+     "summary_zh": "中国农科院蔬菜花卉所采用同基因型不同发育阶段的纵向代谢组学策略，绘制青花菜花球与芽苗功能性成分时空图谱：芽苗富萝卜硫苷与叶酸，花球富维生素C及己酸、庚酸，后者在花球期较芽苗期最高提升上千个百分点；共检出9种短链脂肪酸。研究建立「精准营养分布模型」，为不同人群膳食选择与定向育种提供依据。",
+     "summary_en": "Using a longitudinal metabolomic comparison of the same genotype at different developmental stages, CAAS researchers mapped functional compounds in broccoli florets and sprouts: sprouts are rich in glucoraphanin and folate, while florets are rich in vitamin C plus hexanoic and heptanoic acids, which rose by orders of magnitude at the floret stage, with nine short-chain fatty acids detected. The resulting precision-nutrition distribution model informs dietary choices for different populations and targeted breeding."
+    },
+    {
+     "title_zh": "「土豆米」抗结肠炎：抗性淀粉经菌群—短链脂肪酸—胆汁酸轴起效",
+     "title_en": "Potato Rice Eases Colitis via the Microbiome–SCFA–Bile Acid Axis",
+     "url": "https://news.sciencenet.cn/sbhtmlnews/2026/10/391774.shtm",
+     "source_zh": "中国科学报（Journal of Agricultural and Food Chemistry）",
+     "source_en": "China Science Daily (Journal of Agricultural and Food Chemistry)",
+     "date": "2026-10-26",
+     "summary_zh": "深圳大学吴奇院士与香港中文大学团队以「分子编织」工艺把带皮鲜薯与谷物粉重组成耐嚼、耐储的土豆米，煮熟后保持5型抗性淀粉结晶。小鼠长期食用后菌群α多样性提升，急性结肠炎模型中症状减轻、上皮屏障完整、短链脂肪酸升高并恢复胆汁酸稳态；菌群清除与粪菌移植实验证实其作用依赖肠道菌群。",
+     "summary_en": "Using a molecular-weaving process, Shenzhen University's Wu Qi and CUHK colleagues reshaped peeled fresh potatoes with cereal flour into chewy, shelf-stable potato rice that retains type-5 resistant starch after cooking. Long-term feeding raised gut microbial alpha diversity in mice and, in acute colitis, eased symptoms, preserved epithelial barrier integrity, increased short-chain fatty acids and restored bile acid homeostasis; antibiotic clearance and fecal transplant experiments confirmed the effect is microbiome-dependent."
+    },
+    {
+     "title_zh": "为什么有人喝甜饮料更易脂肪肝：低睾酮叠加高果糖，经肠道丙酮酸放大肝脂沉积",
+     "title_en": "Why Sugary Drinks Hit Some Livers Harder: Low Testosterone Plus Fructose via Gut Pyruvate",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261026225622.htm",
+     "source_zh": "ScienceDaily（宇都宫大学）",
+     "source_en": "ScienceDaily (Utsunomiya University)",
+     "date": "2026-10-27",
+     "summary_zh": "日本宇都宫大学团队发现，低睾酮与高果糖摄入单独作用时肝脏甘油三酯变化有限，两者叠加则脂肪堆积显著加重、脂肪肝恶化；抗生素清除菌群可削弱该效应，机制指向肠道菌群改变使肠内丙酮酸升高，丙酮酸与果糖协同促进肝细胞中性脂质沉积。提示果糖危害存在显著个体差异，雄激素状态是重要修饰因素。",
+     "summary_en": "Researchers at Japan's Utsunomiya University found low testosterone and high fructose each produced only modest liver changes alone, but together sharply increased fat accumulation and worsened fatty liver; antibiotics blunted the effect, and the mechanism traced to microbiome shifts raising intestinal pyruvate, which acts synergistically with fructose to promote neutral lipid storage in hepatocytes. Fructose risk thus varies markedly between individuals, with androgen status a key modifier."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "IFF推出产GABA益生菌HOWARU GutABAlite：六周空腹胰岛素降约18%、HOMA-IR降约20%",
+     "title_en": "IFF Launches GABA-Producing Probiotic HOWARU GutABAlite: Fasting Insulin Down ~18%",
+     "url": "https://www.iff.com/media/news/iff-launches-howaru-gutabalite-a-gaba-producing-probiotic-for-metabolic-health/",
+     "source_zh": "IFF官方新闻稿",
+     "source_en": "IFF Official Press Release",
+     "date": "2026-10-26",
+     "summary_zh": "IFF发布产GABA益生菌HOWARU GutABAlite（短乳杆菌LBR-6108）：随机双盲安慰剂对照人体研究显示，补充六周后日均葡萄糖暴露下降，空腹胰岛素与胰岛素抵抗指标HOMA-IR分别呈约18%与20%的下降趋势，并在肠道增加有益短链脂肪酸；停补后效应减弱，提示需持续补充。",
+     "summary_en": "IFF introduced HOWARU GutABAlite (Levilactobacillus brevis LBR-6108), a GABA-producing probiotic: in a randomized, double-blind, placebo-controlled human study, six weeks of supplementation lowered daily glucose exposure and showed trends of roughly 18% lower fasting insulin and about 20% lower HOMA-IR, alongside increased beneficial short-chain fatty acids in the gut. Effects diminished after supplementation stopped, implying a need for continued intake."
+    },
+    {
+     "title_zh": "每天一勺菊粉改善膝骨关节炎疼痛与肌力，依从性远优于数字物理治疗",
+     "title_en": "Daily Inulin Eased Knee Osteoarthritis Pain and Improved Strength With Far Better Adherence",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261027230715.htm",
+     "source_zh": "ScienceDaily（诺丁汉大学 / Nutrients）",
+     "source_en": "ScienceDaily (University of Nottingham / Nutrients)",
+     "date": "2026-10-27",
+     "summary_zh": "诺丁汉大学团队在《Nutrients》发表随机研究：膝骨关节炎患者每日补充菊粉（菊苣根来源益生元）后疼痛减轻、肌力改善，且依从性远优于数字物理治疗组——单纯菊粉组脱落率仅3.6%，物理治疗组为21%。研究者认为改善肠道菌群可能成为关节炎管理的补充路径，尤其适合难以坚持运动处方的患者。",
+     "summary_en": "In a randomized trial published in Nutrients, University of Nottingham researchers found daily inulin — a prebiotic fiber from chicory root — reduced knee osteoarthritis pain and improved muscle strength, with far better adherence than a digital physical therapy program: only 3.6% of the inulin-only group dropped out versus 21% on physical therapy alone. The authors suggest improving gut health could become an additional arthritis management strategy, especially for patients who struggle to sustain exercise programs."
+    },
+    {
+     "title_zh": "更年期补充剂进超市：澳洲Coles引入MTick认证，首批200余款产品2027年初上线",
+     "title_en": "Menopause Supplements Move Into Supermarkets as Australia's Coles Adopts MTick",
+     "url": "https://www.nutraingredients.com/Article/2026/10/27/australias-supermarket-chain-coles-expands-menopause-products-with-mtick/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-27",
+     "summary_zh": "澳大利亚连锁超市Coles与英国GenM的MTick认证合作，把更年期支持类产品纳入日常货架：认证覆盖睡眠、骨骼、补水、肠道、皮肤与整体健康等更年期表现，首批200余款认证产品将于2027年初先行上线线上专区、随后进店，Swisse、Lifespace等品牌在列。渠道方强调超市是补充而非替代药房。",
+     "summary_en": "Australian supermarket chain Coles is expanding its menopause-support range through a partnership with UK-based GenM's MTick certification, covering products for sleep, bone health, hydration, gut health, skin and overall wellbeing among the 48 signs of menopause. More than 200 certified products will launch on an online menopause hub in early 2027 before moving in-store, including brands such as Swisse and Lifespace; the retailer stresses supermarkets complement rather than replace pharmacies."
+    },
+    {
+     "title_zh": "不补菌、改「吸附」：丹麦Bactolife结合蛋白进入美国肠道健康市场，人体数据年底出炉",
+     "title_en": "Not More Probiotics but Binding Proteins: Bactolife Enters US Gut Health Market",
+     "url": "https://www.nutraingredients.com/Article/2026/10/27/bactolife-targets-us-gut-health-market-with-novel-binding-proteins/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-27",
+     "summary_zh": "丹麦Bactolife以精密发酵生产Helm结合蛋白，机制是靶向结合肠道内有害蛋白代谢物、阻止其接触肠壁，而非直接补充或喂养菌株；产品已通过Healthgevity的GUTgevity进入美国市场，先面向健康从业者。公司称三项人体干预研究正在进行，首项2026年底完成，届时才有支持肠屏障与免疫的人体证据。",
+     "summary_en": "Danish biosolutions firm Bactolife produces precision-fermented Helm binding proteins designed to bind harmful protein metabolites in the gut before they reach the intestinal lining, rather than adding or feeding bacteria. The ingredient entered the US market via Healthgevity's GUTgevity supplement, initially for healthcare practitioners. Three human intervention studies are underway, the first concluding by the end of 2026, meaning current gut-barrier and immune claims rest on preclinical evidence."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "广东发布县域医共体三年行动方案：2028年基层诊疗量占比力争65%以上",
+     "title_en": "Guangdong Sets Three-Year County Medical Community Plan: 65% of Care at Grassroots by 2028",
+     "url": "https://news.southcn.com/node_54a44f01a2/0f6abd4803.shtml",
+     "source_zh": "南方新闻网（广东省人民政府）",
+     "source_en": "Southcn.com (Guangdong Provincial Government)",
+     "date": "2026-10-27",
+     "summary_zh": "10月27日广东省政府官网发布《紧密型县域医疗卫生共同体高质量发展行动方案（2026—2028年）》：到2027年底100%医共体实现统一法定代表人与覆盖全部基层分院的「分布式检查、集中式诊断」；2028年力争85%以上县域基层诊疗量占比达65%，并落实「三高六病」红黄绿三色分级管理与医保结余留用。",
+     "summary_en": "Guangdong published a three-year action plan for tightly integrated county medical communities: by the end of 2027 all should have a unified legal representative and distributed testing with centralized diagnosis across every township branch, and by 2028 more than 85% of counties should reach a 65% grassroots share of visits. The plan also mandates red-yellow-green tiered management of hypertension, hyperglycemia, dyslipidemia and six related complications, with medical insurance savings retained locally."
+    },
+    {
+     "title_zh": "德阳举办糖尿病诊疗暨体重管理技术培训班：190名基层人员统一诊疗与体重管理规范",
+     "title_en": "Deyang Trains 190 Grassroots Clinicians on Diabetes Care and Weight Management",
+     "url": "https://scnews.newssc.org/system/20261028/001650688.html",
+     "source_zh": "四川新闻网（德阳市疾控中心）",
+     "source_en": "Sichuan News (Deyang CDC)",
+     "date": "2026-10-28",
+     "summary_zh": "在德阳市卫健委指导下，德阳市疾控中心于10月22日举办糖尿病诊疗暨体重管理技术培训班，190名来自各县区糖尿病防治指导中心、乡镇卫生院与社区卫生服务中心的专业人员参加；课程涵盖《中国老年2型糖尿病防治临床指南（2026版）》分层管理、肥胖症中西医诊疗路径与糖尿病足诊治指南，统一基层防治与体重管理工作标准。",
+     "summary_en": "Under the Deyang health commission, the city CDC held a diabetes care and weight management training course on October 22 for 190 clinicians from county diabetes centers, township hospitals and community health centers. Sessions covered tiered management in the 2026 Chinese guideline for older adults with type 2 diabetes, integrated Chinese-Western obesity care pathways and the diabetic foot guideline, standardizing grassroots prevention and weight management practice."
+    },
+    {
+     "title_zh": "新疆「1+1+1」家庭医生团队：县级专家下沉包联，健康服务嵌入基层治理",
+     "title_en": "Xinjiang's 1+1+1 Family Doctor Teams Bring County Specialists to Villages",
+     "url": "http://www.xj.xinhuanet.com/20261027/683edbac618d491abdde2baf33b4869b/c.html",
+     "source_zh": "新华网新疆频道",
+     "source_en": "Xinhua News Xinjiang Channel",
+     "date": "2026-10-27",
+     "summary_zh": "新疆以「1+1+1」「N+1+1」家庭医生团队模式，把县级专科专家、乡镇医护与村医编组，建立二三级医院医师常态化下沉包联机制；签约居民获动态电子健康档案、慢病随访、长处方与转诊绿色通道，新就业群体逐步纳入。拜城县还把健康服务嵌入村公共卫生委员会与基层治理网络，破解随访找不到人、群众不配合的难题。",
+     "summary_en": "Xinjiang is organizing family doctor teams on a 1+1+1 and N+1+1 model that pairs county specialists, township clinicians and village doctors, with a standing mechanism for secondary and tertiary hospital physicians to be assigned to grassroots units. Contracted residents receive dynamically updated electronic health records, chronic disease follow-up, long prescriptions and green-channel referrals, with gig workers gradually included; Baicheng County embeds services in village public health committees to solve follow-up and non-cooperation problems."
+    },
+    {
+     "title_zh": "杭州萧山试点「萧慧减」体重管理智能体：135人30天人均减重3.5公斤",
+     "title_en": "Hangzhou's Xiaoshan Pilots AI Weight Agent: 3.5 kg Lost in 30 Days Across 135 Users",
+     "url": "https://www.xiaoshan.gov.cn/col/col1302906/art/2026/art_6624bab2a77a44a09d61263655782037.html",
+     "source_zh": "杭州市萧山区人民政府（萧山日报）",
+     "source_en": "Xiaoshan District Government, Hangzhou (Xiaoshan Daily)",
+     "date": "2026-10-28",
+     "summary_zh": "杭州萧山区卫健局在萧山医院试点上线「萧慧减」体重管理智能体，以「AI+医生」打通筛查评估、方案制定与执行跟踪全周期：报告关键指标识别准确率与召回率均达99%，方案须医生审核后执行。试运行135名真实用户30天人均减重3.5公斤，食物AI识别准确率90.2%，并在33名学生中开展儿童体重干预试点。",
+     "summary_en": "Xiaoshan District's health commission launched the Xiaohuijian weight management agent at Xiaoshan Hospital, using an AI-plus-doctor model across screening, assessment, planning and follow-up: report recognition reaches 99% precision and recall, and every plan requires physician sign-off. In a pilot with 135 real users, average weight loss was 3.5 kg over 30 days, food image recognition hit 90.2% accuracy, and a childhood weight program now covers 33 students."
+    }
+   ]
+  }
+ ]
+}
