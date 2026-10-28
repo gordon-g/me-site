@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-28 · GitHub AI 日报</title>
+<meta name="description" content="今天最值得记的一条，是腾讯云把"云开发后端"正式做成了 Agent 生态位。 CloudBase-AI-Toolkit 38 个 MCP 工具、482 个测试用例、托管远程连接器走 Streamable HTTP + OAuth 并已提交审核、Cursor Plugin 0.2.">
+<link rel="alternate" hreflang="en" href="https://www.54hrm.com/en/ai/2026-10-28/">
+<style>
+  :root{--ink:#1c2624;--ink-soft:#5b6b66;--ink-faint:#8a9893;--teal:#0e6b63;--teal-deep:#0a4a45;
+    --teal-soft:#e4efed;--amber:#c98a3d;--line:#e6e2da;--paper:#faf9f6;--card:#fff;--radius:18px;
+    --shadow:0 1px 2px rgba(28,38,36,.04),0 10px 30px -12px rgba(28,38,36,.12);
+    --serif:"Iowan Old Style","Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    --mono:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--teal-soft);color:var(--teal-deep)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:19px}
+  .brand em{font-style:normal;color:var(--teal)}
+  .nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-soft)}
+  .nav-links a:hover{color:var(--teal)}
+  .nav-links a.lang{font-weight:600;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+  .sec{padding:56px 0 80px}
+  .kicker{font-family:var(--serif);color:var(--teal);font-size:14px;font-weight:600;letter-spacing:.06em;margin-bottom:10px}
+  .sec-head h1{font-family:var(--serif);font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.2;letter-spacing:-.015em}
+  .sec-sub{color:var(--ink-soft);margin-top:14px;max-width:660px;text-wrap:pretty}
+  .crumb{font-size:13.5px;color:var(--ink-faint);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap}
+  .crumb a:hover{color:var(--teal)}
+  .art{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,52px);margin-top:26px}
+  .art h2{font-family:var(--serif);font-size:clamp(21px,3vw,26px);font-weight:600;margin:44px 0 16px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  .art h2:first-child{margin-top:0;padding-top:0;border-top:0}
+  .art h3{font-size:17.5px;font-weight:600;margin:30px 0 10px;line-height:1.5;color:var(--teal-deep)}
+  .art h4{font-size:16px;font-weight:600;margin:22px 0 8px}
+  .art p{margin:12px 0;text-wrap:pretty}
+  .art ul,.art ol{margin:12px 0 12px 22px}
+  .art li{margin:7px 0}
+  .art li>ul,.art li>ol{margin:7px 0 7px 20px}
+  .art strong{font-weight:600;color:var(--ink)}
+  .art a{color:var(--teal);border-bottom:1px solid rgba(14,107,99,.28);word-break:break-word}
+  .art a:hover{border-bottom-color:var(--teal)}
+  .art code{font-family:var(--mono);font-size:.88em;background:var(--teal-soft);color:var(--teal-deep);padding:1px 6px;border-radius:5px}
+  .art pre{background:#f3f1ec;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:14px 0}
+  .art pre code{background:none;padding:0;font-size:13px}
+  .art blockquote{border-left:3px solid var(--teal);background:var(--teal-soft);padding:12px 18px;border-radius:0 10px 10px 0;margin:14px 0;color:var(--teal-deep)}
+  .art blockquote p{margin:0}
+  .art-hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+  .art table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  .art th,.art td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+  .art th{background:#f5f3ee;font-weight:600}
+  .art-meta{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;color:var(--ink-faint);margin-top:16px}
+  .art-meta .tag{font-family:var(--mono);background:var(--teal-soft);color:var(--teal-deep);padding:3px 10px;border-radius:999px}
+  .art-note{background:#f7f5f0;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:var(--ink-soft);line-height:1.75;display:grid;gap:2px}
+  .art-note b{color:var(--ink);font-weight:600;margin-right:8px}
+  .pager{display:flex;justify-content:space-between;gap:14px;margin-top:30px;font-size:14px}
+  .pager a{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:all .2s}
+  .pager a:hover{border-color:var(--teal);color:var(--teal)}
+  .pager .dir{font-size:12px;color:var(--ink-faint);display:block;margin-bottom:4px}
+  .pager .right{text-align:right}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow);transition:all .2s;display:flex;flex-direction:column;gap:10px}
+  .card:hover{transform:translateY(-2px);border-color:rgba(14,107,99,.35)}
+  .card-date{font-family:var(--mono);font-size:19px;color:var(--teal);letter-spacing:.02em}
+  .card-date span{font-family:var(--sans);font-size:12px;color:var(--ink-faint);margin-left:6px;letter-spacing:0}
+  .card-sum{font-size:14px;color:var(--ink-soft);flex:1}
+  .card-picks{font-size:13.5px;color:var(--ink);list-style:none;display:flex;flex-direction:column;gap:6px}
+  .card-picks li{padding-left:14px;position:relative;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-picks li::before{content:"·";position:absolute;left:3px;color:var(--teal);font-weight:700}
+  .card-more{font-size:13px;color:var(--teal);font-weight:600}
+  footer{border-top:1px solid var(--line);padding:34px 24px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:2}
+  footer .brand{font-size:15px;color:var(--ink);margin-bottom:8px}
+  footer a:hover{color:var(--teal)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/">匆匆<em>上岸</em></a>
+    <nav class="nav-links">
+      <a href="/#services">服务</a>
+      <a href="/#projects">作品</a>
+      <a href="/#briefing">简报</a>
+      <a href="/ai/">AI 日报</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+      <a href="/en/ai/2026-10-28/" lang="en" hreflang="en" title="Switch to English" class="lang">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <div class="crumb"><a href="/">首页</a> / <a href="/ai/">AI 日报</a> / <span>2026-10-28</span></div>
+    <div class="sec-head">
+      <div class="kicker">GITHUB AI DAILY · 每天 10:00 更新</div>
+      <h1>GitHub AI 日报 · 2026-10-28（周三）</h1>
+      <div class="art-meta"><span class="tag">精选 5 条</span><span>2026-10-28 · 周三</span><span>数据源 GitHub 公开仓库</span></div>
+    </div>
+    <article class="art"><div class="art-note"><div><b>统计窗口</b>2026-10-27 12:00 ~ 2026-10-28 12:00（北京时间；提交时间按 GitHub committer date 记录并统一归一到 UTC，表中日期为北京时间换算后的自然日。个别条目为 10-26 / 10-25 / 10-21 提交，已在表内显式标注"放宽窗口"）</div><div><b>覆盖方向</b>AI Coding / 编程智能体与技能生态 · 医学 / 临床研究 AI 与 Agent 技能库 · 健康管理 / 营养与食品 AI · 模型底座与 Agent 基础设施</div><div><b>去重说明</b>已与 10-16 至 10-26 十一期推送记录逐条比对（累计 310 个历史仓库），本期 35 个条目全部为首次出现。往期出现过的 `aipoch/open-science`（10-22）、`synthetic-sciences/openscience`（10-25）、`Cloudgeni-ai/opengeni`（10-24）、`Human-Agent-Society/reef`（10-26）、`openfoodfacts/openfoodfacts-server`（10-23）、`openfoodfacts/smooth-app`（10-25）、`apoorvdarshan/fud-ai`（10-19 至 10-21）、`AgriciDaniel/claude-seo`（10-26）、`jetbrains/thinkrail`（10-26）今日虽有提交或星数仍在上涨，本期一律不重复入榜。`elayadesign/ai-design-skills` 虽为今日英文趋势榜第一，但默认分支仅有 10-27 一条拆分提交，故只在分类表内出现，不进精选。`openfoodfacts/openfoodfacts-ai` 今日 `pushed_at` 更新但默认分支无对应新提交，已剔除。</div><div><b>核验口径</b>所有"当日有动作"条目均以 `repos/{o}/{r}/commits` 默认分支的实际提交记录为准（`pushed_at` 仅供参考，可能来自非默认分支或 tag）。Star 数与许可证取自 GitHub API 实时快照（截至 2026-10-28 12:00 北京时间）；许可证字段为 `None` 的仓库标注为"未声明"，为 `NOASSERTION` 的标注为"非标准授权"，均表示 GitHub 未能自动识别出标准 SPDX 许可证，不代表无授权条款。</div></div><h2>一、今日精选 5 条</h2>
+<h3>1. TencentCloudBase/CloudBase-AI-Toolkit：腾讯把「云开发后端」正式做成了 AI 编程 Agent 的插件、Skill 与 MCP 三件套</h3>
+<p><strong>地址</strong>：<a href="https://github.com/TencentCloudBase/CloudBase-AI-Toolkit" target="_blank" rel="noopener">https://github.com/TencentCloudBase/CloudBase-AI-Toolkit</a> ｜ ★1,152 ｜ MIT ｜ TypeScript，腾讯云 CloudBase 官方出品，为 Claude Code / Cursor / CodeBuddy / DeepSeek Harness / OpenCode / Codex CLI 等 Agent 提供云开发后端能力</p>
+<p><strong>事件内容</strong></p>
+<p>这是一个三天前刚把重点从"文档"转向"运行时防护"的项目，而今天它的提交全部指向<strong>把安全与一致性写进 agent 的日常操作路径</strong>。</p>
+<ul><li><strong>10-28 当天四条提交全是"防错"性质的</strong>：同步上游 cloudbase plugin skills、生成 cloudbase-intl 连接器包、<code>docs(skills): 虚拟支付补入站通知验真与退款判定</code>（把虚拟支付的入站通知验真与退款判定写进 Skill 文档）、<code>fix(mcp): 环境候选补齐 platform 类型，平台代建环境不再消失</code>。</li><li><strong>供应链安全从"指南"升级为"可执行策略"</strong>：<code>chore(supply-chain): fold npm security guide into AGENTS.md and drop specs exception</code> 把 npm 安全指南折叠进 Agent 指令文件，并取消 exceptions 豁免；同一天补齐安全策略、漏洞报告表单与"报告渠道收敛"三份文档。</li><li><strong>MCP 服务已具备生产级规模</strong>：38 个 MCP 工具、全量工具体系测试 482 个用例通过；托管远程连接器采用 Streamable HTTP + OAuth 并已提交平台审核，工具描述与运行期消息支持 <code>zh</code>/<code>en</code> 双语。</li><li><strong>能力面覆盖完整后端链路</strong>：云开发环境创建与切换、PostgreSQL/NoSQL 查询与 DDL、RLS 策略查看与编辑、云存储读写、云函数与云托管部署、静态托管发布、腾讯云 API 受控调用（服务白名单已扩至 57 个产品）。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>这一条直接命中我正在做的两件事。</strong> 一是我在推的微信小程序后端本来就是 CloudBase 路线（<code>cloudbase</code> skill 里已有 <code>web-development</code> / <code>postgresql</code> / <code>cloud-functions</code> / <code>auth-web</code> / <code>cloud-storage</code> 五个 skill），二是我的 <code>dsh</code>（DeepSeek Harness）本地 agent 也在跑。这份仓库今天正好把 <code>dsh-plugin</code> 的技能同步路径、<code>.cursor/rules</code>、<code>.claude-plugin</code>、<code>.codebuddy/skills</code> 这几种分发格式一起刷新了——<strong>等于直接告诉我"别人的多 Agent 生态是怎么铺的"</strong>，比我自己逆向猜要快得多。</li><li><strong>"虚拟支付补入站通知验真与退款判定"这条提交的价值远超它本身。</strong> 我做 GLP-1 营养伴侣 V2 时，"用药与停药的 cascade 判定"就是典型的"必须有确定性规则、不能靠模型自由发挥"的环节。他们把这条写成 Skill 文档并配 MCP 工具，说明<strong>这条路径已经在别人的生产环境跑过了</strong>——我可以直接对照他们怎么定义边界，而不是自己拍脑袋。</li><li><strong>"平台代建环境不再消失"是一条关于 agent 记忆的教训。</strong> 环境候选列表里补上 <code>platform</code> 类型，说明 agent 之前会把"平台代建"的环境从候选里漏掉，导致用户以为环境不存在。<strong>这类"类型标记不全导致状态丢失"的 bug，我在 4P 精准营养平台的干预报告版本管理里也踩过同款。</strong> 看别人怎么补这个字段，比自己 debug 快。</li><li><strong>它同时立了个标准：新建关系型数据库优先推荐 PostgreSQL，MySQL Skill 只留给存量环境。</strong> 这条对我在做云端存储选型时是现成的决策依据。</li></ul>
+<hr class="art-hr">
+<h3>2. itsoso/health-llm-driven：中文圈把「个人健康 OS」做成了产品——数字健康孪生、安全守护、行动排序、干预周期四段闭环</h3>
+<p><strong>地址</strong>：<a href="https://github.com/itsoso/health-llm-driven" target="_blank" rel="noopener">https://github.com/itsoso/health-llm-driven</a> ｜ ★3 ｜ 未声明 ｜ Python / FastAPI + Swift + Expo，大模型驱动的个人健康管理与执行系统（项目名"复元 Reva · Personal Health OS"）</p>
+<p><strong>事件内容</strong></p>
+<p>星数只有 3，但它是我看过的<strong>产品结构最完整的个人健康管理开源系统</strong>，而且是中文团队写的、面向 35–55 岁有早期代谢风险的人群——定位几乎就是我的目标用户。</p>
+<ul><li><strong>产品闭环写得很明确</strong>：体检/可穿戴/症状/用药/补剂/行为记录 → 数字健康孪生（整理个人状态与证据）→ 安全检查 → 行动排序 → 健康日程（Mobile/Watch/Mac 辅助执行）→ 执行记录 → 复查与结果回顾 → 下一轮行动。<strong>长期目标是形成可追溯的"行动与结果账本"：建议了什么、实际执行了什么、哪些结果被验证、证据有哪些局限。</strong></li><li><strong>安全守护是一个独立 Agent，不是提示词里的一句话</strong>：对生命体征、化验、药物与补剂相互作用、药物基因组、血糖、症状和训练负荷执行<strong>规则检查</strong>；健康日程排序明确按"可执行性、可验证性、信心、执行成本与安全等级"五个维度打分。</li><li><strong>10-28 当天的提交全部围绕"发布可信度"</strong>：<code>docs(chat): record photo-reference safety review and release blockers</code>（记录照片引用的安全评审与发布阻塞项）、<code>fix(chat): clarify supplement photo references and adopt guardian icon</code>（澄清补剂照片引用并启用监护人图标）、<code>docs(release): record verified guardian icon and supplement delivery</code>（记录已验证的监护人图标与补剂交付）、<code>fix(ota): preserve Store 282 native branding boundary</code>、<code>fix(release): bind completed credential and preserve recovery cwd</code>。</li><li><strong>技术底座</strong>：后端 FastAPI + PostgreSQL + Redis + Celery，Agent 执行用官方 Pi runtime（Node.js）并由 Python 负责模型传输与健康工具执行；Mobile 用 Expo/React Native，Watch 与 Mac 端是 Swift 原生，另含 Next.js Web 与 <code>mcp-server/</code> 目录。</li><li><strong>边界写得很克制</strong>：不开处方、不自主调药量、不以模型回答替代诊断、证据不足时明确说明不确定性、高风险路径走安全规则 + 人工审核 + 临床随访；趋势变化必须结合噪声与缺失数据解释，<strong>不能直接视为因果证明</strong>。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>它的四段结构和我 GLP-1 营养伴侣 V2 的模块几乎是一一对应的</strong>：我把功能拆成"食材模板 + 15 功能靶点 + 早/晚双杯方案 + Mazdutide 用药停药 cascade + 化验指标趋势追踪"，它拆成"健康孪生 + 安全守护 + 行动排序 + 干预周期"。<strong>但它多出两个我还没有的东西：执行成本与安全等级作为排序维度，以及"可追溯的行动与结果账本"。</strong> 后者正是我说的"每次交互数据持久化以支持自我进化学习"想达到的效果，它给出了更工程化的表述。</li><li><strong>"补剂照片引用"这件事，它踩的坑和我一样。</strong> 补剂干预报告里最容易出事的就是"用户拍照上传的产品图 → 系统认成什么成分 → 生成剂量建议"这条链。它把照片引用的<strong>安全评审单独作为发布阻塞项</strong>记录在案，还专门给补剂交付做了"监护人图标"这种防误导设计。<strong>这等于替我把一遍坑先踩了</strong>。</li><li><strong>"不能直接视为因果证明"这句提醒，比任何功能都值钱。</strong> 我所有的健康内容都要附循证证据，如果我的系统开始说"因为你吃了 X 所以指标变好了"，那就是幻觉的另一种形态。它把这句话写进了产品目标而不是 FAQ。</li><li><strong>它是"中文 + 移动优先 + 多端"的完整实现，这一点比它 3 个星重要。</strong> 我做一人公司的最小可行版，最缺的不是算法而是"多端 + 后台 + 数据模型"这套骨架——它把 FastAPI + Postgres + Celery + Expo + Swift + Next.js + MCP server 全部摆在明面上。</li></ul>
+<hr class="art-hr">
+<h3>3. craft-b/formula-forge：临床营养配方 agent 划出了一条硬边界——模型只许提结构，营养数字一律由确定性层重算</h3>
+<p><strong>地址</strong>：<a href="https://github.com/craft-b/formula-forge" target="_blank" rel="noopener">https://github.com/craft-b/formula-forge</a> ｜ ★0 ｜ MIT ｜ Python / FastAPI + LangGraph + Groq，面向临床与机构营养场景的食品配方设计系统（肾病人群、糖尿病、高蛋白、低脂、纯素）</p>
+<p><strong>事件内容</strong></p>
+<p>这是一个只有 0 星的新项目，但它把"AI 生成营养方案"这件事的<strong>工程边界划得比大多数商业产品都清楚</strong>。</p>
+<ul><li><strong>信任边界是单一函数</strong>：<code>_resolve_formula()</code> 是生成结果进入界面的唯一路径，系统<strong>只接收每个配方行的三个字段</strong>（<code>ref</code>、<code>percentage</code>、<code>notes</code>），模型输出的其他营养字段直接丢弃；<code>CandidateFormula</code> 类型本身就不含营养字段，也不含 <code>overrun_pct</code>。</li><li><strong>解析失败硬拒绝</strong>：食材引用解析不到受治理食材库就硬拒绝，绝不猜测替换成相近食材；配方总百分比偏离 100% 不超过 40 个百分点时做有界比例修复，超过即拒绝。</li><li><strong>一次受限修复</strong>：首次生成违规后最多重新生成一次，修复提示里写明每个违规项的实测值与限值；仍违规就明确标记为不合规返回，<strong>不伪装成已验证配方</strong>。<code>_resolve_formula()</code> 是直线代码没有循环，结构上不存在第三次生成。</li><li><strong>指标是硬数字</strong>：受治理食材库 34 种、数据集版本 2026.10.0（USDA FDC Foundation Foods）、后端与领域测试 420 项、golden compliance set 18 个用例、schema 有效率 100%、合规准确率 100%、路由评估 46 个已标注 brief、意图路由正确率 100%、规则集激活正确率 100%。</li><li><strong>10-28 当天三条提交在收拾"多嘴"问题</strong>：<code>Stop the UI narrating a pipeline it cannot see, and the proxy failing silently</code>（让界面停止叙述它看不见的流程，并修掉代理静默失败）、<code>Merge b3-verified: close B3, and stop three surfaces asserting what they cannot see</code>（关闭 B3，并让三个界面不再断言它们看不到的东西）、<code>Explain the wait on the Idea Stream, where a first visitor actually lands</code>。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"模型只提结构、数字由确定性层算"这句话，就是我一直在说的"强制循证 + 零 AI 幻觉"的工程版本。</strong> 我在 GLP-1 营养伴侣 V2 里靠"食材模板 + 规则引擎 + 禁用补剂清单"来实现，它靠"受治理食材库 + 领域层纯 Python 计算 + 声明式 JSON 规则集 + 一次性受限修复"。<strong>两条路殊途同归，而且它的可验证性做得更硬——合规准确率 100% 这种数字，是能直接写进我方报告的说服力资产。</strong></li><li><strong>"最多一次修复"这个上限设计，比"循环直到通过"高明得多。</strong> 我在做补剂配方冲突时的逻辑一直是"给一次带具体违规反馈的重来机会"，但我从来没把它写成硬约束。它用代码结构（直线函数、无循环）保证"不存在第三次生成"——<strong>把产品原则写进类型定义和函数形状，而不是写进文档里靠人记</strong>，这是我可以整体搬过去的一招。</li><li><strong>它最戳我的是最后那条提交：让界面停止叙述它看不见的流程。</strong> 这正是我反复警惕的"AI 说得好听但其实啥也没跑"。它把"界面不许宣称自己没验证过的东西"当成 bug 级别的问题来修。<strong>这条对 4P 补剂平台的干预报告是直接的：报告里任何一句"已优化""建议调整为"，背后都必须有真实的计算痕迹。</strong></li><li><strong>它把"受限食材库 + 版本化数据集"当成核心资产，而不是附属数据。</strong> 我做 4P 精准营养的食材库时，一直把它当成"查表用的静态资源"；它把它当成<strong>需要版本号、需要定期 ETL、需要人工补充功能属性的一等公民</strong>（PAC/POD、过敏原、成本）。这个定位差别，会决定我后面数据维护的成本结构。</li></ul>
+<hr class="art-hr">
+<h3>4. hashgraph-online/hol-guard：Agent 运行时终于有了自己的「杀毒软件」——危险工具、密钥外泄、提示注入、恶意包与 MCP 一并拦截</h3>
+<p><strong>地址</strong>：<a href="https://github.com/hashgraph-online/hol-guard" target="_blank" rel="noopener">https://github.com/hashgraph-online/hol-guard</a> ｜ ★1,002 ｜ Apache-2.0 ｜ Rust + Python，AI Agent 运行时防护（阻断高风险工具调用、密钥访问、提示注入、恶意包、MCP 服务器、插件与 Skills）</p>
+<p><strong>事件内容</strong></p>
+<p>今天它的提交密度是全站 AI Coding 类里最高的一档，而且<strong>八条提交里有五条在做同一件事：把"谁批准的、批的是哪一层"固化成可验证的状态</strong>。</p>
+<ul><li><strong>10-28 当天</strong>：<code>feat(guard): preview a redacted source export from the Workspaces tab</code>（从工作区页预览脱敏后的来源导出）、<code>refactor(approvals): settle an approval's scope and persistence in one resident ask</code>（在一次驻留询问里同时确定审批的范围与持久化）、<code>refactor(supply-chain): settle a package review from the resident's verdict</code>（依据驻留判定结论确定一次包审查结果）、<code>refactor(codex): walk a Codex hook source's inventory in the resident</code>（在驻留态里遍历 Codex hook 来源的清单）、<code>fix(runtime): watch mode keeps the known-vulnerable runtime finding over an earlier warning</code>（watch 模式下保留"已知存在漏洞的运行时"这条发现，而不是被更早的警告覆盖）、<code>feat(dashboard): load commands for command-line tools Guard has only seen in use</code>、<code>fix(command): read npm's report verbs as the reads they are</code>（把 npm 的 report 动词按"读"来解析）、<code>fix(command): create a branch at a start point without asking</code>。</li><li><strong>防护面覆盖六类风险</strong>：危险工具与命令（含 shell、工作区沙箱、<code>cd</code> 路径、工具权限）；密钥与凭据访问（在持久化工具调用通知前遮蔽 Bearer token、API key、<code>X-Api-Key</code>、<code>X-Auth-Token</code>、<code>--password</code>、<code>--api-key</code>）；提示注入（prompt policy、approval context、提交 hook）；恶意包与供应链（manifest 依赖解析、lockfile 一致性、版本冲突、离线安装前校验 bundle 签名，拒绝签名无效/过期/回滚的 bundle）；MCP（provider catalog、工具权限、URL 安全、持久化子进程生命周期）；插件与 Skills（发布者信任绑定、命令描述符、审批规则）。</li><li><strong>核心工程原则是 fail closed</strong>：原生运行时无法完成可信决策时<strong>不会自动降级为放行</strong>；策略决策有作用域粒度（global / harness / artifact / family）；本地一次性审批使用完整性材料并原子消费，避免重复使用。</li><li><strong>多 harness 集成</strong>：Claude Code、Codex、Copilot、Grok、Oh My Pi、Pi、OMP；分发形式包括 CLI、GitHub Action、Claude Code plugin、devcontainer feature、dashboard，以及 Kubernetes（k0s / k0rdent）部署示例。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"fail closed"这一条是我做 AI 助手产品最该抄的默认值。</strong> 我在 4pwellness 的 MCP 连接器和营养 AI 助手上，默认应该是"检测不到风险就按通过处理"吗？不是。<strong>默认应该是"无法确认就阻断并提示人工"</strong>——这个默认值决定了我的产品在上线后的第一周会不会被用户投诉。</li><li><strong>"审批的作用范围"这个概念，正是我在 4P 精准营养千人先锋项目里最缺的一块。</strong> 我一直担心的是"授权一次就被无限复用"。它把作用域拆成 global / harness / artifact / family 四层，再用完整性材料 + 原子消费实现"一次性授权只能用一次"——<strong>这正是我一直想要却没想清楚怎么表达的"授权边界"。</strong></li><li><strong>secret 遮蔽的具体字段清单可以直接复制。</strong> 我给 AI 助手接模型密钥时，token 会不会被打进日志、会不会出现在错误信息里被 agent 读走再回传给模型——这是真实风险。他们把这些字段名逐一列出来，我照抄即可。</li><li><strong>它同时说明了另一件事：agent 安全正在从"扫描仓库"转向"运行时拦截"。</strong> NVIDIA 的 SkillSpector 扫的是安装前的技能包，hol-guard 管的是运行中的每一次工具调用。<strong>两道闸门不冲突，而且是标配。</strong> 我在做"考证钩子 + 营养 AI 内核"的一人公司产品时，这两样都不该省。</li></ul>
+<hr class="art-hr">
+<h3>5. JuneYaooo/open-medical：给医生用的开源桌面 Agent——把"证据从哪来"做成三级分层，把"AI 改档案"做成待确认提案</h3>
+<p><strong>地址</strong>：<a href="https://github.com/JuneYaooo/open-medical" target="_blank" rel="noopener">https://github.com/JuneYaooo/open-medical</a> ｜ ★11 ｜ MIT ｜ TypeScript / Electron + Node.js + SQLite，面向医生的开源桌面 Agent（macOS / Windows）</p>
+<p><strong>事件内容</strong></p>
+<p>这是今天医学线里设计最完整的一个，它对"循证"和"人机分工"的处理方式值得逐条看。</p>
+<ul><li><strong>证据三级分层</strong>：治疗审查按 <code>knowledge → literature → web evidence tiers</code> 组织；知识库命中后可查看<strong>原文行号</strong>；资料保留作者或机构、年份、来源链接与版本；知识图谱、思维导图与流程图节点均可回溯原文；<strong>提取不到依据时不会自动补齐关系</strong>。文献检索支持 PubMed 与 Europe PMC，循证任务可准备 PICO 与检索式。</li><li><strong>AI 改档案走提案制</strong>："AI 对档案的更新以待确认提案呈现，医生核对后才写入"；同日冲突的数据保留供核对，不把不同单位的数值混成同一条趋势；检验结果导入保留项目、日期、数值、单位与出处。</li><li><strong>14 个临床任务模板</strong>覆盖收治病例全流程、整理病历、摘录检验、核对用药资料、生成病历草稿、用药安全核查、患教大白话、检验报告解读、出院小结草稿、值班交班记录、诊疗决策流程图（Mermaid，保留节点出处）、不良反应筛查（辅助准备 Naranjo 评估）、个案报告写作（CARE 框架）、准备循证检索。其中<strong>用药安全核查依赖有限的内置规则</strong>，检验报告解读依据报告单打印的参考范围。</li><li><strong>随访走微信</strong>：支持企业微信或个人微信渠道，流程是"AI 起草 → 医生确认发送 → 回复按条目整理 → 确认归档"；知识库机器人只引用明确允许对外使用的资料。</li><li><strong>10-28 当天</strong>：<code>Improve clinical evidence review and overview recovery</code>（改进临床证据复核与概览恢复）；10-27 一天六条：<code>Document evidence-based clinical interface development rules</code>、<code>Improve clinical overview hierarchy and reading contrast</code>、<code>Complete lab, source export and verifiable backup recovery workflows</code>、<code>Improve case context, follow-up linkage and source reading</code>、<code>Clarify task context, model connection status and patient intake</code>、<code>chore: release desktop 1.0.30</code>。</li><li><strong>本地优先但坦白边界</strong>：患者与消息数据存本机 SQLite（<code>~/.open-medical-workbench/medical.sqlite</code>，<strong>数据库本身未加密</strong>），模型密钥走本地凭据保险库加密；<strong>明确承认"本地优先"不等于用云模型时材料不会离开本机</strong>；同时明确列出不支持项——多人权限体系、机构级审计、HIS/EMR/FHIR 对接、机构部署验收。</li></ul>
+<p><strong>值得关注的原因</strong></p>
+<ul><li><strong>"AI 对档案的更新以待确认提案呈现，医生核对后才写入"这一句，是我全部健康内容生产原则的产品版。</strong> 我做 4P 补剂平台的干预报告时，一直坚持"用户确认后才落库"，但从来没用过"提案"这个载体——提案天然带 diff、带撤回、带审计痕迹，<strong>这是把"强制循证"从口号变成数据结构的正确方式。</strong></li><li><strong>它把"证据从哪来"分成三级并要求可回溯到原文行号，这正好补上我 GRPM 系统一直缺的外部标尺。</strong> 我在评估自家生成的营养建议质量时，最大的痛点就是"我拿什么当标准答案"。<strong>当一个系统能把每条结论指回原文行号，我就可以拿它的结构去做我的回归测试基准</strong>——这比我自己写一套 rubric 靠谱得多。</li><li><strong>它的自我边界披露方式值得学。</strong> 明确写"数据库本身未加密""本地优先不等于数据不出本机""DRG 是演示规则不能用于实际医保结算""AI 临床有效性尚未验证不能替代医生判断"。<strong>这不是示弱，是把合规风险提前声明</strong>——对一个要面对真实用户健康数据的产品，这种坦白比多几个功能更能建立信任。</li><li><strong>"医生确认 → 发送 → 按条目整理回复 → 归档"这条微信链路，和我 4pwellness 微信群客服 Bot 的设想几乎一模一样。</strong> 差别只在垂直方向——它是临床随访，我做的是营养与补剂指导。<strong>这是我第一次看到一个把"真人确认后再触达用户"写进产品流程的开源实现，值得逐行读一遍它的边界处理。</strong></li></ul>
+<hr class="art-hr">
+<h2>二、分类速览</h2>
+<h3>① AI Coding / 编程智能体与技能生态</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>TencentCloudBase/CloudBase-AI-Toolkit</td><td>1,152</td><td>腾讯云官方，Plugin/Skills/MCP 三件套给 AI 编程 agent 提供云开发后端，10-28 修虚拟支付验真文档与 MCP 环境候选丢失</td></tr><tr><td>OrchestratorInc/agent-orchestrator</td><td>13,792</td><td>Apache-2.0，Claude Code / Codex 与 30+ 编码 agent 的统一编排器，10-28 统一聊天标注与来源状态</td></tr><tr><td>HKUDS/AutoSwarm</td><td>2,041</td><td>把 Codex、Claude Code、DeepSeek Harness、Muse、Grok、WorkBuddy、nanobot 统一编排，10-27 修 Windows 清理并加 CI 预检</td></tr><tr><td>superdesigndev/treg</td><td>6,406</td><td>非标准授权，agent 工具的统一路由与计费层（OpenRouter for agent tools），10-28 上线 Anymail Finder 目录与定价</td></tr><tr><td>elayadesign/ai-design-skills</td><td>9,779</td><td>今日英文趋势榜第一（单日 +1,395 星），AI 设计技能包，10-27 把 design-to-motion 拆为独立仓库（放宽窗口）</td></tr><tr><td>NVIDIA/SkillSpector</td><td>22,780</td><td>Apache-2.0，AI agent skill 安全扫描器，覆盖提示注入、恶意模式与供应链风险，10-27 修 Node 断言模板与 sudo 解析</td></tr><tr><td>nightly-labs/openbot</td><td>2,612</td><td>非标准授权，本地优先桌面工作区，Codex/Claude/Grok 各自独立工作区 + 任务队列 + agent 间协作，10-28 修 Gemini 登录与提问卡</td></tr><tr><td>ZHangZHengEric/Sage</td><td>1,214</td><td>MIT，RSI Agent Harness（工具、技能、MCP、有状态执行），10-28 加飞书连接管理与 IM 通知投递</td></tr><tr><td>useLexora/Lexora</td><td>644</td><td>AGPL-3.0，自演进的主权桌面 AI agent，10-28 支持插件贡献 MCP 连接器与 NPC、网页请求超并发时排队</td></tr><tr><td>ChesterRa/cccc</td><td>1,287</td><td>Apache-2.0，像群聊一样协同多个编码 agent（已读回执、投递跟踪、远程操作），10-28 加终端控制台</td></tr><tr><td>Cotal-AI/Cotal</td><td>362</td><td>Apache-2.0，agent 协作的开放标准，10-28 发版并启动多空间 callout host</td></tr><tr><td>Undertone0809/rudder</td><td>294</td><td>Apache-2.0，本地 agent harness，让 agent 团队自我改进（跑→评审→把反馈变成资产），10-28 推进 MCP 负向围栏策略</td></tr><tr><td>jmagly/aiwg</td><td>225</td><td>MIT，为你已有的 AI 工具提供可复用项目上下文与专家工作流，10-28 发布 2026.11.0</td></tr><tr><td>Blave-TW/blave-agent</td><td>240</td><td>Apache-2.0，面向 AI agent 的量化基础设施桌面工作区（macOS/Windows），10-28 加短周期数据告警</td></tr><tr><td>NanmiCoder/open-image-prompts</td><td>370</td><td>MIT，本地优先的视觉提示词档案，带可追溯的提示—图像引用与可安装 Agent Skills，10-28 连发两版数据集</td></tr></tbody></table>
+<h3>② 医学 / 临床研究 AI 与 Agent 技能库</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>JuneYaooo/open-medical</td><td>11</td><td>MIT，给医生的开源桌面 Agent，证据三级分层 + 待确认提案制，10-28 改进临床证据复核与概览恢复</td></tr><tr><td>Deng-GuiFeng/LPSGM</td><td>14</td><td>Apache-2.0，22 万小时多导睡眠数据训练的统一睡眠分期模型，配套代码与预训练权重（10-21，放宽窗口）</td></tr><tr><td>jkelleman/health-biometrics-biotech-agentic-system</td><td>1</td><td>未声明，AegisCSR 把原始临床试验记录转成结构化安全数据，10-28 加固本地管线并补合成性能基准</td></tr><tr><td>organicoder42/openclawresearch</td><td>1</td><td>MIT，协调 OpenClaw agent 群攻克 LHON 罕见致盲遗传病，10-28 从 GitHub Issues 刷新研究进展</td></tr><tr><td>tridaai/blueprint-agentcore-pharmacovigilance</td><td>0</td><td>Apache-2.0，跑在 AWS Bedrock AgentCore 上的药物警戒不良事件个案 agent，10-28 上线第 4 轮闸门与时钟看板</td></tr></tbody></table>
+<h3>③ 健康管理 / 营养与食品 AI</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>itsoso/health-llm-driven</td><td>3</td><td>未声明，大模型驱动的个人健康 OS（数字健康孪生 + 安全守护 + 行动排序 + 干预周期），10-28 密集打磨补剂照片引用与发布闸门</td></tr><tr><td>lhzin2129-wq/forge-nutrition-clients</td><td>53</td><td>未声明，面向教练与客户的 AI 健身教练平台，10-28 加回滚追踪通知</td></tr><tr><td>craft-b/formula-forge</td><td>0</td><td>MIT，临床营养配方多 agent，模型只提结构、营养数字由确定性层重算，10-28 修界面"叙述看不见的流程"</td></tr><tr><td>BrooklynD23/HealthCentral</td><td>1</td><td>未声明，本地优先健康面板，用本地 LLM 做解释型 agent 帮用户看懂数据，10-27 完成文档复核批次</td></tr><tr><td>CraftedByMehathab/meTune-app</td><td>0</td><td>未声明，电话通话音频健康分析（DSP + 语音情绪模型 + 音频 LLM），10-27 只对客户本人电话线打分</td></tr><tr><td>VoMinhKhoii/Kallo</td><td>3</td><td>非标准授权，自然语言营养追踪平台，10-28 修限流——按它守护的请求给每个槽位设定生命周期</td></tr><tr><td>Manvith-d/forma</td><td>0</td><td>MIT，循证的多 agent 健身教练（训练师 + 营养师 + 厨房 + 医疗安全复核），10-28 修年龄解析</td></tr><tr><td>im-tnyx/tio-world</td><td>0</td><td>未声明，AI 健康 / 健身 / 营养 / 教练平台，跨移动端与可穿戴，10-28 加删除训练计划的休眠确认流程</td></tr></tbody></table>
+<h3>④ 模型底座与 Agent 基础设施</h3>
+<table><thead><tr><th>项目</th><th>星标</th><th>一句话</th></tr></thead><tbody><tr><td>hashgraph-online/hol-guard</td><td>1,002</td><td>Apache-2.0，AI agent 运行时杀毒软件，拦截危险工具、密钥外泄、提示注入、恶意包与 MCP，fail closed</td></tr><tr><td>paradigmxyz/centaur</td><td>1,410</td><td>非标准授权，"你自己拥有的"前沿 agent 基础设施（Claude Tag 的开源替代），10-28 更新模型别名定价与 harness</td></tr><tr><td>ongridio/ongrid</td><td>1,240</td><td>AGPL-3.0，能读懂你基础设施的运维 AI Agent，直接从 Slack 里定位根因并修复，10-28 修 cron 触发器编辑后需重新武装</td></tr><tr><td>Azure/agent-landing-zone</td><td>1,194</td><td>MIT，Azure 上企业级 agent 应用的落地区，10-28 发布 5.5.2 并记录校正后的发布图契约</td></tr><tr><td>bex-co/bex</td><td>577</td><td>Apache-2.0，AI 原生的 Render 替代——git push 即构建部署到你自己的基础设施，10-27 统一多端的 agent 环境与工具输出读取</td></tr><tr><td>brycewang-stanford/StatsPAI</td><td>356</td><td>MIT，首个 agent 原生的因果推断与应用计量 Python 库，10-28 跟进 Econometrica 94(5) 复现轮的开放项</td></tr><tr><td>NVIDIA/auto-ontology</td><td>386</td><td>Apache-2.0，在数据之上构建语义图谱推理层，实现确定性查询生成与可解释 agent 工作流（10-25，放宽窗口）</td></tr></tbody></table>
+<hr class="art-hr">
+<h2>三、今日趋势观察</h2>
+<ul><li><strong>今天最值得记的一条，是腾讯云把"云开发后端"正式做成了 Agent 生态位。</strong> CloudBase-AI-Toolkit 38 个 MCP 工具、482 个测试用例、托管远程连接器走 Streamable HTTP + OAuth 并已提交审核、Cursor Plugin 0.2.1、<code>.codebuddy/skills</code> / <code>.cursor/rules</code> / <code>.claude-plugin</code> / <code>dsh-plugin</code> 五种分发格式同步刷新——<strong>这不是一个功能更新，是一个生态位的宣告：云后端不再是 agent 去"猜"着调 API，而是主动长出 Skill 和 MCP。</strong> 同一周里 HKUDS/AutoSwarm 把 Codex、Claude Code、DeepSeek Harness、Muse、Grok、WorkBuddy 统一编排，OrchestratorInc 在 30+ 编码 agent 之间做统一调度，<strong>三件事指向同一件事——"多 harness 统一"正在从个人技巧变成标准工程动作。</strong></li></ul>
+<ul><li><strong>AI 生成健康方案的信任边界，今天被两个项目从两侧夹住了。</strong> formula-forge 从模型侧收口：只接收三个字段、营养数字由确定性层重算、解析失败硬拒绝、最多一次修复、420 项测试与合规准确率 100%；open-medical 从医生侧收口：证据三级分层、AI 更新以待确认提案呈现、提取不到依据就不补齐关系、明确列出不支持项。<strong>两个项目星数分别是 0 和 11，但它们定义的东西——"模型负责提议，规则负责判定，人负责确认"——正是我在 4P 补剂平台干预报告里已经写死却还没找到参照实现的三段式。</strong></li></ul>
+<ul><li><strong>Agent 运行时安全的重心，从"扫描安装包"移到了"每一次工具调用"。</strong> NVIDIA/SkillSpector 扫的是装之前的技能包，hol-guard 管的是运行中的危险工具、密钥外泄、提示注入、恶意包与 MCP；今天的提交里"审批的作用范围"被固化成 global / harness / artifact / family 四层、一次性审批用完整性材料原子消费、fail closed 成为默认。<strong>这跟上一期日报里"agent 系统的下一个战场是状态与权限"完全接上了——只是这一期，权限开始有了具体的层级和默认拒绝语义。</strong></li></ul>
+<ul><li><strong>健康类项目开始集体学一件事：不把"我算出来的"说成"我验证过的"。</strong> formula-forge 让界面停止叙述它看不见的流程；open-medical 承认本地优先不等于数据不出本机、承认数据库未加密、承认 DRG 只是演示规则；itsoso 的发布提交把"照片引用的安全评审"直接当阻塞项；BrooklynD23 在文档批次里专门处理"RAG-TIMEOUT-GROUNDED 已被回答""开放项保持开放"这类措辞。<strong>四个不同团队、同一天、在四个不同的项目里，做同一件容易被忽略的事：把"没做到"写进产品里，而不是藏起来。</strong> 对健康内容而言，这种"自我限制的可见性"比任何功能都更接近专业。</li></ul>
+<ul><li><strong>三个零星项目提示了"营养 AI 内核"的另一种建法：不追求大模型能力，而追求确定性资产。</strong> formula-forge 用 34 种食材的受治理库 + 版本化 USDA FDC ETL + 声明式 JSON 规则集，做出一个合规准确率 100% 的系统；forma 用训练师 + 营养师 + 厨房 + 医疗安全复核四个角色分工而不是一个全能 agent；itsoso 用规则 Agent 专门看药物与补剂相互作用、药物基因组和训练负荷。<strong>共同的思路是：让模型去处理"人写不清规则"的部分，把"必须算准"的部分交给代码。</strong> 这对每周只有 8 小时的一人公司路径是最现实的架构——先建小而硬的确定性资产库，再让模型去填剩下的。</li></ul>
+<hr class="art-hr">
+<h2>四、GitHub 地址速查</h2>
+<p><strong>精选</strong></p>
+<ul><li>TencentCloudBase/CloudBase-AI-Toolkit — <a href="https://github.com/TencentCloudBase/CloudBase-AI-Toolkit" target="_blank" rel="noopener">https://github.com/TencentCloudBase/CloudBase-AI-Toolkit</a></li><li>itsoso/health-llm-driven — <a href="https://github.com/itsoso/health-llm-driven" target="_blank" rel="noopener">https://github.com/itsoso/health-llm-driven</a></li><li>craft-b/formula-forge — <a href="https://github.com/craft-b/formula-forge" target="_blank" rel="noopener">https://github.com/craft-b/formula-forge</a></li><li>hashgraph-online/hol-guard — <a href="https://github.com/hashgraph-online/hol-guard" target="_blank" rel="noopener">https://github.com/hashgraph-online/hol-guard</a></li><li>JuneYaooo/open-medical — <a href="https://github.com/JuneYaooo/open-medical" target="_blank" rel="noopener">https://github.com/JuneYaooo/open-medical</a></li></ul>
+<p><strong>AI Coding</strong></p>
+<ul><li><a href="https://github.com/OrchestratorInc/agent-orchestrator" target="_blank" rel="noopener">https://github.com/OrchestratorInc/agent-orchestrator</a></li><li><a href="https://github.com/HKUDS/AutoSwarm" target="_blank" rel="noopener">https://github.com/HKUDS/AutoSwarm</a></li><li><a href="https://github.com/superdesigndev/treg" target="_blank" rel="noopener">https://github.com/superdesigndev/treg</a></li><li><a href="https://github.com/elayadesign/ai-design-skills" target="_blank" rel="noopener">https://github.com/elayadesign/ai-design-skills</a></li><li><a href="https://github.com/NVIDIA/SkillSpector" target="_blank" rel="noopener">https://github.com/NVIDIA/SkillSpector</a></li><li><a href="https://github.com/nightly-labs/openbot" target="_blank" rel="noopener">https://github.com/nightly-labs/openbot</a></li><li><a href="https://github.com/ZHangZHengEric/Sage" target="_blank" rel="noopener">https://github.com/ZHangZHengEric/Sage</a></li><li><a href="https://github.com/useLexora/Lexora" target="_blank" rel="noopener">https://github.com/useLexora/Lexora</a></li><li><a href="https://github.com/ChesterRa/cccc" target="_blank" rel="noopener">https://github.com/ChesterRa/cccc</a></li><li><a href="https://github.com/Cotal-AI/Cotal" target="_blank" rel="noopener">https://github.com/Cotal-AI/Cotal</a></li><li><a href="https://github.com/Undertone0809/rudder" target="_blank" rel="noopener">https://github.com/Undertone0809/rudder</a></li><li><a href="https://github.com/jmagly/aiwg" target="_blank" rel="noopener">https://github.com/jmagly/aiwg</a></li><li><a href="https://github.com/Blave-TW/blave-agent" target="_blank" rel="noopener">https://github.com/Blave-TW/blave-agent</a></li><li><a href="https://github.com/NanmiCoder/open-image-prompts" target="_blank" rel="noopener">https://github.com/NanmiCoder/open-image-prompts</a></li></ul>
+<p><strong>医学 / 临床研究 AI</strong></p>
+<ul><li><a href="https://github.com/Deng-GuiFeng/LPSGM" target="_blank" rel="noopener">https://github.com/Deng-GuiFeng/LPSGM</a></li><li><a href="https://github.com/jkelleman/health-biometrics-biotech-agentic-system" target="_blank" rel="noopener">https://github.com/jkelleman/health-biometrics-biotech-agentic-system</a></li><li><a href="https://github.com/organicoder42/openclawresearch" target="_blank" rel="noopener">https://github.com/organicoder42/openclawresearch</a></li><li><a href="https://github.com/tridaai/blueprint-agentcore-pharmacovigilance" target="_blank" rel="noopener">https://github.com/tridaai/blueprint-agentcore-pharmacovigilance</a></li></ul>
+<p><strong>健康 / 营养</strong></p>
+<ul><li><a href="https://github.com/lhzin2129-wq/forge-nutrition-clients" target="_blank" rel="noopener">https://github.com/lhzin2129-wq/forge-nutrition-clients</a></li><li><a href="https://github.com/BrooklynD23/HealthCentral" target="_blank" rel="noopener">https://github.com/BrooklynD23/HealthCentral</a></li><li><a href="https://github.com/CraftedByMehathab/meTune-app" target="_blank" rel="noopener">https://github.com/CraftedByMehathab/meTune-app</a></li><li><a href="https://github.com/VoMinhKhoii/Kallo" target="_blank" rel="noopener">https://github.com/VoMinhKhoii/Kallo</a></li><li><a href="https://github.com/Manvith-d/forma" target="_blank" rel="noopener">https://github.com/Manvith-d/forma</a></li><li><a href="https://github.com/im-tnyx/tio-world" target="_blank" rel="noopener">https://github.com/im-tnyx/tio-world</a></li></ul>
+<p><strong>模型底座 / Agent 基础设施</strong></p>
+<ul><li><a href="https://github.com/paradigmxyz/centaur" target="_blank" rel="noopener">https://github.com/paradigmxyz/centaur</a></li><li><a href="https://github.com/ongridio/ongrid" target="_blank" rel="noopener">https://github.com/ongridio/ongrid</a></li><li><a href="https://github.com/Azure/agent-landing-zone" target="_blank" rel="noopener">https://github.com/Azure/agent-landing-zone</a></li><li><a href="https://github.com/bex-co/bex" target="_blank" rel="noopener">https://github.com/bex-co/bex</a></li><li><a href="https://github.com/brycewang-stanford/StatsPAI" target="_blank" rel="noopener">https://github.com/brycewang-stanford/StatsPAI</a></li><li><a href="https://github.com/NVIDIA/auto-ontology" target="_blank" rel="noopener">https://github.com/NVIDIA/auto-ontology</a></li></ul>
+<hr class="art-hr">
+<p><em>本期分类共 35 个项目，全部与往期去重。Star 数、许可证与提交时间均以 GitHub API / 仓库默认分支记录为准，截至 2026-10-28 12:00（北京时间）。</em></p></article>
+    <div class="pager"><a href="/ai/2026-10-26/"><span class="dir">← 上一期</span>2026-10-26</a><span></span></div>
+  </div>
+</main>
+<footer>
+  <div class="brand">匆匆上岸</div>
+  <div>健康营养研究者 / 从业者 · AI 工具开发者</div>
+  <div><a href="/#services">服务</a> · <a href="/#projects">作品</a> · <a href="/#briefing">简报</a> · <a href="/ai/">AI 日报</a> · <a href="/#about">关于</a> · <a href="/#contact">联系</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">京ICP备13000743号-1</a></div>
+  <div>本站内容不含医疗诊断，方案仅供研究参考 · 日报由 GitHub 公开数据自动汇总</div>
+</footer>
+</body>
+</html>
