@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-30",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月24日 — 10月30日（最近 7 天）",
+ "range_en": "Oct 24 – Oct 30, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《Microbiome》：压力先引爆肠道活性氧，短链脂肪酸先崩、菌群结构后变",
+     "title_en": "Microbiome: Stress first triggers an intestinal ROS burst, collapsing short-chain fatty acids before the microbiome shifts",
+     "url": "https://scienmag.com/stress-fuels-gut-dysbiosis-through-an-early-burst-of-intestinal-ros",
+     "source_zh": "科学医学资讯（Scienmag）",
+     "source_en": "Scienmag",
+     "date": "2026-10-30",
+     "summary_zh": "斑马鱼实验中，应激数小时内肠道远端活性氧骤升，此时菌群结构未变，但厌氧发酵被抑制、短链脂肪酸急降；上皮产能受损后肠腔低氧屏障失守，兼性致病菌得以扩张。拘束应激小鼠重现同一顺序，清除 ROS 或恢复上皮产能即可阻断失调。",
+     "summary_en": "In zebrafish, intestinal reactive oxygen species surged in the distal gut within hours of stress, before any change in microbial composition. Anaerobic fermentation was selectively suppressed and short-chain fatty acid output fell sharply; epithelial PPARγ-dependent metabolism then weakened, the hypoxic barrier eroded and facultative pathobionts expanded. Restraint-stressed mice showed the same sequence. Neutralizing intestinal ROS or restoring epithelial bioenergetics prevented dysbiosis despite ongoing stress, pointing to the hypoxic barrier as a target."
+    },
+    {
+     "title_zh": "《Nature Communications》：肠道 AhR 失活，让真菌失调演变为重症哮喘",
+     "title_en": "Nature Communications: Loss of gut AhR turns fungal dysbiosis into severe asthma",
+     "url": "https://news.qq.com/rain/a/20261029A06WE700",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-10-29",
+     "summary_zh": "肠道上皮特异性敲除 AhR 的小鼠，在白色念珠菌与尘螨作用下暴发中性粒细胞性哮喘，气道以 Th17 为主。AhR 缺失使阿克曼氏菌锐减，肺部岩藻糖基化形成 sLeX「糖基化伪装」诱捕中性粒细胞，其胞外诱捕网再损伤上皮线粒体；补充菌源囊泡可逆转。",
+     "summary_en": "Mice with intestinal epithelial AhR deletion developed neutrophilic asthma when exposed to Candida albicans plus house dust mite, with IL-17-producing Th17 cells rather than Th2 dominating the airway. AhR loss sharply reduced Akkermansia, raising pulmonary α1,2-fucosylation that produced an sLeX glycan disguise, trapping L-selectin-positive neutrophils on endothelium; their extracellular traps then impaired epithelial mitochondrial function. Neutrophil depletion or Akkermansia outer-membrane vesicles reversed the disease."
+    },
+    {
+     "title_zh": "第七届「钱潮论健」杭州闭幕：功能医学从被动治疗转向主动健康",
+     "title_en": "Seventh Qiantang Health Forum closes in Hangzhou as functional medicine pivots from treatment to proactive health",
+     "url": "https://hznews.hangzhou.com.cn/kejiao/content/2026-10/28/content_9357339.htm",
+     "source_zh": "杭州网·每日商报",
+     "source_en": "Hangzhou News (Daily Business Herald)",
+     "date": "2026-10-28",
+     "summary_zh": "10 月 23—25 日，浙江省健康服务业促进会功能医学分会学术年会暨第七届钱潮论健在杭州举行，设 1 个主会场与 5 个分会场，覆盖抗衰老、肠道健康管理、临床转化与运营模式；开幕式发布《甲状腺功能 28 天复原方案》，并研讨线粒体代谢、生物年龄评估、NAD+ 应用与 AI 健康管理闭环。",
+     "summary_en": "Held in Hangzhou on October 23–25 and hosted by Sir Run Run Shaw Hospital, the annual meeting of the Zhejiang Functional Medicine Branch and the seventh Qiantang Health Forum drew over a hundred specialists with one plenary and five breakout tracks covering anti-aging, gut health management, clinical translation and clinic operations. The opening released a 28-day thyroid restoration protocol, with sessions on mitochondrial energetics, biological age assessment, clinical NAD+ use and AI-driven closed-loop health management."
+    },
+    {
+     "title_zh": "《Nature》：发病前后 4 天吃错，炎症记忆能留半年",
+     "title_en": "Nature: Four days of the wrong diet at disease onset leaves inflammatory memory for months",
+     "url": "https://m.ebiotrade.com/Newsf/2026-10/20261030001809424.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade (ebiotrade)",
+     "date": "2026-10-30",
+     "summary_zh": "银屑病样皮肤炎症模型显示，高脂饮食只需在发病前 3 天至发病后 1 天这 4 天窗口给予，即可放大炎症，与是否肥胖无关；已肥胖小鼠在该窗口换低脂饮食同样能抵消。该窗口塑造组织驻留记忆 CD4 T 细胞，使 25 天后再次激发复发更重，效应持续至少 6.5 个月。",
+     "summary_en": "Using a psoriasis-like skin inflammation model, researchers found that a high-fat diet given only during a four-day window — three days before to one day after onset — amplified inflammation, independent of obesity. Switching already-obese mice to low-fat food within that window abolished the effect, showing diet state rather than body weight sets inflammatory amplitude. The window imprinted tissue-resident memory CD4 T cells, making rechallenge 25 days later faster and more severe, persisting at least 6.5 months and only at the original site."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "中国抗衰老促进会长寿医学专业委员会成立，发布《中国长寿医学发展倡议》",
+     "title_en": "China Anti-Aging Promotion Association launches Longevity Medicine Committee and development initiative",
+     "url": "https://www.cs.com.cn/ssgs/01/2026/10/30/detail_2026103010048667.html",
+     "source_zh": "中证网",
+     "source_en": "China Securities Journal",
+     "date": "2026-10-30",
+     "summary_zh": "10 月 27 日，2026 长寿医学大会暨中国抗衰老促进会长寿医学专业委员会成立大会在北京举行，屈伟当选首任主委。大会发布《中国长寿医学发展倡议》十二项内容与五条底线，严禁夸大宣传、越界行医、滥用健康数据、制造衰老焦虑，不承诺「逆龄」「治愈衰老」，并启动六项工作计划。",
+     "summary_en": "The 2026 Longevity Medicine Conference in Beijing on October 27 saw the founding of the Longevity Medicine Committee under the China Anti-Aging Promotion Association, with Qu Wei as inaugural chair. The conference issued a 12-point China Longevity Medicine Development Initiative organised around three main lines and five red lines, explicitly banning exaggerated claims, practice beyond scope, misuse of health data and fear-based marketing, and refusing to promise rejuvenation or a cure for aging. Six work programmes were launched."
+    },
+    {
+     "title_zh": "《Aging Cell》：星形胶质细胞 FGF13 上调，让小鼠全身衰老减速",
+     "title_en": "Aging Cell: Boosting astrocytic FGF13 slows whole-body aging in mice",
+     "url": "https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/",
+     "source_zh": "长寿研究学会（Lifespan.io）",
+     "source_en": "Lifespan Research Institute",
+     "date": "2026-10-29",
+     "summary_zh": "FGF13 随年龄在星形胶质细胞中下降，与自噬蛋白 Phafin2 结合促进自噬。敲除老年小鼠星形胶质细胞 FGF13 会加重衰老、提高循环炎症因子；反向过表达后，水迷宫表现接近年轻鼠，血中 IFN-γ、IL-6 明显下降，皮肤、肝、脾、肾衰老标志减少，年龄相关增重减轻。",
+     "summary_en": "FGF13 declines with age in astrocytes and binds Phafin2 to promote autophagy. Knocking it out in aged mouse astrocytes worsened aging: poorer Morris water maze performance, more senescent cells in heart, skin, liver, spleen and kidney, and higher circulating inflammatory cytokines, suggesting the brain amplifies aging signals to peripheral tissues. Overexpression restored spatial learning close to young levels, lowered IFN-γ and IL-6, reduced organ senescence markers and blunted age-related weight gain."
+    },
+    {
+     "title_zh": "Life Biosciences 公布 ER-100 首个 I 期人体数据：3 例青光眼患者耐受良好",
+     "title_en": "Life Biosciences reports first-in-human Phase 1 data for ER-100: well tolerated in three glaucoma patients",
+     "url": "https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/",
+     "source_zh": "长寿研究学会（Lifespan.io）",
+     "source_en": "Lifespan Research Institute",
+     "date": "2026-10-27",
+     "summary_zh": "ER-100 用单次玻璃体内 AAV 递送 OSK 三因子，配合口服多西环素 8 周诱导表达，实现部分表观遗传重编程。3 例开角型青光眼患者至第 56 天耐受良好，无剂量限制毒性或严重不良事件；2 例视野改善，≥28% 检测点提升超 4 dB，安全监测委员会建议升至第二剂量组。",
+     "summary_en": "ER-100 delivers OSK (OCT4, SOX2, KLF4) via a single intravitreal AAV injection with eight weeks of oral doxycycline to induce expression, achieving partial epigenetic reprogramming. In three open-angle glaucoma patients it was well tolerated through day 56, with no dose-limiting toxicity, adverse events of special interest or serious adverse events; all events related to the procedure, steroids or pre-existing conditions. Two of three showed visual field improvement, with at least 28% of test points gaining more than 4 dB, and the safety board endorsed dose escalation."
+    },
+    {
+     "title_zh": "中年早期用二甲双胍：小鼠衰弱减轻，肌力与骨微结构保住",
+     "title_en": "Metformin started in early midlife reduces frailty and preserves muscle and bone in mice",
+     "url": "https://www.163.com/dy/article/LAECO67M0534V0M1.html",
+     "source_zh": "网易·新浪医药",
+     "source_en": "NetEase / Sina Pharma",
+     "date": "2026-10-29",
+     "summary_zh": "《Biogerontology》研究让雄性小鼠从 30 周龄（约合人类 32—42 岁）起经饮水摄入 500 mg/kg/d 二甲双胍共 23 周。干预组体重趋近年轻组，临床与表现型衰弱指数显著下降，活动量、举重能力、倒屏跌落潜伏期改善，骨微结构维持，提示中年早期是延缓衰弱的窗口。",
+     "summary_en": "In a Biogerontology study, male mice received metformin in drinking water at 500 mg/kg/day from 30 weeks of age — roughly 32–42 human years — for 23 weeks until 53 weeks. Treated animals stayed lighter than age-matched controls and approached young reference weights, scored markedly lower on both clinical and performance-based frailty indices, were more active in the open field, lifted more weight, held longer on the inverted screen and maintained bone microarchitecture, suggesting early midlife is a window for frailty prevention."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《PNAS》双篇：同样吃高脂，为何有人更容易胖——17 个 SNP 解释约 87% 增重差异",
+     "title_en": "Two PNAS papers: Why some gain more on a high-fat diet — 17 SNPs explain about 87% of weight-gain variance",
+     "url": "https://www.163.com/dy/article/LAD6Q4D80532BT7X.html",
+     "source_zh": "BioArt·网易",
+     "source_en": "BioArt / NetEase",
+     "date": "2026-10-29",
+     "summary_zh": "以易胖 C57BL/6N 与抗胖 BALB/c 双向杂交建立 F2 群体，207 只雄性小鼠经 8 周高脂干预并结合遗传分型，研究者定位到涉及 Abcc3、Ahr、Nr1i3 等 11 个基因的 17 个 SNP，可解释约 87% 的增重差异；这些基因大多不在脑内表达，提示易感性主要由外周组织决定。",
+     "summary_en": "Teams led by John R. Speakman (Shenzhen Institute of Advanced Technology) and Wuyingga (Inner Mongolia University) crossed obesity-prone C57BL/6N with resistant BALB/c mice to build an F2 population, then put 207 males on an eight-week high-fat diet with genotyping. They identified 17 SNPs across 11 genes including Abcc3, Ahr and Nr1i3 that explain roughly 87% of weight-gain variance; most are not expressed in the brain, suggesting peripheral tissues drive susceptibility."
+    },
+    {
+     "title_zh": "韩国 CJ Bioscience 发布本土肠道菌群靶向饮食指数，万人外部验证优于现有指数",
+     "title_en": "CJ Bioscience unveils Korean gut-microbiota-targeted diet index, outperforming existing indices in 10,000-person validation",
+     "url": "https://en.fnnews.com/news/202610300920223759",
+     "source_zh": "韩国金融新闻（Financial News）",
+     "source_en": "Financial News (Korea)",
+     "date": "2026-10-30",
+     "summary_zh": "在韩国食品科学与营养学会国际会议上，CJ Bioscience 发布基于健康成人队列的「肠道菌群靶向饮食指数」，以约 1 万人公开数据外部验证，与临床指标相关性强于现有膳食指数，且仅需简化问卷即可评估；公司同时展示以微生物可利用碳水为基础的 MACPLAN 个性化方案与 DIGEST 肠模拟技术。",
+     "summary_en": "At the Korean Society of Food Science and Nutrition conference in Jeju, CJ Bioscience presented a gut-microbiota-targeted diet index built from a cohort of healthy Korean adults. External validation in about 10,000 people from public data showed stronger associations with clinical indicators than existing dietary indices, and the tool needs only a simplified questionnaire, suiting diet-management apps. The company also showed MACPLAN, a personalised programme based on microbiota-accessible carbohydrates, plus probiotic-MAC combinations and gut-simulating DIGEST platforms."
+    },
+    {
+     "title_zh": "中国农科院食物营养健康青年科学家座谈会在深圳召开，聚焦精准营养与主动健康",
+     "title_en": "CAAS young scientist forum on food, nutrition and health opens in Shenzhen, spotlighting precision nutrition",
+     "url": "https://www.stdaily.com/web/gdxw/2026-10/30/content_605467.html",
+     "source_zh": "科技日报",
+     "source_en": "Science and Technology Daily",
+     "date": "2026-10-30",
+     "summary_zh": "10 月 29 日，中国农科院食品营养学部主办的 2026 年食物营养健康青年科学家座谈会在深圳召开，提出按《中国食物与营养发展纲要（2025—2030 年）》统筹育种、加工、品质调控与标准体系。四个分论坛聚焦精准营养与主动健康、基因组学赋能个性化食品、智能加工、智链品质与安全。",
+     "summary_en": "Hosted by the Chinese Academy of Agricultural Sciences' food and nutrition division in Shenzhen on October 29, the forum urged aligning breeding, processing, quality control and standards with the 2025–2030 national food and nutrition outline, starting from human nutritional needs. Four sub-forums covered precision nutrition and proactive health, genomics-enabled personalised foods, intelligent processing, and supply-chain quality and safety; a joint laboratory on weight-management foods with Duoyanshou was also unveiled."
+    },
+    {
+     "title_zh": "康宝莱进博会亚洲首秀 Bioniq GO：40 种配方按数字化评估匹配",
+     "title_en": "Herbalife to debut Bioniq GO in Asia at CIIE, matching 40 formulas via digital assessment",
+     "url": "https://new.qq.com/rain/a/20261029A096OV00",
+     "source_zh": "腾讯网",
+     "source_en": "Tencent News",
+     "date": "2026-10-29",
+     "summary_zh": "第九届进博会前，康宝莱宣布个性化营养产品 Bioniq GO 亚洲首秀、健康管理数字化平台中国版全球首展。Bioniq GO 通过数字化健康评估，从 40 种配方中匹配个人方案，采用瑞士颗粒技术；平台覆盖「评估—建议—规划—陪伴」全链路，把 AI 工具与营养顾问服务结合。",
+     "summary_en": "Ahead of the ninth China International Import Expo, Herbalife said it will give Bioniq GO its Asian debut alongside the global première of a China-edition digital health management platform. Bioniq GO uses a digital health assessment to match individuals to one of 40 nutrition formulas, built on science-backed ingredients and Swiss granule technology for easier daily intake. The platform spans assessment, recommendation, planning and ongoing coaching, pairing AI tools with human nutrition advisers."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "SupplySide Global 2026 原料之星揭晓：长寿、生物制剂、适应原与 GLP-1 成主角",
+     "title_en": "SupplySide Global 2026 Ingredient Idol winners: longevity, biotics, adaptogens and GLP-1 lead",
+     "url": "https://www.manilatimes.net/2026/10/30/tmt-newswire/globenewswire/supplyside-global-announces-2026-ingredient-idol-winners/2457932",
+     "source_zh": "马尼拉时报·GlobeNewswire",
+     "source_en": "The Manila Times / GlobeNewswire",
+     "date": "2026-10-29",
+     "summary_zh": "第六届 Ingredient Idol 结果公布：补充剂长寿奖为 PLT Health 的 Kinexa 关节复方，生物制剂奖为 Helaina 发酵法人体乳铁蛋白，适应原奖为含 15% 沙塔瓦林的山羊豆根提取物；食品类 GLP-1 创新奖为 Formo 精密发酵酪蛋白，脑健康奖为 SunWay 的 ExoBDNF 益生菌。",
+     "summary_en": "At the Las Vegas show, the sixth Ingredient Idol awards went to PLT Health's Kinexa joint longevity complex of standardised turmeric, Indian frankincense and haritaki in the supplements-longevity category; Helaina's fermentation-derived human lactoferrin effera in biotics; and Xeya, a shatavari root extract standardised to 15% shatavarins, in adaptogens. In food and beverage, Formo's precision-fermented casein won GLP-1 innovation and SunWay's ExoBDNF probiotic took brain health. Entries had to launch after January 2025."
+    },
+    {
+     "title_zh": "三菱商事生命科学：NMN 拓展至护发场景，半胱氨酸主打皮肤提亮",
+     "title_en": "Mitsubishi Corporation Life Science takes NMN into hair care, positions cysteine for skin brightening",
+     "url": "https://www.nutraingredients.com/Article/2026/10/28/nmn-for-hair-cysteine-for-skin-brightening-mitsubishi-corporation-life-science/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-28",
+     "summary_zh": "三菱商事生命科学为 NMN 寻找新定位，从口服抗衰延伸至头皮与毛囊护理，同时推进半胱氨酸在皮肤提亮方面的应用。公司称将围绕机制与人体数据补强证据，避免仅靠成分概念营销，反映日本原料商在 NAD+ 前体同质化竞争中转向细分场景与配方差异化。",
+     "summary_en": "Mitsubishi Corporation Life Science is repositioning NMN beyond oral anti-aging into scalp and hair-follicle care, while advancing cysteine for skin brightening. The company said it will strengthen the evidence base around mechanisms and human data rather than relying on ingredient-story marketing. The move reflects how Japanese suppliers are seeking growth in a crowded NAD+ precursor category through niche use cases, delivery formats and formulation differentiation, shifting from broad anti-aging claims to specific perceivable benefits."
+    },
+    {
+     "title_zh": "英国 FSE 发布网红营销新指南，剑指补剂误导性宣称",
+     "title_en": "UK's FSE issues new influencer marketing guidance targeting misleading supplement claims",
+     "url": "https://www.nutraingredients.com/Article/2026/10/29/fse-targets-misleading-supplement-marketing/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-29",
+     "summary_zh": "英国食品补充剂行业机构 FSE 针对达人带货发布新指南，要求明确广告标识、不得暗示治疗或治愈疾病、不得使用未经批准的健康声称，并对「前后对比」「夸大减重」设限。此举回应监管与消费者对线上宣传合规性的关注，也为品牌与达人、MCN 合作划定边界。",
+     "summary_en": "The UK Food Supplement industry body FSE published new guidance for social media influencer marketing, requiring clear ad labelling, banning any implication of treating or curing disease, prohibiting unapproved health claims and setting limits on before-and-after imagery and exaggerated weight-loss messaging. The move responds to sustained regulatory and consumer scrutiny of online supplement promotion and draws operational boundaries for brand, creator and agency partnerships, likely affecting how cross-border brands advertise in the UK."
+    },
+    {
+     "title_zh": "dsm-firmenich 在 SupplySide 推出「长寿转变 2.0：肠道效应」",
+     "title_en": "dsm-firmenich brings 'The Longevity Shift 2.0: The Gut Effect' to SupplySide Global",
+     "url": "https://www.all4nutra.com/news/dsm-longevity-shift-2-7379",
+     "source_zh": "All4Nutra",
+     "source_en": "All4Nutra",
+     "date": "2026-10-28",
+     "summary_zh": "帝斯曼-芬美意在 10 月 28—30 日拉斯维加斯展会上把沉浸式长寿体验升级为「肠道效应」，聚焦菌群失调这一衰老标志，援引调查称七成消费者认同肠道与其他健康强关联。同期主推 Age Slower 方案，以微藻 Omega-3 与维生素 D 复配，对应 DO-HEALTH 三年生物学衰老最多减缓 10%。",
+     "summary_en": "At the Las Vegas show running October 28–30, dsm-firmenich upgraded its immersive longevity installation to 'The Gut Effect', centring on gut dysbiosis as a hallmark of aging and citing survey data that seven in ten consumers see a strong link between gut health and other health areas. It also promoted the ready-to-market Age Slower concept combining life'sOMEGA 60 microalgae omega-3 with Quali-D vitamin D, the pairing studied in Europe's largest healthy aging trial DO-HEALTH, which found up to a 10% reduction in biological aging over three years."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "RESET for Remission：低热量饮食加运动，54% 年轻 2 型糖尿病 6 个月缓解",
+     "title_en": "RESET for Remission: Low-calorie diet plus exercise brings 54% of early-onset type 2 diabetes into remission in six months",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-30",
+     "summary_zh": "96 名 18—45 岁早发 2 型糖尿病合并肥胖患者中，干预组每日 800—900 千卡配合每周两次监督下有氧加抗阻训练，24 周后 54% 达到缓解（HbA1c<6.5% 且停药 12 周以上），常规照护组仅 4%；干预组多减 7.5 kg，其中脂肪 6.6 kg，肌肉得以保留。",
+     "summary_en": "Ninety-six adults aged 18–45 with early-onset type 2 diabetes, obesity and no insulin use were randomised. The intervention group took 800–900 kcal daily (30% protein, 50% carbohydrate, 20% fat) with supervised aerobic plus resistance training twice weekly and one self-directed session, then shifted to weight maintenance at week 12. At 24 weeks, 54% (27 of 50) achieved remission — HbA1c below 6.5% with no glucose-lowering drugs for 12 weeks — versus 4% on usual care, with 7.5 kg greater weight loss including 6.6 kg of fat and preserved lean mass."
+    },
+    {
+     "title_zh": "《国家残疾预防行动计划（2026—2030 年）》发布：18 项指标、居民健康素养达 40%",
+     "title_en": "China releases National Disability Prevention Action Plan 2026–2030 with 18 targets",
+     "url": "https://www.chinanews.com/gn/2026-10-30/10723476.shtml",
+     "source_zh": "中国新闻网",
+     "source_en": "China News Service",
+     "date": "2026-10-30",
+     "summary_zh": "10 月 30 日，国务院残工委办公室在京解读《国家残疾预防行动计划（2026—2030 年）》。文件设 18 项主要指标，明确到 2030 年居民健康素养达 40%、产前筛查率不低于 90%、残疾人基本康复服务覆盖率超 90%，并新增专业人员科普能力、职业健康服务网络、交通事故救治效率等指标。",
+     "summary_en": "At a Beijing briefing on October 30, the State Council working committee office detailed the plan, which sets 18 headline targets for 2030 including a 40% health literacy rate, antenatal screening of at least 90% and basic rehabilitation service coverage above 90% for people with disabilities. New indicators cover professional science-communication capacity, occupational health service networks and traffic-injury rescue efficiency, with focus on birth defects, chronic disease prevention, injury control and rehabilitation, backed by closed-loop services and data infrastructure."
+    },
+    {
+     "title_zh": "世界卒中日：《成人脑卒中食养指南（2026 年版）》给出全国七大地区四季食谱",
+     "title_en": "World Stroke Day: China's 2026 dietary guideline for stroke survivors adds four-season menus for seven regions",
+     "url": "https://dy.163.com/article/LAEAAA4Q05149LPQ.html",
+     "source_zh": "健康报·网易",
+     "source_en": "Health News / NetEase",
+     "date": "2026-10-29",
+     "summary_zh": "世界卒中日（10 月 29 日），国家卫健委办公厅《成人脑卒中食养指南（2026 年版）》提出 8 条原则：能量适宜、优质蛋白优先（鱼虾每周 300—500 g、每日 1 个鸡蛋、奶类 300—500 mL）、烹调油不超 25 g、限饱和与反式脂肪、增钾补钙、低 GI 主食，并按七大地区设计四季食谱。",
+     "summary_en": "Released by the National Health Commission for World Stroke Day on October 29, the 2026 dietary guideline for adults with stroke stresses that diet and lifestyle are closely tied to onset and progression. For the recovery and sequelae phases it sets eight principles: appropriate energy intake, prioritised quality protein (300–500 g fish and shellfish weekly, about 50 g meat daily, one egg a day, 300–500 mL dairy), cooking oil under 25 g, limits on saturated and trans fat, more potassium and calcium, and low-glycaemic staples, with four-season full-day menus for seven regions."
+    },
+    {
+     "title_zh": "广东启动企联医疗健康服务平台，「粤小医」接管体检之后的长期管护",
+     "title_en": "Guangdong launches enterprise health service platform as 'Yue Xiaoyi' takes over post-checkup care",
+     "url": "https://www.163.com/dy/article/LAFT67HS0514R9OJ.html",
+     "source_zh": "环球网·网易",
+     "source_en": "Huanqiu / NetEase",
+     "date": "2026-10-30",
+     "summary_zh": "10 月 29 日，2026 健康产业创新发展大会在广州举行，广东省企联医疗健康服务平台启动，首期项目「粤小医」由微医数智医院运营，构建「个性化体检—风险评估—干预方案—跟踪随访」闭环；以医疗大模型与健康智能体联动智能指环、动态血糖监测，生成数字孪生健康画像并由专属团队持续管护。",
+     "summary_en": "At the 2026 Health Industry Innovation Conference in Guangzhou on October 29, the Guangdong enterprise federation's medical and health service platform launched with Yue Xiaoyi as its first project. Operated technically by WeDoctor's digital hospital, it builds a proactive loop from personalised checkups through risk assessment and intervention to follow-up, covering health records, screening, chronic disease management and care coordination. A medical large model and health agents link smart rings and continuous glucose monitors into a digital-twin health profile, with health managers, family doctors and tertiary specialists following up."
+    }
+   ]
+  }
+ ]
+}
