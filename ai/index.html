@@ -98,11 +98,16 @@
   <div class="wrap">
     <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
     <div class="sec-head">
-      <div class="kicker">ARCHIVE · 共 13 期</div>
+      <div class="kicker">ARCHIVE · 共 14 期</div>
       <h1>GitHub AI 日报</h1>
       <p class="sec-sub">每天 10:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
     </div>
-    <div class="cards"><a class="card" href="/ai/2026-10-30/">
+    <div class="cards"><a class="card" href="/ai/2026-10-31/">
+      <div class="card-date">2026-10-31<span>周六</span></div>
+      <p class="card-sum">今天最值得记的一条主线是：AI agent 生态的重心正在从"能不能跑通"整体转向"边缘情形有没有被处理干净"——而这个转向，几乎在四条线上同时发生。 37,251 星的 oh-my-pi 在修"标题漂移判定"和"按 wire 上真实字符串…</p>
+      <ul class="card-picks"><li>can1357/oh-my-pi：把 IDE 真正接进编码 agent——37,251 星的 pi 分支在 24 小时内跑了 74 次提交，今天的主题是"让 agent 少猜、多量"</li><li>ayuayue/PiDeck：中文社区里把 pi 与 DSH 两个后端塞进同一个桌面工作台——而 DSH 正是我本机在跑的那套 harness</li><li>OpenAdaptAI/OpenAdapt：把"agent 说自己成功了"变成可以证伪的命题——在开源 EHR 上，30 次故意写坏的记录被读回校验抓住</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-10-30/">
       <div class="card-date">2026-10-30<span>周五</span></div>
       <p class="card-sum">今天最值得记的一条，是「凭据不进模型上下文」这件事被提到了比运行时拦截更靠前的一层。 上一期 hashgraph-online/hol-guard 讲的是 agent 运行中如何阻断危险工具调用与密钥访问；今天 lightpanda-io/…</p>
       <ul class="card-picks"><li>lightpanda-io/browser：AI 专用浏览器开始替模型「遮住密码」——把凭据从模型可见的上下文里抹掉，这比任何运行时拦截都靠前一层</li><li>seancpc/MedAgent-EHR：Planner–Executor–Verifier 三段式 + 两阶段写入，临床 agent 在 300 题 MedAgentBench 上做到约 88%，且完全自架本地模型</li><li>whiteravens20/diet-app：把营养计算做成确定性引擎、AI 降级为可选助手——"it never invents nutrition facts" 是写进 README 的一句话</li></ul>
