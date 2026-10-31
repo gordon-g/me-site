@@ -1,0 +1,246 @@
+{
+ "date": "2026-10-31",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月25日 — 10月31日（最近 7 天）",
+ "range_en": "Oct 25 – Oct 31, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《Immunity》：肠道 Tfh 细胞衰老让「吃牛磺酸的菌」失控，是肥胖的新上游",
+     "title_en": "Immunity: Aged gut Tfh cells let taurine-consuming bacteria drive obesity",
+     "url": "https://news.qq.com/rain/a/20261030A05AI700",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-10-30",
+     "summary_zh": "上海交大医学院团队在《Immunity》揭示，VEGF-B/VEGFR-1 轴经 AKT-MDM2-p53 维持肠道滤泡辅助性 T 细胞干性，保障分泌型 IgA；该轴失灵后 Taurinivorans 菌过度增殖、耗竭肠道牛磺酸，抑制脂肪 AMPK 产热而致肥胖，补充 IgA 或牛磺酸可逆转。",
+     "summary_en": "A Shanghai Jiao Tong University team reported in Immunity that the VEGF-B/VEGFR-1 axis sustains gut follicular helper T cell stemness through AKT-MDM2-p53, safeguarding secretory IgA. When the axis fails, Taurinivorans overgrows, depletes gut taurine and suppresses adipose AMPK-driven thermogenesis, driving obesity; IgA or taurine supplementation reversed it in mice."
+    },
+    {
+     "title_zh": "《Immunity》空间转录组：IBD 肠壁里贴着一群 TMIGD2hi 致病性 Th17",
+     "title_en": "Immunity spatial transcriptomics maps a TMIGD2hi pathogenic Th17 subset in IBD",
+     "url": "https://news.qq.com/rain/a/20261030A05JUK00",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-10-30",
+     "summary_zh": "博德研究所团队用单细胞转录组、TCR 测序与 Xenium 空间转录组，在 IBD 患者肠组织鉴定出 TMIGD2hi Th17 亚群：其克隆扩增、高表达 GZMA、低表达干性基因 BACH2，并紧贴 HHLA2 阳性的肠上皮细胞，提示 TMIGD2-HHLA2 共刺激是潜在干预靶点。",
+     "summary_en": "Using single-cell RNA sequencing, TCR sequencing and Xenium spatial transcriptomics, Broad Institute researchers identified a TMIGD2hi Th17 subset in IBD gut tissue: clonally expanded, high in GZMA, low in the stemness gene BACH2, and spatially adjacent to HHLA2-positive epithelium, pointing to the TMIGD2-HHLA2 costimulatory axis as a target."
+    },
+    {
+     "title_zh": "巴戟天寡糖改善卒中后抑郁：肠菌多样性、丁酸与海马 Pla2g4a 三点连成线",
+     "title_en": "Morinda oligosaccharides ease post-stroke depression via butyrate and hippocampal Pla2g4a",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261031000300246.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade",
+     "date": "2026-10-31",
+     "summary_zh": "《CNS Neuroscience & Therapeutics》刊发小鼠研究：巴戟天寡糖可改善卒中后抑郁样行为，同时恢复肠道菌群多样性与丁酸水平、修复肠道与海马屏障、降低海马 Pla2g4a 表达；丁酸钠单独给药亦有抗抑郁效应，粪菌移植提供了初步因果证据。",
+     "summary_en": "A mouse study in CNS Neuroscience & Therapeutics found Morinda officinalis oligosaccharides eased post-stroke depression-like behaviour while restoring gut microbial diversity and butyrate, repairing gut and hippocampal barriers and lowering hippocampal Pla2g4a. Sodium butyrate alone helped, and faecal transplant offered preliminary causal evidence."
+    },
+    {
+     "title_zh": "心梗之前肠道或已报警：促炎链球菌升高、产丁酸菌减少",
+     "title_en": "The gut may signal a heart attack before it happens",
+     "url": "https://www.toutiao.com/article/7702389502874026511",
+     "source_zh": "光明网",
+     "source_en": "Guangming Online",
+     "date": "2026-10-30",
+     "summary_zh": "光明网援引研究称，急性心梗发作期患者肠道菌群明显失衡——促炎链球菌大幅升高、产丁酸保护菌下降，心梗后半年多可恢复；长期菌群紊乱通过炎症代谢物损伤血管内皮、加速动脉粥样硬化，因此被视作值得关注的预警信号，而非心梗的直接后果。",
+     "summary_en": "Citing research, Guangming Online reported that gut microbiota shifts markedly during acute myocardial infarction — pro-inflammatory streptococci rise while butyrate-producing protective bacteria fall — and largely normalises within six months. Chronic dysbiosis is seen as an early warning signal that damages endothelium and accelerates atherosclerosis, not a consequence of the event."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Eos 线粒体靶向 geropeptide PTC-2105：老年大鼠 16 周保住运动能力，脂肪减少",
+     "title_en": "Eos MitoXcel geropeptide PTC-2105 preserves motor function in aged rats at 16 weeks",
+     "url": "https://www.manilatimes.net/2026/10/30/tmt-newswire/globenewswire/eos-senolytix-reports-interim-data-showing-preserved-physical-function-with-mitoxcel-geropeptide-ptc-2105-in-a-second-species-aged-rat-study/2458250",
+     "source_zh": "马尼拉时报·GlobeNewswire",
+     "source_en": "The Manila Times / GlobeNewswire",
+     "date": "2026-10-30",
+     "summary_zh": "Eos SENOLYTIX 公布 PTC-2105 在 24—26 月龄老年大鼠的 16 周中期数据：每周一次皮下给药组转棒耐力维持在基线附近，对照组下降约 76%，握力增加 30.7%（对照 7.3%），第 8 周脂肪减少更多，为 2027 年首次人体试验提供第二物种证据。",
+     "summary_en": "Eos SENOLYTIX reported 16-week interim data for PTC-2105 in 24–26-month-old rats: weekly subcutaneous dosing kept rotarod endurance near baseline versus a roughly 76% decline in controls, raised grip strength by 30.7% (controls 7.3%) and produced greater fat loss at week 8, adding second-species support for first-in-human trials targeted at 2027."
+    },
+    {
+     "title_zh": "抑制一个「越老越忙」的酶：小鼠平均寿命延长 17%，衰弱与记忆同步改善",
+     "title_en": "Blocking an age-overactive enzyme extended mouse lifespan by 17%",
+     "url": "https://www.sciencealert.com/blocking-one-enzyme-extended-lifespan-in-aging-mice-by-17",
+     "source_zh": "ScienceAlert",
+     "source_en": "ScienceAlert",
+     "date": "2026-10-30",
+     "summary_zh": "中国团队在《iScience》报告，天冬酰胺内肽酶（AEP/legumain）抑制剂 #11a 从 18 月龄起喂养老鼠，平均寿命由 24 个月延至 28 个月（+17%），衰弱指标、运动与记忆表现及胰岛素敏感性均改善，炎症与细胞衰老信号减少；机制与长期安全性仍待验证。",
+     "summary_en": "A Chinese team reported in iScience that the asparagine endopeptidase (AEP/legumain) inhibitor #11a, given from 18 months of age, extended mean mouse lifespan from 24 to 28 months (+17%), with fewer frailty signs, better exercise, strength and memory performance, improved insulin sensitivity and less inflammation and cellular senescence; mechanisms and long-term safety remain unproven."
+    },
+    {
+     "title_zh": "百岁老人的心血管「韧性」：炎症能收能放，肠道菌群反而更年轻",
+     "title_en": "Cardiovascular resilience in centenarians: balanced inflammation and a youthful gut",
+     "url": "https://dy.163.com/article/LAGS8LNB0514S7S5.html",
+     "source_zh": "网易·梅斯医学",
+     "source_en": "NetEase / MedSci",
+     "date": "2026-10-30",
+     "summary_zh": "《Nature Reviews Cardiology》综述：百岁老人促炎与抗炎因子（IL-10、TGF-β）高水平平衡，肠道菌群年轻化且 zonulin、LPS 更低，富集保护性变异并抵抗克隆性造血，表观年龄比实际年轻 15—29 岁；提示收缩压目标 130—150 mmHg 更稳妥。",
+     "summary_en": "A Nature Reviews Cardiology review describes centenarian cardiovascular resilience: pro- and anti-inflammatory mediators (IL-10, TGF-β) stay balanced at high levels, the gut microbiome retains youthful features with lower zonulin and LPS, protective variants are enriched and clonal haematopoiesis resisted, and epigenetic age runs 15–29 years younger; systolic targets of 130–150 mmHg are advised."
+    },
+    {
+     "title_zh": "《Cell》：首个衰老生物学 AI 基准 LongevityBench 发布，小模型胜过拼规模",
+     "title_en": "Cell: LongevityBench sets a first open benchmark for AI in aging biology",
+     "url": "https://www.163.com/dy/article/LAGQEVQT0532BT7X.html",
+     "source_zh": "BioArt·网易",
+     "source_en": "BioArt / NetEase",
+     "date": "2026-10-30",
+     "summary_zh": "英矽智能在《Cell》发布首个衰老生物学开放基准 LongevityBench：17 项任务覆盖临床记录、DNA 甲基化、转录组、蛋白组与遗传学五大域、25457 条提示，评测 18 个前沿大模型；结果显示在衰老数据上微调的小模型优于单纯扩大规模，并开放智能体接口 Longevity Claw。",
+     "summary_en": "Insilico Medicine published LongevityBench in Cell, the first open benchmark for AI in aging biology: 17 tasks spanning clinical records, DNA methylation, transcriptomics, proteomics and genetics, with 25,457 prompts evaluating 18 frontier models. Small models fine-tuned on aging data outperformed scale alone, and an agent interface, Longevity Claw, was released alongside."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "每天 200 克番茄加 50 克番茄酱，6 周后脂肪肝指标降得更多",
+     "title_en": "200 g of tomatoes plus 50 g of paste daily lowered liver fat over six weeks",
+     "url": "https://paper.sciencenet.cn/htmlpaper/2026/10/20261030144234615157344.shtm",
+     "source_zh": "科学网论文",
+     "source_en": "ScienceNet Paper",
+     "date": "2026-10-30",
+     "summary_zh": "意大利 IRCCS 团队 POMOSANO 随机对照试验纳入 79 名 MASLD 患者，干预组每日食用 200 g 生番茄加 50 g 番茄酱、持续 6 周，肝脂肪变性指标 CAP 降幅显著大于严格无番茄对照组，体成分由双能 X 线评估，为番茄作为膳食干预手段添了 RCT 证据。",
+     "summary_en": "The Italian IRCCS POMOSANO randomised trial enrolled 79 MASLD patients; six weeks of 200 g raw tomatoes plus 50 g tomato paste daily produced a significantly greater drop in CAP-measured liver steatosis than a strict tomato-free control diet, with body composition assessed by DXA, adding RCT evidence for tomato-based dietary intervention."
+    },
+    {
+     "title_zh": "儿童营养从「吃饱」「吃好」到「吃对」：隐性饥饿与营养素协同",
+     "title_en": "From enough food to the right food: hidden hunger and nutrient synergy in children",
+     "url": "https://www.163.com/dy/article/LAGI7QJE0512D3VJ.html",
+     "source_zh": "新京报·网易",
+     "source_en": "The Beijing News / NetEase",
+     "date": "2026-10-30",
+     "summary_zh": "美赞臣中国研发负责人熊辉指出，中国儿童营养已从单一营养素缺乏转为缺乏与过剩并存，热量足而维生素矿物质不足形成「隐性饥饿」；精准营养需依膳食参考摄入量设计、讲究营养素协同与吸收利用，其科学成长营养系统围绕骨骼、脑眼、肠道、自护四维复配。",
+     "summary_en": "Mead Johnson China R&D head Xiong Hui said child nutrition in China has shifted from single-deficiency to coexisting deficiency and excess, with adequate calories but insufficient vitamins and minerals — so-called hidden hunger. Precision nutrition should follow dietary reference intakes and nutrient synergy and absorption; its growth nutrition system combines prebiotics and bioactive peptides across bone, brain-eye, gut and immunity."
+    },
+    {
+     "title_zh": "膳食多样性指标怎么用才不算误读：从食物计数到个体化评估",
+     "title_en": "How to read dietary diversity indicators without misinterpreting them",
+     "url": "https://www.ebiotrade.com/newsf/2026-10/20261030000210298.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade",
+     "date": "2026-10-30",
+     "summary_zh": "一篇综述梳理膳食多样性指标从食物计数、食物组多样性到复合指数、可持续性与个体化评估的演化，指出指标效度更取决于所测构念、分析单位与应用场景是否一致，而非方法复杂程度；多样性高并不等于更健康，呼吁统一食物分类、参考期与评分报告标准。",
+     "summary_en": "A review traced dietary diversity indicators from food counts and food-group diversity to composite indices, sustainability and individualised assessment, arguing that validity depends less on methodological complexity than on alignment between the construct measured, the unit of analysis and the intended use. Higher diversity does not equal healthier diets, and harmonised food classification, reference periods and scoring are needed."
+    },
+    {
+     "title_zh": "乳企转向精准营养：功能保健食品前三季度翻倍，益生菌与蛋白补充剂成五年战略",
+     "title_en": "Dairy giant pivots to precision nutrition as functional health food sales double",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34369881",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-10-30",
+     "summary_zh": "伊利三季报显示，功能保健食品前三季度实现翻倍增长，益生菌与蛋白质补充剂被列为未来五年重点发力的战略新兴品类；成人营养以「欣活」骨能提出骨、关、肌三位一体方案，并计划由成人奶粉向特医食品、功能保健延伸，折射乳企向精准营养要增量。",
+     "summary_en": "Yili's third-quarter report shows functional health foods doubled year on year in the first nine months, with probiotics and protein supplements named strategic emerging categories for the next five years. Its adult nutrition brand Xinhui proposes an integrated bone-joint-muscle formula and plans to expand from adult milk powder into foods for special medical purposes, reflecting dairy's push into precision nutrition."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "ESMO：处方级 EPA 让肠癌肝转移术后五年生存升至 62%，但未延缓复发",
+     "title_en": "ESMO: prescription-grade EPA lifted five-year survival to 62% after colorectal liver surgery, without delaying relapse",
+     "url": "https://drugnews.com.tw/articles/2026-10-29-vascepa-fish-oil-colorectal-cancer-liver-metastasis-emt2.html",
+     "source_zh": "药时事（台湾）",
+     "source_en": "Drugnews Taiwan",
+     "date": "2026-10-29",
+     "summary_zh": "ESMO 2026 公布 EMT2 三期试验：418 例可切除肠癌肝转移患者每日 4 g 高纯度 EPA，五年总生存 62.0% 对安慰剂 45.1%，死亡风险比 0.68；但主要终点无进展生存未过关（13.5 对 12.9 个月），出血与房颤未增加，申办方暂不申请该适应症。",
+     "summary_en": "The phase 3 EMT2 trial presented at ESMO 2026 gave 418 patients with resectable colorectal cancer liver metastases 4 g daily of high-purity EPA (icosapent ethyl): five-year overall survival was 62.0% versus 45.1% with placebo (hazard ratio 0.68), yet the primary progression-free survival endpoint failed (13.5 vs 12.9 months). Bleeding and atrial fibrillation did not increase, and no label filing is planned for now."
+    },
+    {
+     "title_zh": "国内首款苯丙酮尿症氨基酸组件特医食品发布：蛋白等同物 95 克/百克",
+     "title_en": "China's first PKU amino acid formula for special medical purposes launched",
+     "url": "https://www.sohu.com/a/1094966983_353268",
+     "source_zh": "三秦都市报·搜狐",
+     "source_en": "Sanqin Metropolis Daily / Sohu",
+     "date": "2026-10-30",
+     "summary_zh": "国内首款苯丙酮尿症氨基酸组件特医食品「光明爱普昔」在上海发布，由上海交大医学院附属新华医院蔡威团队研发、光明乳业产业化，今年 8 月获市场监管总局注册；产品不含苯丙氨酸，蛋白质等同物达 95 g/100 g，面向大龄儿童、青少年与成人患者，打破进口依赖。",
+     "summary_en": "Guangming Aipuxi, China's first amino acid formula for special medical purposes for phenylketonuria, launched in Shanghai. Developed by Cai Wei's team at Xinhua Hospital affiliated to Shanghai Jiao Tong University School of Medicine and industrialised by Bright Dairy, it was registered in August. Phenylalanine-free with 95 g protein equivalent per 100 g, it targets older children, adolescents and adults, ending import reliance."
+    },
+    {
+     "title_zh": "汤臣倍健三季报：维生素 D 保留率 +25.6%，辅酶 Q10 生物利用度 151%",
+     "title_en": "By-health Q3: vitamin D retention up 25.6%, CoQ10 bioavailability 151%",
+     "url": "https://www.163.com/dy/article/LAH2ADPE0539AECO.html",
+     "source_zh": "网易财经",
+     "source_en": "NetEase Finance",
+     "date": "2026-10-30",
+     "summary_zh": "汤臣倍健三季报显示连续五个季度营收增长：自研乳化技术使维生素 D 保留率提升 25.6%，红芯辅酶 Q10 生物利用度达 151%，三合一鱼油上市 9 天销售额破百万；公司累计专利 439 项、保健食品注册证 141 个、备案凭证 227 个、SCI 论文 170 篇。",
+     "summary_en": "By-health reported a fifth consecutive quarter of revenue growth: an in-house emulsification technology raised vitamin D retention by 25.6%, its red-core coenzyme Q10 reached 151% bioavailability, and a three-in-one fish oil passed one million yuan in sales nine days after launch. The company holds 439 patents, 141 health-food registrations, 227 filings and 170 SCI papers."
+    },
+    {
+     "title_zh": "日本把男性更年期列为社会议题，补剂厂商盯上「职场男性」新赛道",
+     "title_en": "Japan flags andropause as a social issue, opening supplement opportunities",
+     "url": "https://www.nutraingredients.com/Article/2026/10/29/growing-andropause-awareness-could-drive-new-supplement-opportunities-in-japan/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-29",
+     "summary_zh": "日本原料商 Octroll 在 Hi Japan 2026 表示，随着政府把男性更年期列为社会议题（相关年经济损失约 2 万亿日元，约 127 亿美元），消费者认知提升正为补剂打开新空间；其思路是用传统上用于提升睾酮与运动表现的原料缓解症状，职场健康管理被视为重要切入口。",
+     "summary_en": "Japanese ingredient supplier Octroll told NutraIngredients at Hi Japan 2026 that government recognition of andropause as a social issue — with related annual economic losses estimated at about ¥2 trillion (US$12.7 billion) — is raising consumer awareness and opening supplement opportunities. Its approach repurposes ingredients traditionally used for testosterone and sports performance, with workplace health programmes seen as a key entry point."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "贵州部署 2026 年基本公卫：慢病红黄绿分级、一站式中心、健康积分",
+     "title_en": "Guizhou sets 2026 public health services: traffic-light chronic disease tiers and health points",
+     "url": "https://wjw.guizhou.gov.cn/xwzx/tzgg/202610/t20261030_91056669.html",
+     "source_zh": "贵州省卫生健康委员会",
+     "source_en": "Guizhou Provincial Health Commission",
+     "date": "2026-10-30",
+     "summary_zh": "贵州省卫健委等四部门部署 2026 年基本公共卫生服务：探索健康积分兑换，推动乡镇与社区提供周末接种；基层设一站式慢病健康管理中心，按红黄绿三类分级管理，并将高血压、2 型糖尿病、高脂血症、肥胖症的膳食运动指导要点嵌入医生工作站，年内覆盖三分之二以上基层机构。",
+     "summary_en": "Guizhou's health commission and three other departments set 2026 basic public health tasks: piloting redeemable health points, offering weekend vaccination at township and community facilities, building one-stop chronic disease centres with red-yellow-green risk tiers, and embedding dietary and exercise guidance for hypertension, type 2 diabetes, hyperlipidaemia and obesity into clinician workstations in over two-thirds of primary facilities within the year."
+    },
+    {
+     "title_zh": "毕节构建「1+9+N」慢病防治体系：2030 年过早死亡率降到 13% 以下",
+     "title_en": "Bijie builds a 1+9+N chronic disease system, targeting premature mortality below 13% by 2030",
+     "url": "https://www.bijie.gov.cn/zwgk/zcwj/bfbf/202610/t20261030_91057539.html",
+     "source_zh": "毕节市人民政府",
+     "source_en": "Bijie Municipal People's Government",
+     "date": "2026-10-30",
+     "summary_zh": "毕节市印发慢性病防治体系建设实施方案（2026—2030 年），构建「1+9+N」体系与市、县、乡、村四级网络，2026 年建成心脑血管、肿瘤、呼吸三大市级诊疗中心，2030 年重大慢性病过早死亡率降至 13% 以下、癌症五年生存率 46.6%、人均预期寿命约 78 岁。",
+     "summary_en": "Bijie issued a 2026–2030 chronic disease prevention and control plan built on a 1+9+N structure and a four-tier city-county-township-village network. By 2026 three municipal centres for cardiovascular, cancer and respiratory disease should operate; by 2030 premature mortality from major chronic diseases should fall below 13%, cancer five-year survival reach 46.6% and life expectancy about 78 years."
+    },
+    {
+     "title_zh": "湘潭岳塘「减盐减油」：三师共管、定制服务包，把体重管理写进家医签约",
+     "title_en": "Xiangtan Yuelang cuts salt and oil with three-professional teams and tailored service packages",
+     "url": "https://cn.chinadaily.com.cn/a/202610/30/WS6ae445f6e4b09a165c7929a1.html",
+     "source_zh": "中国日报网",
+     "source_en": "China Daily",
+     "date": "2026-10-30",
+     "summary_zh": "湘潭市岳塘区以机关先行、企业联动推进减盐减油精准干预：把减盐减油与体重管理纳入家庭医生签约，组建「三师共管」团队，为 25—60 岁超重肥胖及高血压、糖尿病高危人群提供免费筛查、体质评估、膳食运动处方与随访，并发放限盐勺、控油壶、智能体脂秤，配套线上打卡复盘。",
+     "summary_en": "Yuelang district in Xiangtan is rolling out targeted salt and oil reduction, starting with government offices and linking enterprises: the programme is folded into family doctor contracts with three-professional teams serving overweight and high-risk adults aged 25–60 through free screening, constitution assessment, diet and exercise prescriptions and follow-up, plus portion spoons, oil pots and smart scales with online check-ins."
+    },
+    {
+     "title_zh": "第十一届柳叶刀—中国医学科学院大会：AI 临床创新与健康老龄化同台",
+     "title_en": "11th Lancet–CAMS conference pairs AI in clinical innovation with healthy ageing",
+     "url": "https://www.pumc.edu.cn/yxyw/ef31e4f7d1bd445f8bf94e064be963b8.htm",
+     "source_zh": "中国医学科学院北京协和医学院",
+     "source_en": "Chinese Academy of Medical Sciences / PUMC",
+     "date": "2026-10-30",
+     "summary_zh": "第十一届柳叶刀—中国医学科学院医学与健康大会 10 月 30—31 日在北京举行，由中国医学科学院北京协和医学院与《柳叶刀》共同举办，聚焦人工智能与临床创新、健康老龄化及重大公共卫生问题，集中分享多项针对中国健康挑战的《柳叶刀》委员会报告，并设呼吸病学、公共卫生等中国专刊专场。",
+     "summary_en": "The 11th Lancet–Chinese Academy of Medical Sciences Conference runs in Beijing on 30–31 October, co-hosted by CAMS/Peking Union Medical College and The Lancet. It focuses on AI and clinical innovation, healthy ageing and major public health challenges, presenting several Lancet Commission reports on China's health issues alongside special issues in respiratory medicine, public health and Western Pacific regional health."
+    }
+   ]
+  }
+ ]
+}
