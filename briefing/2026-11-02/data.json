@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-02",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月26日 — 11月1日（最近 7 天）",
+ "range_en": "Oct 26 – Nov 1, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "全食物饮食让克罗恩病高危人群肠道炎症降六成，一级预防首获随机证据",
+     "title_en": "Whole-food diet cuts gut inflammation by 60% in high-risk Crohn's relatives",
+     "url": "https://news.qq.com/rain/a/20261031A0BX6400",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-10-31",
+     "summary_zh": "沙阿雷泽德克医疗中心的 Dan Turner 团队在《Gastroenterology》发表 PIONIR 随机交叉试验：331 名克罗恩病患者无症状一级亲属中，钙卫蛋白持续升高者接受 8 周 Tasty&Healthy 全食物饮食，钙卫蛋白降 61%，应答率 71%（对照 27%）。",
+     "summary_en": "In the PIONIR randomised crossover trial published in Gastroenterology, Dan Turner's team screened 331 asymptomatic first-degree relatives of Crohn's patients and gave an 8-week Tasty&Healthy whole-food diet to those with persistently elevated faecal calprotectin. Calprotectin fell 61% from baseline and 71% responded versus 27% on habitual diet; Coprococcus eutactus enrichment tracked the decline and ultra-processed food intake dropped to zero."
+    },
+    {
+     "title_zh": "电针缓解疼痛与抑郁共病：肠—代谢物—脑轴重塑前额叶 Glu/GABA 平衡",
+     "title_en": "Electroacupuncture relieves pain-depression comorbidity via gut-metabolite-brain axis",
+     "url": "https://www.163.com/dy/article/LAJVMI5C0552HAAJ.html",
+     "source_zh": "脑声常谈",
+     "source_en": "Brain Sound Lab",
+     "date": "2026-11-01",
+     "summary_zh": "广东省中医院符文彬、刘健华团队在《Translational Psychiatry》发表：坐骨神经损伤大鼠中，电针缓解痛敏与抑郁样行为，恢复前额叶 Glu/GABA 平衡，并富集丁酸相关菌属；多组学锁定哌可酸为枢纽代谢物，中介分析证实「哌可酸—GABA」轴介导行为恢复。",
+     "summary_en": "Writing in Translational Psychiatry on 30 October, Ruwenbin and Liu Jianhua's team at Guangdong Provincial Hospital of Chinese Medicine showed that electroacupuncture in nerve-injured rats eased mechanical hypersensitivity and depressive behaviour, restored prefrontal Glu/GABA balance with normalised EAAT2 and GAD67, and reshaped the microbiome toward butyrate producers. Multi-omics pinpointed pipecolic acid as the hub metabolite mediating recovery via a pipecolic acid-GABA axis."
+    },
+    {
+     "title_zh": "《Nature Medicine》提出微生物组与慢病转化的十大战略优先事项",
+     "title_en": "Nature Medicine sets ten strategic priorities for microbiome translation",
+     "url": "https://news.qq.com/rain/a/20261101A09QQB00",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-11-01",
+     "summary_zh": "美国 HHS 召集的国际专家共识在《Nature Medicine》提出微生物组与慢病研究十大优先事项：从关联描述转向因果验证，整合多组学，建全球计算平台与 AI 模型，加速活体生物药与精准营养审批，聚焦生命最初 1000 天与肠—脑轴，并警示缺循证的商业检测与补剂。",
+     "summary_en": "An international expert consensus convened by the US HHS, published in Nature Medicine on 23 October, lists ten strategic priorities for microbiome research: moving from association to causal validation, integrating metatranscriptomics, metaproteomics and metabolomics, building global computational and AI platforms, speeding approval of live biotherapeutics and precision-nutrition products, focusing on the first 1,000 days and the gut-brain axis, and warning against unproven commercial tests and supplements."
+    },
+    {
+     "title_zh": "绝经后肠道菌群同步「变老」：短链脂肪酸减少、TMAO 风险放大",
+     "title_en": "Gut microbiome ages with menopause as short-chain fatty acids decline",
+     "url": "https://news.qq.com/rain/a/20261101A09WUE00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-01",
+     "summary_zh": "科普梳理绝经后菌群与代谢的联动：雌激素下降伴随菌群构成改变，产短链脂肪酸能力（尤其丁酸）减弱、TMAO 通路风险放大、次级胆汁酸代谢改变，进而联动血管僵硬、肝脏脂肪堆积与骨骼肌流失。动物实验显示，补充丁酸或移植正常菌群可减轻卵巢切除小鼠的肝脂变性。",
+     "summary_en": "A science explainer traces how menopause reshapes the microbiome: falling oestrogen accompanies compositional change, weaker short-chain fatty acid production (especially butyrate), amplified TMAO pathways and altered secondary bile acid metabolism, feeding into arterial stiffness, liver fat accumulation and muscle loss. In ovariectomised mice, butyrate supplementation or healthy microbiota transfer reduced hepatic steatosis."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "承重骨骼会「分泌青春」：力学刺激让老年小鼠延寿近 3 个月",
+     "title_en": "Loaded bone secretes rejuvenating factors, extending old mice lifespan",
+     "url": "https://wap.sciencenet.cn/blog-41174-1558956.html",
+     "source_zh": "科学网",
+     "source_en": "ScienceNet",
+     "date": "2026-11-01",
+     "summary_zh": "南方医科大学白晓春团队在《Cell Metabolism》发表：骨细胞 PIEZO1 感知力学负荷，每周两次胫骨动态轴向负荷使老年小鼠寿命延长近 3 个月（约合人类 9 年），多器官状态同步年轻化；骨细胞分泌的 PEDF 单独注射即可复刻效果。尚属小鼠概念验证。",
+     "summary_en": "In Cell Metabolism, Bai Xiaochun's team at Southern Medical University reports that osteocyte PIEZO1 senses mechanical load: twice-weekly tibial dynamic axial loading extended old mice lifespan by nearly three months (roughly nine human years) with younger bone, cognition and organ states. PEDF, secreted by osteocytes, reproduced the effect when injected alone and is lower in older adults and osteoporosis patients. Mouse proof-of-concept only."
+    },
+    {
+     "title_zh": "三组分「抗衰老疫苗」使雌性小鼠中位寿命延长 12%",
+     "title_en": "Three-element senolytic vaccine extends median lifespan 12% in female mice",
+     "url": "https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/",
+     "source_zh": "Lifespan Research Institute",
+     "source_en": "Lifespan Research Institute",
+     "date": "2026-10-30",
+     "summary_zh": "Lifespan Research Institute 报告：晚年给予三组分「抗衰老疫苗」可降低衰老标志物，使雌性 B6 小鼠中位寿命延长 12%。研究提示帮助免疫系统清除「僵尸细胞」可影响衰老结局，但对照组本身寿命偏短，结论仍需更严格设计验证，目前尚无人体数据。",
+     "summary_en": "Lifespan Research Institute reports that late-life treatment with a three-element senolytic vaccine lowered senescence markers and increased median lifespan by 12% in female B6 mice. The work suggests helping the immune system clear zombie cells can shift ageing outcomes, but the short-lived controls complicate interpretation and no human data exist yet."
+    },
+    {
+     "title_zh": "核内 NAD⁺ 维持先天免疫记忆，补充 NMN 可找回老龄小鼠的抗肿瘤免疫",
+     "title_en": "Nuclear NAD+ sustains innate immune memory; NMN restores it in aged mice",
+     "url": "https://news.qq.com/rain/a/20261101A0ANRW00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-01",
+     "summary_zh": "中国团队在《Science Immunology》发表：核内 NAD⁺ 通过抑制 KDM5A 依赖的组蛋白去甲基化维持先天免疫记忆，补充 NMN 可恢复老龄小鼠受损的 β-葡聚糖训练性抗肿瘤效应。作者强调训练在肿瘤接种前完成，不能据此认为 NMN 可治疗已形成的肿瘤。",
+     "summary_en": "A Chinese team in Science Immunology shows nuclear NAD+ sustains innate immune memory by inhibiting KDM5A-dependent histone demethylation, and NMN supplementation restored impaired β-glucan-trained anti-tumour responses in aged and Nampt-deficient mice. The authors stress the training was given before tumour inoculation, so NMN cannot be assumed to treat established tumours; human evidence remains correlative."
+    },
+    {
+     "title_zh": "长寿时代应把脑卒中视为「生物衰老加速」的预警信号",
+     "title_en": "In the longevity era, stroke should be read as accelerated biological ageing",
+     "url": "https://www.163.com/dy/article/LAKLUCO005149U3U.html",
+     "source_zh": "全球医生组织",
+     "source_en": "Global MD Organization",
+     "date": "2026-11-01",
+     "summary_zh": "神经科专家提出，卒中预防应跳出分项管控危险因素的模式，把生物学年龄纳入风险评估，将卒中视作衰老进程失衡的外在表现。核心干预仍是控压、地中海饮食、每周 150 分钟有氧、每天 6 小时以上睡眠与他汀、房颤规范治疗；文章提醒生物年龄检测与全身 MRI 证据不足，颈动脉斑块负荷更可靠。",
+     "summary_en": "Neurologists argue that stroke prevention should move beyond managing individual risk factors, incorporating biological age and treating stroke as an external sign of dysregulated ageing. Core interventions remain blood pressure control, a Mediterranean diet, 150 minutes of weekly aerobic exercise, six-plus hours of sleep, statins and proper atrial fibrillation treatment. The authors caution that biological age tests and whole-body MRI lack evidence, whereas carotid plaque burden is more reliable."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "每天两份带皮烤花生 16 周：老年人胰岛素敏感性与记忆同步改善",
+     "title_en": "Two daily servings of roasted peanuts for 16 weeks improve insulin and memory",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003001.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-01",
+     "summary_zh": "ScienceDaily 报道一项干预研究：老年人连续 16 周每天摄入约两份无盐带皮烘烤花生，胰岛素敏感性改善，记忆与认知测试表现优于对照。研究者强调这是特定食物、特定剂量下的短期结果，不能替代整体膳食模式，也不意味着花生可普遍用于预防认知衰退。",
+     "summary_en": "ScienceDaily reports an intervention study in which older adults ate about two servings of unsalted, skin-roasted peanuts daily for 16 weeks, improving insulin sensitivity and scoring better on memory and cognitive tests than controls. The researchers stress these are short-term results for one food at one dose and no substitute for an overall dietary pattern."
+    },
+    {
+     "title_zh": "48 万国人 9 年随访：习惯性喝茶与血管病风险下降 11% 相关",
+     "title_en": "Tea habit linked to 11% lower vascular risk in 486,000 Chinese adults",
+     "url": "https://www.163.com/dy/article/LALKVCUD052583KJ.html",
+     "source_zh": "人民日报健康客户端",
+     "source_en": "People's Daily Health Client",
+     "date": "2026-11-01",
+     "summary_zh": "《Journal of Internal Medicine》研究随访 48 万余国人中位 9 年：每周饮茶≥3 天者血管病风险低 11%；红茶优于绿茶，烫茶风险升高约 16%，中等浓度、每天 6~8 杯最低；「喝茶＋不吸烟＋高运动量」组合降 45.2%。属观察性研究，不宜直接推论因果。",
+     "summary_en": "A Journal of Internal Medicine study following more than 486,000 Chinese adults for a median nine years found that drinking tea at least three days a week was associated with 11% lower vascular disease risk. Black tea outperformed green, warm tea beat scalding tea (which raised risk about 16%), and six to eight cups of moderate strength showed the lowest risk; tea plus non-smoking and high activity cut risk 45.2%. Observational only."
+    },
+    {
+     "title_zh": "中国食品科技年会昆明开幕：「AI＋精准营养＋智能制造」成新落点",
+     "title_en": "CIFST annual meeting in Kunming puts AI-driven precision nutrition centre stage",
+     "url": "https://news.foodmate.net/2026/11/756090.html",
+     "source_zh": "食品伙伴网",
+     "source_en": "FoodMate",
+     "date": "2026-11-01",
+     "summary_zh": "中国食品科学技术学会第二十三届年会 10 月 31 日在昆明开幕。谢明勇院士提出「AI＋精准营养＋智能制造」是新质生产力在食品业的落脚点，涵盖功能因子发现、生物合成与个体化营养；胡小松介绍海淀数智食堂每天 600 余人就餐的「精准营养＋AI 大模型」实践，显示精准营养正从概念走向餐饮与产品场景。",
+     "summary_en": "The 23rd annual meeting of the Chinese Institute of Food Science and Technology opened in Kunming on 31 October. Academician Xie Mingyong called AI plus precision nutrition plus smart manufacturing the industry's new productivity frontier, spanning functional factor discovery, biosynthesis and personalised nutrition, while Hu Xiaosong presented a Haidian digital canteen serving 600-plus people daily as a precision-nutrition plus large-model testbed."
+    },
+    {
+     "title_zh": "减肥不必戒碳水：高质量碳水才是体重管理与血糖的关键",
+     "title_en": "Don't cut carbs, upgrade them: quality carbohydrates for weight and glucose",
+     "url": "https://www.toutiao.com/article/7702979527287030281/",
+     "source_zh": "光明网",
+     "source_en": "Guangming Online",
+     "date": "2026-11-01",
+     "summary_zh": "光明网科普指出，《中国居民膳食指南（2022）》建议碳水供能占 50%~65%，盲目戒碳水会带来营养不良、肌肉流失、记忆力下降与情绪低落。体重管理的关键在「选对碳水」：全谷物、薯类、杂豆与低 GI 水果具备高纤维、高营养密度、低升糖特点，并建议多种全谷物轮换、杂豆配谷物、薯类替代部分米面。",
+     "summary_en": "Guangming Online notes that China's 2022 dietary guidelines advise carbohydrates to supply 50-65% of energy, and that cutting them outright risks malnutrition, muscle loss, poorer memory and low mood. Weight management hinges on choosing better carbs: whole grains, tubers, pulses and low-GI fruit, which are fibre-rich, nutrient-dense and slow to raise glucose, with variety and partial replacement of refined staples recommended."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "维生素 A 的新发现改写视觉发育认知，但离「补维 A」建议还很远",
+     "title_en": "New vitamin A finding rewrites vision development, but not supplement advice",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261028234813.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-10-31",
+     "summary_zh": "约翰斯·霍普金斯大学团队发现一种帮助人类在出生前形成敏锐视力的新过程，挑战了数十年来关于眼睛如何形成的假设。该成果属发育生物学基础研究，提示视觉精细环路的建立涉及此前未被认识的通路；研究者未据此提出任何维生素 A 补充建议，过量补充仍有安全边界。",
+     "summary_en": "Johns Hopkins scientists uncovered a process that helps humans develop sharp vision before birth, challenging decades of assumptions about how the eye forms. The work is basic developmental biology, suggesting previously unrecognised pathways in building fine visual circuits; the team draws no supplementation advice from it, and vitamin A excess still carries safety limits."
+    },
+    {
+     "title_zh": "百元「维生素文身贴」走红：无透皮数据，也走不了保健食品备案",
+     "title_en": "Viral vitamin tattoo patches lack skin-absorption data and legal pathway",
+     "url": "http://news.cnnb.com.cn/system/2026/11/01/030830698.shtml",
+     "source_zh": "中国宁波网",
+     "source_en": "China Ningbo Net",
+     "date": "2026-11-01",
+     "summary_zh": "中国宁波网调查售价百元的「维生素文身贴」：宣称贴手臂即可补充维生素、提升免疫，但公开渠道找不到人体透皮实验数据。浙江大学沈立荣指出，标注 1mg 锌、5mg 接骨木果提取物不等于能透皮入血达到有效剂量；此类外用贴剂无法申报保健食品，宣称「补充维生素」涉嫌违规，建议优先选择蓝帽子口服产品。",
+     "summary_en": "China Ningbo Net investigated 100-yuan vitamin tattoo patches claiming that sticking one on the arm supplies vitamins and boosts immunity, yet no human skin-absorption data are publicly available. Zhejiang University's Shen Lirong notes that listing 1 mg zinc and 5 mg elderberry extract does not mean they cross the skin at effective doses; such topical patches cannot be registered as health foods, and the vitamin claims carry compliance risk."
+    },
+    {
+     "title_zh": "69% 爆品红不过一个月：保健品竞争从流量转向成分与复购",
+     "title_en": "69% of hit supplements fade within a month as competition shifts to retention",
+     "url": "https://www.163.com/dy/article/LAL57EUF05118OGM.html",
+     "source_zh": "果壳",
+     "source_en": "Guokr",
+     "date": "2026-11-01",
+     "summary_zh": "果壳梳理抖音滋补保健榜单 21 个月数据：943 个曾进月榜 Top100 的商品中 651 个「红不过第二个月」，仅 8 个长期在榜；占 69% 的「一月游」爆品累计销售额与常青款相差 10 倍。文章以定制营养小程序复购率 30% 为例，认为竞争正从投流转为成分透明与长期跟踪。",
+     "summary_en": "Guokr analysed 21 months of Douyin supplement rankings: of 943 products that entered the monthly top 100, 651 faded before a second month and only eight stayed throughout, with one-month wonders making up 69% of entries yet trailing evergreen products tenfold in cumulative sales. A customised-nutrition mini-program with 30% repurchase rates, four times the category norm, is cited as evidence that competition is shifting from ad spend to ingredient transparency and follow-up."
+    },
+    {
+     "title_zh": "2026 共识解读：维生素 D 不用于糖尿病血糖管理，窗口在糖尿病前期",
+     "title_en": "2026 consensus: vitamin D is not for glycaemic control, the window is prediabetes",
+     "url": "https://wap.sciencenet.cn/blog-595906-1558976.html",
+     "source_zh": "科学网",
+     "source_en": "ScienceNet",
+     "date": "2026-11-01",
+     "summary_zh": "科学网梳理 2026 年维生素 D 与血糖证据：ADA/EASD 10 月共识明确「当前证据不支持维生素 D 用于 2 型糖尿病患者血糖管理」，也不推荐特定补充剂降糖；但糖尿病前期人群的荟萃分析显示 HbA1c 可降约 0.48 个百分点。作者提示补充窗口可能在确诊之前。",
+     "summary_en": "ScienceNet reviews the 2026 evidence on vitamin D and glucose: an October ADA/EASD consensus states current evidence does not support vitamin D for glycaemic management in type 2 diabetes, nor specific supplements for lowering glucose, while meta-analyses in prediabetes show HbA1c down about 0.48 points and fasting glucose down about 0.46 mmol/L. The window for benefit may therefore precede diagnosis."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "长寿医学与生活方式医学北大国际论坛 11 月 13 日开幕，设功能医学实操培训",
+     "title_en": "Peking University forum pairs longevity and lifestyle medicine in November",
+     "url": "https://www.163.com/dy/article/LAJKRJVL0514M4NQ.html",
+     "source_zh": "北大医疗集团",
+     "source_en": "PKU Healthcare Group",
+     "date": "2026-11-01",
+     "summary_zh": "北大医疗集团与北京大学国际医院将于 11 月 13—20 日举办「长寿医学与生活方式医学北大国际论坛」，设主旨演讲、闭门研讨与《功能医学在临床中的应用》手把手培训班，议题覆盖长寿蓝区与地中海饮食、体重管理、脑健康、围绝经期、免疫健康与个性化营养，并成立「健康中国生活方式医学 30 人论坛」智库。",
+     "summary_en": "PKU Healthcare Group and Peking University International Hospital will host a longevity and lifestyle medicine forum from 13 to 20 November, combining keynote sessions, closed-door workshops and a hands-on course on functional medicine in clinical practice. Topics span blue zones and the Mediterranean diet, weight management, brain health, perimenopause, immune health and personalised nutrition, alongside a new 30-expert lifestyle medicine think tank."
+    },
+    {
+     "title_zh": "第九届中华健康节启幕：食药同源从传统滋补走向日常快消",
+     "title_en": "Ninth Chinese Health Festival opens as medicinal foods go mainstream",
+     "url": "https://zhongyi.gmw.cn/2026-11/01/content_39079612.htm",
+     "source_zh": "光明网",
+     "source_en": "Guangming Online",
+     "date": "2026-11-01",
+     "summary_zh": "第九届中华健康节 10 月 31 日在石家庄以岭健康城启幕，主题「身体需要经营，健康需要管理」。会议围绕通络养生八字经、营养保健食品循证化、食药同源从传统滋补走向日常快消、AI 与大数据赋能大健康展开；以岭健康科技与腾讯、中国老龄产业协会等签约，布局银发经济与线下药店「健康＋」场景。",
+     "summary_en": "The ninth Chinese Health Festival opened on 31 October at Yiling Health City in Shijiazhuang under the theme that the body needs managing and health needs stewardship. Sessions covered the collateral-unblocking wellness framework, evidence-based claims for supplements, medicinal foods moving from tonic traditions to everyday fast-moving goods, and AI in healthcare; Yiling signed partnerships with Tencent and the China Ageing Industry Association to build out the silver economy and pharmacy health-plus services."
+    },
+    {
+     "title_zh": "南京赛虹桥启用运动促进健康中心：运动处方接进家庭医生随访",
+     "title_en": "Nanjing community opens exercise-for-health centre tied to family doctors",
+     "url": "https://news.qq.com/rain/a/20261101A0669400",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-01",
+     "summary_zh": "南京雨花台区赛虹桥街道启用运动促进健康中心并发布「行动力」体卫融合品牌：社区点负责初筛与日常锻炼指导，中心承担深度评估与复杂病例运动干预，形成「社区发现—医院解决—回社区管理」闭环；运动处方接入家庭医生随访，健康管理能力被纳入基层治理考核，一年后出具居民运动干预真实效果报告。",
+     "summary_en": "Saihongqiao subdistrict in Nanjing's Yuhuatai district opened an exercise-for-health centre and launched its health-fitness integration brand: community sites screen and coach daily activity while the centre handles deep assessment and complex cases, closing a loop from community detection to hospital solutions to community management. Exercise prescriptions now feed family-doctor follow-up, health management counts in grassroots governance metrics, and a real-world outcome report is due in a year."
+    },
+    {
+     "title_zh": "AI 精准长寿管理落地广东 16 个专病方向，专家点出五个「断点」",
+     "title_en": "AI longevity management lands in 16 specialties, but five gaps remain",
+     "url": "https://www.bjnews.com.cn/detail/1793522327129963.html",
+     "source_zh": "新京报",
+     "source_en": "The Beijing News",
+     "date": "2026-11-01",
+     "summary_zh": "在广东省医学会健康管理与互联网医疗联合大会上，OMYQS 发布精准长寿健康管理生态，已在广东省第二人民医院 16 个主动健康专病方向落地。首席 AI 科学家王皓指出 AI 进入持续管理的五个断点：信息接不上、记录连不清、结果接不进流程、过程查不全、经验协同难。",
+     "summary_en": "At the Guangdong Medical Association's health management and internet medicine congress, OMYQS launched a precision longevity management ecosystem now deployed across 16 proactive-health specialties at Guangdong Second Provincial General Hospital. Chief AI scientist Wang Hao named five gaps blocking continuous AI-driven care: fragmented history, disconnected records, outputs that never reach workflows, untraceable reasoning and hard-to-share expertise, urging that disability prevention start in the functionally robust and mildly impaired."
+    }
+   ]
+  }
+ ]
+}
