@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-03",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月28日 — 11月3日（最近 7 天）",
+ "range_en": "Oct 28 – Nov 3, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "陕西省首家肠道微生态诊疗中心升级开诊，粪菌移植建成全流程闭环",
+     "title_en": "Shaanxi's first gut microbiome clinic reopens with a full-chain FMT workflow",
+     "url": "http://health.cnwest.com/jksh/a/2026/11/02/23464923.html",
+     "source_zh": "西部网健康频道",
+     "source_en": "CNWest Health",
+     "date": "2026-11-02",
+     "summary_zh": "10月30日，西安市中心医院肠道微生态诊疗中心在经开院区开诊。该中心2022年建成陕西省首家菌群库，已打通供体筛选、菌群分离制备、低温储存到临床治疗的闭环，围绕艰难梭菌感染、溃疡性结肠炎、慢性便秘、肠易激综合征开展粪菌移植，并称该技术已纳入国家医疗服务技术规范与医保立项指南。",
+     "summary_en": "On Oct 30, Xi'an Central Hospital opened its gut microbiome diagnosis and treatment centre at the Jingkai campus. First established in Shaanxi in July 2022, the centre now runs a closed loop from donor screening and microbiome isolation to cryostorage and clinical delivery, performing faecal microbiota transplantation for C. difficile infection, ulcerative colitis, chronic constipation and IBS; hospital officials noted FMT is now covered by national technical standards and insurance pricing guidelines."
+    },
+    {
+     "title_zh": "GPCR-seq 绘出肠菌—宿主“化学对话”图谱，锁定炎症性肠病相关受体通路",
+     "title_en": "GPCR-seq maps the gut microbe–host chemical dialogue and flags an IBD-linked receptor",
+     "url": "https://new.qq.com/rain/a/20261101A08R0S00",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-11-01",
+     "summary_zh": "麻省总医院团队在 Cell Host & Microbe 发表 GPCR-seq 平台，用测序多重报告系统一次筛查数百种肠道代谢物对受体的激活效应。研究显示环己乙酸等菌源脂肪酸经嗅觉受体 OR51E1 驱动肠嗜铬细胞分泌血清素；6-羟基烟酸激活 GPR35，且在炎症性肠病患者粪便中富集。",
+     "summary_en": "Writing in Cell Host & Microbe, the Xavier and Graham teams at Massachusetts General Hospital described GPCR-seq, a next-generation-sequencing-based multiplex reporter platform that screens hundreds of gut metabolites against host receptors at once. Microbial fatty acids such as cyclohexaneacetic acid drove serotonin release from enterochromaffin cells via the olfactory receptor OR51E1, while 6-hydroxy-nicotinic acid activated GPR35 and was markedly enriched in stools from patients with inflammatory bowel disease."
+    },
+    {
+     "title_zh": "《自然》：约翰霍普金斯找到肠菌毒素入侵结肠的“门锁”claudin-4",
+     "title_en": "Nature: Johns Hopkins identifies claudin-4 as the docking receptor for a gut bacterial toxin",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031012912.htm",
+     "source_zh": "ScienceDaily／约翰霍普金斯医学",
+     "source_en": "ScienceDaily / Johns Hopkins Medicine",
+     "date": "2026-10-31",
+     "summary_zh": "约翰霍普金斯在《自然》报告，产毒型脆弱拟杆菌的 BFT 毒素须先结合结肠上皮紧密连接蛋白 claudin-4，才能降解 E-cadherin、破坏屏障并促发慢性炎症与肿瘤。团队设计可溶性 claudin-4 诱饵，在小鼠体内拦截毒素、避免组织损伤，为结直肠癌预防提供新靶点。",
+     "summary_en": "In Nature, Johns Hopkins Kimmel Cancer Center researchers showed that the BFT toxin of toxigenic Bacteroides fragilis must first bind claudin-4, a tight-junction protein on colon epithelial cells, before it can degrade E-cadherin, breach the barrier and drive chronic inflammation and tumours. Using a genome-wide CRISPR screen, the team then built a soluble claudin-4 decoy that intercepted the toxin and protected mice from tissue damage, offering a new target for colorectal cancer prevention."
+    },
+    {
+     "title_zh": "《自然》：高胆固醇饮食经 Ral–CTSA 通路“拆掉”肝脏 LDL 受体",
+     "title_en": "Nature: high-cholesterol diets dismantle liver LDL receptors via a Ral–CTSA pathway",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003003.htm",
+     "source_zh": "ScienceDaily／加州大学圣迭戈分校",
+     "source_en": "ScienceDaily / UC San Diego",
+     "date": "2026-10-31",
+     "summary_zh": "加州大学圣迭戈分校在《自然》揭示，高胆固醇饮食激活蛋白 Ral，经组织蛋白酶 A（CTSA）加速肝细胞 LDL 受体降解。抑制 CTSA 后小鼠 LDL 受体更稳定、循环 LDL 显著下降。该通路不同于他汀与 PCSK9 抑制剂，已有通过 I 期安全性试验的抑制剂可候选进入 II 期。",
+     "summary_en": "UC San Diego scientists reported in Nature that dietary cholesterol activates the protein Ral, which in turn drives cathepsin A (CTSA) to accelerate degradation of LDL receptors on liver cells, eroding the body's ability to clear LDL from the blood. Blocking CTSA with a small molecule stabilised the receptors and sharply lowered circulating LDL in mice. The pathway is distinct from those targeted by statins and PCSK9 inhibitors, and a CTSA inhibitor that already passed a Phase 1 safety trial could move to Phase 2."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "中科院团队筛出千金藤素：选择性清除衰老细胞，小鼠中位寿命延长约 18%",
+     "title_en": "Cepharanthine emerges as a selective senolytic, extending mouse median lifespan",
+     "url": "https://www.163.com/dy/article/LANNEQ1905329KGN.html",
+     "source_zh": "网易·iNature前沿",
+     "source_en": "iNature (via NetEase)",
+     "date": "2026-11-02",
+     "summary_zh": "中科院香港创新研究院等团队在 Phytomedicine 报告，千金藤素对衰老细胞 IC50 为 3.1 μM、对正常细胞 10.96 μM，选择性约 3.5 倍。自然衰老小鼠中位寿命由 660 天延至 780 天，早衰症小鼠由 110 天延至 130 天。",
+     "summary_en": "Researchers from the Chinese Academy of Sciences Hong Kong Institute of Innovation and collaborators reported in Phytomedicine that the natural compound cepharanthine kills senescent cells with an IC50 of 3.1 μM versus 10.96 μM for proliferating cells, roughly 3.5-fold selectivity. It suppresses PI3K/AKT survival signalling, activates PERK-ATF4-CHOP and upregulates PUMA/NOXA to trigger mitochondrial apoptosis. Median lifespan rose from 660 to 780 days in naturally aged mice and from 110 to 130 days in a progeria model."
+    },
+    {
+     "title_zh": "上海仁济 1.8 万人队列：血浆代谢组“衰老时钟”可预测慢病与死亡",
+     "title_en": "Shanghai cohort of 18,476 builds a plasma metabolomic clock for ageing and disease risk",
+     "url": "https://www.toutiao.com/article/7703548850564383286/",
+     "source_zh": "上观新闻",
+     "source_en": "Shangguan News",
+     "date": "2026-11-02",
+     "summary_zh": "仁济医院卜军团队与上海交大钱昆团队在《科学·转化医学》发表封面研究，覆盖六中心 18476 名 1—96 岁人群、随访 6 年，绘出血浆代谢图谱，筛出 56 个年龄相关特征并构建“代谢组年龄加速”（mAA）。mAA 每升高 1 个标准差，全因死亡风险约增 50%，并与高血压、脂肪肝、糖尿病相关。",
+     "summary_en": "A cover paper in Science Translational Medicine from Renji Hospital's Bu Jun team and Shanghai Jiao Tong University's Qian Kun team profiled plasma metabolites in 18,476 people aged 1 to 96 across six Chinese centres with about six years of follow-up. They mapped lifespan-wide metabolic trajectories, identified 56 age-related features and built a metabolomic age acceleration (mAA) index; each standard-deviation rise in mAA corresponded to roughly 50% higher all-cause mortality and tracked hypertension, fatty liver and diabetes."
+    },
+    {
+     "title_zh": "24 年追踪 8200 人：BMI 越高，记忆与执行功能衰退越快",
+     "title_en": "24-year study of 8,200 adults links higher BMI to faster cognitive decline",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm",
+     "source_zh": "ScienceDaily／佐治亚大学",
+     "source_en": "ScienceDaily / University of Georgia",
+     "date": "2026-11-02",
+     "summary_zh": "佐治亚大学团队分析全国代表性队列 8200 余名 50 岁以上成人、历时 24 年的数据，发现 BMI 每升高 1 点，记忆、整体认知与执行功能衰退更快，关联在第 8 年最强、65 岁以上最明显。研究同时给出积极信号：管理体重后认知衰退速度可在两年内显著放缓。论文发表于《神经病学杂志》。",
+     "summary_en": "Using 24 years of data from a nationally representative cohort of more than 8,200 US adults over 50, University of Georgia researchers found that each one-point increase in BMI was associated with faster decline in memory, global cognition and executive function, strongest at year eight and most pronounced above age 65. Encouragingly, managing weight was linked to a significantly slower rate of cognitive decline within just two years. The study appeared in the Journal of Neurology."
+    },
+    {
+     "title_zh": "巴克研究所联手 Oracle：用 1.22 亿条真实世界数据打造“内在能力评分”",
+     "title_en": "Buck Institute taps Oracle's 122 million records to build an Intrinsic Capacity Score",
+     "url": "https://www.nutraingredients.com/Article/2026/10/30/buck-institute-oracle-partner-to-detect-age-related-decline-years-before-symptoms/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-10-30",
+     "summary_zh": "巴克衰老研究所将接入 Oracle 逾 1.22 亿条去标识化纵向真实世界记录，寻找可在症状出现前数年预警衰弱与慢病的标志物，并构建“内在能力评分”。该工作隶属斯坦福牵头的 THRIVE 联盟（ARPA-H PROSPR 计划，资助上限 3450 万美元），并争取 FDA 资格认定。",
+     "summary_en": "The Buck Institute for Research on Aging will use Oracle Health's Life Sciences Data Intelligence platform, holding more than 122 million de-identified longitudinal real-world records, to hunt for biomarkers that flag frailty or chronic disease years before symptoms appear and to build a statistically validated Intrinsic Capacity Score. The work sits inside THRIVE, a Stanford-led consortium under ARPA-H's PROSPR programme with up to $34.5 million in funding, covering five intrinsic-capacity domains, with FDA qualification as a goal."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "朱蓓薇院士提出“AI 驱动精准体重管理”：先做肥胖分型，再定一日三餐",
+     "title_en": "Academician Zhu Beiwei proposes AI-driven precision weight management",
+     "url": "https://www.toutiao.com/article/7703549799827587610",
+     "source_zh": "南方+",
+     "source_en": "Nanfang Plus",
+     "date": "2026-11-02",
+     "summary_zh": "在 2026 大湾区科学论坛“数智赋能健康湾区”分论坛上，中国工程院院士朱蓓薇提出 AI 驱动的精准体重管理新范式：先把食材、烹饪与摄入量数据化，整合健康与膳食执行数据，按代谢异常型、内脏脂肪型、高脂低肌型三类肥胖给出三餐方案，由智能烹饪设备落地。该模式已进入全国 400 多家社区爱心厨房。",
+     "summary_en": "Speaking at the 2026 Greater Bay Area Science Forum's digital-health session in Nansha, Chinese Academy of Engineering academician Zhu Beiwei outlined an AI-driven precision weight-management model: digitise ingredients, cooking methods and actual intake, fuse those with health data, then assign one of three obesity subtypes — metabolic, visceral-fat or low-muscle-high-fat — a tailored three-meal plan delivered by smart cooking devices. The approach is already running in more than 400 community kitchens nationwide."
+    },
+    {
+     "title_zh": "康宝莱进博会首秀 Bioniq GO，健康管理数字化平台中国版全球首发",
+     "title_en": "Herbalife brings Bioniq GO to Asia and debuts a China edition of its digital health platform",
+     "url": "https://www.cqn.com.cn/zhixiao/content/2026-11/02/content_9178874.htm",
+     "source_zh": "中国质量新闻网",
+     "source_en": "China Quality News",
+     "date": "2026-11-02",
+     "summary_zh": "康宝莱宣布第九次参展进博会，将带来个性化营养配方产品 Bioniq GO 的亚洲首秀——通过数字化健康评估，从 40 种营养配方中匹配个体方案，采用瑞士颗粒技术简化日常补充；同时全球首展专为中国市场打造的健康管理数字化平台，以人工智能覆盖“评估—建议—规划—陪伴”全链路，并与营养顾问服务结合。",
+     "summary_en": "Herbalife said it will exhibit at the China International Import Expo for a ninth time, giving its personalised nutrition product Bioniq GO its Asia debut: a digital health assessment matches users to one of 40 nutrient formulas, delivered as easy-to-take granules using Swiss granulation technology. The company will also globally premiere a China edition of its digital health-management platform, which uses AI across an assess-advise-plan-accompany chain combined with human nutrition advisers."
+    },
+    {
+     "title_zh": "《自然》：决定免疫治疗疗效的不只是肠菌，还有“喂给肠菌的食物”",
+     "title_en": "Nature: diet–microbiome synergy, not body weight, may explain the obesity paradox",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072132.htm",
+     "source_zh": "ScienceDaily／麦吉尔大学",
+     "source_en": "ScienceDaily / McGill University",
+     "date": "2026-11-02",
+     "summary_zh": "麦吉尔大学团队在《自然》测试 12 种饮食后发现，部分通常被视为“致肥”的饮食反而增强了小鼠对免疫检查点抑制剂的应答，即使干预时间很短。研究者认为“肥胖悖论”的关键可能不在体重本身，而在饮食与肠道菌群的协同——即便菌群构成合适，喂养它们的食物也决定治疗是否有效。团队强调不应据此鼓励患者采用致肥饮食。",
+     "summary_en": "Testing 12 different diets in mice, McGill University researchers reported in Nature that some diets normally considered obesogenic actually improved responses to immune checkpoint inhibitors, even over short periods. The team argues the obesity paradox may hinge less on excess weight than on diet-microbiome synergy: even with the right bacterial composition, the food nourishing those populations can determine whether treatment works. They stressed the findings must not encourage patients to eat obesity-promoting diets."
+    },
+    {
+     "title_zh": "新报告呼吁改写血压指南：补钾与减钠应当并重",
+     "title_en": "New report urges blood pressure guidelines to treat potassium as equal to sodium",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261102075553.htm",
+     "source_zh": "ScienceDaily／佛蒙特大学",
+     "source_en": "ScienceDaily / University of Vermont",
+     "date": "2026-11-02",
+     "summary_zh": "佛蒙特大学学者在《美国临床营养学杂志》发表报告指出，全球逾 12.8 亿高血压成人长期被建议“少吃盐”，但钾摄入普遍远低于理想水平。报告认为增加膳食钾可帮助肾脏排钠、改善血管功能，与减钠联合的降压效果优于单纯限盐，并建议推广低钠高钾盐替代品；但肾病或服用特定药物者需在医嘱下补钾。",
+     "summary_en": "A report in the American Journal of Clinical Nutrition from University of Vermont researchers argues that advice for the more than 1.28 billion adults with hypertension has long emphasised cutting sodium while ignoring potassium, which remains far below optimal intakes worldwide. Higher dietary potassium helps the kidneys excrete sodium and supports blood vessel function, and combining it with sodium reduction outperforms salt restriction alone; the authors back low-sodium, high-potassium salt substitutes, with medical guidance for people with kidney disease."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "第五届中国营养师发展大会提出“慧选慧烹慧吃慧补慧动”五步食养体系",
+     "title_en": "China Dietitian Development Conference proposes a five-step science-based eating framework",
+     "url": "https://www.cnr.cn/bj/sijh/20261102/t20261102_527860431.shtml",
+     "source_zh": "央广网",
+     "source_en": "China National Radio",
+     "date": "2026-11-02",
+     "summary_zh": "10月30日至11月1日，第五届中国营养师发展大会在北京举行，首次面向公众开放，提出“慧选、慧烹、慧吃、慧补、慧动”科学食养五步实操体系，并发布《新时代轻食发展态势与国民健康价值研究白皮书》。中国营养学会理事长杨月欣、北京协和医院临床营养科主任于康等参会，Swisse 斯维诗获“科学食养促进奖”。",
+     "summary_en": "The fifth China Dietitian Development Conference ran in Beijing from Oct 30 to Nov 1, opening to the public for the first time and proposing a five-step practical framework — choose wisely, cook wisely, eat wisely, supplement wisely, move wisely. It also released a white paper on the light-meal sector and public health value. Yang Yuexin, president of the Chinese Nutrition Society, and Yu Kang of Peking Union Medical College Hospital spoke; Swisse took a science-based eating award."
+    },
+    {
+     "title_zh": "低剂量小檗碱提取物 Metaberine：14 天交叉试验空腹 GLP-1 升高 29%",
+     "title_en": "Low-dose berberine extract lifts fasting GLP-1 by 29% in a 14-day crossover trial",
+     "url": "https://www.nutraingredients.com/Article/2026/11/02/supplier-urges-caution-on-metaberine-glp-1-trial-results/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-02",
+     "summary_zh": "印度 Zeus Hygia 的专利小檗碱 Metaberine 发表双盲安慰剂对照交叉试验：36 名超重受试者服用 14 天后空腹 GLP-1 升高 29%，血糖峰值与 LDL 下降、HDL 升高，体重与安慰剂组相差约 0.35 公斤。供应商强调这并非减重效力试验，不宜与处方 GLP-1 类比。",
+     "summary_en": "A randomised, double-blind, placebo-controlled crossover trial tested Metaberine, a patented Berberis aristata extract from India's Zeus Hygia, in 36 participants with a mean BMI of 25.8. After 14 days fasting GLP-1 rose 29% and postprandial GLP-1 22%, glucose exposure and peaks fell, LDL dropped and HDL rose, with about a 0.35 kg weight gap versus placebo. The supplier stressed the study was not designed to show weight loss and should not be likened to prescription GLP-1 drugs."
+    },
+    {
+     "title_zh": "Cochrane 综述：医用大麻改善失眠的证据“薄弱且不确定”",
+     "title_en": "Cochrane review finds little reliable evidence that medical cannabis helps insomnia",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm",
+     "source_zh": "ScienceDaily／Cochrane",
+     "source_en": "ScienceDaily / Cochrane",
+     "date": "2026-11-01",
+     "summary_zh": "Cochrane 系统综述纳入 9 项试验、537 名 18—76 岁失眠成人，其中 8 项对照安慰剂。结果显示医用大麻在睡眠质量、满意度、总睡眠时长与日间功能上几乎没有临床意义的改善，头晕、口干等轻度不良反应更常见，证据确定性为低或极低。作者强调这不等于无效，而是现有研究不足以判断。",
+     "summary_en": "A Cochrane systematic review from the Universidad Hospital Italiano de Buenos Aires and the University of Manitoba pooled nine trials in 537 adults aged 18 to 76 being treated for insomnia, eight of them placebo-controlled. Medical cannabis produced little or no clinically meaningful improvement in sleep quality, sleep satisfaction, total sleep time or daytime functioning, while dizziness and dry mouth were more common; certainty of evidence was rated low or very low. The authors stressed this does not mean cannabis is ineffective, only that current research cannot answer the question."
+    },
+    {
+     "title_zh": "223 对母婴队列：孕早期 omega-6/omega-3 比值偏高与 4 岁执行功能较弱相关",
+     "title_en": "Higher omega-6 to omega-3 ratio in early pregnancy tied to weaker executive function at age 4",
+     "url": "https://www.nutraingredients.com/Article/2026/11/02/study-highlights-importance-of-omega-6-to-omega-3-ratio-in-first-trimester-of-pregnancy/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-02",
+     "summary_zh": "西班牙 ECLIPSES 队列 223 名孕妇在孕 12、24、36 周测血清脂肪酸，孩子 4 岁时用 WPPSI 与 BRIEF-P 评估。仅孕早期 n-6/n-3 比值偏高与执行功能较弱相关，尤其影响工作记忆、抑制控制与计划组织。两类脂肪酸竞争同一去饱和酶，比值比绝对水平更有意义。",
+     "summary_en": "In Spain's ECLIPSES cohort, 223 pregnant women had serum fatty acids measured at 12, 24 and 36 weeks, and their children were assessed at age four with the WPPSI and BRIEF-P. Only a higher first-trimester n-6/n-3 ratio was associated with poorer executive function — notably working memory, inhibition and planning — with no significant link in the third trimester and general cognition largely unaffected. Because the two fatty acid families compete for the same desaturases, the ratio may be more biologically meaningful than absolute levels, the authors wrote in Nutrients."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "健康 AI“蚂蚁阿福”获世界互联网大会领先科技奖，已服务 1.5 亿用户",
+     "title_en": "Ant Group's health AI A'Fu wins the WIC Leading Science and Technology Award",
+     "url": "https://www.163.com/dy/article/LAP850I705199NPP.html",
+     "source_zh": "21世纪经济报道",
+     "source_en": "21st Century Business Herald",
+     "date": "2026-11-02",
+     "summary_zh": "11月2日，2026 年世界互联网大会揭晓领先科技奖，蚂蚁集团健康 AI“蚂蚁阿福”成为首个获该奖的健康垂类应用。官方称其已服务 1.5 亿用户、单日解答近 2000 万人次咨询，55% 用户来自三线及以下城市、四分之一为老年人。“科学减重 1 亿斤”行动已累计减重超 700 万斤。",
+     "summary_en": "At the 2026 World Internet Conference on Nov 2, Ant Group's health AI assistant A'Fu became the first health-focused app to win the event's Leading Science and Technology Award. Ant says it serves 150 million users and answers nearly 20 million health queries a day, with 55% of users from tier-three cities or below and a quarter aged over 60. Its weight-loss campaign has enrolled 3.7 million users who shed more than 3.5 million kilograms in total."
+    },
+    {
+     "title_zh": "全国重大慢性病过早死亡率十年由 18.5% 降至 13.8%",
+     "title_en": "China's premature mortality from major chronic diseases falls from 18.5% to 13.8%",
+     "url": "https://new.qq.com/rain/a/20261103A02S2R00",
+     "source_zh": "人民日报海外版",
+     "source_en": "People's Daily Overseas Edition",
+     "date": "2026-11-03",
+     "summary_zh": "《人民日报海外版》梳理慢病防线：四川泸县 20 多万慢病患者获分类分级服务，县域四类重大慢病过早死亡率较 2020 年降 3.25 个百分点；安徽濉溪医保基金按人头包干给医共体，基金连续 9 年结余。全国重大慢性病过早死亡率由 2015 年 18.5% 降至 2025 年 13.8%。",
+     "summary_en": "A People's Daily Overseas Edition data column traced China's chronic-disease defences: Luxian county in Sichuan gives more than 200,000 patients tiered services and cut premature mortality from four major chronic diseases by 3.25 percentage points versus 2020; Suixi in Anhui hands its insurance fund to the county medical community as a per-capita lump sum, putting 131,000 patients under online tiered management with nine consecutive years of surplus. Nationally, premature mortality from major chronic diseases fell from 18.5% in 2015 to 13.8% in 2025."
+    },
+    {
+     "title_zh": "云南发布《中西医结合体重管理中心建设专家共识》",
+     "title_en": "Yunnan releases an expert consensus on integrated Chinese-Western weight management centres",
+     "url": "http://yn.news.cn/20261102/2f4103f290c041d9b19c243b46079e31/c.html",
+     "source_zh": "新华网云南频道",
+     "source_en": "Xinhua Yunnan",
+     "date": "2026-11-02",
+     "summary_zh": "10月31日，云南省中医医院在昆明发布《云南省中西医结合体重管理中心建设专家共识》。该院体重管理中心 2025 年 8 月挂牌，统筹治未病、内分泌、针灸推拿等资源，形成“三维评估—五联干预—全链条服务”模式，截至 9 月底接诊 1.6 万余人次。云南将推动分级联动，打造适配高原代谢的方案。",
+     "summary_en": "Yunnan Provincial Hospital of Traditional Chinese Medicine released an expert consensus on building integrated Chinese-Western weight management centres in Kunming on Oct 31. The hospital's own centre, opened in August 2025, pools preventive medicine, endocrinology and acupuncture resources into a three-dimensional assessment, five-pronged intervention and full-chain service model, logging more than 16,000 visits by end-September 2026. Yunnan plans province-city-county-primary tiered rollout of protocols tuned to highland metabolic traits."
+    },
+    {
+     "title_zh": "《科学》：电化学植入物把多余血糖转成葡萄糖酸盐，小鼠降糖同时减重",
+     "title_en": "Science: an electrochemical implant converts excess glucose into gluconate, cutting sugar and weight",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm",
+     "source_zh": "ScienceDaily／苏黎世联邦理工",
+     "source_en": "ScienceDaily / ETH Zurich",
+     "date": "2026-11-02",
+     "summary_zh": "苏黎世联邦理工 Fussenegger 团队在《科学》报告一款无线供电植入物：石墨毡上的金簇与铂微粒作为无机催化剂，把过量葡萄糖转化为可经尿排出的葡萄糖酸盐，避免多余能量转为脂肪。系统由连续血糖传感器经蓝牙触发，形成闭环。糖尿病小鼠血糖被精准调控并减重，6 周测试稳定、无电热损伤，尚未开展人体试验。",
+     "summary_en": "ETH Zurich's Fussenegger lab reported in Science a wirelessly powered implant whose inorganic catalyst — gold clusters and platinum particles on graphite felt — converts excess glucose into gluconate that the body excretes in urine, keeping surplus energy from being stored as fat. A continuous glucose sensor triggers the device over Bluetooth in a closed loop. In diabetic mice it precisely controlled blood sugar and produced weight loss, ran reliably for six weeks without electrical or thermal tissue damage, and has not yet been tested in humans."
+    }
+   ]
+  }
+ ]
+}
