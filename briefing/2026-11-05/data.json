@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-05",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年10月30日 — 11月5日（最近 7 天）",
+ "range_en": "Oct 30 – Nov 5, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《自然》：1280 万个肠菌单碱基变异绘出健康关联图景",
+     "title_en": "Nature: 12.8 Million Gut Microbial SNVs Mapped to Health and Exposures",
+     "url": "https://www.163.com/dy/article/LAV66TI10532BT7X.html",
+     "source_zh": "生物世界 / 网易",
+     "source_en": "BioWorld via NetEase",
+     "date": "2026-11-04",
+     "summary_zh": "荷兰格罗宁根大学傅静远团队 11 月 4 日在《自然》发表微生物组范围 PheWAS，整合荷兰与坦桑尼亚六队列、10781 人的粪便宏基因组，检测约 1280 万个常见肠菌单核苷酸变异，锁定 940 个独立信号，覆盖 101 种细菌与 69 项健康表型及环境暴露，并借蛋白结构把关联推进到氨基酸位点。",
+     "summary_en": "Fu Jingyuan's team at UMC Groningen published a microbiome-wide PheWAS in Nature on Nov 4, pooling six Dutch and Tanzanian cohorts (10,781 people, 11,831 metagenomes) to test roughly 12.8 million common gut microbial SNVs against 244 phenotypes and exposures. They identified 940 independent signals across 101 species and 69 traits, then used protein structures to push associations down to specific amino acid sites."
+    },
+    {
+     "title_zh": "肠道菌产的甘氨酸脂质经门静脉与淋巴入体，改善肝与肌肉线粒体",
+     "title_en": "Microbial Glycine Lipids Reach the Body via Portal Vein and Lymph, Improving Liver and Muscle Mitochondria",
+     "url": "https://today.uconn.edu/2026/11/exploring-more-surprising-effects-of-our-microbiome/",
+     "source_zh": "康涅狄格大学",
+     "source_en": "UConn Today",
+     "date": "2026-11-04",
+     "summary_zh": "康涅狄格大学团队追踪肠道菌产生的甘氨酸脂质 L1256 与 L654，用质谱在门静脉血与肠淋巴中同时检出，证实其经两条途径吸收并见于人肝组织。8 周西方饮食雄鼠中，L1256 富集于骨骼肌，改善脂肪酸支持的线粒体呼吸，上调能量代谢与抗氧化蛋白并保住肌纤维横径；L654 仅影响炎症信号。",
+     "summary_en": "A UConn team tracked two microbial glycine lipids, L1256 and L654, detecting both in portal blood and intestinal lymph by mass spectrometry, confirming two absorption routes and presence in human liver tissue. In male mice fed a Western diet for eight weeks, L1256 accumulated in skeletal muscle, improved fatty-acid-supported mitochondrial respiration, raised energy-production and antioxidant proteins and preserved fibre size, while L654 only shifted inflammatory signalling."
+    },
+    {
+     "title_zh": "口服纳米疫苗入肠，精准狙击结肠炎致病菌",
+     "title_en": "An Oral Nanovaccine That Targets the Colitis-Driving Pathobiont",
+     "url": "https://news.qq.com/rain/a/20261105A005HN00",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-05",
+     "summary_zh": "山东第一医科大学附属一院李鑫团队发现 Ruminococcus gnavus 在溃疡性结肠炎患者肠道显著富集，且与病情严重度正相关，菌群移植与单菌定植均加重肠损伤。团队以该菌外囊泡为抗原，包覆聚多巴胺、二氧化铈纳米酶与碳酸钙壳，制成口服微粒 CP-EV@Ca，经分泌型 IgA 把致病菌挤出生态位。",
+     "summary_en": "Li Xin's team at the First Affiliated Hospital of Shandong First Medical University found Ruminococcus gnavus enriched in ulcerative colitis patients and correlated with severity and oxidative stress, with faecal transplant and mono-colonisation both worsening injury. They built an oral microparticle, CP-EV@Ca, using the bacterium's outer vesicles as antigen plus polydopamine, a cerium oxide nanozyme and a calcium carbonate shell, driving secretory IgA to push the pathobiont out of its niche."
+    },
+    {
+     "title_zh": "仿生凝聚体递送线粒体，恢复结肠炎肠上皮能量稳态",
+     "title_en": "Biomimetic Condensates Deliver Mitochondria to Restore Epithelial Energy Balance",
+     "url": "https://news.qq.com/rain/a/20261105A00DA900",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-05",
+     "summary_zh": "温州医科大学徐荷林团队构建仿生凝聚体 HTP@Mito，将外源线粒体递送至结肠炎肠上皮。治疗后结肠 ATP 接近健康水平，膜电位与 COX IV 回升，MDA 下降而 SOD、GSH 增强；Claudin-5、Occludin 与黏液层同步修复，自噬通量重启，毛螺菌科增加、埃希氏-志贺氏菌受抑。",
+     "summary_en": "Xu Helin's team at Wenzhou Medical University built a biomimetic condensate, HTP@Mito, to deliver exogenous mitochondria into inflamed colonic epithelium. Treated mice recovered colonic ATP to near-healthy levels, with restored membrane potential and COX IV, lower MDA and higher SOD and GSH. Claudin-5, occludin and the mucus layer were repaired, mitophagy flux restarted, Lachnospiraceae rose and Escherichia-Shigella was suppressed."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "九州大学把肌肉修复因子改造成「超级 HGF」，抵抗衰老性硝化损伤",
+     "title_en": "Kyushu University Turns Muscle Repair Factor Into Super HGF That Resists Age-Related Nitration",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104005226.htm",
+     "source_zh": "ScienceDaily / 九州大学",
+     "source_en": "ScienceDaily via Kyushu University",
+     "date": "2026-11-04",
+     "summary_zh": "九州大学辰巳隆一团队在《科学报告》报道，三硫化合物 LASSS 与肝细胞生长因子 HGF 按 1:8000 摩尔比混合，可使其与 c-met 受体结合力提升一倍以上并抵抗硝化失活，形成超级 HGF。尾悬吊小鼠预先给予 LASSS 显著减少 HGF 硝化，但未证明能恢复肌力或肌肉量，仍需老年动物实验。",
+     "summary_en": "Ryuichi Tatsumi's group at Kyushu University reported in Scientific Reports that mixing the trisulfide LASSS with hepatocyte growth factor at a 1:8000 molar ratio more than doubled binding to the c-met receptor and protected the protein from nitration-driven inactivation, yielding a so-called Super HGF. In tail-suspended mice, pre-treatment with LASSS cut HGF nitration, though restoration of muscle mass or strength remains unproven and aged-animal studies are still needed."
+    },
+    {
+     "title_zh": "视网膜 AI 指标 RetiME 把死亡风险变成可追踪的个体轨迹",
+     "title_en": "Retinal AI Metric RetiME Turns Mortality Risk Into a Trackable Individual Trajectory",
+     "url": "https://www.163.com/dy/article/LAUVFVKN05149U3U.html",
+     "source_zh": "全球医生组织",
+     "source_en": "Global Doctors Organisation",
+     "date": "2026-11-05",
+     "summary_zh": "《自然·生物医学工程》新论文提出个体化寿命轨迹建模，不再只估算某一时点的死亡概率，而是刻画风险随年龄变化的轨迹及相对一般人群的时间偏移。配套的 RetiME 用眼底照片做深度学习，与全因死亡、特定原因死亡及未来疾病风险相关，并能区分癌症、心血管代谢与神经退行性疾病的不同风险轨迹。",
+     "summary_en": "A new Nature Biomedical Engineering paper models individual lifespan trajectories rather than a single-point mortality probability, describing how risk shifts with age and how far it deviates from the population. The companion RetiME metric applies deep learning to fundus photographs and is associated with all-cause and cause-specific mortality plus future disease risk, distinguishing trajectories for cancer, cardiometabolic and neurodegenerative disease."
+    },
+    {
+     "title_zh": "长寿补剂卖不动机制：消费者不关心 NAD+、去乙酰化酶与端粒长度",
+     "title_en": "Longevity Supplements Miss the Mark: Consumers Do Not Care About NAD+, Sirtuins or Telomere Length",
+     "url": "https://www.nutraingredients.com/Article/2026/11/04/lessons-in-longevity-consumers-dont-buy-into-telomere-length-and-scavenging-sirtuins/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-04",
+     "summary_zh": "在波兰一场营养食品会议上，Holland & Barrett 全球配方负责人 Alex Glover 表示，50 岁以上消费者并不关心 NAD+ 水平、去乙酰化酶或端粒长度，只关心能否无痛起身、陪孙辈玩耍；1000 名消费者被问何谓细胞健康，答案离散。该零售商因此按可感知功效而非成分机制立项。",
+     "summary_en": "At the Remedy Nutrafood CDMO conference in Gdansk, Holland & Barrett global formulation lead Alex Glover said consumers over 50 do not care about NAD+ levels, whether their sirtuins are scavenging or how long their telomeres are, only about rising from a chair without pain or playing with grandchildren. Asked to define cellular health, 1,000 shoppers gave wildly divergent answers, so new products are now built around felt benefits rather than mechanisms."
+    },
+    {
+     "title_zh": "辽宁老年健康管理年会：从点状突破到韧性驱动的长寿医学",
+     "title_en": "Liaoning Geriatric Health Meeting: From Isolated Pilots to Resilience-Driven Longevity Care",
+     "url": "https://epaper.syd.com.cn/syrb/h5/html5/2026-11/05/content_121055_19997325.htm",
+     "source_zh": "沈阳日报",
+     "source_en": "Shenyang Daily",
+     "date": "2026-11-05",
+     "summary_zh": "辽宁省老年医学学会健康管理专委会第三次学术年会在沈阳召开，主题为韧性驱动的健康长寿。主委张海燕提出把各机构零散实践连成一张可复制、可核验的区域性公共产品网络，并给出红黄绿灯分层干预框架：运动、营养、睡眠是所有人都要守好的第一层，干细胞、NAD+ 等前沿手段须严守证据与监管边界。",
+     "summary_en": "The third annual meeting of the Liaoning Geriatric Society's health management committee in Shenyang took resilience-driven healthy longevity as its theme. Chair Zhang Haiyan argued for linking scattered institutional pilots into a replicable, verifiable regional public product and presented a traffic-light tiered framework: exercise, nutrition and sleep form the first layer everyone must secure, while stem cells and NAD+ must stay within evidence and regulatory limits."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《自然综述·微生物学》：同样的益生元，为何有人肠道不买单",
+     "title_en": "Nature Reviews Microbiology: Why the Same Prebiotic Fibre Works for Some and Not Others",
+     "url": "https://news.qq.com/rain/a/20261104A0EYZE00",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-04",
+     "summary_zh": "内布拉斯加大学林肯分校与普渡大学团队系统拆解益生元纤维的应答者与非应答者之谜：基线降解菌丰度、碳水化合物活性酶与多糖利用位点决定纤维能否被拆解，交叉喂养网络、肠腔 pH 与宿主 FUT2 基因共同塑造代谢表型；文章提出用机器学习与群落代谢模型预测个体产短链脂肪酸倾向。",
+     "summary_en": "A review from Nebraska-Lincoln and Purdue dissects why prebiotic fibres work for some people and not others: baseline degrader abundance, carbohydrate-active enzymes and polysaccharide utilisation loci determine whether a fibre can be broken down, while cross-feeding networks, luminal pH and host FUT2 shape the metabolic phenotype. The authors propose machine learning and community-scale metabolic models to predict short-chain fatty acid output, plus highly specific fibres and targeted synbiotics to improve response consistency."
+    },
+    {
+     "title_zh": "牛津跨国队列：纯素食者大肠癌风险不降反升，鱼素者表现最好",
+     "title_en": "Oxford Cohort: Vegans Show Higher Colorectal Cancer Risk, Pescatarians Fare Best",
+     "url": "https://www.stnn.cc/detail/6aeac8658f9d2b19dd2e1760.html",
+     "source_zh": "星岛环球网",
+     "source_en": "Sing Tao Global Net",
+     "date": "2026-11-04",
+     "summary_zh": "星岛环球网引述牛津大学 2026 年一项跨国世代研究，完全不吃动物性食物的纯素者大肠癌风险反而高于一般肉食者与蛋奶素者，推测与缺少乳制品来源的钙和维生素 D、B12 不足有关；只吃鱼的鱼素者风险最低。专家建议纯素者强化钙、维生素 D 与 B12，并少吃高油高盐的超加工素肉。",
+     "summary_en": "Citing a 2026 Oxford multinational cohort study, Sing Tao Global Net reports that vegans who avoid all animal foods have higher colorectal cancer risk than regular meat eaters or lacto-ovo vegetarians, likely linked to missing dairy-derived calcium and vitamin D plus insufficient B12 and trace minerals. Pescatarians who eat fish but no red or processed meat had the lowest risk; vegans are advised to secure calcium, vitamin D and B12 and limit high-fat, high-salt processed meat analogues."
+    },
+    {
+     "title_zh": "基层营养门诊 N-RCSP 共识发表：五师共管打通筛查到随访闭环",
+     "title_en": "N-RCSP Consensus Published for Community Nutrition Clinics With a Five-Professional Closed Loop",
+     "url": "https://www.163.com/dy/article/LAPSQUT905568W0A.html",
+     "source_zh": "抗衰老产业联盟 / 网易",
+     "source_en": "Anti-Aging Industry Alliance via NetEase",
+     "date": "2026-11-03",
+     "summary_zh": "广东省基层卫生协会精准营养应用分会牵头、陈骁熠团队执笔的《基层营养门诊建设与 N-RCSP 精准营养健康管理专家共识》在《中国全科医学》发表。N-RCSP 以营养为核心，融合功能康复、中医食疗与经络、运动、心理五维，构建筛查、评估、干预、监测、随访的数字化闭环，已在广州番禺洛浦街社区落地。",
+     "summary_en": "A consensus led by Chen Xiaoyi for the Guangdong Primary Care Association's precision nutrition branch has been published in the Chinese Journal of General Practice. The N-RCSP model centres on nutrition and integrates functional rehabilitation, TCM diet therapy and meridians, exercise and psychology into a digital closed loop of screening, assessment, intervention, monitoring and follow-up, already piloted at a community health centre in Guangzhou's Panyu district."
+    },
+    {
+     "title_zh": "北部湾临床营养培训班：把营养筛查与干预做进全流程",
+     "title_en": "Beibu Gulf Clinical Nutrition Training Embeds Screening and Intervention Across the Care Pathway",
+     "url": "http://www.qzeyy.com/html/2026/eyxw_1104/6634.html",
+     "source_zh": "钦州市第二人民医院",
+     "source_en": "Qinzhou Second People's Hospital",
+     "date": "2026-11-04",
+     "summary_zh": "钦州市第二人民医院承办的 2026 年北部湾临床营养诊疗技术及体重管理规范化培训班完成，课程覆盖营养预康复的代谢基础与争议、胃肠肿瘤围手术期营养管理、肥胖合并代谢紊乱的医学营养干预难点、老年肌少症从循证到临床、以及体重管理门诊的现实困境与规范建设路径，指向入院、干预、出院随访的闭环管理。",
+     "summary_en": "Qinzhou Second People's Hospital hosted the 2026 Beibu Gulf training on clinical nutrition and standardised weight management. Sessions covered the metabolic basis and controversies of nutritional prehabilitation, perioperative nutrition in gastrointestinal cancer, medical nutrition therapy for obesity with metabolic disorders, evidence-to-practice nutrition in sarcopenia, and the operational realities of weight management clinics, all pointing to a closed loop from admission through discharge follow-up."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "日本 42 天试验：NMN 及复方对心肺与认知无统计学获益",
+     "title_en": "Japan Trial: NMN and Multi-Ingredient Formulas Show No Significant Cardiopulmonary or Cognitive Benefit",
+     "url": "https://www.nutraingredients.com/Article/2026/11/04/nmn-formulations-benefits-for-cardio-and-cognition-inconclusive-japan-study/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-04",
+     "summary_zh": "日本安部养生研究所与日本医科大学医院在《营养素》发表 42 天四臂开放标签试验，42 名 45 至 65 岁受试者每日饮用含 NMN，或 NMN 复配人参皂苷、D-BHB、小檗碱、PQQ、辅酶 Q10、亚精胺的饮料。心肺与认知主要终点均无统计学差异，八成分组记忆改善不显著，表观遗传时钟亦未逆转。",
+     "summary_en": "Abe Yoan Aging Research Institute and Nippon Medical School Hospital published a 42-day open-label four-arm trial in Nutrients: 42 healthy adults aged 45 to 65 drank a daily beverage containing NMN, or NMN plus ginsenosides, D-BHB, berberine, PQQ, CoQ10, resveratrol and spermidine. Neither cardiopulmonary nor cognitive primary endpoints differed significantly; memory trended better on the eight-ingredient arm but not significantly, and DNAm PhenoAge changes fell short of biological age reversal."
+    },
+    {
+     "title_zh": "每周 100 微克 calcifediol：四周内近七成维生素 D 缺乏女性达标",
+     "title_en": "Weekly 100 mcg Calcifediol Brings Nearly 70 Percent of Vitamin D-Deficient Women to Target in Four Weeks",
+     "url": "https://www.nutraingredients.com/Article/2026/11/04/weekly-calcifediol-helps-menopausal-women-maintain-vit-d-levels/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-04",
+     "summary_zh": "《营养素》52 周双盲试验（Faes Farma 资助）纳入 261 名维生素 D 缺乏女性，每周口服 100 微克 calcifediol 或安慰剂：第 4 周 68.2% 升至 20 ng/mL 以上，安慰剂组仅 5.8%；第 16 周逾 93% 达标，且不受 BMI 与绝经状态影响。",
+     "summary_en": "A 52-week randomised double-blind trial funded by Spain's Faes Farma and published in Nutrients enrolled 261 vitamin D-deficient women given 100 mcg calcifediol weekly or placebo. By week 4, 68.2 percent of treated women reached at least 20 ng/mL versus 5.8 percent on placebo; beyond week 16 more than 93 percent stayed at target, mean levels rose from 12.21 to 39.47 ng/mL, and responses were consistent across BMI and menopausal status."
+    },
+    {
+     "title_zh": "《中国营养品行业创新发展研究报告（2026）》发布：电商占近半，循证与标准仍是短板",
+     "title_en": "China Nutrition Industry Innovation Report 2026: E-commerce Nears Half of Sales, Evidence and Standards Lag",
+     "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixrqee5771887.shtml",
+     "source_zh": "新浪财经",
+     "source_en": "Sina Finance",
+     "date": "2026-11-05",
+     "summary_zh": "市场监管总局发展研究中心发布《中国营养品行业创新发展研究报告（2026）》，指渠道已由药店商超转向电商，2025 年上半年膳食营养补充剂电商销售额达 622 亿元，占整体近半。并点出标准滞后、循证薄弱、线上擦边营销与贴牌同质化等痛点，提出以合成生物学、智能递送与多组学 AI 驱动个性化精准营养。",
+     "summary_en": "The State Administration for Market Regulation's development research centre released its 2026 China nutrition industry innovation report in Beijing, noting a shift from pharmacies and supermarkets to e-commerce, where dietary supplement sales reached 62.2 billion yuan in the first half of 2025, nearly half the market. It flags lagging classification standards, thin human evidence, borderline online marketing and copycat contract manufacturing, and points to synthetic biology, smart delivery and multi-omics AI as drivers of personalised nutrition."
+    },
+    {
+     "title_zh": "21 金维他被指制造儿童成长焦虑：普通食品越界宣称保健功效",
+     "title_en": "21 JINWEITA Accused of Marketing Growth Anxiety as Ordinary Food Claims Health Benefits",
+     "url": "https://news.subaoxw.com/guonei/2026/1104/317850.html",
+     "source_zh": "速豹新闻网",
+     "source_en": "Subao News",
+     "date": "2026-11-04",
+     "summary_zh": "速豹新闻网调查显示，21 金维他把法定适宜人群为运动人群的运动营养食品面向普通儿童推广，并搭配文献罗列营养缺口；含 γ-氨基丁酸的产品被暗示可增高，而证据仅支持镇静、抗焦虑与助眠。专家指出场景化软暗示足以构成违法，角落免责声明无法抵消整体图文效果，蓝帽子产品超范围宣称同样涉夸大宣传。",
+     "summary_en": "An investigation by Subao News finds that 21 JINWEITA markets sports nutrition food, legally intended for athletes, to ordinary children while citing literature on nutrient gaps; its gamma-aminobutyric acid product implies height gain, though evidence only supports sedation, anxiolysis and sleep improvement. Experts say contextual soft hints alone can constitute illegal advertising and that a corner disclaimer cannot offset the overall message, while approved products claiming beyond their scope also risk exaggeration."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "山东发布卫生健康十五五规划：人均预期寿命 81.7 岁，2030 年过早死亡率降至 10% 以下",
+     "title_en": "Shandong 15th Five-Year Health Plan Targets 81.7-Year Life Expectancy and Premature Mortality Below 10 Percent by 2030",
+     "url": "https://dzrb.dzng.com/general/0/NEWS3796543TLPBDBPOBILXR",
+     "source_zh": "大众新闻",
+     "source_en": "Dazhong News",
+     "date": "2026-11-05",
+     "summary_zh": "山东省 11 月 5 日发布卫生健康十五五规划，提出人均预期寿命达 81.7 岁，2030 年重大慢性病过早死亡率降至 10% 以下。规划要求开展医院—社区—家庭连续营养服务与健康体重管理行动，鼓励医院设运动健康指导门诊、基层设生活方式干预门诊，建设一站式慢性病健康管理中心。",
+     "summary_en": "Shandong released its 15th Five-Year health plan on Nov 5, targeting life expectancy of 81.7 years and premature mortality from major chronic diseases below 10 percent by 2030. It calls for hospital-community-home continuous nutrition services and a healthy weight programme, encourages exercise-health clinics in hospitals and lifestyle-intervention clinics in primary care, and pushes one-stop chronic disease centres covering prevention, screening, treatment, rehabilitation and management."
+    },
+    {
+     "title_zh": "宁波社区减重门诊一年减掉 513.9 公斤，以小投入撬动慢病关口前移",
+     "title_en": "Ningbo Community Weight Clinics Shed 513.9 kg in a Year, Shifting Chronic Disease Prevention Upstream",
+     "url": "http://opinion.cnnb.com.cn/system/2026/11/04/030831652.shtml",
+     "source_zh": "中国宁波网 / 宁波日报",
+     "source_en": "China Ningbo Net / Ningbo Daily",
+     "date": "2026-11-04",
+     "summary_zh": "宁波日报评论披露，鄞州区钱湖医院减重门诊今年 1 至 10 月接诊超 1100 人次，全年预计破 1600 人次，较去年增长约 5 倍，开设一年多累计减重 513.9 公斤；北仑戚家山街道社区卫生服务中心同类门诊自 2023 年 10 月起管理 1287 人，人均减重 7%。",
+     "summary_en": "A Ningbo Daily commentary reports that Qianhu Hospital's weight clinic in Yinzhou saw over 1,100 visits from January to October, heading for 1,600 this year, roughly five times last year, with 513.9 kg lost since it opened; the Qijiashan community health centre has managed 1,287 people since October 2023 with an average 7 percent weight loss. The paper argues such clinics shift chronic disease prevention upstream at low cost."
+    },
+    {
+     "title_zh": "深圳罗湖把精准运动与功能康复嵌进家庭医生签约包",
+     "title_en": "Shenzhen Luohu Embeds Precision Exercise and Functional Rehabilitation Into Family Doctor Packages",
+     "url": "https://www.nfnews.com/content/G3OABwAJor.html",
+     "source_zh": "南方+",
+     "source_en": "Nanfang Plus",
+     "date": "2026-11-04",
+     "summary_zh": "钮曼医疗与深圳罗湖医院集团签署协议，共建家庭医生精准运动与功能康复技术支撑平台，把功能健康评估、运动风险分层、个体化运动处方、心肺与神经肌骨康复、数字化随访嵌入家庭医生签约服务包，覆盖控糖、体重管理、银发健康与儿童生长发育，试图破解运动处方开得出、社区接不住、居民难执行的难题。",
+     "summary_en": "Niuman Medical and the Shenzhen Luohu Hospital Group signed an agreement to build a technical platform embedding functional health assessment, exercise risk stratification, individualised prescriptions, cardiopulmonary and neuromuscular rehabilitation and digital follow-up into family doctor service packages. Covering glucose control, weight management, senior health and child growth, it targets the gap where hospitals can prescribe exercise but communities cannot deliver and residents do not adhere."
+    },
+    {
+     "title_zh": "南京秦虹社区医院体重管理门诊：680 人签约，慢病患者占九成",
+     "title_en": "Nanjing Qinhong Community Weight Clinic Enrols 680 Residents, 91 Percent With Chronic Disease",
+     "url": "https://njcb.xhby.net/pad/con/202611/03/content_1602722.html",
+     "source_zh": "南京晨报",
+     "source_en": "Nanjing Morning Post",
+     "date": "2026-11-03",
+     "summary_zh": "南京晨报报道，秦淮区秦虹社区卫生服务中心打造健康体重管理门诊，已有 680 名居民签约，其中慢病患者占 91%，居民体重、内脏脂肪与糖脂指标稳步改善，辖区慢病新发增长放缓。中心以筛查同步宣教、流程简化、上门随访、多网点就近服务提升可及性，下一步推进全域筛查与老年肥胖合并肌少症管理。",
+     "summary_en": "Nanjing Morning Post reports the Qinhong community health centre in Qinhuai district has enrolled 680 residents in its weight management package, 91 percent with chronic disease, with steady gains in weight, visceral fat and glycaemic and lipid markers and slower growth in new chronic cases locally. Screening paired with education, simplified processes, home visits and satellite sites drive uptake; next come district-wide screening and dedicated care for obesity with sarcopenia."
+    }
+   ]
+  }
+ ]
+}
