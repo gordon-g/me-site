@@ -98,11 +98,16 @@
   <div class="wrap">
     <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
     <div class="sec-head">
-      <div class="kicker">ARCHIVE · 共 17 期</div>
+      <div class="kicker">ARCHIVE · 共 18 期</div>
       <h1>GitHub AI 日报</h1>
       <p class="sec-sub">每天 10:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
     </div>
-    <div class="cards"><a class="card" href="/ai/2026-11-04/">
+    <div class="cards"><a class="card" href="/ai/2026-11-06/">
+      <div class="card-date">2026-11-06<span>周五</span></div>
+      <p class="card-sum">本期最明显的一条主线是："把承诺写进代码，而不是写进提示词"这一形态正在从医疗 AI 扩散到整个 agent 工程。AdelIA 把临床契约、红旗短路、逐字引文与拒答阈值做成带测试的代码；cf-skills 把证据采集做成不经过语言模型的 …</p>
+      <ul class="card-picks"><li>santiagopatinoserna/AdelIA：把"临床承诺"从提示词里搬到代码里——每一条临床陈述都必须带引用，没有证据就整句拒答，红旗信号直接短路模型</li><li>12burb/hermes-fledge：把"谁来给 agent 写的技能打分"从模型手里拿走——技能得靠证据挣得翅膀，出错的技能进试用期而不是直接上线</li><li>senseiewok/cf-skills：一个囊性纤维化研究实验室把自己的循证方法做成了 47 条命令——每个答案都是一条带来源、日期、依赖字段和"不许留空的局限说明"的证据记录，而且它从不调用语言模型</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-11-04/">
       <div class="card-date">2026-11-04<span>周三</span></div>
       <p class="card-sum">本期最值得记住的一条判断：AI 工具的竞争焦点正在从"谁能生成"移向"谁能证明"。 三个互不相干的项目在同一周给出了同一个答案。agent-desktop 的快照 JSON 里带 complete 字段、过期引用返回 STALE_REF、目…</p>
       <ul class="card-picks"><li>ovumcy/ovumcy-web：把"预测可不可信"变成一道代码闸门——不只算出受孕期，还要在数据不够时整段扣住不放</li><li>vercel-labs/agent-desktop：让 agent 操作桌面不靠"看图猜坐标"，而是读系统的无障碍树并给每个可点元素一个稳定引用——今天正式加上了 MCP</li><li>zarnautovic/tdeemon：把补剂/热量方案的"硬底线"写进代码里，AI 只能提议、不能执行——而且有一个 AI 永远无法下调的下限</li></ul>
