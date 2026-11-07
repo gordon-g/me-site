@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-07",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月1日 — 11月7日（最近 7 天）",
+ "range_en": "Nov 1 – Nov 7, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "第十二届国际功能医学暨长寿科技创新大会将于 11 月 19—21 日在北京举办",
+     "title_en": "12th International Functional Medicine & Longevity Science Congress Opens in Beijing, Nov 19-21",
+     "url": "https://www.hyqss.cn/content/202611/06/c522307.html",
+     "source_zh": "衡阳全搜索",
+     "source_en": "Hengyang Quansousuo",
+     "date": "2026-11-06",
+     "summary_zh": "大会定于 11 月 19 日至 21 日在北京中国国际展览中心朝阳馆召开，与北京国际医疗旅游展、细胞治疗与再生医学大会同期。议题从「延长生存年限」转向推迟发病、拉长无病生存期，聚焦微循环障碍与慢性低度炎症这两条衰老起点，并展出无创功能评估与干预技术链。",
+     "summary_en": "The congress runs Nov 19-21 at Beijing's China International Exhibition Center, alongside medical tourism and cell therapy meetings. The agenda shifts from extending lifespan to delaying disease onset and lengthening disease-free years, centering on microcirculatory impairment and chronic low-grade inflammation as starting points of aging, with non-invasive functional assessment and intervention technologies on show."
+    },
+    {
+     "title_zh": "浙大团队：肠道约氏乳杆菌经 ILA—IPA 轴修复卵巢，早衰小鼠中位寿命延长 12%",
+     "title_en": "Lactobacillus johnsonii Restores Ovarian Function via ILA-IPA Axis, Extending Lifespan 12% in Progeroid Mice",
+     "url": "https://news.qq.com/rain/a/20261106A0ECM100",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "RXC Daily / Tencent News",
+     "date": "2026-11-06",
+     "summary_zh": "研究者发现自然衰老雌鼠粪便中约氏乳杆菌随年龄显著减少，补充后卵巢相对重量、雌二醇升高，促卵泡激素下降，闭锁卵泡减少。该菌经 LdhA 合成吲哚乳酸，再由共生菌转化为吲哚丙酸，激活 AhR-YAP 通路；早衰模型小鼠灌胃四个月中位寿命延长 12.09%。",
+     "summary_en": "Fecal Lactobacillus johnsonii declined markedly with age in naturally aging female mice. Supplementation raised ovarian weight and estradiol, lowered FSH and cut atretic follicles. The strain makes indole lactate via LdhA, which commensals convert to indole propionate, activating AhR-YAP; four months of gavage extended median lifespan 12.09% in a progeroid model."
+    },
+    {
+     "title_zh": "巴黎团队：让关节炎加重的是特定致病菌株，而非整个菌种",
+     "title_en": "Paris Team Finds Specific Inflammatory Strains, Not the Species, Drive Arthritis Flare",
+     "url": "https://news.qq.com/rain/a/20261106A0BKLC00",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "RXC Daily / Tencent News",
+     "date": "2026-11-06",
+     "summary_zh": "研究在《风湿病年鉴》发表，从患者与健康人分离出 46 株 Mediterraneibacter gnavus。患者来源菌株在系统发育树上聚成独立分支，能耐受炎症环境中的一氧化氮，直接致单核细胞死亡并大量释放肿瘤坏死因子；无菌动物实验证实这些菌株直接加剧病程，提示慢性炎症反在筛选更危险的菌。",
+     "summary_en": "Published in Annals of the Rheumatic Diseases, the work isolated 46 Mediterraneibacter gnavus strains from patients and healthy donors. Patient strains clustered in distinct phylogenetic branches, tolerated nitric oxide in inflamed gut, killed monocytes and triggered heavy TNF release. Gnotobiotic experiments confirmed these strains worsen disease, suggesting chronic inflammation selects more dangerous bacteria."
+    },
+    {
+     "title_zh": "生姜散联合 Akk 菌改善自身免疫性脑脊髓炎，鞘脂与 S1PR1 屏障通路参与",
+     "title_en": "Sheng-Jiang Powder plus Akkermansia Ameliorates Autoimmune Encephalomyelitis via Sphingolipid-S1PR1 Barriers",
+     "url": "https://www.ebiotrade.com/newsf/2026-11/20261107000108165.htm",
+     "source_zh": "生物通 / Frontiers in Immunology",
+     "source_en": "BioTrade / Frontiers in Immunology",
+     "date": "2026-11-07",
+     "summary_zh": "研究在雌性小鼠诱导实验性自身免疫性脑脊髓炎，发病前给予生姜散、Akk 菌或两者联合，三组临床评分与脊髓炎症均下降，血清炎性因子减少，结肠 ZO-1 与杯状细胞恢复。代谢组指向鞘脂与 S1P 信号，血清中检出的复方成分网络汇聚到 S1PR1，体外过表达 S1PR1 会削弱屏障。",
+     "summary_en": "In female mice with induced autoimmune encephalomyelitis, pre-onset Sheng-Jiang Powder, Akkermansia, or both lowered clinical scores and spinal inflammation, cut serum cytokines and restored colonic ZO-1 and goblet cells. Metabolomics pointed to sphingolipid/S1P signaling; serum-detected formula compounds mapped onto S1PR1, whose overexpression weakened barrier resistance in vitro."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "心脏并不是均匀衰老：单细胞图谱锁定瓣膜与主动脉根部为炎症热点",
+     "title_en": "The Heart Does Not Age Evenly: Single-Cell Atlas Flags Valves and Aortic Root as Inflammation Hotspots",
+     "url": "https://www.jax.org/news-and-insights/2026/november/heart-inflammaging-single-cell-atlas",
+     "source_zh": "杰克逊实验室",
+     "source_en": "The Jackson Laboratory",
+     "date": "2026-11-06",
+     "summary_zh": "研究发表于《衰老细胞》，用同龄同饲料小鼠分离衰老本身的影响。结果显示免疫与成纤维细胞的「对话」在瓣膜和主动脉根部最活跃，Ccl8 与 Cdkn1a 随龄升高并集中于此；这些标志物并不等同于细胞衰老。雄性成纤维细胞偏向纤维化通路，雌性偏向发育与蛋白合成通路。",
+     "summary_en": "Published in Aging Cell, the study used age-matched mice on identical diets to isolate aging itself. Immune-fibroblast crosstalk was most active in valves and the aortic root, where Ccl8 and Cdkn1a rose with age and clustered; these markers alone do not mean senescence. Male fibroblasts skewed to fibrosis pathways, female ones to development and protein production."
+    },
+    {
+     "title_zh": "首款面向亚洲人的控释 Ca-AKG 补剂在新加坡发布，主打生物年龄管理",
+     "title_en": "First Asia-Specific Controlled-Release Ca-AKG Supplement Launched in Singapore, Targeting Biological Age",
+     "url": "https://www.cet.com.cn/xwsd/10652639.shtml",
+     "source_zh": "中国经济新闻网",
+     "source_en": "China Economic Times News",
+     "date": "2026-11-06",
+     "summary_zh": "新加坡上市公司 SDAI 发布专利控释 Ca-AKG 产品，由长寿科学家 Brian Kennedy 主导研发，建议六个月为一周期，配合饮食运动睡眠后再评估生物年龄。企业援引：2025 年亚太抗衰市场约 206 亿美元，年增速 8%，2033 年可达 381 亿美元，并呼吁回归证据等级与原料追溯。",
+     "summary_en": "Singapore-listed SDAI launched a patented controlled-release Ca-AKG product led by longevity scientist Brian Kennedy, recommending six-month cycles with diet, exercise and sleep before reassessing biological age markers. The firm cited a 2025 Asia-Pacific anti-aging market of about US$20.6bn growing 8% annually to US$38.1bn by 2033, and urged a return to evidence grading and traceable sourcing."
+    },
+    {
+     "title_zh": "家得路与新风天域 Limitless 签约，把营养支持送进医师主导的长寿医学场景",
+     "title_en": "CATALO and New Frontier's Limitless Partner to Embed Nutrition into Physician-Led Longevity Care",
+     "url": "https://news.qq.com/rain/a/20261106A0DKBO00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-06",
+     "summary_zh": "在第九届进博会现场，香港品牌 CATALO 与新风天域正在搭建的长寿医学平台 Limitless 签署策略合作，成为其官方营养支持伙伴。双方将以专业交流起步，重点探索食品补充剂在医师主导的健康管理场景中的用法，并把个性化临床营养接入精准评估、健康数据管理与持续照护的服务链。",
+     "summary_en": "At the ninth China International Import Expo, Hong Kong brand CATALO signed a strategic partnership with Limitless, the longevity medicine platform being built by New Frontier Group, becoming its official nutrition support partner. Starting with professional exchange, they will explore how food supplements fit physician-led health management and link personalized clinical nutrition to assessment, data and continuous care."
+    },
+    {
+     "title_zh": "促进线粒体融合的小分子让线虫延寿，剂量越高效果越明显",
+     "title_en": "Small Molecules That Boost Mitochondrial Fusion Extend Lifespan in Worms Dose-Dependently",
+     "url": "https://longevity-watch.com/boosting-mitochondrial-fusion-extends-life-in-worms",
+     "source_zh": "LongevityWatch",
+     "source_en": "LongevityWatch",
+     "date": "2026-11-06",
+     "summary_zh": "线粒体随年龄失去融合与分裂的平衡。研究者先给线虫线粒体融合阻断剂，寿命随剂量缩短；再用两种融合激活剂 Chimera 与 8015-P2，存活期随剂量延长，且 Chimera 的效应在缺失靶蛋白 FZO-1 的虫体中消失。作用更强的 8015-P2 还改善晚年游动能力与抗热、抗氧化损伤能力。",
+     "summary_en": "Mitochondria lose their fusion-fission balance with age. Blocking mitofusin shortened worm lifespan dose-dependently, while two fusion activators, Chimera and 8015-P2, extended survival as dose rose; Chimera's benefit vanished in worms lacking its target FZO-1. The stronger 8015-P2 also improved late-life swimming and resistance to heat and oxidative damage."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "每日三份全脂乳制品 12 周：体重血脂未恶化，血压反而改善",
+     "title_en": "Three Daily Servings of Full-Fat Dairy for 12 Weeks: No Worse Weight or Lipids, Better Blood Pressure",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105081000.htm",
+     "source_zh": "ScienceDaily / 多伦多大学",
+     "source_en": "ScienceDaily / University of Toronto",
+     "date": "2026-11-06",
+     "summary_zh": "多伦多大学在《营养学杂志》发表 12 周随机试验，74 名超重或肥胖成人分三组，其中两组每日三份全脂乳制品。结果显示体重、体成分、血脂与胰岛素抵抗均无不良变化，高乳制品组血压改善，钙、蛋白质与维生素 D 摄入更高。作者用「乳制品基质」解释，即酪蛋白与乳清结合脂肪改变了释放速度。",
+     "summary_en": "In a 12-week randomized trial in The Journal of Nutrition, 74 overweight or obese adults were assigned to three diets, two including three daily servings of full-fat dairy. Weight, body composition, lipids and insulin resistance showed no adverse change, while the dairy groups had better blood pressure and higher calcium, protein and vitamin D intake. The authors invoke the dairy matrix, with casein and whey bound to fat slowing release."
+    },
+    {
+     "title_zh": "GNC 五赴进博：从「广而全」转向「细而精」，本土团队将主导产品升级",
+     "title_en": "GNC's Fifth CIIE Outing: From Broad Portfolio to Fine Segmentation, with Local Teams Leading Upgrades",
+     "url": "https://www.cet.com.cn/xwsd/10650726.shtml",
+     "source_zh": "中国经济新闻网",
+     "source_en": "China Economic Times News",
+     "date": "2026-11-06",
+     "summary_zh": "进入中国十五年，GNC 借进博会发布战略转向：由单一基础补充改为分人群、分场景方案，覆盖母婴、骨骼、睡眠、男女健康与职场压力；技术上押注 rTG 鱼油、缓释、微米乳化与口腔贴膜，并与北京工商大学、上海交大医学院做分龄分性别与营养素协同研究。中国区负责人称需求在变细、科技要变深、验证要变实。",
+     "summary_en": "Fifteen years into China, GNC used the expo to announce a shift from single-ingredient basics to population- and scenario-specific regimens covering maternal, bone, sleep, men's, women's and workplace stress needs. It is betting on rTG fish oil, sustained release, micro-emulsification and oral films, and researching age- and sex-specific nutrition with two universities."
+    },
+    {
+     "title_zh": "「Doctor X 营养管家」进博会首秀：七维机能雷达配 500 种成分库做定制",
+     "title_en": "Doctor X Debuts at CIIE with a Seven-Dimension Functional Radar and 500-Ingredient Library",
+     "url": "https://www.bjnews.com.cn/detail/1793962791129763.html",
+     "source_zh": "新京报",
+     "source_en": "The Beijing News",
+     "date": "2026-11-05",
+     "summary_zh": "品牌前身为「营养日记」，7 月起内测，小程序访问超三千人。其 7D BioRadar 评估用三到五分钟从细胞自噬、营养通路、能量供给、细胞老化、内分泌代谢、慢性炎症与肠道微生态七维扫描，再从 500 余种成分中复配进单枚粒子，30 天复测雷达图、90 天叠加血液标志物校准，月均投入三四百元。",
+     "summary_en": "Formerly known as Nutrition Diary, the brand has been in beta since July with over 3,000 mini-program visits. Its 7D BioRadar takes three to five minutes to scan autophagy, nutrient pathways, energy supply, cellular aging, endocrine metabolism, chronic inflammation and gut microbiota, then blends over 500 ingredients into one daily sachet, re-testing at 30 days and adding blood markers at 90."
+    },
+    {
+     "title_zh": "脂肪肝合并代谢异常怎么分型：血清代谢物的鉴别力明显强过肠道菌群",
+     "title_en": "Subtyping Fatty Liver with Metabolic Comorbidities: Serum Metabolites Outperform Gut Microbes",
+     "url": "https://news.qq.com/rain/a/20261106A0BFCL00",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "RXC Daily / Tencent News",
+     "date": "2026-11-06",
+     "summary_zh": "上海中医药大学团队按是否合并血脂异常、空腹血糖受损将非酒精性脂肪肝分组。血清代谢物随机森林模型 AUROC 达 0.89、0.83、0.93，而单用菌群的模型在血脂异常组仅 0.58；三组共同富集甲基萘醌（维生素 K2）合成通路，合并血糖受损者另有半乳糖降解与三羧酸循环模块。",
+     "summary_en": "A Shanghai University of Traditional Chinese Medicine team split NAFLD patients by dyslipidemia and impaired fasting glucose. Random-forest models on serum metabolites reached AUROC of 0.89, 0.83 and 0.93, versus just 0.58 for microbiome-only models in the dyslipidemia group. All three groups enriched menaquinone (vitamin K2) biosynthesis; the glucose-impaired group added galactose degradation and TCA modules."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "韩国 MFDS 点名近 40 款「增高」「健脑」补剂，检出 5-HTP 等处方成分",
+     "title_en": "South Korea's MFDS Flags Nearly 40 Height-Growth and Brain Supplements Over 5-HTP",
+     "url": "https://www.nutraingredients.com/Article/2026/11/05/mfds-flags-height-growth-brain-supplements-containing-5-htp/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-05",
+     "summary_zh": "韩国食品医药品安全处通报，跨境电商渠道购买的近 40 款宣称增高或健脑的保健食品中检出 5-羟色氨酸、L-多巴、胞磷胆碱等成分，这些在韩国被归为处方药；部分产品另含 L-瓜氨酸与白云石等受限原料。监管机构提示消费者海外直购存在成分与标签不符风险。",
+     "summary_en": "South Korea's Ministry of Food and Drug Safety flagged nearly 40 supplements marketed for height growth or cognitive health, bought via cross-border e-commerce, for containing 5-HTP, L-dopa and citicoline, which the country classifies as prescription drugs. Some also carried restricted ingredients such as L-citrulline and dolomite, underscoring the risks of overseas direct purchase."
+    },
+    {
+     "title_zh": "补剂形态正在换代：35 岁以下更愿意「吃进去」而不是「吞下去」",
+     "title_en": "Supplement Formats Are Shifting: Under-35s Prefer Food and Drink Over Pills",
+     "url": "https://www.nutraingredients.com/Article/2026/11/06/supplyside-global-trend-spotting-with-spins-beverages-peptides-longevity-and-more/",
+     "source_zh": "NutraIngredients / SPINS",
+     "source_en": "NutraIngredients / SPINS",
+     "date": "2026-11-06",
+     "summary_zh": "SPINS 市场洞察负责人在 SupplySide Global 现场总结：最大变化是向食品饮料形态迁移，35 岁以下人群明显偏好饮品与食物载体，年长者仍守药片与粉剂；胶原蛋白果冻等新剂型出现。「肽」成为高频词但需区分食源肽与注射剂；主打诉求集中在长寿、肌肉与代谢健康，菌菇与适应原热度回落。",
+     "summary_en": "SPINS' market insights lead said the biggest shift at SupplySide Global was toward food and beverage formats: under-35s strongly prefer drinks and foods while older consumers stick with pills and powders, with collagen jellies emerging. Peptides are a buzzword needing separation from injectables; positioning centers on longevity, muscle and metabolic health, while mushrooms and adaptogens cooled."
+    },
+    {
+     "title_zh": "亚太监管速览：韩国拟取消益生菌每日千亿 CFU 上限，澳洲穿心莲产品召回",
+     "title_en": "APAC Regulatory Roundup: Korea May Drop 100bn CFU Probiotic Cap, Australia Recalls Andrographis",
+     "url": "https://www.nutraingredients.com/Article/2026/11/06/regulatory-review-probiotic-cfu-limits-removal-andrographis-recall-and-more/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-06",
+     "summary_zh": "韩国食品医药品安全处就保健功能食品规则启动公开征求意见，拟取消每日益生菌摄入 1000 亿 CFU 的上限，理由是扩大消费者选择、提升制造自主权与全球竞争力。澳大利亚自 9 月 17 日起要求穿心莲补充剂走注册药品路径，因可能诱发过敏性休克，多个品牌已自愿召回并改用紫锥菊或益生菌重配。",
+     "summary_en": "Korea's MFDS opened consultation on health functional food rules, proposing to scrap the 100bn CFU daily probiotic ceiling to widen consumer choice and boost manufacturing autonomy. Since Sept 17 Australia requires andrographis supplements to follow the registered medicines pathway over anaphylaxis concerns; several brands have recalled voluntarily and reformulated with echinacea or probiotics."
+    },
+    {
+     "title_zh": "啤酒花提取物以「天然 GLP-1」定位进入英国，24 周减重 3.8 公斤",
+     "title_en": "Hop Flower Extract Enters UK as a Natural GLP-1 Alternative, 3.8 kg Loss at 24 Weeks",
+     "url": "https://www.nutraingredients.com/Article/2026/11/05/calocurb-targets-uk-market-with-glp-1-alternative/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-05",
+     "summary_zh": "新西兰 Calocurb 以 Amarasate 啤酒花提取物登陆英国，经执业者渠道。机制为激活肠道苦味受体，促内源性 GLP-1、CCK 与 PYY 释放。《Obesity Pillars》24 周试验：干预组减重 3.8 公斤、对照组 0.4 公斤，内脏脂肪降且保留肌肉；此前报告饥饿感降三成。",
+     "summary_en": "New Zealand's Calocurb launched in the UK through the practitioner channel with Amarasate hop extract, which activates gut bitter receptors to release endogenous GLP-1, CCK and PYY. A 24-week randomized trial in Obesity Pillars showed 3.8 kg average loss versus 0.4 kg on placebo, with greater fat and visceral fat reduction while preserving skeletal muscle; earlier work reported 30% lower hunger."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "用冠脉钙化评分决定谁吃他汀：用药人数少三分之二，事件率持平",
+     "title_en": "Guiding Statins by Coronary Calcium: Two-Thirds Fewer Users, Same Event Rate",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224604.htm",
+     "source_zh": "ScienceDaily / 欧洲心脏病学会",
+     "source_en": "ScienceDaily / European Society of Cardiology",
+     "date": "2026-11-06",
+     "summary_zh": "CorCal 试验纳入 5772 名无动脉粥样硬化性心血管病与糖尿病史的成人，平均 64 岁，女性占 51%，随机按传统风险方程或冠脉钙化评分建议他汀。随访 4.2 年，两组主要心血管事件均为 2.7%，钙化组用药人数少三分之二，依从性 62% 对 23%；研究未达非劣效界值。",
+     "summary_en": "CorCal Outcomes randomized 5,772 adults without atherosclerotic disease or diabetes, mean age 64 and 51% women, to statin guidance by pooled cohort equations or coronary calcium scoring. Over 4.2 years major events were 2.7% in both arms, yet the calcium arm generated two-thirds fewer recommendations, with adherence of 62% versus 23%. The trial did not meet its noninferiority threshold."
+    },
+    {
+     "title_zh": "南京基层慢病管理：从「筛完没人管」到筛查诊疗转诊回社区闭环",
+     "title_en": "Nanjing's Primary Care Chronic Disease Loop: From Screening Without Follow-Up to Full Referral Cycle",
+     "url": "http://livelihood.longhoo.net/2026/xwxc_1106/885172.html",
+     "source_zh": "龙虎网",
+     "source_en": "Longhoo.net",
+     "date": "2026-11-06",
+     "summary_zh": "南京以慢病筛防中心为枢纽，联动家庭医生团队、社区工作室与医联体医院，打通筛查、诊疗、转诊、回社区链条。2025 年基层管理高血压 82.63 万人、糖尿病 30.64 万人、慢阻肺 2.03 万人，规范管理率均超七成，血压控制率 62.3%、血糖 59.3%；网格员摸排与 AI 随访提醒补人力短板。",
+     "summary_en": "Nanjing links chronic disease screening centers with family doctor teams, community studios and hospital alliances to close the loop from screening to treatment, referral and return. In 2025 primary care managed 826,300 hypertension, 306,400 diabetes and 20,300 COPD patients, with standardized management above 70% and control rates of 62.3% and 59.3%. Grid workers and AI reminders offset staffing gaps."
+    },
+    {
+     "title_zh": "OPEN2026 肥胖防控与健康促进大会在成都开幕，聚焦中心建设与 AI 协作",
+     "title_en": "OPEN2026 Obesity Prevention and Health Promotion Congress Opens in Chengdu",
+     "url": "https://news.qq.com/rain/a/20261106A0C3VX00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-06",
+     "summary_zh": "大会于 11 月 6 日至 8 日在成都举行，汇聚临床专家、医疗机构与产业伙伴，议题覆盖肥胖治疗创新、体重管理中心建设、AI 辅助协作与长期管理，目标是打通临床实践与产业资源，讨论创新成果如何落到服务端。会议内容面向医疗卫生专业人士，不作为诊疗依据。",
+     "summary_en": "Running Nov 6-8 in Chengdu, the congress gathers clinicians, institutions and industry partners around obesity treatment innovation, weight management center building, AI-enabled collaboration and long-term care. Its aim is to connect clinical practice with industry resources and discuss how innovations reach service delivery; content targets healthcare professionals and is not treatment guidance."
+    },
+    {
+     "title_zh": "太原 20 家医院开设体重管理门诊，推「1+5+N」多学科协作",
+     "title_en": "Taiyuan Opens Weight Management Clinics at 20 Hospitals with a 1+5+N Multidisciplinary Model",
+     "url": "https://wjw.taiyuan.gov.cn/wjyw/20261106/30328393.html",
+     "source_zh": "太原市卫生健康委员会",
+     "source_en": "Taiyuan Municipal Health Commission",
+     "date": "2026-11-06",
+     "summary_zh": "太原在「体重管理年」行动中构建科普、服务、环境、监测四位体系：发布核心要点、组建内分泌与临床营养多学科团队巡讲；全市 20 家医疗机构开设健康体重管理门诊，北大医院太原医院设 MDT 减重门诊并采用「1+5+N」协作，市妇幼保健院推孕产妇「1+10+N」体重与血糖管理。",
+     "summary_en": "Taiyuan's Weight Management Year builds four pillars: public education, services, supportive environments and monitoring. It published core guidance and sends endocrine and clinical nutrition teams on lecture tours. Twenty institutions now run weight clinics; Peking University First Hospital Taiyuan uses a 1+5+N MDT model, and the maternal hospital runs a 1+10+N weight and glucose program."
+    }
+   ]
+  }
+ ]
+}
