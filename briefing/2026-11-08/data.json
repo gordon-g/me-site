@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-08",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月2日 — 11月8日（最近 7 天）",
+ "range_en": "Nov 2 – Nov 8, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《科学》：膳食纤维经肠菌把雄激素「降级」，改善多囊卵巢综合征",
+     "title_en": "Science: Dietary fiber downgrades androgens via gut bacteria to improve PCOS",
+     "url": "https://www.sohu.com/a/1098464203_100743",
+     "source_zh": "搜狐健康 / 北京大学第三医院",
+     "source_en": "Sohu Health / Peking University Third Hospital",
+     "date": "2026-11-07",
+     "summary_zh": "北大三院乔杰、庞艳莉团队联合姜长涛、聂少平发现，膳食纤维可富集解木聚糖拟杆菌，其菌源酶 5-AR 与 CAS 把雄烯二酮转为活性大减的「粪雄酮」，再由双歧杆菌的 DCS 彻底灭活排出。小鼠定植该菌后雄激素下降、动情周期恢复、排卵与胰岛素敏感性改善，为多囊卵巢提供营养干预新路径。",
+     "summary_en": "A team led by Qiao Jie and Pang Yanli at Peking University Third Hospital, with Jiang Changtao and Nie Shaoping, found that dietary fiber enriches Bacteroides xylanisolvens. Its enzymes 5-AR and CAS convert androstenedione into a far weaker metabolite termed fecaandrogen, which Bifidobacterium DCS then fully inactivates for excretion. Colonized mice showed lower androgens, restored estrous cycles, ovulation and insulin sensitivity."
+    },
+    {
+     "title_zh": "《自然·通讯》：一次吃太多低消化性糖，会把肠道「让」给沙门菌",
+     "title_en": "Nature Communications: A sugar overload hands the gut over to Salmonella",
+     "url": "https://news.qq.com/rain/a/20261107A06Q5Y00",
+     "source_zh": "热心肠日报 / 腾讯新闻",
+     "source_en": "RiboLab Daily / Tencent News",
+     "date": "2026-11-07",
+     "summary_zh": "苏黎世联邦理工团队发现，短时间大量摄入 L-阿拉伯糖、乳果糖或糖醇，会被菌群快速发酵，盲肠 pH 一小时内由 6.8 降到 5.5，拟杆菌门受抑、丙酸与氨基酸升高。定植抗力随之削弱，鼠伤寒沙门菌依赖 SPI-1 与 SPI-2 毒力系统大量增殖，侵袭范围扩至回肠与派尔集合淋巴结。",
+     "summary_en": "Researchers at ETH Zurich found that a large acute dose of L-arabinose, lactulose or sugar alcohols is rapidly fermented, dropping caecal pH from 6.8 to 5.5 within an hour, suppressing Bacteroidetes and raising propionate and amino acids. Colonization resistance then weakens, letting Salmonella Typhimurium expand via SPI-1 and SPI-2 virulence systems and invade the ileum and Peyer patches."
+    },
+    {
+     "title_zh": "唐都医院破解苦参酮护脑路径：先养 Akk 菌，再由吲哚-3-乙醛进脑调免疫",
+     "title_en": "Tangdu Hospital maps kushenin's brain protection: feed Akkermansia, then send indole-3-acetaldehyde to the brain",
+     "url": "https://www.xiancn.com/content/2026-11/07/content_7557947.htm",
+     "source_zh": "西安新闻网",
+     "source_en": "Xi'an News Network",
+     "date": "2026-11-07",
+     "summary_zh": "空军军医大学唐都医院郭俊团队用多组学、粪菌移植与菌群干预证实：口服苦参酮后肠道 Akk 菌增多，促进生成吲哚-3-乙醛，该代谢物可穿透血脑屏障，抑制过度活化的免疫细胞对髓鞘的攻击，减轻多发性硬化模型的中枢炎症，从而打通「肠菌—代谢—脑免疫」这条完整通路。",
+     "summary_en": "Guo Jun's team at Tangdu Hospital, Air Force Medical University, used multi-omics, faecal transplantation and microbiota intervention to show that oral kushenin expands gut Akkermansia, boosting indole-3-acetaldehyde. This metabolite crosses the blood-brain barrier, curbs overactive immune cells attacking myelin and eases central inflammation in multiple sclerosis models."
+    },
+    {
+     "title_zh": "《自然·通讯》：肠道古菌按「剂量」给免疫系统下指令",
+     "title_en": "Nature Communications: Gut archaea issue immune orders by dose",
+     "url": "https://www.sohu.com/a/1098416471_185627",
+     "source_zh": "热心肠日报 / 搜狐",
+     "source_en": "RiboLab Daily / Sohu",
+     "date": "2026-11-07",
+     "summary_zh": "德国博尔斯特尔研究中心发现，斯氏甲烷球形菌 4 小时内被 72.3% 单核细胞吞噬，史密斯甲烷短杆菌仅 26.1%。古菌 RNA 经 TLR8 识别：低剂量（0.1 微克/毫升）只启动 STAT1/2 趋化因子程序，高剂量（0.5 以上）才调动 NF-κB p65 释放 IL-6 与 TNF。",
+     "summary_en": "Germany's Research Center Borstel found that Methanosphaera stadtmanae was taken up by 72.3% of monocytes within four hours versus only 26.1% for Methanobrevibacter smithii. Archaeal RNA is sensed through TLR8: low doses (0.1 micrograms per millilitre) trigger only a STAT1/2 chemokine programme, while 0.5 and above mobilise NF-kappa-B p65 to release IL-6 and TNF."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "丹参里的丹酚酸被证实是天然衰老细胞清除剂，窗口只在老年期",
+     "title_en": "Salvianolic acids from danshen confirmed as natural senolytics, active only in old age",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34424459",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-07",
+     "summary_zh": "一项衰老生物学研究显示，丹酚酸类化合物可选择性诱导衰老细胞凋亡，属于天然 senolytics。在模式生物中，其作用窗口集中在老年期：不从幼年干预、不拉长极限寿命，而是清除已堆积的衰老细胞、缓解慢性炎症、保住运动能力，并可能通过重塑肿瘤微环境增强化疗药效。",
+     "summary_en": "A study in ageing biology shows that salvianolic acids selectively drive senescent cells into apoptosis, making them natural senolytics. In model organisms the window is late life: rather than intervening from youth or stretching maximum lifespan, they clear accumulated senescent cells, ease chronic inflammation, preserve motor function and may sensitise tumours to chemotherapy."
+    },
+    {
+     "title_zh": "日本学者提出「线粒体先制医疗」：候选药 MA-5 已进入 II 期临床",
+     "title_en": "Japanese team proposes pre-emptive mitochondrial medicine; MA-5 enters phase II",
+     "url": "https://news.qq.com/rain/a/20261107A0DZBS00",
+     "source_zh": "腾讯新闻 / 第 66 届日本临床化学会年会",
+     "source_en": "Tencent News / 66th Annual Meeting of the Japan Society of Clinical Chemistry",
+     "date": "2026-11-07",
+     "summary_zh": "第 66 届日本临床化学会年会上，东北大学阿部高明报告：团队用基因表达模式构建可推测生物学年龄与死亡风险的衰老时钟，并锁定三种与衰老及多种慢病相关的血浆蛋白。候选药 MA-5 通过维持线粒体内膜结构改善能量代谢，在戈谢病模型中降低衰老指标与炎症，现已进入 II 期试验。",
+     "summary_en": "At the 66th annual meeting of the Japan Society of Clinical Chemistry, Takaaki Abe of Tohoku University described an ageing clock built from gene expression patterns that estimates biological age and mortality risk, plus three plasma proteins tied to ageing and chronic disease. Candidate MA-5 preserves inner mitochondrial membrane structure and is now in phase II trials."
+    },
+    {
+     "title_zh": "《科学》综述：更年期不是一张症状清单，而是健康长寿的干预窗口",
+     "title_en": "Science review: Menopause is a window for healthy longevity, not a symptom list",
+     "url": "https://www.163.com/dy/article/LB6MMPOA05149U3U.html",
+     "source_zh": "全球医生组织 / 网易",
+     "source_en": "GlobalMD / NetEase",
+     "date": "2026-11-08",
+     "summary_zh": "《科学》发表综述，主张把更年期与激素治疗重新定位为健康衰老的机会。文章指出更年期相关症状多达 72 种，绝经后阶段可占女性一生约 40%；激素治疗至少有 200 多种组合，疗效与风险随药物类型、剂量、给药途径与启用时机而变——关键不是「要不要用」，而是谁用、何时用、怎么用。",
+     "summary_en": "A Science review argues for reframing menopause and hormone therapy as opportunities for healthy ageing. It notes up to 72 menopause-related symptoms and that the postmenopausal stage can span roughly 40% of a woman's life. With more than 200 hormone regimens, benefits and risks vary by drug, dose, route and timing: the question is who, when and how, not whether."
+    },
+    {
+     "title_zh": "未来科学大奖周设「健康寿命的前沿」专场：从理解衰老转向主动延长健康期",
+     "title_en": "Future Science Prize week hosts a healthspan session: from understanding ageing to extending it",
+     "url": "https://news.qq.com/rain/a/20261107A0ED0G00",
+     "source_zh": "腾讯新闻 / 2026 未来科学大奖周",
+     "source_en": "Tencent News / 2026 Future Science Prize Week",
+     "date": "2026-11-07",
+     "summary_zh": "11 月 7 日香港科学馆，2026 未来科学大奖周生命科学专场聚焦衰老生物学、表观遗传时钟、细胞应激通路与成体干细胞再生。Linda Partridge 在《健康老龄化：炒作与希望》中强调衰老具可塑性，老药新用有望延缓多种年龄相关疾病；Peter Walter 讨论靶向细胞应激通路的治疗窗口。",
+     "summary_en": "At the Hong Kong Science Museum on November 7, the life sciences session of Future Science Prize Week focused on ageing biology, epigenetic clocks, cellular stress pathways and adult stem-cell regeneration. Linda Partridge stressed that ageing is plastic and its mechanisms conserved, making repurposed drugs a route to delaying age-related disease; Peter Walter discussed targeting stress pathways."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "蛋氨酸限制能延寿，但它不等于「少吃肉蛋奶」",
+     "title_en": "Methionine restriction extends lifespan, but it is not the same as eating less meat and dairy",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34424461",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-07",
+     "summary_zh": "一篇综述系统梳理蛋氨酸限制的证据与边界：在模式生物中，下调蛋氨酸供给可减轻氧化应激、改善一碳代谢与自噬、提升胰岛素敏感性并延长寿命。但蛋氨酸是必需氨基酸，长期不足会导致肌肉流失、造血异常与免疫下降，老年人、孕产妇风险更高，且人体长期对照数据仍不足。",
+     "summary_en": "A review maps the evidence and limits of methionine restriction: in model organisms, trimming methionine eases oxidative stress, improves one-carbon metabolism and autophagy, raises insulin sensitivity and extends lifespan. But methionine is essential, and chronic shortfall causes muscle loss, haematological abnormalities and weaker immunity, with the elderly and pregnant women most at risk."
+    },
+    {
+     "title_zh": "三国队列：把 5% 的能量从动物蛋白换给植物蛋白，与肌少性肥胖风险下降相关",
+     "title_en": "Three cohorts: shifting 5% of energy from animal to plant protein tracks with lower sarcopenic obesity risk",
+     "url": "https://www.ebiotrade.com/newsf/2026-11/202611070001069452.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTread",
+     "date": "2026-11-07",
+     "summary_zh": "基于 CHARLS、ELSA 与 HRS 三个队列的分析显示，植物蛋白密度每提高 1 个标准差，与肌少性肥胖风险下降相关，其中 12% 至 16% 由生物衰老速度中介，约相当于衰老慢 0.8 年。中心性肥胖人群关联最强；作者提醒这属关联而非因果，动物蛋白的亮氨酸价值仍不可替代。",
+     "summary_en": "Analyses of the CHARLS, ELSA and HRS cohorts show that each standard-deviation rise in plant-protein density is linked to lower sarcopenic obesity risk, with 12% to 16% mediated by biological ageing pace, roughly 0.8 years slower. Associations were strongest in centrally obese adults; the authors caution this is not causation and animal protein remains a key leucine source."
+    },
+    {
+     "title_zh": "MrOS 队列：抗炎膳食模式与老年男性更高的睾酮水平相关",
+     "title_en": "MrOS cohort: anti-inflammatory diets linked to higher testosterone in older men",
+     "url": "https://www.ebiotrade.com/newsf/2026-11/20261107030454346.htm",
+     "source_zh": "生物通 / British Journal of Nutrition",
+     "source_en": "BioTread / British Journal of Nutrition",
+     "date": "2026-11-07",
+     "summary_zh": "对 1622 名 65 岁以上男性的横断面分析显示，抗炎膳食模式（rEDIP）每提高 1 个标准差，总睾酮高 2.15 纳克/分升、游离睾酮高 2.02 纳克/分升；低胰岛素膳食模式同向但未达显著。合并 21 项研究的系统综述亦见健康膳食与较高 SHBG、总睾酮及较低雌二醇相关，超重肥胖者关联更强。",
+     "summary_en": "In a cross-sectional analysis of 1,622 men aged 65 and over, each standard deviation of a more anti-inflammatory dietary pattern was associated with total testosterone 2.15 nanograms per decilitre higher and free testosterone 2.02 higher; a low-insulin pattern trended the same way. A 21-study review linked healthier diets to higher SHBG and testosterone and lower estradiol."
+    },
+    {
+     "title_zh": "每天 2—3 杯含咖啡因咖啡，与痴呆风险大幅下降相关",
+     "title_en": "Two to three cups of caffeinated coffee a day linked to much lower dementia risk",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224550.htm",
+     "source_zh": "ScienceDaily / 美国生理学会",
+     "source_en": "ScienceDaily / American Physiological Society",
+     "date": "2026-11-07",
+     "summary_zh": "一项随访最长 43 年的美国研究显示，常饮含咖啡因咖啡者痴呆年发病率为每 10 万人 141 例，极少饮用者为 330 例；主观认知下降报告比例分别为 7.8% 与 9.5%。关联在每天 2 至 3 杯时最强，且不受遗传风险影响；茶每天 1 至 2 杯亦有关联，无咖啡因咖啡未见同样效果。",
+     "summary_en": "A US study with follow-up up to 43 years found annual dementia incidence of 141 per 100,000 among heavier caffeinated-coffee drinkers versus 330 among those who rarely drank it; subjective cognitive decline was reported by 7.8% versus 9.5%. The link peaked at two to three cups daily regardless of genetic risk, held for one to two cups of tea, and was absent for decaf."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "《自然·衰老》：矿物质补充剂硫酸氧钒被筛出衰老细胞清除活性",
+     "title_en": "Nature Aging: Mineral supplement vanadyl sulfate emerges as a senolytic",
+     "url": "https://www.ebiotrade.com/newsf/2026-11/20261107000600886.htm",
+     "source_zh": "生物通 / Nature Aging",
+     "source_en": "BioTread / Nature Aging",
+     "date": "2026-11-07",
+     "summary_zh": "团队用扩展的「血液营养物质库」筛出硫酸氧钒，可选择性杀死衰老细胞。老年小鼠饮水给药（0.15 毫克/毫升）后中位寿命由 886.5 天延至 952 天，握力与糖耐量改善，脂肪堆积与肝肾纤维化减轻，停药后获益仍存。机制是衰老细胞谷胱甘肽还原酶下调、GSSG 蓄积，使其对钒介导的半胱氨酸氧化更敏感。",
+     "summary_en": "Screening an expanded blood-nutrient library identified vanadyl sulfate as a compound that selectively kills senescent cells. Old mice given it in drinking water at 0.15 milligrams per millilitre saw median survival rise from 886.5 to 952 days, with better grip endurance and glucose tolerance, less fat, liver and kidney fibrosis, and benefits persisting after withdrawal."
+    },
+    {
+     "title_zh": "海洋保健食品新政落地：鱼油、螺旋藻等 10 种原料已进备案目录",
+     "title_en": "New policy for marine health foods: fish oil and spirulina among 10 filed ingredients",
+     "url": "https://news.qq.com/rain/a/20261107A0C4ND00",
+     "source_zh": "人民日报海外版 / 腾讯新闻",
+     "source_en": "People's Daily Overseas Edition / Tencent News",
+     "date": "2026-11-07",
+     "summary_zh": "市场监管总局推进保健食品原料目录建设，鱼油、螺旋藻等 10 种功能性原料已纳入备案管理，企业合规成本下降、上市周期缩短。新政围绕抗氧化、改善记忆、缓解体力疲劳等需求支持新功能研发，并推动山东、福建、广东、浙江、辽宁形成沿海产业集群，但精加工能力与专用标准仍是短板。",
+     "summary_en": "China's market regulator is expanding the health-food ingredient catalogue, with fish oil, spirulina and eight other functional ingredients now under filing rules, cutting compliance costs and time to market. The policy backs new functions such as antioxidant, memory and fatigue claims and clusters along five coastal provinces, though refining capacity and dedicated standards remain weak."
+    },
+    {
+     "title_zh": "好健康牡蛎精检出污染物被海关点名，跨境补剂功效宣传责任待厘清",
+     "title_en": "Good Health oyster extract flagged by customs over contaminants, as cross-border claim liability stays murky",
+     "url": "https://www.163.com/dy/article/LB3I47DO0550U0A7.html",
+     "source_zh": "网易 / 消费者报道",
+     "source_en": "NetEase / Consumer Report",
+     "date": "2026-11-07",
+     "summary_zh": "新西兰品牌好健康（现由中资控股）的牡蛎精被检出污染物，海关点名、部分渠道可退款，但仍有商家以「补肾、促睾酮」宣传。报道指出我国《食品安全法》并无「膳食补充剂」法定类别，跨境商品虽享通关豁免，境内营销仍受《广告法》约束；10 月公布的修法征求意见稿拟强化跨境电商境内责任主体。",
+     "summary_en": "Oyster extract from New Zealand brand Good Health, now Chinese-controlled, was found to contain contaminants and flagged by customs, with refunds offered on some channels while sellers still market it for kidney and testosterone benefits. The report notes Chinese food law has no supplement category and that cross-border goods still fall under advertising rules."
+    },
+    {
+     "title_zh": "市场监管总局出台两项补充检验方法，锁定减肥食品里的「新变种」",
+     "title_en": "Regulator issues two testing methods to catch new variants in slimming foods",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34426151",
+     "source_zh": "澎湃新闻 / 市场监管总局",
+     "source_en": "The Paper / State Administration for Market Regulation",
+     "date": "2026-11-07",
+     "summary_zh": "针对酚丁（酚汀）类与比沙可啶类物质的新型衍生物，市场监管总局发布两项食品补充检验方法。两类物质具刺激性致泻作用，长期摄入可致腹痛、腹泻、电解质紊乱与肝肾损伤；不法分子通过合成衍生物将其加入果冻、蜜饯、糖果、饮料并虚假宣称功效，新方法可识别多种衍生物，为执法与定罪量刑提供技术支撑。",
+     "summary_en": "China's market regulator released two supplementary food testing methods targeting new derivatives of phenolphthalein-type and bisacodyl-type compounds. Both are irritant laxatives linked to abdominal pain, diarrhoea, electrolyte imbalance and liver or kidney damage; offenders add derivatives to jellies, preserves, candies and drinks with false claims, and the methods identify multiple variants."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "进博会拼起慢病全周期拼图：从社区「卒中小屋」到「15 分钟健康服务圈」",
+     "title_en": "CIIE assembles the chronic-disease loop, from community stroke cabins to 15-minute care",
+     "url": "https://news.qq.com/rain/a/20261107A0EDRI00",
+     "source_zh": "东方网 / 腾讯新闻",
+     "source_en": "Eastday / Tencent News",
+     "date": "2026-11-07",
+     "summary_zh": "勃林格殷格翰启动上海脑卒中防治浦东医联体试点，联动东方医院医联体 15 家社区建「卒中小屋」，把科普筛查、风险识别、双向转诊与随访做成一体化下沉；辉瑞体重管理中心论坛发起高质量发展倡议，主张评价跳出体重数字；欧加隆与美团医药健康共建「家门口健康管理」，打通院外随访。",
+     "summary_en": "Boehringer Ingelheim launched a Pudong pilot linking 15 community centres in the Dongfang Hospital network through stroke cabins that bundle screening, risk triage, two-way referral and follow-up. Pfizer's weight-management forum proposed judging centres beyond body weight, while Organon and Meituan built a neighbourhood chronic-care service loop."
+    },
+    {
+     "title_zh": "进博会健康科普转向全龄精细化：支扩、基层高血压、女性代谢各设专线",
+     "title_en": "CIIE health education turns age-specific: bronchiectasis, rural hypertension, women's metabolism",
+     "url": "https://news.qq.com/rain/a/20261108A00IM200",
+     "source_zh": "东方网 / 腾讯新闻",
+     "source_en": "Eastday / Tencent News",
+     "date": "2026-11-08",
+     "summary_zh": "第九届进博会上，多家机构把前沿理念拆成可落地的科普项目：勃林格殷格翰联合瑞金医院瞿介明团队发起支气管扩张症关爱行动，针对「无症状即无需治疗」的误区；诺华提出「精准科普、按需滴灌」做基层高血压分层教育；辉瑞中国与京东健康启动《中国女性代谢健康白皮书》项目。",
+     "summary_en": "At the ninth CIIE, companies turned frontier concepts into workable education. Boehringer Ingelheim and Ruijin Hospital's Qu Jieming launched a bronchiectasis campaign aimed at the belief that no symptoms means no treatment; Novartis proposed tiered hypertension education for primary care; Pfizer and JD Health began a white paper on Chinese women's metabolic health."
+    },
+    {
+     "title_zh": "从指尖到舌尖：进博会上的血糖管理正被拆成设备、食物与数据三段",
+     "title_en": "From fingertip to plate: CIIE splits glucose management into devices, food and data",
+     "url": "https://news.qq.com/rain/a/20261107A0772V00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-07",
+     "summary_zh": "一款中国首展的混合闭环胰岛素输注系统把持续葡萄糖监测、胰岛素泵与算法结合，每 5 分钟自动调整基础输注并在需要时追加校正剂量。食品端低 GI 主食集中亮相；更关键的转向是精准营养的「先检测、再匹配、动态闭环」——用代谢、菌群、基因、血糖与血液标志物反推个体方案。",
+     "summary_en": "A hybrid closed-loop insulin delivery system making its China debut combines continuous glucose monitoring, a pump and an algorithm that adjusts basal insulin every five minutes and adds correction doses as needed. Low-glycaemic staples also featured, alongside a shift to test-first, match-then-loop precision nutrition built on metabolic, microbiome and biomarker data."
+    },
+    {
+     "title_zh": "脂肪肝认知率 94.7%、及时就医仅 49.5%：诺和诺德报告点出「知而行难」",
+     "title_en": "Fatty liver awareness at 94.7% but timely care only 49.5%, Novo Nordisk survey finds",
+     "url": "https://www.toutiao.com/article/7705281343101469194/",
+     "source_zh": "今日头条 / 东方网",
+     "source_en": "Toutiao / Eastday",
+     "date": "2026-11-07",
+     "summary_zh": "诺和诺德在进博会发布《中国公众脂肪肝认知与健康行动调研报告》：认知率达 94.7%，但发现异常后及时就医者仅 49.5%，近四成难以坚持健康干预。同期其口服司美格鲁肽完成进博首秀、中国上市申请已递交；代谢相关脂肪性肝炎适应症于今年 9 月在国内获批，成为唯一获批该适应症的 GLP-1 药物。",
+     "summary_en": "Novo Nordisk's CIIE survey found 94.7% awareness of fatty liver but only 49.5% seeking timely care after abnormal findings, with nearly 40% unable to sustain lifestyle change. Its oral semaglutide made its CIIE debut with a China filing submitted, and the MASH indication was approved in September, the only GLP-1 cleared for it locally."
+    }
+   ]
+  }
+ ]
+}
