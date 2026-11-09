@@ -98,11 +98,16 @@
   <div class="wrap">
     <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
     <div class="sec-head">
-      <div class="kicker">ARCHIVE · 共 20 期</div>
+      <div class="kicker">ARCHIVE · 共 21 期</div>
       <h1>GitHub AI 日报</h1>
       <p class="sec-sub">每天 10:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
     </div>
-    <div class="cards"><a class="card" href="/ai/2026-11-08/">
+    <div class="cards"><a class="card" href="/ai/2026-11-09/">
+      <div class="card-date">2026-11-09<span>周一</span></div>
+      <p class="card-sum">本期最清楚的一条主线是：AI 生成的产物正在被系统性地要求"自己证明自己站得住"，而这一次要求落实到了三个不同的层面——证据的适用条件、执行的可回放性、以及改动的可追溯性。 mTOR Atlas 要求每条结论带"测量条件"与"失效边界"，并…</p>
+      <ul class="card-picks"><li>open-mtor-atlas/atlas：一份把 mTOR 研究按"证据能承担什么结论"分级编目的数据库——400+ 篇原始研究每条都带来源、测量条件，以及它在哪里就不再成立</li><li>hherb/bmlib：把"这篇文献到底能不能信"做成一整套可编程的基础设施——撤稿状态四态判定、Cochrane 九域偏倚评估、PICO 每一段都必须有论文自己的引文支撑</li><li>ccch1mneyyy/dsh-Go：把 DeepSeek Harness 装进手机——本机跑得动，也能反过来遥控你的电脑，而且它在对话中途就允许你插话</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-11-08/">
       <div class="card-date">2026-11-08<span>周日</span></div>
       <p class="card-sum">本期最明显的一条主线是：约束正在从"提示词里的要求"下沉成"运行时里不可绕过的闸门"，而且闸门开始自带三样东西——阈值来源、判定理由、以及拒绝记录。 lights-out 的八道闸门每道只打印一行 GO/NO-GO 并注明阈值出处，assa…</p>
       <ul class="card-picks"><li>nicolaguglielmi/lights-out：把 AI 写代码这件事变成"暗灯工厂"——八道数值闸门逐 PR 放行、每张工单有自己的围栏、灰度异常自己回滚，而最后一步永远要一个人点头</li><li>Rul1an/assay：给"特权工具调用"造一份可离线重算的证据档案——它明确说"工具返回 success 只是提供方的断言，永远不是证明"，并把声明分成四档</li><li>rootstudioyaml/sprag：把"这次活该由哪个模型干"变成可复算的规则——同一批 12 个请求，账单从 6.68 美元降到 1.83 美元，而每条规则都有能打开的回放用例</li></ul>
