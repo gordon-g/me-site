@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-09",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月3日 — 11月9日（最近 7 天）",
+ "range_en": "Nov 3 – Nov 9, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "给益生菌披上「手性纳米铠甲」：一款活体药物同时逆转脂肪性肝炎与认知损伤",
+     "title_en": "Chiral nanozyme armor for a probiotic: one living drug reverses steatohepatitis and cognitive decline",
+     "url": "https://news.qq.com/rain/a/20261108A0C4MJ00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-08",
+     "summary_zh": "复旦大学附属中山医院尹豪豪、徐辉雄团队在《先进科学》报告，MASH 患者肠道中邓肯氏栖粪杆菌显著减少。团队用右手性金纳米酶包被该菌构建 F@D-Au，八周干预后小鼠肝脏脂肪变性、炎症与纤维化明显逆转，血脑屏障恢复、海马炎症减轻、空间记忆改善，粪便犬尿酸与血清亚油酸同步回升。",
+     "summary_en": "Researchers at Zhongshan Hospital, Fudan University report in Advanced Science that Faecalibacterium duncaniae is depleted in MASH patients. Coating the strain with right-handed chiral gold nanozymes produced F@D-Au; after eight weeks, mice showed reversed steatosis, inflammation and fibrosis, restored blood-brain barrier integrity, less hippocampal inflammation and better spatial memory, alongside rising fecal kynurenic acid and serum linoleic acid."
+    },
+    {
+     "title_zh": "甲氨蝶呤的肠菌代谢物并非废物：DAMPA 经叶酸受体缓解结肠炎",
+     "title_en": "A gut microbial metabolite of methotrexate is no waste: DAMPA eases colitis via the folate receptor",
+     "url": "https://news.qq.com/rain/a/20261108A0C3VL00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-08",
+     "summary_zh": "威斯康星大学团队在《细胞·宿主与微生物》发现，肠菌羧肽酶 G2 把甲氨蝶呤转化为 DAMPA。炎症性肠病患者与结肠炎小鼠该酶及 DAMPA 显著减少，盲肠 DAMPA 降约八成。DAMPA 以 2.07 纳摩尔结合叶酸受体α，激活 STAT3、促线粒体自噬；口服五十天粪便脂质运载蛋白-2 降六成。",
+     "summary_en": "A University of Wisconsin-Madison team reports in Cell Host and Microbe that bacterial carboxypeptidase G2 converts methotrexate into DAMPA. Both the enzyme and DAMPA fall sharply in IBD patients and colitic mice, with cecal DAMPA down about 80 percent. DAMPA binds folate receptor alpha at 2.07 nanomolar, activates STAT3 and drives mitophagy; 50 days of oral dosing cut fecal lipocalin-2 by roughly 60 percent."
+    },
+    {
+     "title_zh": "禁食 24 小时先「训练」肠道：AKK 菌产丙酸让干细胞备好修复程序",
+     "title_en": "A 24-hour fast pre-trains the gut: Akkermansia propionate primes stem cells for repair",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104084024.htm",
+     "source_zh": "ScienceDaily（得克萨斯大学 MD 安德森癌症中心）",
+     "source_en": "ScienceDaily / UT MD Anderson Cancer Center",
+     "date": "2026-11-08",
+     "summary_zh": "MD 安德森团队在《美国科学院院刊》报告，禁食 24 小时使小肠 Akkermansia muciniphila 增多，其产生的丙酸与禁食引起的代谢改变共同修饰组蛋白，让再生相关基因更容易被读取，携带修复程序的肠细胞随之增多；受辐射时这些细胞快速扩增重建肠上皮。去除该菌后保护消失，菌与禁食缺一不可。",
+     "summary_en": "In PNAS, MD Anderson researchers show that a 24-hour fast expands Akkermansia muciniphila in the small intestine. Its propionate, together with fasting-induced metabolic shifts, modifies histones so regeneration genes become accessible, expanding a pool of repair-primed intestinal cells that rebuild the lining after radiation. Removing the bacterium abolished the benefit; both the microbe and the fast were required."
+    },
+    {
+     "title_zh": "幼年一次肠道感染，可能改写海马发育：D-乳酸经 MCT1 入脑",
+     "title_en": "One childhood gut infection may reshape the hippocampus via D-lactate",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34414466",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-08",
+     "summary_zh": "英属哥伦比亚大学 Finlay 团队在《脑、行为与免疫》发表小鼠研究：仅 3—4 周龄感染鼠柠檬酸杆菌（模拟致病性大肠杆菌）会造成持久的焦虑样行为与识别记忆缺陷，成年期感染则无此效应。机制是肠道屏障受损后，菌源 D-乳酸经 MCT1 转运入脑并在海马蓄积，炎症环境下削弱成熟神经元、抑制神经发生。",
+     "summary_en": "A mouse study from Brett Finlay's lab at UBC in Brain, Behavior, and Immunity finds that Citrobacter rodentium infection at three to four weeks of age, but not in adulthood, causes lasting anxiety-like behavior and recognition memory deficits. After barrier damage, bacterial D-lactate crosses into the brain via MCT1 and accumulates in the hippocampus, where inflammation weakens mature neurons and suppresses neurogenesis."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "低剂量雷帕霉素四周，改善 APOE4 携带者的脑血流",
+     "title_en": "Four weeks of low-dose rapamycin improves brain blood flow in APOE4 carriers",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
+     "source_zh": "ScienceDaily（密苏里大学）",
+     "source_en": "ScienceDaily / University of Missouri",
+     "date": "2026-11-05",
+     "summary_zh": "密苏里大学 Ai-Ling Lin 团队在《脑血流与代谢杂志》发表单臂先导试验：45—65 岁健康成人每日服用低剂量雷帕霉素四周后，携带 APOE4 者脑血流改善，非携带者无变化，女性携带者获益最大。研究同时观察到代谢、炎症与菌群指标变化，但样本小、未设记忆终点，不能据此自行用药。",
+     "summary_en": "A single-arm pilot in the Journal of Cerebral Blood Flow and Metabolism from Ai-Ling Lin's group at Missouri gave healthy adults aged 45 to 65 a low daily dose of rapamycin for four weeks. Brain blood flow improved in APOE4 carriers but not in non-carriers, with the largest gains in women carriers. Metabolic, inflammatory and microbiome markers also shifted, but the sample was small and memory was not tested."
+    },
+    {
+     "title_zh": "不减少总热量、只降低蛋白比例，中年肥胖小鼠心脏「炎症衰老」减轻",
+     "title_en": "Cutting dietary protein, not calories, eases cardiac inflammaging in obese middle-aged mice",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41549510/",
+     "source_zh": "Aging Cell",
+     "source_en": "Aging Cell",
+     "date": "2026-11-07",
+     "summary_zh": "《衰老细胞》刊出小鼠研究：中年雄性肥胖小鼠经四个月膳食蛋白限制（总热量不变），心肌肥厚减轻、心衰标志物回归正常，cGAS-STING 通路受抑、线粒体 DNA 释放减少，AMPK-ULK1 依赖的线粒体自噬增强、ATP 维持。效应不依赖 FGF21，提示蛋白质量而非热量可能是心脏炎症衰老的抓手。",
+     "summary_en": "In Aging Cell, four months of dietary protein restriction without cutting calories reduced cardiac hypertrophy and normalized heart failure markers in middle-aged obese male mice. The cGAS-STING pathway was suppressed, mitochondrial DNA release fell, and AMPK-ULK1-dependent mitophagy rose while ATP was maintained. The effect was independent of FGF21, hinting that protein quantity, not calories, matters here."
+    },
+    {
+     "title_zh": "进博会抗衰新动作：赫力昂联合暨南大学筛选天然活性成分，启动关节抗衰随机对照试验",
+     "title_en": "At CIIE, Haleon and Jinan University screen natural compounds and launch a joint joint-aging RCT",
+     "url": "https://www.163.com/dy/article/LB87OLH005129QAF.html",
+     "source_zh": "南方都市报（网易号）",
+     "source_en": "Southern Metropolis Daily via NetEase",
+     "date": "2026-11-08",
+     "summary_zh": "11 月 6 日进博会上，赫力昂举办「AI 赋能健康老龄化」专题活动。暨南大学附属第一医院张还添指出，骨与关节衰老受免疫、代谢、炎症共同驱动，其生物学年龄未必与实龄同步，并宣布启动天然活性成分关节抗衰随机对照试验；上海体育大学马海峰介绍以表面肌电结合 AI 评估肌肉功能，构建评估—干预—再评估闭环。",
+     "summary_en": "At a CIIE side event on November 6, Haleon gathered experts on AI-enabled healthy aging. Zhang Huantian of the First Affiliated Hospital of Jinan University argued that bone and joint aging is driven jointly by immunity, metabolism and inflammation, so biological age may diverge from chronological age, and announced an RCT of natural anti-aging compounds for joints. Ma Haifeng of Shanghai University of Sport described AI-assisted surface EMG for muscle assessment."
+    },
+    {
+     "title_zh": "北大国际医院建「健康长寿整合医学中心」：把功能医学与临床营养前置到衰老预警",
+     "title_en": "Peking University International Hospital opens an integrative longevity center",
+     "url": "https://www.163.com/dy/article/LB7SFAM20514M4NQ.html",
+     "source_zh": "网易号（北京大学国际医院）",
+     "source_en": "NetEase Hao / Peking University International Hospital",
+     "date": "2026-11-08",
+     "summary_zh": "北京大学国际医院健康长寿整合医学中心以「1316」全生命周期体系落地，把防线前移到细胞与分子层面的早期衰老。采用 1+1+1+N 架构：一名全科医师统筹、一名健管师陪伴、一名营养师前置、N 位专科专家按需匹配，形成临床与健康管理双 MDT，并从临床、生活方式、功能医学、中医、科研、数字智能六维干预。",
+     "summary_en": "Peking University International Hospital has opened an integrative longevity center built on a 1316 lifecycle framework that pushes prevention to cellular and molecular signs of early aging. Its 1+1+1+N model pairs a general practitioner, a health manager and a dietitian with on-demand specialists, running dual MDTs and six intervention tracks spanning clinical care, lifestyle, functional medicine, Chinese medicine, research and digital tools."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "AASLD：216 例 MASLD 五种膳食干预对比，酪乳在肝脂与脂肪因子上改善最全面",
+     "title_en": "At AASLD, buttermilk led five dietary arms in cutting liver fat and adipokines in MASLD",
+     "url": "https://news.qq.com/rain/a/20261108A084NV00",
+     "source_zh": "腾讯新闻（中国医学论坛报）",
+     "source_en": "Tencent News / China Medical Tribune",
+     "date": "2026-11-08",
+     "summary_zh": "第 77 届美国肝病研究学会年会上，一项 216 例 MASLD 随机干预把患者分为酪乳、余甘子、姜黄、胡萝卜、生姜五组并设安慰剂，干预三个月。酪乳组肝受控衰减参数、转氨酶、甘油三酯与胆固醇降幅最全面，瘦素、抵抗素、内脂素、TNF-α 下降，脂联素与胃饥饿素上升，产短链脂肪酸菌增多。",
+     "summary_en": "At the 77th AASLD meeting, a 216-patient randomized trial assigned MASLD patients to buttermilk, amla, turmeric, carrot or ginger for three months against placebo. Buttermilk produced the broadest improvements in liver fat measured by CAP, transaminases, triglycerides and cholesterol, lowered leptin, resistin, visfatin and TNF-alpha, raised adiponectin and ghrelin, and increased short-chain fatty acid producers."
+    },
+    {
+     "title_zh": "活性叶酸从孕产走向健康老龄化：乐斯福诺斯发布 Quatrefolic 证据汇编",
+     "title_en": "Active folate moves beyond pregnancy: Gnosis by Lesaffre compiles Quatrefolic evidence",
+     "url": "https://news.hexun.com/2026-11-08/225242896.html",
+     "source_zh": "和讯网",
+     "source_en": "Hexun",
+     "date": "2026-11-08",
+     "summary_zh": "11 月 8 日进博会乐斯福「健康主题日」，乐斯福诺斯发布《科学研究成果汇编：活性叶酸的健康益处》，梳理 Quatrefolic 在孕产、更年期、心血管、情绪与认知、健康老龄化等领域的证据，并与分阶营养品牌英珞维签约。现场称，因 MTHFR 多态性，中国约 78.4% 人群存在叶酸代谢相关基因风险。",
+     "summary_en": "At the CIIE health day on November 8, Gnosis by Lesaffre released a scientific compendium on the health benefits of active folate, reviewing evidence for Quatrefolic across pregnancy, fertility, menopause, cardiovascular health, mood and cognition, and healthy aging, and signed a partnership with staged-nutrition brand Innovo. Data cited at the event put the share of Chinese people with MTHFR-related folate metabolism risk at about 78.4 percent."
+    },
+    {
+     "title_zh": "第十三届国际食品科学技术大会：AI 精准营养与功能食品智能制造成为主线",
+     "title_en": "Food science congress puts AI-driven precision nutrition at the center",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34433655",
+     "source_zh": "澎湃新闻（江南大学食品学院）",
+     "source_en": "The Paper / Jiangnan University",
+     "date": "2026-11-08",
+     "summary_zh": "11 月 7—8 日，江南大学主办的第十三届国际食品科学技术大会暨食品交叉科学前沿论坛举行，同期庆祝《AI in Food》创刊。谢明勇作《AI 赋能精准营养与功能食品智能制造》报告，Paul Ross 谈肠道菌群与人类健康，Maria Marco 谈发酵食品与肠道健康，另设九场分论坛。",
+     "summary_en": "Jiangnan University hosted the 13th International Food Science and Technology Conference and the 2026 food interdisciplinary forum on November 7 and 8, marking the launch of the journal AI in Food. Xie Mingyong spoke on AI-enabled precision nutrition and smart manufacturing of functional foods, Paul Ross on gut microbiome modulation, and Maria Marco on fermented foods, with nine parallel sessions."
+    },
+    {
+     "title_zh": "北京平谷区医院设中西医肿瘤营养示范病房，把营养诊疗与中医技术一起下沉基层",
+     "title_en": "Beijing Pinggu Hospital opens an integrated oncology-nutrition demonstration ward",
+     "url": "https://news.qq.com/rain/a/20261108A07FCD00",
+     "source_zh": "北京日报客户端（腾讯新闻）",
+     "source_en": "Beijing Daily via Tencent News",
+     "date": "2026-11-08",
+     "summary_zh": "北京市平谷区医院设立中西医肿瘤营养防治技术应用示范病房，针对肿瘤营养不良这一常见却易被忽视的并发症，提供中西医协同诊疗。病房依托北京中西医防治技术创新联盟肿瘤营养专业委员会，建立专家帮扶机制，定期开展专家门诊、联合查房、病例讨论与人才带教，填补基层该领域规范化建设的空白。",
+     "summary_en": "Pinggu District Hospital in Beijing has opened a demonstration ward for integrated Chinese and Western oncology nutrition, targeting cancer malnutrition, a common but often overlooked complication that undermines chemotherapy tolerance and recovery. Backed by the oncology nutrition committee of a Beijing clinical innovation alliance, the ward runs regular specialist clinics, joint rounds, case reviews and training to fill a gap in primary-level standards."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "2400 亿保健食品市场规则重置：功效、原料、工艺同步收紧",
+     "title_en": "China's supplement market resets rules on claims, ingredients and processes",
+     "url": "https://www.163.com/dy/article/LB776BBD0519D4UH.html",
+     "source_zh": "和讯网（网易号）",
+     "source_en": "Hexun via NetEase",
+     "date": "2026-11-08",
+     "summary_zh": "新版《保健食品良好生产规范》GB 17405—2025 已于 9 月 2 日实施，为 1998 年来首次全面改写，要求健康表述与备案内容一致、不得擅自改配方工艺。文章并梳理世卫组织 7 月版降痴呆风险指南不推荐无缺乏者补 B 族、维 E、omega-3，以及 FDA 讨论精准发酵原料算不算膳食成分。",
+     "summary_en": "China's revised Good Manufacturing Practice for health foods, GB 17405-2025, took effect on September 2, the first full rewrite since 1998. It mandates end-to-end traceability, requires all health statements to match registered or filed claims exactly, and bars unapproved changes to formulas or processes. The piece also reviews WHO guidance against vitamin B, E, omega-3 and multivitamins for dementia prevention in people without deficiency."
+    },
+    {
+     "title_zh": "老年维 D 管理指南 2026 版：以 20 ng/mL 为界，反对无差别筛查与大剂量冲击",
+     "title_en": "2026 vitamin D guideline for older adults sets 20 ng/mL cutoff and warns against bolus dosing",
+     "url": "https://www.sohu.com/a/1098869670_121118849",
+     "source_zh": "搜狐健康",
+     "source_en": "Sohu Health",
+     "date": "2026-11-08",
+     "summary_zh": "《中华老年医学杂志》发布老年人维生素 D 缺乏管理指南（2026 版），就 11 个临床问题给出建议：25(OH)D 低于 20 ng/mL 为缺乏，10—12 ng/mL 为严重缺乏；不建议对老年人无差别筛查，应先做个体化风险评估；单次 6 万 IU 以上冲击补充不能防跌倒骨折，反而升高风险。",
+     "summary_en": "The Chinese Journal of Geriatrics has published the 2026 guideline on vitamin D deficiency in older adults, addressing 11 clinical questions. A serum 25(OH)D below 20 ng/mL is defined as deficiency, with 10 to 12 ng/mL marking severe deficiency. Universal screening is not advised; risk assessment should come first. Single bolus doses above 60,000 IU do not prevent falls or fractures and may raise fall risk."
+    },
+    {
+     "title_zh": "美国中期选举后，补剂行业准备迎接「强制产品备案」这道坎",
+     "title_en": "After the US midterms, supplement trade groups brace for mandatory product listing",
+     "url": "https://www.nutraingredients.com/Article/2026/11/06/supplement-groups-seek-bipartisan-progress-after-midterms/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-06",
+     "summary_zh": "民主党在本轮中期选举中拿下参众两院，美国膳食补充剂行业协会开始适应新的立法格局。报道指出，尽管各方普遍呼吁两党合作，强制产品备案仍是最可能引发争议的议题；行业需要在熟悉的监管战场上重新排兵布阵，把原料合规、标签与零售渠道诉求重新打包推进。",
+     "summary_en": "With Democrats winning both chambers in this year's midterms, US dietary supplement trade associations are adjusting to a new legislative landscape. The report says that despite broad calls for bipartisan cooperation, mandatory product listing remains the most likely flashpoint, forcing the industry to regroup on familiar regulatory battlegrounds and repackage ingredient, labeling and retail priorities."
+    },
+    {
+     "title_zh": "《糖尿病患者骨骼健康蓝皮书》发布：骨折风险约两倍，提出「钙 D 镁」复配",
+     "title_en": "Diabetes bone health blue book flags doubled fracture risk and backs calcium, vitamin D and magnesium",
+     "url": "https://biz.ifeng.com/c/8xssBaaWnnY",
+     "source_zh": "凤凰网",
+     "source_en": "iFeng",
+     "date": "2026-11-08",
+     "summary_zh": "11 月 7 日进博会上，人民日报健康客户端与赫力昂联合发布的《糖尿病患者骨骼健康蓝皮书》。我国糖尿病人 2.33 亿，合并骨质疏松比例 37.8%，骨折风险为非糖尿病人群 2 倍，髋部高 77%。蓝皮书提出「糖骨共管」：每日钙 1200 毫克、维生素 D 800 IU，并强调镁参与维 D 活化。",
+     "summary_en": "Released at the CIIE on November 7 by People's Daily Health with expert backing and Haleon support, the blue book reports 233 million diabetes patients in China, 37.8 percent of whom also have osteoporosis. Fracture risk is twice that of non-diabetics and hip fracture risk 77 percent higher. It proposes joint glucose-bone management with 1,200 mg calcium and 800 IU vitamin D daily, noting magnesium is needed to activate vitamin D."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "上海健康积分制已覆盖 131.4 万人次：冲着奖品来，把习惯留下",
+     "title_en": "Shanghai's health points scheme reaches 1.31 million participants",
+     "url": "https://www.sh.chinanews.com.cn/yljk/2026-11-08/150917.shtml",
+     "source_zh": "中国新闻网上海",
+     "source_en": "China News Service Shanghai",
+     "date": "2026-11-08",
+     "summary_zh": "市卫健委健康促进处处长王彤介绍，健康积分制参与已达 131.4 万人次，其中健康科普学习 83.15 万、体重管理 11.99 万、自检自测与慢性病管理 17.62 万，新增家庭医生签约续约 1.49 万。上海还推出互联网健康科普负面清单九条红线，收录账号近万个，评估四季度启动、覆盖 16 个区。",
+     "summary_en": "Wang Tong of the Shanghai Health Commission said the city's health points scheme has drawn 1.314 million participants: 831,500 for health literacy courses, 119,900 for weight management and 176,200 for self-testing and chronic disease management, plus 14,900 new or renewed family doctor contracts. Shanghai also issued nine red lines for online health content, covering nearly 10,000 accounts, with evaluations starting across all 16 districts this quarter."
+    },
+    {
+     "title_zh": "河北慢病管理下沉：县域医共体试点扩至 40 个，基层规范化管理中心建成 112 个",
+     "title_en": "Hebei expands county chronic disease pilots to 40 and builds 112 primary care centers",
+     "url": "https://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202611/08/c4c0bf7b-679f-4adb-995d-38132173eaa9.html",
+     "source_zh": "河北省人民政府",
+     "source_en": "Hebei Provincial Government",
+     "date": "2026-11-08",
+     "summary_zh": "河北把县域医共体慢性病管理能力提升省级试点扩大到 40 个，建成基层慢病规范化健康管理中心 112 个。目标到 2030 年底，以县为单位高血压、2 型糖尿病、慢阻肺基层规范管理服务率稳定在 70% 以上。路径包括高危人群早筛、家庭医生签约分类分级管理、多病共管、中医药服务与信息平台互通。",
+     "summary_en": "Hebei has expanded its provincial pilot for chronic disease capacity in county medical communities to 40 and built 112 standardized primary-level chronic disease centers. By the end of 2030 it aims for coverage of standardized management above 70 percent for hypertension, type 2 diabetes and COPD in every county. The approach spans early screening, tiered family doctor contracts, multi-disease co-management, Chinese medicine and shared information platforms."
+    },
+    {
+     "title_zh": "诺和诺德把体重管理搬进药店：「轻盈驿站」升级并组建零售生态联盟",
+     "title_en": "Novo Nordisk upgrades its pharmacy weight-management hubs and forms a retail alliance",
+     "url": "https://www.prnasia.com/story/555310-1.shtml",
+     "source_zh": "美通社",
+     "source_en": "PR Newswire",
+     "date": "2026-11-08",
+     "summary_zh": "进博会期间，诺和诺德宣布升级零售药店「轻盈驿站」体重代谢健康管理体验空间，并与零售伙伴启动生态联盟合作。中国约 1.8 亿成年人患肥胖症，肥胖与 200 多种疾病相关。此举呼应九部门《关于促进药品零售行业高质量发展的意见》，推动药店从药品柜台转向健康驿站，衔接院内诊疗与居家管理。",
+     "summary_en": "At the CIIE, Novo Nordisk announced an upgrade of its pharmacy-based weight and metabolic health hubs and launched a retail ecosystem alliance with partners. About 180 million Chinese adults have obesity, which is linked to more than 200 diseases. The move follows a nine-department policy pushing pharmacies to evolve from drug counters into health stations that bridge hospital care and home management."
+    },
+    {
+     "title_zh": "河南把「健康优先」写进党代会报告：预防为主、均衡普惠、优质高效三条线",
+     "title_en": "Henan writes health-in-all-policies into its party congress report",
+     "url": "https://www.henan.gov.cn/2026/11-08/3445444.html",
+     "source_zh": "河南省人民政府",
+     "source_en": "Henan Provincial Government",
+     "date": "2026-11-08",
+     "summary_zh": "河南省第十二次党代会报告把「实施健康优先发展战略」列为健康河南建设的重要任务，提出把健康融入所有政策。解读给出三条线：预防为主，常态化开展健康体重管理与三高共管、多病同防；均衡普惠，推进县域医共体与家庭医生签约；优质高效，依托 12 个国家区域医疗中心与三级专科联动网络理顺分级诊疗。",
+     "summary_en": "The report to Henan's 12th party congress makes a health-first development strategy a core task for building a healthy province, embedding health in all policies. Commentary highlights three tracks: prevention, with routine weight management and joint control of the three highs; equitable access, through county medical communities and family doctor contracts; and quality, anchored by 12 national regional medical centers and tiered specialty networks."
+    }
+   ]
+  }
+ ]
+}
