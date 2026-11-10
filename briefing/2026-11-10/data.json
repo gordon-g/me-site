@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-10",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月4日 — 11月10日（最近 7 天）",
+ "range_en": "Nov 4 – Nov 10, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《免疫》：肠道 Tfh 细胞先「变老」，IgA 失守让耗牛磺酸的菌扩张并推动肥胖",
+     "title_en": "Immunity: prematurely aged gut Tfh cells weaken IgA surveillance, letting taurine-consuming bacteria drive obesity",
+     "url": "https://news.qq.com/rain/a/20261109A0B10K00",
+     "source_zh": "腾讯新闻（Cell Press 论文速递）",
+     "source_en": "Tencent News (Cell Press paper digest)",
+     "date": "2026-11-09",
+     "summary_zh": "上海交大团队在《Immunity》补全因果链：肠道 Tfh 细胞靠 VEGF-B–VEGFR-1–AKT 轴压制 p53 衰老，AKT 一下降，IgA 监视失守，Taurinivorans 扩增耗竭牛磺酸，削弱脂肪产热。高脂饮食一周即现 Tfh 障碍，24 名肥胖者该菌更丰、牛磺酸更低。",
+     "summary_en": "A Shanghai Jiao Tong University team maps a causal chain in Immunity: gut Tfh cells rely on VEGF-B–VEGFR-1–AKT signalling to keep p53-driven senescence in check. When AKT activity falls and p21/p16 rise, IgA surveillance fails, Taurinivorans expands and depletes taurine, blunting fat lipolysis and thermogenesis. Tfh dysfunction appeared after just one week of high-fat feeding, and 24 obese participants carried more of the bacterium with lower IgA and taurine."
+    },
+    {
+     "title_zh": "膳食纤维不够时，肠菌会转吃你的肠黏液；植物「类纤维蛋白」能把产物拉回有益一侧",
+     "title_en": "When fiber runs short, gut bacteria start eating the mucus lining — plant proteins that imitate fiber pull the output back",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105083622.htm",
+     "source_zh": "ScienceDaily（路德维希癌症研究所）",
+     "source_en": "ScienceDaily (Ludwig Institute for Cancer Research)",
+     "date": "2026-11-09",
+     "summary_zh": "普林斯顿团队在《PNAS》用同位素标记追踪发现，纤维不足时肠菌转而分解宿主肠黏液层蛋白，产生与肾病和癌症不良预后相关的对甲酚硫酸盐；植物中难消化的「类纤维蛋白」Prif 与纤维协同，把产物转向苯丙氨酸来源的有益酚类。配套研究还发现人体细胞能自行合成多种吲哚代谢物。",
+     "summary_en": "Using stable-isotope tracing in mice, the Princeton team led by Joshua Rabinowitz shows in PNAS that when fiber is scarce, gut bacteria turn to host proteins in the intestinal mucus layer, generating phenols such as p-cresol sulfate linked to worse kidney disease and cancer outcomes. Indigestible plant proteins, dubbed Prif, work with fiber to shift output toward beneficial phenylalanine-derived phenols. A companion Nature Metabolism paper finds mammalian cells themselves make several indoles once attributed solely to microbes."
+    },
+    {
+     "title_zh": "多囊卵巢的脂毒性衰老闭环：CD36 让线粒体 DNA 漏出，NMN 在模型中恢复排卵",
+     "title_en": "A lipotoxic senescence loop in PCOS: CD36 lets mitochondrial DNA leak, and NMN restores ovulation in models",
+     "url": "https://cmbl.biomedcentral.com/articles/10.1186/s11658-026-01008-5",
+     "source_zh": "Cellular & Molecular Biology Letters",
+     "source_en": "Cellular & Molecular Biology Letters",
+     "date": "2026-11-09",
+     "summary_zh": "《细胞与分子生物学快报》对比 35 例多囊患者与 35 例对照，发现颗粒细胞脂质堆积经 CD36 促线粒体 DNA 漏出，激活 cGAS-STING 释放 SASP，造成卵泡停滞；阻断该轴可逆转。患者颗粒细胞 NAD⁺ 耗竭，NMN 在模型小鼠中恢复排卵、减少囊性卵泡。",
+     "summary_en": "A study in Cellular & Molecular Biology Letters compared granulosa cells from 35 women with PCOS and 35 matched controls. Lipid overload drove mitochondrial DNA release via CD36, activating cGAS-STING and SASP secretion that arrested follicles; blocking CD36, PPARγ, FABP3 or STING reversed the changes. NAD+ was depleted in patient cells, and NMN restored ovulation and cut cystic follicles in letrozole plus high-fat-fed mice."
+    },
+    {
+     "title_zh": "Probio-M9 减少结肠 p16⁺ 衰老细胞，经「菌群—代谢—细胞衰老」轴缓解结肠炎",
+     "title_en": "Probio-M9 reduces colonic p16+ senescent cells and eases colitis along a microbiota-metabolism-senescence axis",
+     "url": "https://bio149.imau.edu.cn/info/1009/16722.htm",
+     "source_zh": "中国益生菌网",
+     "source_en": "China Probiotics Network",
+     "date": "2026-11-09",
+     "summary_zh": "中国团队以 p16Ink4a 报告小鼠结合 DSS 结肠炎模型发现，每日 1×10⁹ CFU 鼠李糖乳酪杆菌 Probio-M9 可减少结肠 p16⁺ 衰老细胞，降低 MCP-1、IP-10 等 SASP 因子与巨噬细胞浸润，抑制 STAT3 磷酸化、促进上皮再生，菌群与色氨酸代谢通路同步改变。",
+     "summary_en": "Using p16Ink4a reporter mice with DSS-induced colitis, a Chinese team found that 1×10⁹ CFU per day of Lacticaseibacillus rhamnosus Probio-M9 reduced colonic p16+ senescent cells across endothelial, smooth muscle, fibroblast and interstitial populations, lowered SASP factors such as MCP-1 and IP-10 and cut macrophage infiltration. It also suppressed STAT3 phosphorylation and promoted epithelial repair, with parallel shifts in microbiota and tryptophan, phospholipid and arginine pathways."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《自然·衰老》：脂质酰基链变长是跨物种衰老标志，饮食限制能整体逆转",
+     "title_en": "Nature Aging: longer lipid acyl chains mark aging across species, and dietary restriction reverses the shift",
+     "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyexvn9504121.shtml",
+     "source_zh": "新浪财经（医诺维）",
+     "source_en": "Sina Finance (Yinuowei)",
+     "date": "2026-11-10",
+     "summary_zh": "阿姆斯特丹大学团队在《Nature Aging》分析小鼠 10 种组织及线虫、果蝇与人类样本，发现脂质酰基链随年龄延长、短中链耗竭，是跨物种衰老标志；雷帕霉素与短期运动只改变部分脂质，饮食限制可在年轻与老年小鼠心脏全面逆转。肌肉 Plb1 表达与寿命负相关，敲低线虫同源基因可延寿。",
+     "summary_en": "Analysing ten mouse tissues plus nematode, fruit-fly and human samples, an Amsterdam UMC team reports in Nature Aging that lipid acyl chains lengthen and short- and medium-chain species are depleted with age — a conserved aging signature. Rapamycin and short-term exercise altered only subsets of lipids, while dietary restriction broadly reversed the shift in young and old mouse hearts. Muscle Plb1 expression correlated negatively with lifespan, and knocking down its worm orthologue extended life."
+    },
+    {
+     "title_zh": "第七届时光派长寿论坛要点：生物年龄时钟仍在打架，长寿服务已走进医院",
+     "title_en": "Seventh TimePie Longevity Forum: biological clocks still disagree, while longevity services move into hospitals",
+     "url": "https://liveforeversociety.org/article/key-takeaways-from-the-7th-timepie-longevity-forum",
+     "source_zh": "Live Forever Society",
+     "source_en": "Live Forever Society",
+     "date": "2026-11-09",
+     "summary_zh": "第七届时光派长寿论坛 9 月在上海举行、约 3000 人参与，主办方 11 月 9 日发布要点：诺华 bimagrumab 增加瘦体重但功能改善有限，LNA043 的 IIb 期未达终点；Belsky 指出不同表观时钟结论不一；北京老年医院把营养与慢病管理整合为长寿服务，Obio 计划自建门诊。",
+     "summary_en": "Held in Shanghai in September with about 3,000 participants, the 7th TimePie Longevity Forum published its takeaways on Nov 9: Novartis's bimagrumab raised lean mass with only modest functional gains and LNA043 missed its phase IIb primary endpoint; Daniel Belsky noted epigenetic clocks disagree, with DunedinPACE detecting slower aging in CALERIE; Beijing Geriatric Hospital is bundling nutrition, chronic-disease care and multidisciplinary services into longevity care, and Obio plans its own clinic."
+    },
+    {
+     "title_zh": "雷帕霉素与人类寿命：肾移植队列未见生存获益，长寿门诊的低剂量用法仍缺证据",
+     "title_en": "Rapamycin and human lifespan: no survival benefit in a transplant cohort, leaving low-dose clinic use unproven",
+     "url": "https://aethermedicine.com/blog/rapamycin-human-survival-evidence",
+     "source_zh": "Aether Medicine（解读 GeroScience 论文）",
+     "source_en": "Aether Medicine (analysis of a GeroScience paper)",
+     "date": "2026-11-05",
+     "summary_zh": "《GeroScience》11 月 5 日在线发表的分析纳入肾移植后存活满一年的受者，未观察到雷帕霉素带来生存获益。作者强调这不等于否定健康人低剂量间歇使用，但现有小型试验只显示免疫与皮肤指标变化，尚无降低死亡或延长健康寿命的证据；血脂、血糖、血常规、肝酶与伤口愈合都需监测，剂量亦无共识。",
+     "summary_en": "An analysis published online in GeroScience on Nov 5 followed kidney transplant recipients who survived the first year and found no survival benefit from rapamycin. The authors stress this does not rule out low-dose intermittent use in healthy adults, but small trials show only immune and skin changes, with no evidence of lower mortality or longer healthspan. Lipids, glucose, blood counts, liver enzymes and wound healing need monitoring, and no dose is agreed."
+    },
+    {
+     "title_zh": "长寿诊所快速增加，菌群移植被摆上抗衰货架：专家给出五个选择维度",
+     "title_en": "As longevity clinics multiply, fecal microbiota transplant lands on the anti-aging shelf: an expert offers five selection criteria",
+     "url": "https://hainan.ifeng.com/c/8xuVQOuSEJM",
+     "source_zh": "凤凰网海南",
+     "source_en": "Phoenix News Hainan",
+     "date": "2026-11-09",
+     "summary_zh": "进博会期间，临床团队负责人孙叶华介绍国内长寿诊所快速增加下的菌群移植实践：用于减重与体重管理、高血压等慢病改善，以及延缓肌肉流失与内在能力下降。他提出选择机构的五个维度——供体溯源、宏基因报告解读、配型范围、移植方式与术后「养菌」，并强调资质是前提。",
+     "summary_en": "At the import expo, clinician Sun Yehua described how fecal microbiota transplantation is being used in China's fast-growing longevity clinics for weight and hypertension management and for slowing muscle loss and declines in intrinsic capacity, citing cases including a depressed school refuser and older patients with cognitive or mobility impairment. He listed five selection criteria — donor traceability, metagenomic report interpretation, matching range, delivery method and post-transplant microbiota support — with institutional accreditation as the prerequisite."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "肿瘤营养从院内做到居家：雅培携手上药云健康，围绕首款粉状肿瘤全营养特医食品建全病程管理",
+     "title_en": "Cancer nutrition moves from ward to home: Abbott and SPH Cloud Health build full-course support around China's first powdered oncology FSMP",
+     "url": "https://www.xinhuanet.com/digital/20261109/b343c2bf0b944fb0ae5e343d08720a10/c.html",
+     "source_zh": "新华网",
+     "source_en": "Xinhua Net",
+     "date": "2026-11-09",
+     "summary_zh": "进博会期间雅培携手上药云健康，围绕 7 月上市的国内首款粉状肿瘤全营养特医食品嘉安素，借益药药房网络与药师团队做患者教育、营养指导与随访，把营养支持从院内延伸到居家康复。数据显示恶性肿瘤住院患者营养不良发生率约 80%，接受同步放化疗者达 88%，院外阶段常出现指导缺位与产品获取不便。",
+     "summary_en": "At the import expo Abbott and SPH Cloud Health announced a partnership around JIAANSU, China's first approved powdered oncology whole-nutrition FSMP launched in July, using the Yiyao pharmacy network and pharmacists for patient education, nutrition guidance and follow-up so support continues into home recovery. Data cited show about 80% of hospitalised cancer patients are malnourished and 88% of those on concurrent chemoradiotherapy, with guidance and product access often breaking down after discharge."
+    },
+    {
+     "title_zh": "发酵食品会不会是亚洲 GLP-1 用户的下一站？联合利华前研发负责人给出判断",
+     "title_en": "Could fermented food be Asia's next GLP-1 opportunity? A former Unilever R&D lead weighs in",
+     "url": "https://www.nutraingredients.com/Article/2026/11/09/unilever-ex-rd-lead-says-fermented-food-could-be-the-next-big-thing-for-glp-1-users/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-09",
+     "summary_zh": "印度斯坦联合利华食品业务前研发总监 Rinka Banerjee 在新加坡亚太农食创新峰会上表示，亚洲企业可借本地发酵专长开发面向 GLP-1 用药者的营养产品。她说西方创新集中在高蛋白高纤维的「伴随食品」与分量控制，以及「纤维最大化」等趋势；亚洲多国已接受高蛋白，纤维与分量控制仍处早期。",
+     "summary_en": "Speaking at the Asia-Pacific Agri-Food Innovation Summit in Singapore, Rinka Banerjee, former R&D director of Hindustan Unilever's South Asia foods business, said Asian firms can draw on regional fermentation expertise to build nutrition products for GLP-1 users. Western innovation centres on protein- and fiber-rich companion foods and portion control, plus trends such as fibermaxxing and the proteinification of everything. Many Asian markets have embraced protein, but fiber and portion control remain early, with the region following rather than leading."
+    },
+    {
+     "title_zh": "甲基供体营养素吃得越好，衰弱风险越低：NHANES 13528 人显示低 33%",
+     "title_en": "Better methyl-donor nutrient intake tracks with 33% lower odds of frailty in 13,528 NHANES adults",
+     "url": "https://www.bioprecisionaging.com/post/a-glp-1-signal-for-aortic-aneurysm-methyl-donor-nutrients-and-frailty-a-dna-oxidation-curve-that-f",
+     "source_zh": "Bio Precision Aging",
+     "source_en": "Bio Precision Aging",
+     "date": "2026-11-09",
+     "summary_zh": "马里兰大学团队分析 NHANES 2005—2018 年 13528 名 40 岁以上成人，甲基供体营养素质量指数越高，衰弱风险低 33%，氧化应激可解释约 29% 的关联。甲基供体含叶酸、B12、B6、甜菜碱、胆碱与蛋氨酸。横断面设计无法判断因果，作者建议先吃够饮食质量，暂不据此买补充剂。",
+     "summary_en": "University of Maryland researchers analysed 13,528 adults aged 40 and older from NHANES 2005–2018 and found higher methyl-donor nutrient quality index scores associated with 33% lower odds of frailty (OR 0.67). Exploratory mediation suggested oxidative stress explained about 29% of the link. Methyl donors include folate, vitamins B12 and B6, betaine, choline and methionine. The cross-sectional design cannot establish direction, so the authors advise eating for nutrient quality rather than buying supplements on this evidence."
+    },
+    {
+     "title_zh": "脂肪肝纤维化不是单行道：153 例配对活检中四分之一改善，5% 减重是关键信号",
+     "title_en": "Liver fibrosis is not one-way: a quarter of 153 paired biopsies improved, with 5% weight loss the key signal",
+     "url": "https://doi.org/10.1007/s00535-026-02525-y",
+     "source_zh": "Journal of Gastroenterology",
+     "source_en": "Journal of Gastroenterology",
+     "date": "2026-11-09",
+     "summary_zh": "冈山大学团队对 153 例代谢相关脂肪性肝病患者做中位间隔 5.9 年的配对肝活检，均未用 GLP-1 药物：纤维化改善 25%、稳定 43%、进展 32%。体重下降 5% 以上、男性与基线纤维化较重分别与改善相关，因素叠加时几率更高。单中心观察性队列不能证明因果，但提示纤维化并非单向进展。",
+     "summary_en": "Okayama University researchers performed paired liver biopsies a median 5.9 years apart in 153 patients with MASLD, none on GLP-1 drugs: fibrosis improved in 25%, stayed stable in 43% and progressed in 32%. Weight loss of 5% or more, male sex and advanced baseline fibrosis were each linked to improvement, with higher odds when factors stacked. The single-centre observational cohort cannot prove that weight loss caused the reversal, but shows fibrosis is not a one-way street."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "维生素 B5 衍生物泛酰巯基乙胺：从胆固醇合成通路切入，抑制银屑病样炎症",
+     "title_en": "A vitamin B5 derivative, pantethine, curbs psoriasis-like inflammation through a cholesterol synthesis pathway",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261108233057.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-09",
+     "summary_zh": "《实验医学杂志》研究显示，维生素 B5 衍生物泛酰巯基乙胺通过干扰树突状细胞内与炎症信号相连的胆固醇合成，抑制其过度活化，在小鼠中阻止银屑病样病变；小型人体试验也见症状改善。作者强调样本小、无对照，不能替代获批疗法，仍需随机试验确认剂量与持久性。",
+     "summary_en": "Research in the Journal of Experimental Medicine shows that pantethine, a vitamin B5 derivative, calms overactive dendritic cells by interfering with a cholesterol-production process tied to inflammatory signalling, preventing psoriasis-like disease in mice. A small human trial also reported symptom improvement. The authors stress the sample was small and uncontrolled, that it cannot replace approved therapies, and that larger randomised trials are needed to establish dose and durability."
+    },
+    {
+     "title_zh": "草酰乙酸 8 周改善乳腺癌治疗后脑雾：18 人单臂试验，认知评分回到正常范围",
+     "title_en": "Eight weeks of oxaloacetate eases post-cancer brain fog: a single-arm trial of 18 put cognitive scores back in the normal range",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+     "source_zh": "ScienceDaily（加州大学洛杉矶分校）",
+     "source_en": "ScienceDaily (UCLA Health)",
+     "date": "2026-11-09",
+     "summary_zh": "UCLA 单臂 II 期试验纳入 18 名早期乳腺癌幸存者，每日两次 500 毫克草酰乙酸、8 周，16 人完成；主观认知障碍评分从 29.1 升至 55.5，回到正常范围，疲劳与执行功能亦改善。草酰乙酸参与细胞产能并调节谷氨酸。研究无对照组、样本小，常见胃肠不适，2 人停药，随机试验预计年底启动。",
+     "summary_en": "A single-arm phase II trial at UCLA enrolled 18 early-stage breast cancer survivors who took 500 mg of oxaloacetate twice daily for eight weeks, with 16 completing. Perceived cognitive impairment scores rose from 29.1 to 55.5, back into the normal range, and fatigue, executive function and processing speed also improved. Oxaloacetate supports cellular energy production and glutamate regulation. There was no control arm and the sample was small; gastrointestinal effects led two women to stop, and a randomised trial is expected to start late in 2026."
+    },
+    {
+     "title_zh": "热灭活 L-137 后生元 12 周：整体问卷无差异，肠屏障与炎症指标却降了",
+     "title_en": "Heat-killed L-137 postbiotic for 12 weeks: no overall questionnaire difference, but gut-barrier and inflammation markers fell",
+     "url": "https://www.nutraingredients.com/Article/2026/11/09/postbiotic-may-improve-symptoms-in-menopausal-women-with-high-stress-study-suggests/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-09",
+     "summary_zh": "日本一项随机双盲试验纳入 119 名 45—69 岁自评每日有压力的女性，每日 10 毫克热灭活植物乳杆菌 L-137 或安慰剂、12 周。整体问卷的情绪、更年期症状与睡眠评分无显著差异，但补充组 sCD14 与 LDH 下降、雌二醇升高；基线负性情绪较高者潮热与睡眠改善更明显。",
+     "summary_en": "A randomised, double-blind trial funded by Japan's House Wellness Foods gave 119 women aged 45–69 who reported daily stress either 10 mg of heat-killed Lactiplantibacillus plantarum L-137 or placebo for 12 weeks. Questionnaire scores for mood, menopausal symptoms and sleep did not differ significantly overall, but the supplement group saw significant falls in the gut-barrier marker sCD14 and inflammatory LDH plus higher estradiol; women with worse baseline mood showed greater improvements in hot flashes and sleep maintenance."
+    },
+    {
+     "title_zh": "澳洲拟把维生素 B6 警示门槛从 10 毫克降到 2 毫克，并新增神经损伤提示",
+     "title_en": "Australia proposes cutting the vitamin B6 warning threshold from 10 mg to 2 mg and adding a nerve-damage warning",
+     "url": "https://www.nutraingredients.com/Article/2026/11/09/vitamin-b6-in-australia-tga-consults-on-tightening-warning-statements/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-09",
+     "summary_zh": "澳洲 TGA 拟收紧维生素 B6 标签，11 月 25 日截止征求意见：须警示的剂量门槛从每日 10 毫克降至 2 毫克，影响约 505 个产品；新增「可能造成神经损伤」提示。不良反应库已收录 333 例周围神经病变报告。2027 年 6 月起 50—200 毫克产品转药师专柜。",
+     "summary_en": "Australia's TGA has opened consultation, closing Nov 25, on tighter vitamin B6 labelling: lowering the dose that triggers a warning from more than 10 mg to 2 mg per day, which would affect an estimated 505 products; adding a warning that B6 may cause nerve damage; and requiring a standardised statement on the main label stating the amount per dose and cautioning against stacking products. As of Sept 18 the adverse-event database held 333 peripheral neuropathy reports. From June 2027, 50–200 mg products become pharmacist-only."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "进博会观察：外资健康企业从卖单品转向「评估—干预—随访」的整合式管理",
+     "title_en": "Import expo watch: foreign health firms shift from selling products to integrated assessment-intervention-follow-up services",
+     "url": "https://www.chinadaily.com.cn/a/202611/10/WS6af26d4ee4b03ebf8519b6be.html",
+     "source_zh": "中国日报英文网",
+     "source_en": "China Daily",
+     "date": "2026-11-10",
+     "summary_zh": "《中国日报》报道第九届进博会：4142 家海外展商参展，2025 年中国营养保健产品进出口 128.9 亿美元、同比增 7.1%。赫力昂带来 70 余款产品与 7 项首发，含益生菌纤维品牌与骨肌自评工具；MitoQ 首发三款细胞健康新品并与以岭签约；辉瑞体重管理服务已覆盖 40 城 600 家药店。",
+     "summary_en": "China Daily reports on the ninth import expo: 4,142 overseas exhibitors, with China's nutrition and health product trade at US$12.89 billion in 2025, up 7.1%. Haleon brought more than 70 products and seven global or Asian debuts, including a prebiotic fiber brand and a digital bone-and-muscle self-assessment; New Zealand's MitoQ launched three cell-health products and signed with Yiling Medical Technology; Pfizer's weight-management service now spans 600 pharmacies in 40 cities. Analysts see a shift from single products to integrated health management."
+    },
+    {
+     "title_zh": "湖南汝城：慢病一站式门诊把认定、开方、报销、随访压进一次办理",
+     "title_en": "Rucheng, Hunan: a one-stop chronic disease clinic bundles certification, prescribing, reimbursement and follow-up into a single visit",
+     "url": "https://www.cnr.cn/hunan/zhxw/20261109/t20261109_527867390.shtml",
+     "source_zh": "央广网",
+     "source_en": "CNR",
+     "date": "2026-11-09",
+     "summary_zh": "湖南汝城作为全省首批高血压、糖尿病专案管理试点县，在基层设慢病一站式门诊，把全科诊疗、慢病认定、处方、医保审核、即时结算与公卫随访集中办理，打通诊疗与医保数据；全县组建 135 支家庭医生团队，实行红黄绿三色分级。AI 辅助诊疗与远程心电、检验、影像共享中心已覆盖乡镇。",
+     "summary_en": "Rucheng county, among Hunan's first pilots for managed hypertension and diabetes, has set up one-stop grassroots chronic disease clinics that handle general practice, disease certification, prescribing, insurance review, instant settlement, pharmacy services and public-health follow-up in one place, linking clinical and insurance data. The county formed 135 family doctor teams using red-yellow-green triage, with county hospitals taking severe cases and township and village units following stable patients. AI-assisted diagnosis and shared remote ECG, lab and imaging centres now cover its townships."
+    },
+    {
+     "title_zh": "海南白沙与临高：共享中药房与三级药品联购，把慢病用药送到村卫生室",
+     "title_en": "Baisha and Lingao in Hainan: a shared pharmacy and three-tier drug purchasing bring chronic disease medicines to village clinics",
+     "url": "https://m.gmw.cn/2026-11/09/content_1304584202.htm",
+     "source_zh": "光明网",
+     "source_en": "Guangming Online",
+     "date": "2026-11-09",
+     "summary_zh": "海南白沙建成全省首个县域医共体智能共享中药房，11 个乡镇 13 家卫生院统一审方、煎煮、配送；同步建成县乡慢病管理中心。临高梳理 57 种慢特病，25107 名高血压、13654 名糖尿病患者可在乡镇完成认定、开方与结算，并摸排出 676 人的送药需求，建立三级药品联购覆盖 169 个村卫生室。",
+     "summary_en": "Baisha county built Hainan's first county-wide smart shared pharmacy for traditional medicine, with 13 township hospitals across 11 townships handling unified prescription review, decoction and delivery so mountain residents wait at home for their medicine, alongside county-township chronic disease centres and integrated clinics. Lingao mapped 57 chronic special-disease categories, letting 25,107 hypertension and 13,654 diabetes patients be certified, prescribed and reimbursed at township level; screening 2,646 reimbursement records identified 676 people needing home delivery, supported by three-tier purchasing across 169 village clinics."
+    },
+    {
+     "title_zh": "2026 功能医学行业调研：场景分散、无绝对龙头，瓶颈在标准、人才与支付",
+     "title_en": "2026 functional medicine survey: fragmented settings, no dominant player, with standards, talent and payment as bottlenecks",
+     "url": "https://stock.10jqka.com.cn/20261109/c681619008.shtml",
+     "source_zh": "同花顺财经（中研普华报告）",
+     "source_en": "10jqka Finance (Zhongyan Puhua report)",
+     "date": "2026-11-09",
+     "summary_zh": "中研普华《2026—2030 年功能医学产业报告》指出，行业仍处早期向成长期过渡：服务经健康管理机构、体检中心、民营门诊、体重与营养中心落地，检测覆盖营养元素、肠道菌群、食物不耐受与氧化应激；瓶颈是标准化不足、人才稀缺、支付有限与效果验证不完善。报告判断主力市场为自费加商保。",
+     "summary_en": "A Zhongyan Puhua report on China's functional medicine industry for 2026–2030 finds the sector still transitioning from early to growth stage: services are delivered through health management firms, check-up centres, private clinics and weight and nutrition centres, with testing spanning nutrients, gut microbiota, food intolerance, hormones and oxidative stress. Bottlenecks are weak standardisation, scarce trained staff, limited payment mechanisms and immature outcome validation. The report sees self-pay plus commercial insurance as the main market, with AI interpretation and GLP-1 companion management as growth areas."
+    }
+   ]
+  }
+ ]
+}
