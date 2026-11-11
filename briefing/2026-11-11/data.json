@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-11",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月5日 — 11月11日（最近 7 天）",
+ "range_en": "Nov 5 – Nov 11, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "上海四院：菌群移植经「乳酸—MOESIN 乳酸化」轴，逆转糖尿病骨质疏松",
+     "title_en": "Shanghai Fourth Hospital: FMT reverses diabetic osteoporosis through a lactate–MOESIN lactylation axis",
+     "url": "https://news.qq.com/rain/a/20261110A0D8IC00",
+     "source_zh": "腾讯新闻（热心肠日报）",
+     "source_en": "Tencent News (Rutting Digest)",
+     "date": "2026-11-10",
+     "summary_zh": "上海四院鹿楠团队发现，糖尿病小鼠接受菌群移植后骨小梁变厚变密，骨吸收与炎症因子回落。机制是肠道乳酸杆菌产乳酸入血，使 T 细胞 MOESIN 蛋白 K72 位点乳酸化增强，激活 TGF-β 信号、促 Treg 抑 Th17；用抗体封闭该位点或噬菌体清除该菌，保护作用随即消失。",
+     "summary_en": "A team led by Lu Nan at Shanghai Fourth People's Hospital found that diabetic mice receiving faecal microbiota transplantation grew thicker, denser trabecular bone while bone-resorption and inflammatory markers fell. Gut lactobacilli produce lactate that enters the blood and boosts lactylation of MOESIN at lysine 72 in T cells, strengthening TGF-beta signalling, expanding Tregs and restraining Th17. Blocking that site with an antibody, or clearing the strain with phages, abolished the protection."
+    },
+    {
+     "title_zh": "香港中文大学于君团队：肠漏把活菌送进肝，脆弱拟杆菌自带致癌「钥匙」",
+     "title_en": "CUHK team: a leaky gut delivers live bacteria to the liver, and B. fragilis brings its own carcinogenic key",
+     "url": "https://news.bioon.com/article/39d59631689b.html",
+     "source_zh": "生物谷（iNature）",
+     "source_en": "Bioon (iNature)",
+     "date": "2026-11-10",
+     "summary_zh": "团队平行分析肝癌患者粪便与肝内微生物组，发现肠道病原共生菌与肝内菌群的相似度升高，脆弱拟杆菌与梭形杆菌富集，且肝内菌群在正常区、边界区、肿瘤区分布不均。患者粪菌移植与单菌定植均能破坏肠屏障、提高肝内菌载并促癌，机制为细菌烯醇化酶结合肝癌细胞波形蛋白。",
+     "summary_en": "Parallel analysis of stool and intrahepatic microbiomes in liver cancer patients showed greater gut-liver microbial similarity, enrichment of Bacteroides fragilis and Fusobacterium spp., and uneven bacterial distribution across normal, boundary and tumour regions. Faecal transfer from patients, or colonization with the single species, breached the gut barrier, raised hepatic bacterial load and promoted tumours; bacterial enolase binding vimentin on hepatoma cells carries the signal."
+    },
+    {
+     "title_zh": "产后抑郁的菌群与代谢特征：Faecalibacterium 与 Akkermansia 减少，脂质与神经炎症通路改变",
+     "title_en": "Microbial and metabolic signatures of postpartum depression: less Faecalibacterium and Akkermansia, altered lipid and neuroinflammatory pathways",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/gut-microbiota-shifts-may-play-role-in-postpartum-depression/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "广州中医药大学第四临床医学院 63 人对照研究（《营养素》）：产后抑郁者粪便中 Faecalibacterium、Akkermansia 减少，Ralstonia 与 Fusobacterium 增多，血清溶血磷脂乙醇胺等脂质与神经炎症代谢物同步改变。作者称属探索性发现，不足以推荐具体益生菌。",
+     "summary_en": "In a 63-person controlled study in Nutrients, researchers at Guangzhou University of Chinese Medicine found that women with postpartum depression had fewer Faecalibacterium and Akkermansia, more Ralstonia and Fusobacterium, and altered serum metabolites including lysophosphatidylethanolamine linked to neuroprotection and lipid metabolism. The authors stress the findings are exploratory and do not yet justify recommending a specific probiotic or supplement."
+    },
+    {
+     "title_zh": "浙大易聪团队《分子细胞》：给核糖体贴上「eat-me」标签，把营养状态与寿命连起来",
+     "title_en": "Zhejiang University team in Molecular Cell: an eat-me tag on ribosomes links nutrient status to lifespan",
+     "url": "https://news.qq.com/rain/a/20261110A0BCO700",
+     "source_zh": "腾讯新闻（Cell Press 论文速递）",
+     "source_en": "Tencent News (Cell Press digest)",
+     "date": "2026-11-10",
+     "summary_zh": "研究发现饥饿时 DOT1L 部分转入胞质，甲基化核糖体蛋白 RPL12 的 K41 与 K48，形成供自噬体识别的「eat-me」信号。破坏这两个位点的果蝇核糖体自噬受抑，出现发育异常、运动能力下降加快与寿命缩短；老年期恢复 Gpp 表达可改善运动与应激抵抗。寿命证据仅来自果蝇。",
+     "summary_en": "Under starvation, part of DOT1L moves into the cytoplasm and methylates ribosomal protein RPL12 at K41 and K48, creating an eat-me mark that autophagosomes recognise. Flies with both sites mutated showed suppressed ribosome autophagy, developmental defects, faster age-related decline in climbing ability and shorter lifespan; restoring Gpp expression in old flies improved mobility and stress resistance. Lifespan evidence comes only from Drosophila."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "五种延寿干预的共同代谢信号：大脑与血液里的麦角硫因同步升高",
+     "title_en": "A shared metabolic signal of five lifespan-extending interventions: ergothioneine rises in brain and blood",
+     "url": "https://www.163.com/dy/article/LBE8K8RJ05561FYB.html",
+     "source_zh": "网易（Frontiers in Aging）",
+     "source_en": "NetEase (Frontiers in Aging)",
+     "date": "2026-11-11",
+     "summary_zh": "密歇根大学团队轮换雷帕霉素、阿卡波糖、卡格列净、17α-雌二醇与热量限制五种延寿干预，用 AI 在 35 次测试中有 33 次凭代谢特征认出处理组。共同点是脑与血中麦角硫因升高，它也是唯一在两种以上组织进入顶级标志物的分子。研究者强调目前无因果证据。",
+     "summary_en": "A University of Michigan team rotated mice through rapamycin, acarbose, canagliflozin, 17-alpha-estradiol and caloric restriction, then used AI to identify which intervention a mouse had received from its metabolic profile, succeeding in 33 of 35 tests. Ergothioneine rose in brain and blood under all five and was the only molecule ranked a top marker in more than two tissues. The authors stress there is no causal evidence yet."
+    },
+    {
+     "title_zh": "肠道共生菌能造一种新 NAD 前体：N-甲基烟酰胺走备用通路，驱动肠干细胞再生",
+     "title_en": "Gut commensals make a new NAD precursor: N-methylnicotinamide uses a backup route to drive intestinal stem cell renewal",
+     "url": "https://new.qq.com/rain/a/20261110A0D4A100",
+     "source_zh": "腾讯新闻（Science Advances 解读）",
+     "source_en": "Tencent News (Science Advances analysis)",
+     "date": "2026-11-10",
+     "summary_zh": "研究在菌群代谢物中鉴定出 N-甲基烟酰胺（N-MNA），主要由鼠李糖乳酪杆菌 GG、活泼瘤胃球菌等在厌氧条件下产生。氘标记显示人结肠上皮细胞 3 小时内即摄取，24 小时内由其合成的 NAD 占总池 21.8%，并绕开 NAMPT 走普赖斯—汉德勒途径；结肠炎模型中可减轻炎症、保护肠屏障。",
+     "summary_en": "Researchers identified N-methylnicotinamide (N-MNA) among microbial metabolites, produced mainly by Lacticaseibacillus rhamnosus GG and Ruminococcus gnavus under anaerobic conditions. Deuterium labelling showed human colonic epithelial cells take it up within three hours and make 21.8% of the total NAD pool from it within 24 hours, bypassing NAMPT via the Preiss-Handler pathway. In colitis models it reduced inflammation and protected the barrier."
+    },
+    {
+     "title_zh": "日本健康长寿市场三条线：肠道与衰老、PQQ 饮料化、自噬认证",
+     "title_en": "Three fronts in Japan's healthy-longevity market: gut and ageing, PQQ drinks, autophagy certification",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/healthy-longevity-in-japan-the-gut-functional-foods-and-autophagy-product-certs/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "日本 65 岁以上人口占 29.6%，百岁老人达 107,677 人。森永 12 周试验显示，含长双歧杆菌 BB536 的酸奶使 50 岁以上超重男性 DunedinPACE 衰老速度慢 2.2%；三菱瓦斯化学把 20 毫克 PQQ 做成清澄饮料与软糖；日本自噬联盟已认证多款宣称激活自噬的补剂。",
+     "summary_en": "With 29.6% of Japanese aged 65 or older and a record 107,677 centenarians, the healthy-longevity market is widening beyond classic anti-ageing ingredients. A 12-week Morinaga trial found yogurt with Bifidobacterium longum BB536 slowed the DunedinPACE pace of ageing by 2.2% in overweight men over 50. Mitsubishi Gas Chemical now puts 20 mg of PQQ into clear drinks and gummies, and the Japan Autophagy Consortium certifies supplements claiming autophagy activation."
+    },
+    {
+     "title_zh": "长寿医学焦点转向「炎症性衰老」：从关联走向 iAge 时钟与靶向干预",
+     "title_en": "Longevity medicine turns to inflammaging: from association to iAge clocks and targeted intervention",
+     "url": "https://www.163.com/dy/article/LBEE0I0P05149U3U.html",
+     "source_zh": "网易（全球医生组织）",
+     "source_en": "NetEase (Global MD Organization)",
+     "date": "2026-11-11",
+     "summary_zh": "文章梳理炎症性衰老机制：衰老细胞经 SASP 释放 IL-6、IL-1β、TNF-α，CXCL9、CXCL10、CCL11 与 IL-18 同表观遗传年龄加速、多病共存相关。INSPIRE 队列 970 人随访 3 年显示，炎症年龄时钟的预测力有限，仍需结合步速、肌力、认知与衰弱程度判断个体状态。",
+     "summary_en": "The review traces how senescent cells release IL-6, IL-1beta and TNF-alpha through SASP, while CXCL9, CXCL10, CCL11 and IL-18 track with epigenetic age acceleration and multimorbidity. In the 970-person, three-year INSPIRE cohort, an inflammatory age clock predicted outcomes only modestly, so the authors argue it cannot replace clinical assessment combining gait speed, muscle strength, cognition and frailty."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "瑞典个性化补剂公司：按血液指标逐微克调配方，3 个月试验维 D 与叶酸改善",
+     "title_en": "Swedish personalized supplement firm tunes formulas microgram by microgram; vitamin D and folate improve in a three-month study",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/startup-min-vitamix-addresses-the-failings-of-one-size-fits-all-supplements/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "Min Vitamix 用生活方式问卷加血液检测定制维生素矿物质，标准配方最多 33 种、定制配方最多 80 种活性成分，可按微克调配并随复测改剂量。16 名 18—33 岁女性三个月研究中 11 人完成，维 D 与叶酸显著上升、LDL 下降；样本小且夏季日照是混杂因素。",
+     "summary_en": "Min Vitamix builds vitamin and mineral formulas from a lifestyle questionnaire plus blood tests, using up to 33 actives in its standard line and 80 in bespoke versions, adjustable by the microgram and revised after retesting. In a three-month study of 16 women aged 18 to 33, 11 completed, with significant rises in vitamin D and folate and a fall in LDL; the sample is small and summer sun exposure is a confounder."
+    },
+    {
+     "title_zh": "高纤植物加鱼油或种子油：两种营养素同吃才触发铁死亡，瞄准结肠癌干细胞",
+     "title_en": "High-fiber plants plus fish or seed oil: only the combination triggers ferroptosis, targeting colon cancer stem cells",
+     "url": "https://www.ntxe-news.com/artman/publish/article_146245.shtml",
+     "source_zh": "North Texas e-News（Texas A&M AgriLife）",
+     "source_en": "North Texas e-News (Texas A&M AgriLife)",
+     "date": "2026-11-09",
+     "summary_zh": "德州农工 AgriLife 团队总结数十年研究：膳食纤维与特定多不饱和脂肪同食时效果超过两者相加，通过铁死亡清除结肠癌干细胞；单吃纤维或鱼油只走凋亡通路，不出现铁死亡。研究者称这为高风险人群的整食干预提供依据，但目前证据仍来自临床前模型。",
+     "summary_en": "Texas A&M AgriLife researchers summarize decades of work showing that dietary fiber plus selected polyunsaturated fats produces more than additive effects, killing colorectal cancer stem cells through ferroptosis. Fiber or fish oil alone triggers apoptosis instead, and ferroptosis appears only when both are consumed. The team frames this as a whole-food prevention strategy, though the evidence remains preclinical."
+    },
+    {
+     "title_zh": "2026 版三份食养指南落地：脑卒中、骨质疏松、肌少症各有膳食处方",
+     "title_en": "Three 2026 dietary-therapy guidelines land: stroke, osteoporosis and sarcopenia each get a food prescription",
+     "url": "https://new.qq.com/rain/a/20261110A0A62700",
+     "source_zh": "腾讯网（人民日报）",
+     "source_en": "Tencent (People's Daily)",
+     "date": "2026-11-10",
+     "summary_zh": "国家卫健委发布 2026 年版《成人脑卒中食养指南》《成人骨质疏松症食养指南》《成人肌少症食养指南》，按地区与季节给出食养参考，并针对「千金难买老来瘦」「只吃素就养生」等观念纠偏。评论认为官方指南把健康关口前移到日常饮食，有助应对老龄化与慢病高发。",
+     "summary_en": "The National Health Commission released 2026 dietary-therapy guidelines for adults with stroke, osteoporosis and sarcopenia, offering regional and seasonal food guidance and correcting beliefs such as thinner is always healthier in old age or that a vegetarian diet alone preserves health. Commentary argues official guidance moves prevention into daily eating, addressing ageing and rising chronic disease."
+    },
+    {
+     "title_zh": "麦肯锡 2027 健康消费报告：效果与价格同权重，蛋白、肌酸、纤维成「maxxing」主角",
+     "title_en": "McKinsey wellness 2027: effectiveness now rivals price, with protein, creatine and fiber leading the maxxing trend",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/mckinsey-wellness-consumers-demand-more-proof/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "麦肯锡调查美英德中逾万人，全球健康市场约 2.7 万亿美元。美国消费者选品时效果与价格并列首位，高支出人群更看效果与品质，清晰成分标签进入前五考量。35% 的 GLP-1 使用者增加蛋白摄入、19% 加用补充剂；约 40% 消费者在长寿、心理与行动力上仍感需求未被满足。",
+     "summary_en": "McKinsey surveyed more than 10,000 consumers in the US, UK, Germany and China and values the global wellness market at about 2.7 trillion dollars. US shoppers now rank effectiveness level with price, heavy spenders weigh effectiveness and quality above cost, and clear ingredient labelling is a top-five consideration. Among GLP-1 users, 35% raised protein intake and 19% added supplements; around 40% still report unmet needs in longevity, mental health and mobility."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "VitaK-CAC 两年试验：每日 360 微克 MK-7，冠脉钙化评分增幅低 29%",
+     "title_en": "VitaK-CAC two-year trial: 360 mcg MK-7 daily cuts the rise in coronary calcium scores by 29%",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/rct-can-vitamin-k2-slow-calcium-buildup-in-arteries/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "马斯特里赫特大学 Schurgers 报告 VitaK-CAC：180 例冠心病患者随机接受 MK-7 360 微克或安慰剂，150 人完成两年。MK-7 组冠脉钙化评分增加 49 分、安慰剂 69 分，增幅低 29%，钙质量累积低约 42%。研究未设心血管事件终点。",
+     "summary_en": "Presenting at SupplySide Global, Maastricht University's Leon Schurgers reported the VitaK-CAC trial: 180 patients with coronary artery disease were randomized to 360 mcg MK-7 daily or placebo, and 150 completed two years. Calcium scores rose 49 points with MK-7 versus 69 with placebo, a 29% lower increase, while calcium mass accumulation was about 42% lower and dp-ucMGP rises were blunted. The trial was not powered for clinical events."
+    },
+    {
+     "title_zh": "秘鲁取消第二季鳀鱼捕捞：鱼油原料再收紧，涨价或在 12—18 个月后传导到零售",
+     "title_en": "Peru cancels its second anchoveta season: fish oil supply tightens again, with retail prices likely to follow in 12 to 18 months",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/second-peruvian-anchoveta-season-canceled-what-are-the-implications-for-the-fish-oil-industry/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "超级厄尔尼诺使中东太平洋海表温度异常超过 3℃，秘鲁生产部取消第二季鳀鱼捕捞，第一季也提前结束、仅完成配额 25%。GOED 呼吁品牌多元化 EPA 与 DHA 来源。2023 年同类事件曾把原料价从每公斤 4.48 美元推到 11.12 美元，SPINS 称零售端通常滞后 12—18 个月。",
+     "summary_en": "A super El Nino pushed tropical Pacific sea surface temperatures more than 3 degrees Celsius above normal, prompting Peru's PRODUCE to cancel the second anchoveta season after closing the first early with only 25% of quota caught. GOED urges brands to diversify EPA and DHA sources. When a full season was cancelled in 2023, raw material prices jumped from 4.48 to 11.12 dollars per kilogram, though SPINS says retail lags by 12 to 18 months."
+    },
+    {
+     "title_zh": "MitoQ 进博签约一龄：从卖胶囊转向「检测—方案—追踪」，核心成分进入 TGA 许可清单",
+     "title_en": "MitoQ signs with Yiling at CIIE: from capsules to testing, protocols and follow-up, as its core ingredient enters Australia's TGA permitted list",
+     "url": "https://www.toutiao.com/w/1881337846549512/",
+     "source_zh": "上观新闻（新民晚报）",
+     "source_en": "Shanghai Observer (Xinmin Evening News)",
+     "date": "2026-11-09",
+     "summary_zh": "11 月 6 日，MitoQ 与一龄医学技术集团在进博会签署健康老龄化合作，围绕细胞健康构建检测、个性化方案到持续追踪的服务体系。cell essentials 系列海洋岩藻黄素、雌马酚、三重镁三款新品亚洲首发；核心成分 MitoQ Mitoquinol 获 TGA 纳入澳洲许可成分清单。",
+     "summary_en": "On November 6 at the China International Import Expo, New Zealand cell-health brand MitoQ signed a healthy-ageing partnership with Yiling Medical Technology Group, extending its China business from products to a service chain of testing, personalized protocols and follow-up. Three cell essentials products debuted in Asia: fucoxanthin, equol and a triple-magnesium formula. Its MitoQ Mitoquinol ingredient was also added to Australia's TGA permitted ingredient list for listed supplements."
+    },
+    {
+     "title_zh": "盖茨基金会资助：用精密发酵把 Omega-3 生产成本砍半",
+     "title_en": "Gates Foundation backs precision fermentation to halve the cost of omega-3",
+     "url": "https://www.nutraingredients.com/Article/2026/11/10/southern-cross-universitys-research-aims-to-lower-cost-improve-accessibility-of-omega-3/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-10",
+     "summary_zh": "澳大利亚南十字星大学获盖茨基金会 18 个月资助，用破囊壶菌精密发酵生产无鱼源 omega-3，试图以农业与食品副产物（如生物柴油副产甘油）替代昂贵碳源，目标把培养成本降低至少 50%，让中低收入国家的孕妇与婴儿用得起 DHA，并减少对野生捕捞的依赖。",
+     "summary_en": "Southern Cross University in Australia has an 18-month Gates Foundation grant to produce fish-free omega-3 by precision fermentation of thraustochytrids. The team is testing agricultural and food-processing residues, such as glycerol from biodiesel, as cheap fermentation feedstocks, aiming to cut culture costs by at least 50% so pregnant women and infants in low- and middle-income countries can afford DHA while reducing reliance on wild catch."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "长沙发布健康素养五大举措：人均预期寿命 81.1 岁，素养水平 37.97%",
+     "title_en": "Changsha unveils five measures on health literacy: life expectancy 81.1 years, literacy rate 37.97%",
+     "url": "https://news.qq.com/rain/a/20261110A0BQQL00",
+     "source_zh": "腾讯新闻（红网）",
+     "source_en": "Tencent News (Rednet)",
+     "date": "2026-11-10",
+     "summary_zh": "长沙市卫健委 11 月 10 日发布会介绍，居民健康素养水平达 37.97%，十四五期间提升 12.16 个百分点。下一步从优质科普供给、健康支持环境、健康管理服务等五方面推进：依托体重管理门诊、健康步道与营养健康食堂，并以减盐减油为切口做慢病早筛与个性化膳食干预。",
+     "summary_en": "At a November 10 briefing, Changsha's health commission said resident health literacy reached 37.97%, up 12.16 percentage points during the 14th Five-Year Plan. Five next steps cover better science communication, supportive environments and upgraded management services, leaning on weight-management clinics, walking trails and nutrition-standard canteens, with salt and oil reduction as the entry point for early screening and personalized dietary advice."
+    },
+    {
+     "title_zh": "全国基层卫生健康高质量发展大会：18 个家庭医生签约案例获推荐，秭归「七彩家医」入选",
+     "title_en": "National primary-care conference names 18 model family-doctor cases, including Zigui's seven-color team",
+     "url": "https://news.hubeidaily.net/pc/c_6156767.html",
+     "source_zh": "湖北日报",
+     "source_en": "Hubei Daily",
+     "date": "2026-11-10",
+     "summary_zh": "11 月 10 日，国家卫健委人口文化与基层健康中心在北京举办 2026 年基层卫生健康高质量发展大会，发布 18 个「家医签约·群众有感」推荐案例。秭归按 1+4+N 模式组建 131 支团队覆盖 12 个乡镇，推出基础包、慢病管理包与中医康养包，并对慢病患者实行红黄绿三色分级管理。",
+     "summary_en": "On November 10 the National Health Commission's population culture and primary-health center held its 2026 conference in Beijing, releasing 18 recommended family-doctor contracting cases. Zigui county formed 131 teams across 12 townships on a 1+4+N model, offering basic, chronic-disease and TCM rehabilitation packages, and sorts chronic patients into red, yellow and green tiers with tiered follow-up."
+    },
+    {
+     "title_zh": "内蒙古五原县：「两处方一提示」加红黄绿分级，重点人群签约率超 95%",
+     "title_en": "Wuyuan county in Inner Mongolia pairs drug and lifestyle prescriptions, lifting priority-group contracting above 95%",
+     "url": "http://www.wuyuan.gov.cn/ywdt/jrwy/202611/t20261110_615886.html",
+     "source_zh": "五原县人民政府",
+     "source_en": "Wuyuan County Government",
+     "date": "2026-11-10",
+     "summary_zh": "五原县以紧密型县域医共体为抓手，在隆兴昌镇 13 个社区建家庭医生工作室，每周五固定驻点；就诊时同时开药物处方与饮食运动健康处方，配复诊提醒和季节防病提示，慢病按红黄绿分级随访。全县重点人群签约率超 95%，慢病规范管理率 85%，高血压与糖尿病控制率 62%、60%。",
+     "summary_en": "Using its compact county medical community, Wuyuan set up family-doctor studios in all 13 communities of Longxingchang town, staffed every Friday. Visits now produce both a drug prescription and a diet-and-exercise prescription plus follow-up reminders and seasonal advice, and chronic patients are followed up by red-yellow-green tier. Priority-group contracting exceeds 95%, standardized management reaches 85%, and hypertension and diabetes control rates are 62% and 60%."
+    },
+    {
+     "title_zh": "体卫融合十年：广东「四个一万」织网，四川把运动促进健康写进地方性法规",
+     "title_en": "A decade of sport-health integration: Guangdong builds a four-ten-thousand network, Sichuan writes exercise into law",
+     "url": "https://www.sport.org.cn/shouye/qmjs/2026/1111/714131.html",
+     "source_zh": "中华全国体育总会",
+     "source_en": "All-China Sports Federation",
+     "date": "2026-11-11",
+     "summary_zh": "系列报道梳理三地路径：广东实施「四个一万」基层全民健身计划，东莞南城、深圳侨香落地医师、运动处方师与健康管理师组团服务；四川把体卫融合写入新修订的《四川省体育条例》，首批 35 家医疗机构试点，推评估、筛查、测试、方案、跟踪全链条；上海聚焦社区与老年群体。",
+     "summary_en": "A series reviewing ten years of sport-health integration compares three paths. Guangdong runs a four-ten-thousand primary-level fitness plan, with Dongguan and Shenzhen piloting teams of physicians, exercise prescribers and health managers. Sichuan wrote integration into its revised sports regulation, starting with 35 medical institutions and a full chain from assessment and screening to testing, prescription and follow-up. Shanghai focuses on communities and older adults."
+    }
+   ]
+  }
+ ]
+}
