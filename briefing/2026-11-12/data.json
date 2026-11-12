@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-12",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月6日 — 11月12日（最近 7 天）",
+ "range_en": "Nov 6 – Nov 12, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《自然-代谢》：肠菌把胆固醇变成抗癌分子，同时压住 EGFR 与 KRAS",
+     "title_en": "Nature Metabolism: gut bacteria convert cholesterol into an anti-cancer molecule that hits both EGFR and KRAS",
+     "url": "https://www.163.com/dy/article/LBFHAQEG053296CT_pdya11y.html",
+     "source_zh": "生物世界（网易号）",
+     "source_en": "BioWorld via NetEase",
+     "date": "2026-11-10",
+     "summary_zh": "香港浸会大学王凯亮团队联合复旦肿瘤医院，11 月 10 日在《自然-代谢》报告：结直肠癌患者肿瘤与粪便中胆固醇代谢物 4-C-3 偏低。肠菌把胆固醇变成 4-C-3，后者既阻断 EGFR，又把突变型 KRAS 锁在非活性态；口服 4-C-3 或用产该分子的菌，均在临床前模型缩小肿瘤。",
+     "summary_en": "A team led by Wang Kailiang of Hong Kong Baptist University, with Fudan University Shanghai Cancer Center, reported in Nature Metabolism on Nov 10 that colorectal cancer patients have markedly lower levels of the cholesterol metabolite 4-C-3 in tumours and stool. Gut bacteria convert cholesterol into 4-C-3, which blocks the EGFR extracellular domain and holds mutant KRAS in an inactive state; oral 4-C-3, or the native producer Oscillibacter ruminantium and an engineered E. coli, shrank tumours in preclinical models with no obvious toxicity."
+    },
+    {
+     "title_zh": "齿双歧杆菌在肿瘤里「变脸」：促增殖、促转移，还抬高化疗耐药",
+     "title_en": "Bifidobacterium dentium turns pathogenic inside tumours, driving growth, metastasis and chemoresistance",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34448843",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-09",
+     "summary_zh": "广医肿瘤医院郭松鹤、中山大学张革与张晓实团队 11 月 9 日在《细胞报告医学》报告，齿双歧杆菌在口腔与肠道多为共生菌，进入肿瘤后经 Akt/ERK 促增殖、诱导 MMP3 增强转移；其 GABA 经 FOXA2 上调 P-糖蛋白，削弱 5-FU 与奥沙利铂疗效。79 例结直肠癌中菌量高者生存更差。",
+     "summary_en": "Guo Songhe of the Affiliated Cancer Hospital of Guangzhou Medical University, with Zhang Ge and Zhang Xiaoshi of Sun Yat-sen University, reported in Cell Reports Medicine on Nov 9 that Bifidobacterium dentium is largely commensal in the mouth and gut but, once inside tumours, drives proliferation via Akt/ERK and metastasis via MMP3; its metabolite GABA raises P-glycoprotein through FOXA2 and blunts 5-fluorouracil and oxaliplatin. Among 79 colorectal cancers, higher intratumoural loads predicted worse overall and disease-free survival."
+    },
+    {
+     "title_zh": "麋鹿茸粉经肠道菌群减轻肾脏衰老：Akk 菌与乙酸钠同步上升",
+     "title_en": "Milu antler powder eases kidney ageing via the gut microbiome, raising Akkermansia and sodium acetate",
+     "url": "https://www.163.com/dy/article/LBEO43EF05345ZH3_pdya11y.html",
+     "source_zh": "时光派（网易号）",
+     "source_en": "Timepie via NetEase",
+     "date": "2026-11-11",
+     "summary_zh": "中国农业大学团队在《民族药理学杂志》以小鼠模型报告，麋鹿茸粉可减轻肾脏损伤与衰老表型、改善肾功能，同时提高 Akkermansia 与 Lachnospiraceae 丰度、降低 Desulfobacterota 并促进乙酸钠生成；粪菌移植与 HK-2 细胞实验证实菌群及代谢物参与其中。",
+     "summary_en": "A China Agricultural University team reported in the Journal of Ethnopharmacology that, in mice, milu antler powder reduced kidney tissue damage and senescence markers and improved renal function, while raising Akkermansia and Lachnospiraceae_NK4A136_group, lowering Desulfobacterota and boosting sodium acetate. Faecal microbiota transplantation and HK-2 cell experiments confirmed that the microbiome and its metabolites mediate the protection."
+    },
+    {
+     "title_zh": "阿尔茨海默病不止一种「坏蛋白」：两种 β 淀粉样亚型分工不同",
+     "title_en": "Alzheimer's has more than one bad protein: two amyloid-beta subtypes play different roles",
+     "url": "https://www.ncsti.gov.cn/kjdt/kjrd/202611/t20261111_262605.html",
+     "source_zh": "国际科技创新中心（科技日报）",
+     "source_en": "Beijing International Science & Technology Innovation Center",
+     "date": "2026-11-09",
+     "summary_zh": "瑞典卡罗林斯卡学院团队 11 月 9 日在《自然-通讯》报告，在患者脑组织、小鼠模型与培养神经元中识别出两种均能损伤神经细胞的 β 淀粉样小聚集体，其中只有一种会继续长成斑块。团队此前发现的 BRICHOS 蛋白可抑制有害亚型生成；小鼠中干预后斑块与炎症减少，认知测试表现改善。",
+     "summary_en": "Karolinska Institutet researchers reported in Nature Communications on Nov 9 that they identified two small amyloid-beta aggregates that both damage neurons in patient brain tissue, mouse models and cultured neurons, yet only one goes on to seed plaques. The BRICHOS protein the team had previously found suppresses formation of the harmful subtype; in mice it lowered plaque burden and inflammation and improved cognitive test performance."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《自然-衰老》：衰老让 NK 细胞「变油变软」，免疫监视随之松动",
+     "title_en": "Nature Aging: ageing makes NK cells fattier and softer, loosening immune surveillance",
+     "url": "https://www.nature.com/articles/s43587-026-01262-4",
+     "source_zh": "《自然-衰老》",
+     "source_en": "Nature Aging",
+     "date": "2026-11-11",
+     "summary_zh": "11 月 11 日《自然-衰老》报告，衰老使人类自然杀伤细胞出现脂质堆积、膜流动性升高与皮层硬度下降，上游是视黄醇—SREBP1—ELOVL6 脂肪生成轴。该轴重塑 NK 细胞生物力学并限制免疫监视，提示干预脂质代谢或可恢复老年免疫细胞的机械适应与杀伤能力。",
+     "summary_en": "Nature Aging reported on Nov 11 that ageing drives human natural killer cells into a lipid-laden, more fluid and less stiff state, upstream of which sits a retinol–SREBP1–ELOVL6 lipogenic axis. The axis remodels NK cell biomechanics and constrains immune surveillance, suggesting that targeting lipid metabolism might restore mechanical fitness and killing capacity in aged immune cells."
+    },
+    {
+     "title_zh": "线粒体囊泡把病理「打包」送进脑：小胶质 Ggt1 参与阿尔茨海默病进展",
+     "title_en": "Mitochondria-derived vesicles package pathology into the brain, with microglial Ggt1 driving Alzheimer's progression",
+     "url": "https://www.nature.com/articles/s43587-026-01263-3",
+     "source_zh": "《自然-衰老》",
+     "source_en": "Nature Aging",
+     "date": "2026-11-10",
+     "summary_zh": "11 月 10 日《自然-衰老》报告，阿尔茨海默病患者脑组织与 5×FAD 小鼠中，线粒体来源囊泡（mtV）释放明显增多；把模型鼠脑来源的 mtV 给予受试动物后，可经传递小胶质细胞 Ggt1 推动病理进展。研究为「线粒体—囊泡—神经炎症」这条通路补上了可干预的节点。",
+     "summary_en": "Nature Aging reported on Nov 10 that release of mitochondria-derived vesicles (mtVs) is enriched in brain tissue from Alzheimer's patients and 5×FAD mice; administering brain-derived mtVs propagated pathology through microglial Ggt1. The work adds a targetable node to the mitochondria–vesicle–neuroinflammation axis behind cognitive decline."
+    },
+    {
+     "title_zh": "屏蔽地磁场让线粒体复合体Ⅱ「加班」，Pink1 缺陷果蝇寿命延长两成",
+     "title_en": "Shielding the geomagnetic field boosts complex II activity and extends lifespan by 20% in Pink1 mutant flies",
+     "url": "https://news.qq.com/rain/a/20261111A0EMJ600",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-11",
+     "summary_zh": "一项果蝇研究显示，在磁屏蔽环境中，携带 Pink1 缺陷（模拟帕金森病线粒体障碍）的果蝇寿命延长约 20%，但攀爬能力进一步下降；健康果蝇部分年龄段的运动表现改善却未见延寿。研究者测到复合体Ⅱ参与能量代谢的能力增强、自由基信号改变，但细胞如何感知磁场仍未厘清。",
+     "summary_en": "In fruit flies kept in a magnetically shielded environment, those carrying a Pink1 defect that mimics Parkinsonian mitochondrial dysfunction lived about 20% longer, though their climbing ability fell further; healthy flies moved better at some ages but did not gain lifespan. Complex II engagement in energy metabolism rose and radical signals shifted, yet how cells sense the magnetic field remains unclear."
+    },
+    {
+     "title_zh": "衰老 T 细胞带着「脂质包裹」改造肿瘤：促生长、促转移、促耐药",
+     "title_en": "Senescent T cells remodel tumours through a lipid-rich SASP, driving growth, metastasis and chemoresistance",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34448844",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-06",
+     "summary_zh": "圣路易斯华盛顿大学彭广勇团队 11 月 6 日在《细胞报告医学》报告，乳腺癌、结直肠癌与肺癌中积聚的衰老 T 细胞，通过富含脂质的衰老相关分泌表型重编程肿瘤代谢并激活 STAT1/STAT3，推动肿瘤生长、转移、干性与化疗耐药；清除衰老 T 细胞或打断脂质串扰，可在体内抑制进展。",
+     "summary_en": "A team led by Peng Guangyong at Washington University in St. Louis reported in Cell Reports Medicine on Nov 6 that senescent T cells accumulating in breast, colorectal and lung tumours reprogram tumour metabolism and activate STAT1/STAT3 through a lipid-rich senescence-associated secretory phenotype, driving growth, metastasis, stemness and chemoresistance; clearing these cells or blocking the lipid crosstalk suppressed progression in vivo."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "仙乐健康把「AI 营养师」搬进进博：同时牵手莱布尼茨衰老研究所与拜耳",
+     "title_en": "Sirio puts an AI nutritionist on the CIIE floor, pairing with the Leibniz Institute on Aging and Bayer",
+     "url": "https://edu.cctv.com/2026/11/10/ARTI0FNiWulqSBTYNnnMr1AQ261110.shtml",
+     "source_zh": "央视网",
+     "source_en": "CCTV.com",
+     "date": "2026-11-10",
+     "summary_zh": "进博会期间，仙乐健康展示 JsRight 精准营养平台，用算法把年龄、生活方式与健康目标映射到具体配方，观众可在互动屏体验「AI 营养师」识别需求。研究院与德国莱布尼茨衰老研究所启动联合创新基金支持衰老干预早期研究，并与拜耳共建联合实验室、携手美健乐发布口服营养品循证体系。",
+     "summary_en": "At the China International Import Expo, Sirio Health showcased its JsRight precision nutrition platform, which maps age, lifestyle and health goals onto formulas, letting visitors try an AI nutritionist on interactive screens. Its research institute launched a joint innovation fund with the German Leibniz Institute on Aging for early-stage ageing research, opened a joint lab with Bayer and released an evidence framework for oral nutrition products with Meijianle."
+    },
+    {
+     "title_zh": "S-雌马酚被做成「可定量」的更年期方案：12 周潮热频率降约六成",
+     "title_en": "S-equol framed as a quantifiable menopause option: hot flush frequency down about 60% at 12 weeks",
+     "url": "https://yanfa.foodmate.net/news/show-2527.html",
+     "source_zh": "食品伙伴网",
+     "source_en": "FoodMate",
+     "date": "2026-11-11",
+     "summary_zh": "大豆苷元经肠菌代谢生成的 S-雌马酚，对 ERβ 的选择性约为 ERα 的 9—13 倍，可绕开「是否为雌马酚产生者」的个体差异。综述引用的 160 例绝经后非产生者试验中，每日 10 毫克、持续 12 周后潮热频率较基线下降 58.7%，安慰剂组为 34.5%，未见子宫内膜增厚等严重不良事件。",
+     "summary_en": "S-equol, produced when gut bacteria metabolise daidzein, binds ERβ with roughly 9–13 times the selectivity of ERα and sidesteps whether a woman is an equol producer. In a 160-woman trial of postmenopausal non-producers cited in the review, 10 mg daily for 12 weeks cut hot flush frequency by 58.7% from baseline versus 34.5% on placebo, with no endometrial thickening or serious adverse events."
+    },
+    {
+     "title_zh": "每天 25 克带皮烤花生吃半年：血脂谱变化对应 2 型糖尿病风险降 11%",
+     "title_en": "25 g of skin-on roasted peanuts daily for six months: lipid shifts linked to 11% lower type 2 diabetes risk",
+     "url": "https://news.qq.com/rain/a/20261111A073VY00",
+     "source_zh": "环球科学（腾讯新闻）",
+     "source_en": "Global Science via Tencent News",
+     "date": "2026-11-11",
+     "summary_zh": "一项为期六个月的干预让受试者每日摄入 25 克带皮烤花生、32 克花生酱，或宏量营养素相当的对照黄油；花生组血浆极长链饱和脂肪酸上升。在 EPIC-Potsdam 的 774 例 2 型糖尿病病例队列中，这类与花生相关的血脂变化对应发病风险降低 11%，BMI 可解释其中大部分关联。",
+     "summary_en": "In a six-month trial, participants ate 25 g of skin-on roasted peanuts, 32 g of peanut butter or a macro-matched control butter daily; the peanut arms showed higher circulating very-long-chain saturated fatty acids. In the EPIC-Potsdam case-cohort of 774 type 2 diabetes cases, these peanut-related lipid shifts corresponded to an 11% lower risk, with BMI explaining most of the association."
+    },
+    {
+     "title_zh": "400 毫克甜菜根硝酸盐，抵消咖啡因引起的动脉僵硬度上升",
+     "title_en": "400 mg of beetroot nitrate offsets caffeine-induced arterial stiffening",
+     "url": "https://www.nutraingredients.com/Article/2026/11/11/catching-up-with-sports-nutrition-supplement-science/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-11",
+     "summary_zh": "拉夫堡大学随机交叉试验纳入 24 名健康成人，比较四种补剂条件：急性摄入咖啡因会升高动脉僵硬度，而同服 400 毫克甜菜根来源膳食硝酸盐后，僵硬度指标与安慰剂条件相当。作者提醒结论不适用于长期咖啡因使用者或心血管病患者，该研究由原料商 Bio-Gen Extracts 资助。",
+     "summary_en": "A randomised crossover trial at Loughborough University tested four supplement conditions in 24 healthy adults: acute caffeine raised arterial stiffness, but co-ingesting 400 mg of beetroot-derived dietary nitrate brought stiffness measures back in line with placebo. The authors caution the findings may not extend to chronic caffeine users or people with cardiovascular disease, and the study was funded by ingredient supplier Bio-Gen Extracts."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "能量饮料与兴奋剂补剂：心脏骤停相关报告高出约 11 倍",
+     "title_en": "Energy drinks and stimulant supplements: about 11 times more cardiac arrest reports",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261110042543.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-10",
+     "summary_zh": "在美国心脏协会 2026 科学年会上发布的初步研究，梳理 FDA 安全报告中含咖啡因与兴奋剂产品相关的心血管急症记录，发现心脏骤停、心梗等报告频率显著高于不含此类成分的产品，18—34 岁人群占比突出。研究属相关性观察，不能证明因果；该品类销售额 2024 年已超 200 亿美元。",
+     "summary_en": "Preliminary research presented at the American Heart Association's 2026 Scientific Sessions reviewed FDA safety reports of cardiovascular emergencies and found that products containing caffeine and other stimulants appeared far more often in reports of cardiac arrest and heart attack than products without them, with adults aged 18–34 accounting for a substantial share. The findings are correlational, not causal; the category topped $20 billion in US sales in 2024."
+    },
+    {
+     "title_zh": "高端肌酸改为美国本土生产：年产能规划 500 万公斤",
+     "title_en": "Premium creatine moves to US manufacturing with a planned 5 million kg annual capacity",
+     "url": "https://www.nutraingredients.com/Article/2026/11/11/vireo-systems-to-manufacture-premium-creatine-in-us/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-11",
+     "summary_zh": "Vireo Systems 宣布扩建内布拉斯加 Plattsmouth 工厂，新增约 7 万平方英尺用于 CreaBoost 的生产、仓储与配送，设计年产能 500 万公斤，计划 2027 年 3 月试产、二季度满产。该规格此前由单一海外伙伴生产后进口美国，本土化后将先满足本土需求，再供应全球市场。",
+     "summary_en": "Vireo Systems is expanding its Plattsmouth, Nebraska plant by roughly 70,000 square feet to make, store and distribute CreaBoost, with a designed annual capacity of 5 million kg, pilot production in March 2027 and full output targeted for the second quarter. The premium specification had been made by a single overseas partner and imported; domestic output will serve US demand first, then global markets."
+    },
+    {
+     "title_zh": "四川给保健食品会销划红线：全程录音录像留存不少于两个月",
+     "title_en": "Sichuan sets red lines for supplement sales seminars: full audio-video records kept at least two months",
+     "url": "https://epaper.scdaily.cn/shtml/scrb/20261112/1094243.html",
+     "source_zh": "四川日报",
+     "source_en": "Sichuan Daily",
+     "date": "2026-11-12",
+     "summary_zh": "四川省市场监管局发布《四川省保健食品会议营销合规指引》，要求会前报备主体资质、场地、推介产品与参与人员，活动中对样品展示区、讲解区、公示区与消费者活动区实行全覆盖同步录音录像，留存不少于两个月，并明确投诉处理、先行赔付与预收款兑付要求，把监管关口前移。",
+     "summary_en": "Sichuan's market regulator issued compliance guidance for health-food sales seminars, requiring organisers to file entity qualifications, venue, products and staff before the event and to make synchronised audio-video recordings covering the display, presentation, disclosure and consumer areas, kept for at least two months. It also sets rules on complaint handling, advance compensation and prepayment refunds, moving supervision upstream."
+    },
+    {
+     "title_zh": "运动营养正在「日常化」：蛋白加水合成主流，乳清涨价逼出替代方案",
+     "title_en": "Sports nutrition goes mainstream: protein-plus-hydration formats lead as whey prices push alternatives",
+     "url": "https://www.nutraingredients.com/Article/2026/11/11/sports-nutrition-launches-target-daily-users-convenient-formats/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-11",
+     "summary_zh": "新品观察显示，运动营养正从训练场景走向日常：GLP-1 用户带动「维持肌肉＋轻负担蛋白」需求，复合补水与蛋白的剂型取代厚重奶昔；乳清蛋白因需求与社交平台「proteinmaxxing」热潮涨价，促使品牌考虑替代蛋白来源。日本福光屋 10 月推出米发酵能量饮升级版 VATEN F，主打纤维与饱腹。",
+     "summary_en": "New launches show sports nutrition moving from training days to everyday use: GLP-1 users are driving demand for muscle-maintaining, lighter protein formats, and combined hydration-plus-protein products are displacing heavy shakes. Rising whey prices, fuelled by demand and the social-media 'proteinmaxxing' trend, are pushing brands toward alternative protein sources; Japan's Fukumitsuya launched rice-fermented energy drink VATEN F in October, pitched on fibre and fullness."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "浙大二院把泛血管疾病「从科室制改为中心制」：管理延伸到院外",
+     "title_en": "Zhejiang University's second hospital moves vascular care from departments to a centre model, extending management beyond the clinic",
+     "url": "https://jkb.com.cn/technology/2026/1111/515357.html",
+     "source_zh": "健康报",
+     "source_en": "Health News",
+     "date": "2026-11-11",
+     "summary_zh": "浙大二院泛血管与代谢中心把风险评估、体重管理、用药指导与随访串成一条链：体重管理中心做多学科减重，健康管理中心以「家庭医生＋多学科专家团队」长期跟踪，大数据平台整合血糖、血压、血脂做风险分层并向医生推送干预提示。评价指标也从就诊感受延伸到危险因素控制与随访连续性。",
+     "summary_en": "The pan-vascular and metabolic centre at the Second Affiliated Hospital of Zhejiang University links risk assessment, weight management, medication guidance and follow-up: a weight centre handles multidisciplinary slimming, a health management centre tracks patients long term with family doctors plus specialists, and a data platform integrates glucose, blood pressure and lipids for risk stratification and clinician prompts. Evaluation now extends from patient experience to risk-factor control and follow-up continuity."
+    },
+    {
+     "title_zh": "上海奉贤 25 家医疗机构建健康管理中心：把体检解读送到厂门口",
+     "title_en": "Shanghai's Fengxian district opens health management centres in 25 facilities, taking check-up reviews to factory gates",
+     "url": "https://www.163.com/dy/article/LBEHG3UV0514BN8F.html",
+     "source_zh": "上海奉贤（网易号）",
+     "source_en": "Shanghai Fengxian via NetEase",
+     "date": "2026-11-11",
+     "summary_zh": "奉贤区卫健委以 14 条举措推进健康服务便利化：25 家医疗机构设立健康管理（人才健康服务）中心，与 29 家商会一对一结对，提供中医体质辨识、体脂检测并动态更新电子健康档案；家庭医生可开延伸处方与长处方，居民还能经社区预约二三级医院专家，社卫与产业园区一对一结对弹性排班。",
+     "summary_en": "Fengxian's health commission is rolling out 14 measures to make care more accessible: 25 medical institutions have set up health management centres for talent, paired one-to-one with 29 business chambers to offer TCM constitution assessment, body-fat testing and continuously updated electronic records. Family doctors can issue extended and long prescriptions, residents can book specialist appointments through community centres, and each community clinic is paired with an industrial park on flexible schedules."
+    },
+    {
+     "title_zh": "新疆呼图壁投 288.78 万元建 6 个慢病医防融合门诊：看病拿药一次办完",
+     "title_en": "Hutubi in Xinjiang spends 2.89 million yuan on six integrated chronic disease clinics, so visits and prescriptions are handled in one stop",
+     "url": "https://www.htb.gov.cn/c/htbxrmzf/htbxyw/603171.jhtml",
+     "source_zh": "呼图壁县人民政府",
+     "source_en": "Hutubi County Government",
+     "date": "2026-11-11",
+     "summary_zh": "呼图壁县投入 288.78 万元，在县总医院妇幼保健院分院及 5 个乡镇建成 6 个慢病医防融合门诊：配备一体化设备，规范高血压、高血糖、高血脂、高尿酸「四高」筛查，整合用药指导、健康宣教与心理干预，按诊前、诊中、诊后管理；依托家庭医生团队入户随访、送药上门。",
+     "summary_en": "Hutubi county invested 2.89 million yuan to build six integrated chronic disease clinics at the county hospital's maternal and child branch and five township hospitals. Each is equipped for one-stop testing and standardises screening for high blood pressure, glucose, lipids and uric acid, combining medication guidance, health education and psychological support across pre-visit, in-visit and post-visit stages, with family doctor teams doing home follow-up and drug delivery."
+    },
+    {
+     "title_zh": "青岛把营养服务做成「医院—社区—家庭」链条：64 家基层机构试点",
+     "title_en": "Qingdao builds a hospital-community-home nutrition chain, piloted in 64 primary care facilities",
+     "url": "https://news.iqilu.com/yangmei/20261111/5960633.shtml",
+     "source_zh": "齐鲁网",
+     "source_en": "Qilu Network",
+     "date": "2026-11-11",
+     "summary_zh": "青岛把紧密型医联体与 HCH 连续营养健康服务模式结合，形成「营养服务在社区、干预在医院、指导在家庭」的链条：牵头医院在基层设联合营养门诊，为「三高一慢」开营养处方；已培训基层医务人员 141 人次、配备营养指导员 3220 名，西海岸新区把 8.92 万人纳入营养干预与健康体重管理网络。",
+     "summary_en": "Qingdao is combining tightly knit medical alliances with the hospital-community-home (HCH) continuous nutrition model, so that nutrition services sit in the community, intervention in hospitals and guidance at home. Lead hospitals run joint nutrition clinics in primary care and issue nutrition prescriptions for hypertension, hyperglycaemia, dyslipidaemia and chronic disease; 141 primary clinicians have been trained and 3,220 nutrition instructors deployed, with the West Coast New Area enrolling 89,200 residents in nutrition and weight management."
+    }
+   ]
+  }
+ ]
+}
