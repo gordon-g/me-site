@@ -98,11 +98,16 @@
   <div class="wrap">
     <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
     <div class="sec-head">
-      <div class="kicker">ARCHIVE · 共 24 期</div>
+      <div class="kicker">ARCHIVE · 共 25 期</div>
       <h1>GitHub AI 日报</h1>
       <p class="sec-sub">每天 10:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
     </div>
-    <div class="cards"><a class="card" href="/ai/2026-11-12/">
+    <div class="cards"><a class="card" href="/ai/2026-11-13/">
+      <div class="card-date">2026-11-13<span>周五</span></div>
+      <p class="card-sum">今天最值得记的一件事，是「评测器自己也要被评测」。 超声报告元评测给出了本期最硬的一组数字：BLEU、ROUGE-L、chrF、BERTScore、RaTEScore 在「植入临床错误 vs 无害改写」这一对基准上，检出限从未达到 AURO…</p>
+      <ul class="card-picks"><li>给「打分器」本身做评测：BLEU/BERTScore 根本抓不住植入的临床错误，能抓的是结构化事实抽取加图像定位</li><li>技能也要有质量门：NVIDIA 把「失败的评测臂」和「没跑的评测臂」在报告里严格区分开</li><li>标签照片进 App：食品标签识别被拆成「AI 只读、数值按每 100 g 归一、能量与宏量交叉校验」</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-11-12/">
       <div class="card-date">2026-11-12<span>周四</span></div>
       <p class="card-sum">⭐⭐⭐ 技能（skill）正在从「提示词片段」变成「可携带、可评测、可更新的方法论资产」，并且已经有了公开的工业级样本。 本期 awslabs/hcls-agent-skills 把 43 个医疗与生命科学技能按 reasoning（方法论…</p>
       <ul class="card-picks"><li>awslabs/hcls-agent-skills：AWS 把 43 个医疗与生命科学技能做成了「可移植的标准件」，并用 410 道两两对比题证明它比不加载技能更强</li><li>openai/codex-security：官方给 agent 装上了「安全扫描器」，并且开始把别的扫描器的结果也纳入统一证据链</li><li>awslabs/unified-kg-rag-on-aws：四种图谱 RAG 跑在同一套索引上，并且开始把「重命名」当成一次需要回滚的迁移</li></ul>
