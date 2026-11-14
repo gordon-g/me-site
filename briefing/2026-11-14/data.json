@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-14",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月8日 — 11月14日（最近 7 天）",
+ "range_en": "Nov 8 – Nov 14, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《自然综述·微生物学》：被忽视的小肠菌群，或是下一代活菌药的富矿",
+     "title_en": "Nature Reviews Microbiology: the overlooked small-intestine microbiome as a frontier for live biotherapeutics",
+     "url": "https://news.qq.com/rain/a/20261113A0ARIN00",
+     "source_zh": "腾讯新闻·热心肠日报",
+     "source_en": "Tencent News · Gut Microbiota Daily",
+     "date": "2026-11-13",
+     "summary_zh": "综述指出，小肠靠 2—5 小时快速转运、胆汁冲刷与相对高氧，养出以链球菌、韦荣球菌为主的特有菌群。双酶梭菌上调 DGAT2 促甘油三酯合成；乳酸菌苯乳酸经 PPARγ 减轻高脂与抗生素暴露小鼠增重；代谢物还刺激肠内分泌细胞释放 5-HT 与 GLP-1。作者称无创定位采样仍是活菌药落地的瓶颈。",
+     "summary_en": "The review notes that the small intestine's 2–5 hour transit, bile wash and relatively high oxygen shape a distinct community dominated by Streptococcus and Veillonella. Clostridium symbiosum upregulates DGAT2 to drive triglyceride synthesis; Lactobacillus-derived phenyllactic acid acts via PPARγ to limit weight gain in mice on high-fat diets or antibiotics; metabolites also trigger enteroendocrine release of serotonin and GLP-1. Non-invasive site-specific sampling remains the bottleneck for live biotherapeutics."
+    },
+    {
+     "title_zh": "瑞金医院《肠道》：福氏志贺菌诱导三级淋巴结构，把「免疫冷」肠癌变热",
+     "title_en": "Gut: Shigella flexneri induces tertiary lymphoid structures and turns cold colorectal tumors hot",
+     "url": "https://news.qq.com/rain/a/20261113A0A90600",
+     "source_zh": "腾讯新闻·热心肠日报",
+     "source_en": "Tencent News · Gut Microbiota Daily",
+     "date": "2026-11-13",
+     "summary_zh": "瑞金医院团队分析 72 例结直肠癌标本，发现三级淋巴结构富集者的埃希氏—志贺菌属显著增多，细菌正定位在 T、B 细胞包围的结构内。口服福氏志贺菌可在原位与自发肠癌小鼠中诱导该结构、抑制肿瘤，机制为激活 I 型干扰素，驱动树突状细胞分泌 CCL19/CXCL10、滤泡辅助 T 细胞分泌 CXCL13。",
+     "summary_en": "Analyzing 72 colorectal cancer specimens, Ruijin Hospital researchers found that tumors rich in tertiary lymphoid structures harbor more Escherichia–Shigella, with bacteria sitting inside T- and B-cell aggregates. Oral Shigella flexneri induced these structures and suppressed tumors in orthotopic and spontaneous mouse models by activating type I interferon, prompting dendritic cells to release CCL19/CXCL10 and follicular helper T cells to release CXCL13; depleting dendritic cells abolished the effect."
+    },
+    {
+     "title_zh": "安医大《肠道微生物》：单形拟杆菌分泌鸟氨酸，经 Sirt4 修复酒精性肝损伤",
+     "title_en": "Gut Microbes: Bacteroides uniformis secretes ornithine to repair alcohol-related liver injury via Sirt4",
+     "url": "https://news.qq.com/rain/a/20261114A05HIH00",
+     "source_zh": "腾讯新闻·热心肠日报",
+     "source_en": "Tencent News · Gut Microbiota Daily",
+     "date": "2026-11-14",
+     "summary_zh": "安徽医科大学团队报告，酒精性肝病患者粪便中单形拟杆菌显著减少；给清除菌群的小鼠补充活菌可降低转氨酶、减轻脂肪变与炎症，热灭活菌无效。活菌提升肠与肝内鸟氨酸，后者上调肝脏 Sirt4，恢复线粒体膜电位与嵴结构并平衡 OPA1；药理抑制 Sirt4 后保护作用消失，亚麻籽油可促该菌增殖。",
+     "summary_en": "Anhui Medical University researchers report that Bacteroides uniformis is depleted in patients with alcohol-related liver disease. Live bacteria, but not heat-killed ones, lowered transaminases and eased steatosis and inflammation in antibiotic-treated mice. Colonization raised intestinal and hepatic ornithine, which upregulated liver Sirt4, restoring mitochondrial membrane potential and cristae and balancing OPA1; pharmacological Sirt4 inhibition abolished protection. Dietary flaxseed oil promoted the strain and improved the phenotype."
+    },
+    {
+     "title_zh": "《研究》：糖尿病伴焦虑的「菌—丁酸—喹啉酸」轴，补产丁酸菌可缓解",
+     "title_en": "Research: a microbiota–butyrate–quinolinate axis drives anxiety in diabetes, eased by butyrate-producing bacteria",
+     "url": "https://news.qq.com/rain/a/20261114A06UC800",
+     "source_zh": "腾讯新闻·热心肠日报",
+     "source_en": "Tencent News · Gut Microbiota Daily",
+     "date": "2026-11-14",
+     "summary_zh": "陆军军医大学新桥医院等团队发现，促泌素基因敲除小鼠出现糖尿病并伴焦虑，无菌条件下焦虑消失，粪菌移植可转移。其肠、血、脑丁酸盐降低，前额叶 IDO1、KYNU 上调使喹啉酸蓄积，作为 NMDA 激动剂令锥体神经元过度兴奋。补充丁酸盐或定植产丁酸菌可抑制该通路、缓解焦虑。",
+     "summary_en": "A team at Xinqiao Hospital found that secretagogin-knockout mice develop diabetes with anxiety-like behavior that vanishes under germ-free conditions and transfers via fecal transplant. Butyrate fell in gut, blood and brain; prefrontal IDO1 and KYNU rose, accumulating quinolinate, which as an NMDA agonist overexcites pyramidal neurons. Butyrate supplementation or colonizing butyrate producers suppressed the pathway and eased anxiety; patients with diabetes and anxiety also had lower plasma butyrate."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《科学》把人类寿命遗传率上调至 55%：基因被低估，近一半仍可主动管理",
+     "title_en": "Science lifts the heritability of human lifespan to 55%, leaving nearly half open to active management",
+     "url": "https://news.qq.com/rain/a/20261114A04JJC00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-14",
+     "summary_zh": "一项发表于《科学》的分析把人类寿命的遗传率从此前估计的 20%—25% 上调到约 55%，意味着基因对寿命的影响长期被低估。研究者认为余下约 45% 由生活方式、医疗可及性、社会经济地位乃至细胞分裂的随机性决定，这为在痴呆与心血管病发生前做遗传分层与早期干预提供了依据，但强调遗传并非宿命。",
+     "summary_en": "An analysis in Science raises the heritability of human lifespan from earlier estimates of 20–25% to roughly 55%, suggesting genetics has long been underestimated. The remaining ~45% is attributed to lifestyle, access to care, socioeconomic status and even randomness in cell division. The authors say this supports genetic stratification and earlier intervention before dementia or cardiovascular disease appears, while stressing that genes are not destiny."
+    },
+    {
+     "title_zh": "MIT《自然·衰老》：老年人深睡时「洗脑」的脑脊液波明显变弱",
+     "title_en": "MIT in Nature Aging: brain-washing cerebrospinal fluid waves weaken with age during deep sleep",
+     "url": "https://news.mit.edu/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
+     "source_zh": "MIT News",
+     "source_en": "MIT News",
+     "date": "2026-11-13",
+     "summary_zh": "MIT 团队比较 18—39 岁与 60—84 岁受试者夜间约两小时的 fMRI 与脑电：年轻人进入非快速眼动睡眠后慢波增强、脑脊液波随之变大；老年人平均脑脊液波显著更小，且与慢波减弱相关，并非只是睡得少。神经血管耦合与屏气脑血流反应下降可解释部分差异，灰质萎缩越明显者降幅越大。",
+     "summary_en": "MIT researchers compared adults aged 18–39 and 60–84 during roughly two-hour nighttime fMRI and EEG sessions. In younger adults, non-REM slow waves strengthened and cerebrospinal fluid waves grew; in older adults CSF waves were significantly smaller, tied to weaker slow waves rather than simply less sleep. Reduced neurovascular coupling and blunted breath-hold blood-flow responses explained part of the gap, and greater gray-matter atrophy tracked with larger declines, though some older adults retained youthful flow."
+    },
+    {
+     "title_zh": "耶鲁《自然·医学》：二甲双胍、司美格鲁肽与饮食运动能测出「变年轻」，抗衰补剂不能",
+     "title_en": "Yale in Nature Medicine: metformin, semaglutide and diet plus exercise move epigenetic age; anti-aging supplements do not",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-13",
+     "summary_zh": "耶鲁团队汇总 51 项临床研究、110 余项 DNA 甲基化标志（含 16 个表观遗传时钟）发现：二甲双胍、司美格鲁肽与抗 TNF 药物，以及「健康饮食＋运动」能可测量地降低表观遗传年龄；受试的非处方抗衰补剂与部分医疗程序则未见显著效果。作者强调，标志物下降是否等于活得更久、更少得病仍未证实。",
+     "summary_en": "Pooling 51 clinical studies and more than 110 DNA methylation biomarkers including 16 epigenetic clocks, Yale researchers found that metformin, semaglutide and anti-TNF drugs, plus healthy diet combined with exercise, measurably lowered epigenetic age, whereas the over-the-counter anti-aging supplements and some medical procedures studied showed no meaningful effect. The authors stress it remains unproven that lower biomarker age means longer, healthier lives."
+    },
+    {
+     "title_zh": "上海银发科技产业周：「抗衰与长寿」专题会提出衰老存在关键拐点",
+     "title_en": "Shanghai silver-economy week: aging has critical tipping points, longevity panel says",
+     "url": "https://www.shobserver.com/staticsg/res/html/web/newsDetail.html?id=1213063",
+     "source_zh": "上观新闻",
+     "source_en": "Shanghai Observer",
+     "date": "2026-11-13",
+     "summary_zh": "11 月 12 日，2026 上海银发科技产业周「抗衰与长寿」专题会在漕河泾举行。复旦长寿与衰老研究所石雨江提出衰老并非匀速、存在关键拐点，须找到驱动通路才能精准检测干预；华东理工谢静莉的发酵食品益生菌已与闵行区中心医院合作临床；中科院陆炯明提醒饮食限制等干预到老年可能减弱。",
+     "summary_en": "At the aging and longevity session of the 2026 Shanghai silver-economy week on Nov 12, Shi Yujiang of Fudan's Institute of Longevity and Aging said aging is not linear but has critical tipping points, and only mapping driver pathways enables precise detection and intervention. Other speakers covered NADH and cellular damage, a fermented-food probiotic now in clinical study with Minhang Central Hospital, and the caveat that dietary restriction may lose benefit in old age."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《JAMA·肿瘤学》：鼻咽癌放化疗一开始就补营养，重度体重下降少 15 个百分点",
+     "title_en": "JAMA Oncology: starting oral nutrition at the outset of chemoradiation cuts severe weight loss by 15 points",
+     "url": "https://news.qq.com/rain/a/20261113A0B9WI00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-13",
+     "summary_zh": "中国 6 家三级医院联合开展的随机试验 11 月 12 日发表于《JAMA·肿瘤学》：236 例鼻咽癌同步放化疗患者中，从治疗开始即口服营养补充者疗程结束时体重下降超过 5% 的比例为 65.4%，等摄入连续 3 天低于需求 60% 才启动的常规组为 80.7%，相差 15.3 个百分点。",
+     "summary_en": "A randomized trial run by six Chinese tertiary hospitals, published Nov 12 in JAMA Oncology, enrolled 236 nasopharyngeal carcinoma patients undergoing concurrent chemoradiation. Those starting oral nutritional supplements at the outset had a 65.4% rate of losing more than 5% of body weight by end of treatment, versus 80.7% in the usual-care arm that waited until intake fell below 60% of needs for three days — a 15.3-point gap. The authors say support should not wait until patients cannot eat."
+    },
+    {
+     "title_zh": "16 周低脂纯植物饮食：2 型糖尿病患者肝内脂肪降 33%，胰岛素抵抗减半",
+     "title_en": "16 weeks of a low-fat vegan diet cut liver fat 33% and halved insulin resistance in type 2 diabetes",
+     "url": "https://news.qq.com/rain/a/20261113A08BBV00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-13",
+     "summary_zh": "耶鲁医学院与责任医师协会在《BMJ 糖尿病研究与治疗》发表 16 周试验：25 名 BMI 31.4 的 2 型糖尿病患者采用不限热量、吃到饱的低脂纯植物饮食。肝内脂肪由 8.8% 降至 5.4%（降 33%），内脏脂肪减 290 立方厘米，HOMA-IR 由 5.0 降至 2.5。样本小、无对照。",
+     "summary_en": "In a 16-week trial in BMJ Open Diabetes Research & Care, 25 adults with type 2 diabetes (mean duration 6.6 years, BMI 31.4) ate a low-fat vegan diet to satiety without calorie limits, about 75% of energy from carbohydrate and 10% from fat. Liver fat fell from 8.8% to 5.4% (-33%), visceral fat dropped 290 cm³, body weight fell 6.0 kg and HOMA-IR went from 5.0 to 2.5. The sample was small and uncontrolled."
+    },
+    {
+     "title_zh": "《临床营养》：脂肪肝多学科营养行为干预，七成患者减重超一成",
+     "title_en": "Clinical Nutrition: multidisciplinary nutrition-behavior intervention brings 10% weight loss to seven in ten MASLD patients",
+     "url": "https://hep.cmt.com.cn/detail/1472550.html",
+     "source_zh": "医学论坛网",
+     "source_en": "CMT Medical Tribune",
+     "date": "2026-11-13",
+     "summary_zh": "《临床营养》发表的随机对照试验纳入 286 例代谢相关脂肪性肝病患者，设三层强度：标准生活方式建议、加个体化营养与每月远程随访、再加认知行为疗法心理支持。18 个月时体重下降 ≥10% 的比例分别为 38.8%、50% 与 71.3%；完整多学科组肝硬度与受控衰减参数持续下降。",
+     "summary_en": "A randomized trial in Clinical Nutrition assigned 286 MASLD patients to three escalating intensities: standard lifestyle advice alone; plus individualized nutrition and monthly remote follow-up; or plus cognitive-behavioral psychological support. At 18 months, 38.8%, 50% and 71.3% respectively reached at least 10% weight loss. The full multidisciplinary arm also saw sustained falls in liver stiffness and controlled attenuation parameter, with an acute cardiovascular event hazard ratio of 0.36 in higher-risk patients."
+    },
+    {
+     "title_zh": "综述：营养表观遗传学离「指导生育与生殖衰老营养」还有多远",
+     "title_en": "Review: how far nutritional epigenetics is from guiding fertility and reproductive-aging nutrition",
+     "url": "https://www.ebiotrade.com/newsf/2026-11/20261113082224437.htm",
+     "source_zh": "生物通",
+     "source_en": "BioTrade",
+     "date": "2026-11-13",
+     "summary_zh": "一篇综述梳理营养表观遗传学与女性生殖健康：同一营养暴露会因遗传背景、代谢表型、年龄与激素环境产生不同反应，把人群关联转成临床可用的精准营养仍处早期。作者主张 DNA 甲基化＋转录组＋代谢组的多组学路径，但强调多数标志物在外周血测得，与卵巢、子宫内膜、胎盘的相关性不能假定。",
+     "summary_en": "A review examines nutritional epigenetics across the female reproductive lifespan, noting that the same dietary exposure produces different responses depending on genetic background, metabolic phenotype, age and hormonal milieu, and that translating population associations into clinical precision nutrition remains early. The authors advocate multi-omics combining DNA methylation, transcriptome and metabolome, but caution that most markers are measured in peripheral blood and cannot be assumed to reflect ovarian, endometrial or placental biology, so routine epigenetic testing is not yet supported."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "保健食品追溯码正式启用：扫码可查原料、备案功能与经销主体",
+     "title_en": "China activates a traceability code for health foods, exposing ingredients, approved claims and distributors",
+     "url": "https://www.ce.cn/cysc//sp/bwzg/202611/t20261113_3293570.shtml",
+     "source_zh": "中国经济网",
+     "source_en": "China Economic Net",
+     "date": "2026-11-13",
+     "summary_zh": "11 月 12 日，南宁 2026 特殊食品大会国家食检中心分会上，保健食品追溯码正式启用，这是该品类首次建立全链条统一追溯体系。消费者扫码可查原料来源、注册备案信息、允许声称的保健功能、适宜与不适宜人群、生产批次与经销主体。国家食检中心称，将以此推动婴幼儿配方食品、特医食品的追溯建设。",
+     "summary_en": "At the national food inspection center session of the 2026 Special Food Conference in Nanning on Nov 12, China officially activated a traceability code for health foods — the first full-chain unified system for the category. Scanning the code reveals ingredient origin, registration and filing details, permitted health claims, suitable and unsuitable populations, production batch and distributor, with an online feedback channel. The center said the system will accelerate traceability for infant formula and foods for special medical purposes."
+    },
+    {
+     "title_zh": "2026 特殊食品大会：协会提「五向发力」，AI 精准营养与全谷物成主线",
+     "title_en": "2026 Special Food Conference: industry body proposes five directions, with AI precision nutrition and whole grains in focus",
+     "url": "https://food.china.com.cn/2026-11/13/content_118773659.shtml",
+     "source_zh": "中国网食品",
+     "source_en": "China.com Food Channel",
+     "date": "2026-11-13",
+     "summary_zh": "2026 特殊食品大会 11 月 11 日在南宁举行。中国营养保健食品协会会长陈卫提出「五向发力」：向需而研、向新而强、向证而立、向链而聚、向海而兴，强调以循证数据夯实科学根基。张启发主张农医融合推进全谷物行动；谢明勇指出 AI 贯通配方设计与智能制造是精准营养落地路径；会上发布产业变革新书。",
+     "summary_en": "The 2026 Special Food Conference opened in Nanning on Nov 11. Association president Chen Wei proposed five directions — research for demand, strength through innovation, standing on evidence, clustering the supply chain and going global — stressing evidence-based science. Zhang Qifa argued for agriculture-medicine integration around whole grains, Xu Tao discussed AI and population cohorts, and Xie Mingyong framed AI-driven formulation and smart manufacturing as the route to precision nutrition. A new industry book was released and MOUs signed with Dutch and international special-dietary associations."
+    },
+    {
+     "title_zh": "娄底给药店划红线：委托 MCN 直播带货，主体责任不得外包",
+     "title_en": "Loudi warns pharmacies: live-streaming via MCN agencies does not outsource product liability",
+     "url": "https://amr.hnloudi.gov.cn/ldscj/07/202611/7c3c949d766e4f18906669ccc205c3f2.shtml",
+     "source_zh": "娄底市市场监督管理局",
+     "source_en": "Loudi Municipal Administration for Market Regulation",
+     "date": "2026-11-13",
+     "summary_zh": "湖南娄底市市场监管局 11 月 13 日向药店发出提醒函：委托 MCN 机构、主播开展直播带货与短视频科普的，主体责任不得外包，须事前审核脚本话术、留存直播回放与素材台账。保健食品广告需审查备案、不得宣称替代药品或治疗疾病；特医食品不得面向普通人群直播带货。",
+     "summary_en": "Loudi's market regulator issued a reminder letter to pharmacies on Nov 13: when commissioning MCN agencies or influencers for livestream selling and short-video science communication, primary responsibility cannot be outsourced, and scripts, replays and promotional materials must be pre-reviewed and archived. Health food ads need filing and may not claim to replace drugs or treat disease; foods for special medical purposes may not be livestreamed to general audiences; fake case studies and anxiety marketing are banned."
+    },
+    {
+     "title_zh": "每天 2 克猴头菇 8 周：109 人随机双盲试验显示注意力与睡眠改善",
+     "title_en": "2 g of lion's mane daily for 8 weeks: 109-person randomized trial shows better attention and sleep",
+     "url": "https://www.163.com/dy/article/LBJLAOFP05568W0A.html",
+     "source_zh": "网易·菌物科普",
+     "source_en": "NetEase · Fungi Science",
+     "date": "2026-11-13",
+     "summary_zh": "《营养学前沿》刊出一项随机双盲安慰剂对照试验：109 名 40—75 岁自报有认知困扰的成年人，每天补充 2 克猴头菇（子实体＋菌丝体）或安慰剂，持续 8 周。结果显示视觉注意力与工作记忆改善优于安慰剂，主观睡眠质量与情绪状态也更好，未报告不良事件。作者提示标准化制剂不等同于日常吃鲜菇。",
+     "summary_en": "Frontiers in Nutrition published a randomized, double-blind, placebo-controlled trial in which 109 adults aged 40–75 with self-reported cognitive complaints took 2 g of lion's mane (fruiting body plus mycelial biomass) or placebo daily for eight weeks. Visual attention and working memory improved more than placebo, as did subjective sleep quality, morning restorative feel and mood, with no adverse events reported. The authors note standardized extract is not the same as eating fresh mushrooms, and food cannot replace medication."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "江苏建成 208 个基层慢病筛防中心：筛查 555 万人次，「三高共管」覆盖 51 万人",
+     "title_en": "Jiangsu builds 208 primary-care chronic disease screening centers, screening 5.55 million and managing 511,300",
+     "url": "https://www.njqxq.gov.cn/qxzx/gzdt/202611/t20261113_6039246.html",
+     "source_zh": "南京市栖霞区人民政府",
+     "source_en": "Nanjing Qixia District Government",
+     "date": "2026-11-13",
+     "summary_zh": "江苏自 2024 年起把基层慢病筛防中心建设连续三年纳入省政府民生实事。全省已建成 208 个筛防中心，完成高血压、糖尿病等慢病筛查超 555 万人次、并发症筛查 151.51 万人次，为 51.13 万名患者提供「三高共管」一体化干预。南京栖霞迈皋桥社区门诊量同比增 39%，满意度超 96%。",
+     "summary_en": "Jiangsu has made primary-care chronic disease screening centers a provincial livelihood project for three consecutive years since 2024. It has now built 208 centers, screened more than 5.55 million people for hypertension, diabetes and related conditions plus 1.5151 million for complications, and provided integrated management of the three highs to 511,300 patients. The Maigaoqiao center in Nanjing's Qixia district saw roughly 50,000 visits this year, up 39% year on year, with satisfaction above 96%."
+    },
+    {
+     "title_zh": "联合国糖尿病日：广东「粤启蓝光」健康大巴跑完 9 市 1500 公里",
+     "title_en": "World Diabetes Day: Guangdong's mobile screening bus covers nine cities and 1,500 km",
+     "url": "https://www.nfnews.com/content/xovKEN4ZyJ.html",
+     "source_zh": "南方+",
+     "source_en": "Nanfang Plus",
+     "date": "2026-11-14",
+     "summary_zh": "11 月 13 日晚，广东省卫健委主办的「粤启蓝光，守护糖胖」活动在广州荔湾中心医院启动。今年健康大巴从汕头出发，覆盖 9 市、16 家医院接力、行程超 1500 公里，提供免费血糖、人体成分、肝弹性与眼底早筛，目标覆盖 30 万群众。专家强调体重每减 1 公斤，糖尿病风险明显下降。",
+     "summary_en": "On the evening of Nov 13, Guangdong's health commission launched its diabetes and obesity campaign in Guangzhou ahead of the 20th UN Diabetes Day. This year's mobile clinic bus started in Shantou and covered nine cities with 16 hospitals over more than 1,500 km, offering free glucose, body composition, liver stiffness, retinal and cognitive screening to a target of 300,000 residents. Chen Hong of the provincial diabetes center proposed knowing one's weight standard, weight change and management method, noting risk falls clearly with each kilogram lost."
+    },
+    {
+     "title_zh": "石家庄家医「这一年」：4331 支团队，并用声纹筛查老人认知障碍",
+     "title_en": "Shijiazhuang reviews a year of family doctors: 4,331 teams and voice-based cognitive screening",
+     "url": "https://wsjk.sjz.gov.cn/columns/d1ae9508-5b3d-4285-840f-90e8ed9694cb/202611/14/aaead209-4cde-4f3f-b21e-6d1ef3d3c271.html",
+     "source_zh": "石家庄市卫生健康委员会",
+     "source_en": "Shijiazhuang Municipal Health Commission",
+     "date": "2026-11-14",
+     "summary_zh": "11 月 14 日，石家庄市卫健委举办「家庭医生签约服务—我们这一年」活动。全市组建 4331 支「四位一体」家医团队，并在楼宇公示团队信息。现场启动主动健康试点：即日起至明年 1 月 20 日，在 4 家社区卫生服务中心用声纹技术为 65 岁以上老人做认知障碍快筛，2027 年扩至 20 家。",
+     "summary_en": "On Nov 14 Shijiazhuang's health commission held a review event for family doctor contracting. The city has divided service grids and formed 4,331 four-in-one family doctor teams, fixed the second Saturday of each month as a community visiting day and posted team details in residential buildings. An active-health pilot also launched: from now to Jan 20 next year, four community health centers will use voiceprint technology to screen and intervene for cognitive impairment in residents over 65, expanding to 20 centers in 2027."
+    },
+    {
+     "title_zh": "国家卫健委发布会：健康素养 33.69%，「0 蔗糖」「零添加」不等于更健康",
+     "title_en": "NHC briefing: health literacy at 33.69%, and zero sucrose or no additives does not mean healthier",
+     "url": "https://news.yunnan.cn/system/2026/11/13/034195223.shtml",
+     "source_zh": "云南网",
+     "source_en": "Yunnan.cn",
+     "date": "2026-11-13",
+     "summary_zh": "11 月 13 日国家卫健委发布会聚焦立冬健康与健康素养：我国居民健康素养 2025 年为 33.69%，距 2030 年 40% 目标仍有差距。专家提醒「0 蔗糖」只针对蔗糖、「零添加」不等于低糖低盐；新标签标准强制标示饱和脂肪与糖，2027 年 3 月 16 日起禁用「零添加」等用语。",
+     "summary_en": "A Nov 13 National Health Commission briefing focused on winter health and health literacy, which reached 33.69% in 2025, still short of the 40% target for 2030. Experts warned that zero sucrose covers only sucrose, no additives does not mean low sugar or salt, and non-fried does not mean low fat; the new labeling standard mandates saturated fat and sugar declarations and bans no-additive claims from March 16, 2027. COPD and diabetes day themes stress early diagnosis and early action."
+    }
+   ]
+  }
+ ]
+}
