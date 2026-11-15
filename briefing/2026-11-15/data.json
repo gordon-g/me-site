@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-15",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月9日 — 11月15日（最近 7 天）",
+ "range_en": "Nov 9 – Nov 15, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "Cancer Cell：甲硝唑三联方案提升 MSS 结直肠癌免疫治疗应答",
+     "title_en": "Cancer Cell: Metronidazole-based triplet boosts immunotherapy response in MSS colorectal cancer",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34479978",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-13",
+     "summary_zh": "仁济医院房静远团队在 Cancer Cell 发表多中心 2 期研究：具核梭杆菌阳性的 MSS 转移性结直肠癌，甲硝唑联合替雷利珠单抗与呋喹替尼三联方案抗肿瘤活性可观、毒性可控。甲硝唑在不大范围扰乱菌群的前提下降低该菌丰度，并增强 CD8⁺ T 细胞应答。",
+     "summary_en": "A multicentre phase 2 trial from Renji Hospital, published in Cancer Cell, combined metronidazole with tislelizumab and fruquintinib in Fusobacterium nucleatum-positive MSS metastatic colorectal cancer, showing meaningful antitumour activity with manageable toxicity. Metronidazole cut F. nucleatum without broad dysbiosis and enhanced CD8+ T-cell responses."
+    },
+    {
+     "title_zh": "npj Science of Food：藏茶经 TXNRD 依赖铁死亡与菌群重塑缓解溃疡性结肠炎",
+     "title_en": "npj Science of Food: Tibetan dark tea eases ulcerative colitis via TXNRD-dependent ferroptosis and microbiome remodelling",
+     "url": "https://www.nature.com/articles/s41538-026-01180-0",
+     "source_zh": "npj Science of Food（自然·食品科学）",
+     "source_en": "npj Science of Food (Nature Portfolio)",
+     "date": "2026-11-14",
+     "summary_zh": "四川农大团队在 npj Science of Food 以 DSS 小鼠结肠炎与上皮细胞铁死亡模型评估藏茶：减轻体重下降、便血与结肠缩短，抑制 NF-κB、增强 Nrf2 抗氧化，以硫氧还蛋白还原酶（TXNRD）为中介抑制铁死亡，并提升 Akkermansia 丰度、纠正色氨酸与亚油酸代谢紊乱。",
+     "summary_en": "A Sichuan Agricultural University team tested Tibetan dark tea in DSS mouse colitis and epithelial ferroptosis models. It reduced weight loss, bloody stool and colon shortening, suppressed NF-kB, boosted Nrf2 antioxidant defence and blocked ferroptosis via thioredoxin reductase (TXNRD), while raising Akkermansia and correcting tryptophan and linoleic acid disturbances."
+    },
+    {
+     "title_zh": "Gut Microbes：肠道代谢物吲哚-3-丙酸选择性抑制肝糖异生",
+     "title_en": "Gut Microbes: Gut metabolite indole-3-propionate selectively suppresses hepatic gluconeogenesis",
+     "url": "https://news.qq.com/rain/a/20261114A05MNQ00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "China Gut Daily via Tencent News",
+     "date": "2026-11-14",
+     "summary_zh": "希伯来大学 Sharabi 团队在 Gut Microbes 报告：色氨酸菌群代谢物吲哚-3-丙酸（IPA）选择性抑制丙酮酸/乳酸与谷氨酰胺驱动的肝糖异生，保留甘油通路。13C 示踪示其降低碳源进入糖异生与 TCA 循环，改变复合体 I 依赖的 NAD⁺/NADH 平衡，改善西方饮食小鼠空腹血糖。",
+     "summary_en": "Hebrew University's Sharabi group reported in Gut Microbes that the tryptophan metabolite indole-3-propionate (IPA) selectively blunts gluconeogenesis from pyruvate/lactate and glutamine while sparing glycerol. 13C tracing showed less carbon entering gluconeogenesis and the TCA cycle, altered complex I-dependent NAD+/NADH balance and suppressed CPS1 urea cycling, improving fasting glucose in Western-diet mice."
+    },
+    {
+     "title_zh": "Nature Medicine：移植后菌群多样性并非「一刀切」的预后指标",
+     "title_en": "Nature Medicine: Post-transplant microbiome diversity is no one-size-fits-all prognostic marker",
+     "url": "https://news.qq.com/rain/a/20261114A05DQK00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "China Gut Daily via Tencent News",
+     "date": "2026-11-14",
+     "summary_zh": "BMT CTN 1801 研究（Nature Medicine）：减低强度预处理者中，移植后菌群「支配事件」第 14 天达峰、约半数样本出现，但组间无差异且与结局无稳定关联。关键差异在次级胆汁酸代谢——具 7α/β-脱羟基能力的梭菌减少与慢性 GVHD 风险升高相关，菌群干预须围绕免疫抑制方案设计。",
+     "summary_en": "BMT CTN 1801 in Nature Medicine found that after reduced-intensity conditioning, microbiome dominance events peaked at day 14 in about half of samples without differing between arms or tracking outcomes. The key difference was secondary bile acid metabolism: fewer 7-alpha/beta-dehydroxylating Clostridia tracked with higher chronic GVHD risk, so microbiome interventions must fit the immunosuppression regimen."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "STTT：人参皂苷 Rb1 减轻子宫内膜基质细胞衰老、改善生殖衰老小鼠着床",
+     "title_en": "STTT: Ginsenoside Rb1 eases endometrial stromal senescence and improves implantation in aged mice",
+     "url": "https://www.163.com/dy/article/LBNCFML5051182D7.html",
+     "source_zh": "奇点网（网易号）",
+     "source_en": "Singularity Net via NetEase",
+     "date": "2026-11-14",
+     "summary_zh": "北医三院于洋、李蓉团队在 STTT 报告：人参皂苷 Rb1 激活 AMPK、抑制 mTOR 与 NF-κB 炎症信号，降低 40–45 岁女性子宫内膜基质细胞的活性氧、p16/p21 与凋亡。10 月龄小鼠腹腔注射两周后着床点与活产仔数增加，容受性蛋白回升，但仍未回到年轻水平。",
+     "summary_en": "Yu Yang and Li Rong's team at Peking University Third Hospital reported in STTT that ginsenoside Rb1 activates AMPK and suppresses mTOR and NF-kB signalling, lowering ROS, p16/p21 and apoptosis in endometrial stromal cells from women aged 40-45. Two weeks of Rb1 in 10-month-old mice raised implantation sites and live pups, with receptivity proteins recovering but still below young levels."
+    },
+    {
+     "title_zh": "急性病毒感染可能在症状消失后留下免疫系统隐性损伤",
+     "title_en": "Acute viral infection may leave hidden immune damage long after symptoms fade",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-13",
+     "summary_zh": "ScienceDaily 报道一项小鼠研究：从急性感染中恢复的动物在症状消失后仍出现免疫系统隐性损伤，提示病毒影响可能比临床康复时点更持久，研究者认为疫苗预防或可减轻此类遗留损害。结果来自动物模型，不能直接推及人群，但为感染与免疫衰老的关联提供机制线索。",
+     "summary_en": "ScienceDaily reported a mouse study in which animals recovering from acute infection showed hidden immune damage after symptoms resolved, suggesting viral effects outlast clinical recovery; the researchers note vaccination may reduce such residual damage. The findings are from an animal model and cannot be extrapolated directly to people, but they add a mechanistic clue to infection and immune ageing."
+    },
+    {
+     "title_zh": "高压氧抗衰的人体证据链：1.99ATA 剂量设定与《Immunity & Ageing》临床研究",
+     "title_en": "Hyperbaric oxygen for ageing: 1.99 ATA dosing and a human trial in Immunity & Ageing",
+     "url": "https://caijing.iqilu.com/cjzx/2026/1114/5961564.shtml",
+     "source_zh": "齐鲁网财经",
+     "source_en": "Qilu Net Finance",
+     "date": "2026-11-14",
+     "summary_zh": "齐鲁网报道海龟医疗在进博会展示高压氧舱，主打 1.99ATA 接近临床剂量的压力设定与医用级承压设计。企业称其联合中国医科大学及附属第一医院开展的 HBOT 抗衰人体临床研究于 2026 年刊发于《Immunity & Ageing》，并提示单一研究不足为结论，使用须遵专业指导。",
+     "summary_en": "Qilu Net reported a hyperbaric chamber maker showcasing a 1.99 ATA device close to clinical dosing with medical-grade pressure containment. Company disclosures say a human trial of hyperbaric oxygen for ageing with China Medical University and its first hospital appeared in Immunity & Ageing in 2026; the report cautions that one study is not conclusive and use should follow professional guidance."
+    },
+    {
+     "title_zh": "健康老龄化会议：24 项可干预因素构建「健康活力年龄」评估",
+     "title_en": "Healthy ageing conference: 24 modifiable factors underpin a 'health vitality age' score",
+     "url": "https://www.cnhfa.org.cn/index/xhdt/show?id=11172&lang=zh-cn",
+     "source_zh": "中国营养保健食品协会",
+     "source_en": "China Nutrition and Health Food Association",
+     "date": "2026-11-14",
+     "summary_zh": "中国营养保健食品协会健康老龄化会议上，中国疾控中心刘江美团队介绍健康活力年龄模型：纳入行为膳食、代谢、环境等 24 项可干预危险因素，面向全年龄段成人评估，把复杂风险转译为直观的健康活力年龄，量化生活方式改善的健康寿命收益。同场还讨论口服营养与皮肤健康、AI 筛选抗衰成分。",
+     "summary_en": "At the China Nutrition and Health Food Association's healthy ageing conference, Liu Jiangmei's team from the Chinese CDC presented a health vitality age model covering 24 modifiable factors across behaviour, diet, metabolism and environment. It scores adults of all ages and converts complex risk into an intuitive vitality age, quantifying healthy-life gains from lifestyle change. Sessions also covered oral nutrition for skin health and AI ingredient screening."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "瑞金医院发布七项代谢健康成果：器官年龄评估与「江南瑞餐」个性化膳食",
+     "title_en": "Ruijin Hospital unveils seven metabolic health advances, from organ-age scoring to a personalised Jiangnan meal plan",
+     "url": "https://news.qq.com/rain/a/20261114A07OOW00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-14",
+     "summary_zh": "瑞金医院与国家内分泌代谢病临床医学研究中心发布七项代谢健康成果：数字化系统整合检验、影像、病史与随访数据，可评估器官年龄及肿瘤、心血管代谢风险；「江南瑞餐」基于江南饮食模式循证研究，联合蚂蚁健康以饮食智能体记录摄入并给出个性化膳食指导，落到一日三餐。",
+     "summary_en": "Ruijin Hospital and the national endocrine and metabolic disease centre released seven advances: a digital system integrating lab, imaging, history and follow-up data to score organ age and tumour and cardiometabolic risk, and the Jiangnan meal plan, built on evidence for the Jiangnan diet and paired with Ant Health's diet agent to log intake and give personalised guidance at everyday meals."
+    },
+    {
+     "title_zh": "2500 余名男性数据：蛋白来源与睾酮水平出现分化",
+     "title_en": "Data on 2,500+ men: protein source linked to differing testosterone levels",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261111005845.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-12",
+     "summary_zh": "ScienceDaily 报道一项 2500 余名男性研究：动物蛋白摄入较高、尤其乳制品，与较低睾酮水平相关。研究为观察性设计，只提示关联而非因果，也不代表植物蛋白必然提升睾酮。结果提示讨论男性激素与代谢时，蛋白的「来源结构」应与总量一并考量，仍需干预试验验证。",
+     "summary_en": "ScienceDaily reported a study of over 2,500 men in which higher animal protein intake, especially dairy, was associated with lower testosterone. The design is observational, showing association rather than causation, and does not mean plant protein raises testosterone. Protein source may deserve consideration alongside total intake in male hormonal health, pending intervention trials."
+    },
+    {
+     "title_zh": "近 5 万人 NHANES 分析：每日多吃 1 盎司豆类，心脏代谢疾病风险低 19%",
+     "title_en": "NHANES analysis of nearly 50,000 adults: one extra ounce of pulses daily linked to 19% lower cardiometabolic risk",
+     "url": "https://www.163.com/dy/article/LBLJKVKK0553V8H7_pdya11y.html",
+     "source_zh": "网易号健康",
+     "source_en": "NetEase Health",
+     "date": "2026-11-14",
+     "summary_zh": "基于美国全国代表性样本 NHANES（1999–2018）的分析显示，成人每日多摄入 1 盎司当量豆类，心脏代谢疾病患病率低约 19%。作者指出横断面设计无法推断因果、自报膳食或有测量误差，但结果支持把干豆、豌豆、扁豆与鹰嘴豆作为改善心脏代谢健康的膳食策略。",
+     "summary_en": "An analysis of the nationally representative NHANES sample (1999-2018) found each additional ounce-equivalent of pulses daily associated with about 19% lower cardiometabolic disease prevalence. The authors note the cross-sectional design cannot establish causation and self-reported diet may carry error, but the results support pulses as a dietary strategy for cardiometabolic health."
+    },
+    {
+     "title_zh": "第 23 届中国国际保健博览会：营养抗衰科技大会聚焦生物智造与食药同源",
+     "title_en": "23rd China International Health Expo: nutrition and anti-ageing summit spotlights biomanufacturing and medicinal foods",
+     "url": "https://hea.china.com/articles/20261114/202611141978549.html",
+     "source_zh": "中华网",
+     "source_en": "China.com",
+     "date": "2026-11-14",
+     "summary_zh": "第 23 届中国国际保健博览会 11 月 13–15 日在厦门举行。13 日起密集召开 2026 营养抗衰科技大会、保健食品产业高质量发展大会；14 日营养健康食品大会设益生菌、功能食品、运动营养专场，抗衰科技大会另设生物智造、食药同源、AI 赋能专题，产业供给正向全龄日常健康管理延伸。",
+     "summary_en": "The 23rd China International Health Expo ran in Xiamen from 13 to 15 November. From the 13th it hosted the 2026 nutrition and anti-ageing science summit and a health food industry conference; on the 14th the nutrition and health food congress ran probiotics, functional food and sports nutrition tracks, while the summit covered biomanufacturing, medicinal foods and AI."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "普通鱼油糖果被宣传为保健食品，句容公布直播带货违规案例",
+     "title_en": "Fish-oil candy marketed as a health food: Jurong publishes livestream violation case",
+     "url": "https://www.yzwb.net/news/jiangsu/202611/t20261114_412316.html",
+     "source_zh": "扬子晚报",
+     "source_en": "Yangtse Evening Post",
+     "date": "2026-11-14",
+     "summary_zh": "镇江市场监管部门公布网络食品虚假宣传第二批典型案例：句容某公司合作账号推广「鱼油凝胶糖果（无糖）」时，把未取得保健食品资质的普通食品列入保健食品榜，暗示改善记忆、调节血脂，并以短视频暗示减肥。认定属引人误解宣传，因初犯、危害轻微且及时改正，不予处罚、以整改替代惩戒。",
+     "summary_en": "Zhenjiang regulators published a second batch of cases against false online food claims. A partner account promoting sugar-free fish-oil gel candy, an ordinary food without health-food registration, ranked it among health foods, implied memory and lipid benefits and hinted at weight loss in videos. Deemed misleading promotion, it drew no penalty as a first, minor and corrected offence."
+    },
+    {
+     "title_zh": "抗性淀粉联合车前子纤维复方改善 IBS 患者菌群且不加重症状",
+     "title_en": "Resistant starch plus psyllium blend improves gut microbiota in IBS without worsening symptoms",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-14",
+     "summary_zh": "伊迪斯科文大学开展随机双盲对照试验，测试抗性淀粉加车前子壳的纤维复方用于坚持低 FODMAP 饮食的肠易激综合征患者：腹痛、腹胀、腹泻或便秘均未加重，肠道菌群组成明显改善，肠道相关焦虑下降。研究者认为车前子延缓抗性淀粉被菌群分解，使其抵达结肠更深处。",
+     "summary_en": "Edith Cowan University ran a randomised double-blind trial of a resistant starch plus psyllium husk blend in IBS patients on a low-FODMAP diet. Pain, bloating, diarrhoea and constipation did not worsen, microbiota composition improved markedly and gut-related anxiety fell. The team suggests psyllium slows bacterial breakdown of resistant starch so more reaches deeper colon regions."
+    },
+    {
+     "title_zh": "2026 特殊食品大会收官：体重管理专家共识与活性叶酸共识发布",
+     "title_en": "2026 Special Food Conference closes with expert consensus on weight management and active folate",
+     "url": "https://www.cnhfa.org.cn/index/xhdt/show?id=11168&lang=zh-cn",
+     "source_zh": "中国营养保健食品协会",
+     "source_en": "China Nutrition and Health Food Association",
+     "date": "2026-11-14",
+     "summary_zh": "2026 特殊食品大会在南宁收官，发布《膳食营养与体重管理专家共识》《(6S)-5-甲基四氢叶酸调研与共识》，以及《中国特殊食品在技术融合创新发展驱动下的产业变革》和 A1/A2 β-酪蛋白检测团体标准。协会与荷兰乳业协会、国际特殊膳食协会签署合作备忘录，同期展出 55 篇学术壁报。",
+     "summary_en": "The 2026 Special Food Conference closed in Nanning with an expert consensus on dietary nutrition and weight management and a review and consensus on (6S)-5-methyltetrahydrofolate, plus a report on technology-driven industry change and a group standard for A1/A2 beta-casein testing. The association signed memoranda with Dutch dairy and international special dietary food bodies; 55 posters were shown."
+    },
+    {
+     "title_zh": "达能、eimele、资生堂领衔：亚太营养品上新转向细分人群",
+     "title_en": "Danone, eimele and Shiseido lead Asia-Pacific supplement launches toward niche audiences",
+     "url": "https://www.nutraingredients.com/Article/2026/11/13/brand-new-danone-eimele-shiseido-in-the-spotlight/",
+     "source_zh": "NutraIngredients Asia",
+     "source_en": "NutraIngredients Asia",
+     "date": "2026-11-13",
+     "summary_zh": "NutraIngredients Asia 汇总近期亚太新品，达能、澳洲植物基品牌 eimele 与资生堂同台，显示营养品上新正从广谱覆盖转向按人群与场景细分。报道将三者并列比较，反映在货架竞争加剧、消费者要求循证的背景下，品牌更倾向以人群定位、剂型便利与成分配伍建立差异，而非扩充 SKU。",
+     "summary_en": "NutraIngredients Asia rounded up recent Asia-Pacific launches from Danone, Australian plant-based brand eimele and Shiseido, showing a shift from broad coverage to audience- and occasion-specific positioning. Comparing the three, the report suggests that with crowded shelves and demand for evidence, brands favour clear target groups, convenient formats and considered ingredient combinations over more SKUs."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "联合国糖尿病日：从「管血糖」转向「管健康」",
+     "title_en": "UN Diabetes Day: shifting from glucose control to whole-person health management",
+     "url": "https://www.workercn.cn/c/2026-11-14/8940355.shtml",
+     "source_zh": "工人日报",
+     "source_en": "Workers' Daily",
+     "date": "2026-11-14",
+     "summary_zh": "中国健康促进基金会在北京举办 2026 年联合国糖尿病日科普活动，主题为「糖尿病：早发现，早行动」，发布健康知识传播激励计划工具包，倡导知晓高危因素、筛查风险、主动健康管理、保持健康体重、综合达标五项行动。与会者指出依从性直接影响结局，创新药进入 2026 版基药目录后加速下沉。",
+     "summary_en": "The China Health Promotion Foundation held a Beijing event for UN Diabetes Day 2026 under the theme detect early, act early, releasing a toolkit urging five actions: know risk factors, screen, manage proactively, keep a healthy weight and meet composite targets. Speakers stressed adherence shapes outcomes, and that innovative drugs are reaching communities faster after joining the 2026 essential medicines list."
+    },
+    {
+     "title_zh": "北京推广「专科医师定方案＋个案管理师＋家庭医生」糖尿病全程管理",
+     "title_en": "Beijing rolls out three-tier diabetes management: specialist plan, case manager, family doctor",
+     "url": "https://news.qq.com/rain/a/20261114A0DQJ800",
+     "source_zh": "北京新闻（腾讯新闻）",
+     "source_en": "Beijing News via Tencent News",
+     "date": "2026-11-14",
+     "summary_zh": "北京逐步推广糖尿病全程管理新模式：清华长庚医院与天通苑北社区卫生服务中心联动，构建「专科医师定方案、个案管理师抓统筹、家庭医生管日常」三位一体机制，已规范管理患者 2000 余人。报道引述营养师建议：控糖不必戒主食，粗细搭配、控总量，按蔬菜—蛋白—主食顺序进食，蔬菜占餐盘一半。",
+     "summary_en": "Beijing is spreading whole-course diabetes management: Tsinghua Changgung Hospital and Tiantongyuan North community health centre built a three-tier model where specialists set plans, case managers coordinate and family doctors handle daily follow-up, with over 2,000 patients managed. A dietitian advises mixing coarse and refined grains, controlling portions and eating vegetables, then protein, then staples, with half the plate vegetables."
+    },
+    {
+     "title_zh": "密苏里大学：老年人保持规律作息与更少疼痛、更低抑郁相关",
+     "title_en": "University of Missouri: consistent daily routines linked to less pain and depression in older adults",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-14",
+     "summary_zh": "ScienceDaily 报道密苏里大学研究：保持每日作息规律的老年人报告的身体疼痛更少、情绪状态更好。研究把「作息一致性」这一低成本、可自我管理的日常行为与躯体和心理双维度结局联系起来，提示老年健康管理除运动与膳食外，睡眠与活动时间的稳定安排也应纳入常规评估。属观察性证据。",
+     "summary_en": "ScienceDaily reported a University of Missouri study finding older adults with consistent daily schedules reported less pain and better mood. The work links routine consistency, a low-cost self-manageable behaviour, to physical and psychological outcomes, suggesting stable timing of sleep and activity belongs in routine geriatric assessment. The evidence is observational."
+    },
+    {
+     "title_zh": "上海奉贤：老年人体检加做一项糖化血红蛋白，筛出 1.6 万例隐匿高血糖",
+     "title_en": "Shanghai Fengxian: adding one HbA1c test to elderly checkups finds 16,000 hidden hyperglycaemia cases",
+     "url": "https://www.163.com/dy/article/LBN4GB6V0514BN8F.html",
+     "source_zh": "网易号（美谷奉贤）",
+     "source_en": "Meigu Fengxian via NetEase",
+     "date": "2026-11-14",
+     "summary_zh": "上海奉贤在老年人体检中增加糖化血红蛋白检测，覆盖约 15 万人，筛出 1.6 万例此前未发现的隐匿高血糖。区里构建「筛查—复核—转诊—干预—随访」链条，将糖化血红蛋白≥9% 且无管理记录的 1793 人列为优先复核，由家庭医生联合专科联盟定个体化方案，并对糖尿病前期高危人群做饮食运动干预。",
+     "summary_en": "Fengxian district in Shanghai added HbA1c to elderly checkups, covering about 150,000 residents and finding 16,000 previously undetected hidden hyperglycaemia cases. It built a screen, verify, refer, intervene and follow-up chain, prioritising 1,793 people with HbA1c of 9% or above for review, with family doctors and specialist alliances setting individualised plans and lifestyle intervention for high-risk prediabetes."
+    }
+   ]
+  }
+ ]
+}
