@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-18",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月12日 — 11月18日（最近 7 天）",
+ "range_en": "Nov 12 – Nov 18, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "高脂饮食「吃多久」决定它帮人还是伤人：一条「菌—L-哌啶酸—催产素」环路被画清",
+     "title_en": "How long a high-fat diet lasts decides whether it helps or hurts: the microbe–L-pipecolic acid–oxytocin circuit mapped",
+     "url": "https://www.163.com/dy/article/LC0LVB470532BT7X.html",
+     "source_zh": "生物世界（网易号）",
+     "source_en": "BioWorld via NetEase",
+     "date": "2026-11-17",
+     "summary_zh": "中国药科大学郝海平、郑啸、徐小为团队与东南大学附属中大医院张学丽、袁勇贵合作，11月17日在《细胞·代谢》在线发表：小鼠短期（3周）高脂饮食反而提升抗应激韧性，长期（15周）则相反。菌群代谢物 L-哌啶酸经 Fth1 调控下丘脑室旁核催产素神经元与下游外侧隔区 GABA 环路，定植 Alistipes dispar 可改善社交行为。",
+     "summary_en": "A team from China Pharmaceutical University (Hao Haiping, Zheng Xiao, Xu Xiaowei) with Zhongda Hospital of Southeast University published in Cell Metabolism on Nov 17: in mice, three weeks of high-fat feeding increased stress resilience while fifteen weeks did the opposite. The microbial metabolite L-pipecolic acid acts via Fth1 on oxytocin neurons in the hypothalamic paraventricular nucleus and a downstream lateral septal GABA circuit, and colonising Alistipes dispar improved social behaviour."
+    },
+    {
+     "title_zh": "百岁老人的胆汁酸「脱偶联」更强：工程菌增强 BSH 活性可改善老年小鼠代谢",
+     "title_en": "Centenarians show stronger bile-acid deconjugation: an engineered microbe boosting BSH improves metabolism in old mice",
+     "url": "https://news.qq.com/rain/a/20261117A066EF00",
+     "source_zh": "生物世界（腾讯新闻）",
+     "source_en": "BioWorld via Tencent News",
+     "date": "2026-11-17",
+     "summary_zh": "加州大学圣地亚哥分校团队11月16日在《细胞·代谢》发表：衰老小鼠肠道胆汁盐水解酶（BSH）转录活性升高、牛磺酸结合型胆汁酸脱偶联增强，更像保护性适应而非衰退；48名年轻成人、107名老年人与125名百岁老人数据中，百岁老人同样呈现该特征。给82周龄小鼠单次定植产 BSH 工程菌，20周后胰岛素敏感性明显改善。",
+     "summary_en": "A UC San Diego team reported in Cell Metabolism on Nov 16 that aged mice show higher bile salt hydrolase (BSH) transcriptional activity and increased deconjugation of taurine-conjugated bile acids — apparently a protective adaptation rather than decline. Data from 48 young adults, 107 older adults and 125 centenarians showed the same signature in centenarians. A single colonisation of an engineered BSH-producing commensal in 82-week-old mice markedly improved insulin sensitivity after about 20 weeks."
+    },
+    {
+     "title_zh": "北大国际论坛设「功能医学临床应用」培训班：把长寿医学落成可执行路径",
+     "title_en": "Peking University forum runs hands-on functional medicine training to make longevity medicine actionable",
+     "url": "https://www.bjchp.gov.cn/cpqzf/ywdt26/cpkx/2026111714174533639/index.html",
+     "source_zh": "北京市昌平区人民政府",
+     "source_en": "Beijing Changping District Government",
+     "date": "2026-11-17",
+     "summary_zh": "健康长寿与生活方式医学北大国际论坛近日在昌平举办，由北大医疗集团与北京大学国际医院主办。会上成立「健康中国生活方式医学30人论坛」智库，发布健康长寿医学北大国际论坛倡议；并开设《功能医学在临床中的应用》手把手培训班，围绕长寿医学临床路径、体重管理、脑健康维护做实战教学，研讨「十五五」主动健康规划。",
+     "summary_en": "The Peking University International Forum on Health Longevity and Lifestyle Medicine, hosted by PKU Health Care Group and Peking University International Hospital, was held in Changping. It launched a 30-member lifestyle medicine think tank, issued a longevity medicine initiative, and ran a hands-on training course on applying functional medicine in clinical practice covering longevity clinical pathways, weight management and brain health, alongside discussion of the 15th Five-Year Plan for proactive health."
+    },
+    {
+     "title_zh": "肝硬化患者肠屏障一破，饮水里的环境细菌也能「搬进」肝脏加重纤维化",
+     "title_en": "When the gut barrier fails in cirrhosis, environmental bacteria from drinking water can move into the liver and worsen fibrosis",
+     "url": "https://news.qq.com/rain/a/20261117A08SUC00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Daily Gut via Tencent News",
+     "date": "2026-11-17",
+     "summary_zh": "《热心肠日报》11月17日介绍的一项研究显示：肠道屏障受损后，饮水中非共生环境菌（如 A. magnusonii）及其 DNA 可穿过上皮移位入肝，激活肝星状细胞分泌胶原，促纤维化并推高门静脉压力；代谢相关脂肪性肝炎模型小鼠灌胃细菌 DNA 后，肝胶原沉积面积显著增加。提示慢性肝病病因溯源应把环境致病菌纳入筛查。",
+     "summary_en": "A study highlighted by Daily Gut on Nov 17 shows that once the intestinal barrier is compromised, non-commensal environmental bacteria from drinking water (such as A. magnusonii) and their DNA can translocate into the liver, activate hepatic stellate cells to produce collagen, promote fibrosis and raise portal pressure. In a MASH mouse model, gavaging bacterial DNA significantly increased hepatic collagen deposition, suggesting environmental pathogens should enter screening for chronic liver disease."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "长寿门诊跑了两年：先查「衰」再谈抗衰，端粒与衰老时钟不能神化",
+     "title_en": "Two years into a longevity clinic: screen for functional decline first, and don't mythologise telomeres or ageing clocks",
+     "url": "https://news.qq.com/rain/a/20261118A05FDO00",
+     "source_zh": "上观新闻",
+     "source_en": "Shanghai Observer",
+     "date": "2026-11-18",
+     "summary_zh": "上海曜影医疗在2026国际健康论坛披露其长寿医学门诊运行情况：以循证为原则，联合复旦大学长寿与衰老研究所，用基因测序、早癌筛查与 DNA 甲基化评估衰老趋势，聚焦心血管、脑健康、肿瘤三域。复旦石雨江提醒，端粒检测与表观遗传时钟只能反映趋势、不可神化；NMN、所谓干细胞抗衰与延端粒均缺严格临床验证。",
+     "summary_en": "Shanghai Yueying Healthcare presented its longevity clinic at the 2026 international health forum: evidence-based, working with Fudan's Institute on Longevity and Aging, it uses gene sequencing, early cancer screening and DNA methylation to track ageing trends, focusing on cardiovascular, brain and cancer risk. Fudan's Shi Yujiang cautioned that telomere tests and epigenetic clocks only show trends, and that NMN, so-called stem-cell anti-ageing and telomere extension all lack rigorous clinical validation."
+    },
+    {
+     "title_zh": "「基因决定一半，另一半靠自己」：华东医院院长拆解百岁老人共性",
+     "title_en": "Genes set half the ceiling, the rest is up to you: East China Hospital chief on what centenarians share",
+     "url": "https://news.qq.com/rain/a/20261118A05FE300",
+     "source_zh": "新民晚报（腾讯新闻）",
+     "source_en": "Xinmin Evening News via Tencent News",
+     "date": "2026-11-18",
+     "summary_zh": "华东医院院长保志军受访提出「长寿公式」：基因约决定50%的寿命可能性，其余近50%靠后天。他观察到百岁老人共性是兴趣广、心态豁达、人际和睦、饮食多样。老年人饮食宜高蛋白、低碳水、低脂肪，覆盖蔬菜水果坚果豆类鱼类奶类六类；清淡不等于寡淡，核心是控盐控油；并要警惕肌少症，睡眠7—8小时、11点前就寝。",
+     "summary_en": "Bao Zhijun, president of East China Hospital, offered a longevity equation: genes set roughly half of lifespan potential, the other half is up to behaviour. Centenarians he has met shared broad interests, an easy temperament, good relationships and varied diets. Older adults should favour higher protein, lower carbohydrate and low fat across six food groups; light eating means cutting salt and oil, not eating blandly; sarcopenia needs watching, with seven to eight hours of sleep and bedtime before 11pm."
+    },
+    {
+     "title_zh": "老年医学中心三周年论坛：把长寿医学与抗衰研究接进区域老年健康服务",
+     "title_en": "Geriatric centre's third-anniversary forum plugs longevity and ageing research into regional elderly care",
+     "url": "https://feng.ifeng.com/c/8y7jZVTujKD",
+     "source_zh": "东方网（凤凰网转载）",
+     "source_en": "Eastday via ifeng",
+     "date": "2026-11-17",
+     "summary_zh": "第三届老年健康创新与发展论坛日前在上海举行，由上海市老年医学中心与上海市医院协会主办，恰逢该中心开业三周年。论坛设区域老年健康高质量发展、人工智能赋能老年健康、长寿医学与抗衰研究等主题；上海要求对标《2026年上海市老龄健康和慢性病防治工作要点》，深化整合式照护、把多学科 MDT 常态化，并提升老年综合评估智能工具的可及性。",
+     "summary_en": "The third Elderly Health Innovation and Development Forum was held in Shanghai, hosted by the Shanghai Geriatric Medical Centre and the Shanghai Hospital Association as the centre marked three years. Sessions covered regional elderly care quality, AI-enabled geriatric health, and longevity medicine and ageing research. Shanghai asked the centre to align with its 2026 ageing and chronic disease work priorities, deepen integrated care, make multidisciplinary teams routine and widen access to smart comprehensive geriatric assessment tools."
+    },
+    {
+     "title_zh": "《2026中国临床医学研究发展报告》：衰老干预三条主路径，中国论文量全球第二",
+     "title_en": "China's 2026 clinical research report: three main routes for ageing intervention, and China now ranks second in publication volume",
+     "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzk5MjY5NA==&mid=2247667964&idx=3&sn=31ef1b76272e0eed1ac035737496d90d&chksm=f8afd14e3cda9c746685b484fee5c080d3389490372995c1cdc6b07ed2e9434fb702cb16dc29&scene=27",
+     "source_zh": "丁香学术",
+     "source_en": "DXY Scholar",
+     "date": "2026-11-17",
+     "summary_zh": "中国生物技术发展中心发布《2026中国临床医学研究发展报告》，把「衰老与衰老干预」列为年度核心热点：干预路径分为代谢网络（mTOR、AMPK，雷帕霉素与二甲双胍老药新用）、靶向衰老细胞（senolytics 与 senomorphics）及部分细胞重编程（ER-100 已进 I 期临床）；AI 与线虫、果蝇、短寿鳉鱼等模型加速初筛。2016—2025年我国相关论文约21万篇，占全球15.25%，居第二。",
+     "summary_en": "China's National Centre for Biotechnology Development released the 2026 China Clinical Medical Research Development Report, naming ageing and ageing intervention a core annual topic. Intervention routes fall into metabolic-network targeting (mTOR and AMPK, repurposing rapamycin and metformin), senolytics and senomorphics, and partial cellular reprogramming, with ER-100 already in a phase I trial for optic nerve disease; AI plus worms, flies and short-lived killifish speed early screening. China published about 210,000 papers from 2016 to 2025, 15.25% of the world total and second overall."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "34万人数据：同样「少量喝」，葡萄酒与啤酒烈酒的心血管死亡方向相反",
+     "title_en": "340,000 adults: at the same low intake, wine and beer or spirits point in opposite directions for cardiovascular death",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261116015104.htm",
+     "source_zh": "ScienceDaily（美国心脏病学会年会）",
+     "source_en": "ScienceDaily (ACC Annual Scientific Session)",
+     "date": "2026-11-16",
+     "summary_zh": "中南大学湘雅二院陈章玲团队基于 UK Biobank 340924 名成人、平均随访13年余的数据，在美国心脏病学会年会报告：重度饮酒者全因死亡风险高24%、癌症死亡高36%；但在低至中等量时饮酒种类出现分化——葡萄酒饮用者心血管死亡低21%，同等量的啤酒、苹果酒或烈酒则高9%。研究为观察性，不能证明换酒种即可改变风险。",
+     "summary_en": "Using UK Biobank data on 340,924 adults followed for more than 13 years on average, Zhangling Chen's team at the Second Xiangya Hospital of Central South University reported at the American College of Cardiology meeting that heavy drinkers had 24% higher all-cause mortality and 36% higher cancer mortality. At low-to-moderate intake the beverage mattered: wine drinkers had 21% lower cardiovascular mortality, while comparable beer, cider or spirits intake was linked to 9% higher risk. The study is observational."
+    },
+    {
+     "title_zh": "亚洲各地的「饮食元凶」并不相同：结直肠癌防癌膳食不能一套标准走到底",
+     "title_en": "Different dietary culprits across Asia: colorectal cancer prevention cannot follow a single dietary template",
+     "url": "https://news.bioon.com/article/330296492592.html",
+     "source_zh": "生物谷",
+     "source_en": "Bioon",
+     "date": "2026-11-17",
+     "summary_zh": "《iScience》刊出基于全球疾病负担数据的研究：亚洲各地饮食相关结直肠癌负担差异明显，高收入亚太地区居亚洲首位；全谷物与牛奶摄入不足是核心风险因素，而不是同一套「致癌饮食」。作者据此提出，防癌膳食不宜一套标准走到底，应按地区饮食结构推行差异化策略，为精准营养的区域化配方提供依据。",
+     "summary_en": "A study in iScience using Global Burden of Disease data found that the dietary burden of colorectal cancer varies markedly across Asia, with high-income Asia Pacific ranking highest in the region. Insufficient whole-grain and milk intake emerged as core risk factors rather than one uniform culprit diet. The authors argue that cancer-prevention eating advice should be region-specific, giving a basis for locally tailored precision nutrition."
+    },
+    {
+     "title_zh": "脑健康营养会：Omega-3、磷脂酰丝氨酸、L-α-GPC 要走「分人群＋分时段」",
+     "title_en": "Brain health nutrition meeting: omega-3, phosphatidylserine and L-alpha-GPC need population-specific, time-of-day dosing",
+     "url": "https://www.ce.cn/cysc/sp/info/202611/t20261117_3297282.shtml",
+     "source_zh": "中国经济网",
+     "source_en": "China Economic Net",
+     "date": "2026-11-17",
+     "summary_zh": "2026特殊食品大会「脑部健康前沿研究与创新会议」在南宁举行。与会者指出 Omega-3、磷脂酰丝氨酸、L-α-GPC 已有部分人体研究，但仍需按人群积累证据；汤臣倍健在探索「检测—评估—干预—再检测」的精准营养模式，有企业按青少年日间与夜间分时使用设计配方，联合安徽省立医院评估注意力、执行能力与睡眠质量。",
+     "summary_en": "The brain health research and innovation session of the 2026 Special Food Conference was held in Nanning. Speakers noted that omega-3, phosphatidylserine and L-alpha-GPC have some human data but still need population-specific evidence. By-Health is testing a test-assess-intervene-retest precision nutrition model, while one firm designed day and night formulations for teenagers and is running a clinical study with Anhui Provincial Hospital on attention, executive function and sleep."
+    },
+    {
+     "title_zh": "老年营养的两条主线：精准化干预，加上从院内延伸到居家的全程管理",
+     "title_en": "Two tracks for elderly nutrition: precision intervention plus full-course management extending from hospital to home",
+     "url": "https://www.ce.cn/cysc/sp/info/202611/t20261117_3297255.shtml",
+     "source_zh": "中国经济网",
+     "source_en": "China Economic Net",
+     "date": "2026-11-17",
+     "summary_zh": "雅培营养品副总裁吴海英在2026特殊食品大会期间表示，老年营养创新将沿「精准化干预」与「全程化管理」两条线推进：按年龄、健康状况与慢病风险分层给出方案，并把营养支持从疾病治疗延伸到预防、康复与居家场景。她提出下一步聚焦分人群产品开发、循证证据积累与医学营养专业教育三方面。",
+     "summary_en": "Wu Haiying, vice president of Abbott Nutrition, said during the 2026 Special Food Conference that elderly nutrition innovation will run along two tracks: precision intervention stratified by age, health status and chronic disease risk, and full-course management that extends nutrition support from treatment into prevention, rehabilitation and home care. Next steps focus on population-specific products, building clinical evidence and professional education in medical nutrition."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "餐后补维生素 C 或能挡住「亚硝化」：腌肉配蔬果的风险差，被一个模型解释了一半",
+     "title_en": "Vitamin C after meals may block nitrosation: a model explains part of why cured meats and leafy greens differ in risk",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
+     "source_zh": "ScienceDaily（滑铁卢大学）",
+     "source_en": "ScienceDaily (University of Waterloo)",
+     "date": "2026-11-15",
+     "summary_zh": "加拿大滑铁卢大学团队在《理论生物学杂志》发表数学建模研究：模拟硝酸盐、亚硝酸盐经唾液腺、胃、小肠与血浆的转运与转化后，若同时存在膳食维生素 C，胃内「亚硝化」反应生成潜在致癌物的量会被限制。这或可解释为何菠菜等同时含硝酸盐与维生素 C 的蔬菜并未显示同等风险；模型还提示每餐后补维生素 C 可中度降低亚硝化产物。",
+     "summary_en": "A University of Waterloo team published a mathematical model in the Journal of Theoretical Biology simulating how nitrates and nitrites move through salivary glands, stomach, small intestine and plasma. When dietary vitamin C is present, gastric nitrosation that forms potentially cancer-causing compounds is limited, which may help explain why nitrate-rich spinach, which also contains vitamin C, does not carry the same risk. The model also suggests vitamin C taken after each meal moderately reduces nitrosation products."
+    },
+    {
+     "title_zh": "好医生药业一款保健食品铅超标近4倍：林蛙油红景天片抽检不合格",
+     "title_en": "Lead nearly four times the limit: a Good Doctor supplement fails provincial sampling",
+     "url": "https://www.163.com/dy/article/LBU7G1FL0511BBQE.html",
+     "source_zh": "运营商财经网（网易号）",
+     "source_en": "Operator Finance via NetEase",
+     "date": "2026-11-17",
+     "summary_zh": "四川省市场监管局2026年第12号食品安全抽检显示，好医生药业生产的福能源牌林蛙油红景天片（批号250610）铅含量1.94mg/kg，为标准限值0.5mg/kg的约3.88倍；总砷0.408mg/kg，超0.3mg/kg限值约1.36倍。抽检表备注「标准适用异议不认可」，即相关方对适用标准提出的异议未被采纳。",
+     "summary_en": "Sichuan's provincial market regulator's 2026 No.12 food sampling notice found that a Funengyuan brand wood frog oil and rhodiola tablet made by Good Doctor Pharmaceutical (batch 250610) contained 1.94 mg/kg of lead, about 3.88 times the 0.5 mg/kg limit, and 0.408 mg/kg of total arsenic, about 1.36 times the 0.3 mg/kg limit. A note said an objection over which standard applies was not accepted."
+    },
+    {
+     "title_zh": "日本把补剂做成「喷的」：三得利系品牌把喷雾线扩到 3 岁以上儿童",
+     "title_en": "Japan's spray-on supplements go to kids: a Suntory-backed brand extends its mist line to children aged three and up",
+     "url": "https://www.nutraingredients.com/Article/2026/11/17/japanese-brand-in-mist-expands-mist-supplement-range-specifically-for-children/",
+     "source_zh": "NutraIngredients-Asia",
+     "source_en": "NutraIngredients-Asia",
+     "date": "2026-11-17",
+     "summary_zh": "三得利内部创业品牌 IN MIST 11月17日宣布把喷雾补剂线扩到儿童，推出 Kids Essential：含维生素 B1、B2、B6、C、D、烟酸、泛酸七种维生素加膳食纤维，苹果汁风味，对口喷2秒（3—5岁）或2—3毫升（6岁以上）即可，无需饮水吞片。50毫升装售价1980日元，11月20日官方网店开售。",
+     "summary_en": "IN MIST, a brand born from a Suntory internal venture, said on Nov 17 that it is extending its mist supplement line to children with Kids Essential: seven vitamins (B1, B2, B6, C, D, niacin, pantothenic acid) plus dietary fibre in an apple-juice flavour, sprayed into the mouth for two seconds for ages three to five or two to three millilitres for ages six and above, with no water or pills needed. A 50 ml bottle costs 1,980 yen and goes on sale November 20."
+    },
+    {
+     "title_zh": "维生素 B12 或能纠正一种罕见遗传病的发育缺陷：线虫模型已见「大幅逆转」",
+     "title_en": "Vitamin B12 may correct developmental defects in a rare genetic disorder, with large reversal seen in worms",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261115085552.htm",
+     "source_zh": "ScienceDaily（马克斯·普朗克衰老生物学研究所）",
+     "source_en": "ScienceDaily (Max Planck Institute for Biology of Ageing)",
+     "date": "2026-11-16",
+     "summary_zh": "马克斯·普朗克衰老生物学研究所团队在秀丽线虫中发现：与 Verheij 综合征相关的剪接基因突变会扰乱依赖维生素 B12 的代谢通路，导致生长迟缓；补充维生素 B12 可基本纠正这些发育异常。研究者还在患者血样与公开人体细胞数据中看到类似代谢改变，但能否改善患者症状仍待临床验证。",
+     "summary_en": "Researchers at the Max Planck Institute for Biology of Ageing found in C. elegans that a splicing-gene mutation linked to Verheij syndrome disrupts vitamin B12-dependent metabolic pathways and slows growth, and that adding vitamin B12 largely corrected the developmental abnormalities. Similar metabolic changes appeared in patient blood samples and public human cell datasets, though whether supplementation helps patients still needs clinical testing."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "卫健委发布会：试验区把慢病分「红黄绿」，大医院确诊信息推回社区",
+     "title_en": "NHC briefing: pilot zones sort chronic patients into red, amber and green, and push hospital diagnoses back to communities",
+     "url": "https://news.qq.com/rain/a/20261117A0B4J900",
+     "source_zh": "国家卫生健康委（腾讯新闻转载）",
+     "source_en": "National Health Commission via Tencent News",
+     "date": "2026-11-17",
+     "summary_zh": "国家卫健委11月17日就基层卫生健康综合试验区经验举行发布会。贵州习水介绍：建立村卫生室运行、乡村医生县管乡聘村用等「五项机制」夯实网底；县乡建健康管理服务中心，按红黄绿三色分级管理慢病，推进多病同防、协同随访；常态化做科学膳食、规律运动等非药物干预，并开展健康体重监测与宣教。",
+     "summary_en": "The National Health Commission held a briefing on Nov 17 on grassroots health pilot zones. Xishui county in Guizhou described five mechanisms covering village clinic operations and county-managed hiring of village doctors to shore up the grassroots network; county and township health management centres sort chronic patients into red, amber and green tiers for tiered follow-up, coordinate multi-disease prevention and joint visits, and routinely deliver non-drug interventions such as healthy eating and regular exercise plus weight monitoring."
+    },
+    {
+     "title_zh": "全国首个健康生活方式医学中心开诊：36 项循证计划，可住 3—7 天改行为",
+     "title_en": "China's first lifestyle medicine centre opens: 36 evidence-based programmes and three-to-seven-day residential behaviour change",
+     "url": "https://news.qq.com/rain/a/20261118A05AIN00",
+     "source_zh": "北京日报（北京门头沟）",
+     "source_en": "Beijing Daily (Mentougou)",
+     "date": "2026-11-18",
+     "summary_zh": "中国医学科学院阜外医院西院区健康生活方式医学中心正式开诊，为我国首个。中心共五层，设医疗级运动大厅、运动营养代谢心理睡眠五维评估区、生活方式示范病房与食养干预区，开设七大板块36项循证健康计划，覆盖颈动脉斑块、三高、脂肪肝、高尿酸与肥胖等；由个案管理师全程负责，出院后随访8—12周。",
+     "summary_en": "The health lifestyle medicine centre at the west campus of Fuwai Hospital, part of the National Centre for Cardiovascular Diseases, has formally opened as China's first. Across five floors it houses a medical-grade exercise hall, assessment for exercise, nutrition, metabolism, psychology and sleep, a demonstration ward and a food-as-therapy kitchen, offering 36 evidence-based programmes in seven categories covering carotid plaque, the three highs, fatty liver, high uric acid and obesity, with case managers following patients for 8 to 12 weeks after discharge."
+    },
+    {
+     "title_zh": "建湖近湖卫生院入选省级慢病筛防中心：已筛万人、规范管理3400余人",
+     "title_en": "Jianhu's Jinhu health centre joins provincial chronic disease screening network, with 10,000 screened",
+     "url": "https://www.jianhu.gov.cn/art/2026/11/17/art_12509_4468468.html",
+     "source_zh": "建湖县人民政府",
+     "source_en": "Jianhu County Government",
+     "date": "2026-11-17",
+     "summary_zh": "江苏建湖县近湖卫生院入选2026年江苏省基层慢病筛防中心建成单位。该院布局全科诊室、慢病筛查工作室、健康宣教室与运动干预中心，配免散瞳眼底照相机、动态血压仪与两套智能管理工作站；联合县体育中心共建运动促进健康中心，按「两筛三防」「三高共管」提供全周期服务。已筛查万余名居民，规范管理患者3400余名。",
+     "summary_en": "Jinhu township health centre in Jianhu county, Jiangsu, was named a 2026 provincial grassroots chronic disease screening and prevention centre. It combines general practice rooms, a screening studio, health education space and an exercise intervention centre, equipped with non-mydriatic fundus cameras, ambulatory blood pressure monitors and two smart management workstations, and co-built an exercise-for-health centre with the county sports centre. It has screened more than 10,000 residents and manages over 3,400 patients."
+    },
+    {
+     "title_zh": "从「单病」到「多病共管」：糖尿病管理把带状疱疹一起纳入",
+     "title_en": "From single disease to multi-disease management: diabetes care brings shingles into the frame",
+     "url": "https://health.ycwb.com/2026-11/17/content_54349597.htm",
+     "source_zh": "金羊健康（羊城晚报）",
+     "source_en": "Jinyang Health (Yangcheng Evening News)",
+     "date": "2026-11-17",
+     "summary_zh": "世界糖尿病日相关活动上，中国疾控中心专家提出把带状疱疹等感染性疾病纳入糖尿病慢病综合防治，推进「三高一疹」协同管理。北京昌平天通苑南社区卫生服务中心介绍，基层正探索「预防—诊疗—管理」三位一体，在糖友复诊、体检、随访中常态化做带状疱疹风险评估，联动上级医院打通评估、接种与随访全链条。",
+     "summary_en": "At an event marking World Diabetes Day, experts from the Chinese Center for Disease Control and Prevention proposed folding infectious diseases such as shingles into comprehensive diabetes management, advancing coordinated care for the three highs plus shingles. A community health centre in Beijing's Tiantongyuan area described a prevention-diagnosis-management model that routinely screens diabetes patients for shingles risk during reviews and check-ups, linking with higher-level hospitals across assessment, vaccination and follow-up."
+    }
+   ]
+  }
+ ]
+}
