@@ -98,11 +98,16 @@
   <div class="wrap">
     <div class="crumb"><a href="/">首页</a> / <span>AI 日报</span></div>
     <div class="sec-head">
-      <div class="kicker">ARCHIVE · 共 27 期</div>
+      <div class="kicker">ARCHIVE · 共 28 期</div>
       <h1>GitHub AI 日报</h1>
       <p class="sec-sub">每天 10:00 自动生成：AI Coding 与 Agent 基础设施、医学临床研究、健康管理与营养、模型底座四条线，跨期去重并附仓库地址。最新在上。</p>
     </div>
-    <div class="cards"><a class="card" href="/ai/2026-11-15/">
+    <div class="cards"><a class="card" href="/ai/2026-11-18/">
+      <div class="card-date">2026-11-18<span>周三</span></div>
+      <p class="card-sum">⭐⭐⭐ 「评测本身要能被质疑」这条主线今天在三个生态同时落地，而且互不相识。 coding.sh 有 eval validate 专门检查评测的裁判是否公平（今天刚修的漏洞是「参考补丁改写了验证器要跑的测试」）；nautilus-compa…</p>
+      <ul class="card-picks"><li>把「跑砸的会话」直接变成可复现的评测用例：coding.sh 今日 72 次提交，全部围绕 Agent 可观测与评测闭环</li><li>临床智能体评测今天解决了一个我一直在纠结的问题：到底是「模型判断错」还是「界面难用」？Health-CUA 把接口隔离出来单独测</li><li>营养线今天出了一件「该报数字就报、不该报就写没跑」的样板：nutrition-rag 明写「评测框架已建好，但付费评测尚未发布」</li></ul>
+      <span class="card-more">阅读全文 →</span>
+    </a><a class="card" href="/ai/2026-11-15/">
       <div class="card-date">2026-11-15<span>周日</span></div>
       <p class="card-sum">⭐⭐⭐ 「可验证」今天从技能层下沉到了运行时层。 前几期我记的是技能该配 evals（cqframework 一技能一 evals）、该有版本号（ASB 绑定 commit 与 tree digest）、该显式建模证据缺失（ontology…</p>
       <ul class="card-picks"><li>把「可验证」写进运行时本体：Atomic 用显式执行图替掉「希望它照做」</li><li>技能开始自带「验证阶梯」：modulestf 把 Terraform 评审写成 L1→L4 分级取证</li><li>临床基础设施今天在做「减法」：FHIRsmith 发 v1.0.2，同步清理与安全加固</li></ul>
