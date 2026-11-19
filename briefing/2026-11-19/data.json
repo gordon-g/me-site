@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-19",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月13日 — 11月19日（最近 7 天）",
+ "range_en": "Nov 13 – Nov 19, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "椰子油里的中链脂肪酸，把克罗恩病样回肠炎发生率从 67% 压到 8%",
+     "title_en": "Medium-chain fats in coconut oil cut Crohn's-like ileitis incidence from 67% to 8%",
+     "url": "https://news.qq.com/rain/a/20261118A0F77B00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-18",
+     "summary_zh": "两项动物实验指向同一方向：IL-10 基因敲除小鼠喂中链甘油三酯膳食后体重维持稳定增长，结肠中性粒细胞浸润、隐窝脓肿与杯状细胞耗竭明显减轻，自发性肠道炎症发生率由 67% 降至 8%；另一项发表于《自然·通讯》的研究用 SAMP1/YitFc 小鼠分出月桂酸与肉豆蔻酸为关键活性成分，并显示预防与治疗两个时间窗效果不同。研究者强调仍属动物证据，不能据此自行用椰子油替代治疗。",
+     "summary_en": "Two animal studies point the same way: IL-10 knockout mice fed a medium-chain triglyceride diet kept stable weight gain, with less colonic neutrophil infiltration, crypt abscesses and goblet-cell depletion, and spontaneous intestinal inflammation fell from 67% to 8%. A Nature Communications study using SAMP1/YitFc mice separated lauric and myristic acid as the key actives and showed different effects in prevention versus treatment windows. The authors stress this remains animal evidence and coconut oil should not replace treatment on this basis."
+    },
+    {
+     "title_zh": "生酮饮食到底抗炎还是促炎？答案在脂肪酸的碳链长度",
+     "title_en": "Is keto anti-inflammatory or pro-inflammatory? The answer lies in fatty-acid chain length",
+     "url": "https://news.qq.com/rain/a/20261118A0H28W00",
+     "source_zh": "热心肠日报",
+     "source_en": "R Gene Daily",
+     "date": "2026-11-18",
+     "summary_zh": "同一套高脂低碳配方，免疫走向却由脂肪来源决定。研究在小鼠与人巨噬细胞中筛出：只有碳链 16 及以上的长链饱和脂肪酸（棕榈酸、硬脂酸）会抬高 CD80/CD86、压低 CD206，经线粒体应激与 cGAS-STING 通路把巨噬细胞推向促炎的 M1 样表型，且持续四个月；换成富含中链脂肪酸的椰子油后，心脏与肾脏的促炎巨噬细胞聚集几乎消失。髓系敲除 Sting 可阻断该效应，说明关键在脂肪构成而非酮症。",
+     "summary_en": "With the same high-fat, low-carb recipe, the immune outcome depends on the fat source. Screening in mouse and human macrophages showed only long-chain saturated fats of 16 carbons or more (palmitate, stearate) raised CD80/CD86 and suppressed CD206, pushing macrophages toward a pro-inflammatory M1-like state through mitochondrial stress and cGAS-STING, and the shift persisted for four months. Swapping to coconut oil rich in medium-chain fats nearly abolished pro-inflammatory macrophage accumulation in heart and kidney; myeloid Sting knockout blocked the effect, pointing to fat composition rather than ketosis."
+    },
+    {
+     "title_zh": "肠菌移植进烟台毓璜顶医院莱山院区：从顽固性便秘到焦虑失眠都纳入评估",
+     "title_en": "FMT arrives at Yantai Yuhuangding Hospital: from refractory constipation to anxiety-related insomnia",
+     "url": "https://bydrug.pharmcube.com/news/detail/0221bd5eae9eb34a2f59940863a25b69",
+     "source_zh": "医药魔方 ByDrug",
+     "source_en": "PharmCube ByDrug",
+     "date": "2026-11-19",
+     "summary_zh": "该院消化内科按《成人肠菌移植临床管理中国专家共识（2025 版）》常态化开展 FMT：先做菌群失衡分型与禁忌排查，按年龄选移植途径，治疗后随访并指导饮食作息。已报道三例：阿尔茨海默病合并顽固性便秘者肠道蠕动改善、长期依赖促排便药物者成功减量、焦虑合并严重失眠者助眠药用量下降。共识优先适应证还含溃疡性结肠炎、克罗恩病、肠易激综合征与代谢综合征等。",
+     "summary_en": "The gastroenterology department now runs FMT routinely under the 2025 Chinese expert consensus on adult FMT: assessment and dysbiosis typing, contraindication screening, route chosen by age, then follow-up combined with diet and sleep guidance. Three cases were reported: improved motility in an Alzheimer's patient with refractory constipation, successful dose reduction in a long-term laxative user, and lower sleeping-pill use in a young patient with anxiety and severe insomnia. Consensus priority indications also include ulcerative colitis, Crohn's disease, IBS, metabolic syndrome and tumour immunopotentiation."
+    },
+    {
+     "title_zh": "首例洗涤菌群移植联合中药治疗湿疹腹泻：把「肠—皮肤轴」搬进临床",
+     "title_en": "First case of washed microbiota transplantation plus herbal medicine for eczema with diarrhoea",
+     "url": "https://www.163.com/dy/article/LC1JT5RV0514MHBS.html",
+     "source_zh": "网易健康",
+     "source_en": "NetEase Health",
+     "date": "2026-11-18",
+     "summary_zh": "一名反复腹痛腹泻伴湿疹的患者，接受经结肠途径的洗涤菌群移植并序贯中药辨证治疗后，腹泻与排便状态好转、皮肤瘙痒减轻、皮疹缩小变淡，睡眠与精神状态改善。团队把机制落在「菌群紊乱—全身炎症—皮肤损伤」这条恶性循环上，用移植重建微生态、修复肠屏障、调节免疫，再以中医「通腑除秽」衔接。院方称这是该院首例，属探索性个案，仍需更多病例与随访验证。",
+     "summary_en": "A patient with recurrent abdominal pain, diarrhoea and eczema received transcolonic washed microbiota transplantation followed by sequential herbal treatment; diarrhoea and bowel habit improved, itching eased, the rash shrank and faded, and sleep and mood improved. The team frames the mechanism as a vicious cycle of dysbiosis, systemic inflammation and skin damage, using transplantation to rebuild the microecology, repair the gut barrier and modulate immunity, then bridging with the TCM principle of clearing the bowel. The hospital calls it a first exploratory case needing more cases and follow-up."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《自然》：下丘脑不是衰老与阿尔茨海默病的旁观者",
+     "title_en": "Nature: the hypothalamus is no bystander in ageing and Alzheimer's disease",
+     "url": "https://news.qq.com/rain/a/20261119A0766800",
+     "source_zh": "腾讯新闻（生物世界）",
+     "source_en": "Tencent News (BioWorld)",
+     "date": "2026-11-18",
+     "summary_zh": "研究用多组学比较人下丘脑各亚区在衰老与阿尔茨海默病中的体积与细胞变化，发现疾病早期，负责昼夜节律与代谢调控的下丘脑中心已在体积和基因表达活性上出现特定的年龄相关改变，远早于记忆衰退。作者指出患者早现的睡眠障碍、节律紊乱、代谢与应激激素异常，可能不是伴随现象而是疾病进程的一部分，提示下丘脑应被纳入早期评估与干预靶点。",
+     "summary_en": "Using multi-omics, researchers compared hypothalamic subregional volume and cell-type changes across ageing and Alzheimer's disease. Early in the disease, the hypothalamic centres governing circadian rhythm and metabolic control already showed specific age-related shifts in volume and gene-expression activity, well before memory decline. The authors suggest that sleep disturbance, rhythm disruption and altered metabolic and stress hormones are not mere companions but part of the disease process, arguing the hypothalamus belongs in early assessment and as an intervention target."
+    },
+    {
+     "title_zh": "百年华东医院把「延长健康寿命」写进定位：筹建长寿健康医学中心",
+     "title_en": "Century-old Huadong Hospital writes healthy life expectancy into its mission, planning a longevity centre",
+     "url": "https://www.jfdaily.com/staticsg/res/html/journal/detail.html?date=2026-11-19&id=546366&page=08",
+     "source_zh": "解放日报",
+     "source_en": "Jiefang Daily",
+     "date": "2026-11-19",
+     "summary_zh": "在建院百年与「十五五」开局节点，华东医院提出把「延长健康寿命」作为公共卫生重要目标，推进长寿健康医学中心建设，建立由「疾病治疗」转向「衰老预防和干预调控」的长寿医学范式。具体任务包括精准健康评估与长寿预测、个性化干预与精准医疗、长寿人群队列研究，并用人工智能加速抗衰技术从实验室走向临床，为健康老龄化提供可复制的医院方案。",
+     "summary_en": "At its centenary and the start of the 15th Five-Year Plan, Huadong Hospital set extending healthy life expectancy as a public-health goal and is building a longevity health medical centre, shifting from disease treatment to ageing prevention and modulation. Tasks include precision health assessment and longevity prediction, personalised intervention and precision medicine, and a longevity cohort study, with AI used to speed anti-ageing technology from bench to clinic as a replicable hospital model for healthy ageing."
+    },
+    {
+     "title_zh": "GALA 国际长寿科技协会成立：先给「生物学年龄」定标准，再谈长寿诊所评级",
+     "title_en": "GALA longevity association launches, starting with biological-age standards before clinic ratings",
+     "url": "https://digi.china.com/articles/20261118/202611181980522.html",
+     "source_zh": "中华网",
+     "source_en": "China.com",
+     "date": "2026-11-18",
+     "summary_zh": "协会由 Brian Kennedy 等共同发起，同期设立长寿医生专业委员会，计划建立生物学年龄评估标准、推出国际证书课程、试点临床实践培训模块，并筹建长寿诊所专委会与星级评定框架。创始荣誉理事覆盖营养干预、微生态、临床医疗与科研转化等环节。Kennedy 称衰老相当于医学领域的「气候变化」，真正的挑战是通过严谨标准与充分验证，把日益精密的衰老检测工具安全规模化落地。",
+     "summary_en": "Co-founded by Brian Kennedy and other academics and industry partners, the association also set up a longevity physicians committee. It plans scientific standards for biological-age assessment, international certificate courses, pilot clinical training modules, and a longevity clinic committee with a star-rating framework. Founding honorary members span nutrition, microbiome, clinical care and research translation. Kennedy likened ageing to medicine's climate change, saying the real challenge is scaling increasingly precise ageing tests safely through rigorous standards and validation."
+    },
+    {
+     "title_zh": "Hims & Hers 上线 5 款肽类「长寿制剂」：全部未获 FDA 批准，公司自己承认证据不足",
+     "title_en": "Hims & Hers launches five peptide longevity formulas, none FDA-approved, and admits the evidence is thin",
+     "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx1524123.shtml",
+     "source_zh": "环球市场播报（新浪财经）",
+     "source_en": "Global Market Report (Sina Finance)",
+     "date": "2026-11-18",
+     "summary_zh": "平台首期推出司莫瑞林、谷胱甘肽、NAD+、维生素 B12 与左卡尼汀五种药房调配制剂，均未经 FDA 批准，其合法性来自 HHS 十月起对 6 种未获批肽类暂不执法；预约开放 15 天即超 1 万人报名。公司首席医疗官承认这类物质缺乏常规药物级别的数据。专家指出，汇总 113 项研究的综述未见合格临床试验证明注射 NAD+ 可抗衰，静脉谷胱甘肽另有至少 30 例不良反应报告。",
+     "summary_en": "The platform's first batch offers five pharmacy-compounded products — sermorelin, glutathione, NAD+, vitamin B12 and L-carnitine — none FDA-approved; their legal footing comes from HHS declining to enforce against six unapproved peptides since October. More than 10,000 people signed up within 15 days. The chief medical officer conceded the field lacks drug-grade data. Experts noted a review of 113 studies found no adequate trial showing injected NAD+ slows ageing, and injected glutathione has drawn at least 30 adverse-event reports."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "87 项随机试验合并：全谷物吃到每天 60—100 克，心血管危险因素降幅最大",
+     "title_en": "Pooling 87 trials: whole grains at 60–100 g a day give the biggest cardiovascular risk reduction",
+     "url": "http://www.zjxj.gov.cn/col/col1635282/art/2026/art_bc67f28ff60441e7a7c77562f479982e.html",
+     "source_zh": "科技日报",
+     "source_en": "Science and Technology Daily",
+     "date": "2026-11-18",
+     "summary_zh": "帝国理工学院与大不里士医科大学合并 87 项随机对照试验、6529 名参与者，发现多吃全谷物可减轻体重、缩小腰围、降低收缩压，并降低总胆固醇、低密度脂蛋白、甘油三酯、空腹血糖与炎症标志物 IL-6。效应从每天 30—40 克（干重）开始显现，60—100 克时最大，约相当于一碗燕麦粥、一份全麦面包三明治加一碗糙米饭。体重、腰围、总胆固醇与 IL-6 的证据确定性最高。",
+     "summary_en": "Imperial College London and Tabriz University of Medical Sciences pooled 87 randomised trials with 6,529 participants. Higher whole-grain intake reduced weight, waist circumference and systolic pressure, and lowered total and LDL cholesterol, triglycerides, fasting glucose and the inflammatory marker IL-6. Benefits appeared from 30–40 g dry weight a day and peaked at 60–100 g, roughly a bowl of oatmeal, a wholegrain sandwich and a bowl of brown rice. Evidence certainty was highest for weight, waist, total cholesterol and IL-6."
+    },
+    {
+     "title_zh": "1 万人 11 年追踪：常吃酸奶与天然奶酪者，症状性膝骨关节炎风险更低",
+     "title_en": "Eleven-year follow-up of 10,000 people links fermented dairy to lower knee osteoarthritis risk",
+     "url": "https://www.keguanjp.com/kgjp_keji/kgjp_kj_smkx/pt20261118000013.html",
+     "source_zh": "客观日本（JST）",
+     "source_en": "Keguan Japan (JST)",
+     "date": "2026-11-18",
+     "summary_zh": "新潟大学团队基于约 1 万人、11 年队列，发现发酵乳制品摄入量与症状性影像学膝骨关节炎风险呈负相关，论文发表于《临床营养》。作者解释，酸奶与未经加工的天然奶酪含活性微生物，可能通过调节与关节健康相关的代谢与炎症通路起作用。这是继纳豆之后，发酵食品具有疾病预防可能性的又一证据，但具体机制与因果关系仍需进一步研究确认。",
+     "summary_en": "A Niigata University team followed about 10,000 people for 11 years and found fermented dairy intake inversely associated with symptomatic radiographic knee osteoarthritis, published in Clinical Nutrition. The authors note that yoghurt and unprocessed natural cheese contain live microbes that may act through metabolic and inflammatory pathways relevant to joint health. It is another piece of evidence, after natto, that fermented foods may help prevent disease, though mechanisms and causality still need confirmation."
+    },
+    {
+     "title_zh": "学生餐进入「精准营养」阶段：信息化管理规范过审，AI 营养师开始配餐",
+     "title_en": "School meals move into precision nutrition: IT management standard reviewed, AI dietitians start planning menus",
+     "url": "https://news.qq.com/rain/a/20261118A05LXG00",
+     "source_zh": "央广网",
+     "source_en": "CNR",
+     "date": "2026-11-18",
+     "summary_zh": "第二届学生餐高质量发展大会在大连举行，《中小学学生餐精准营养信息化管理规范》团体标准完成专家评审，《学龄儿童青少年超重肥胖营养综合干预与连续随访服务规范》进入工作会阶段。会上展示的 AI 营养师可按年龄段营养需求与生长特点自动配餐、测算营养成分并做膳食评估，同时对接食材溯源与生产管控；代表还发起日供餐 500 万份清洁标签学生餐倡议。",
+     "summary_en": "The second School Meals High-Quality Development Conference was held in Dalian. The association standard on IT-enabled precision nutrition management for school meals passed expert review, while a standard on nutrition intervention and continuous follow-up for overweight children entered working-group stage. An AI dietitian on show plans menus by age-specific needs and growth patterns, calculates nutrients and evaluates diets, linking to ingredient traceability and production control. Delegates also launched a clean-label pledge for five million meals a day."
+    },
+    {
+     "title_zh": "肿瘤全营养配方新国标落地：4 款产品获批，「营养是一线治疗」要走完全程",
+     "title_en": "New national standard for oncology nutrition formulas: four products approved, nutrition as first-line therapy",
+     "url": "https://news.qq.com/rain/a/20261118A0G8DZ00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-18",
+     "summary_zh": "2026 中国整合肿瘤学大会肿瘤营养分会场在长沙举行。随着肿瘤全营养配方食品新国标实施，国内已有 4 款符合新国标的产品获批，其中一款于 9 月获批，为国内企业首款。专委会提出下一阶段要把「营养是一线治疗」从共识变成贯穿诊疗全程的规范管理：持续完善指南与专家共识、推动营养治疗进入多学科决策，并依托近 10 万例肿瘤营养数据库加强前瞻性临床与队列研究。",
+     "summary_en": "The oncology nutrition session of the 2026 Chinese Congress on Integrative Oncology was held in Changsha. With the new national standard for oncology total-nutrition formulas in force, four compliant products have been approved in China, one of them in September as the first from a domestic company. The specialty committee said the next step is turning nutrition as first-line therapy from consensus into standardised management across the care pathway: refining guidelines, embedding nutrition in multidisciplinary decisions and strengthening prospective and cohort studies on a database of nearly 100,000 cases."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "FDA 首次动用「药品排除例外」：NAC 拟被正式承认为合法膳食补充剂原料",
+     "title_en": "FDA invokes its drug-exclusion exception for the first time, proposing NAC as a lawful supplement ingredient",
+     "url": "https://www.cov.com/en/news-and-insights/insights/2026/11/fda-proposes-first-ever-rulemaking-exception-to-the-drug-exclusion-provision-for-n-acetyl-l-cysteine",
+     "source_zh": "Covington（法规分析）",
+     "source_en": "Covington & Burling (legal analysis)",
+     "date": "2026-11-17",
+     "summary_zh": "FDA 于 11 月 16 日提出拟议规则，认定 N-乙酰半胱氨酸不属于「药品排除」范围，可在膳食补充剂中合法使用，并将在 21 CFR 190.1 下为后续原料留出增列通道，这是 FDA 首次行使该立法授权。依据是对口服 NAC 的系统评价：41 项高置信研究、剂量至每日 9000 毫克、疗程至三年，关注度评为「极低」，仅见非严重胃肠反应。评论期至 2027 年 1 月 19 日，生效后 2022 年的执法自由裁量指南将撤回。",
+     "summary_en": "On 16 November the FDA proposed a rule finding that N-acetylcysteine is not excluded by the drug-preclusion provision and may be lawfully used in dietary supplements, creating 21 CFR 190.1 as a pathway for listing further ingredients — its first use of that statutory authority. The basis is a systematic review of oral NAC: 41 high-confidence studies at doses up to 9,000 mg a day for up to three years, graded minimal concern, with only non-serious gastrointestinal effects. Comments run to 19 January 2027, after which the 2022 enforcement-discretion guidance would be withdrawn."
+    },
+    {
+     "title_zh": "南京同仁堂经销硒片崩解时限不合格：代工厂已被吊证并移送公安",
+     "title_en": "Selenium tablets distributed under the Nanjing Tongrentang name fail disintegration test; contract maker referred to police",
+     "url": "https://www.nfnews.com/content/voAp8dOG6R.html",
+     "source_zh": "南方+（南都湾财社）",
+     "source_en": "Nanfang Plus (Nandu)",
+     "date": "2026-11-18",
+     "summary_zh": "在总局 41 批次不合格通报中，标称南京同仁堂乐家老铺（菏泽）医药总经销、安徽哈博药业生产的清大广仁牌硒片，因崩解时限不符合执行标准被点名，或影响有效成分释放与吸收。哈博药业此前因「北京同仁堂 99% 高纯南极磷虾油」实测磷脂为零被查，其哈博力源牌褪黑素片又因含量不达标涉嫌生产销售伪劣产品罪，已移送公安、吊销生产许可，法定代表人被采取强制措施。",
+     "summary_en": "In the regulator's notice on 41 non-compliant batches, Qingdaguangren-brand selenium tablets — distributed by a Nanjing Tongrentang Laojia Laopu (Heze) unit and made by Anhui Habo Pharmaceutical — were cited for failing the disintegration limit, meaning tablets may not break down in time and may release their actives poorly. Habo had earlier been investigated after a Beijing Tongrentang krill-oil product tested at zero phospholipids, and its melatonin tablets were deemed substandard, leading to a criminal referral, licence revocation and coercive measures against its legal representative."
+    },
+    {
+     "title_zh": "酚丁类、比沙可啶类进「非食用物质」名录：减肥食品违规添加可直接追刑责",
+     "title_en": "Phenolphthalein-type and bisacodyl-type drugs added to non-food substance list, bringing criminal liability",
+     "url": "https://news.qq.com/rain/a/20261119A076VG00",
+     "source_zh": "雷达财经（腾讯新闻）",
+     "source_en": "Radar Finance (Tencent News)",
+     "date": "2026-11-19",
+     "summary_zh": "11 月 16 日，酚丁类与比沙可啶类物质被正式纳入食品非法添加非食用物质名录，并配套补充检验方法，破解取证难、判定无标准的痛点。两类均属刺激性泻剂，常被改造成衍生物加入宣称「快速瘦身、排油排毒」的糖果、果冻与固体饮料。名录更新后可直接认定为有毒有害原料，违规添加适用刑事处罚。保健食品企业首轮体系检查覆盖 2520 家次，连续五年抽检合格率保持 99% 以上。",
+     "summary_en": "On 16 November, phenolphthalein-type and bisacodyl-type substances were formally added to the list of non-food substances illegally used in food, alongside supplementary testing methods that overcome earlier difficulties in evidence-gathering and standards of proof. Both are stimulant laxatives often modified into derivatives and slipped into sweets, jellies and powdered drinks marketed for rapid slimming or detox, with long-term gut harm. Listing makes them toxic non-food material, so illegal addition can bring criminal liability. First-round system inspections have covered 2,520 health-food manufacturers, with five-year sampling pass rates above 99%."
+    },
+    {
+     "title_zh": "《中式细胞延衰白皮书》发布：5382 名消费者中 71% 更偏好中式成分",
+     "title_en": "White paper on Chinese-style cellular anti-ageing: 71% of 5,382 consumers prefer Chinese ingredients",
+     "url": "https://www.imsilkroad.com/news/p/818729.html",
+     "source_zh": "新华丝路",
+     "source_en": "Xinhua Silk Road",
+     "date": "2026-11-17",
+     "summary_zh": "无限极联合尼尔森 IQ 与时光派在第 23 届中国国际保健博览会发布白皮书，调研覆盖 337 城、5382 人：71% 的延衰保健食品消费者更倾向中式成分，63% 看重「功效可感知」。白皮书把「中式细胞延衰」定义为以中华养生整体调养智慧为理论来源、结合现代细胞衰老认识，经内调外养与「四合理」生活方式延展健康寿命，并从理论、方法、证据三层搭建框架。企业称核心组方机制研究已被《Chinese Medicine》接收。",
+     "summary_en": "Infinitus, NielsenIQ and TimePie released the white paper at the 23rd China International Health Industry Expo, based on a survey of 5,382 consumers in 337 cities: 71% of anti-ageing supplement buyers prefer Chinese-style ingredients and 63% value perceptible efficacy. It defines Chinese-style cellular anti-ageing as drawing on holistic Chinese wellness theory combined with modern cell-ageing science, extending healthy lifespan through internal and external care plus four rational habits, with a three-tier framework of theory, method and evidence. A core formula mechanism paper was accepted by Chinese Medicine."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "全国慢阻肺筛查已初筛 347 万人：查出高危 79.1 万，培训基层 26 万人次",
+     "title_en": "National COPD screening reaches 3.47 million people, finding 791,000 high-risk cases",
+     "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/h72une/stories/WS6afd63d0e4b0e14252fcbf5b.html",
+     "source_zh": "中国日报网",
+     "source_en": "China Daily",
+     "date": "2026-11-18",
+     "summary_zh": "第 25 个世界慢阻肺病日，2026 中国慢阻肺病大会在北京召开。国家慢性呼吸疾病防治办公室已搭起国家—省—市—县四级体系，31 个省份与新疆生产建设兵团省级牵头单位全覆盖。截至 11 月，高危人群早期筛查与综合干预项目累计初筛 347 万人、发现高危 79.1 万人、肺功能筛查 49.3 万人次、随访 42.8 万人，成果被《柳叶刀》综述引用；2026 版基药目录已纳入多个核心吸入制剂。",
+     "summary_en": "On the 25th World COPD Day, the 2026 China COPD Conference opened in Beijing. The national office for chronic respiratory disease prevention has built a four-tier national, provincial, city and county network covering all 31 provinces plus Xinjiang Production and Construction Corps. By November, the early screening and intervention programme had screened 3.47 million people, found 791,000 high-risk individuals, performed 493,000 spirometry tests and followed up 428,000 people, work cited in a Lancet review. The 2026 essential medicines list added several core inhalers."
+    },
+    {
+     "title_zh": "上海把肺功能筛查搬进社区卫生中心：当场解读报告，异常者直接登记转诊",
+     "title_en": "Shanghai brings spirometry into community health centres, reading results on the spot and booking referrals",
+     "url": "https://nw.eastday.com/bjzx/20261119/f8247831c49c4be5840b910a778b7585.html",
+     "source_zh": "东方网",
+     "source_en": "Eastday",
+     "date": "2026-11-19",
+     "summary_zh": "世界慢阻肺日，上海市主题宣传活动在徐汇枫林街道社区卫生服务中心举行，现场提供风险问卷初筛、便携式肺功能检测与报告解读、吸入装置一对一指导，异常者当场登记转诊，社区医生跟进。中心同步开放戒烟门诊，为吸烟高危居民提供个性化干预。专家指出，慢阻肺起病隐匿，咳嗽、咳痰与活动后气短常被忽视，肺功能检测是发现早期患者最直接的手段。",
+     "summary_en": "For World COPD Day, Shanghai's campaign was held at Fenglin Community Health Service Centre in Xuhui district, offering risk questionnaires, portable spirometry with on-site interpretation, one-to-one inhaler coaching, and same-day registration and referral for abnormal results with community doctor follow-up. A smoking-cessation clinic opened alongside for high-risk residents with a smoking history. Experts noted COPD has an insidious onset, with cough, sputum and exertional breathlessness easily ignored, and spirometry is the most direct way to find early cases."
+    },
+    {
+     "title_zh": "海南东方市把慢病分成红黄绿三级：治疗率超 70%，住院率降 11.5 个百分点",
+     "title_en": "Hainan's Dongfang triages chronic disease into red, amber and green: treatment rate above 70%",
+     "url": "https://news.qq.com/rain/a/20261118A06A6900",
+     "source_zh": "21 世纪经济报道",
+     "source_en": "21st Century Business Herald",
+     "date": "2026-11-18",
+     "summary_zh": "在国家卫健委基层试验区发布会上，东方市介绍：建成市级慢病管理中心、乡镇慢病门诊、村级服务点三级阵地，按红黄绿三色分级管理，并把高血压、糖尿病门诊慢特病认定权限下放乡镇，患者在乡镇即可认定与医保结算。市级医院已向基层医生推送患者 3.2 万余人次，高血压与糖尿病治疗率超 70%，住院率较 2022 年下降 11.53 个百分点；61 个病种健康教育处方嵌入 HIS，已开具 8 万余例。",
+     "summary_en": "At the NHC briefing on primary-care pilot zones, Dongfang described a three-tier network of a city chronic disease centre, township clinics and village service points, with red-amber-green risk triage. Authority to certify outpatient chronic-disease status for hypertension and diabetes was devolved to townships, so patients can be certified and reimbursed locally. City hospitals have pushed over 32,000 patient referrals down to primary doctors; treatment rates exceed 70% and admission rates fell 11.53 percentage points from 2022. Health-education prescriptions for 61 conditions are embedded in the HIS, with over 80,000 issued."
+    },
+    {
+     "title_zh": "天祝 121 所村卫生室完成标准化改造，155 所配齐智慧随访设备",
+     "title_en": "Tianzhu upgrades 121 village clinics and equips 155 with smart follow-up devices",
+     "url": "https://www.gstianzhu.gov.cn/art/2026/11/19/art_3517_1702621.html",
+     "source_zh": "天祝藏族自治县人民政府",
+     "source_en": "Tianzhu Tibetan Autonomous County Government",
+     "date": "2026-11-19",
+     "summary_zh": "依托交通银行 500 万元帮扶资金，天祝县对 121 所村卫生室实施标准化提质改造，改造面积 7260 平方米，目前已全部竣工；同时为 155 所村卫生室配齐智慧随访体检设备并投入试运行。设备集健康检测、随访建档、慢病筛查与数据互联于一体，村医可据此完成老年人、慢病患者随访监测与风险预警，动态更新健康档案，把筛查关口前移到村组，惠及全县 9 万多农牧民。",
+     "summary_en": "With 5 million yuan in Bank of Communications assistance, Tianzhu county completed standardised upgrades to 121 village clinics covering 7,260 square metres, and equipped 155 clinics with smart follow-up and check-up devices now in trial operation. The devices combine health testing, follow-up record-keeping, chronic disease screening and data linkage, letting village doctors monitor older residents and chronic patients, flag risks and keep records current, moving screening down to the village level for more than 90,000 farmers and herders."
+    }
+   ]
+  }
+ ]
+}
