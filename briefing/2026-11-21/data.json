@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-21",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月15日 — 11月21日（最近 7 天）",
+ "range_en": "Nov 15 – Nov 21, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "功能医学专委会第四届年会在沪举行，17.8万份体检数据揭示「报告正常、功能异常」",
+     "title_en": "Functional Medicine Committee Opens 4th Annual Meeting in Shanghai as 178,946 Checkups Reveal Normal Reports, Abnormal Function",
+     "url": "https://www.sh.chinanews.com.cn/yljk/2026-11-21/151406.shtml",
+     "source_zh": "中国新闻网上海",
+     "source_en": "China News Service Shanghai",
+     "date": "2026-11-21",
+     "summary_zh": "中国抗衰老促进会功能医学专业委员会第四届年会11月21日在上海开幕，现场发布对重庆、汉中、呼和浩特三地178946份体检数据的分析：体检未见异常者中42.7%至少存在一项功能医学生理异常，约一半集中在慢性炎症、免疫平衡、胰岛素抵抗与红细胞营养失衡；维生素D缺乏检出率32.9%，18—29岁组高达57.9%，超重与肥胖合计占53%。",
+     "summary_en": "The fourth annual meeting of the Functional Medicine Committee of the China Anti-Aging Promotion Association opened in Shanghai on Nov 21, releasing an analysis of 178,946 health-check records from Chongqing, Hanzhong and Hohhot. Among people whose reports looked normal, 42.7% had at least one functional physiological abnormality, about half involving chronic inflammation, immune balance, insulin resistance or red-cell nutrient imbalance. Vitamin D deficiency reached 32.9%, rising to 57.9% at ages 18 to 29, and overweight plus obesity accounted for 53%."
+    },
+    {
+     "title_zh": "浙大团队：果胶抗炎效果取决于背景膳食纤维，多形拟杆菌是关键搭档",
+     "title_en": "Zhejiang University: Pectin's Anti-Inflammatory Effect Depends on Background Fiber, With Bacteroides thetaiotaomicron as Key Partner",
+     "url": "https://news.qq.com/rain/a/20261120A0EGHR00",
+     "source_zh": "腾讯新闻 · 热心肠日报",
+     "source_en": "Tencent News / Gut Microbiota Daily",
+     "date": "2026-11-20",
+     "summary_zh": "浙江大学魏思宇、靳明亮团队在《Carbohydrate Polymers》发表研究：柑橘果胶只有在背景膳食纤维充足时才能缓解小鼠结肠炎，撤去膳食纤维后保护作用几乎消失。纤维充足组果胶显著富集转录活跃的多形拟杆菌，上调GH2、GH28等降解酶基因，提升乙酸与丙酸产量；其发酵上清可部分恢复紧密连接蛋白表达并抑制IL-6。",
+     "summary_en": "A Zhejiang University team led by Wei Siyu and Jin Mingliang reported in Carbohydrate Polymers that citrus pectin relieved colitis in mice only when background dietary fiber was adequate; without it the protection largely vanished. In the fiber-sufficient group, pectin enriched transcriptionally active Bacteroides thetaiotaomicron, upregulated GH2 and GH28 degrading enzymes and raised acetate and propionate output, while its fermentation supernatant partly restored tight-junction gene expression and suppressed IL-6."
+    },
+    {
+     "title_zh": "《自然·通讯》1199人研究：肠道菌群比年龄更能预测炎症与未来疾病风险",
+     "title_en": "Nature Communications Study of 1,199 Adults: Gut Microbiome Predicts Inflammation and Future Disease Better Than Age",
+     "url": "https://news.qq.com/rain/a/20261120A0BT5Y00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-20",
+     "summary_zh": "研究分析1199名20—72岁成年人的粪便菌群、30种血浆细胞因子与19项生理生化指标，发现菌群组成对97%的炎症因子和84%的生理指标的解釋力超过年龄。B2肠型人群8种促炎因子显著升高，20多岁者的炎症水平已相当于其他肠型57岁；9年随访住院风险比为1.21，涉及13类疾病中的7类，R肠型则为0.79。",
+     "summary_en": "Analyzing stool microbiome, 30 plasma cytokines and 19 physiological measures in 1,199 adults aged 20 to 72, researchers found microbiome composition explained more variance than age for 97% of inflammatory markers and 84% of physiological measures. People with the B2 enterotype had eight elevated pro-inflammatory cytokines, with twenty-somethings matching the inflammation of 57-year-olds in other enterotypes; over nine years their hospitalization risk ratio was 1.21 across seven of 13 disease categories, versus 0.79 for the R enterotype."
+    },
+    {
+     "title_zh": "香港浸大揭示「肠—海马」通路：脆弱拟杆菌脂质C1P损伤髓鞘诱发抑郁",
+     "title_en": "Hong Kong Baptist University Maps a Gut–Hippocampus Pathway: Bacteroides fragilis Lipid C1P Damages Myelin and Triggers Depression",
+     "url": "https://news.qq.com/rain/a/20261120A09DVZ00",
+     "source_zh": "腾讯新闻 · 热心肠日报",
+     "source_en": "Tencent News / Gut Microbiota Daily",
+     "date": "2026-11-20",
+     "summary_zh": "香港浸会大学刘琴团队在《Advanced Science》发表研究，分析147名腹泻型肠易激综合征患者与84名健康对照：共病抑郁者粪便中脆弱拟杆菌丰度更高，且与汉密尔顿抑郁评分正相关。该菌分泌的神经酰胺-1-磷酸可结合并降低海马SMPD4蛋白、损伤髓鞘；把膳食支链氨基酸削减至常规20%可部分恢复髓鞘标志物与行为。",
+     "summary_en": "A Hong Kong Baptist University team led by Liu Qin reported in Advanced Science on 147 diarrhea-predominant IBS patients and 84 controls: those with comorbid depression carried more Bacteroides fragilis, and abundance correlated with Hamilton depression scores. The bacterium's ceramide-1-phosphate bound and lowered hippocampal SMPD4, damaging myelin. Cutting dietary branched-chain amino acids to 20% of normal partly restored myelin markers and behavior in mice."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "陈香美院士：AI赋能全生命周期延缓衰老，LifeClock整合968万人就诊数据",
+     "title_en": "Academician Chen Xiangmei: AI for Lifespan-Wide Anti-Aging, With LifeClock Drawing on 9.68 Million Patient Records",
+     "url": "https://news.qq.com/rain/a/20261120A0CYZ900",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-20",
+     "summary_zh": "11月17—21日，中华医学会肾脏病学分会第29届学术年会在上海召开，解放军总医院陈香美院士作《人工智能赋能全生命周期延缓衰老进展》报告。其团队构建全生命周期生物学年龄模型LifeClock，整合968万余人、2463万余次纵向就诊记录，基于常规临床数据分别建立儿童发育时钟与成人衰老时钟；并揭示百岁老人自然杀伤细胞与免疫通讯特征、肾脏衰老的器官特异性。",
+     "summary_en": "At the 29th Congress of the Chinese Society of Nephrology in Shanghai, held Nov 17 to 21, Academician Chen Xiangmei of PLA General Hospital presented on AI-enabled lifespan-wide anti-aging. Her team built LifeClock, a biological age model integrating 9.68 million people and more than 24.63 million longitudinal visit records, deriving separate childhood development and adult aging clocks from routine clinical data. The work also characterized natural killer cell and immune communication features in centenarians and organ-specific patterns of kidney aging."
+    },
+    {
+     "title_zh": "第三届透明质酸产业大会暨长寿与延衰科学大会在济南举行，发布四项战略行动",
+     "title_en": "Third Hyaluronic Acid Industry Conference and Longevity Science Summit Opens in Jinan With Four Strategic Actions",
+     "url": "https://jinan.iqilu.com/news/2026/1120/5963749.shtml",
+     "source_zh": "齐鲁网 · 闪电新闻",
+     "source_en": "Qilu Net / Shandian News",
+     "date": "2026-11-20",
+     "summary_zh": "11月19—21日，以「生命向新 长寿未来」为主题的大会在济南举行，设十大论坛，覆盖长寿前沿科技、合成生物与糖类药物、智能生物制造与健康衰老、社会心理与健康长寿、衰老干预前沿科技等。会上发布四项战略行动：产业蓝皮书、长寿与延衰科学共同体、生命科学实验室体系，以及以郭学平名义发起的全球糖科学与肿瘤前沿交叉研究公益计划。",
+     "summary_en": "Held in Jinan from Nov 19 to 21 under the theme Life Renewing, Longevity Future, the conference ran ten forums spanning frontier longevity technology, synthetic biology and glyco-drugs, intelligent biomanufacturing and healthy aging, social psychology and longevity, and frontier anti-aging interventions. Four strategic actions were launched: an industry blue book, a longevity science community, a life-science laboratory system, and a global glyco-science and oncology research fund initiated under Guo Xueping's name."
+    },
+    {
+     "title_zh": "协和团队《细胞·代谢》：NAD⁺经脂肪因子Serpina3n远程保护衰老肌肉",
+     "title_en": "Cell Metabolism Study: NAD+ Protects Aging Muscle Remotely via the Adipokine Serpina3n",
+     "url": "https://www.changshou.com/news/detail/yn6s57.html",
+     "source_zh": "长寿之家",
+     "source_en": "Changshou Home",
+     "date": "2026-11-17",
+     "summary_zh": "北京协和医学院团队在《细胞·代谢》发表研究：给22月龄老年小鼠注射NMN后肌肉量与抓力改善，但直接把NMN加到萎缩的肌管细胞上无效，说明需要脂肪组织参与。NAD⁺升高促使脂肪分泌Serpina3n，经血液到达肌肉、减缓丙酮酸羧化酶降解，维持三羧酸循环与蛋白合成；在脂肪中敲除Serpina3n后NMN的保护作用明显减弱。",
+     "summary_en": "A Peking Union Medical College team reported in Cell Metabolism that NMN injections improved muscle mass and grip strength in 22-month-old mice, yet adding NMN directly to atrophied myotubes did nothing, showing adipose tissue is required. Rising NAD+ prompts fat cells to secrete Serpina3n, which travels to muscle, slows pyruvate carboxylase degradation and sustains the TCA cycle and protein synthesis; deleting Serpina3n in fat blunted NMN's protection."
+    },
+    {
+     "title_zh": "老年肌肉恢复慢的元凶：衰老细胞持续分泌前列腺素，低剂量布洛芬可改善",
+     "title_en": "Why Older Muscle Recovers Slowly: Senescent Cells Keep Producing Prostaglandins, and Low-Dose Ibuprofen Helps",
+     "url": "https://healthcare.utah.edu/newsroom/news/2026/11/why-older-adults-take-longer-bounce-back-and-what-do-about-it",
+     "source_zh": "犹他大学健康中心",
+     "source_en": "University of Utah Health",
+     "date": "2026-11-19",
+     "summary_zh": "犹他大学团队在《Aging Cell》发表研究：小鼠肌肉废用后，年轻个体前列腺素短暂升高即启动修复，老年个体则长期维持高水平，使肌肉处于慢性炎症状态、难以完全恢复。过量前列腺素来自衰老免疫细胞，还会诱导健康细胞衰老形成恶性循环。低剂量布洛芬降低前列腺素与衰老细胞数量，帮助老年小鼠更快恢复力量，高剂量反而无效。",
+     "summary_en": "A University of Utah team reported in Aging Cell that after muscle disuse, young mice show a brief prostaglandin spike that triggers repair, while old mice keep levels high, leaving muscle chronically inflamed and incompletely recovered. Excess prostaglandins come from senescent immune cells and push healthy cells into senescence, creating a feedback loop. Low-dose ibuprofen cut prostaglandins and senescent cells and sped strength recovery in aged mice, whereas a high dose did not help."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "2.1万女性队列：饱和脂肪升高LDL的效应受多基因风险评分调控",
+     "title_en": "21,000-Woman Cohort: Saturated Fat's LDL-Raising Effect Is Modulated by Polygenic Risk Score",
+     "url": "https://www.163.com/dy/article/LC85RUJA05149U3U.html",
+     "source_zh": "网易 · 全球医生组织",
+     "source_en": "NetEase / GlobalMD",
+     "date": "2026-11-21",
+     "summary_zh": "基于女性健康倡议队列近2.1万名女性（中位年龄65岁），研究团队用高准确度胆固醇多基因风险评分分析饱和脂肪摄入、LDL与心血管事件的关联。结果显示携带高胆固醇遗传倾向者对饱和脂肪最敏感；遗传风险最高的25%人群中，高饱和脂肪摄入明显升高心血管事件风险，其余75%人群未见显著升高。研究者强调遗传易感不等于饮食无所谓。",
+     "summary_en": "Using the Women's Health Initiative cohort of nearly 21,000 women (median age 65), researchers applied a high-accuracy cholesterol polygenic risk score to link saturated fat intake, LDL and cardiovascular events. People genetically prone to high cholesterol were most sensitive to saturated fat; among the top 25% by genetic risk, high intake clearly raised cardiovascular event risk, while the other 75% showed no significant increase. The authors stress genetic susceptibility does not mean diet is irrelevant."
+    },
+    {
+     "title_zh": "超加工食品升高克罗恩病风险的机制：DHA流失叠加FADS1基因差异",
+     "title_en": "How Ultra-Processed Food Raises Crohn's Risk: DHA Loss Combined With FADS1 Variation",
+     "url": "https://news.qq.com/rain/a/20261121A0BD4D00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-21",
+     "summary_zh": "一项整合代谢组学、流行病学与遗传学的研究发表在《Clinical Gastroenterology and Hepatology》：超加工食品摄入越多，体内保护肠道的DHA流失越严重，肠道屏障与免疫功能随之削弱，克罗恩病风险上升。FADS1基因位点rs174546同时决定血液DHA水平与发病风险，共享遗传信号可信度达95.8%；携带T等位基因者DHA合成能力弱，对超加工食品更敏感。",
+     "summary_en": "A study integrating metabolomics, epidemiology and genetics in Clinical Gastroenterology and Hepatology found that the more ultra-processed food people eat, the more protective DHA is depleted, weakening the gut barrier and immunity and raising Crohn's disease risk. The FADS1 variant rs174546 governs both blood DHA levels and disease risk, sharing a genetic signal with 95.8% confidence; carriers of the T allele synthesize DHA poorly and respond more strongly to ultra-processed food."
+    },
+    {
+     "title_zh": "达能在上海设研发创新中心，上半年中国鱼油进口额增长60%",
+     "title_en": "Danone Opens Shanghai R&D Hub as China's Fish Oil Imports Jump 60% in First Half",
+     "url": "https://www.nutraingredients.com/Article/2026/11/18/YRBBVPLDCBFHJKTBZU7TZNK2OM",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-18",
+     "summary_zh": "达能11月2日在上海揭幕占地5200平方米的研发创新中心，聚焦肠道微生物组、健康寿命与生命早期营养，其中900平方米为OneBiome微生物组专项实验室。中国医药保健品进出口商会数据显示，鱼油是上半年进口增速最快的膳食补充剂品类，进口额增长60.07%至3.84亿美元，占进口总额9.97%，增量主要来自秘鲁。",
+     "summary_en": "Danone unveiled a 5,200-square-meter R&D innovation center in Shanghai on Nov 2, focused on the gut microbiome, healthspan and early-life nutrition, including a 900-square-meter OneBiome microbiome laboratory. Data from the China Chamber of Commerce for Import and Export of Medicines and Health Products show fish oil was the fastest-growing supplement import category in the first half, with value up 60.07% to US$384 million, or 9.97% of total supplement imports, driven mainly by Peru."
+    },
+    {
+     "title_zh": "42人随机试验：生酮饮食4—5个月肝脂降67%，半数逆转糖尿病前期",
+     "title_en": "42-Person Trial: Keto Cuts Liver Fat 67% in Four to Five Months and Reverses Prediabetes in Half",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120070904.htm",
+     "source_zh": "ScienceDaily",
+     "source_en": "ScienceDaily",
+     "date": "2026-11-20",
+     "summary_zh": "华盛顿大学医学院在《Cell Metabolism》发表随机试验：42名肥胖、糖尿病前期合并脂肪肝成人分别接受生酮、地中海与低脂饮食，三组均减重约10%。生酮组肝脂平均下降67%，地中海与低脂组均为45%；糖尿病前期逆转比例分别为50%、29%与7%。生酮组胰高血糖素升幅与胰岛素降幅最大，且尽管脂肪供能达73%，血脂与胆固醇并未升高。",
+     "summary_en": "A randomized trial from Washington University School of Medicine in Cell Metabolism assigned 42 adults with obesity, prediabetes and fatty liver to ketogenic, Mediterranean or low-fat diets, with all three groups losing about 10% of body weight. Liver fat fell 67% on keto versus 45% on both other diets, and prediabetes reversed in 50%, 29% and 7% respectively. Keto produced the largest glucagon rise and insulin fall, and despite fat supplying 73% of calories, blood lipids and cholesterol did not increase."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "JAMA子刊50人试验：尿石素A未改善外周血管，却增强前额叶脑血流反应",
+     "title_en": "JAMA Network Open Trial in 50 Adults: Urolithin A Fails on Peripheral Vessels but Boosts Prefrontal Blood Flow",
+     "url": "https://news.qq.com/rain/a/20261118A0G5FW00",
+     "source_zh": "腾讯新闻 · 热心肠日报",
+     "source_en": "Tencent News / Gut Microbiota Daily",
+     "date": "2026-11-18",
+     "summary_zh": "俄克拉荷马大学健康中心在《JAMA Network Open》发表双盲随机对照试验：50名BMI不低于30的中年人（平均50.7岁）每日补充1000毫克尿石素A或安慰剂，为期4周。两组外周内皮功能无显著差异（血流介导舒张1.3%对0.3%），但功能性近红外光谱显示工作记忆任务中左侧背外侧前额叶血流动力学响应β系数显著更高（15.53对-1.43），认知表现因天花板效应未见差异。",
+     "summary_en": "A double-blind randomized trial from the University of Oklahoma Health Sciences Center in JAMA Network Open gave 50 adults with a BMI of at least 30 (mean age 50.7) either 1,000 mg of urolithin A or placebo daily for four weeks. Peripheral endothelial function did not differ (flow-mediated dilation 1.3% versus 0.3%), but functional near-infrared spectroscopy showed a significantly higher hemodynamic beta coefficient in the left dorsolateral prefrontal cortex during a working-memory task (15.53 versus -1.43); cognitive scores were unchanged owing to ceiling effects."
+    },
+    {
+     "title_zh": "直播卖鱼油称「呵护心脑眼」并制造健康焦虑，丹阳一商户被罚3万元",
+     "title_en": "Livestream Selling Fish Oil With Heart, Brain and Eye Claims and Health Scare Tactics Draws 30,000-Yuan Fine",
+     "url": "https://www.yzwb.net/news/jiangsu/202611/t20261120_414356.html",
+     "source_zh": "扬子晚报",
+     "source_en": "Yangtse Evening Post",
+     "date": "2026-11-20",
+     "summary_zh": "镇江市市场监管部门公布网络食品销售虚假宣传专项整治首批典型案例。丹阳吕城镇一电商工作室在抖音直播销售「黄极圣康牌鱼油软胶囊」时，宣称鱼油呵护心、脑、眼，并以41岁猝死等话术刻意制造健康焦虑。该产品属保健食品，核准功效仅为辅助降血脂。2026年9月，丹阳市市场监管局依《反不正当竞争法》责令停止违法行为并罚款3万元。",
+     "summary_en": "Zhenjiang market regulators published the first batch of typical cases from a campaign against false online food advertising. An e-commerce studio in Lücheng, Danyang, claimed during a Douyin livestream that its Huangji Shengkang fish oil softgels protected the heart, brain and eyes, and used scare talk about sudden death at 41 to stoke health anxiety. The product is a health food approved only for assisting in lowering blood lipids; in September 2026 the Danyang bureau ordered the practice stopped and fined the operator 30,000 yuan."
+    },
+    {
+     "title_zh": "普通食品暗示可治幽门螺杆菌，句容查处益生菌片虚假宣传",
+     "title_en": "Ordinary Food Implies It Treats H. pylori: Jurong Cracks Down on Probiotic Tablet Misrepresentation",
+     "url": "https://www.yangtse.com/news/jiangsu/202611/t20261120_414357.html",
+     "source_zh": "扬子晚报",
+     "source_en": "Yangtse Evening Post",
+     "date": "2026-11-20",
+     "summary_zh": "句容市市场监管局查处一起案件：当事人通过微信短视频账号推销「益生菌丁香沙棘片」这款普通食品，视频中称幽门螺旋杆菌遇到该片也会消失、清幽特猛，暗示其具治疗作用；另一账号推广「植物硒蛋白多维特殊膳食片」时宣称可改善缺硒。2026年7月，监管部门依据《反不正当竞争法》责令改正并处罚款2000元。",
+     "summary_en": "Jurong market regulators handled a case in which an operator used WeChat short-video accounts to promote a probiotic, clove and sea-buckthorn tablet, an ordinary food, claiming H. pylori would disappear after taking it and that it cleared the bacterium aggressively, implying a therapeutic effect. Another account marketed a plant selenium protein multivitamin special dietary tablet as correcting selenium deficiency. In July 2026 regulators ordered corrections and imposed a 2,000-yuan fine."
+    },
+    {
+     "title_zh": "国际益生菌协会：中国有望在2030年前成为全球最大益生菌市场",
+     "title_en": "International Probiotics Association: China Could Become the World's Largest Probiotic Market Before 2030",
+     "url": "https://www.nutraingredients.com/Article/2026/11/20/china-likely-to-become-the-biggest-probiotic-market-by-2030-says-ipa-chief/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-20",
+     "summary_zh": "国际益生菌协会执行主任George Paraskevakos表示，美国仍是最大益生菌市场（2024年26亿美元），中国以19亿美元紧随其后但增速更快。2026年亚太市场预计达40—45亿美元，中国占52%份额；亚太2020—2024年复合增速12.7%，美洲仅4.3%。协会已在华设办事处并联合推出首届Probiota Asia，同时计划推出产品验证标识，规范菌株、CFU与保质期标注。",
+     "summary_en": "George Paraskevakos, executive director of the International Probiotics Association, said the United States remains the largest probiotic market at US$2.6 billion in 2024, with China close behind at US$1.9 billion but growing faster. Asia-Pacific is expected to reach US$4–4.5 billion in 2026, with China holding 52%, after a 12.7% compound growth rate from 2020 to 2024 versus 4.3% in the Americas. The association has opened a China office, co-launched Probiota Asia and plans a product verification mark covering strains, CFU counts and expiry dates."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "广饶街道社区卫生服务中心：中医外治叠加生活方式干预，千余人受益体重管理门诊",
+     "title_en": "Guangrao Community Health Center Blends TCM External Therapy With Lifestyle Coaching; Over 1,000 Use Weight Clinic",
+     "url": "http://dywsjk.dongying.gov.cn/art/2026/11/20/art_37168_10314761.html",
+     "source_zh": "东营市卫生健康委员会",
+     "source_en": "Dongying Municipal Health Commission",
+     "date": "2026-11-20",
+     "summary_zh": "山东广饶县广饶街道社区卫生服务中心今年5月开设体重管理门诊，走中医外治加生活方式干预路径：先由副主任中医师做体质辨识，按脾虚湿盛、痰湿内阻等分型定制中药贴敷方案，再由公共营养师结合基础病给出饮食、运动与作息处方并定期随访。开诊以来已接诊千余名超重肥胖居民，一例合并糖尿病前期与脂肪肝者四个月减重30斤、腰围缩小8厘米。",
+     "summary_en": "Guangrao Subdistrict Community Health Center in Shandong opened a weight management clinic in May, combining external TCM therapy with lifestyle intervention. A senior TCM physician first identifies the body constitution and tailors herbal patch protocols for patterns such as spleen deficiency with dampness, after which a public nutritionist sets diet, exercise and sleep plans based on comorbidities and follows up regularly. More than 1,000 overweight or obese residents have been seen; one woman with prediabetes and fatty liver lost 15 kg and 8 cm of waist circumference in four months."
+    },
+    {
+     "title_zh": "黑龙江举办2026年慢性病防治宣传暨健康体重管理活动",
+     "title_en": "Heilongjiang Hosts 2026 Chronic Disease Prevention Campaign and Healthy Weight Management Event",
+     "url": "https://wsjkw.hlj.gov.cn/wsjkw/c109060/202611/c00_31997481.shtml",
+     "source_zh": "黑龙江省卫生健康委员会",
+     "source_en": "Heilongjiang Provincial Health Commission",
+     "date": "2026-11-18",
+     "summary_zh": "11月18日，黑龙江省2026年慢性病防治宣传暨健康体重管理活动在哈尔滨举行，主题为科学体重、稳糖防卒、呼吸健康，由省卫健委与省疾控局主办，省市区多家疾控和医疗机构参与。现场设健康科普、义诊咨询、互动体验专区，医务人员为市民测血压血糖、解答饮食运动与体重控制问题，并以体重管理为切入点统筹慢阻肺、脑卒中、糖尿病等重大慢病防控科普。",
+     "summary_en": "On Nov 18 Heilongjiang held its 2026 chronic disease prevention campaign and healthy weight management event in Harbin under the theme scientific weight, stable glucose, stroke prevention and respiratory health. Organized by the provincial health commission and disease control bureau with provincial, municipal and district institutions, it featured health education, free consultations and interactive zones where clinicians measured blood pressure and glucose and answered questions on diet, exercise and weight control, using weight management as the entry point for COPD, stroke and diabetes prevention."
+    },
+    {
+     "title_zh": "青岛崂山构建「五位一体」中医生活化体系，覆盖社区、家庭、校园、企业",
+     "title_en": "Qingdao's Laoshan District Builds a Five-Pillar TCM-in-Daily-Life System Spanning Community, Family, School and Workplace",
+     "url": "https://qingdao.dzwww.com/qingdaonews/202611/t20261120_18320356.htm",
+     "source_zh": "大众网青岛",
+     "source_en": "Dazhong Net Qingdao",
+     "date": "2026-11-20",
+     "summary_zh": "青岛市崂山区打造社区宣教、家庭普及、校园启蒙、企业指导、分类施策五位一体中医生活化服务模式：依托国医馆建设中医药活力社区、培育社区中医健康管理员，丰富家庭医生签约的中医服务包，进校园做近视防控与脊柱侧弯筛查，进企业做工位养生操与八段锦教学，并对一老一小、慢病与超重人群分层干预。",
+     "summary_en": "Laoshan District in Qingdao has built a five-pillar model bringing TCM into daily life: community education, family outreach, school initiation, workplace guidance and tiered interventions. It develops TCM-active communities around national medicine clinics, trains community TCM health managers, enriches family doctor contract packages with TCM services, runs myopia and scoliosis screening in schools, teaches desk exercises and Baduanjin in workplaces, and targets older adults, children, chronic disease patients and overweight residents with tailored programs."
+    },
+    {
+     "title_zh": "青岛市南区：三甲专家编入家庭医生团队，诊室搬进社区打通最后一公里",
+     "title_en": "Qingdao Shinan District Puts Tertiary Hospital Experts on Family Doctor Teams, Moving Clinics Into Communities",
+     "url": "https://www.workercn.cn/c/2026-11-21/8946629.shtml",
+     "source_zh": "中工网 · 工人日报",
+     "source_en": "China Workers' Net / Workers' Daily",
+     "date": "2026-11-21",
+     "summary_zh": "青岛市市南区推行公益一类财政保障、公益二类绩效管理，构建三甲医院顶天、区级医院强腰、社区卫生服务中心立地的三级网络，把三甲专家与区中西医结合医院专科医生编入家庭医生团队，提供预防、诊疗、康复、随访全链条服务。该区率先试点整合型医疗卫生服务健康小区，家医团队定期驻点巡诊，把健康档案管理、疫苗接种预约、中医理疗延伸到居民家门口。",
+     "summary_en": "Qingdao's Shinan District pairs first-tier public funding with second-tier performance management to build a three-level network of tertiary hospitals, district hospitals and community health centers, embedding tertiary experts and district integrated Chinese-Western medicine specialists into family doctor teams for prevention, diagnosis, rehabilitation and follow-up. The district piloted integrated health neighborhoods where family doctor teams hold regular on-site clinics, extending health record management, vaccination booking and TCM therapy to residents' doorsteps."
+    }
+   ]
+  }
+ ]
+}
