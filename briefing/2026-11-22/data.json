@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-22",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月16日 — 11月22日（最近 7 天）",
+ "range_en": "Nov 16 – Nov 22, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "限时进食防急性肝损伤：南医大团队揭示「肠菌产尿酸」新通路",
+     "title_en": "Time-Restricted Feeding Protects the Liver by Curbing Gut Bacterial Urate Production",
+     "url": "https://news.qq.com/rain/a/20261122A06QKJ00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-22",
+     "summary_zh": "南方医科大学龚神海、新桥医院肖卫东、南医三院何懿与华南师大王璋团队11月18日在《Cell Reports Medicine》发表研究：限时进食降低肠道3-甲基组胺，抑制中间普雷沃菌生长，该菌经腺苷脱氨酶在肠道生成尿酸；尿酸再经LRCH1阻断PINK1/Parkin线粒体自噬而产生肝毒性。人群队列支持把限时进食作为肝损伤预防策略。",
+     "summary_en": "A study published Nov 18 in Cell Reports Medicine by teams from Southern Medical University, Xinqiao Hospital, the Third Affiliated Hospital of SMU and South China Normal University shows time-restricted feeding lowers intestinal 3-methylhistamine, which curbs Prevotella intermedia; that bacterium makes urate via adenosine deaminase, and urate then blocks PINK1/Parkin mitophagy through LRCH1, injuring the liver. Human cohort data support time-restricted eating as a liver-protection strategy."
+    },
+    {
+     "title_zh": "上海科普大讲坛聚焦肠脑轴：LcS干预帕金森临床结果与「调神扶正」同台",
+     "title_en": "Shanghai Science Forum Takes On the Gut-Brain Axis, From an LcS Trial in Parkinson's to Mind-Body Regulation",
+     "url": "https://finance.sina.com.cn/roll/2026-11-22/doc-inizqmrh6098941.shtml",
+     "source_zh": "新浪财经",
+     "source_en": "Sina Finance",
+     "date": "2026-11-22",
+     "summary_zh": "上海科普大讲坛以「菌衡自在、肠享健康」为题开讲。杨晓东介绍团队用副干酪乳酪杆菌代田株YIT9029干预帕金森病的临床研究：补充LcS可改善胃肠道症状、提升肠道乳酸杆菌丰度、降低粪便酪氨酸并升高血浆酪氨酸，而酪氨酸是多巴胺前体；田建辉则从「正虚伏毒、调神扶正」谈免疫微环境重塑。",
+     "summary_en": "A Shanghai public science forum titled Gut Balance, Gut Health featured Yang Xiaodong describing clinical work in which Lactobacillus paracasei Shirota YIT9029 was given to Parkinson's patients: supplementation eased gastrointestinal symptoms, raised intestinal lactobacilli, lowered fecal tyrosine and raised plasma tyrosine, the precursor of dopamine. Tian Jianhui discussed rebuilding the immune microenvironment through the traditional idea of calming the mind and supporting vital qi."
+    },
+    {
+     "title_zh": "脊髓损伤后肠道「氮循环」崩塌：19个关键菌种解释顽固性氮负平衡",
+     "title_en": "After Spinal Cord Injury the Gut's Nitrogen Cycle Collapses: 19 Keystone Species Explain Persistent Negative Nitrogen Balance",
+     "url": "https://news.qq.com/rain/a/20261121A0D07H00",
+     "source_zh": "腾讯新闻 · 热心肠日报",
+     "source_en": "Tencent News / Gut Times",
+     "date": "2026-11-21",
+     "summary_zh": "一项小鼠研究借生态学网络思路分析263个高质量细菌基因组，在6个时间点交叉验证后锁定19个关键菌种：11种随损伤加重异常扩增，8种核心共生菌大幅减少。携带完整脲酶基因簇的菌株锐减使尿素氮回收瘫痪、尿素蓄积；苯丙氨酸与酪氨酸合成枯竭，多胺合成异常增强，为脊髓损伤后氮负平衡提供菌群解释。",
+     "summary_en": "Using an ecological network approach on 263 high-quality bacterial genomes and cross-validating at six time points, a mouse study narrowed the field to 19 keystone species: 11 expand abnormally as injury worsens while eight core commensals collapse. Loss of urease-carrying strains cripples urea nitrogen recycling and lets urea accumulate, while phenylalanine and tyrosine synthesis dries up and polyamine production rises, offering a microbial explanation for post-injury negative nitrogen balance."
+    },
+    {
+     "title_zh": "华中农大团队：两种拟杆菌重塑菌群，吲哚联用酚酸清除耐药菌定植",
+     "title_en": "Two Bacteroides Species Reshape the Gut, and Indole Plus Phenolic Acids Clears Resistant Pathogens",
+     "url": "https://news.qq.com/rain/a/20261121A0CP6900",
+     "source_zh": "腾讯新闻 · 热心肠日报",
+     "source_en": "Tencent News / Gut Times",
+     "date": "2026-11-21",
+     "summary_zh": "华中农大王旭、王俊豪团队发现，嗜酸拟杆菌与鼠盲肠拟杆菌可提升Akkermansia等有益菌比例、压制大肠杆菌过度增殖，重建对空肠弯曲菌的定植抗性。代谢组锁定色氨酸与苯丙素通路：吲哚能破坏细菌细胞膜与生物被膜，与丙酸、丁香酸、阿魏酸联用后协同瓦解膜电位，致胞内核酸、蛋白与ATP大量泄漏。",
+     "summary_en": "Researchers at Huazhong Agricultural University found that Bacteroides acidifaciens and B. caecimuris raise beneficial taxa such as Akkermansia while suppressing overgrowth of E. coli, restoring colonization resistance against Campylobacter jejuni. Metabolomics pointed to tryptophan and phenylpropanoid pathways: indole disrupts bacterial membranes and biofilms, and combined with propionate, syringic acid and ferulic acid it collapses membrane potential, leaking nucleic acids, proteins and ATP."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "莫纳什大学绘出免疫衰老基因蓝图：CD8⁺T细胞有三条老化路径",
+     "title_en": "Monash Maps the Genetic Blueprint of Immune Aging: CD8+ T Cells Take Three Distinct Routes",
+     "url": "http://chinaview.cn/20261121/9603d10f49104987ba6edafd1d05a120/c.html",
+     "source_zh": "新华网",
+     "source_en": "Xinhua News",
+     "date": "2026-11-21",
+     "summary_zh": "澳大利亚莫纳什大学团队在《Science Immunology》发表临床前研究，以小鼠为模型发现衰老通过三种不同的染色质特征扰乱CD8⁺T细胞的基因指令，影响其应对新威胁、调控免疫反应与维持自身健康的能力；还识别出一群此前未知的衰老CD8调节性T细胞，不仅丧失保护功能，还主动抑制其他免疫细胞，提示免疫衰老并非均一过程。",
+     "summary_en": "A preclinical study from Monash University in Science Immunology used mouse models to show that aging disrupts the genetic instructions of CD8+ T cells through three distinct chromatin signatures, impairing their ability to meet new threats, regulate immune responses and stay healthy. The team also found a previously unrecognized population of aged CD8 regulatory T cells that not only lose protection but actively suppress other immune cells, showing immune aging is not uniform."
+    },
+    {
+     "title_zh": "专访霍尔斯泰格：认知健康活到百岁，约六成能力归因于遗传",
+     "title_en": "Interview with Henne Holstege: About 60% of Reaching 100 with Intact Cognition Is Heritable",
+     "url": "https://www.ctdsb.net/c1659_202611/2911061.html",
+     "source_zh": "极目新闻 · 红星新闻",
+     "source_en": "Jimu News / Red Star News",
+     "date": "2026-11-22",
+     "summary_zh": "红星新闻专访阿姆斯特丹大学医学中心遗传学家亨内·霍尔斯泰格。其团队重建认知健康百岁老人的家族史并与同龄伴侣对照，估算在保持认知健康的前提下活到100岁约六成能力归因于遗传。团队已找到一批与阿尔茨海默病抵抗力相关的罕见变异，以APOE保护性变异最受关注；她强调基因不决定命运，运动、戒烟、控血压血糖与听力干预依然有效。",
+     "summary_en": "In an interview with Red Star News, Henne Holstege of Amsterdam UMC described reconstructing family histories of cognitively healthy centenarians and comparing them with same-age partners' families; roughly 60% of the ability to reach 100 with intact cognition appears heritable. Her team has identified rare variants tied to Alzheimer's resistance, notably protective APOE variants, but she stresses genes are not destiny and that exercise, quitting smoking, blood pressure and glucose control and hearing correction still matter."
+    },
+    {
+     "title_zh": "《先进科学》鼻喷mRNA让鼻上皮就地造BDNF，改善老年与AD小鼠记忆",
+     "title_en": "Intranasal mRNA Lets the Nasal Epithelium Make BDNF, Improving Memory in Aged and Alzheimer's Mice",
+     "url": "https://news.qq.com/rain/a/20261122A050T600",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-22",
+     "summary_zh": "悉尼大学G. Gregory Neely团队11月18日在《Advanced Science》发表研究，构建仅编码成熟BDNF的mRNA-脂质纳米颗粒鼻腔制剂，借鼻上皮就地合成蛋白以绕开血脑屏障。老年小鼠与5xFAD模型经鼻给药后脑内BDNF升高、海马神经发生增强、多项记忆改善，且未诱发明显炎症；5xFAD的Aβ斑块未见改变，属非侵入式临床前候选策略。",
+     "summary_en": "A Nov 18 study in Advanced Science from G. Gregory Neely's group at the University of Sydney built an intranasal mRNA-lipid nanoparticle formulation encoding only mature BDNF, using the nasal epithelium as an in-body protein factory to bypass the blood-brain barrier. In aged mice and 5xFAD models, nasal dosing raised brain BDNF, boosted hippocampal neurogenesis and improved multiple memory measures without obvious inflammation, though amyloid plaques were unchanged."
+    },
+    {
+     "title_zh": "《华尔街日报》述评：活得更久不等于活得更好，长寿产业该换考核指标",
+     "title_en": "WSJ Commentary: A Longer Life Isn't Always a Better Life, and Longevity Needs New Endpoints",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34527762",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-22",
+     "summary_zh": "澎湃新闻编译《华尔街日报》述评指出，美国人平均预期寿命约79岁、健康寿命约65岁，相差约14年；70岁及以上人群中超过八成至少患一种慢病。文章强调生物年龄与衰老时钟的改善并不必然带来疾病风险下降或功能改善，健康长寿医学应转向慢病预防、身体功能、认知与独立生活能力等真实结局，并尊重患者对治疗强度的个人选择。",
+     "summary_en": "A Wall Street Journal commentary translated by The Paper notes US life expectancy of about 79 years versus healthspan of about 65, a gap of roughly 14 years, and that more than 80% of people aged 70 and over have at least one chronic disease. It argues that better biological age and clock readings do not necessarily mean lower disease risk or better function, and that longevity medicine should track prevention, physical function, cognition and independence, while respecting patients' choices about treatment intensity."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "第三届精准营养与生命健康创新大会三亚开幕，四百余专家聚焦AI与菌群靶向",
+     "title_en": "Third Precision Nutrition and Life Health Innovation Conference Opens in Sanya With 400+ Experts",
+     "url": "https://www.sanya.gov.cn/sanyasite/zwdt/202611/ec42a8d7abc54cafbec9a635bd374ffc.shtml",
+     "source_zh": "三亚市人民政府",
+     "source_en": "Sanya Municipal People's Government",
+     "date": "2026-11-21",
+     "summary_zh": "11月21日，第三届精准营养与生命健康创新大会在三亚开幕，逾400名营养学、食品科学、人工智能与产业界代表参会。议题覆盖食药同源原料挖掘、精准营养调控新机制、功能组分递送控释新工艺、个性化健康食品创制、AI大模型赋能主动健康管理与肠道微生物组靶向干预，并设慢病营养干预与免疫功能强化等分论坛；陈卫、邓子新、朱蓓薇、谢明勇等院士出席。",
+     "summary_en": "The third Precision Nutrition and Life Health Innovation Conference opened in Sanya on Nov 21 with more than 400 specialists in nutrition, food science, AI and industry. Topics spanned medicinal-food raw materials, new mechanisms of nutritional regulation, delivery and controlled-release processes, personalized health foods, large AI models for proactive health management and microbiome-targeted intervention, with sub-forums on chronic disease nutrition and immune function. Academicians Chen Wei, Deng Zixin, Zhu Beiwei and Xie Mingyong attended."
+    },
+    {
+     "title_zh": "北大团队综述：地中海饮食与胃癌风险降29%、结直肠癌降10%—16%相关",
+     "title_en": "Peking University Review Links the Mediterranean Diet to 29% Lower Gastric and 10-16% Lower Colorectal Cancer Risk",
+     "url": "https://news.qq.com/rain/a/20261120A0GRT900",
+     "source_zh": "腾讯新闻 · 新药说",
+     "source_en": "Tencent News",
+     "date": "2026-11-21",
+     "summary_zh": "北京大学团队在《The Innovation Nutrition》发表综述，综合数十年流行病学证据：覆盖逾130万人的合并分析显示，地中海饮食依从度最高者胃癌风险比最低者低29%，评分每增1分胃癌风险约降5%；该饮食还与结直肠癌风险降10%—16%、结直肠腺瘤风险降21%相关。机制涉及降低炎症标志物、橄榄油与果蔬抗氧化，以及膳食纤维经菌群发酵产丁酸。",
+     "summary_en": "A Peking University review in The Innovation Nutrition pooled decades of epidemiological evidence: in analyses covering more than 1.3 million people, those most adherent to a Mediterranean diet had 29% lower gastric cancer risk than the least adherent, with roughly 5% lower risk per point of adherence. The pattern was also linked to 10-16% lower colorectal cancer risk and 21% lower odds of adenomas, via lower inflammatory markers, antioxidant-rich olive oil and produce, and fiber fermented to butyrate."
+    },
+    {
+     "title_zh": "893人研究：肠道微生物健康指数可作为整体健康的复合生物标志物",
+     "title_en": "893-Person Study: A Gut Microbial Health Index Works as a Composite Biomarker of Overall Health",
+     "url": "https://www.163.com/dy/article/LCA3SIB505568E38_pdya11y.html",
+     "source_zh": "网易",
+     "source_en": "NetEase",
+     "date": "2026-11-22",
+     "summary_zh": "一项发表于《Gut Microbes》的研究在893名年度体检人群中以16S测序计算微生物健康指数（MHI），即97种健康相关与31种疾病相关细菌变体数量比值的对数。膳食纤维摄入多、坚持地中海饮食、体能（METs）更好者MHI更高、血脂更理想；超加工食品多、亚临床炎症高者MHI更低。研究称该指数对饮食变化反应迅速，可像血压血脂一样反映健康状态。",
+     "summary_en": "Published in Gut Microbes, the study calculated a microbial health index (MHI), the log ratio of 97 health-associated to 31 disease-associated bacterial variants, in 893 adults undergoing annual checkups with 16S sequencing. Higher fiber intake, Mediterranean-style eating and better fitness (METs) tracked with higher MHI and better lipids, while more ultra-processed food and subclinical inflammation tracked with lower scores. The index responded quickly to diet, much like blood pressure or lipids."
+    },
+    {
+     "title_zh": "美国乳品协会：健康老龄化是乳清蛋白被忽视的市场，老年蛋白需求被低估",
+     "title_en": "ADPI Says Healthy Aging Is Whey Protein's Missed Market as Older Adults' Protein Needs Are Underserved",
+     "url": "https://www.nutraingredients.com/Article/2026/11/20/adpi-healthy-aging-a-missed-opportunity-for-whey-protein/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-20",
+     "summary_zh": "美国乳品协会（ADPI）技术发展副总裁Kimberlee Burrington在芝加哥乳清会议上表示，行业过度聚焦运动营养，忽视了健康老龄化这一「错失的机会」：蛋白质摄入不足会加速肌肉流失，影响平衡并抬高跌倒风险。她指出配方难点在于「在更小体积里装更多蛋白」——部分蛋白shot已做到100毫升含约20克，但口感与稳定性难以兼顾；乳清与GLP-1用药者的保肌研究才刚起步。",
+     "summary_en": "Speaking at a Chicago whey conference, ADPI technical development vice president Kimberlee Burrington said the industry's focus on sports nutrition has left healthy aging a missed opportunity: too little protein accelerates muscle loss, harms balance and raises fall risk. The formulation challenge is fitting more protein into less product, with some shots reaching about 20 g per 100 mL at the cost of taste and stability. Research on whey and muscle retention in GLP-1 users is only beginning."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "2026营养素循证与创新产业大会郑州落幕，首发AI智能体与《营养素生物代谢白皮书》",
+     "title_en": "Evidence-Based Nutrient Conference in Zhengzhou Debuts an AI Agent and a Nutrient Metabolism White Paper",
+     "url": "https://tech.china.com/articles/20261120/202611201981616.html",
+     "source_zh": "中华网科技",
+     "source_en": "China.com Tech",
+     "date": "2026-11-20",
+     "summary_zh": "11月19日至20日，2026营养素循证与创新产业大会在郑州举行，由郑州瑞普生物与营养素生物代谢评价研究院主办，主题为「循证营养代谢 共创全民健康」。开幕式发布两项行业首发：NutriRipu™ AI智能体启动并现场演示问答；《营养素生物代谢白皮书》发布，试图把营养素研究从分散探索推向系统化标准化，推动行业从「含量营养」转向「代谢营养、精准营养」。",
+     "summary_en": "Held in Zhengzhou on Nov 19-20 and hosted by Ruipu Bio and the Nutrient Biometabolism Evaluation Institute, the 2026 Evidence-Based Nutrient and Innovation Conference opened with two industry firsts: the NutriRipu AI agent, demonstrated live in Q&A, and a white paper on nutrient biometabolism. The document aims to move nutrient research from scattered exploration to systematic standards and shift the sector from nutrient content claims toward metabolism-based, precision nutrition."
+    },
+    {
+     "title_zh": "山西药店医保个账「白名单」：保健品不能刷，特医食品可用临时码结算",
+     "title_en": "Shanxi Sets a Whitelist for Pharmacy Medical-Account Spending: No Supplements, but Formula Foods Qualify",
+     "url": "https://www.163.com/dy/article/LC9ND8PB0514R9P4.html",
+     "source_zh": "网易 · 澎湃新闻",
+     "source_en": "NetEase / The Paper",
+     "date": "2026-11-21",
+     "summary_zh": "山西印发通知建立定点零售药店职工医保个人账户支付白名单，自印发之日30日后施行，全省统一清单。准予支付四类：医疗属性强的药品、器械与耗材；医用消毒产品；经市场监管总局批准的特医食品（用「特医食品药店临时码Q03000000」结算）；体外诊断试剂。不予支付范围明确包含蓝帽子保健食品、智能手表手环等穿戴设备与米面油。",
+     "summary_en": "Shanxi issued a notice creating a unified whitelist for what employees' medical insurance accounts may buy at designated pharmacies, effective 30 days after publication. Four categories qualify: clearly medical drugs, devices and consumables; medical disinfectants; formula foods for special medical purposes approved by the market regulator, settled with a dedicated temporary code; and in-vitro diagnostics. Excluded are blue-hat health foods, smart watches and bands, and staples such as rice, flour and oil."
+    },
+    {
+     "title_zh": "衡阳公布养老领域虚假宣传六起典型案例：蜂胶称「有炎必消」被罚",
+     "title_en": "Hengyang Names Six Senior-Targeted False-Advertising Cases, Including Propolis Claimed to 'Clear Any Inflammation'",
+     "url": "https://news.qq.com/rain/a/20261121A0CNEV00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-21",
+     "summary_zh": "湖南衡阳市场监管部门公布养老领域暨网络食品虚假宣传专项整治六起典型案例。蒸湘区一驼奶店在微信群推送直播链接，宣称蜂胶软胶囊「有炎必消、有包必散、调节血糖血脂、辅助治疗糖尿病」，与获批「有助于增强免疫」功能不符；另有理疗店宣称膏方修复心脑血管、公司小程序宣传矿泉水「防癌抗癌之王」，均依《反不正当竞争法》处罚。",
+     "summary_en": "Market regulators in Hengyang, Hunan published six typical cases from a campaign against senior-targeted and online food false advertising. One camel-milk shop pushed livestream links into WeChat groups claiming its propolis softgels would clear any inflammation or lump, regulate blood sugar and lipids and help treat diabetes, far beyond the approved immune-support claim. Others claimed a paste repaired heart and brain vessels, or that mineral water was a cancer-fighting king; all were fined under the Anti-Unfair Competition Law."
+    },
+    {
+     "title_zh": "药食同源产业联盟长沙成立，团体标准制订启动并上线「鑫卫云药房」",
+     "title_en": "Medicinal-Food Industry Alliance Launches in Changsha With Standards Work and a Cloud Pharmacy",
+     "url": "https://m.voc.com.cn/xhn/news/202611/34318458.html",
+     "source_zh": "新湖南 · 大众卫生报",
+     "source_en": "New Hunan / Public Health News",
+     "date": "2026-11-22",
+     "summary_zh": "11月20日下午，2026长沙银发产业博览会重点活动——食药同源产业联盟成立大会在红星国际会展中心举行，理事长单位共同签署《食药同源产业联盟公约》并授牌。大会同步启动食药同源标准制订，拟从原料溯源、生产加工、品控检测、标识规范建立统一准则；「鑫卫云药房」上线，打通线上线下本草产品流转、体质服务与溯源查询。",
+     "summary_en": "On the afternoon of Nov 20, a key event of the Changsha silver-economy expo saw the founding of a medicinal-food industry alliance at the Hongxing International Convention Center, with member units signing a covenant and receiving plaques. The meeting also launched standards work covering raw-material traceability, processing, quality testing and labeling, and unveiled the Xinwei cloud pharmacy, which links online and offline herbal product flows, constitution-based services and traceability queries."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "长沙天心区深化矩阵式医联体，同步开办基层老年人健康管理指导中心培训班",
+     "title_en": "Changsha's Tianxin District Deepens Its Matrix Medical Alliance and Trains Grassroots Geriatric Health Managers",
+     "url": "https://news.yunnan.cn/system/2026/11/21/034199741.shtml",
+     "source_zh": "云南网 · 央视网",
+     "source_en": "Yunnan.cn / CCTV",
+     "date": "2026-11-21",
+     "summary_zh": "11月21日报道，长沙天心区深化矩阵式医联体建设，以长沙市第三医院为牵头医院，推动专科联盟协作、资源技术人才下沉。同期举办长沙市基层老年人健康管理指导中心培训班，设置糖尿病性骨质疏松症诊治、高血压患者基层规范化管理、慢阻肺全球指南解读等实操课程；参会人员还实地察看天心紧密型城市医疗集团南托中心运行情况。",
+     "summary_en": "Changsha's Tianxin district is deepening a matrix-style medical alliance led by the Third Hospital of Changsha, pushing specialty collaboration and the downward flow of resources, technology and staff. A parallel training course for the city's grassroots geriatric health management center covered diabetic osteoporosis, standardized primary-care hypertension management and the global COPD guideline. Attendees also visited the Nantuo center of the district's compact urban medical group."
+    },
+    {
+     "title_zh": "聊城：全民健康信息平台连接2300余套终端，AI辅助诊断覆盖1700余种疾病",
+     "title_en": "Liaocheng Links 2,300+ Terminals to Its Health Data Platform as AI Diagnosis Covers 1,700+ Diseases",
+     "url": "https://liaocheng.sdnews.com.cn/lcxw/202611/t20261121_5330566.htm",
+     "source_zh": "鲁网",
+     "source_en": "Luwang",
+     "date": "2026-11-21",
+     "summary_zh": "11月20日聊城市卫健委发布会披露，该市全民健康信息平台按「市级统建、县级共享、基层使用」连接2300余套终端、打通16类信息板块，电子病历、健康档案等四大数据库实时归集；基层引进清华DUCG人工智能辅助诊断，覆盖1700余种疾病。全市93家机构实现省域内检查检验结果互认，影像357项、检验151项；39家二级以上医院推行「一次挂号、多日有效」。",
+     "summary_en": "At a Nov 20 briefing, Liaocheng's health commission said its city-built health information platform links more than 2,300 terminals across 16 data domains, with real-time aggregation of electronic records, health files and other core databases. Primary care has adopted Tsinghua's DUCG AI diagnostic support covering over 1,700 diseases. Ninety-three institutions now recognize each other's results within the province, covering 357 imaging and 151 lab items, and 39 hospitals offer multi-day validity for a single registration."
+    },
+    {
+     "title_zh": "广州番禺：217个家庭医生团队守社区，钟村街「三师共管」体重门诊成样本",
+     "title_en": "Guangzhou's Panyu District Fields 217 Family Doctor Teams as a Three-Professional Weight Clinic Sets an Example",
+     "url": "https://news.qq.com/rain/a/20261121A0A9LR00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-21",
+     "summary_zh": "广州番禺以25间健康驿站、23间社区卫生服务机构和217个家庭医生团队织密基层网络，特色科室覆盖中医治未病、康复、体重管理、呼吸慢病、内分泌与老年医学。钟村街社区卫生服务中心打造「三师共管」医防融合体重管理门诊，以个性化营养处方与中医适宜技术为核心。2025年度辖区社区门诊量246.49万人次，较2022年增长54%。",
+     "summary_en": "Panyu district in Guangzhou has built a dense primary-care network of 25 health stations, 23 community health institutions and 217 family doctor teams, with specialty clinics spanning preventive Chinese medicine, rehabilitation, weight management, respiratory chronic disease, endocrinology and geriatrics. Zhongcun Street's center runs a three-professional, prevention-treatment integrated weight clinic built on personalized nutrition prescriptions and appropriate TCM techniques. Community outpatient visits reached 2.46 million in 2025, up 54% from 2022."
+    },
+    {
+     "title_zh": "湖北老年医学基层适宜人才咸宁培训班开班，八位省市专家授课",
+     "title_en": "Hubei Trains Grassroots Geriatric Talent in Xianning With Eight Provincial and Municipal Experts",
+     "url": "https://news.qq.com/rain/a/20261122A04P6700",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-22",
+     "summary_zh": "11月20日至21日，咸宁市卫健委主办、咸宁市中医医院承办的2026年湖北省老年医学基层适宜人才（咸宁）培训班举行，来自乡镇卫生院、社区卫生服务中心及医养结合机构的老年病相关医师参加。课程聚焦高血压、糖尿病等常见慢病规范化管理，以及老年焦虑抑郁的早期识别与干预，并涵盖老年护理需求评估、合理用药、康复护理、居家医疗与中医药适宜技术。",
+     "summary_en": "On Nov 20-21 the Xianning health commission and the city's TCM hospital ran the 2026 Hubei training course for grassroots geriatric talent, drawing physicians from township hospitals, community health centers and integrated elder-care facilities. Sessions focused on standardized management of hypertension and diabetes and early recognition of anxiety and depression in older adults, plus geriatric nursing assessment, rational prescribing, rehabilitation, home care and appropriate TCM techniques."
+    }
+   ]
+  }
+ ]
+}
