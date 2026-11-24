@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-24",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月18日 — 11月24日（最近 7 天）",
+ "range_en": "Nov 18 – Nov 24, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "冷激益生菌囊泡直攻肝脏：脂肪变性面积缩小逾75%，胆汁酸轴被重编程",
+     "title_en": "Cold-shocked probiotic vesicles target the liver: steatosis area cut by over 75% as the bile-acid axis is reprogrammed",
+     "url": "https://news.qq.com/rain/a/20261123A07OD600",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-11-23",
+     "summary_zh": "贵州医科大学黄磊、刘林团队用冷休克制备罗伊氏乳杆菌胞外囊泡，口服后主要富集于肝脏。高脂饮食小鼠干预后肝内大脂肪空泡大幅减少，脂肪变性面积缩小超过75%，疾病活动度评分显著下降。机制上经PPARα抑制Cyp7a1、上调Cyp7b1使胆汁酸池回稳，肠绒毛高度恢复32%，ZO-1与闭合蛋白-1回升，TLR4/NF-κB炎症通路受抑。",
+     "summary_en": "A team at Guizhou Medical University used cold shock to prepare extracellular vesicles from Lactobacillus rhamnosus; after oral dosing the vesicles concentrated in the liver. In high-fat-fed mice, large hepatic fat vacuoles shrank sharply, steatosis area fell by more than 75% and disease activity scores dropped. Via PPARα the treatment suppressed Cyp7a1 and raised Cyp7b1, stabilising the bile-acid pool; villus height recovered 32%, ZO-1 and occludin-1 rebounded and TLR4/NF-κB signalling was dampened."
+    },
+    {
+     "title_zh": "骨桥蛋白联手双歧杆菌：修复婴儿肠道屏障的「里应外合」策略",
+     "title_en": "Osteopontin joins bifidobacteria: an inside-out strategy to repair the infant gut barrier",
+     "url": "https://news.qq.com/rain/a/20261123A0DOY200",
+     "source_zh": "热心肠日报",
+     "source_en": "China Gut Daily",
+     "date": "2026-11-23",
+     "summary_zh": "内蒙古农业大学孙志宏、高广琦团队发现，乳源骨桥蛋白与双歧杆菌联合使用可协同修复婴儿肠道屏障：骨桥蛋白先加固黏液层与紧密连接，双歧杆菌随后定植并提升短链脂肪酸水平，两者序贯配合使屏障完整性明显恢复。研究为婴幼儿肠屏障功能障碍的靶向合生制剂提供了机制依据与转化思路。",
+     "summary_en": "Researchers at Inner Mongolia Agricultural University found that milk-derived osteopontin plus bifidobacteria synergistically repair the infant gut barrier: osteopontin first reinforces the mucus layer and tight junctions, then bifidobacteria colonise and raise short-chain fatty acid levels, together restoring barrier integrity. The work offers a mechanistic basis and translational route for targeted synbiotics against infant gut barrier dysfunction."
+    },
+    {
+     "title_zh": "脊柱骨密度低，脑白质老化更快：2086人影像分析给出「共享代谢驱动」线索",
+     "title_en": "Lower spinal bone density, faster white-matter ageing: imaging of 2,086 people points to shared metabolic drivers",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+     "source_zh": "ScienceDaily / 北美放射学会",
+     "source_en": "ScienceDaily / Radiological Society of North America",
+     "date": "2026-11-22",
+     "summary_zh": "约翰斯·霍普金斯团队在《Radiology》发表MESA队列分析，用深度学习从2086人的平扫胸部CT估算胸椎骨密度，其中715人有脑MRI与认知数据、约408人有随访影像。基线骨密度较低者整体认知下降更快，胼胝体白质高信号累积更多，内囊前肢各向异性下降更明显。作者强调并非因果，可能源于胰岛素抵抗、血脂异常与绝经等共同代谢驱动。",
+     "summary_en": "A Johns Hopkins team publishing in Radiology analysed the MESA cohort, using deep learning on non-contrast chest CT to estimate thoracic vertebral bone density in 2,086 people; 715 also had brain MRI and cognitive testing, and about 408 had follow-up imaging. Lower baseline density tracked with faster cognitive decline, more white-matter hyperintensity in the corpus callosum and a steeper drop in fractional anisotropy in the anterior limb of the internal capsule. The authors stress this is not causal and may reflect shared metabolic drivers such as insulin resistance, dyslipidaemia and menopause."
+    },
+    {
+     "title_zh": "「三医整合」管慢病：把功能医学的溯源评估接进中医与常规用药之间",
+     "title_en": "Managing chronic disease with three medicines: inserting functional medicine's root-cause assessment between TCM and guideline drugs",
+     "url": "https://k.sina.com.cn/article_1625232640_60df150002701f45y.html",
+     "source_zh": "新浪网",
+     "source_en": "Sina",
+     "date": "2026-11-23",
+     "summary_zh": "大医本正第三届中医论坛上，主诊医师赵莺歌提出慢病管理要从「压指标」转向「追病根」。其模式以现代医学守住心梗、脑梗、肾衰等高风险，功能医学负责肠道菌群、食物不耐受等溯源评估与生活方式指导，中医以本草内服、外治、养生功法、药膳、情绪疏导补位。一例高血压十余年、已做支架与搭桥的患者，血压由150~200mmHg降至100~130mmHg。",
+     "summary_en": "At a TCM forum, physician Zhao Yingge argued chronic-disease care must move from suppressing markers to tracing root causes. In the model, modern medicine guards against heart attack, stroke and renal failure, functional medicine supplies root-cause assessment of gut microbiota and food intolerance plus lifestyle guidance, and TCM adds herbal formulas, external therapies, exercise routines, medicated diets and emotional support. One patient with a decade of hypertension, stents and a bypass saw blood pressure fall from 150-200 mmHg to 100-130 mmHg."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "长寿生物医学张江论坛：抗衰目标是延长健康寿命，不是无限拉长生存年限",
+     "title_en": "Zhangjiang longevity forum: the goal is healthspan, not endlessly stretching lifespan",
+     "url": "https://www.shobserver.com/sgh/detail?id=4099426",
+     "source_zh": "上观新闻",
+     "source_en": "Shanghai Observer",
+     "date": "2026-11-23",
+     "summary_zh": "论坛在上海科技大学举办，设现代衰老生物学、循证健康长寿管理、中医治未病三大方向。清华大学王钊指出衰老是生殖期后自然选择力量减弱的过程，提醒不要过度神化抗衰药物，遗传只是部分因素、生活方式与环境仍可调控；曙光医院张晓天以九种体质分型反对「千人一方」，提出青年减耗、中年调护、老年防变防残的分段思路。",
+     "summary_en": "Held at ShanghaiTech University, the forum covered modern ageing biology, evidence-based longevity management and TCM preventive practice. Wang Zhao of Tsinghua described ageing as natural selection weakening after the reproductive period and warned against over-mythologising anti-ageing drugs, since genetics is only one factor and lifestyle and environment remain modifiable. Zhang Xiaotian of Shuguang Hospital rejected one-size-fits-all supplementation, proposing nine TCM body types and stage-specific strategies: reduce wear in youth, actively maintain in midlife, prevent disability in old age."
+    },
+    {
+     "title_zh": "晚年才开始补丁酸盐仍延寿约10%：斯坦福小鼠实验显示心脏衰老被缓解",
+     "title_en": "Starting butyrate in late life still extends lifespan about 10%: Stanford mice show slower cardiac ageing",
+     "url": "https://www.163.com/dy/article/LCEMFJ3105329KGN.html",
+     "source_zh": "网易",
+     "source_en": "NetEase",
+     "date": "2026-11-23",
+     "summary_zh": "斯坦福团队预印本显示，从18月龄（相当于人类晚年）起在小鼠饮水中加丁酸钠，雌雄中位生存期均延长约10%，体脂与空腹血糖下降，自发活动、抓握力与转棒表现改善。血浆柠檬酸、α-酮戊二酸、琥珀酸降低，菌源吲哚-3-丙酸升高；左心室质量下降、心肌胶原沉积减少，线粒体超微结构与呼吸功能改善。",
+     "summary_en": "In a preprint, Stanford researchers added sodium butyrate to drinking water from 18 months of age, roughly late life in humans. Median survival rose about 10% in both sexes, body fat and fasting glucose fell, and spontaneous activity, grip strength and rotarod performance improved. Plasma citrate, alpha-ketoglutarate and succinate dropped while microbial indole-3-propionate rose; left ventricular mass and myocardial collagen deposition fell, with better mitochondrial ultrastructure and respiration."
+    },
+    {
+     "title_zh": "血检比肩腰穿：《自然·衰老》头对头研究验证血浆 p-tau217 识别脑内淀粉样蛋白",
+     "title_en": "A blood test rivalling lumbar puncture: head-to-head Nature Aging study validates plasma p-tau217 for brain amyloid",
+     "url": "https://news.qq.com/rain/a/20261123A06N9700",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-23",
+     "summary_zh": "研究对比获监管许可的全自动血浆检测与脑脊液检测。在基层医疗队列、单阈值判读下，单测p-tau217准确率85%、p-tau217与Aβ42比值87%、脑脊液检测92%；校正多重比较后，单测显著低于脑脊液，而比值与之差异未达统计学显著。作者认为血浆标志物可减少不必要的腰穿与PET，加速抗淀粉样蛋白疗法的精准可及。",
+     "summary_en": "The study compared fully automated, regulatory-cleared plasma assays with cerebrospinal fluid testing. In the primary-care cohort using a single threshold, accuracy was 85% for p-tau217 alone, 87% for the p-tau217/Aβ42 ratio and 92% for CSF; after multiple-comparison correction, p-tau217 alone was significantly below CSF while the ratio was not statistically different. The authors argue plasma markers can cut unnecessary lumbar punctures and PET scans and speed access to anti-amyloid therapy."
+    },
+    {
+     "title_zh": "百岁老人共同点不是补品：每天快走7000步、心态平稳、有人可聊",
+     "title_en": "What centenarians share is not supplements: 7,000 steps a day, a steady mood and people to talk to",
+     "url": "https://ynsjkj.yn.gov.cn/zwfw/jkkp/202611/t20261123_4386419.html",
+     "source_zh": "云南省疾病预防控制局",
+     "source_en": "Yunnan Provincial Bureau of Disease Control and Prevention",
+     "date": "2026-11-23",
+     "summary_zh": "华东医院保志军以在院25位百岁老人（最高108岁）的观察为切入点提出四个习惯：每天连续快走6000~7000步并搭配抗阻训练；保持好心态与价值感；维持日常社交，独居者尤其要防认知下降；用拇指食指环小腿中段自测肌肉量。文章同时指出人类理论寿命约120岁，约40%的衰老特性由遗传决定，其余受疾病与环境影响。",
+     "summary_en": "Drawing on 25 centenarians in his hospital, the oldest 108, Bao Zhijun of Huadong Hospital listed four habits: a continuous brisk walk of 6,000-7,000 steps daily plus resistance training; a steady mood and a sense of purpose; regular social contact, especially for those living alone; and a thumb-and-index finger ring around the mid-calf to self-check muscle mass. The article notes a theoretical human lifespan near 120 years, with about 40% of ageing traits set by genetics and the rest shaped by disease and environment."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "算法个性化饮食没赢过常规建议：151人试验中糖化血红蛋白无差异",
+     "title_en": "Algorithm-guided personalised diet fails to beat standard advice: no HbA1c difference in a 151-person trial",
+     "url": "https://www.yixue.com/n/4428.html",
+     "source_zh": "医学百科 / Communications Medicine",
+     "source_en": "Yixue / Communications Medicine",
+     "date": "2026-11-19",
+     "summary_zh": "悉尼单中心随机试验纳入151名糖尿病前期或早期2型糖尿病成人，全部起始二甲双胍缓释1.5克/日，随机接受机器学习算法饮食（综合临床、生活方式、血糖监测与菌群预测餐后血糖）或常规低脂高纤维指导。6个月糖化血红蛋白分别降0.26与0.29个百分点，组间差异不显著；体重、内脏脂肪均改善但彼此无优势，短期血糖波动降幅略大但不足以构成临床获益。",
+     "summary_en": "A single-centre Sydney trial randomised 151 adults with prediabetes or early type 2 diabetes, all starting metformin XR 1.5 g daily, to machine-learning-guided diet advice (combining clinical, lifestyle, glucose-monitoring and microbiome data to predict postprandial glucose) or standard low-fat, high-fibre counselling. At six months HbA1c fell 0.26 versus 0.29 percentage points, a non-significant difference; weight and visceral fat improved in both without advantage, and slightly larger short-term glucose variability reductions were judged not clinically meaningful."
+    },
+    {
+     "title_zh": "食养从「经验」走向「循证」：AI 四诊仪3~5分钟出体质报告，配体质餐与体质茶",
+     "title_en": "Food-based wellness moves from experience to evidence: an AI four-diagnosis device issues a body-type report in 3-5 minutes",
+     "url": "https://www.163.com/dy/article/LCE66U950514AUG0.html",
+     "source_zh": "中国食品报",
+     "source_en": "China Food News",
+     "date": "2026-11-23",
+     "summary_zh": "东方食养文化节在北京前门启动，为期90天。现场以计算机视觉采集面诊与舌诊、声纹识别与智能传感完成问诊脉诊，依托超百万份真实临床案例训练的中医大模型，3~5分钟生成个人体质报告并同步给出调理饮食建议。中国医学科学院肿瘤医院吴健雄从外科视角提出，长期坚持「规范医疗＋个性化食养」的康复人群生存质量评分提升更明显。",
+     "summary_en": "A 90-day Eastern food-therapy festival opened at Beijing's Qianmen. On site, computer vision captures facial and tongue diagnosis while voiceprint recognition and smart sensors handle inquiry and pulse reading; a TCM large model trained on over a million real clinical cases then produces a personal body-type report with dietary recommendations in three to five minutes. Wu Jianxiong of the Cancer Hospital, Chinese Academy of Medical Sciences, said patients combining standard care with personalised food therapy showed clearer gains in quality-of-life scores."
+    },
+    {
+     "title_zh": "长期高剂量味精损伤中性粒细胞抗菌力，且可经父系传给子代",
+     "title_en": "Long-term high-dose MSG impairs neutrophil killing and can pass down the paternal line",
+     "url": "https://www.163.com/dy/article/LCEFTB6805525F0T.html",
+     "source_zh": "网易 / Food & Function",
+     "source_en": "NetEase / Food & Function",
+     "date": "2026-11-24",
+     "summary_zh": "广西中医药大学团队在《Food & Function》发表大鼠研究：雄性大鼠连续90天经饮水摄入高剂量味精（1.36克/只/日）后与未接触味精的雌鼠交配，两代循环中性粒细胞数量均显著减少，而脾脏、胸腺免疫器官指数无变化，提示源于外周代谢环境而非器官损伤。两代均持续高血糖并伴胰岛β细胞损伤，谷氨酸-葡萄糖轴被重塑。作者强调不代表常规膳食剂量有害。",
+     "summary_en": "Published in Food & Function, the rat study gave males high-dose monosodium glutamate in drinking water for 90 days (1.36 g per animal daily) before mating them with unexposed females. Circulating neutrophils fell significantly in both generations while spleen and thymus indices were unchanged, pointing to the peripheral metabolic milieu rather than organ damage. Both generations stayed hyperglycaemic with islet beta-cell injury as the glutamate-glucose axis was remodelled. The authors stress this does not imply harm at normal dietary doses."
+    },
+    {
+     "title_zh": "健康活力年龄模型纳入24项可干预因素：把生活方式改善折算成健康寿命收益",
+     "title_en": "A health-vitality age model with 24 modifiable factors converts lifestyle gains into healthspan returns",
+     "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizupfq7953508.shtml",
+     "source_zh": "中华工商时报 / 新浪财经",
+     "source_en": "China Business Times / Sina Finance",
+     "date": "2026-11-24",
+     "summary_zh": "2026特殊食品大会「健康老龄化——从科学研究到创新应用」会议在南宁举行。中国疾控中心刘江美团队介绍健康活力年龄模型，纳入行为膳食、代谢、环境等24项可干预危险因素，面向全年龄段成人评估，把复杂风险转化为直观年龄，量化生活方式改善带来的健康寿命收益。北大王军波指出皮肤健康需蛋白质、脂类、维生素、矿物质共同支撑，口服营养干预应立足平衡膳食。",
+     "summary_en": "At the 2026 Special Food Conference session on healthy ageing in Nanning, Liu Jiangmei's team from China CDC presented a health-vitality age model covering 24 modifiable risk factors across behaviour, diet, metabolism and environment, assessed in adults of all ages, turning complex risk into an intuitive age and quantifying healthspan gains from lifestyle change. Wang Junbo of Peking University noted skin health depends on protein, lipids, vitamins and minerals together, so oral nutrition support should rest on a balanced diet."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "22种「三新食品」获批：L-麦角硫因限量20毫克/日，母乳源CP-9进入婴幼儿菌种名单",
+     "title_en": "22 new food substances approved: L-ergothioneine capped at 20 mg/day, breast-milk-derived CP-9 joins infant strain list",
+     "url": "https://www.chinanews.com/jk/2026/11-23/10736339.shtml",
+     "source_zh": "中国新闻网 / 国家卫生健康委",
+     "source_en": "China News Service / National Health Commission",
+     "date": "2026-11-23",
+     "summary_zh": "国家卫健委第7号公告批准4种新食品原料、14种食品添加剂新品种与4种食品相关产品。L-麦角硫因（纯度≥99.0克/100克）推荐食用量≤20毫克/日，婴幼儿、孕妇与哺乳期人群不宜食用；发酵法L-茶氨酸≤250毫克/日；母乳源动物双歧杆菌乳亚种CP-9列入《可用于婴幼儿食品的菌种名单》，我国自研婴幼儿菌株增至5株。",
+     "summary_en": "National Health Commission Announcement No. 7 approved four new food raw materials, 14 new food additives and four food-contact substances. L-ergothioneine at 99.0 g/100 g purity or above carries a recommended intake of no more than 20 mg/day and is not advised for infants, pregnant or breastfeeding women; fermented L-theanine is capped at 250 mg/day; breast-milk-derived Bifidobacterium animalis subsp. lactis CP-9 entered the list of strains usable in infant food, lifting China's self-developed infant strains to five."
+    },
+    {
+     "title_zh": "61人6个月：多成分抗衰粉剂与血管功能改善相关，收缩压多降6.1毫米汞柱",
+     "title_en": "61 people, six months: a multi-ingredient anti-ageing powder linked to better vascular function and 6.1 mmHg lower systolic pressure",
+     "url": "https://www.163.com/dy/article/LCFH52K005561FYH.html",
+     "source_zh": "网易",
+     "source_en": "NetEase",
+     "date": "2026-11-24",
+     "summary_zh": "萨里大学领衔的随机对照研究纳入61名40岁以上表面健康成人，服用含镁、氨基葡萄糖、姜提取物与维生素C的多成分粉剂或安慰剂6个月。干预组内皮功能改善、动脉僵硬度下降，收缩压比对照组多降6.1毫米汞柱，部分改善在服用1小时后即可观察到；两组低密度脂蛋白降幅无差异。研究未追踪实际心血管事件，作者称仍需更大规模试验。",
+     "summary_en": "A randomised trial led by the University of Surrey gave 61 apparently healthy adults over 40 a multi-ingredient powder containing magnesium, glucosamine, ginger extract and vitamin C, or placebo, for six months. The active group showed improved endothelial function, lower arterial stiffness and systolic pressure 6.1 mmHg lower than controls, with some changes visible one hour after intake; LDL reductions did not differ. No clinical cardiovascular events were tracked and the authors call for larger trials."
+    },
+    {
+     "title_zh": "睡眠补剂整体下滑，L-茶氨酸逆势增长：销售额2.47亿美元、在售单品却减少6%",
+     "title_en": "Sleep supplements slip overall while L-theanine climbs: $247 million in sales but 6% fewer products on shelf",
+     "url": "https://www.nutraingredients.com/Article/2026/11/23/l-theanine-gains-ground-in-sleep-supplements-as-product-assortment-shrinks/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-23",
+     "summary_zh": "Spate与NIQ数据显示，L-茶氨酸线上热度同比升148.8%，睡眠类含该成分产品销售额2.47亿美元（增9%）、销量1730万件（增10%），而在售单品数反降6%至199个；同期睡眠补剂大盘销售额下降1.2%。镁在睡眠场景销售额增79%至7420万美元、单品数增36%；褪黑素仍是最大品类，销售额12亿美元但下滑1%，单品数减6%。",
+     "summary_en": "Spate and NIQ data show L-theanine's online popularity up 148.8% year on year, with sleep products containing it generating $247 million in sales (up 9%) and 17.3 million units (up 10%), even as the number of products selling fell 6% to 199; the wider sleep-aid category slipped 1.2% in dollars. Magnesium sleep aids jumped 79% to $74.2 million with 36% more products. Melatonin remains largest at $1.2 billion, down 1%, with 6% fewer products."
+    },
+    {
+     "title_zh": "锯棕榈的证据缺口：STEP与CAMUS均未胜过安慰剂，声称开始取决于「哪种提取物」",
+     "title_en": "Saw palmetto's evidence gap: STEP and CAMUS both failed placebo, so claims now hinge on which extract",
+     "url": "https://www.nutraingredients.com/Article/2026/11/23/after-saw-palmetto-prostate-health-claims-now-depend-on-the-extract-not-the-plant/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-23",
+     "summary_zh": "CPG Radar分析显示锯棕榈需求评分95/100，但半年下滑4%，约四分之三持异议者顾虑的是副作用。早期荟萃分析多基于小样本短周期，后续STEP（2006）、CAMUS（2011，用到三倍标准剂量）与2023年Cochrane综述均未见优于安慰剂。全球前列腺补剂市场预计由16.5亿美元增至2033年32.3亿美元；南瓜籽12个月1400余人研究中全籽有效、提取物无效。",
+     "summary_en": "CPG Radar analysis puts saw palmetto demand at 95 out of 100 but down 4% in six months, with roughly three in four objectors citing side effects. Early meta-analyses rested on small, short trials; the larger STEP (2006) and CAMUS (2011, at triple the standard dose) studies and a 2023 Cochrane review found no benefit over placebo. The global prostate supplement market is projected to grow from $1.65 billion to $3.23 billion by 2033; in a 12-month study of over 1,400 men, whole pumpkin seed beat placebo while the extract did not."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "212支家医团队加三级康复阵地：荣成把卒中后遗症管到村口，累计省下4亿多元",
+     "title_en": "212 family-doctor teams and three tiers of rehab: Rongcheng manages stroke sequelae down to the village, saving over 400 million yuan",
+     "url": "https://news.qq.com/rain/a/20261123A08YXK00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-23",
+     "summary_zh": "荣成市以县域慢病综合防控为抓手，组建212支家庭医生团队，农村建档居民签约率89%，个性化签约覆盖6.6万名在管高血压患者，每季度面对面随访并代送药、代办报销。同步建市级康复中心、基层康复治疗室与中心村康复指导站，已为4105名卒中患者减轻照护负担，按单例约10万元估算累计省医疗开支4亿多元、节约医保基金2.6亿元。",
+     "summary_en": "Rongcheng built 212 family-doctor teams under its county chronic-disease programme; 89% of registered rural residents are signed up, with personalised contracts covering 66,000 managed hypertension patients through quarterly in-person follow-up, medicine delivery and insurance paperwork. A three-tier rehabilitation network links a municipal centre, primary-care therapy rooms and village guidance stations, easing care burdens for 4,105 stroke patients and saving an estimated 400 million yuan in medical costs and 260 million yuan in insurance funds."
+    },
+    {
+     "title_zh": "700支团队、41.8万「三高」患者：鄂尔多斯把防治康管串成一条链",
+     "title_en": "700 teams and 418,000 patients with three highs: Ordos links prevention, treatment, rehab and management into one chain",
+     "url": "https://wjw.ordos.gov.cn/xwzx/mtbd_xwdt/202611/t20261123_2117409.html",
+     "source_zh": "鄂尔多斯市卫生健康委员会",
+     "source_en": "Ordos Municipal Health Commission",
+     "date": "2026-11-23",
+     "summary_zh": "鄂尔多斯依托紧密型县域医共体建成慢病管理中心8个、分中心112个，规范管理「三高」患者41.8万余名；组建700支家庭医生团队，常住人口签约率83.2%、重点人群超91%，为符合条件者开具4至12周长期处方。65岁以上老人实行三色分级管理，二级以上医院全部设健康体重管理门诊、服务12570人次；慢病过早死亡率由2023年的12.95%降至2025年的8.57%。",
+     "summary_en": "Using tight county medical alliances, Ordos has built eight chronic-disease centres and 112 sub-centres, managing 418,000-plus patients with hypertension, diabetes and dyslipidaemia. Seven hundred family-doctor teams cover 83.2% of residents and over 91% of priority groups, issuing 4-12 week prescriptions where eligible. Residents over 65 get three-colour risk stratification, all secondary and higher hospitals run weight-management clinics serving 12,570 visits, and premature chronic-disease mortality fell from 12.95% in 2023 to 8.57% in 2025."
+    },
+    {
+     "title_zh": "一家医院22支网格团队：秦都把家医签约做成「有人管、管到位」",
+     "title_en": "One hospital, 22 grid teams: Qindu turns family-doctor contracts into care that actually reaches people",
+     "url": "https://www.snqindu.gov.cn/xwzx/qdyw/202611/t20261123_2141604.html",
+     "source_zh": "咸阳市秦都区人民政府",
+     "source_en": "Qindu District Government, Xianyang",
+     "date": "2026-11-23",
+     "summary_zh": "咸阳市秦都区推行固定集中签约、流动巡回签约、入户上门签约三种模式，市第一人民医院秦都医院组建「市一院专家＋中心家庭医生＋社区网格员」的22支网格化团队，覆盖14个社区居委会，服务涵盖14项国家基本公共卫生服务。除高血压、糖尿病筛查随访，还把床旁检验、留置胃管、导尿等居家护理纳入清单，并打通上级医院绿色通道。",
+     "summary_en": "Qindu District in Xianyang runs three contracting models: fixed sites, mobile rounds and home visits. Its First People's Hospital branch formed 22 grid teams combining municipal specialists, community family doctors and neighbourhood grid workers, covering 14 residents' committees across the 14 national essential public-health services. Beyond hypertension and diabetes screening and follow-up, the menu includes bedside testing, nasogastric tubes and catheterisation at home, plus green-channel referrals to higher-level hospitals."
+    },
+    {
+     "title_zh": "290支团队覆盖到村：万源用「三方积分」破解签而不约，慢病规范管理率达87.23%",
+     "title_en": "290 teams reach every village: Wanyuan uses mutual scoring to fix contracts signed but never honoured, with 87.23% managed hypertension and diabetes",
+     "url": "https://www.dazhou.gov.cn/news-show-273291.html",
+     "source_zh": "达州市人民政府",
+     "source_en": "Dazhou Municipal Government",
+     "date": "2026-11-23",
+     "summary_zh": "四川万源依托紧密型县域医共体整合基层医务力量，组建290支家庭医生签约团队，实现乡镇街道与村社区全覆盖。古东关街道社区卫生服务中心的11支团队实行分片包保、网格化管理，创新「三方积分、互相激励、闭环运行」机制——居民、家庭医生、网格员互评互促。对行动不便等重点对象每年上门不少于4次、体检1次，全市慢病规范管理率达87.23%。",
+     "summary_en": "Wanyuan in Sichuan consolidated primary-care staff through a tight county medical alliance, forming 290 family-doctor teams covering every township and village. The 11 teams at Gudongguan community health centre work by zone and grid under a three-way scoring mechanism in which residents, doctors and grid workers rate one another in a closed loop. Housebound priority patients get at least four home visits and one health check yearly, and standardised chronic-disease management has reached 87.23% citywide."
+    }
+   ]
+  }
+ ]
+}
