@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-25",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月19日 — 11月25日（最近 7 天）",
+ "range_en": "Nov 19 – Nov 25, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "南医大团队揭示迷走神经刺激抗癫痫的肠-脑轴机制",
+     "title_en": "Chinese team uncovers the gut-brain mechanism behind vagus nerve stimulation in epilepsy",
+     "url": "https://news.smu.edu.cn/info/1016/142076.htm",
+     "source_zh": "南方医科大学新闻中心",
+     "source_en": "Southern Medical University",
+     "date": "2026-11-25",
+     "summary_zh": "珠江医院郭燕舞、孙海涛团队在 Cell Host & Microbe 发表研究，纵向采集患者术前及术后 6、12 个月粪便与血浆：术后产短链脂肪酸菌群富集，粪便丁酸下降、血浆丁酸升高，降幅与发作缓解正相关。机制为结肠 MCT1 转运丁酸、结状神经节 GPR41 经迷走神经上行激活孤束核，敲低 GPR41 或离断迷走神经均减弱保护效应。",
+     "summary_en": "A team at Zhujiang Hospital tracked stool and plasma samples from epilepsy patients before and at 6 and 12 months after vagus nerve stimulation (VNS), publishing in Cell Host & Microbe. After VNS, short-chain fatty acid producers including Akkermansia were enriched, fecal butyrate fell while plasma butyrate rose, and the size of the fecal drop correlated with seizure relief. Mechanistically, colonic transporter MCT1 moves butyrate to the nodose ganglion, where receptor GPR41 signals up the vagus to the nucleus tractus solitarius; knocking down GPR41 or cutting the vagus abolished the protection."
+    },
+    {
+     "title_zh": "绍兴大学团队从万份肠道宏基因组锁定 159 种「共排斥菌」",
+     "title_en": "Population-scale gut metagenomics identifies 159 commensals that exclude resistant pathogens",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34541344",
+     "source_zh": "澎湃新闻·生命科学",
+     "source_en": "The Paper (Life Sciences)",
+     "date": "2026-11-24",
+     "summary_zh": "绍兴大学钱海丰团队在 Cell Host & Microbe 分析 12,238 份人类肠道宏基因组，筛出 159 种与耐药相关致病类群稳定负相关的共生菌，中位检出率 45.9%，多属毛螺菌科与瘤胃球菌科。对普氏栖粪杆菌 2,053 个基因组做深度学习挖掘，得 6,737 条候选抗菌肽；小鼠补充 15 天后耐药基因总丰度显著下降，菌群网络更稳健。",
+     "summary_en": "Qian Haifeng's group at Shaoxing University analysed 12,238 human gut metagenomes and reported in Cell Host & Microbe 159 commensal species consistently negatively associated with antibiotic-resistance gene (ARG)-carrying pathogens. Median detection rate was 45.9 percent, with enrichment in Lachnospiraceae and Ruminococcaceae. Deep-learning mining of 2,053 Faecalibacterium prausnitzii genomes yielded 6,737 candidate antimicrobial peptides; in antibiotic-disturbed mice, 15 days of supplementation lowered total ARG abundance and improved network stability."
+    },
+    {
+     "title_zh": "Nature Communications：驱动 IBD 菌群失调的是炎症本身，而非疾病标签",
+     "title_en": "In IBD, inflammation itself — not the disease label — drives dysbiosis",
+     "url": "https://news.qq.com/rain/a/20261124A0DIYN00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-24",
+     "summary_zh": "研究用宏基因组中残留人类 DNA 的比例构建客观「炎症指数」，与粪便钙卫蛋白高度相关。炎症越重，菌群与健康人差异越大，该规律在健康对照中同样成立；匹配炎症水平后，IBD 患者与健康人的菌群差异显著缩小。菌株层面还发现，丰度上与 IBD 强相关的物种内部菌株分化反而不明显，患者肠道菌株的持久性显著降低。",
+     "summary_en": "Researchers built an objective inflammation index from the share of human DNA left in metagenomic data, which correlated closely with fecal calprotectin. The more inflamed the gut, the larger the divergence from healthy microbiota — a pattern that also held in healthy controls; after matching inflammation levels, differences between IBD patients and controls shrank markedly. At strain level, species strongly linked to IBD showed less internal strain differentiation, and bacterial persistence in patients was significantly lower."
+    },
+    {
+     "title_zh": "3.6 年追踪单个患者：大肠杆菌「帝国」崩塌与摩根菌崛起",
+     "title_en": "A 3.6-year single-patient tracking captures the collapse of an E. coli empire",
+     "url": "https://news.qq.com/rain/a/20261124A0DHE900",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "Gut Microbiota Daily via Tencent News",
+     "date": "2026-11-24",
+     "summary_zh": "高威大学 Ines Thiele 团队在 Gut Microbes 对一名结肠克罗恩病患者追踪 3.6 年、51 个时间点，构建个体化宿主-菌群代谢模型。其大肠杆菌丰度一度达健康均值 1670 倍，后在无药物干预下一个月内骤降近 80 倍，摩氏摩根菌升近 8 倍，更替紧随粪便乳铁蛋白与溶菌酶高峰；史氏甲烷短杆菌一度扩增 147 倍并与转氨酶联动。",
+     "summary_en": "Ines Thiele's group at the University of Galway followed one patient with colonic Crohn's disease across 51 time points over 3.6 years, building a personalised host-microbiome metabolic model published in Gut Microbes. E. coli abundance reached 1,670 times the healthy average, then fell nearly 80-fold within a month without drug intervention as Morganella morganii rose about eight-fold; the switch followed peaks in fecal lactoferrin and lysozyme. Methanobrevibacter smithii expanded 147-fold and tracked liver enzymes."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "伦敦国王学院：RNA 剪接错误随年龄累积，遗传度升至 55%",
+     "title_en": "RNA splicing errors accumulate with age, with heritability rising to 55 percent",
+     "url": "https://www.kcl.ac.uk/news/study-identifies-widespread-rna-splicing-errors-linked-to-ageing",
+     "source_zh": "伦敦国王学院",
+     "source_en": "King's College London",
+     "date": "2026-11-24",
+     "summary_zh": "TwinsUK 团队在 Nature Communications 分析 318 名女性双胞胎、939 份血样（32–80 岁，随访 6–8 年）：随时间推移内含子保留显著增加，发生变化的剪接事件中 87.6% 为增加。该特征遗传度由首访 44% 升至末访 55%，并与 SRSF4、ELAVL1、AGO1 表达下降、糖尿病状态及肾损伤标志物相关，GTEx 多组织数据方向一致。",
+     "summary_en": "The TwinsUK team analysed 939 blood samples from 318 female twins aged 32 to 80, sampled at three or more time points over six to eight years, publishing in Nature Communications. Intron retention rose significantly over time, with 87.6 percent of changing events increasing. Heritability of the trait climbed from 44 percent at the first visit to 55 percent at the last, and higher retention was associated with lower SRSF4, ELAVL1 and AGO1 expression, diabetes status and kidney-disease markers; GTEx tissue data pointed the same way."
+    },
+    {
+     "title_zh": "澳门大学等筛选出天然 Senolytic：千金藤素选择性清除衰老细胞",
+     "title_en": "Cepharanthine identified as a natural senolytic that selectively clears senescent cells",
+     "url": "https://doi.org/10.1016/j.phymed.2026.158875",
+     "source_zh": "Phytomedicine（澳门大学学者库）",
+     "source_en": "Phytomedicine",
+     "date": "2026-11-25",
+     "summary_zh": "研究以衰老细胞表型筛选发现千金藤素（CEP）可选择性诱导衰老细胞凋亡：机制为并行调控 PI3K/AKT 与 PERK-ATF4-CHOP 两条通路，差异激活 PUMA/NOXA 并触发线粒体依赖的内源性凋亡。在斑马鱼、线虫、自然衰老鼠与早衰症小鼠中，CEP 均降低 SASP 水平、清除衰老细胞、改善器官功能并延长寿命，对健康细胞毒性较低。",
+     "summary_en": "A phenotypic screen reported in Phytomedicine identified cepharanthine (CEP) as a compound that selectively drives senescent cells into apoptosis. It acts by regulating the PI3K/AKT and PERK-ATF4-CHOP pathways in parallel, differentially inducing PUMA and NOXA and triggering mitochondrial intrinsic apoptosis. In zebrafish, C. elegans, naturally aged mice and a Hutchinson-Gilford progeria mouse model, CEP reduced SASP levels, cleared senescent cells, improved organ function and extended lifespan, with low toxicity to healthy cells."
+    },
+    {
+     "title_zh": "「主动健康与衰老医学」六项团体标准发布，专家共识同步启动",
+     "title_en": "Six group standards issued for proactive health and ageing medicine in China",
+     "url": "https://www.jjckb.cn/20261124/9210174768e04fbea944bf07eaa8bfd4/c.html",
+     "source_zh": "经济参考报",
+     "source_en": "Economic Information Daily",
+     "date": "2026-11-24",
+     "summary_zh": "六项团体标准均由北京老年医院牵头起草，系统性明确主动健康与衰老医学相关技术与服务的规范要求、质量底线和评价依据。同期启动《主动健康与衰老医学体系建设及技术应用专家共识》编制，由吉训明、程京、刘德培等院士指导、五十余位专家参与；沈阳药科大学抗衰老研究院与该院共建的临床医学中心签约揭牌。",
+     "summary_en": "All six group standards were drafted under the lead of Beijing Geriatric Hospital, setting out technical requirements, quality baselines and evaluation criteria for proactive health and ageing-medicine services. Work also began on an expert consensus on building and applying such systems, guided by academicians including Ji Xunming, Cheng Jing and Liu Depei with more than 50 specialists. A clinical medicine centre jointly built by Shenyang Pharmaceutical University's anti-ageing institute and the hospital was inaugurated."
+    },
+    {
+     "title_zh": "湖南首家 VMC 标准化血管衰老管理中心落地长沙",
+     "title_en": "Hunan's first standardised vascular ageing centre opens in Changsha",
+     "url": "https://www.hunantoday.cn/news/xhn/202611/34333893.html",
+     "source_zh": "新湖南·大众卫生报",
+     "source_en": "Hunan Daily · Public Health News",
+     "date": "2026-11-24",
+     "summary_zh": "VMC 标准化血管衰老管理中心长沙区域分中心在长沙市第三医院启动，接入国家级标准化平台，聚焦血管衰老相关慢病的早筛、早防、早治，构建评估—干预—随访一体化路径并向基层下沉。同济医院张存泰指出血管衰老是脑卒中、冠心病、高血压的共同源头；该院特聘其任长沙市老年医学中心名誉主任，并开设血管衰老专病队列课程。",
+     "summary_en": "A Changsha regional branch of the standardised Vascular Management Centre (VMC) launched at Changsha Third Hospital, plugging into a national platform for early screening, prevention and treatment of vascular-ageing-related chronic disease, with an assessment-intervention-follow-up pathway extending to grassroots clinics. Zhang Cuntai of Tongji Hospital described vascular ageing as a shared root of stroke, coronary disease and hypertension; the hospital appointed him honorary director of its geriatric centre and hosted a course on vascular-ageing cohorts."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "北京八部门出台 12 项举措，支持特医食品研发与临床规范使用",
+     "title_en": "Beijing issues 12 measures to back foods for special medical purposes",
+     "url": "https://www.samr.gov.cn/xw/df/art/2026/art_3c6e375a6dee4161b0262f22bb84e5ff.html",
+     "source_zh": "国家市场监督管理总局",
+     "source_en": "State Administration for Market Regulation",
+     "date": "2026-11-25",
+     "summary_zh": "《促进特殊医学用途配方食品创新发展若干措施》由北京市市场监管局等 8 部门联合印发，重点支持蛋白质定向水解、精准营养组方等关键技术，优先扶持临床急需、罕见病、婴幼儿类产品。文件支持食品、保健食品、药品企业跨界布局，并开展规范化使用试点，把特医食品纳入医院信息系统，实现遴选、采购、贮存、调配、评估全流程管理。",
+     "summary_en": "Eight Beijing departments jointly issued measures to boost foods for special medical purposes (FSMP), targeting key technologies such as targeted protein hydrolysis and precision-nutrition formulations, with priority for clinically urgent, rare-disease and infant products. The policy encourages food, supplement and drug makers to enter the category and pilots standardised clinical use, bringing FSMP into hospital information systems so selection, procurement, storage, dispensing and evaluation are managed end to end."
+    },
+    {
+     "title_zh": "AI 竞赛升温：个性化营养与临床试验正被重写",
+     "title_en": "The AI race intensifies: personalised nutrition and clinical trials are being rewritten",
+     "url": "https://www.nutraingredients.com/Article/2026/11/24/the-ai-race-intensifies-whats-in-for-personalized-nutrition-and-clinical-trials/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-24",
+     "summary_zh": "伦敦 Nutra Healthspan 峰会上，Thorne、Radicle Science 与 Applied Laboratory Technologies 讨论 AI 落地：Thorne 的聊天机器人 Taia 基于精选语料而非开放网络构建，每条输出均受监控；Radicle 用智能体 AI 规划去中心化试验。与会者直言多数「个性化营养」只是人群分簇，AI 的局限在于被喂入的信息，复杂病例仍须专业人士介入。",
+     "summary_en": "At the Nutra Healthspan Summit in London, executives from Thorne, Radicle Science and Applied Laboratory Technologies discussed how AI is actually being used. Thorne's chatbot Taia was built on curated sources rather than the open web and every message it sends is monitored; Radicle uses agentic AI to plan decentralised trials. Panellists conceded that most so-called personalised nutrition merely clusters people, that any AI is limited by what it is told, and that complex cases still need professionals."
+    },
+    {
+     "title_zh": "湖南人均日摄盐 13 克、烹调油超 40 克，专项行动定下 2027 目标",
+     "title_en": "Hunan eats 13 g of salt and over 40 g of cooking oil a day; action plan sets 2027 target",
+     "url": "https://m.voc.com.cn/xhn/news/202611/34336873.html",
+     "source_zh": "新湖南客户端",
+     "source_en": "Hunan Daily · New Hunan",
+     "date": "2026-11-24",
+     "summary_zh": "湖南省疾控中心膳食监测显示，居民人均每日食盐约 13 克、烹调用油超 40 克，分别为推荐上限的两倍以上与明显超标。按《中国居民膳食指南（2022）》，成人每日盐不超 5 克、油 25–30 克，2–3 岁幼儿盐不超 2 克、4–6 岁不超 3 克。专项行动提出到 2027 年底盐油摄入在 2024 年基础上再降 10%，营养健康知识知晓率达 32%。",
+     "summary_en": "Dietary monitoring by the Hunan CDC puts average daily salt intake at about 13 grams and cooking oil above 40 grams — more than double the salt ceiling and clearly over the oil range. The Chinese Dietary Guidelines (2022) cap adults at 5 g salt and 25-30 g oil a day, with children aged 2-3 limited to 2 g salt and those aged 4-6 to 3 g. A provincial action plan aims to cut both intakes another 10 percent from 2024 levels by end-2027 and lift nutrition literacy to 32 percent."
+    },
+    {
+     "title_zh": "Gut：儿童期多吃水果与鱼，成年后克罗恩病风险分别降 34% 与 35%",
+     "title_en": "Fruit and fish in childhood linked to 34 and 35 percent lower Crohn's risk",
+     "url": "https://www.163.com/dy/article/LCIITTUK0514R9P4.html",
+     "source_zh": "澎湃新闻（网易转载）",
+     "source_en": "The Paper via NetEase",
+     "date": "2026-11-25",
+     "summary_zh": "瑞典哥德堡大学等整合挪威、丹麦、瑞典三大出生队列近 11.2 万人，追踪 7–8 岁与 11–15 岁的食物摄入与成年早期 IBD 风险。儿童期高水果、高鱼类摄入分别使克罗恩病风险降 34% 与 35%，但高水果同时与溃疡性结肠炎风险升 54% 相关；青春期高水果仍降克罗恩病 43%，咸味零食则使总体 IBD 风险升 32%。",
+     "summary_en": "Researchers from the University of Gothenburg and partners pooled three national birth cohorts in Norway, Denmark and Sweden covering nearly 112,000 people, linking food intake at ages 7-8 and 11-15 to IBD diagnosed in early adulthood. High fruit and high fish intake in childhood were associated with 34 and 35 percent lower Crohn's disease risk, though high fruit also tracked a 54 percent higher ulcerative colitis risk; in adolescence fruit still cut Crohn's risk 43 percent, while salty snacks raised overall IBD risk 32 percent."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "福建全链条整治涉老保健食品：立案 125 起，罚没 67 万元",
+     "title_en": "Fujian crackdown on supplements marketed to seniors files 125 cases",
+     "url": "https://www.samr.gov.cn/xw/df/art/2026/art_cbd706567b1a4c1fa9dbd79c3209493f.html",
+     "source_zh": "国家市场监督管理总局（中国质量报）",
+     "source_en": "SAMR / China Quality News",
+     "date": "2026-11-24",
+     "summary_zh": "福建省市场监管局联合工信、民政部门建立覆盖许可、生产、流通、网络销售的穿透式监管体系，累计出动 11057 人次，检查生产企业 21 户次、线下场所 5242 户次、网络主体 1448 户次，排查直播间与账号 304 个，专项抽检 386 批次。整治期间立案 125 起（网络涉老 41 起），罚没 67 万元，下架违规产品 23 款，1 起涉刑案件移送公安。",
+     "summary_en": "Fujian's market regulator, working with industry and civil-affairs departments, built an end-to-end oversight system covering licensing, manufacturing, distribution and online sales. Inspectors made 11,057 site visits, checked 21 production sites, 5,242 physical outlets and 1,448 online sellers, reviewed 304 livestream rooms and accounts, and ran 386 targeted tests. The campaign filed 125 cases, 41 of them online and aimed at seniors, with 670,000 yuan in fines, 23 products delisted and one criminal case referred to police."
+    },
+    {
+     "title_zh": "补剂品牌涌向医生主导诊所，92% 医务人员会推荐维生素",
+     "title_en": "Supplement brands move into physician-led clinics as 92 percent of clinicians recommend vitamins",
+     "url": "https://www.nutraingredients.com/Article/2026/11/24/supplement-brands-look-to-physician-led-clinics-as-personalized-medicine-expands/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-24",
+     "summary_zh": "Tonum Health 与医生主导的 Euvita Health 达成合作，把补充剂与功能营养产品嵌入由生物标志物分析、激素与肽类治疗、睡眠优化、运动指导组成的个性化方案，重点回应 GLP-1 减重人群的蛋白补充与保肌需求，其蛋白棒每份含 24 克蛋白。Sermo 调查显示 92% 医务人员会推荐维生素或补充剂，90% 称患者常来咨询，54% 反映相关提问明显增多。",
+     "summary_en": "Tonum Health has partnered with Euvita Health, a physician-led platform combining biomarker analysis, hormone and peptide therapy, nutrition, sleep optimisation and fitness coaching, to embed its supplements and functional nutrition products in personalised programmes. The focus is protein and muscle preservation for people on GLP-1 drugs, including bars delivering 24 grams of protein per serving. A Sermo survey found 92 percent of clinicians recommend vitamins or supplements, 90 percent say patients often ask, and 54 percent report a marked rise in such questions."
+    },
+    {
+     "title_zh": "美妆与运动品牌集体跨界，补剂竞争从实验室转向日常场景",
+     "title_en": "Beauty and sportswear brands pile into supplements as competition shifts to daily life",
+     "url": "https://news.qq.com/rain/a/20261125A04OCT00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-25",
+     "summary_zh": "联合利华以约 12 亿美元收购软糖补剂品牌 Grüns，叠加 Olly、Liquid I.V.、SmartyPants 形成内服矩阵；宝洁收购消化健康品牌 Wonderbelly，资生堂、华熙生物、欧莱雅相继推口服美容，李宁入股运动营养品牌迈胜。2026 年上半年京东营养保健 GMV 约 151 亿元、同比增 10.2%，活跃品牌约 6150 个而 CR5 仅 24.2%，增长点正从叠加功能转向全生命周期管理。",
+     "summary_en": "Unilever is buying gummy supplement brand Gruns for about US$1.2 billion, adding to Olly, Liquid I.V. and SmartyPants; P&G picked up digestive-health brand Wonderbelly, while Shiseido, Bloomage and L'Oreal pushed oral beauty lines and Li-Ning took a stake in sports-nutrition brand Maisheng. JD's nutrition and health GMV reached about 15.1 billion yuan in the first half of 2026, up 10.2 percent year on year, with roughly 6,150 active brands and a CR5 of just 24.2 percent — pushing growth logic from stacking functions toward lifecycle management."
+    },
+    {
+     "title_zh": "10 月维生素出口同比增 3.48%，VA、VE 价格低位持稳",
+     "title_en": "China vitamin exports up 3.48 percent in October as VA and VE prices hold at lows",
+     "url": "https://m.10jqka.com.cn/20261124/c682137300.shtml",
+     "source_zh": "同花顺财经（秣宝网）",
+     "source_en": "10jqka / Mubao",
+     "date": "2026-11-24",
+     "summary_zh": "海关数据显示 2026 年 10 月中国维生素出口量同比增 3.48%、环比增 3.91%，1—10 月累计同比增 9.35%。维生素 A 主流价 52–56 元/公斤，10 月出口约 460 吨、同比减 19.61%；维生素 E 主流价 40–45 元/公斤，10 月出口约 8248 吨、同比减 19.13%。烟酰胺厂家挺价、部分停签停报，氯化胆碱报价小幅下调，下游以刚需采购为主，整体购销清淡。",
+     "summary_en": "Customs data show China's vitamin export volume rose 3.48 percent year on year in October and 3.91 percent month on month, taking the January-October total 9.35 percent higher. Vitamin A held at 52-56 yuan per kilogram, with October exports of about 460 tonnes, down 19.61 percent year on year; vitamin E stood at 40-45 yuan per kilogram with exports near 8,248 tonnes, down 19.13 percent. Niacinamide suppliers held prices and some stopped quoting, choline chloride edged lower, and buying stayed largely hand-to-mouth."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "大通县 308 支家庭医生团队覆盖 40.35 万人，签约率 91.43%",
+     "title_en": "Datong county's 308 family-doctor teams cover 403,500 residents, 91.43 percent signed",
+     "url": "https://www.qh.chinanews.com.cn/news/2026/1124/148980.html",
+     "source_zh": "中国新闻网青海",
+     "source_en": "China News Service Qinghai",
+     "date": "2026-11-24",
+     "summary_zh": "西宁市大通县深化紧密型县域医共体，落实「八统一」管理，建成 5 个县域医疗资源共享中心、新建 7 所标准化村卫生室，组建 308 支家庭医生签约团队，全人群签约率 91.43%、重点人群 94.59%。基层诊疗占比达 55%，2140 名在管大病患者救治率 100%，5071 名慢病患者签约履约全覆盖，累计摸排健康预警信息 8360 条。",
+     "summary_en": "Datong county in Xining is deepening its tightly integrated county medical community under an eight-point unified management model, building five shared resource centres and seven new standardised village clinics, and forming 308 family-doctor teams. Signing rates reached 91.43 percent of all residents and 94.59 percent of priority groups. Primary-care visits now account for 55 percent of the total, all 2,140 managed patients with serious illness were treated, 5,071 chronic-disease patients were fully covered, and 8,360 health-warning alerts were screened."
+    },
+    {
+     "title_zh": "随州曾都「三双手」管慢病：从村卫生室到省级手术台不到一天",
+     "title_en": "Suizhou's three-hands model moves a patient from village clinic to surgery in a day",
+     "url": "https://hb.china.com.cn/2026-11/24/content_43506322.htm",
+     "source_zh": "中国网湖北",
+     "source_en": "China.com Hubei",
+     "date": "2026-11-24",
+     "summary_zh": "曾都区以村医随访、区级影像与转诊、省级专家驻院「三双手」衔接：一名血压 226/138 的在管高血压患者从卫生室就诊到确诊蛛网膜下腔出血、转送手术全程不足一天。区内推行紧密型医共体人事、财务、业务「七统一」，专科医师编入家庭医生团队每周下沉坐诊，基层服务经历与职称晋升挂钩，并把风险标签用于差异化随访。",
+     "summary_en": "Zengdu district links three sets of hands — village-doctor follow-up, county-level imaging and referral, and provincial specialists stationed on site. A managed hypertension patient presenting at 226/138 mmHg went from clinic visit to a confirmed subarachnoid haemorrhage and surgery in under a day. The district runs its integrated medical community under seven unified functions in staffing, finance and operations, assigns specialists to family-doctor teams for weekly sessions, ties grassroots service to promotion, and uses risk labels to tailor follow-up."
+    },
+    {
+     "title_zh": "北京西长安街社区：3.6 万居民分级分类随访，65 岁以上签约率超 90%",
+     "title_en": "Beijing community centre runs risk-tiered follow-up for 36,000 residents",
+     "url": "https://www.jjckb.cn/20261124/dc73bea5b89240e7b2b473822775fa97/c.html",
+     "source_zh": "经济参考报",
+     "source_en": "Economic Information Daily",
+     "date": "2026-11-24",
+     "summary_zh": "西长安街社区卫生服务中心服务 4.24 平方公里、约 3.6 万常住人口，65 岁以上老人家庭医生签约率超 90%。针对长处方与精细化管理矛盾、人户分离与候鸟式居住难题，中心按病情风险分级分类随访，把随访嵌入复诊、取药、体检环节，工作日接诊至晚八点并开周末门诊，还设脂肪肝专病门诊与三家医院绿色转诊通道。",
+     "summary_en": "The Xichang'an Avenue community health centre covers 4.24 square kilometres and about 36,000 residents, with more than 90 percent of people over 65 signed up to a family doctor. To reconcile long prescriptions with close management, and to cope with residents who split time between homes, the centre tiers follow-up by risk, folds visits into repeat prescriptions, dispensing and check-ups, stays open until 8pm on weekdays with weekend clinics, and runs a fatty liver clinic plus green-channel referrals to three hospitals."
+    },
+    {
+     "title_zh": "聊城茌平入选国家级老年人失能失智预防干预试点",
+     "title_en": "Chiping district picked for national pilot on preventing disability and dementia",
+     "url": "https://liaocheng.iqilu.com/lcminsheng/2026/1124/5964742.shtml",
+     "source_zh": "齐鲁网·闪电新闻",
+     "source_en": "Qilu Network / Shandian News",
+     "date": "2026-11-24",
+     "summary_zh": "茌平区成为 2026 年该项目全国新增的两个试点地区之一，聚焦 65–80 岁失能失智高危人群，依托社区与基层卫生网点把筛查、干预、照护指导串成一条线，让技术标准落到村、落到户。当地 60 岁以上人口占比超四分之一，已具备老年友善医疗与医养结合基础；启动会后专家还观摩了医防融合慢病智能一体化管理系统。",
+     "summary_en": "Chiping district in Liaocheng is one of two new national pilot areas for 2026 on preventing disability and dementia, targeting high-risk people aged 65 to 80 and linking screening, intervention and caregiving guidance through communities and primary-care sites so standards reach villages and households. More than a quarter of local residents are over 60, and the district already has senior-friendly medical services and integrated care. Experts also reviewed an AI-enabled system merging prevention with chronic disease management."
+    }
+   ]
+  }
+ ]
+}
