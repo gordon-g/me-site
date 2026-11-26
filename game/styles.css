@@ -211,7 +211,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
 /* ---------------- number pad ---------------- */
 .pad { max-width: 560px; margin-top: 16px; }
 .pad-nums { display: grid; grid-template-columns: repeat(9, 1fr); gap: 6px; }
-.pad-actions { display: none; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 6px; }
+.pad-actions { display: none; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 6px; }
 
 .key {
   position: relative;
@@ -275,7 +275,9 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
 .btn.primary:hover { background: #0b5b54; color: #fff; }
 .btn.hint { border-style: dashed; color: var(--teal); border-color: rgba(14, 107, 99, .35); }
 .btn.hint:hover { background: var(--teal-mist); }
+.btn.on { background: var(--teal-soft); border-color: rgba(14, 107, 99, .3); color: var(--teal); font-weight: 600; }
 .btn-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.card.actions .btn-row { grid-template-columns: 1fr 1fr 1fr; }
 .card.actions .btn + .btn-row { margin-top: 8px; }
 .card.actions .btn.hint { margin-top: 8px; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }

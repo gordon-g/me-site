@@ -25,7 +25,7 @@
           <path class="mute-x" d="M16 9.5l5 5M21 9.5l-5 5" style="display:none"/>
         </svg>
       </button>
-      <button class="icon-btn" id="btnGuide" aria-pressed="false" aria-label="教练模式" title="教练模式：显示候选数、讲解每一步">
+      <button class="icon-btn" id="btnGuide" aria-pressed="false" aria-label="教练模式" title="教练模式：提示讲得更细，答错时给思路">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 3l2.2 4.6 5 .7-3.6 3.6.9 5-4.5-2.4L7.5 17l.9-5L4.8 8.3l5-.7z"/>
         </svg>
@@ -63,6 +63,7 @@
         <div class="pad-nums" id="padNums"></div>
         <div class="pad-actions">
           <button class="key-fn" id="fnNote">笔记</button>
+          <button class="key-fn" id="fnCand">候选</button>
           <button class="key-fn" id="fnErase">擦除</button>
           <button class="key-fn" id="fnUndo">撤销</button>
           <button class="key-fn" id="fnHint">提示</button>
@@ -81,6 +82,7 @@
         <button class="btn primary" id="btnNew">来一局新的</button>
         <div class="btn-row">
           <button class="btn" id="btnNote">笔记 <kbd>N</kbd></button>
+          <button class="btn" id="btnCand">候选 <kbd>C</kbd></button>
           <button class="btn" id="btnUndo">撤销 <kbd>⌘Z</kbd></button>
         </div>
         <button class="btn hint" id="btnHint">卡住了，给我提示</button>

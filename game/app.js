@@ -75,6 +75,7 @@
     btnPause: $('btnPause'),
     btnNew: $('btnNew'),
     btnNote: $('btnNote'),
+    btnCand: $('btnCand'),
     btnUndo: $('btnUndo'),
     btnHint: $('btnHint')
   };
@@ -124,6 +125,7 @@
         notes: Array.from({ length: g.size * g.size }, () => new Set()),
         selected: -1,
         noteMode: false,
+        revealIdx: -1,
         errors: 0,
         hints: 0,
         wrong: new Set(),
@@ -149,7 +151,7 @@
         // 首次进入的引导由欢迎面板负责
       } else if (settings.coach && opts.guided) {
         coachSay('开始', size === 9
-          ? '点一个空格选中它——教练会显示这个格子还剩下哪些可能。再按下方数字键填数，数字不能和同行、同列、同宫里的重复。'
+          ? '点一个空格选中它，再按下方数字键填数——数字不能和同行、同列、同宫里的重复。不确定这格能填什么，就按「候选」看一眼。'
           : '这是 ' + size + ' 宫盘：每行、每列、每个粗线宫里，1 到 ' + size + ' 各出现一次。点空格选中，再用下方数字键填。', [
           { label: '懂了', act: closeCoach }
         ]);
@@ -273,8 +275,9 @@
     const n = st.size;
     const total = n * n;
     const selVal = st.selected >= 0 ? st.grid[st.selected] : 0;
-    const showCand = settings.coach && !st.done && !st.paused && st.selected >= 0;
-    const cand = showCand ? S.candidates(st.grid) : null;
+    // 候选数默认不展开：只有用户主动点了「候选」，才显示当前这一格的可能值
+    const revealOn = st.revealIdx >= 0 && st.revealIdx === st.selected && !st.done && !st.paused;
+    const cand = revealOn ? S.candidates(st.grid) : null;
 
     for (let i = 0; i < total; i++) {
       const c = cells[i];
@@ -347,6 +350,15 @@
     UI.btnNote.setAttribute('aria-pressed', st.noteMode);
     const fnNote = $('fnNote');
     if (fnNote) fnNote.classList.toggle('active', st.noteMode);
+
+    const candOn = st.revealIdx >= 0 && st.revealIdx === st.selected;
+    if (UI.btnCand) {
+      UI.btnCand.classList.toggle('on', candOn);
+      UI.btnCand.setAttribute('aria-pressed', String(candOn));
+    }
+    const fnCand = $('fnCand');
+    if (fnCand) fnCand.classList.toggle('active', candOn);
+
     UI.btnHint.disabled = st.done;
   }
 
@@ -470,6 +482,7 @@
   // ---------------- 交互 ----------------
   function selectCell(i) {
     if (!st || st.done || st.paused) return;
+    if (st.revealIdx >= 0 && st.revealIdx !== i) st.revealIdx = -1;
     st.selected = i;
     if (!st.puzzle[i]) Sound.select();
     render();
@@ -594,6 +607,47 @@
     Sound.note();
     render(); persist();
     if (st.noteMode) toast('笔记模式：填入的数字会记成小字候选');
+  }
+
+  // 主动看当前格的候选数：默认收起，点一次展开，再点收起
+  function revealCandidates() {
+    if (!st || st.done || st.paused) return;
+    const total = st.size * st.size;
+
+    if (st.selected < 0 || st.grid[st.selected]) {
+      let first = -1;
+      for (let i = 0; i < total; i++) if (!st.grid[i]) { first = i; break; }
+      if (first < 0) { toast('盘面已经填满了'); return; }
+      st.selected = first;
+    }
+    const i = st.selected;
+
+    if (st.revealIdx === i) {
+      st.revealIdx = -1;
+      render(); persist();
+      return;
+    }
+    if (st.notes[i].size) {
+      st.revealIdx = -1;
+      render();
+      toast('这一格你已经记了笔记：' + Array.from(st.notes[i]).sort().join(' '));
+      return;
+    }
+
+    st.revealIdx = i;
+    Sound.note();
+    render(); persist();
+
+    const list = S.bits(S.candidates(st.grid)[i]);
+    const row = Math.floor(i / st.size) + 1;
+    const col = (i % st.size) + 1;
+    if (list.length === 1) {
+      toast('第 ' + row + ' 行第 ' + col + ' 列只剩一个可能：' + list[0]);
+    } else if (list.length) {
+      toast('第 ' + row + ' 行第 ' + col + ' 列还剩 ' + list.length + ' 种可能：' + list.join(' '));
+    } else {
+      toast('这一格没有可填的数字了，前面的某一步可能错了');
+    }
   }
 
   // ---------------- 提示 / 教练 ----------------
@@ -836,11 +890,11 @@
         '<li>每一<b>行</b>、每一<b>列</b>、每个粗线<b>宫</b>里，数字不能重复。</li>' +
         '<li>题目给的深色数字不能改，你填的数字是<b>青色</b>的。</li>' +
         '<li>卡住时按「提示」，教练会告诉你这一步为什么这么填。</li>' +
-        '<li>想练候选数就开「笔记」，每个空格里能记下多个可能值。</li>' +
+        '<li>不确定某格能填什么，按「候选」看一眼它还剩哪些可能；想自己记账就用「笔记」。</li>' +
         '<li>嫌 9 宫太大？「棋盘大小」可以切到 <b>3 / 4 / 6 宫</b>。</li>' +
       '</ul>' +
       '<div class="kbd-line">' +
-        '<span>数字键 填数</span><span>方向键移动</span><span>N 笔记</span><span>H 提示</span><span>空格 暂停</span>' +
+        '<span>数字键 填数</span><span>方向键移动</span><span>N 笔记</span><span>C 候选</span><span>H 提示</span><span>空格 暂停</span>' +
       '</div>' +
       '<div class="modal-actions">' +
         '<button class="btn primary" id="startEasy">从入门开始</button>' +
@@ -861,13 +915,14 @@
       '<ul class="rules">' +
         '<li>每行、每列、每个粗线宫里，数字各出现一次：3 宫填 1-3，6 宫填 1-6，9 宫填 1-9。</li>' +
         '<li><b>提示</b>会解释推理：唯一候选、隐性唯一、数对、区块排除、X-Wing。</li>' +
-        '<li><b>教练模式</b>（右上角星标）会显示候选数，并把提示讲得更细。</li>' +
+        '<li><b>候选</b>只在你按下时才展开当前格的可能值，平时不打扰你。</li>' +
+        '<li><b>教练模式</b>（右上角星标）会让提示讲得更细，答错时也给思路。</li>' +
         '<li><b>每日挑战</b>每天一道固定的 9 宫题，连胜天数会累积。</li>' +
         '<li>进度自动保存在本机浏览器，刷新不丢。</li>' +
       '</ul>' +
       '<div class="kbd-line">' +
         '<span>数字键 填数</span><span>0 / Backspace 擦除</span><span>方向键移动</span>' +
-        '<span>N 笔记</span><span>U 撤销</span><span>H 提示</span><span>空格 暂停</span>' +
+        '<span>N 笔记</span><span>C 候选</span><span>U 撤销</span><span>H 提示</span><span>空格 暂停</span>' +
       '</div>' +
       '<div class="modal-actions"><button class="btn primary" id="helpClose">开始玩</button></div>';
     openModal();
@@ -912,6 +967,7 @@
       notes: save.notes.map((a) => new Set(a)),
       selected: -1,
       noteMode: false,
+      revealIdx: -1,
       errors: save.errors || 0,
       hints: save.hints || 0,
       wrong: new Set(),
@@ -957,6 +1013,9 @@
     UI.btnPause.onclick = togglePause;
     UI.btnNote.onclick = toggleNote;
     $('fnNote').onclick = toggleNote;
+    if (UI.btnCand) UI.btnCand.onclick = revealCandidates;
+    const fnCand = $('fnCand');
+    if (fnCand) fnCand.onclick = revealCandidates;
     UI.btnUndo.onclick = undo;
     $('fnUndo').onclick = undo;
     $('fnErase').onclick = eraseCell;
@@ -980,7 +1039,7 @@
       renderGuideIcon();
       persist();
       render();
-      toast(settings.coach ? '教练模式已开：显示候选数、提示讲得更细' : '教练模式已关：界面更干净');
+      toast(settings.coach ? '教练模式已开：卡住时提示会讲得更细' : '教练模式已关：提示只给结论');
     };
 
     document.addEventListener('keydown', (e) => {
@@ -995,6 +1054,7 @@
       if (e.key === ' ') { togglePause(); e.preventDefault(); return; }
       const k = e.key.toLowerCase();
       if (k === 'n') { toggleNote(); return; }
+      if (k === 'c') { revealCandidates(); return; }
       if (k === 'u' || (e.metaKey && k === 'z') || (e.ctrlKey && k === 'z')) { undo(); e.preventDefault(); return; }
       if (k === 'h') { requestHint(); return; }
       if (e.key === 'Escape') { closeCoach(); return; }
