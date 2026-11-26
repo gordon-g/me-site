@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-26",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月20日 — 11月26日（最近 7 天）",
+ "range_en": "Nov 20 – Nov 26, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "38 项 RCT 荟萃：ICU 里「灭菌」与「扶菌」都没降死亡率，肺炎风险却腰斩",
+     "title_en": "Meta-analysis of 38 RCTs: in the ICU neither gut decontamination nor probiotics cut mortality, but pneumonia risk halved",
+     "url": "https://news.qq.com/rain/a/20261125A0F8SJ00",
+     "source_zh": "热心肠日报（Gut Microbes）",
+     "source_en": "China Gut Daily (Gut Microbes)",
+     "date": "2026-11-25",
+     "summary_zh": "哥伦比亚大学团队在 Gut Microbes 发表 38 项随机对照试验的荟萃分析，首次并排比较消化道去污染与益生菌、益生元补充两种相反策略。两者均未显著降低 ICU 总体死亡率（相对风险 0.96 与 0.93），但获得性肺炎风险分别降至 0.50 与 0.70，去污染组全因感染降至 0.76。",
+     "summary_en": "A meta-analysis in Gut Microbes led by Columbia researchers pooled 38 randomized trials and for the first time compared two opposing strategies: selective digestive decontamination versus probiotic and prebiotic supplementation. Neither significantly reduced overall ICU mortality (relative risk 0.96 and 0.93), but acquired pneumonia risk fell to 0.50 and 0.70 respectively, and all-cause infection fell to 0.76 in the decontamination arm."
+    },
+    {
+     "title_zh": "Nature Medicine：14,979 人处方级数据，把「抗生素伤菌群」精确到药物与剂量",
+     "title_en": "Nature Medicine: prescription-level data from 14,979 people pins antibiotic damage to specific drugs and doses",
+     "url": "https://doi.org/10.1038/s41591-026-04284-y",
+     "source_zh": "Nature Medicine",
+     "source_en": "Nature Medicine",
+     "date": "2026-11-25",
+     "summary_zh": "研究把 14,979 人的个体级处方记录与肠道菌群测序逐一对应，分析不同抗生素类别、累积暴露量与菌群组成、多样性的关系。过去只能笼统归类的「抗生素扰乱肠道菌群」，现在被细化到具体药物与剂量层面，为临床选药、控制疗程和后续菌群修复干预提供可操作的证据基础。",
+     "summary_en": "The study matched individual-level prescription records for 14,979 people against gut microbiome sequencing, analysing how antibiotic class and cumulative exposure relate to microbial composition and diversity. What was once a blanket statement that antibiotics disturb the gut microbiome is now resolved to specific drugs and doses, giving clinicians an actionable basis for drug choice, treatment duration and later microbiome restoration."
+    },
+    {
+     "title_zh": "华西刘苓：IBD 与菌群是动态双向互作，无创早筛正在验证",
+     "title_en": "West China's Liu Ling: IBD and the microbiome interact in both directions, and non-invasive screening is being validated",
+     "url": "https://news.qq.com/rain/a/20261125A0CYG900",
+     "source_zh": "医脉通（腾讯新闻）",
+     "source_en": "Yimaitong (Tencent News)",
+     "date": "2026-11-25",
+     "summary_zh": "华西医院刘苓教授在专访中提出，炎症性肠病与肠道微生态是动态双向互作：菌群失衡推动黏膜免疫紊乱，异常免疫又反过来破坏菌群稳态。团队正参与 IBD ENTEROSIGHT 研究，寻找疾病特异性无创菌群标志物以构建早期风险分层，并探索尿液、汗液等样本的检测路径。",
+     "summary_en": "In an interview, Professor Liu Ling of West China Hospital described inflammatory bowel disease and the gut microbiome as locked in two-way interaction: dysbiosis drives mucosal immune disruption, and aberrant immunity in turn destabilises the microbiota. Her team is part of the IBD ENTEROSIGHT study seeking disease-specific non-invasive microbial markers for early risk stratification, and is exploring urine and sweat samples."
+    },
+    {
+     "title_zh": "第九届中国微生态医疗创新论坛三亚落幕：从论文走到床边，再走向社区",
+     "title_en": "Ninth China Microecology Medical Innovation Forum closes in Sanya: from papers to bedside, then to the community",
+     "url": "https://mini.eastday.com/nsa/261125193814506514175.html",
+     "source_zh": "东方资讯",
+     "source_en": "Eastday",
+     "date": "2026-11-25",
+     "summary_zh": "论坛以「微生态重塑健康：从基础研究到临床转化」为主题，设院士论坛与八场报告，覆盖肠道菌群与代谢病、微生态与免疫衰老、肿瘤及女性健康。专委会主任委员张建浩提出「科学为本、合规先行、临床优先」，称行业已进入规范临床验证阶段，同期启动面向县域与社区的服务延伸计划。",
+     "summary_en": "Under the theme of rebuilding health through microecology, from bench to clinic, the forum ran an academicians' session and eight reports spanning gut microbiota and metabolic disease, microecology and immune ageing, oncology and women's health. Committee chair Zhang Jianhao framed the field as having reached regulated clinical validation, stressing science first, compliance first and clinical priority, as a county-and-community rollout was launched."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "Nature：一万人的肠道菌，正在跟着宿主一起「变老」",
+     "title_en": "Nature: in 10,000 people, gut bacteria are ageing alongside their hosts",
+     "url": "https://www.nature.com/articles/d41586-026-03268-9",
+     "source_zh": "Nature",
+     "source_en": "Nature",
+     "date": "2026-11-25",
+     "summary_zh": "研究扫描约 1 万人肠道细菌的基因变异，与近 250 项人体特征做关联，发现随年龄出现的特定突变，而与疾病相关的突变很少。其中一项适应似能帮助肠道中丰度最高的菌种之一抵抗随衰老加剧的氧化应激。作者认为菌群会随宿主一同演化，并可能塑造衰老对健康的影响。",
+     "summary_en": "The study scanned genetic variation in gut bacteria from about 10,000 people against nearly 250 host traits and found specific mutations that arise with age, while few mutations tracked disease. One adaptation appears to help one of the most abundant gut species withstand oxidative stress, which intensifies with ageing. The authors argue the microbiome evolves alongside its host and may shape how ageing affects health."
+    },
+    {
+     "title_zh": "一张体检报告算出「生物学年龄」：血液衰老时钟进了深圳社区",
+     "title_en": "A blood ageing clock reaches a Shenzhen community, estimating biological age from a routine health check",
+     "url": "https://hn.china.com/gundong/2026-11/25/content_11202621352.html",
+     "source_zh": "中华网",
+     "source_en": "China.com",
+     "date": "2026-11-25",
+     "summary_zh": "菲鹏生物与深圳南山西丽街道新围社区启动公益抗衰项目，居民提交近六个月常规体检报告，由自研血液衰老时钟基于血常规、生化、免疫等指标，用 AI 推算生物学年龄与器官系统衰老状态，无需额外采血。评估持续至 11 月 28 日，含科普、评估、报告解读等五个环节。",
+     "summary_en": "Feipeng Biotech and Shenzhen's Xinwei community launched a public-welfare ageing project in which residents submit a routine health-check report from the past six months. A proprietary blood ageing clock applies AI to standard haematology, biochemistry and immunology indices to estimate biological age and organ-system ageing, with no extra blood draw. Assessment runs to 28 November across five stages including education and report interpretation."
+    },
+    {
+     "title_zh": "530 例随机双盲试验：八子补肾 12 周端粒酶活性显著提升",
+     "title_en": "530-patient randomized trial: Bazi Bushen raised telomerase activity over 12 weeks",
+     "url": "https://www.163.com/dy/article/LCK1GQI50552BNM0.html",
+     "source_zh": "网易（医药经济报）",
+     "source_en": "NetEase (Pharmaceutical Economic News)",
+     "date": "2026-11-25",
+     "summary_zh": "第 37 届医药经济信息发布会上，以岭药业公布八子补肾抗衰证据链：西苑医院牵头、8 家中心参与、530 例随机双盲安慰剂对照试验显示，服药 12 周端粒酶活性显著提升，衰老评估量表改善幅度为安慰剂组 2.3 倍；1200 只自然衰老小鼠全生命周期队列中，最长存活延长近 11 个月。",
+     "summary_en": "At the 37th Pharmaceutical Economic Information Conference, Yiling Pharma presented the evidence chain for Bazi Bushen. A randomized, double-blind, placebo-controlled trial led by Xiyuan Hospital across eight centres in 530 participants found telomerase activity rose significantly after 12 weeks, with ageing-scale improvement 2.3 times placebo. In a 1,200-mouse lifespan cohort, maximum survival extended by nearly 11 months."
+    },
+    {
+     "title_zh": "中国生化学会衰老与退行性疾病专委会年会在南宁召开",
+     "title_en": "Chinese biochemistry society holds annual ageing and degenerative disease meeting in Nanning",
+     "url": "https://www.csbmb.org.cn/news/4521.html",
+     "source_zh": "中国生物化学与分子生物学会",
+     "source_en": "Chinese Society of Biochemistry and Molecular Biology",
+     "date": "2026-11-24",
+     "summary_zh": "11 月 21 至 22 日，中国生物化学与分子生物学会衰老与退行性疾病专委会 2026 学术年会在南宁举行，广西医科大学承办，主题为「机智抗衰——深究衰退机理，智推临基转化」。清华、浙大、南大、北邮及多家医学机构团队参会，讨论衰老机制解析与临床转化之间的衔接路径。",
+     "summary_en": "On 21–22 November the 2026 annual meeting of the ageing and degenerative disease committee of the Chinese Society of Biochemistry and Molecular Biology was held in Nanning, hosted by Guangxi Medical University under the theme of deciphering decline mechanisms and advancing bench-to-clinic translation. Teams from Tsinghua, Zhejiang, Nanjing, BUPT and medical institutions discussed bridging mechanistic ageing research into clinical translation."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《膳食营养与体重管理专家共识》发布：体重管理不只是减重",
+     "title_en": "Expert consensus on dietary nutrition and weight management released: it is not just about losing weight",
+     "url": "https://www.news.cn/food/20261125/f1a19e16137e4ffdae4d85ffbbfb0f05/c.html",
+     "source_zh": "新华网",
+     "source_en": "Xinhua News",
+     "date": "2026-11-25",
+     "summary_zh": "2026 特殊食品大会期间，中国营养保健食品协会牵头发布该共识，以「控总量、优结构、重质量」为核心，强调膳食营养干预是体重管理基础并关注体成分。共识要求兼顾超重者科学减脂、正常体重者维持、低体重与肌少症人群科学增重，反对极端节食，主张个体化并设防反弹过渡方案。",
+     "summary_en": "Released at the 2026 Special Food Conference by the China Nutrition and Health Food Association, the consensus centres on controlling total intake, optimising structure and prioritising quality, framing dietary intervention as the foundation of weight management with attention to body composition. It covers fat loss for the overweight, maintenance for normal-weight adults, and healthy gain for underweight and sarcopenic people, rejecting extreme dieting and urging individualised, anti-rebound plans."
+    },
+    {
+     "title_zh": "PREDICT 试验：AI 个性化配餐没赢过标准饮食",
+     "title_en": "PREDICT trial: AI-personalised meal plans failed to beat standard dietary advice",
+     "url": "https://www.yixue.com/n/4428.html",
+     "source_zh": "医学百科（Communications Medicine）",
+     "source_en": "Yixue (Communications Medicine)",
+     "date": "2026-11-23",
+     "summary_zh": "Garvan 研究所团队在 Communications Medicine 发表随机试验：151 名糖尿病前期或早期 2 型糖尿病成人随机接受机器学习个性化配餐或常规低脂高纤指导，同时起始二甲双胍。6 个月糖化血红蛋白分别降 0.26 与 0.29 个百分点，差异不显著，体重与内脏脂肪亦无优势。",
+     "summary_en": "Published in Communications Medicine, the trial randomized 151 adults with prediabetes or early type 2 diabetes to machine-learning-personalised meals or standard low-fat, high-fibre advice, with all starting metformin. At six months HbA1c fell 0.26 and 0.29 percentage points, a non-significant difference, with no between-group advantage in weight or visceral fat, suggesting the drug effect may mask any algorithmic benefit."
+    },
+    {
+     "title_zh": "蒙牛拿下多项特医配方注册，填补国产空白",
+     "title_en": "Mengniu secures multiple medical food formula registrations, filling domestic gaps",
+     "url": "https://www.ce.cn/cysc/newmain//yc/jsxw/202611/t20261125_3305938.shtml",
+     "source_zh": "中国经济网",
+     "source_en": "China Economic Net",
+     "date": "2026-11-25",
+     "summary_zh": "蒙牛在特医营养进展发布会上宣布，在食物蛋白过敏、先天代谢病、成人术后营养等领域获得特医配方注册，填补多项国产空白。其「长宽高」体系分别指向长期积累的本土营养与代谢基线数据、GOSS 蛋白解析与合成生物学精准营养平台，以及把注册、生产、检验合规前置到立项首日的管理范式。",
+     "summary_en": "At a briefing on its medical nutrition progress, Mengniu said it had won formula registrations in food protein allergy, inherited metabolic disorders, adult post-operative nutrition and other niches, filling domestic gaps. Its long-wide-high framework refers to decades of local nutrition and metabolism baseline data, platforms such as GOSS protein analysis and synthetic-biology precision nutrition, and a compliance-first model beginning on day one of each project."
+    },
+    {
+     "title_zh": "头发里的镁、铁、硒，或能预测溃疡性结肠炎半年后的活动度",
+     "title_en": "Magnesium, iron and selenium in hair may predict ulcerative colitis activity six months out",
+     "url": "https://www.nutraingredients.com/Article/2026/11/25/hair-micronutrients-may-predict-ulcerative-colitis-disease-activity/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-25",
+     "summary_zh": "罗马尼亚团队在 Frontiers in Nutrition 发表探索性研究，25 名溃疡性结肠炎成人同时留取血液与头发，用扫描电镜与能谱分析测定头发微量元素。加入头发镁、铁、硒的模型对 6 个月后 Mayo 评分的预测显著优于纯血液模型。研究者认为头发受近期饮食影响较小，但样本量小需扩大验证。",
+     "summary_en": "In an exploratory study in Frontiers in Nutrition, Romanian researchers took blood and hair samples from 25 adults with ulcerative colitis and measured hair trace elements by scanning electron microscopy with energy-dispersive spectroscopy. Adding hair magnesium, iron and selenium significantly improved prediction of six-month Mayo scores over a blood-only model. Hair is less swayed by recent intake or acute-phase response, though the small sample needs validation."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "Haleon 在亚太投逾 8000 万美元，新加坡设「健康未来创新中心」",
+     "title_en": "Haleon invests over US$80m in APAC and opens a Future of Health Innovation Hub in Singapore",
+     "url": "https://www.nutraingredients.com/Article/2026/11/25/haleon-invests-over-us80m-in-apac-research-and-innovation/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-25",
+     "summary_zh": "11 月 25 日，善存母公司 Haleon 在新加坡启用 Future of Health Innovation Hub，宣布在亚太投入逾 8000 万美元，聚焦健康老龄化、免疫、代谢与口腔健康。中心为新国大健康长寿学院、南洋理工 SCELSE 等机构的联合研究网络。",
+     "summary_en": "On 25 November Haleon, owner of Centrum, Caltrate and Sensodyne, opened its Future of Health Innovation Hub in Singapore with over US$80m committed to Asia-Pacific research focused on healthy ageing, immunity, metabolic and oral health, aiming to reach a billion more consumers by 2030. The hub is a partnership network spanning the NUS Academy for Healthy Longevity, NTU's SCELSE and A*STAR institutes rather than a new building."
+    },
+    {
+     "title_zh": "加州给补剂「豁免」了保质期标签新规，但边界产品仍可能被起诉",
+     "title_en": "California exempts supplements from its date-labeling rule, but borderline products still face litigation",
+     "url": "https://www.nutraingredients.com/Article/2026/11/25/california-supplement-labeling-exemption-offers-relief-but-legal-risks-remain/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-25",
+     "summary_zh": "加州 9 月签署的 AB 2779 把膳食补充剂从 AB 660 的食品日期标准化要求中豁免——补剂保质期关乎效价与稳定性，厂商无需为加州单独改包装。律师提醒，加州沿用联邦定义，介于普通食品与补剂之间、主打功能诉求的产品若归类不清，可能被原告用作发起消费者诉讼的新抓手。",
+     "summary_en": "California's AB 2779, signed in September, exempts dietary supplements from the standardised date-labelling requirements of AB 660, since supplement dates reflect potency and stability, sparing brands California-specific packaging changes. A lawyer notes the state adopts federal definitions, so products straddling food and supplement and marketed on functional claims may be recast as foods in disguise and used as a new basis for consumer litigation."
+    },
+    {
+     "title_zh": "雀巢健康科学转直营，现代 Bioland 年底退出健康功能食品分销",
+     "title_en": "Nestlé Health Science goes direct in Korea as Hyundai Bioland exits health functional food distribution",
+     "url": "https://www.nutraingredients.com/Article/2026/11/25/hyundai-bioland-ceases-health-functional-food-distribution-after-nestle-ends-partnership/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-25",
+     "summary_zh": "现代百货集团旗下现代 Bioland 宣布，与雀巢健康科学的合作经双方协议终止，后者转向直接进入韩国市场，公司将于 12 月 31 日起停止健康功能食品分销。该业务去年营收约 2330 万美元，占合并营收 24.03%，今年前三季占 25.2%，是仅次于化妆品原料的第二大板块。",
+     "summary_en": "Hyundai Bioland, part of Hyundai Department Store Group, said its partnership with Nestlé Health Science ended by mutual agreement as the partner shifts to direct entry in Korea, and it will halt health functional food distribution from 31 December. The division generated about US$23.3m last year, 24.03% of consolidated revenue, and 25.2% in the first three quarters, second only to cosmetic ingredients."
+    },
+    {
+     "title_zh": "山药粉宣称「增加 DNA 寿命」、拉下线领工资：佛山南海一企业被立案",
+     "title_en": "Yam powder sold as extending DNA lifespan with recruitment payouts: Foshan firm under investigation",
+     "url": "https://news.ycwb.com/ikimvjjtin/content_54357037.htm",
+     "source_zh": "金羊网（南方+）",
+     "source_en": "Yangcheng Evening News (Nanfang Plus)",
+     "date": "2026-11-25",
+     "summary_zh": "南方+记者暗访广州、佛山「伍福家园」门店，发现以 3.5 万元山药粉入会、发展下线可领「工资」的模式，店员宣称产品能「增加 DNA 寿命」并调理慢病，有老人血糖未稳反倒入院。11 月 25 日，佛山南海区市场监管局查明涉事公司销售预包装食品未办理备案，已立案调查。",
+     "summary_en": "Undercover reporting by Nanfang Plus found Wufu Jiayuan outlets in Guangzhou and Foshan running a membership scheme where 35,000 yuan of yam powder bought entry and recruiting downlines earned wages, with staff claiming the product extends DNA lifespan and manages chronic disease; one elderly buyer was hospitalised with uncontrolled blood sugar. On 25 November Nanhai regulators found the firm sold pre-packaged foods without required filing and opened an investigation."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "卫健委发文优化健康体检：鼓励设体检报告解读门诊",
+     "title_en": "NHC moves to improve health checkups, encouraging dedicated report-interpretation clinics",
+     "url": "https://www.nhc.gov.cn/yzygj/c100068/202611/e3de9b6118304fb0a005912d011f3d18.shtml",
+     "source_zh": "国家卫生健康委员会",
+     "source_en": "National Health Commission",
+     "date": "2026-11-23",
+     "summary_zh": "11 月 23 日，国家卫健委办公厅印发通知，鼓励有条件的机构设置健康体检咨询门诊，提供报告解读、健康教育、就医指导等延续服务，并为有需求者预约专科。对检出的高血压、糖尿病、慢阻肺患者，引导至常住地基层机构纳入慢病健康管理，同时强化质控体系与对伪造报告等行为的查处。",
+     "summary_en": "Issued on 23 November, the notice encourages capable institutions to open health-check consultation clinics offering report interpretation, health education, care navigation and specialist booking. Patients found to have hypertension, diabetes or COPD should be directed to primary care near home for chronic disease management. It also strengthens quality control and supervision, targeting forged reports and practice beyond licensed scope."
+    },
+    {
+     "title_zh": "阿里健康把战略押在「家庭 AI 健康管家」",
+     "title_en": "Alibaba Health bets its strategy on a family AI health steward",
+     "url": "http://jjckb.xinhuanet.com/20261125/014d4689703b4207b4c5066ee7f741f1/c.html",
+     "source_zh": "经济参考报",
+     "source_en": "Economic Information Daily",
+     "date": "2026-11-25",
+     "summary_zh": "11 月 25 日，阿里健康在中期业绩会上宣布下阶段聚焦家庭健康，以「家庭健康档案」与「个人健康模型」为核心引擎，提供覆盖防、筛、诊、治、康及保险支付的全链路方案，并构建健康管理 Agent 支撑千问、淘宝等入口。中期收入 182.28 亿元增 9.2%，全家卡上线 10 天用户破百万。",
+     "summary_en": "At its interim results briefing on 25 November, Alibaba Health said it will focus on family health, using a family health record and personal health model as engines for packages spanning prevention, screening, diagnosis, treatment, rehabilitation and insurance payment, with an agent layer feeding Qianwen and Taobao. Interim revenue reached 18.228bn yuan, up 9.2%, and its family card passed a million users in ten days."
+    },
+    {
+     "title_zh": "杭州余杭：「AI+社工+基层医生」把慢病管理送进老人家门",
+     "title_en": "Hangzhou's Yuhang district sends chronic care into homes via AI, social workers and grassroots doctors",
+     "url": "https://zj.people.com.cn/n2/2026/1125/c186327-41760693.html",
+     "source_zh": "人民网浙江频道",
+     "source_en": "People's Daily Zhejiang",
+     "date": "2026-11-25",
+     "summary_zh": "余杭区依托浙江省域医疗大模型「安诊儿」打造的「余小康」慢病医生智能体，今年与居家养老结合：经培训的社工上门测血压血氧并上传，智能体动态评估给出指导；需复诊配药时由社工协助发起互联网医院申请，社区卫生服务中心在线复核后开方。模式已在中泰街道、百丈镇试点。",
+     "summary_en": "Built on Zhejiang's provincial health model Anzhen'er, Yuhang's Yuxiaokang chronic disease agent has been paired with home-based elderly care. Trained social workers measure blood pressure and oxygen at home and upload the data, the agent assesses status and issues guidance, and when refills are needed social workers help file an internet hospital request that community health centres review and prescribe online. Pilots run in Zhongtai and Baizhang."
+    },
+    {
+     "title_zh": "北流：20 支家庭医生团队加 42 名乡村医生，按村包干「错时随访」",
+     "title_en": "Beiliu: 20 family doctor teams plus 42 village doctors run staggered after-hours follow-up by village",
+     "url": "http://www.gx.xinhuanet.com/20261125/6a1e03257407449bb0904f9bd99212ec/c.html",
+     "source_zh": "新华网广西频道",
+     "source_en": "Xinhua Guangxi",
+     "date": "2026-11-25",
+     "summary_zh": "广西北流市陵城卫生院整合 217 名职工与 42 名乡村医生，组建 20 支家庭医生团队覆盖 20 个行政村，实行「一村一队、网格覆盖」。针对居民白天外出务工，推行傍晚与周末的错时服务、预约服务，上门测血压血糖、更新健康档案，推动服务从被动坐诊转向主动上门。",
+     "summary_en": "Lingcheng health centre in Beiliu, Guangxi, has pooled 217 staff and 42 village doctors into 20 family doctor teams covering 20 administrative villages on a one-team-per-village grid, each mixing a GP, nurse, public health worker and village doctor. Because residents work away by day, teams run staggered evening and weekend visits and appointments, measuring blood pressure and glucose and updating records, shifting from waiting in clinic to going door to door."
+    }
+   ]
+  }
+ ]
+}
