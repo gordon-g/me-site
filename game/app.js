@@ -796,7 +796,7 @@
       '</div>';
 
     openModal();
-    $('winNext').onclick = () => { closeModal(); newGame(st.level, { mode: 'practice' }); };
+    $('winNext').onclick = () => { closeModal(); newGame(st.level, { mode: 'practice', size: st.size, remember: true }); };
     $('winShare').onclick = () => copyText(shareText);
     $('winDaily').onclick = () => {
       closeModal();
