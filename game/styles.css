@@ -109,6 +109,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
 
 .board {
   --gap: 0px;
+  --n: 9;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(9, 1fr);
@@ -123,6 +124,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  container-type: inline-size;
 }
 
 .cell {
@@ -138,10 +140,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
   font-size: clamp(19px, 3.6vw, 30px);
   line-height: 1;
 }
-.cell[data-c="2"], .cell[data-c="5"] { border-right: 2px solid #26332f; }
-.cell[data-c="8"] { border-right: 0; }
-.cell[data-r="2"], .cell[data-r="5"] { border-bottom: 2px solid #26332f; }
-.cell[data-r="8"] { border-bottom: 0; }
+/* 字号随棋盘宽度自适应：容器宽度 / 格数 */
+.board .cell { font-size: min(calc(54cqw / var(--n)), 54px); }
 
 .cell .val { font-family: var(--sans); font-weight: 500; font-variant-numeric: tabular-nums; }
 .cell.given .val { color: var(--ink); font-weight: 700; }
@@ -173,6 +173,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
   font-size: clamp(8px, 1.3vw, 11px); line-height: 1; color: #6f7d79;
   font-variant-numeric: tabular-nums;
 }
+.board .cell .notes { font-size: min(calc(21cqw / var(--n)), 14px); }
 .cell .notes span { display: grid; place-items: center; opacity: 0; transition: opacity .1s; }
 .cell .notes span.on { opacity: 1; }
 .cell .notes span.auto { color: #9dbdb5; }
@@ -279,6 +280,26 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
 .card.actions .btn.hint { margin-top: 8px; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 
+/* sizes */
+.sizes { padding: 14px 16px 15px; }
+.size-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.size-chip {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  height: 52px; border-radius: 10px; border: 1px solid var(--line); background: var(--card);
+  transition: all .14s; box-shadow: var(--shadow-sm);
+}
+.size-chip b { font-size: 17px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+.size-chip span { font-size: 10px; color: var(--ink-faint); letter-spacing: .04em; }
+.size-chip:hover { border-color: var(--line-strong); background: #fdfdfb; }
+.size-chip:active { transform: scale(.97); }
+.size-chip.active { background: var(--teal-mist); border-color: rgba(14, 107, 99, .38); }
+.size-chip.active b { color: var(--teal); }
+.size-chip.active span { color: var(--teal); opacity: .75; }
+.size-note {
+  margin-top: 8px; font-size: 11px; color: var(--ink-faint);
+  font-variant-numeric: tabular-nums; letter-spacing: .02em;
+}
+
 /* levels */
 .levels { display: flex; flex-direction: column; gap: 2px; padding: 8px; }
 .level {
@@ -375,8 +396,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-
 .rules { font-size: 13.8px; color: var(--ink-soft); line-height: 1.75; }
 .rules li { margin-left: 18px; margin-bottom: 6px; }
 .rules b { color: var(--ink); font-weight: 600; }
-.rules .kbd-line { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
-.rules .kbd-line span {
+.modal-card .kbd-line { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+.modal-card .kbd-line span {
   font-size: 11.5px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 3px 7px; color: var(--ink-soft);
 }
 

@@ -12,14 +12,27 @@
   const LEVEL_ORDER = ['easy', 'medium', 'hard', 'expert'];
   const LEVEL_NAME = { easy: '入门', medium: '进阶', hard: '困难', expert: '专家' };
   const DAILY_PLAN = ['medium', 'easy', 'medium', 'hard', 'medium', 'hard', 'expert']; // 周日→周六
+  const SIZES = [3, 4, 6, 9];
+  const SIZE_TIP = { 3: '幼儿', 4: '小朋友', 6: '进阶', 9: '经典' };
+  const DAILY_SIZE = 9; // 每日挑战固定 9 宫，保证全世界同一份
 
   // ---------------- 存储 ----------------
   let store = {};
   try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
-  store.settings = Object.assign({ sound: true, volume: 0.55, coach: true, welcomed: false }, store.settings || {});
+  store.settings = Object.assign({ sound: true, volume: 0.55, coach: true, welcomed: false, size: 9 }, store.settings || {});
   store.best = store.best || {};
   store.daily = store.daily || {};
   store.stats = store.stats || { games: 0, wins: 0, seconds: 0 };
+
+  // 旧版本的成绩没有尺寸前缀，默认归入 9 宫
+  Object.keys(store.best).forEach((k) => {
+    if (LEVEL_ORDER.indexOf(k) >= 0) {
+      store.best['9x' + k] = store.best[k];
+      delete store.best[k];
+    }
+  });
+
+  function bestKey(size, level) { return size + 'x' + level; }
 
   const settings = store.settings;
 
@@ -92,19 +105,23 @@
   function newGame(level, opts) {
     opts = opts || {};
     const mode = opts.mode || 'practice';
+    const size = opts.size || settings.size || (st && st.size) || 9;
     const dateKey = mode === 'daily' ? todayKey() : null;
     const seed = mode === 'daily' ? Number(String(dateKey)) : opts.seed;
+
+    applySize(size);
+    if (opts.remember) { settings.size = size; persist(); }
 
     setLoading(true);
     // 让“生成中”先绘制出来
     setTimeout(() => {
       const g = S.generate(level, seed);
       st = {
-        level, mode, dateKey, seed,
+        size: g.size, level, mode, dateKey, seed,
         puzzle: Uint8Array.from(g.puzzle),
         solution: Uint8Array.from(g.solution),
         grid: Uint8Array.from(g.puzzle),
-        notes: Array.from({ length: 81 }, () => new Set()),
+        notes: Array.from({ length: g.size * g.size }, () => new Set()),
         selected: -1,
         noteMode: false,
         errors: 0,
@@ -131,7 +148,9 @@
       if (settings.coach && !store.settings.welcomed) {
         // 首次进入的引导由欢迎面板负责
       } else if (settings.coach && opts.guided) {
-        coachSay('开始', '点一个空格选中它——教练会显示这个格子还剩下哪些可能。再按下方数字键填数，数字不能和同行、同列、同宫里的重复。', [
+        coachSay('开始', size === 9
+          ? '点一个空格选中它——教练会显示这个格子还剩下哪些可能。再按下方数字键填数，数字不能和同行、同列、同宫里的重复。'
+          : '这是 ' + size + ' 宫盘：每行、每列、每个粗线宫里，1 到 ' + size + ' 各出现一次。点空格选中，再用下方数字键填。', [
           { label: '懂了', act: closeCoach }
         ]);
       }
@@ -191,21 +210,53 @@
   }
 
   // ---------------- 渲染 ----------------
-  function buildBoard() {
+  let boardSize = 0;
+
+  // 切换棋盘尺寸：重建 DOM、调整网格与最大宽度
+  function applySize(size) {
+    size = SIZES.indexOf(size) >= 0 ? size : 9;
+    S.setSize(size);
+    if (boardSize !== size) {
+      buildBoard(size);
+      buildPad(size);
+      boardSize = size;
+    }
+    UI.board.dataset.n = size;
+    UI.board.style.setProperty('--n', size);
+    UI.board.style.gridTemplateColumns = 'repeat(' + size + ', 1fr)';
+    UI.board.style.gridTemplateRows = 'repeat(' + size + ', 1fr)';
+    const maxW = size <= 3 ? 320 : size <= 4 ? 392 : size <= 6 ? 468 : 560;
+    UI.board.style.maxWidth = maxW + 'px';
+    const pad = document.querySelector('.pad');
+    if (pad) pad.style.maxWidth = maxW + 'px';
+    if (st) renderSizeChips();
+  }
+
+  function buildBoard(size) {
     UI.board.innerHTML = '';
     cells = [];
-    for (let i = 0; i < 81; i++) {
+    const bw = S.BOXW, bh = S.BOXH;
+    const noteCols = size === 4 ? 2 : 3;
+    const noteRows = Math.ceil(size / noteCols);
+    for (let i = 0; i < size * size; i++) {
+      const r = Math.floor(i / size);
+      const c = i % size;
       const el = document.createElement('div');
       el.className = 'cell';
-      el.dataset.r = Math.floor(i / 9);
-      el.dataset.c = i % 9;
+      el.dataset.r = r;
+      el.dataset.c = c;
       el.dataset.i = i;
+      // 宫界线用内联样式，避免 render() 重写 className 时丢失
+      el.style.borderRight = c === size - 1 ? '0' : ((c + 1) % bw === 0 ? '2px solid #26332f' : '1px solid #ddd7c9');
+      el.style.borderBottom = r === size - 1 ? '0' : ((r + 1) % bh === 0 ? '2px solid #26332f' : '1px solid #ddd7c9');
       el.setAttribute('role', 'gridcell');
       const val = document.createElement('span');
       val.className = 'val';
       const notes = document.createElement('div');
       notes.className = 'notes';
-      for (let v = 1; v <= 9; v++) {
+      notes.style.gridTemplateColumns = 'repeat(' + noteCols + ', 1fr)';
+      notes.style.gridTemplateRows = 'repeat(' + noteRows + ', 1fr)';
+      for (let v = 1; v <= size; v++) {
         const sp = document.createElement('span');
         sp.textContent = v;
         notes.appendChild(sp);
@@ -219,11 +270,13 @@
 
   function render() {
     if (!st) return;
+    const n = st.size;
+    const total = n * n;
     const selVal = st.selected >= 0 ? st.grid[st.selected] : 0;
     const showCand = settings.coach && !st.done && !st.paused && st.selected >= 0;
     const cand = showCand ? S.candidates(st.grid) : null;
 
-    for (let i = 0; i < 81; i++) {
+    for (let i = 0; i < total; i++) {
       const c = cells[i];
       if (!c) continue;
       const v = st.grid[i];
@@ -252,30 +305,30 @@
         if (st.notes[i].size) noteVals = st.notes[i];
         else if (cand && i === st.selected && cand[i]) { noteVals = new Set(S.bits(cand[i])); autoCand = true; }
       }
-      c.notes.forEach((n) => n.classList.toggle('auto', autoCand));
-      for (let k = 0; k < 9; k++) {
+      c.notes.forEach((span) => span.classList.toggle('auto', autoCand));
+      for (let k = 0; k < n; k++) {
         c.notes[k].classList.toggle('on', !!(noteVals && noteVals.has(k + 1)));
       }
       c.el.setAttribute('aria-label',
-        '第' + (Math.floor(i / 9) + 1) + '行第' + (i % 9 + 1) + '列' + (v ? '，' + v : '，空'));
+        '第' + (Math.floor(i / n) + 1) + '行第' + (i % n + 1) + '列' + (v ? '，' + v : '，空'));
     }
 
     // 统计
     let filled = 0;
-    for (let i = 0; i < 81; i++) if (st.grid[i]) filled++;
+    for (let i = 0; i < total; i++) if (st.grid[i]) filled++;
     UI.statErrors.textContent = st.errors;
     UI.statErrors.classList.toggle('err', st.errors > 0);
     UI.statHints.textContent = st.hints;
-    const totalEmpty = Math.max(1, 81 - st.clues);
+    const totalEmpty = Math.max(1, total - st.clues);
     UI.statFilled.textContent = Math.round((filled - st.clues) / totalEmpty * 100) + '%';
 
     // 数字键盘剩余
-    const counts = new Array(10).fill(0);
-    for (let i = 0; i < 81; i++) if (st.grid[i]) counts[st.grid[i]]++;
-    for (let v = 1; v <= 9; v++) {
+    const counts = new Array(n + 1).fill(0);
+    for (let i = 0; i < total; i++) if (st.grid[i]) counts[st.grid[i]]++;
+    for (let v = 1; v <= n; v++) {
       const btn = UI.padNums.querySelector('[data-v="' + v + '"]');
       if (!btn) continue;
-      const left = 9 - counts[v];
+      const left = n - counts[v];
       const lab = btn.querySelector('.left');
       if (lab) lab.textContent = left > 0 ? left : '';
       btn.classList.toggle('done', left <= 0);
@@ -298,21 +351,49 @@
   }
 
   function updateMeta() {
-    UI.modeLabel.textContent = st.mode === 'daily' ? '每日挑战' : '练习';
+    UI.modeLabel.textContent = (st.mode === 'daily' ? '每日挑战' : '练习') + ' · ' + st.size + ' 宫';
     UI.levelLabel.textContent = LEVEL_NAME[st.level];
     UI.rankChip.textContent = st.clues + ' 提示';
     UI.rankChip.className = 'rank' + (st.level === 'expert' ? ' expert' : st.level === 'hard' ? ' hard' : '');
+    renderSizeChips();
     renderLevels();
     renderDaily();
     renderRecords();
   }
 
+  function renderSizeChips() {
+    const box = $('sizes');
+    if (!box) return;
+    const cur = (st && st.size) || settings.size || 9;
+    box.innerHTML = '<h3>棋盘大小</h3>';
+    const row = document.createElement('div');
+    row.className = 'size-row';
+    SIZES.forEach((n) => {
+      const b = document.createElement('button');
+      b.className = 'size-chip' + (cur === n ? ' active' : '');
+      b.innerHTML = '<b>' + n + '</b><span>宫</span>';
+      b.title = n + '×' + n + ' · ' + SIZE_TIP[n];
+      b.setAttribute('aria-pressed', String(cur === n));
+      b.onclick = () => {
+        if (st && st.size === n && !st.done) { toast('已经在 ' + n + ' 宫了'); return; }
+        newGame(st ? st.level : 'medium', { mode: 'practice', size: n, remember: true });
+      };
+      row.appendChild(b);
+    });
+    box.appendChild(row);
+    const note = document.createElement('div');
+    note.className = 'size-note';
+    note.textContent = cur + '×' + cur + ' · ' + (cur * cur) + ' 格 · 每宫 ' + S.BOXH + '×' + S.BOXW;
+    box.appendChild(note);
+  }
+
   function renderLevels() {
+    const size = (st && st.size) || settings.size || 9;
     UI.levels.innerHTML = '<h3>难度</h3>';
     LEVEL_ORDER.forEach((lv) => {
       const b = document.createElement('button');
       b.className = 'level' + (st && st.level === lv && st.mode === 'practice' ? ' active' : '');
-      const best = store.best[lv];
+      const best = store.best[bestKey(size, lv)];
       b.innerHTML = '<span class="lv-name">' + LEVEL_NAME[lv] + '</span>' +
         '<span class="lv-meta">' + (best ? '最佳 ' + fmt(best.time * 1000) : S.LEVELS[lv].clues + ' 提示') + '</span>';
       b.onclick = () => newGame(lv, { mode: 'practice' });
@@ -355,7 +436,7 @@
       '<h3>每日挑战</h3>' +
       '<div class="daily-head">' +
         '<div><div class="daily-date">' + keyToLabel(k) + ' · 周' + week + '</div>' +
-        '<div class="daily-sub">今天是一道「' + LEVEL_NAME[lv] + '」题，全世界同一份</div></div>' +
+        '<div class="daily-sub">今天是一道 ' + DAILY_SIZE + ' 宫「' + LEVEL_NAME[lv] + '」题，全世界同一份</div></div>' +
         (streak > 0 ? '<span class="streak">连续 ' + streak + ' 天</span>' : '') +
       '</div>' +
       '<div class="daily-dots">' + dots + '</div>' +
@@ -364,13 +445,16 @@
       '</button>';
 
     const btn = $('btnDaily');
-    if (btn) btn.onclick = () => newGame(lv, { mode: 'daily' });
+    if (btn) btn.onclick = () => newGame(lv, { mode: 'daily', size: DAILY_SIZE });
   }
 
   function renderRecords() {
+    const size = (st && st.size) || settings.size || 9;
+    const head = $('records').querySelector('h3');
+    if (head) head.textContent = '最佳成绩 · ' + size + ' 宫';
     let html = '';
     LEVEL_ORDER.forEach((lv) => {
-      const b = store.best[lv];
+      const b = store.best[bestKey(size, lv)];
       html += '<div class="rec-row"><span class="rec-name">' + LEVEL_NAME[lv] + '</span>' +
         '<span class="rec-val' + (b ? '' : ' empty') + '">' + (b ? fmt(b.time * 1000) : '—') + '</span></div>';
     });
@@ -401,7 +485,8 @@
     if (!st || st.done || st.paused) return;
     if (st.selected < 0) {
       // 自动选第一个空格，键盘流更顺
-      for (let i = 0; i < 81; i++) if (!st.grid[i]) { st.selected = i; break; }
+      const total = st.size * st.size;
+      for (let i = 0; i < total; i++) if (!st.grid[i]) { st.selected = i; break; }
       if (st.selected < 0) return;
     }
     const i = st.selected;
@@ -461,7 +546,7 @@
     setTimeout(() => { el.classList.remove('pop', 'flash'); }, 520);
 
     // 单元完成
-    const units = [S.ROW[i], 9 + S.COL[i], 18 + S.BOX[i]];
+    const units = [S.unitOfRow(S.ROW[i]), S.unitOfCol(S.COL[i]), S.unitOfBox(S.BOX[i])];
     const justDone = units.filter((u) => S.UNITS[u].every((j) => st.grid[j] === st.solution[j]));
     if (justDone.length) {
       setTimeout(() => Sound.unit(), 120);
@@ -536,7 +621,8 @@
     if (!step) {
       // 逻辑上无解（多半是历史错填），给出一个正确答案
       const empties = [];
-      for (let i = 0; i < 81; i++) if (st.grid[i] !== st.solution[i]) empties.push(i);
+      const total = st.size * st.size;
+      for (let i = 0; i < total; i++) if (st.grid[i] !== st.solution[i]) empties.push(i);
       if (!empties.length) return;
       const i = empties[0];
       st.hints++;
@@ -646,7 +732,8 @@
 
   // ---------------- 胜利 ----------------
   function checkWin() {
-    for (let i = 0; i < 81; i++) if (st.grid[i] !== st.solution[i]) return false;
+    const total = st.size * st.size;
+    for (let i = 0; i < total; i++) if (st.grid[i] !== st.solution[i]) return false;
     st.accumulated = elapsedMs();
     st.done = true;
     st.selected = -1;
@@ -663,10 +750,11 @@
     store.stats.wins++;
     store.stats.seconds += seconds;
 
-    const prev = store.best[st.level];
+    const bk = bestKey(st.size, st.level);
+    const prev = store.best[bk];
     const isBest = !prev || seconds < prev.time;
     if (isBest) {
-      store.best[st.level] = { time: seconds, errors: st.errors, hints: st.hints, date: todayKey() };
+      store.best[bk] = { time: seconds, errors: st.errors, hints: st.hints, date: todayKey() };
     }
     if (st.mode === 'daily') {
       const old = store.daily[st.dateKey];
@@ -686,12 +774,12 @@
     if (isBest && st.level) medals.push('新纪录');
     if (st.mode === 'daily') medals.push('每日挑战 #' + st.dateKey);
 
-    const shareText = '我在 54hrm 数独完成了「' + LEVEL_NAME[st.level] + '」，用时 ' + fmt(seconds * 1000) +
+    const shareText = '我在 54hrm 数独完成了「' + st.size + ' 宫 · ' + LEVEL_NAME[st.level] + '」，用时 ' + fmt(seconds * 1000) +
       (perfect ? '，零失误零提示' : '') + '。 game.54hrm.com';
 
     UI.modalCard.innerHTML =
       '<h2>' + (perfect ? '干净利落' : '完成') + '</h2>' +
-      '<p class="lead">' + LEVEL_NAME[st.level] + ' · ' + st.clues + ' 个提示数' +
+      '<p class="lead">' + st.size + ' 宫 · ' + LEVEL_NAME[st.level] + ' · ' + st.clues + ' 个提示数' +
       (st.mode === 'daily' ? ' · 每日挑战' : '') + '</p>' +
       '<div class="big-time">' + fmt(seconds * 1000) + '</div>' +
       '<div class="medals">' +
@@ -713,7 +801,7 @@
     $('winDaily').onclick = () => {
       closeModal();
       const k = todayKey();
-      newGame(dailyLevelFor(k), { mode: 'daily' });
+      newGame(dailyLevelFor(k), { mode: 'daily', size: DAILY_SIZE });
     };
   }
 
@@ -745,13 +833,14 @@
       '<h2>欢迎来玩数独</h2>' +
       '<p class="lead">每天五分钟的数字练习。规则很简单：</p>' +
       '<ul class="rules">' +
-        '<li>每一<b>行</b>、每一<b>列</b>、每个 <b>3×3 宫</b>里，1 到 9 各出现一次。</li>' +
+        '<li>每一<b>行</b>、每一<b>列</b>、每个粗线<b>宫</b>里，数字不能重复。</li>' +
         '<li>题目给的深色数字不能改，你填的数字是<b>青色</b>的。</li>' +
         '<li>卡住时按「提示」，教练会告诉你这一步为什么这么填。</li>' +
         '<li>想练候选数就开「笔记」，每个空格里能记下多个可能值。</li>' +
+        '<li>嫌 9 宫太大？「棋盘大小」可以切到 <b>3 / 4 / 6 宫</b>。</li>' +
       '</ul>' +
       '<div class="kbd-line">' +
-        '<span>1-9 填数</span><span>方向键移动</span><span>N 笔记</span><span>H 提示</span><span>空格 暂停</span>' +
+        '<span>数字键 填数</span><span>方向键移动</span><span>N 笔记</span><span>H 提示</span><span>空格 暂停</span>' +
       '</div>' +
       '<div class="modal-actions">' +
         '<button class="btn primary" id="startEasy">从入门开始</button>' +
@@ -770,14 +859,14 @@
     UI.modalCard.innerHTML =
       '<h2>玩法</h2>' +
       '<ul class="rules">' +
-        '<li>每行、每列、每宫填 1-9，不能重复。</li>' +
+        '<li>每行、每列、每个粗线宫里，数字各出现一次：3 宫填 1-3，6 宫填 1-6，9 宫填 1-9。</li>' +
         '<li><b>提示</b>会解释推理：唯一候选、隐性唯一、数对、区块排除、X-Wing。</li>' +
         '<li><b>教练模式</b>（右上角星标）会显示候选数，并把提示讲得更细。</li>' +
-        '<li><b>每日挑战</b>每天一道固定题，连胜天数会累积。</li>' +
+        '<li><b>每日挑战</b>每天一道固定的 9 宫题，连胜天数会累积。</li>' +
         '<li>进度自动保存在本机浏览器，刷新不丢。</li>' +
       '</ul>' +
       '<div class="kbd-line">' +
-        '<span>1-9 填数</span><span>0 / Backspace 擦除</span><span>方向键移动</span>' +
+        '<span>数字键 填数</span><span>0 / Backspace 擦除</span><span>方向键移动</span>' +
         '<span>N 笔记</span><span>U 撤销</span><span>H 提示</span><span>空格 暂停</span>' +
       '</div>' +
       '<div class="modal-actions"><button class="btn primary" id="helpClose">开始玩</button></div>';
@@ -797,6 +886,7 @@
   function serialize() {
     if (!st || st.done) return null;
     return {
+      size: st.size,
       level: st.level, mode: st.mode, dateKey: st.dateKey,
       puzzle: Array.from(st.puzzle),
       solution: Array.from(st.solution),
@@ -809,9 +899,12 @@
   }
 
   function restore(save) {
-    if (!save || !save.puzzle || save.puzzle.length !== 81) return false;
+    const size = save && SIZES.indexOf(save.size) >= 0 ? save.size : 9;
+    if (!save || !save.puzzle || save.puzzle.length !== size * size) return false;
     if (save.mode === 'daily' && save.dateKey !== todayKey()) return false;
+    applySize(size);
     st = {
+      size,
       level: save.level, mode: save.mode, dateKey: save.dateKey,
       puzzle: Uint8Array.from(save.puzzle),
       solution: Uint8Array.from(save.solution),
@@ -832,7 +925,8 @@
       restored: true
     };
     // 恢复后重算错填
-    for (let i = 0; i < 81; i++) if (st.grid[i] && st.grid[i] !== st.solution[i]) st.wrong.add(i);
+    const total = size * size;
+    for (let i = 0; i < total; i++) if (st.grid[i] && st.grid[i] !== st.solution[i]) st.wrong.add(i);
     render();
     updateMeta();
     startTimer();
@@ -840,9 +934,10 @@
   }
 
   // ---------------- 初始化 ----------------
-  function buildPad() {
+  function buildPad(size) {
     UI.padNums.innerHTML = '';
-    for (let v = 1; v <= 9; v++) {
+    UI.padNums.style.gridTemplateColumns = 'repeat(' + size + ', 1fr)';
+    for (let v = 1; v <= size; v++) {
       const b = document.createElement('button');
       b.className = 'key';
       b.dataset.v = v;
@@ -894,7 +989,8 @@
         return;
       }
       if (!st) return;
-      if (e.key >= '1' && e.key <= '9') { inputValue(Number(e.key)); e.preventDefault(); return; }
+      const num = Number(e.key);
+      if (e.key.length === 1 && num >= 1 && num <= st.size) { inputValue(num); e.preventDefault(); return; }
       if (e.key === '0' || e.key === 'Backspace' || e.key === 'Delete') { eraseCell(); e.preventDefault(); return; }
       if (e.key === ' ') { togglePause(); e.preventDefault(); return; }
       const k = e.key.toLowerCase();
@@ -903,10 +999,11 @@
       if (k === 'h') { requestHint(); return; }
       if (e.key === 'Escape') { closeCoach(); return; }
       const move = (dr, dc) => {
-        let i = st.selected < 0 ? 40 : st.selected;
-        let r = Math.floor(i / 9) + dr, c = (i % 9) + dc;
-        r = (r + 9) % 9; c = (c + 9) % 9;
-        selectCell(r * 9 + c);
+        const n = st.size;
+        let i = st.selected < 0 ? ((n * n - 1) >> 1) : st.selected;
+        let r = Math.floor(i / n) + dr, c = (i % n) + dc;
+        r = (r + n) % n; c = (c + n) % n;
+        selectCell(r * n + c);
         e.preventDefault();
       };
       if (e.key === 'ArrowUp') move(-1, 0);
@@ -946,8 +1043,7 @@
   }
 
   function boot() {
-    buildBoard();
-    buildPad();
+    applySize(settings.size || 9);
     bindEvents();
     Sound.setEnabled(settings.sound);
     Sound.setVolume(settings.volume);
@@ -955,7 +1051,7 @@
     renderGuideIcon();
     UI.modalCard.innerHTML = '';
     if (!restore(store.save)) {
-      newGame('medium', { mode: 'practice' });
+      newGame('medium', { mode: 'practice', size: settings.size || 9 });
     }
     if (!settings.welcomed && !store.save) {
       setTimeout(showWelcome, 400);
@@ -968,7 +1064,8 @@
     select: selectCell,
     input: inputValue,
     hint: requestHint,
-    newGame
+    newGame,
+    setSize: (n) => newGame(st ? st.level : 'medium', { mode: 'practice', size: n, remember: true })
   };
 
   boot();
