@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-27",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月21日 — 11月27日（最近 7 天）",
+ "range_en": "Nov 21 – Nov 27, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《自然》：肠道 IgA 是抑癌「刹车」，缺失时结肠肿瘤翻倍",
+     "title_en": "Nature: Gut IgA Acts as a Cancer Brake — Without It, Colon Tumors Double",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123005348.htm",
+     "source_zh": "洛克菲勒大学／ScienceDaily",
+     "source_en": "Rockefeller University / ScienceDaily",
+     "date": "2026-11-24",
+     "summary_zh": "洛克菲勒大学在《自然》报告，缺失 IgA 的小鼠结肠肿瘤数量是正常小鼠的两倍以上，且在多种肠癌模型中都成立。机制上 IgA 结合肠上皮 DMBT1 受体，给细菌驱动的上皮增殖踩刹车；对缺抗体小鼠口服 IgA 后，升高的肿瘤风险消失。人类 IgA 缺乏约每 500 人 1 例，与结直肠癌风险升高相关。",
+     "summary_en": "Rockefeller University reports in Nature that mice lacking immunoglobulin A developed more than twice as many colon tumors as normal mice, across several cancer models. IgA binds the epithelial receptor DMBT1 and restrains bacteria-driven cell proliferation; oral IgA erased the excess risk. IgA deficiency affects about 1 in 500 people in the US and is linked to higher colorectal cancer risk."
+    },
+    {
+     "title_zh": "《自然·衰老》：衰老肝脏堆积 Spp1⁺ 巨噬细胞，为肝癌「铺路」",
+     "title_en": "Nature Aging: Aged Livers Accumulate Spp1+ Macrophages That Pave the Way for Cancer",
+     "url": "https://www.163.com/dy/article/LCNRQFMJ0532BT7X.html",
+     "source_zh": "明尼苏达大学／BioArt",
+     "source_en": "University of Minnesota / BioArt",
+     "date": "2026-11-26",
+     "summary_zh": "11 月 26 日《自然·衰老》在线发表徐铭课题组研究：向 3 月龄与 18 月龄小鼠肝脏递送 NRAS 突变后，老年鼠迅速堆积促炎、免疫抑制的 Spp1⁺ 巨噬细胞，对衰老癌前细胞清除延迟，24 周后出现脂肪性肝炎型肝癌结节。清除该群细胞，或用达沙替尼联合槲皮素，均显著降低老年鼠肝癌发生率。",
+     "summary_en": "A Nature Aging paper published online Nov 26 by Xu Ming's group delivered oncogenic NRAS to the livers of 3- and 18-month-old mice. Aged livers rapidly accumulated pro-inflammatory, immunosuppressive Spp1+ macrophages, cleared senescent pre-cancerous cells more slowly and developed steatohepatitis-like tumors by week 24. Depleting these macrophages, or using dasatinib plus quercetin, markedly cut tumor incidence in aged mice."
+    },
+    {
+     "title_zh": "《细胞·代谢》：肠道代谢物 4-IAA 直击 AgRP 神经元，4 周减重 21.9%",
+     "title_en": "Cell Metabolism: Gut Metabolite 4-IAA Acts on AgRP Neurons, Cutting Weight 21.9% in Four Weeks",
+     "url": "https://news.qq.com/rain/a/20261126A07SDE00",
+     "source_zh": "复旦大学／山东大学／郑州大学",
+     "source_en": "Fudan University / Shandong University / Zhengzhou University",
+     "date": "2026-11-25",
+     "summary_zh": "复旦中山医院赵同金、山东大学于晓与郑州大学李蓬团队 11 月 25 日在《细胞·代谢》发表：小肠上皮 AOC1 酶合成的咪唑-4-乙酸在进食后升高，可直接结合 AgRP 神经元上的组胺 H3 受体抑制食欲；长期给药可预防饮食诱导肥胖，4 周使肥胖小鼠体重下降 21.9%，人血浆水平与体重正相关。",
+     "summary_en": "Published Nov 25 in Cell Metabolism, work from Zhao Tongjin (Fudan), Yu Xiao (Shandong) and Li Peng (Zhengzhou) shows the gut epithelial enzyme AOC1 makes imidazole-4-acetic acid, which rises after eating and binds histamine H3 receptors on AgRP neurons to suppress appetite. Chronic dosing prevented diet-induced obesity and cut body weight 21.9% in obese mice within four weeks; human plasma levels tracked body weight."
+    },
+    {
+     "title_zh": "292 人随机试验：低 FODMAP 饮食加消化酶，腹胀多降 14 个百分点",
+     "title_en": "292-Person Trial: Adding Digestive Enzymes to a Low-FODMAP Diet Cuts Bloating Further",
+     "url": "https://www.nutraingredients.com/Article/2026/11/26/digestive-enzyme-supplement-may-boost-benefits-of-low-fodmap-diet/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-26",
+     "summary_zh": "意大利与巴基斯坦团队在《Frontiers in Nutrition》发表多中心随机对照研究，292 名 Rome IV 肠易激成人分入低 FODMAP 饮食或饮食加 α/β-半乳糖苷酶与黑曲霉脯氨酰内肽酶复方 14 天。加酶组腹胀降 40.4%（对照 26.5%）、排气降 44.7%（28.1%）、腹痛降 53.5%（32.1%），提示酶制剂可减轻肠腔可发酵底物负荷。",
+     "summary_en": "A multicentre randomised trial in Frontiers in Nutrition assigned 292 adults with Rome IV IBS to a low-FODMAP diet alone or the diet plus alpha/beta-galactosidases and an Aspergillus niger prolyl endopeptidase for 14 days. The enzyme group saw larger reductions in bloating (40.4% vs 26.5%), flatulence (44.7% vs 28.1%) and abdominal pain (53.5% vs 32.1%), suggesting enzymes lower the fermentable substrate load."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "肾脏蛋白 TMEM174 失灵，磷酸盐让血管「提前变硬」并缩短寿命",
+     "title_en": "When Kidney Protein TMEM174 Fails, Phosphate Stiffens Arteries and Shortens Lifespan",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261124055847.htm",
+     "source_zh": "科罗拉多大学安舒茨医学院／ScienceDaily",
+     "source_en": "University of Colorado Anschutz / ScienceDaily",
+     "date": "2026-11-25",
+     "summary_zh": "科罗拉多大学发现肾脏蛋白 TMEM174 通过结合 NPT2A，限制约 75% 已滤过磷酸盐被重新吸收入血，相当于天然刹车。动物缺失该蛋白后血磷升高、血管钙化加速、寿命显著缩短，高磷饮食下更明显；减少膳食磷酸盐可部分减轻损伤。作者称血磷浓度越高，哺乳动物寿命越短。",
+     "summary_en": "Scientists at Colorado identified kidney protein TMEM174 as a natural brake that binds NPT2A and limits reabsorption of roughly 75% of filtered phosphate. Animals lacking it could not regulate blood phosphate, showed faster vascular calcification and lived significantly shorter, especially on high-phosphate diets; cutting dietary phosphate eased some damage. The senior author says the higher the blood phosphate, the shorter the lifespan."
+    },
+    {
+     "title_zh": "三本新书给长寿产业「泼冷水」：蓝区长寿记录漏洞与利益冲突",
+     "title_en": "Three New Books Challenge the Longevity Industry: Blue-Zone Gaps and Conflicts of Interest",
+     "url": "https://www.163.com/dy/article/LCL1Q5T505149U3U.html",
+     "source_zh": "全球医生组织（网易）",
+     "source_en": "Global Doctors Organization via NetEase",
+     "date": "2026-11-26",
+     "summary_zh": "11 月 26 日综述介绍近一年三本批判抗衰产业的新书：肿瘤学家 Emanuel 主张 75 岁后拒绝单纯为延长寿命的医疗干预，强调人际关系；营养师 Benfield 指围绝经期营销是节食文化新包装；UCL 研究者 Newman 核查「蓝区」百岁记录，发现档案错漏与身份矛盾常见，不少长寿学者与补剂公司存在利益冲突。",
+     "summary_en": "A Nov 26 review covers three books critical of the anti-ageing industry: oncologist Ezekiel Emanuel says he will refuse purely life-extending medical interventions after 75 and stresses relationships; dietitian Deb Benfield argues perimenopause marketing repackages diet culture; UCL researcher Saul Newman found birth records behind 'blue zone' supercentenarians riddled with errors, and notes many longevity researchers have ties to supplement firms."
+    },
+    {
+     "title_zh": "近三分之一认知障碍老人，仍在用可能「伤脑」的药物",
+     "title_en": "Nearly One in Three Older Adults With Cognitive Disorders Still Takes Risky Medications",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261124055854.htm",
+     "source_zh": "布法罗大学／ScienceDaily",
+     "source_en": "University at Buffalo / ScienceDaily",
+     "date": "2026-11-25",
+     "summary_zh": "布法罗大学分析 2011—2022 年数据，样本代表约 2970 万美国认知障碍老人：使用苯二氮䓬类、镇静催眠药等「潜在不适当药物」的比例从 39.3% 降至 29.3%，但仍有近三成暴露。此类药物可加重记忆与平衡问题，增加急诊、住院与早死风险；作者建议门诊常规开展药物精简与用药负担评估。",
+     "summary_en": "Analyzing 2011–2022 survey data representing about 29.7 million older Americans with cognitive disorders, University at Buffalo researchers found exposure to potentially inappropriate medications such as benzodiazepines and sedative-hypnotics fell from 39.3% to 29.3% — yet nearly one in three is still exposed. These drugs worsen memory, balance, and raise emergency visits, hospitalisation and early death; the authors urge routine deprescribing reviews."
+    },
+    {
+     "title_zh": "16.4 万人数据：晚出生世代「老得更快」，早发癌症风险随之上升",
+     "title_en": "164,000-Person Analysis: Later-Born Generations Age Faster, With Higher Early-Onset Cancer Risk",
+     "url": "https://news.qq.com/rain/a/20261127A04MVH00",
+     "source_zh": "《自然·医学》／梅斯医学",
+     "source_en": "Nature Medicine / MedSci",
+     "date": "2026-11-27",
+     "summary_zh": "《自然·医学》研究整合 UK Biobank 与 All of Us 共 164,431 人、平均随访 6.4 年，用 PhenoAge 计算生物学年龄差。英国数据中 1965—1974 年出生者的标准化生物年龄差比 1950—1954 年出生者高 0.23 个标准差，加速衰老与早发性癌症风险升高相关。作者强调这是观察性关联而非因果，且数据主要来自国外人群。",
+     "summary_en": "A Nature Medicine study pooled 164,431 people from UK Biobank and All of Us with 6.4 years of follow-up, using PhenoAge to measure biological versus chronological age. In UK data, people born 1965–1974 had a standardised biological-age gap 0.23 SD larger than those born 1950–1954, and accelerated ageing tracked higher early-onset cancer risk. The authors stress this is observational association, not causation, and largely non-Chinese data."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "达能上线 AI 筛查工具：拍四张照片评估儿童缺铁性贫血风险",
+     "title_en": "Danone Launches AI Tool That Screens Children for Iron-Deficiency Anaemia From Four Photos",
+     "url": "https://www.nutraingredients.com/Article/2026/11/26/danones-ai-powered-tool-to-detect-risk-of-iron-deficiency-anemia-in-kids/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-26",
+     "summary_zh": "达能 11 月 26 日全球上线 IronUp! Checker，面向 6 个月至 6 岁儿童：拍指甲、舌、下眼睑、内唇四处照片，加 5 分钟饮食问卷即可评估缺铁性贫血风险，并给出富铁膳食与强化产品建议。新加坡与泰国 250 名儿童研究显示四部位联合模型敏感度 65%、特异度 88%，公司目标为双 80%，明年起在东南亚铺开。",
+     "summary_en": "Danone launched its IronUp! Checker globally on Nov 26 for children aged six months to six years: photos of fingernails, tongue, lower eyelid and inner lip plus a five-minute diet questionnaire estimate iron-deficiency anaemia risk and suggest iron-rich foods and fortified products. In 250 children in Singapore and Thailand the four-site model reached 65% sensitivity and 88% specificity; Danone targets 80% for both and plans a Southeast Asia rollout in 2027."
+    },
+    {
+     "title_zh": "同一句「多补蛋白」并不通用：专家按七类女性拆解补法",
+     "title_en": "One Protein Message Does Not Fit All: Experts Break Supplementation Down by Seven Groups of Women",
+     "url": "https://news.foodmate.net/2026/11/758076.html",
+     "source_zh": "食品伙伴网",
+     "source_en": "FoodMate",
+     "date": "2026-11-26",
+     "summary_zh": "食品伙伴网 11 月 26 日刊出厦门健康食品产业大会专访，原北医三院运动医学研究所艾华与上海师范大学张钧提出，女性蛋白营养要先判断缺不缺、缺什么、按什么顺序补，再谈补多少；并按七类人群区分动物蛋白与植物蛋白配比、三餐分配节奏，强调总量、时机与抗阻训练三者需配合。",
+     "summary_en": "An interview published Nov 26 from the Xiamen health food industry conference has Ai Hua, formerly of Peking University Third Hospital's sports medicine institute, and Zhang Jun of Shanghai Normal University argue that protein advice for women must first establish whether, what and in which order to supplement before discussing dose. They split women into seven groups with different animal-to-plant ratios and meal timing, stressing total intake, timing and resistance training together."
+    },
+    {
+     "title_zh": "中年发福不是代谢变慢，而是脂肪「先老了」",
+     "title_en": "Midlife Weight Gain Is Not Slower Metabolism — It Is Fat Ageing First",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34564442",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-26",
+     "summary_zh": "成都医学院第一附属医院临床营养科医生撰文指出，脂肪组织是最早出现衰老改变的器官之一：皮下脂肪减少、内脏脂肪增加、棕色与米色脂肪流失，衰老脂肪细胞持续释放促炎因子形成低度炎症，推动胰岛素抵抗。作者认为中年「四肢变细、肚子变大」是上述变化叠加，干预重点在减内脏脂肪与保住产热脂肪。",
+     "summary_en": "Writing for The Paper, a clinical nutritionist at the First Affiliated Hospital of Chengdu Medical College argues adipose tissue is among the earliest organs to age: subcutaneous fat shrinks, visceral fat grows, brown and beige fat is lost, and senescent fat cells drip pro-inflammatory signals that drive insulin resistance. Midlife 'thin limbs, thick waist' reflects these shifts; interventions should target visceral fat and preserve heat-generating fat."
+    },
+    {
+     "title_zh": "两种母乳低聚糖获批：3-岩藻糖基乳糖与乳糖-N-四糖拿到「通行证」",
+     "title_en": "Two Human Milk Oligosaccharides Approved in China: 3-FL and Lacto-N-Tetraose",
+     "url": "https://static.cninfo.com.cn/finalpage/2026-11-26/1225689656.PDF",
+     "source_zh": "朗坤科技公告／巨潮资讯",
+     "source_en": "Langkun Technology filing / CNINFO",
+     "date": "2026-11-26",
+     "summary_zh": "朗坤科技 11 月 26 日公告，控股子公司研发的 3-岩藻糖基乳糖与乳糖-N-四糖获国家卫生健康委员会批准，取得《行政许可审查结论通知书》（卫食添通字〔2026〕第 0026 号）。母乳低聚糖是婴幼儿配方食品模拟母乳成分的关键原料，国内近年已有多款同类原料陆续获批，国产供应格局继续扩容。",
+     "summary_en": "A Nov 26 filing shows Langkun Technology's subsidiary received National Health Commission approval for 3-fucosyllactose and lacto-N-tetraose under an administrative review notice issued as food-additive approval No. 0026 of 2026. Human milk oligosaccharides are key ingredients for mimicking breast milk in infant formula, and several such ingredients have been approved in China in recent years, expanding domestic supply."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "40 人随机试验：每日 0.1 毫升薄荷油，20 天收缩压降 8.5 mmHg",
+     "title_en": "40-Person Trial: 0.1 mL of Peppermint Oil Daily Lowers Systolic Pressure 8.5 mmHg in 20 Days",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123231553.htm",
+     "source_zh": "英国兰开夏大学／ScienceDaily",
+     "source_en": "University of Lancashire / ScienceDaily",
+     "date": "2026-11-25",
+     "summary_zh": "英国兰开夏大学在《PLOS One》发表随机对照试验：40 名 18—65 岁血压偏高或 1 级高血压者，每日分两次摄入共 100 微升食用级薄荷油（溶于水），20 天后收缩压由约 130 降至 122 mmHg，安慰剂组几乎不变，校正基线后组间差 8.5 mmHg。作者提醒样本仅 40 人、干预不足三周，不能替代处方降压药。",
+     "summary_en": "A randomised trial in PLOS One from the University of Lancashire gave 40 adults aged 18–65 with elevated or stage 1 hypertension 100 microlitres of food-grade peppermint oil daily in two doses diluted in water. After 20 days systolic pressure fell from about 130 to 122 mmHg while placebo was unchanged, an 8.5 mmHg between-group difference after adjustment. The authors warn of small sample and short duration, and say it cannot replace prescribed medication."
+    },
+    {
+     "title_zh": "11 名职业球员连喝 6 个月姜黄饮：抗炎菌升、促炎菌降",
+     "title_en": "11 Pro Footballers Drank Turmeric Shots for Six Months: Anti-Inflammatory Bacteria Rose",
+     "url": "https://www.nutraingredients.com/Article/2026/11/26/pilot-study-indicates-turmeric-shot-may-influence-inflammation-via-the-gut/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-26",
+     "summary_zh": "爱尔兰 Teagasc、诺丁汉特伦特大学与罗瑟勒姆联队合作，追踪 11 名职业男足运动员 6 个月，8 人每日两次饮用原味姜黄饮、3 人作对照。粪便宏基因组显示干预组 Blautia wexlerae 与 B. obeum 升高、Alistipes putredinis 与 A. onderdonkii 下降。研究发表于《Performance Nutrition》，作者强调属小样本试点、整体菌群变化温和。",
+     "summary_en": "Teagasc in Ireland, Nottingham Trent University and Rotherham United followed 11 male professional footballers for six months: eight took a raw turmeric shot twice daily, three served as controls. Shotgun metagenomics showed increases in Blautia wexlerae and B. obeum and decreases in Alistipes putredinis and A. onderdonkii in the intervention group. Published in Performance Nutrition, the authors stress it is a small pilot with modest overall microbiome shifts."
+    },
+    {
+     "title_zh": "耐克与 Science in Sport 联手，2027 年春季推联名跑步营养线",
+     "title_en": "Nike and Science in Sport Team Up for a Co-Branded Running Nutrition Range in 2027",
+     "url": "https://www.nutraingredients.com/Article/2026/11/26/sis-and-nike-announce-global-performance-nutrition-partnership/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-26",
+     "summary_zh": "运动营养品牌 Science in Sport 宣布与耐克达成为期多年的全球合作，2027 年春季推出联名运动营养系列：SiS 负责配方、开发与生产，耐克提供消费者洞察、品牌与设计。双方称目标是让「补给」从精英选手走向大众跑者；SiS 同时加码女性跑者营养研究，指过往运动表现研究长期偏向男性。",
+     "summary_en": "Sports nutrition brand Science in Sport announced a multi-year global partnership with Nike to launch a co-branded performance nutrition range in spring 2027: SiS supplies formulation, development and manufacturing, Nike brings consumer insight, brand and design. Both say the aim is to move fuelling beyond elite athletes to everyday runners, and SiS is investing in female-runner research, noting performance science has long skewed male."
+    },
+    {
+     "title_zh": "一株益生菌的「形态扩张」：LP299V 进了华夫饼与泰国复方粉",
+     "title_en": "One Strain, Many Formats: LP299V Moves Into Waffles and a Thai Multi-Biotic Powder",
+     "url": "https://www.nutraingredients.com/Article/2026/11/24/probis-probiotic-strain-expands-footprint-in-application-format-and-market/",
+     "source_zh": "NutraIngredients",
+     "source_en": "NutraIngredients",
+     "date": "2026-11-24",
+     "summary_zh": "Symrise 旗下 Probi 把植物乳植杆菌 LP299V 的应用从功能饮料扩到日本烘焙品：Nomura Dairy 与 Kunugi 合作的 My Flora 华夫饼，每份含 100 亿 CFU 活菌；泰国 BioActive+ 则推出含 11 种前、生、后生元的 TRIBIOTIC PRO 粉剂，以 LP299V 为核心菌株。该菌 1980 年代自瑞典健康人肠黏膜分离，累计逾 90 项人体临床研究，是研究最充分的植物乳植杆菌之一。",
+     "summary_en": "Symrise-owned Probi has extended its Lactiplantibacillus plantarum 299v from functional drinks into Japanese bakery: Nomura Dairy and Kunugi's My Flora waffle carries 10 billion CFU per serving. In Thailand, BioActive+ launched TRIBIOTIC PRO, a powder combining 11 pre-, pro- and postbiotics with LP299V as the lead strain. Isolated from Swedish gut mucosa in the 1980s, the strain has been studied in more than 90 human trials."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "湖南启动全民健康体重管理：1 分钱体脂秤加 21 天打卡",
+     "title_en": "Hunan Launches Province-Wide Weight Management Drive With One-Cent Scales and 21-Day Tracking",
+     "url": "https://health.rednet.cn/content/646055/60/16512710.html",
+     "source_zh": "红网",
+     "source_en": "Rednet",
+     "date": "2026-11-26",
+     "summary_zh": "湖南省卫健委联合蚂蚁阿福、红网 11 月 26 日在长沙县人民医院启动 2026 年全民健康体重管理活动，主题为减盐减油、健康体重，推出 1 分钱申领智能体脂秤、AI 解读饮食运动建议与 21 天打卡，活动持续至 12 月 31 日。湖南居民超重率、肥胖率与高血脂患病率均高于全国平均，将依托数字家医服务建长效机制。",
+     "summary_en": "Hunan's health commission, Ant Afu and Rednet launched the province's 2026 weight management campaign on Nov 26 at Changsha County People's Hospital, themed around cutting salt and cooking oil. Residents can claim a smart body-fat scale for one cent, get AI diet and exercise feedback and join a 21-day check-in until Dec 31. Hunan's overweight, obesity and high cholesterol rates all exceed national averages; the province plans to embed weight tracking in its digital family-doctor service."
+    },
+    {
+     "title_zh": "12 个医共体、95% 医保打包：宣城把基金结余留给「少生病」",
+     "title_en": "12 County Alliances and 95% Packaged Insurance: Xuancheng Pays for Staying Healthy",
+     "url": "https://wjw.xuancheng.gov.cn/OpennessContent/show/3849696.html",
+     "source_zh": "宣城市卫生健康委员会",
+     "source_en": "Xuancheng Health Commission",
+     "date": "2026-11-26",
+     "summary_zh": "宣城 11 月 26 日发布会披露，7 个县市区组建 12 个紧密型县域医共体，以「一统四包八共享」推进：扣除风险金后不少于 95% 医保基金按人头打包、结余留用。今年以来全市医保基金支付同比减少 7848 万元，基层支出占比升 1.97 个百分点；重点人群家庭医生签约覆盖率 85%，65 岁以上高血压、糖尿病规范管理率 66.47%、67.93%。",
+     "summary_en": "At a Nov 26 briefing, Xuancheng reported 12 tightly integrated county medical alliances across seven counties, pooling staffing, budgets and at least 95% of the medical insurance fund per capita with savings retained locally. Insurance payouts fell 78.48 million yuan year on year and the primary-care share rose 1.97 points; family-doctor coverage for priority groups reached 85%, with 66.47% and 67.93% standardised management of hypertension and diabetes in over-65s."
+    },
+    {
+     "title_zh": "把孤独当病来治，可能治错了地方",
+     "title_en": "Treating Loneliness as a Medical Condition May Be Looking in the Wrong Place",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261124055906.htm",
+     "source_zh": "密歇根大学／ScienceDaily",
+     "source_en": "University of Michigan / ScienceDaily",
+     "date": "2026-11-26",
+     "summary_zh": "密歇根大学在《Social Problems》发表分析，梳理十余年文献与媒体报道后指出：把孤独「医学化」虽提升关注度，却把重建社区、缩短工时等社会责任转嫁给缺乏相应工具的医疗系统。文中引用的既往研究显示，缺乏社会连接的健康危害相当于每天吸 15 支烟，孤独、社会隔离与独居各与约 30% 的早死风险升高相关。",
+     "summary_en": "A University of Michigan analysis in Social Problems, drawing on a decade of literature and media coverage, argues that medicalising loneliness raised its profile but shifted responsibility for rebuilding communities and shortening working hours onto a health system without the tools. Cited earlier work finds lacking social connection is as harmful as smoking 15 cigarettes a day, with loneliness, isolation and living alone each linked to roughly 30% higher premature death risk."
+    },
+    {
+     "title_zh": "县域「十五五」怎么管健康：体重与睡眠门诊、住院免陪护、医养错位发展",
+     "title_en": "How a County Plans Health for 2026-2030: Weight and Sleep Clinics, No-Companion Wards, Split Elderly-Care Roles",
+     "url": "https://news.qq.com/rain/a/20261126A0BNH600",
+     "source_zh": "镇平县卫健委／腾讯新闻",
+     "source_en": "Zhenping Health Commission / Tencent News",
+     "date": "2026-11-26",
+     "summary_zh": "河南镇平 11 月 25 日卫健委专场发布会提出，「十五五」期间在县级医院试点住院免陪照护，开设体重管理、睡眠心理特色门诊，暂不具备条件的乡镇纳入家庭医生签约；县中医院建医养结合中心服务失能高龄老人，县妇幼保健院做低收入群体兜底养老。全县农村 65 岁以上老年人体检完成率 103.3%，宫颈癌、乳腺癌筛查各 12585 人。",
+     "summary_en": "At a Nov 25 briefing, Zhenping county in Henan set out plans to pilot hospital wards without family caregivers, open weight-management and sleep-psychology clinics, and fold townships lacking such services into family-doctor contracts. Its TCM hospital runs an integrated elderly-care centre for frail and cognitively impaired residents while the maternal and child health hospital covers low-income elders. Rural health checks for over-65s reached 103.3% of target, with 12,585 women each screened for cervical and breast cancer."
+    }
+   ]
+  }
+ ]
+}
