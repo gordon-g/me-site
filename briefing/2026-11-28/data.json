@@ -1,0 +1,246 @@
+{
+ "date": "2026-11-28",
+ "title_zh": "全球健康与长寿每日简报",
+ "title_en": "Global Health & Longevity Daily Briefing",
+ "range_zh": "2026年11月22日 — 11月28日（最近 7 天）",
+ "range_en": "Nov 22 – Nov 28, 2026 (past 7 days)",
+ "intro_zh": "每日汇总功能医学、长寿医学、精准营养、营养补剂与健康管理五大领域的中英文权威资讯，每条附原始出处链接。",
+ "intro_en": "A daily digest of authoritative Chinese and international coverage across functional medicine, longevity medicine, precision nutrition, dietary supplements and health management — every item links to its original source.",
+ "sections": [
+  {
+   "slug": "fm",
+   "name_zh": "功能医学",
+   "name_en": "Functional Medicine",
+   "items": [
+    {
+     "title_zh": "《细胞》：西式饮食让调节性 T 细胞「变脆」，免疫检查点治疗不良反应由此启动",
+     "title_en": "Cell: A Western diet makes regulatory T cells fragile, priming adverse events after checkpoint blockade",
+     "url": "https://www.163.com/dy/article/LCQF4QBA0532BT7X.html",
+     "source_zh": "BioArt／网易",
+     "source_en": "BioArt / NetEase",
+     "date": "2026-11-28",
+     "summary_zh": "匹兹堡大学团队给野生小鼠喂低纤维、高脂、高加工碳水饮食 14 天，再注射抗 PD-1 抗体，第 6 天即出现结肠、肝、皮肤与肺多器官炎症。机制为 IFN-γ 信号诱导调节性 T 细胞脆性，组织驻留记忆 T 细胞转而攻击正常组织；雌鼠与 24 周龄鼠反应更重，普通饮食组无此改变。",
+     "summary_en": "Wild mice fed a low-fibre, high-fat, highly processed diet for 14 days and then given anti-PD-1 developed multi-organ inflammation of colon, liver, skin and lung by day six. IFN-γ signalling made regulatory T cells fragile, letting tissue-resident memory T cells attack normal tissue. Females and 24-week-old mice reacted more strongly; mice on a regular diet showed no such change."
+    },
+    {
+     "title_zh": "《自然·通讯》：胡萝卜细胞当「胶囊」，把布地奈德精准送到结肠",
+     "title_en": "Nature Communications: Carrot cells as capsules deliver budesonide precisely to the colon",
+     "url": "https://news.qq.com/rain/a/20261127A0EYJR00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "HeatGut Daily via Tencent News",
+     "date": "2026-11-27",
+     "summary_zh": "上海中医药大学慈天元、冯年平团队用胡萝卜愈伤组织细胞装载布地奈德脂质体，载体在胃液与小肠液中 12 小时不破，遇结肠菌群酶才崩解，24 小时累积释放 86.1%。慢性结肠炎小鼠丁酸由 9.33 升至 25.17 微克/克，阿克曼菌增多，结肠长度基本恢复。",
+     "summary_en": "A Shanghai University of Traditional Chinese Medicine team loaded budesonide liposomes onto carrot callus cells. The carrier stayed intact for 12 hours in gastric and intestinal fluid and broke down only under colonic microbial enzymes, releasing 86.1% of drug within 24 hours. In chronic colitis mice, butyrate rose from 9.33 to 25.17 µg/g, Akkermansia increased and colon length nearly normalised."
+    },
+    {
+     "title_zh": "三种抗生素对比：万古霉素把肠道发酵「打到谷底」，恢复也最慢",
+     "title_en": "Three antibiotics compared: vancomycin hits gut fermentation hardest and recovery lags",
+     "url": "https://news.qq.com/rain/a/20261127A0F3SM00",
+     "source_zh": "热心肠日报（腾讯新闻）",
+     "source_en": "HeatGut Daily via Tencent News",
+     "date": "2026-11-27",
+     "summary_zh": "健康志愿者分别口服万古霉素、奥马环素或莫西沙星 10 天并随访 30 天。万古霉素组直链与支链短链脂肪酸降至基线约九十分之一与五十五分之一，直/支链比值下降，提示纤维发酵受抑更重；产丁酸基因到第 30 天才缓慢回升，另两种 10 至 13 天已反弹。",
+     "summary_en": "Healthy volunteers took vancomycin, omadacycline or moxifloxacin for 10 days and were followed for 30. Vancomycin cut straight- and branched-chain short-chain fatty acids to roughly 1/90 and 1/55 of baseline and lowered their ratio, indicating fibre fermentation was hit hardest. Butyrate-producing genes recovered only slowly by day 30, versus days 10–13 for the other two drugs."
+    },
+    {
+     "title_zh": "《细胞报告》：352 种肠道代谢物里筛出胍丁胺，可压低 tau 早期磷酸化",
+     "title_en": "Cell Reports: Screening 352 gut metabolites finds agmatine lowers early tau phosphorylation",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34558506",
+     "source_zh": "澎湃新闻",
+     "source_en": "The Paper",
+     "date": "2026-11-24",
+     "summary_zh": "克利夫兰医学中心程飞雄团队用阿尔茨海默病患者 iPSC 衍生神经元筛选 352 种肠道菌群代谢物，胍丁胺能稳定降低 tau 蛋白 Thr231 位点磷酸化。3 月龄 5xFAD 小鼠连续给药 6 个月后认知改善、斑块与神经炎症减轻，机制涉及 C3aR-STAT3 通路的下调。",
+     "summary_en": "A Cleveland Clinic team screened 352 gut microbial metabolites against neurons derived from Alzheimer's patient iPSCs and found agmatine consistently reduced tau phosphorylation at Thr231. Given for six months from three months of age in 5xFAD mice, it improved cognition and reduced plaques and neuroinflammation, acting through downregulation of the C3aR-STAT3 axis."
+    }
+   ]
+  },
+  {
+   "slug": "lm",
+   "name_zh": "长寿医学",
+   "name_en": "Longevity Medicine",
+   "items": [
+    {
+     "title_zh": "《科学》：人工「染色体胶水」补回黏连蛋白，老龄卵子错误率大幅下降",
+     "title_en": "Science: An artificial chromosome glue restores cohesin and cuts errors in aged eggs",
+     "url": "https://news.qq.com/rain/a/20261127A0DPHR00",
+     "source_zh": "学术经纬／腾讯新闻",
+     "source_en": "Academic Jingwei via Tencent News",
+     "date": "2026-11-26",
+     "summary_zh": "马克斯·普朗克团队设计人工黏连系统 TALhesin，用可编程 TAL 效应蛋白把姐妹染色单体重新拴住，并内置分离酶切割位点以便准时松开。17 月龄小鼠卵子完全无提前分离的比例由 46.7% 升至 74.1%，接近年轻小鼠的 74.7%；人类捐赠卵子中同样能定位并缩小染色单体间距。",
+     "summary_en": "Max Planck researchers built TALhesin, an engineered cohesion system that uses programmable TAL effector proteins to re-tie sister chromatids and carries a separase cut site so the link releases on cue. In eggs from 17-month-old mice the share with no premature separation rose from 46.7% to 74.1%, close to the 74.7% seen in young eggs; the system also bound human egg chromosomes and narrowed chromatid spacing."
+    },
+    {
+     "title_zh": "把氧气「调低」，HTRA2 缺陷小鼠寿命延长到三倍",
+     "title_en": "Turning oxygen down tripled lifespan in mice with defective HTRA2",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261125045304.htm",
+     "source_zh": "格拉德斯通研究所／ScienceDaily",
+     "source_en": "Gladstone Institutes / ScienceDaily",
+     "date": "2026-11-27",
+     "summary_zh": "格拉德斯通研究所发现，HTRA2 与 CLPB 缺损会让线粒体复合物 I 无法正常消耗氧，氧在组织中累积到毒性水平。让这类出现运动神经元退变的小鼠吸入低于常规 21% 的氧气，寿命延长到三倍，纹状体炎症减轻。团队据此筛出 75 个可能受益的基因，并推进模拟低氧的药物 HypoxyStat。",
+     "summary_en": "Gladstone Institutes found that loss of HTRA2 and CLPB stops mitochondrial Complex I from consuming oxygen normally, letting toxic levels accumulate in tissue. Mice with motor neuron degeneration lived three times longer when breathing air below the usual 21% oxygen, with less striatal inflammation. The team identified 75 genes tied to conditions that might benefit and is developing a low-oxygen mimetic drug, HypoxyStat."
+    },
+    {
+     "title_zh": "阻断 CD38 抬高 NAD⁺，老年小鼠骨头反而更脆",
+     "title_en": "Blocking CD38 to raise NAD+ made ageing mouse bone weaker, not stronger",
+     "url": "https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/",
+     "source_zh": "Lifespan.io",
+     "source_en": "Lifespan.io",
+     "date": "2026-11-24",
+     "summary_zh": "阿肯色大学团队在《衰老细胞》报告：小鼠骨内 NAD⁺ 随龄下降、Cd38 表达上升，但 Cd38 主要由内皮与造血系细胞（含破骨细胞）表达，成骨细胞几乎不表达。敲除 Cd38 虽抬高骨内 NAD⁺，老年小鼠骨吸收增强、骨量更低；改为在成骨细胞过表达 Nampt，松质骨流失为 19%，对照为 34%。",
+     "summary_en": "Reporting in Aging Cell, a University of Arkansas team confirmed bone NAD+ falls and Cd38 rises with age, but Cd38 sits mainly on endothelial and haematopoietic cells including osteoclasts, barely on osteoblasts. Deleting Cd38 raised bone NAD+ yet increased resorption and lowered bone mass in old mice. Overexpressing Nampt inside osteoblasts instead cut trabecular bone loss to 19% versus 34% in controls."
+    },
+    {
+     "title_zh": "长寿医学走进临床前，必须先回答三个患者安全问题",
+     "title_en": "Before longevity medicine enters the clinic it must answer three patient-safety questions",
+     "url": "https://news.bjd.com.cn/2026/11/26/12044233.shtml",
+     "source_zh": "京报网",
+     "source_en": "Beijing Daily",
+     "date": "2026-11-26",
+     "summary_zh": "京报网梳理《医疗技术临床应用管理办法》等规定提出，长寿医学进入临床要过三关：适应证范围是否写明、疗效与风险证据强度是否足够、长期随访是否有记录。限制类技术须自首例临床应用起 15 个工作日内备案，安全性有效性不确切的技术不得开展，超出分级清单的用途按研究性应用处理。",
+     "summary_en": "Beijing Daily reviewed China's medical technology rules and framed three checkable conditions for longevity services: a defined indication range, adequate evidence on benefit and risk, and documented long-term follow-up. Restricted technologies must be filed within 15 working days of first use, technologies of unproven safety and efficacy may not be offered, and uses beyond graded indication lists count as research."
+    }
+   ]
+  },
+  {
+   "slug": "pn",
+   "name_zh": "精准营养",
+   "name_en": "Precision Nutrition",
+   "items": [
+    {
+     "title_zh": "《科学·进展》：生酮饮食的棕榈酸与硬脂酸，经 cGAS-STING 点燃慢性炎症",
+     "title_en": "Science Advances: Keto diet's palmitic and stearic acids ignite inflammation via cGAS-STING",
+     "url": "https://news.qq.com/rain/a/20261128A04Y0600",
+     "source_zh": "梅斯医学（腾讯新闻）",
+     "source_en": "MedSci via Tencent News",
+     "date": "2026-11-28",
+     "summary_zh": "小鼠分别吃常规饲料与两种 4:1 生酮饲料，21 天后心脏、肾脏与白色脂肪的促炎巨噬细胞增多；棕榈酸与硬脂酸合计约占 26% 的配方更明显。机制是长链饱和脂肪酸促使 VDAC1 聚集、线粒体 DNA 外泄并激活 cGAS-STING；换成占比约 12% 的椰子油配方，促炎标志物不再升高。",
+     "summary_en": "Mice on two 4:1 ketogenic diets versus a control showed more pro-inflammatory macrophages in heart, kidney and white fat after 21 days, most clearly with a formula where palmitic and stearic acid made up about 26% of fatty acids. Long-chain saturates clustered VDAC1, leaked mitochondrial DNA and activated cGAS-STING. A coconut-oil formula at roughly 12% did not raise inflammatory markers."
+    },
+    {
+     "title_zh": "营养服务走出病房：HCH「医院—社区—家庭」模式在长沙设专场",
+     "title_en": "Nutrition leaves the ward: hospital-community-home model gets its own track in Changsha",
+     "url": "https://news.qq.com/rain/a/20261127A0FOTW00",
+     "source_zh": "红网",
+     "source_en": "Rednet",
+     "date": "2026-11-27",
+     "summary_zh": "2026 营养科学与健康促进前沿论坛 11 月 27 日至 28 日在长沙举行，数百名代表参会，三场平行分会场之一专攻 HCH 连续营养服务。该模式按「医院评估干预、社区随访管理、家庭落地执行」建三级闭环，国内多省已试点；会上分享了肺结核合并低蛋白血症患者出院后居家膳食接续的案例。",
+     "summary_en": "The 2026 Nutrition Science and Health Promotion Forum opened in Changsha on November 27–28 with several hundred delegates; one of three parallel tracks focused on HCH continuous nutrition services. The model builds a three-tier loop of hospital assessment and intervention, community follow-up and household execution, already piloted in several provinces. A case of a tuberculosis patient with hypoalbuminaemia continuing dietary care at home was presented."
+    },
+    {
+     "title_zh": "吃对纤维，免疫治疗才起效：菌群生态同时决定疗效与毒性",
+     "title_en": "Fibre intake shapes immunotherapy response as gut ecology sets both efficacy and toxicity",
+     "url": "https://news.qq.com/rain/a/20261127A0DO2600",
+     "source_zh": "医学论坛网（腾讯新闻）",
+     "source_en": "Medical Tribune via Tencent News",
+     "date": "2026-11-27",
+     "summary_zh": "医学论坛网梳理证据指出，低纤维、低 ω-3 摄入、丁酸合成能力下降与产甲烷潜能匮乏，构成一组可检测、可干预的疗效风险特征。无应答且发生 3 级以上不良反应者，基线菌群多样性更低（P=0.0157）、粪便总细菌载量更低（P=0.0170）、产甲烷菌更少（P=0.0288），提示治疗前就应评估肠道生态。",
+     "summary_en": "A Medical Tribune review argues that low fibre and omega-3 intake, weakened butyrate synthesis and poor methane potential form a detectable, modifiable risk profile for immunotherapy. Patients who neither responded nor escaped grade 3+ toxicity had lower baseline diversity (P=0.0157), lower faecal bacterial load (P=0.0170) and fewer methanogens (P=0.0288), suggesting gut ecology should be assessed before treatment."
+    },
+    {
+     "title_zh": "江南大学：绿原酸把肠道 Akk 菌丰度抬高近 6 倍，肝脂沉积减少六成",
+     "title_en": "Jiangnan University: Chlorogenic acid lifts gut Akkermansia nearly sixfold and cuts liver fat 62%",
+     "url": "https://news.qq.com/rain/a/20261127A06VAZ00",
+     "source_zh": "腾讯新闻",
+     "source_en": "Tencent News",
+     "date": "2026-11-27",
+     "summary_zh": "江南大学团队在高脂小鼠中比较 8 种天然多酚调节 Akk 菌的能力，高剂量绿原酸使该菌相对丰度由 1.78% 升至接近 10%，并非直接催长，而是抑制争夺黏液底物的竞争菌并上调相关代谢物。干预组血清总胆固醇、甘油三酯、内脏脂肪分别降 41%、49%、35%，肝脂滴面积减少 62%。",
+     "summary_en": "A Jiangnan University team compared eight polyphenols for their ability to raise Akkermansia in high-fat mice. High-dose chlorogenic acid lifted the genus from 1.78% to near 10% relative abundance, not by feeding it directly but by suppressing competitors for mucus substrates and shifting metabolites. Total cholesterol, triglycerides and visceral fat fell 41%, 49% and 35%, and liver lipid droplet area dropped 62%."
+    }
+   ]
+  },
+  {
+   "slug": "ds",
+   "name_zh": "营养补剂",
+   "name_en": "Dietary Supplements",
+   "items": [
+    {
+     "title_zh": "运动时释放的 L-BAIBA，是肌肉变强、抗疲劳的关键信号",
+     "title_en": "Exercise-released L-BAIBA emerges as a key signal for stronger, fatigue-resistant muscle",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261126063315.htm",
+     "source_zh": "利兹大学／ScienceDaily",
+     "source_en": "University of Leeds / ScienceDaily",
+     "date": "2026-11-26",
+     "summary_zh": "利兹大学在《自然·通讯》报告，运动会释放 L-β-氨基异丁酸（L-BAIBA），它把运动与肌肉结构、代谢的适应性改变连接起来，帮助肌肉增强力量、抵抗疲劳并减少损伤；该分子还能减轻 2 型糖尿病相关的肌肉损害。L-BAIBA 已作为膳食补充剂在市面销售，但人体治疗证据仍待验证。",
+     "summary_en": "The University of Leeds reports in Nature Communications that exercise releases L-β-aminoisobutyric acid, which links physical activity to adaptive changes in muscle structure and metabolism, helping muscle grow stronger, resist fatigue and limit damage. It also protected muscle against type 2 diabetes-related injury. L-BAIBA is already sold as a supplement, though human therapeutic evidence is still lacking."
+    },
+    {
+     "title_zh": "韩国 11 月 27 日起禁止用 AI 生成「假医生」代言健康产品",
+     "title_en": "South Korea bans AI-generated fake doctors from endorsing health products from November 27",
+     "url": "https://asiadaily.org/news/20826",
+     "source_zh": "Asia Daily",
+     "source_en": "Asia Daily",
+     "date": "2026-11-27",
+     "summary_zh": "韩国食品医药品安全处修订食品、药品与化妆品相关法规执行令，自 11 月 27 日起禁止广告使用 AI 生成的假医生、药师、教授等专家形象、声音或视频推荐产品；判断标准是是否让消费者以为有真实专家背书。医疗器械类延至 12 月 10 日生效，处罚按品类分档执行。",
+     "summary_en": "South Korea's Ministry of Food and Drug Safety amended enforcement rules so that from November 27 advertisements may not use AI-generated doctors, pharmacists, professors or other experts — images, voices or video — to recommend food, medicines or cosmetics. The test is whether viewers would believe a real expert endorsed the product. Medical devices follow on December 10, with penalties graded by product category."
+    },
+    {
+     "title_zh": "烟台首款本土特医食品上市：9 月获注册、11 月取得生产许可",
+     "title_en": "Yantai's first locally made medical food launches after September registration",
+     "url": "https://yantai.sdchina.com/show/2126282129258254338.html",
+     "source_zh": "中国山东网",
+     "source_en": "China Shandong Net",
+     "date": "2026-11-27",
+     "summary_zh": "烟台赛春「膳尚恩泽」蛋白质组件特医食品 11 月 27 日上市，9 月 26 日获市场监管总局注册、11 月 3 日取得山东省生产许可，为烟台首款获批上市的特医食品。企业与两家三甲医院签署临床营养合作意向，并明确该产品不是药品、须在医生或临床营养师指导下使用。",
+     "summary_en": "Yantai Saichun's protein-component formula for special medical purposes launched on November 27, having won national registration on September 26 and a Shandong production licence on November 3 — the city's first approved medical food. The company signed clinical nutrition cooperation intents with two tertiary hospitals and stressed the product is not a medicine and must be used under medical or dietitian guidance."
+    },
+    {
+     "title_zh": "长沙 25 家特殊食品企业被点名：委托生产新规 12 月 1 日施行",
+     "title_en": "Changsha flags 25 specialty food makers as new contract-manufacturing rules near",
+     "url": "http://amr.changsha.gov.cn/zfxxgk/zwyw/tpxw/202611/t20261127_12633222.html",
+     "source_zh": "长沙市市场监督管理局",
+     "source_en": "Changsha Municipal Administration for Market Regulation",
+     "date": "2026-11-27",
+     "summary_zh": "长沙市市场监管局 11 月 26 日召开特殊食品及食盐生产企业风险防控会，通报年度体系检查情况并深度剖析高频风险点，全市 25 家企业负责人与食品安全总监参会。会议重点提示《食品委托生产监督管理办法》（总局令第 113 号）将于 12 月 1 日施行，以及 GB 17405-2025 保健食品良好生产规范的过渡期合规要求。",
+     "summary_en": "Changsha's market regulator convened its annual risk-control meeting for specialty food and salt producers on November 26, briefing 25 company heads and food safety directors on inspection findings and recurring risk points. Officials highlighted the contract-manufacturing supervision rules (SAMR order No. 113) taking effect December 1 and transition compliance with GB 17405-2025, the good manufacturing practice standard for health foods."
+    }
+   ]
+  },
+  {
+   "slug": "hm",
+   "name_zh": "健康管理",
+   "name_en": "Health Management",
+   "items": [
+    {
+     "title_zh": "全国首个健康生活方式医学中心在阜外医院试运行",
+     "title_en": "China's first lifestyle medicine centre begins trial operation at Fuwai Hospital",
+     "url": "https://health.caijing.com.cn/20261127/5194575.shtml",
+     "source_zh": "财经网",
+     "source_en": "Caijing Health",
+     "date": "2026-11-27",
+     "summary_zh": "阜外医院西院区的健康生活方式医学中心进入试运行，针对三高、肥胖、代谢紊乱、失眠焦虑等开设 36 个特色项目。运动区器械全部接入实时监护，屏幕显示运动心电图、心率与血氧；食养区设 6 组独立操作台，由营养师、厨师与心理治疗师带患者按代谢指标定制食谱并亲自烹饪。",
+     "summary_en": "A lifestyle medicine centre at Fuwai Hospital's western campus has entered trial operation, offering 36 programmes for hypertension, dyslipidaemia, hyperglycaemia, obesity, metabolic disorders, insomnia and anxiety. Exercise equipment feeds live monitoring of ECG, heart rate and oxygen saturation. A food-therapy kitchen with six stations lets dietitians, chefs and psychotherapists tailor and cook meals by metabolic markers."
+    },
+    {
+     "title_zh": "420 万人研究：休闲运动让痴呆风险降 24%，工作体力劳动反而升 20%",
+     "title_en": "4.2 million people: leisure exercise cuts dementia risk 24% while physical labour raises it 20%",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
+     "source_zh": "南加州大学／ScienceDaily",
+     "source_en": "University of Southern California / ScienceDaily",
+     "date": "2026-11-27",
+     "summary_zh": "南加州大学整合 74 项队列与病例对照研究、30 国逾 420 万人数据，随访中位 10 年。业余步行、骑车、游泳等休闲运动与痴呆风险降低 24% 相关；工作中高强度体力劳动则与风险升高 20% 相关。作者认为差异来自工作控制感、恢复时间与噪声污染等情境因素，而非运动本身。",
+     "summary_en": "USC pooled 74 cohort and case-control studies covering more than 4.2 million people aged 45–93 in 30 countries over a median 10 years. Leisure walking, cycling, swimming and sport were linked to 24% lower dementia risk, while high occupational physical activity was tied to 20% higher risk. The authors attribute the gap to job control, recovery time and workplace exposures rather than movement itself."
+    },
+    {
+     "title_zh": "福鼎桐山：家庭医生每周四把服务点摆进社区，不挂号不预约",
+     "title_en": "Fuding's Tongshan district puts family doctors in the neighbourhood every Thursday",
+     "url": "https://news.qq.com/rain/a/20261127A06ONE00",
+     "source_zh": "东南网（腾讯新闻）",
+     "source_en": "Southeast Net via Tencent News",
+     "date": "2026-11-27",
+     "summary_zh": "福鼎市桐山街道社区卫生服务中心把家庭医生服务点固定排进每周四，居民不挂号、不预约即可测血压血糖，同步登记服药情况与当日指标。控制不佳者现场由全科医生调整用药并预约随访；卧床与行动不便者由团队上门。一位初测血压 188/96 毫米汞柱的老人经多次复查降至约 140 毫米汞柱。",
+     "summary_en": "Tongshan Community Health Centre in Fuding fixed a weekly Thursday service point where residents can check blood pressure and glucose without registering or booking, with medication use and same-day readings logged each visit. Poorly controlled cases get on-site medication adjustment and follow-up bookings; housebound residents receive home visits. One man first measured at 188/96 mmHg now sits near 140 mmHg."
+    },
+    {
+     "title_zh": "咸宁出台分级诊疗方案：慢病长处方最长 12 周，2027 年转诊闭环",
+     "title_en": "Xianning sets tiered care plan with 12-week chronic prescriptions and a 2027 referral loop",
+     "url": "http://www.xianning.gov.cn/xxgk/zc/zfwj/xzbh/202611/t20261127_9285175_slhxq.shtml",
+     "source_zh": "咸宁市人民政府",
+     "source_en": "Xianning Municipal People's Government",
+     "date": "2026-11-27",
+     "summary_zh": "咸宁市印发分级诊疗体系建设方案，要求基层用好慢性病健康管理中心，对符合条件的慢病患者开具最长 12 周长期处方，并探索门诊付费与慢病管理结合的复合支付。2026 年底二级以上公立医院、乡镇卫生院与社卫中心全部设会诊转诊中心，2027 年 11 月底实现市县乡三级转诊闭环。",
+     "summary_en": "Xianning issued a tiered diagnosis and treatment plan requiring primary care to run chronic disease management centres, issue prescriptions of up to 12 weeks for eligible patients and pilot combined outpatient and chronic-care payment. By end-2026 all secondary and higher public hospitals, township clinics and community centres must host referral offices, with a city-county-township closed loop due by late November 2027."
+    }
+   ]
+  }
+ ]
+}
